@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WC26 MCP - FIFA World Cup 2026 Data for AI</title>
+  <meta name="description" content="An MCP server with comprehensive FIFA World Cup 2026 data. Matches, teams, venues, groups, and schedules - ready for Claude, ChatGPT, and any MCP-compatible AI.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0a0a0a;
+      --surface: #141414;
+      --surface-2: #1e1e1e;
+      --border: #2a2a2a;
+      --text: #e5e5e5;
+      --text-muted: #888;
+      --accent: #8b1a1a;
+      --accent-light: #c42f2f;
+      --gold: #d4a843;
+      --code-bg: #1a1a2e;
+      --green: #22c55e;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Inter', -apple-system, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* Nav */
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 100;
+      background: rgba(10, 10, 10, 0.8);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+    }
+    .nav-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0.75rem 1.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .nav-brand {
+      font-weight: 800;
+      font-size: 1.1rem;
+      color: var(--text);
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .nav-brand span { color: var(--gold); }
+    .nav-links { display: flex; gap: 1.5rem; align-items: center; }
+    .nav-links a {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 0.875rem;
+      font-weight: 500;
+      transition: color 0.2s;
+    }
+    .nav-links a:hover { color: var(--text); }
+    .nav-links .btn-sm {
+      background: var(--surface-2);
+      color: var(--text);
+      padding: 0.4rem 0.9rem;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      font-weight: 600;
+    }
+    .nav-links .btn-sm:hover {
+      background: var(--border);
+    }
+
+    /* Hero */
+    .hero {
+      padding: 10rem 1.5rem 5rem;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: -200px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 600px;
+      height: 600px;
+      background: radial-gradient(circle, rgba(139, 26, 26, 0.15) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      padding: 0.35rem 0.9rem;
+      border-radius: 999px;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      margin-bottom: 1.5rem;
+    }
+    .hero-badge .dot {
+      width: 6px;
+      height: 6px;
+      background: var(--green);
+      border-radius: 50%;
+    }
+    h1 {
+      font-size: clamp(2.5rem, 6vw, 4.5rem);
+      font-weight: 800;
+      line-height: 1.05;
+      letter-spacing: -0.03em;
+      margin-bottom: 1.25rem;
+    }
+    h1 .gradient {
+      background: linear-gradient(135deg, var(--gold) 0%, #f5d37a 50%, var(--gold) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .hero-sub {
+      font-size: 1.15rem;
+      color: var(--text-muted);
+      max-width: 560px;
+      margin: 0 auto 2.5rem;
+      line-height: 1.7;
+    }
+    .hero-actions {
+      display: flex;
+      gap: 0.75rem;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .btn {
+      padding: 0.75rem 1.5rem;
+      border-radius: 8px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.2s;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .btn-primary {
+      background: var(--accent-light);
+      color: white;
+    }
+    .btn-primary:hover {
+      background: #d63636;
+      transform: translateY(-1px);
+    }
+    .btn-secondary {
+      background: var(--surface-2);
+      color: var(--text);
+      border: 1px solid var(--border);
+    }
+    .btn-secondary:hover {
+      background: var(--border);
+    }
+
+    /* Install block */
+    .install-block {
+      max-width: 480px;
+      margin: 2.5rem auto 0;
+      background: var(--code-bg);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    .install-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.5rem 1rem;
+      background: rgba(255,255,255,0.03);
+      border-bottom: 1px solid var(--border);
+    }
+    .install-header span {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      font-weight: 500;
+    }
+    .copy-btn {
+      background: none;
+      border: none;
+      color: var(--text-muted);
+      cursor: pointer;
+      font-size: 0.75rem;
+      padding: 0.2rem 0.5rem;
+      border-radius: 4px;
+      transition: all 0.2s;
+    }
+    .copy-btn:hover { background: var(--surface-2); color: var(--text); }
+    .install-code {
+      padding: 1rem;
+      font-family: 'SF Mono', 'Fira Code', monospace;
+      font-size: 0.9rem;
+      color: var(--green);
+      white-space: pre;
+      overflow-x: auto;
+    }
+    .install-code .dim { color: var(--text-muted); }
+
+    /* Stats */
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1px;
+      background: var(--border);
+      max-width: 700px;
+      margin: 4rem auto 0;
+      border-radius: 12px;
+      overflow: hidden;
+    }
+    .stat {
+      background: var(--surface);
+      padding: 1.5rem;
+      text-align: center;
+    }
+    .stat-value {
+      font-size: 1.75rem;
+      font-weight: 800;
+      color: var(--text);
+    }
+    .stat-label {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-top: 0.25rem;
+    }
+
+    /* Tools section */
+    .section {
+      padding: 5rem 1.5rem;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+    .section-label {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--gold);
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+    .section h2 {
+      font-size: 2rem;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      margin-bottom: 0.75rem;
+    }
+    .section-desc {
+      color: var(--text-muted);
+      max-width: 500px;
+      margin-bottom: 3rem;
+      font-size: 1rem;
+    }
+    .tools-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1rem;
+    }
+    .tool-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.5rem;
+      transition: border-color 0.2s;
+    }
+    .tool-card:hover {
+      border-color: var(--text-muted);
+    }
+    .tool-name {
+      font-family: 'SF Mono', 'Fira Code', monospace;
+      font-size: 0.9rem;
+      color: var(--gold);
+      margin-bottom: 0.5rem;
+    }
+    .tool-desc {
+      font-size: 0.875rem;
+      color: var(--text-muted);
+      line-height: 1.6;
+      margin-bottom: 1rem;
+    }
+    .tool-filters {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.35rem;
+    }
+    .filter-tag {
+      font-size: 0.7rem;
+      padding: 0.2rem 0.5rem;
+      background: var(--surface-2);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      color: var(--text-muted);
+      font-family: 'SF Mono', 'Fira Code', monospace;
+    }
+
+    /* Example section */
+    .example-block {
+      background: var(--code-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      overflow: hidden;
+      margin-top: 2rem;
+    }
+    .example-header {
+      padding: 0.75rem 1.25rem;
+      background: rgba(255,255,255,0.03);
+      border-bottom: 1px solid var(--border);
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      font-weight: 500;
+    }
+    .example-code {
+      padding: 1.25rem;
+      font-family: 'SF Mono', 'Fira Code', monospace;
+      font-size: 0.85rem;
+      line-height: 1.7;
+      color: var(--text);
+      overflow-x: auto;
+    }
+    .example-code .comment { color: #6a6a8a; }
+    .example-code .key { color: #7dd3fc; }
+    .example-code .string { color: #86efac; }
+    .example-code .punct { color: #888; }
+
+    /* Setup section */
+    .setup-steps {
+      display: grid;
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+    .step {
+      display: flex;
+      gap: 1.25rem;
+      align-items: flex-start;
+    }
+    .step-num {
+      width: 32px;
+      height: 32px;
+      min-width: 32px;
+      border-radius: 8px;
+      background: var(--surface-2);
+      border: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: var(--gold);
+    }
+    .step-content h3 {
+      font-size: 1rem;
+      font-weight: 600;
+      margin-bottom: 0.25rem;
+    }
+    .step-content p {
+      font-size: 0.875rem;
+      color: var(--text-muted);
+    }
+    .step-code {
+      background: var(--code-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 0.75rem 1rem;
+      font-family: 'SF Mono', 'Fira Code', monospace;
+      font-size: 0.85rem;
+      color: var(--green);
+      margin-top: 0.5rem;
+      overflow-x: auto;
+    }
+
+    /* Footer */
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 2.5rem 1.5rem;
+      text-align: center;
+    }
+    .footer-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .footer-text {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+    .footer-links {
+      display: flex;
+      gap: 1.5rem;
+    }
+    .footer-links a {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      text-decoration: none;
+    }
+    .footer-links a:hover { color: var(--text); }
+
+    /* Responsive */
+    @media (max-width: 640px) {
+      .stats { grid-template-columns: repeat(2, 1fr); }
+      .hero { padding: 8rem 1.5rem 3rem; }
+      .footer-inner { flex-direction: column; gap: 1rem; }
+      .nav-links a:not(.btn-sm) { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="/" class="nav-brand">&#9917; WC26 <span>MCP</span></a>
+    <div class="nav-links">
+      <a href="#tools">Tools</a>
+      <a href="#setup">Setup</a>
+      <a href="https://github.com/jordanlyall/wc26-mcp" class="btn-sm">GitHub</a>
+    </div>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="hero-badge">
+    <span class="dot"></span>
+    <span>v0.1.0 &mdash; Static data, 104 matches</span>
+  </div>
+  <h1>World Cup 2026<br>data for <span class="gradient">AI</span></h1>
+  <p class="hero-sub">
+    An MCP server with comprehensive FIFA World Cup 2026 data.
+    Matches, teams, venues, groups, and schedules &mdash; ready for
+    Claude, ChatGPT, and any MCP-compatible AI.
+  </p>
+  <div class="hero-actions">
+    <a href="#setup" class="btn btn-primary">Get Started</a>
+    <a href="https://github.com/jordanlyall/wc26-mcp" class="btn btn-secondary">View Source</a>
+  </div>
+  <div class="install-block">
+    <div class="install-header">
+      <span>Install</span>
+      <button class="copy-btn" onclick="navigator.clipboard.writeText('npx wc26-mcp');this.textContent='Copied!'">Copy</button>
+    </div>
+    <div class="install-code"><span class="dim">$</span> npx wc26-mcp</div>
+  </div>
+  <div class="stats">
+    <div class="stat">
+      <div class="stat-value">104</div>
+      <div class="stat-label">Matches</div>
+    </div>
+    <div class="stat">
+      <div class="stat-value">48</div>
+      <div class="stat-label">Teams</div>
+    </div>
+    <div class="stat">
+      <div class="stat-value">16</div>
+      <div class="stat-label">Venues</div>
+    </div>
+    <div class="stat">
+      <div class="stat-value">12</div>
+      <div class="stat-label">Groups</div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="tools">
+  <div class="section-label">Tools</div>
+  <h2>Five tools, zero API keys</h2>
+  <p class="section-desc">
+    All data ships with the package. No external API calls,
+    no rate limits, no authentication required.
+  </p>
+  <div class="tools-grid">
+    <div class="tool-card">
+      <div class="tool-name">get_matches</div>
+      <div class="tool-desc">Query matches with flexible filters. Returns enriched data with team names, flag emojis, and venue details.</div>
+      <div class="tool-filters">
+        <span class="filter-tag">date</span>
+        <span class="filter-tag">date_range</span>
+        <span class="filter-tag">team</span>
+        <span class="filter-tag">group</span>
+        <span class="filter-tag">venue</span>
+        <span class="filter-tag">round</span>
+        <span class="filter-tag">status</span>
+      </div>
+    </div>
+    <div class="tool-card">
+      <div class="tool-name">get_teams</div>
+      <div class="tool-desc">All 48 qualified nations with FIFA rankings, confederations, groups, and flag emojis.</div>
+      <div class="tool-filters">
+        <span class="filter-tag">group</span>
+        <span class="filter-tag">confederation</span>
+        <span class="filter-tag">is_host</span>
+      </div>
+    </div>
+    <div class="tool-card">
+      <div class="tool-name">get_groups</div>
+      <div class="tool-desc">Full group details with teams, venues, and the complete match schedule for each group.</div>
+      <div class="tool-filters">
+        <span class="filter-tag">group</span>
+      </div>
+    </div>
+    <div class="tool-card">
+      <div class="tool-name">get_venues</div>
+      <div class="tool-desc">16 host stadiums across USA, Mexico, and Canada. Capacity, coordinates, time zones, and notable events.</div>
+      <div class="tool-filters">
+        <span class="filter-tag">country</span>
+        <span class="filter-tag">city</span>
+        <span class="filter-tag">region</span>
+      </div>
+    </div>
+    <div class="tool-card">
+      <div class="tool-name">get_schedule</div>
+      <div class="tool-desc">Tournament schedule organized by date. Every match day with kick-off times in UTC.</div>
+      <div class="tool-filters">
+        <span class="filter-tag">date_from</span>
+        <span class="filter-tag">date_to</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="example-block">
+    <div class="example-header">Example: "Show me USA's group stage matches"</div>
+    <div class="example-code"><span class="comment">// Tool: get_matches</span>
+<span class="punct">{</span>
+  <span class="key">"team"</span><span class="punct">:</span> <span class="string">"usa"</span><span class="punct">,</span>
+  <span class="key">"round"</span><span class="punct">:</span> <span class="string">"Group Stage"</span>
+<span class="punct">}</span>
+
+<span class="comment">// Returns:</span>
+<span class="comment">// Jun 13 &mdash; &#127482;&#127480; United States vs &#127477;&#127486; Paraguay @ SoFi Stadium, Inglewood</span>
+<span class="comment">// Jun 20 &mdash; &#127482;&#127480; United States vs &#127462;&#127482; Australia @ Gillette Stadium, Foxborough</span>
+<span class="comment">// Jun 26 &mdash; &#127987;&#65039; TBD vs &#127482;&#127480; United States @ Lumen Field, Seattle</span></div>
+  </div>
+</section>
+
+<section class="section" id="setup">
+  <div class="section-label">Setup</div>
+  <h2>Up and running in 2 minutes</h2>
+  <p class="section-desc">
+    Works with Claude Desktop, Cursor, Windsurf, and any MCP-compatible client.
+  </p>
+  <div class="setup-steps">
+    <div class="step">
+      <div class="step-num">1</div>
+      <div class="step-content">
+        <h3>Claude Desktop</h3>
+        <p>Add to your <code>claude_desktop_config.json</code>:</p>
+        <div class="step-code">{
+  "mcpServers": {
+    "wc26": {
+      "command": "npx",
+      "args": ["-y", "wc26-mcp"]
+    }
+  }
+}</div>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step-num">2</div>
+      <div class="step-content">
+        <h3>Claude Code</h3>
+        <p>Add via the CLI:</p>
+        <div class="step-code">claude mcp add wc26 -- npx -y wc26-mcp</div>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step-num">3</div>
+      <div class="step-content">
+        <h3>Ask away</h3>
+        <p>Start asking about World Cup 2026:</p>
+        <div class="step-code" style="color: var(--text); font-family: 'Inter', sans-serif;">"When does the USA play their first match?"
+"Show me all venues in Texas"
+"What teams are in Group C with Brazil?"
+"What's the schedule for the knockout rounds?"</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-text">&#9917; WC26 MCP &mdash; Not affiliated with FIFA. Data compiled from public sources.</div>
+    <div class="footer-links">
+      <a href="https://github.com/jordanlyall/wc26-mcp">GitHub</a>
+      <a href="https://npmjs.com/package/wc26-mcp">npm</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

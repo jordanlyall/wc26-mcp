@@ -1,0 +1,36 @@
+{
+  "name": "wc26-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for FIFA World Cup 2026 data - matches, teams, venues, and more",
+  "type": "module",
+  "bin": {
+    "wc26-mcp": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js",
+    "prepublishOnly": "npm run build && chmod +x dist/index.js"
+  },
+  "files": ["dist/"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jordanlyall/wc26-mcp.git"
+  },
+  "homepage": "https://wc26-mcp.vercel.app",
+  "keywords": ["mcp", "world-cup", "fifa", "2026", "football", "soccer"],
+  "author": "Jordan Lyall",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.26.0",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.2",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
