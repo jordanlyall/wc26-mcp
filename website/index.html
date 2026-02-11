@@ -458,7 +458,7 @@
   <h1>World Cup 2026<br>data for <span class="gradient">AI</span></h1>
   <p class="hero-sub">
     An MCP server with comprehensive FIFA World Cup 2026 data.
-    Smart briefings, team profiles, city guides, timezone support, and full match data &mdash; ready for
+    Smart briefings, team profiles, city guides, historical matchups, timezone support, and full match data &mdash; ready for
     Claude, ChatGPT, and any MCP-compatible AI.
   </p>
   <div class="hero-actions">
@@ -610,6 +610,17 @@
 <span class="comment">// Key Players: Messi (Inter Miami), Alvarez (Atletico), Fernandez (Chelsea)</span>
 <span class="comment">// World Cup: 18 appearances, 3 titles, Champions (2022)</span></div>
   </div>
+
+  <div class="example-block">
+    <div class="example-header">Example: "What's the history between Brazil and Scotland?"</div>
+    <div class="example-code"><span class="comment">// Tool: get_historical_matchups</span>
+<span class="punct">{</span> <span class="key">"team_a"</span><span class="punct">:</span> <span class="string">"bra"</span><span class="punct">,</span> <span class="key">"team_b"</span><span class="punct">:</span> <span class="string">"sco"</span> <span class="punct">}</span>
+
+<span class="comment">// Returns:</span>
+<span class="comment">// 3 World Cup meetings: Brazil 2 wins, 1 draw</span>
+<span class="comment">// 1974: 0-0 draw, 1982: Brazil 4-1, 1998: Brazil 2-1 (opening match)</span>
+<span class="comment">// Upcoming 2026: June 19 at MetLife Stadium, Group C</span></div>
+  </div>
 </section>
 
 <section class="section" id="setup">
@@ -681,7 +692,8 @@
 "When does the USA play their first match?"
 "Show me tomorrow's matches in my timezone"
 "What's the weather like in Dallas for the semi-final?"
-"Give me a city guide for Miami"</div>
+"Give me a city guide for Miami"
+"What's the history between Argentina and England?"</div>
   </div>
 </section>
 
