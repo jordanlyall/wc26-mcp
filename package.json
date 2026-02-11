@@ -20,7 +20,8 @@
     "type": "git",
     "url": "git+https://github.com/jordanlyall/wc26-mcp.git"
   },
-  "homepage": "https://wc26-mcp.vercel.app",
+  "homepage": "https://wc26.ai",
+  "mcpName": "io.github.jordanlyall/wc26",
   "keywords": [
     "mcp",
     "world-cup",
