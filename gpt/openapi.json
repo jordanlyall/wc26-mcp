@@ -1,0 +1,1081 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "FIFA World Cup 2026 API",
+    "description": "Comprehensive data API for the FIFA World Cup 2026, hosted across the United States, Mexico, and Canada. Covers all 104 matches, 48 teams, 16 venues, city guides, fan zones, visa info, historical matchups, and real-time tournament phase awareness. All data is bundled -- no external dependencies.",
+    "version": "0.3.0",
+    "contact": {
+      "name": "WC26 MCP",
+      "url": "https://wc26.ai"
+    },
+    "license": {
+      "name": "MIT",
+      "url": "https://opensource.org/licenses/MIT"
+    }
+  },
+  "servers": [
+    {
+      "url": "https://api.wc26.ai",
+      "description": "WC26 API (production)"
+    }
+  ],
+  "paths": {
+    "/matches": {
+      "get": {
+        "operationId": "getMatches",
+        "summary": "Query World Cup 2026 matches",
+        "description": "Query the full 104-match FIFA World Cup 2026 schedule. Filter by exact date, date range, team, group, venue, round, or status. Returns enriched match data with resolved team names, flag emojis, venue details, and local venue time. Optionally converts all match times to any IANA timezone.",
+        "parameters": [
+          {
+            "name": "date",
+            "in": "query",
+            "required": false,
+            "description": "Exact match date in YYYY-MM-DD format (e.g., 2026-06-11).",
+            "schema": {
+              "type": "string",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+              "example": "2026-06-11"
+            }
+          },
+          {
+            "name": "date_from",
+            "in": "query",
+            "required": false,
+            "description": "Start of date range (inclusive) in YYYY-MM-DD format. Use with date_to for a range query.",
+            "schema": {
+              "type": "string",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+              "example": "2026-06-11"
+            }
+          },
+          {
+            "name": "date_to",
+            "in": "query",
+            "required": false,
+            "description": "End of date range (inclusive) in YYYY-MM-DD format. Use with date_from for a range query.",
+            "schema": {
+              "type": "string",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+              "example": "2026-06-28"
+            }
+          },
+          {
+            "name": "team",
+            "in": "query",
+            "required": false,
+            "description": "Team identifier -- accepts team ID (e.g., 'usa'), FIFA 3-letter code (e.g., 'BRA'), or full name (e.g., 'Argentina'). Case-insensitive. Returns matches where this team plays home or away.",
+            "schema": {
+              "type": "string",
+              "example": "usa"
+            }
+          },
+          {
+            "name": "group",
+            "in": "query",
+            "required": false,
+            "description": "Group letter from A through L. Returns only group stage matches in this group.",
+            "schema": {
+              "type": "string",
+              "enum": ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L"],
+              "example": "C"
+            }
+          },
+          {
+            "name": "venue",
+            "in": "query",
+            "required": false,
+            "description": "Venue ID (e.g., 'metlife', 'azteca', 'sofi'). Use the getVenues endpoint to see all available venue IDs.",
+            "schema": {
+              "type": "string",
+              "example": "metlife"
+            }
+          },
+          {
+            "name": "round",
+            "in": "query",
+            "required": false,
+            "description": "Tournament round to filter by.",
+            "schema": {
+              "type": "string",
+              "enum": ["Group Stage", "Round of 32", "Round of 16", "Quarter-final", "Semi-final", "Third-place play-off", "Final"]
+            }
+          },
+          {
+            "name": "status",
+            "in": "query",
+            "required": false,
+            "description": "Match status filter.",
+            "schema": {
+              "type": "string",
+              "enum": ["scheduled", "live", "completed", "postponed", "cancelled"]
+            }
+          },
+          {
+            "name": "timezone",
+            "in": "query",
+            "required": false,
+            "description": "IANA timezone identifier (e.g., 'America/New_York', 'Europe/London', 'Asia/Tokyo') to convert all match times to. When provided, response includes time_local and local_date fields.",
+            "schema": {
+              "type": "string",
+              "example": "America/New_York"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Matching matches with enriched data.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "count": {
+                      "type": "integer",
+                      "description": "Number of matches returned."
+                    },
+                    "matches": {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/components/schemas/EnrichedMatch"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/teams": {
+      "get": {
+        "operationId": "getTeams",
+        "summary": "Query World Cup 2026 teams",
+        "description": "Query all 48 FIFA World Cup 2026 qualified teams. Filter by group letter, FIFA confederation, or host nation status. Returns team details including FIFA ranking, flag emoji, confederation, and group assignment.",
+        "parameters": [
+          {
+            "name": "group",
+            "in": "query",
+            "required": false,
+            "description": "Group letter from A through L. Returns only teams in this group.",
+            "schema": {
+              "type": "string",
+              "enum": ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L"],
+              "example": "D"
+            }
+          },
+          {
+            "name": "confederation",
+            "in": "query",
+            "required": false,
+            "description": "FIFA confederation. Filter teams by their regional football confederation.",
+            "schema": {
+              "type": "string",
+              "enum": ["UEFA", "CONMEBOL", "CONCACAF", "CAF", "AFC", "OFC"]
+            }
+          },
+          {
+            "name": "is_host",
+            "in": "query",
+            "required": false,
+            "description": "When true, returns only the 3 host nations (USA, Mexico, Canada). When false, returns only non-host teams.",
+            "schema": {
+              "type": "boolean"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Matching teams.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "count": {
+                      "type": "integer",
+                      "description": "Number of teams returned."
+                    },
+                    "teams": {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/components/schemas/Team"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/groups": {
+      "get": {
+        "operationId": "getGroups",
+        "summary": "Get World Cup 2026 group details",
+        "description": "Get full group details for the FIFA World Cup 2026, including all teams (with rankings and flags), assigned venues, and the complete match schedule for each group. The tournament has 12 groups (A through L) with 4 teams each.",
+        "parameters": [
+          {
+            "name": "group",
+            "in": "query",
+            "required": false,
+            "description": "Specific group letter from A through L. Omit to get all 12 groups.",
+            "schema": {
+              "type": "string",
+              "enum": ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L"],
+              "example": "A"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Group details with teams, venues, and matches.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "count": {
+                      "type": "integer",
+                      "description": "Number of groups returned."
+                    },
+                    "groups": {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/components/schemas/EnrichedGroup"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/venues": {
+      "get": {
+        "operationId": "getVenues",
+        "summary": "Query World Cup 2026 venues",
+        "description": "Query the 16 FIFA World Cup 2026 stadiums across the USA (11), Mexico (3), and Canada (2). Returns full venue details including name, city, capacity, coordinates, timezone, weather averages for June/July, and notable events hosted. Filter by country, city, or geographic region.",
+        "parameters": [
+          {
+            "name": "country",
+            "in": "query",
+            "required": false,
+            "description": "Host country to filter by.",
+            "schema": {
+              "type": "string",
+              "enum": ["USA", "Mexico", "Canada"]
+            }
+          },
+          {
+            "name": "city",
+            "in": "query",
+            "required": false,
+            "description": "City name to filter by (e.g., 'Miami Gardens', 'Mexico City', 'Toronto'). Case-insensitive exact match.",
+            "schema": {
+              "type": "string",
+              "example": "Miami Gardens"
+            }
+          },
+          {
+            "name": "region",
+            "in": "query",
+            "required": false,
+            "description": "Geographic region within North America.",
+            "schema": {
+              "type": "string",
+              "enum": ["Western", "Central", "Eastern"]
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Matching venues with full details.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "count": {
+                      "type": "integer",
+                      "description": "Number of venues returned."
+                    },
+                    "venues": {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/components/schemas/Venue"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/schedule": {
+      "get": {
+        "operationId": "getSchedule",
+        "summary": "Get the full tournament schedule by date",
+        "description": "Get the complete FIFA World Cup 2026 tournament schedule organized by date. Each day includes all matches with enriched team names, venue details, and kickoff times. Supports timezone conversion. Useful for planning which days have the most action or finding rest days.",
+        "parameters": [
+          {
+            "name": "date_from",
+            "in": "query",
+            "required": false,
+            "description": "Start date in YYYY-MM-DD format. Defaults to tournament start (2026-06-11).",
+            "schema": {
+              "type": "string",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+              "example": "2026-06-11"
+            }
+          },
+          {
+            "name": "date_to",
+            "in": "query",
+            "required": false,
+            "description": "End date in YYYY-MM-DD format. Defaults to tournament end (2026-07-19).",
+            "schema": {
+              "type": "string",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+              "example": "2026-07-19"
+            }
+          },
+          {
+            "name": "timezone",
+            "in": "query",
+            "required": false,
+            "description": "IANA timezone identifier (e.g., 'America/Chicago', 'Europe/Berlin') to convert all match times to the user's local time.",
+            "schema": {
+              "type": "string",
+              "example": "America/Chicago"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Tournament schedule organized by date.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "total_days": {
+                      "type": "integer",
+                      "description": "Number of match days in the range."
+                    },
+                    "total_matches": {
+                      "type": "integer",
+                      "description": "Total number of matches in the range."
+                    },
+                    "schedule": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "date": {
+                            "type": "string",
+                            "description": "Date in YYYY-MM-DD format."
+                          },
+                          "match_count": {
+                            "type": "integer",
+                            "description": "Number of matches on this day."
+                          },
+                          "matches": {
+                            "type": "array",
+                            "items": {
+                              "$ref": "#/components/schemas/EnrichedMatch"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/team-profile": {
+      "get": {
+        "operationId": "getTeamProfile",
+        "summary": "Get a detailed team profile",
+        "description": "Get a comprehensive profile for any FIFA World Cup 2026 team. Returns the coach, playing style description, key players with their club teams and positions (GK/DEF/MID/FWD), full World Cup history (appearances, best result, titles), and qualifying summary. Accepts team ID, FIFA code, or full name -- all case-insensitive.",
+        "parameters": [
+          {
+            "name": "team",
+            "in": "query",
+            "required": true,
+            "description": "Team identifier -- accepts team ID (e.g., 'usa'), FIFA 3-letter code (e.g., 'BRA'), or full country name (e.g., 'Argentina'). Case-insensitive.",
+            "schema": {
+              "type": "string",
+              "example": "brazil"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Full team profile with roster highlights, coaching staff, playing style, and tournament history.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TeamProfileResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/city-guide": {
+      "get": {
+        "operationId": "getCityGuide",
+        "summary": "Get a host city travel guide",
+        "description": "Get a travel guide for any of the 16 FIFA World Cup 2026 host cities. Returns city highlights, how to get there (airports and transit), food and drink recommendations, things to do, and practical local tips. Accepts venue ID (e.g., 'metlife'), city name (e.g., 'Miami Gardens'), or metro area name (e.g., 'New York'). Case-insensitive with partial matching.",
+        "parameters": [
+          {
+            "name": "city",
+            "in": "query",
+            "required": true,
+            "description": "Venue ID (e.g., 'metlife', 'azteca'), city name (e.g., 'Miami Gardens'), or metro area name (e.g., 'New York', 'Los Angeles'). Case-insensitive. Supports partial matching.",
+            "schema": {
+              "type": "string",
+              "example": "New York"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "City guide with venue info, travel tips, and local recommendations.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CityGuideResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/historical-matchups": {
+      "get": {
+        "operationId": "getHistoricalMatchups",
+        "summary": "Head-to-head World Cup history between two teams",
+        "description": "Get the complete World Cup head-to-head record between any two teams. Returns every tournament meeting with year, host country, round, score, and result, plus aggregate stats (total matches, wins, draws, goals). Also checks if these teams are scheduled to meet in 2026 and includes that match context. Both team parameters accept team ID, FIFA code, or full name.",
+        "parameters": [
+          {
+            "name": "team_a",
+            "in": "query",
+            "required": true,
+            "description": "First team -- accepts team ID (e.g., 'bra'), FIFA code (e.g., 'ARG'), or country name (e.g., 'England'). Case-insensitive.",
+            "schema": {
+              "type": "string",
+              "example": "brazil"
+            }
+          },
+          {
+            "name": "team_b",
+            "in": "query",
+            "required": true,
+            "description": "Second team -- accepts team ID (e.g., 'eng'), FIFA code (e.g., 'FRA'), or country name (e.g., 'Germany'). Case-insensitive.",
+            "schema": {
+              "type": "string",
+              "example": "argentina"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Head-to-head record with all World Cup meetings and aggregate stats.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HistoricalMatchupResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/nearby-venues": {
+      "get": {
+        "operationId": "getNearbyVenues",
+        "summary": "Find venues near a given stadium",
+        "description": "Find the closest World Cup 2026 stadiums to a given venue, sorted by distance. Uses haversine distance calculation between venue coordinates. Returns distance in both miles and kilometers. Useful for fans planning multi-match trips or exploring stadiums in the same region.",
+        "parameters": [
+          {
+            "name": "venue",
+            "in": "query",
+            "required": true,
+            "description": "Venue ID of the origin stadium (e.g., 'metlife', 'azteca', 'sofi', 'att'). Use the getVenues endpoint to see all available venue IDs.",
+            "schema": {
+              "type": "string",
+              "example": "metlife"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "required": false,
+            "description": "Maximum number of nearby venues to return. Defaults to all 15 other venues.",
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 15,
+              "example": 5
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Origin venue details and list of nearby venues sorted by distance.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/NearbyVenuesResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/visa-info": {
+      "get": {
+        "operationId": "getVisaInfo",
+        "summary": "Get visa and entry requirements for a team's fans",
+        "description": "Get entry requirements for nationals of any World Cup 2026 team traveling to the three host countries (USA, Mexico, Canada). Returns visa type (visa-free, ESTA, eTA, e-visa, visa-required), maximum stay, required documents, and important notes for each host country. Optionally filter to a specific host country.",
+        "parameters": [
+          {
+            "name": "team",
+            "in": "query",
+            "required": true,
+            "description": "Team identifier -- accepts team ID (e.g., 'bra'), FIFA code (e.g., 'GER'), or country name (e.g., 'Japan'). Case-insensitive.",
+            "schema": {
+              "type": "string",
+              "example": "japan"
+            }
+          },
+          {
+            "name": "host_country",
+            "in": "query",
+            "required": false,
+            "description": "Filter to entry requirements for a specific host country only. Omit to get requirements for all three host countries.",
+            "schema": {
+              "type": "string",
+              "enum": ["USA", "Mexico", "Canada"]
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Visa and entry requirement details for the team's nationals.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VisaInfoResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/fan-zones": {
+      "get": {
+        "operationId": "getFanZones",
+        "summary": "Get official FIFA Fan Festival and fan zone locations",
+        "description": "Get details on official FIFA Fan Festival sites and fan zones across all World Cup 2026 host cities. Returns venue name, location, capacity, hours, activities, highlights, transportation tips, amenities, and family-friendliness. Filter by city, country, or match venue ID to find fan zones near a specific stadium.",
+        "parameters": [
+          {
+            "name": "city",
+            "in": "query",
+            "required": false,
+            "description": "Filter by city name (e.g., 'Dallas', 'Mexico City', 'Toronto'). Case-insensitive partial match.",
+            "schema": {
+              "type": "string",
+              "example": "Dallas"
+            }
+          },
+          {
+            "name": "country",
+            "in": "query",
+            "required": false,
+            "description": "Filter by host country.",
+            "schema": {
+              "type": "string",
+              "enum": ["USA", "Mexico", "Canada"]
+            }
+          },
+          {
+            "name": "venue_id",
+            "in": "query",
+            "required": false,
+            "description": "Filter by match venue ID (e.g., 'metlife', 'azteca'). Returns fan zones associated with that stadium's city.",
+            "schema": {
+              "type": "string",
+              "example": "metlife"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Matching fan zones with full details.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "count": {
+                      "type": "integer",
+                      "description": "Number of fan zones returned."
+                    },
+                    "fan_zones": {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/components/schemas/FanZone"
+                      }
+                    },
+                    "related_tools": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      },
+                      "description": "Suggestions for related API calls."
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/what-to-know-now": {
+      "get": {
+        "operationId": "whatToKnowNow",
+        "summary": "Get a temporal briefing for the current tournament phase",
+        "description": "Zero-query temporal briefing for the FIFA World Cup 2026. Automatically detects the current tournament phase (pre-playoff, post-playoff, group stage, knockout, tournament over) and returns the most relevant information. Pre-tournament: countdown, pending playoffs, group previews. During tournament: today's matches, yesterday's results, tomorrow's preview. After: final results and recap. Optionally override the date or pass a timezone for local match times.",
+        "parameters": [
+          {
+            "name": "date",
+            "in": "query",
+            "required": false,
+            "description": "Override date in YYYY-MM-DD format to simulate a different day (useful for testing or previewing future phases). Defaults to today's date.",
+            "schema": {
+              "type": "string",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+              "example": "2026-06-15"
+            }
+          },
+          {
+            "name": "timezone",
+            "in": "query",
+            "required": false,
+            "description": "IANA timezone identifier (e.g., 'America/New_York') to convert match times in the briefing to the user's local time.",
+            "schema": {
+              "type": "string",
+              "example": "America/New_York"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Temporal briefing with phase-appropriate information.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/WhatToKnowNowResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "EnrichedMatch": {
+        "type": "object",
+        "description": "A match with enriched team names, venue details, and computed local times.",
+        "properties": {
+          "id": { "type": "string", "description": "Unique match identifier (e.g., 'm1')." },
+          "match_number": { "type": "integer", "description": "Official match number (1-104)." },
+          "date": { "type": "string", "description": "Match date in YYYY-MM-DD format." },
+          "time_utc": { "type": "string", "description": "Kickoff time in UTC (HH:MM)." },
+          "venue_id": { "type": "string", "description": "Venue identifier." },
+          "group": { "type": "string", "nullable": true, "description": "Group letter (A-L) for group stage matches, null for knockout." },
+          "round": { "type": "string", "description": "Tournament round.", "enum": ["Group Stage", "Round of 32", "Round of 16", "Quarter-final", "Semi-final", "Third-place play-off", "Final"] },
+          "home_team_id": { "type": "string", "nullable": true, "description": "Home team ID, null if TBD in knockout rounds." },
+          "away_team_id": { "type": "string", "nullable": true, "description": "Away team ID, null if TBD in knockout rounds." },
+          "home_team_name": { "type": "string", "description": "Resolved home team name with flag emoji." },
+          "away_team_name": { "type": "string", "description": "Resolved away team name with flag emoji." },
+          "venue_name": { "type": "string", "description": "Venue name and city (e.g., 'MetLife Stadium, East Rutherford')." },
+          "time_venue": { "type": "string", "description": "Kickoff time in the venue's local timezone (HH:MM)." },
+          "venue_timezone": { "type": "string", "description": "IANA timezone of the venue." },
+          "time_local": { "type": "string", "description": "Kickoff time in the requested timezone (only present when timezone parameter is provided)." },
+          "local_date": { "type": "string", "description": "Match date in the requested timezone (only present when timezone parameter is provided)." },
+          "local_timezone": { "type": "string", "description": "The requested timezone name (only present when timezone parameter is provided)." },
+          "home_score": { "type": "integer", "nullable": true, "description": "Home team score (null if match not yet played)." },
+          "away_score": { "type": "integer", "nullable": true, "description": "Away team score (null if match not yet played)." },
+          "status": { "type": "string", "description": "Match status.", "enum": ["scheduled", "live", "completed", "postponed", "cancelled"] }
+        }
+      },
+      "Team": {
+        "type": "object",
+        "description": "A World Cup 2026 qualified team.",
+        "properties": {
+          "id": { "type": "string", "description": "Unique team identifier (e.g., 'usa', 'bra')." },
+          "name": { "type": "string", "description": "Full team/country name." },
+          "code": { "type": "string", "description": "FIFA 3-letter code (e.g., 'USA', 'BRA')." },
+          "group": { "type": "string", "description": "Assigned group letter (A-L)." },
+          "confederation": { "type": "string", "description": "FIFA confederation.", "enum": ["UEFA", "CONMEBOL", "CONCACAF", "CAF", "AFC", "OFC"] },
+          "fifa_ranking": { "type": "integer", "nullable": true, "description": "Current FIFA ranking." },
+          "flag_emoji": { "type": "string", "description": "Country flag emoji." },
+          "is_host": { "type": "boolean", "description": "Whether this team is a host nation." }
+        }
+      },
+      "EnrichedGroup": {
+        "type": "object",
+        "description": "A group with resolved team details, venue info, and match schedule.",
+        "properties": {
+          "id": { "type": "string", "description": "Group letter (A-L)." },
+          "teams": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": { "type": "string" },
+                "name": { "type": "string" },
+                "code": { "type": "string" },
+                "flag_emoji": { "type": "string" },
+                "confederation": { "type": "string" },
+                "fifa_ranking": { "type": "integer", "nullable": true },
+                "is_host": { "type": "boolean" }
+              }
+            }
+          },
+          "venues": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": { "type": "string" },
+                "name": { "type": "string" },
+                "city": { "type": "string" },
+                "country": { "type": "string" }
+              }
+            }
+          },
+          "matches": {
+            "type": "array",
+            "items": { "$ref": "#/components/schemas/EnrichedMatch" }
+          }
+        }
+      },
+      "Venue": {
+        "type": "object",
+        "description": "A World Cup 2026 stadium.",
+        "properties": {
+          "id": { "type": "string", "description": "Unique venue identifier." },
+          "name": { "type": "string", "description": "Stadium name." },
+          "city": { "type": "string", "description": "City name." },
+          "state_province": { "type": "string", "description": "State or province." },
+          "country": { "type": "string", "description": "Host country.", "enum": ["USA", "Mexico", "Canada"] },
+          "capacity": { "type": "integer", "description": "Stadium seating capacity." },
+          "coordinates": {
+            "type": "object",
+            "properties": {
+              "lat": { "type": "number" },
+              "lng": { "type": "number" }
+            }
+          },
+          "address": { "type": "string", "description": "Full street address." },
+          "timezone": { "type": "string", "description": "IANA timezone of the venue." },
+          "region": { "type": "string", "description": "Geographic region.", "enum": ["Western", "Central", "Eastern"] },
+          "notable": { "type": "array", "items": { "type": "string" }, "description": "Notable events at this venue (e.g., 'Final (July 19)')." },
+          "weather": {
+            "type": "object",
+            "description": "Average weather conditions during the tournament.",
+            "properties": {
+              "june_avg_high_f": { "type": "number" },
+              "june_avg_low_f": { "type": "number" },
+              "july_avg_high_f": { "type": "number" },
+              "july_avg_low_f": { "type": "number" },
+              "description": { "type": "string" }
+            }
+          }
+        }
+      },
+      "TeamProfileResponse": {
+        "type": "object",
+        "description": "Detailed team profile including roster, history, and style.",
+        "properties": {
+          "id": { "type": "string" },
+          "name": { "type": "string" },
+          "code": { "type": "string" },
+          "group": { "type": "string" },
+          "confederation": { "type": "string" },
+          "fifa_ranking": { "type": "integer", "nullable": true },
+          "flag_emoji": { "type": "string" },
+          "is_host": { "type": "boolean" },
+          "coach": { "type": "string", "description": "Head coach name." },
+          "playing_style": { "type": "string", "description": "1-2 sentence description of the team's tactical approach." },
+          "key_players": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": { "type": "string", "description": "Player name." },
+                "position": { "type": "string", "description": "Position (GK, DEF, MID, FWD)." },
+                "club": { "type": "string", "description": "Current club team." }
+              }
+            }
+          },
+          "world_cup_history": {
+            "type": "object",
+            "properties": {
+              "appearances": { "type": "integer", "description": "Total World Cup appearances." },
+              "best_result": { "type": "string", "description": "Best World Cup result with year." },
+              "titles": { "type": "integer", "description": "Number of World Cup titles." }
+            }
+          },
+          "qualifying_summary": { "type": "string", "description": "How the team qualified for the 2026 tournament." },
+          "related_tools": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "Suggestions for related API calls."
+          }
+        }
+      },
+      "CityGuideResponse": {
+        "type": "object",
+        "description": "Travel guide for a World Cup 2026 host city.",
+        "properties": {
+          "venue": {
+            "type": "object",
+            "properties": {
+              "id": { "type": "string" },
+              "name": { "type": "string" },
+              "city": { "type": "string" },
+              "state_province": { "type": "string" },
+              "country": { "type": "string" },
+              "capacity": { "type": "integer" },
+              "timezone": { "type": "string" },
+              "weather": {
+                "type": "object",
+                "properties": {
+                  "june_avg_high_f": { "type": "number" },
+                  "june_avg_low_f": { "type": "number" },
+                  "july_avg_high_f": { "type": "number" },
+                  "july_avg_low_f": { "type": "number" },
+                  "description": { "type": "string" }
+                }
+              }
+            }
+          },
+          "metro_area": { "type": "string", "description": "Metro area display name." },
+          "highlights": { "type": "string", "description": "2-3 sentence city overview." },
+          "getting_there": { "type": "string", "description": "Airports and transit to stadium." },
+          "food_and_drink": { "type": "array", "items": { "type": "string" }, "description": "3-4 local food and drink recommendations." },
+          "things_to_do": { "type": "array", "items": { "type": "string" }, "description": "3-4 attractions and activities." },
+          "local_tips": { "type": "array", "items": { "type": "string" }, "description": "2-3 practical tips for visitors." },
+          "related_tools": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "Suggestions for related API calls."
+          }
+        }
+      },
+      "HistoricalMatchupResponse": {
+        "type": "object",
+        "description": "Head-to-head World Cup record between two teams.",
+        "properties": {
+          "team_a": {
+            "type": "object",
+            "properties": {
+              "id": { "type": "string" },
+              "name": { "type": "string" },
+              "flag_emoji": { "type": "string" }
+            }
+          },
+          "team_b": {
+            "type": "object",
+            "properties": {
+              "id": { "type": "string" },
+              "name": { "type": "string" },
+              "flag_emoji": { "type": "string" }
+            }
+          },
+          "total_matches": { "type": "integer", "description": "Total World Cup meetings." },
+          "team_a_wins": { "type": "integer" },
+          "draws": { "type": "integer" },
+          "team_b_wins": { "type": "integer" },
+          "total_goals_team_a": { "type": "integer" },
+          "total_goals_team_b": { "type": "integer" },
+          "summary": { "type": "string", "description": "Narrative summary of the rivalry." },
+          "meetings": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "year": { "type": "integer" },
+                "host_country": { "type": "string" },
+                "round": { "type": "string" },
+                "score": { "type": "string", "description": "Score with team_a listed first." },
+                "penalty_score": { "type": "string", "nullable": true },
+                "result": { "type": "string", "enum": ["team_a", "team_b", "draw"] },
+                "venue_city": { "type": "string" }
+              }
+            }
+          },
+          "upcoming_2026_match": {
+            "type": "object",
+            "nullable": true,
+            "description": "Scheduled 2026 match between these teams, if any.",
+            "properties": {
+              "date": { "type": "string" },
+              "time_utc": { "type": "string" },
+              "round": { "type": "string" },
+              "venue": { "type": "string" },
+              "group": { "type": "string", "nullable": true }
+            }
+          },
+          "related_tools": {
+            "type": "array",
+            "items": { "type": "string" }
+          }
+        }
+      },
+      "NearbyVenuesResponse": {
+        "type": "object",
+        "description": "Nearby venues sorted by distance from the origin.",
+        "properties": {
+          "origin": {
+            "type": "object",
+            "properties": {
+              "id": { "type": "string" },
+              "name": { "type": "string" },
+              "city": { "type": "string" },
+              "country": { "type": "string" }
+            }
+          },
+          "nearby_venues": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": { "type": "string" },
+                "name": { "type": "string" },
+                "city": { "type": "string" },
+                "country": { "type": "string" },
+                "distance_miles": { "type": "integer", "description": "Distance in miles from the origin venue." },
+                "distance_km": { "type": "integer", "description": "Distance in kilometers from the origin venue." }
+              }
+            }
+          },
+          "related_tools": {
+            "type": "array",
+            "items": { "type": "string" }
+          }
+        }
+      },
+      "VisaInfoResponse": {
+        "type": "object",
+        "description": "Entry requirements for a team's nationals across host countries.",
+        "properties": {
+          "team": {
+            "type": "object",
+            "properties": {
+              "id": { "type": "string" },
+              "name": { "type": "string" },
+              "flag_emoji": { "type": "string" },
+              "group": { "type": "string" }
+            }
+          },
+          "nationality": { "type": "string", "description": "Nationality descriptor (e.g., 'Brazilian')." },
+          "passport_country": { "type": "string", "description": "Passport-issuing country name." },
+          "entry_requirements": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "country": { "type": "string", "description": "Host country.", "enum": ["USA", "Mexico", "Canada"] },
+                "requirement": { "type": "string", "description": "Requirement type.", "enum": ["visa-free", "esta", "eta", "e-visa", "visa-required"] },
+                "max_stay_days": { "type": "integer", "description": "Maximum allowed stay in days." },
+                "document": { "type": "string", "description": "Required document description." },
+                "note": { "type": "string", "description": "Important details and tips." }
+              }
+            }
+          },
+          "related_tools": {
+            "type": "array",
+            "items": { "type": "string" }
+          }
+        }
+      },
+      "FanZone": {
+        "type": "object",
+        "description": "An official FIFA Fan Festival or fan zone location.",
+        "properties": {
+          "id": { "type": "string", "description": "Unique fan zone identifier." },
+          "name": { "type": "string", "description": "Official name of the fan zone." },
+          "city": { "type": "string", "description": "City name." },
+          "country": { "type": "string", "description": "Host country.", "enum": ["USA", "Mexico", "Canada"] },
+          "location": { "type": "string", "description": "Specific location name (e.g., park, plaza)." },
+          "address": { "type": "string", "description": "Full street address." },
+          "coordinates": {
+            "type": "object",
+            "properties": {
+              "lat": { "type": "number" },
+              "lng": { "type": "number" }
+            }
+          },
+          "capacity": { "type": "integer", "description": "Maximum capacity." },
+          "free_entry": { "type": "boolean", "description": "Whether entry is free." },
+          "hours": { "type": "string", "description": "Operating hours and dates." },
+          "activities": { "type": "array", "items": { "type": "string" }, "description": "Available activities and experiences." },
+          "highlights": { "type": "string", "description": "Description of the fan zone highlights." },
+          "transportation": { "type": "string", "description": "How to get there." },
+          "amenities": { "type": "array", "items": { "type": "string" }, "description": "Available amenities." },
+          "family_friendly": { "type": "boolean", "description": "Whether the venue is family-friendly." },
+          "status": { "type": "string", "description": "Confirmation status.", "enum": ["confirmed", "expected"] },
+          "match_venue": { "type": "string", "description": "Associated match venue name and city." }
+        }
+      },
+      "WhatToKnowNowResponse": {
+        "type": "object",
+        "description": "Temporal briefing with phase-appropriate tournament information.",
+        "properties": {
+          "phase": { "type": "string", "description": "Current tournament phase.", "enum": ["pre_playoff", "post_playoff", "group_stage", "knockout", "tournament_over"] },
+          "phase_label": { "type": "string", "description": "Human-readable phase label." },
+          "as_of": { "type": "string", "description": "Date this briefing is computed for (YYYY-MM-DD)." },
+          "days_until_kickoff": { "type": "integer", "description": "Days until the opening match (omitted when tournament is over)." },
+          "headline": { "type": "string", "description": "One-line summary of what is happening now." },
+          "sections": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "description": "Contextual sections varying by phase (e.g., Today's Matches, Countdown, Groups at a Glance, etc.)."
+            },
+            "description": "Array of contextual information sections appropriate for the current phase."
+          },
+          "available_tools": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "Suggestions for what to explore next."
+          }
+        }
+      }
+    }
+  }
+}

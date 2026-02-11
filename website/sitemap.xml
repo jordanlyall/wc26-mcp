@@ -6,6 +6,11 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://wc26.ai/try</loc>
+    <lastmod>2026-02-11</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://wc26.ai/privacy</loc>
     <lastmod>2026-02-11</lastmod>
     <priority>0.3</priority>
