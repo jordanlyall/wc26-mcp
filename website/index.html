@@ -452,12 +452,12 @@
 <section class="hero">
   <div class="hero-badge">
     <span class="dot"></span>
-    <span>v0.1.0 &mdash; Static data, 104 matches</span>
+    <span>v0.2 &mdash; Rich context layer</span>
   </div>
   <h1>World Cup 2026<br>data for <span class="gradient">AI</span></h1>
   <p class="hero-sub">
     An MCP server with comprehensive FIFA World Cup 2026 data.
-    Matches, teams, venues, groups, and schedules &mdash; ready for
+    Smart briefings, team profiles, timezone support, and full match data &mdash; ready for
     Claude, ChatGPT, and any MCP-compatible AI.
   </p>
   <div class="hero-actions">
@@ -485,23 +485,38 @@
       <div class="stat-label">Venues</div>
     </div>
     <div class="stat">
-      <div class="stat-value">12</div>
-      <div class="stat-label">Groups</div>
+      <div class="stat-value">7</div>
+      <div class="stat-label">Tools</div>
     </div>
   </div>
 </section>
 
 <section class="section" id="tools">
   <div class="section-label">Tools</div>
-  <h2>Five tools, zero API keys</h2>
+  <h2>Seven tools, zero API keys</h2>
   <p class="section-desc">
     All data ships with the package. No external API calls,
     no rate limits, no authentication required.
   </p>
   <div class="tools-grid">
+    <div class="tool-card" style="border-color: var(--gold);">
+      <div class="tool-name">what_to_know_now</div>
+      <div class="tool-desc">Zero-query temporal briefing. Detects the current tournament phase and returns the most relevant info &mdash; no parameters needed, just "brief me."</div>
+      <div class="tool-filters">
+        <span class="filter-tag">date</span>
+        <span class="filter-tag">timezone</span>
+      </div>
+    </div>
+    <div class="tool-card" style="border-color: var(--gold);">
+      <div class="tool-name">get_team_profile</div>
+      <div class="tool-desc">Coach, key players with clubs, playing style, World Cup history, and qualifying summary for any of the 48 teams.</div>
+      <div class="tool-filters">
+        <span class="filter-tag">team</span>
+      </div>
+    </div>
     <div class="tool-card">
       <div class="tool-name">get_matches</div>
-      <div class="tool-desc">Query matches with flexible filters. Returns enriched data with team names, flag emojis, and venue details.</div>
+      <div class="tool-desc">Query matches with flexible filters. Returns enriched data with team names, flag emojis, venue details, and timezone conversion.</div>
       <div class="tool-filters">
         <span class="filter-tag">date</span>
         <span class="filter-tag">date_range</span>
@@ -510,6 +525,7 @@
         <span class="filter-tag">venue</span>
         <span class="filter-tag">round</span>
         <span class="filter-tag">status</span>
+        <span class="filter-tag">timezone</span>
       </div>
     </div>
     <div class="tool-card">
@@ -539,26 +555,36 @@
     </div>
     <div class="tool-card">
       <div class="tool-name">get_schedule</div>
-      <div class="tool-desc">Tournament schedule organized by date. Every match day with kick-off times in UTC.</div>
+      <div class="tool-desc">Tournament schedule organized by date. Every match day with kick-off times and timezone conversion.</div>
       <div class="tool-filters">
         <span class="filter-tag">date_from</span>
         <span class="filter-tag">date_to</span>
+        <span class="filter-tag">timezone</span>
       </div>
     </div>
   </div>
 
   <div class="example-block">
-    <div class="example-header">Example: "Show me USA's group stage matches"</div>
-    <div class="example-code"><span class="comment">// Tool: get_matches</span>
-<span class="punct">{</span>
-  <span class="key">"team"</span><span class="punct">:</span> <span class="string">"usa"</span><span class="punct">,</span>
-  <span class="key">"round"</span><span class="punct">:</span> <span class="string">"Group Stage"</span>
-<span class="punct">}</span>
+    <div class="example-header">Example: "Brief me on the World Cup"</div>
+    <div class="example-code"><span class="comment">// Tool: what_to_know_now (no parameters needed)</span>
+
+<span class="comment">// Returns phase-aware briefing:</span>
+<span class="comment">// Phase: Pre-Tournament (Playoffs Pending)</span>
+<span class="comment">// 120 days until kickoff. 6 playoff spots still to be decided.</span>
+<span class="comment">// Host Nations: Mexico (Group A), Canada (Group B), United States (Group D)</span>
+<span class="comment">// 16 venues across 3 countries, 12 groups at a glance...</span></div>
+  </div>
+
+  <div class="example-block">
+    <div class="example-header">Example: "Tell me about Argentina"</div>
+    <div class="example-code"><span class="comment">// Tool: get_team_profile</span>
+<span class="punct">{</span> <span class="key">"team"</span><span class="punct">:</span> <span class="string">"arg"</span> <span class="punct">}</span>
 
 <span class="comment">// Returns:</span>
-<span class="comment">// Jun 13 &mdash; &#127482;&#127480; United States vs &#127477;&#127486; Paraguay @ SoFi Stadium, Inglewood</span>
-<span class="comment">// Jun 20 &mdash; &#127482;&#127480; United States vs &#127462;&#127482; Australia @ Gillette Stadium, Foxborough</span>
-<span class="comment">// Jun 26 &mdash; &#127987;&#65039; TBD vs &#127482;&#127480; United States @ Lumen Field, Seattle</span></div>
+<span class="comment">// Coach: Lionel Scaloni</span>
+<span class="comment">// Style: Balanced and cohesive with elite individual quality...</span>
+<span class="comment">// Key Players: Messi (Inter Miami), Alvarez (Atletico), Fernandez (Chelsea)</span>
+<span class="comment">// World Cup: 18 appearances, 3 titles, Champions (2022)</span></div>
   </div>
 </section>
 
@@ -627,10 +653,10 @@
       <div class="step-content">
         <h3>Ask away</h3>
         <p>Start asking about World Cup 2026:</p>
-        <div class="step-code" style="color: var(--text); font-family: 'Inter', sans-serif;">"When does the USA play their first match?"
-"Show me all venues in Texas"
-"What teams are in Group C with Brazil?"
-"What's the schedule for the knockout rounds?"</div>
+        <div class="step-code" style="color: var(--text); font-family: 'Inter', sans-serif;">"Brief me on the World Cup"
+"Tell me about Argentina's squad"
+"When does the USA play their first match?"
+"Show me tomorrow's matches in my timezone"</div>
       </div>
     </div>
   </div>
