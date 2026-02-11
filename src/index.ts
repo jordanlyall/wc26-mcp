@@ -8,6 +8,7 @@ import { matches } from "./data/matches.js";
 import { teams } from "./data/teams.js";
 import { groups } from "./data/groups.js";
 import { venues } from "./data/venues.js";
+import { teamProfiles } from "./data/team-profiles.js";
 
 import type {
   Match,
@@ -16,6 +17,7 @@ import type {
   Venue,
   MatchRound,
   MatchStatus,
+  TeamProfile,
 } from "./types/index.js";
 
 // ── Server setup ────────────────────────────────────────────────────
@@ -44,13 +46,45 @@ function venueName(id: string): string {
   return v ? `${v.name}, ${v.city}` : id;
 }
 
-function enrichMatch(m: Match) {
+function convertTime(date: string, timeUtc: string, timezone: string): { date: string; time: string } {
+  const dt = new Date(`${date}T${timeUtc}:00Z`);
+  const formatter = new Intl.DateTimeFormat("en-CA", {
+    timeZone: timezone,
+    year: "numeric", month: "2-digit", day: "2-digit",
+    hour: "2-digit", minute: "2-digit",
+    hour12: false,
+  });
+  const parts = Object.fromEntries(
+    formatter.formatToParts(dt).map((p) => [p.type, p.value])
+  );
   return {
+    date: `${parts.year}-${parts.month}-${parts.day}`,
+    time: `${parts.hour}:${parts.minute}`,
+  };
+}
+
+function enrichMatch(m: Match, timezone?: string) {
+  const venue = venues.find((v) => v.id === m.venue_id);
+  const venueTimezone = venue?.timezone ?? "UTC";
+  const venueLocal = convertTime(m.date, m.time_utc, venueTimezone);
+
+  const enriched: Record<string, unknown> = {
     ...m,
     home_team_name: teamName(m.home_team_id),
     away_team_name: teamName(m.away_team_id),
     venue_name: venueName(m.venue_id),
+    time_venue: venueLocal.time,
+    venue_timezone: venueTimezone,
   };
+
+  if (timezone) {
+    const local = convertTime(m.date, m.time_utc, timezone);
+    enriched.time_local = local.time;
+    enriched.local_date = local.date;
+    enriched.local_timezone = timezone;
+  }
+
+  return enriched;
 }
 
 function enrichGroup(g: Group) {
@@ -62,7 +96,7 @@ function enrichGroup(g: Group) {
     .filter(Boolean) as Venue[];
   const groupMatches = matches
     .filter((m) => m.group === g.id)
-    .map(enrichMatch);
+    .map((m) => enrichMatch(m));
 
   return {
     id: g.id,
@@ -108,7 +142,7 @@ const matchStatuses: MatchStatus[] = [
 server.registerTool("get_matches", {
   title: "Get Matches",
   description:
-    "Query FIFA World Cup 2026 matches. Filter by date, date range, team, group, venue, round, or status. Returns enriched match data with team names and venue details.",
+    "Query FIFA World Cup 2026 matches. Filter by date, date range, team, group, venue, round, or status. Returns enriched match data with team names, venue details, and local venue time. Optionally pass a timezone to convert match times to any IANA timezone.",
   inputSchema: z.object({
     date: z
       .string()
@@ -144,6 +178,10 @@ server.registerTool("get_matches", {
       .enum(matchStatuses as [string, ...string[]])
       .optional()
       .describe("Match status"),
+    timezone: z
+      .string()
+      .optional()
+      .describe("IANA timezone (e.g. 'America/New_York', 'Europe/London') to convert match times to"),
   }),
 }, async (args) => {
   let result = matches;
@@ -184,7 +222,7 @@ server.registerTool("get_matches", {
 
   return json({
     count: result.length,
-    matches: result.map(enrichMatch),
+    matches: result.map((m) => enrichMatch(m, args.timezone)),
   });
 });
 
@@ -311,7 +349,7 @@ server.registerTool("get_venues", {
 server.registerTool("get_schedule", {
   title: "Get Schedule",
   description:
-    "Get the full FIFA World Cup 2026 tournament schedule organized by date. Optionally filter to a specific date range. Each day includes all matches with team names, venues, and kick-off times (UTC).",
+    "Get the full FIFA World Cup 2026 tournament schedule organized by date. Optionally filter to a specific date range. Each day includes all matches with team names, venues, kick-off times (UTC), and local venue time. Optionally pass a timezone to convert all match times.",
   inputSchema: z.object({
     date_from: z
       .string()
@@ -321,6 +359,10 @@ server.registerTool("get_schedule", {
       .string()
       .optional()
       .describe("End date (YYYY-MM-DD), defaults to tournament end (2026-07-19)"),
+    timezone: z
+      .string()
+      .optional()
+      .describe("IANA timezone (e.g. 'America/New_York', 'Europe/London') to convert match times to"),
   }),
 }, async (args) => {
   let filtered = matches;
@@ -347,13 +389,341 @@ server.registerTool("get_schedule", {
       match_count: dayMatches.length,
       matches: dayMatches
         .sort((a, b) => a.time_utc.localeCompare(b.time_utc))
-        .map(enrichMatch),
+        .map((m) => enrichMatch(m, args.timezone)),
     }));
 
   return json({
     total_days: schedule.length,
     total_matches: filtered.length,
     schedule,
+  });
+});
+
+// ── Tool: get_team_profile ───────────────────────────────────────────
+
+server.registerTool("get_team_profile", {
+  title: "Get Team Profile",
+  description:
+    "Get a detailed profile for any FIFA World Cup 2026 team. Returns coach, playing style, key players with clubs, World Cup history, and qualifying summary. Use team ID or FIFA code (e.g. 'usa', 'BRA', 'arg').",
+  inputSchema: z.object({
+    team: z
+      .string()
+      .describe("Team ID or FIFA code (e.g. 'usa', 'BRA', 'arg'). Case-insensitive."),
+  }),
+}, async (args) => {
+  const tid = args.team.toLowerCase();
+  const team = teams.find(
+    (t) => t.id === tid || t.code.toLowerCase() === tid
+  );
+
+  if (!team) {
+    return json({
+      error: `Team '${args.team}' not found.`,
+      suggestion: "Use the get_teams tool to see all available teams and their IDs.",
+    });
+  }
+
+  const profile = teamProfiles.find((p) => p.team_id === team.id);
+
+  return json({
+    ...team,
+    ...(profile
+      ? {
+          coach: profile.coach,
+          playing_style: profile.playing_style,
+          key_players: profile.key_players,
+          world_cup_history: profile.world_cup_history,
+          qualifying_summary: profile.qualifying_summary,
+        }
+      : {
+          coach: "Unknown",
+          playing_style: "No profile data available.",
+          key_players: [],
+          world_cup_history: null,
+          qualifying_summary: "No qualifying data available.",
+        }),
+    related_tools: [
+      "Use get_matches with team filter to see this team's match schedule",
+      "Use get_groups to see this team's group rivals and venue assignments",
+    ],
+  });
+});
+
+// ── Tool: what_to_know_now ──────────────────────────────────────────
+
+const TOURNAMENT_DATES = {
+  playoff_end: "2026-03-31",
+  tournament_start: "2026-06-11",
+  group_stage_end: "2026-06-28",
+  final: "2026-07-19",
+};
+
+type TournamentPhase = "pre_playoff" | "post_playoff" | "group_stage" | "knockout" | "tournament_over";
+
+function getPhase(dateStr: string): TournamentPhase {
+  if (dateStr < TOURNAMENT_DATES.playoff_end) return "pre_playoff";
+  if (dateStr < TOURNAMENT_DATES.tournament_start) return "post_playoff";
+  if (dateStr <= TOURNAMENT_DATES.group_stage_end) return "group_stage";
+  if (dateStr <= TOURNAMENT_DATES.final) return "knockout";
+  return "tournament_over";
+}
+
+function daysBetween(a: string, b: string): number {
+  const msPerDay = 86400000;
+  return Math.ceil((new Date(b).getTime() - new Date(a).getTime()) / msPerDay);
+}
+
+const PHASE_LABELS: Record<TournamentPhase, string> = {
+  pre_playoff: "Pre-Tournament (Playoffs Pending)",
+  post_playoff: "Pre-Tournament (All Teams Confirmed)",
+  group_stage: "Group Stage",
+  knockout: "Knockout Stage",
+  tournament_over: "Tournament Complete",
+};
+
+server.registerTool("what_to_know_now", {
+  title: "What to Know Now",
+  description:
+    "Zero-query temporal briefing for the FIFA World Cup 2026. No parameters needed — just brief me. Automatically detects the current tournament phase and returns the most relevant information for today. Optionally pass a date to simulate a different day, or a timezone for local times.",
+  inputSchema: z.object({
+    date: z
+      .string()
+      .optional()
+      .describe("Override date in YYYY-MM-DD format (for testing different phases). Defaults to today."),
+    timezone: z
+      .string()
+      .optional()
+      .describe("IANA timezone (e.g. 'America/New_York') for local match times."),
+  }),
+}, async (args) => {
+  const today = args.date ?? new Date().toISOString().slice(0, 10);
+  const phase = getPhase(today);
+  const daysUntilKickoff = daysBetween(today, TOURNAMENT_DATES.tournament_start);
+  const sections: Record<string, unknown>[] = [];
+  let headline = "";
+
+  if (phase === "pre_playoff") {
+    const tbdTeams = teams.filter((t) => t.code === "TBD");
+    headline = `${daysUntilKickoff} days until the FIFA World Cup 2026 kicks off. ${tbdTeams.length} playoff spots still to be decided.`;
+
+    sections.push({
+      title: "Countdown",
+      content: `${daysUntilKickoff} days until the opening match: ${teamName(matches[0].home_team_id)} vs ${teamName(matches[0].away_team_id)} at ${venueName(matches[0].venue_id)} on ${TOURNAMENT_DATES.tournament_start}.`,
+    });
+
+    sections.push({
+      title: "Pending Playoff Slots",
+      content: `${tbdTeams.length} teams still to be determined:`,
+      teams: tbdTeams.map((t) => ({ id: t.id, name: t.name, group: t.group })),
+    });
+
+    const hosts = teams.filter((t) => t.is_host);
+    sections.push({
+      title: "Host Nations",
+      content: hosts.map((h) => `${h.flag_emoji} ${h.name} (Group ${h.group})`),
+    });
+
+    sections.push({
+      title: "Groups at a Glance",
+      content: groups.map((g) => ({
+        group: g.id,
+        teams: g.teams.map((tid) => {
+          const t = teams.find((t) => t.id === tid);
+          return t ? `${t.flag_emoji} ${t.name}` : tid;
+        }),
+      })),
+    });
+
+    sections.push({
+      title: "Venue Summary",
+      content: `${venues.length} venues across 3 countries: ${venues.filter((v) => v.country === "USA").length} in USA, ${venues.filter((v) => v.country === "Mexico").length} in Mexico, ${venues.filter((v) => v.country === "Canada").length} in Canada.`,
+    });
+  } else if (phase === "post_playoff") {
+    headline = `${daysUntilKickoff} days until the FIFA World Cup 2026 kicks off. All 48 teams are confirmed.`;
+
+    sections.push({
+      title: "Countdown",
+      content: `${daysUntilKickoff} days until the opening match at ${venueName(matches[0].venue_id)} on ${TOURNAMENT_DATES.tournament_start}.`,
+    });
+
+    sections.push({
+      title: "All Groups",
+      content: groups.map((g) => ({
+        group: g.id,
+        teams: g.teams.map((tid) => {
+          const t = teams.find((t) => t.id === tid);
+          return t
+            ? { name: `${t.flag_emoji} ${t.name}`, fifa_ranking: t.fifa_ranking }
+            : { name: tid, fifa_ranking: null };
+        }),
+      })),
+    });
+
+    // Marquee matchups: top-15 ranked teams facing each other in group stage
+    const groupMatches = matches.filter((m) => m.round === "Group Stage");
+    const marquee = groupMatches
+      .filter((m) => {
+        const home = teams.find((t) => t.id === m.home_team_id);
+        const away = teams.find((t) => t.id === m.away_team_id);
+        return home?.fifa_ranking && away?.fifa_ranking &&
+          home.fifa_ranking <= 15 && away.fifa_ranking <= 15;
+      })
+      .slice(0, 8)
+      .map((m) => ({
+        match: `${teamName(m.home_team_id)} vs ${teamName(m.away_team_id)}`,
+        date: m.date,
+        venue: venueName(m.venue_id),
+      }));
+
+    if (marquee.length > 0) {
+      sections.push({
+        title: "Marquee Group Stage Matchups",
+        content: marquee,
+      });
+    }
+  } else if (phase === "group_stage") {
+    const todayMatches = matches.filter((m) => m.date === today);
+    const yesterdayDate = new Date(new Date(today).getTime() - 86400000).toISOString().slice(0, 10);
+    const tomorrowDate = new Date(new Date(today).getTime() + 86400000).toISOString().slice(0, 10);
+    const yesterdayMatches = matches.filter((m) => m.date === yesterdayDate);
+    const tomorrowMatches = matches.filter((m) => m.date === tomorrowDate);
+
+    const totalGroupMatches = matches.filter((m) => m.round === "Group Stage").length;
+    const playedGroupMatches = matches.filter((m) => m.round === "Group Stage" && m.date < today).length;
+
+    headline = todayMatches.length > 0
+      ? `${todayMatches.length} match${todayMatches.length !== 1 ? "es" : ""} today. Group stage: ${playedGroupMatches}/${totalGroupMatches} matches played.`
+      : `No matches today. Group stage: ${playedGroupMatches}/${totalGroupMatches} matches played.`;
+
+    if (todayMatches.length > 0) {
+      sections.push({
+        title: "Today's Matches",
+        matches: todayMatches.map((m) => enrichMatch(m, args.timezone)),
+      });
+    }
+
+    if (yesterdayMatches.length > 0) {
+      sections.push({
+        title: "Yesterday's Results",
+        matches: yesterdayMatches.map((m) => enrichMatch(m, args.timezone)),
+      });
+    }
+
+    if (tomorrowMatches.length > 0) {
+      sections.push({
+        title: "Tomorrow's Preview",
+        matches: tomorrowMatches.map((m) => enrichMatch(m, args.timezone)),
+      });
+    }
+
+    sections.push({
+      title: "Group Stage Progress",
+      content: `${playedGroupMatches} of ${totalGroupMatches} group stage matches completed. ${totalGroupMatches - playedGroupMatches} remaining.`,
+    });
+  } else if (phase === "knockout") {
+    const todayMatches = matches.filter((m) => m.date === today);
+    const yesterdayDate = new Date(new Date(today).getTime() - 86400000).toISOString().slice(0, 10);
+    const yesterdayMatches = matches.filter((m) => m.date === yesterdayDate);
+
+    // Detect current round
+    const knockoutMatches = matches.filter(
+      (m) => m.round !== "Group Stage" && m.date >= today
+    );
+    const currentRound = knockoutMatches.length > 0 ? knockoutMatches[0].round : "Final";
+
+    const finalMatch = matches.find((m) => m.round === "Final");
+
+    headline = todayMatches.length > 0
+      ? `${todayMatches.length} knockout match${todayMatches.length !== 1 ? "es" : ""} today. Current round: ${currentRound}.`
+      : `No matches today. Current round: ${currentRound}.`;
+
+    if (todayMatches.length > 0) {
+      sections.push({
+        title: "Today's Matches",
+        matches: todayMatches.map((m) => enrichMatch(m, args.timezone)),
+      });
+    }
+
+    if (yesterdayMatches.length > 0) {
+      sections.push({
+        title: "Yesterday's Results",
+        matches: yesterdayMatches.map((m) => enrichMatch(m, args.timezone)),
+      });
+    }
+
+    // Next upcoming matches (up to 4)
+    const upcoming = matches
+      .filter((m) => m.date > today && m.round !== "Group Stage")
+      .slice(0, 4);
+    if (upcoming.length > 0) {
+      sections.push({
+        title: "Next Upcoming Matches",
+        matches: upcoming.map((m) => enrichMatch(m, args.timezone)),
+      });
+    }
+
+    if (finalMatch) {
+      sections.push({
+        title: "Final",
+        content: `The final will be played on ${finalMatch.date} at ${venueName(finalMatch.venue_id)}.`,
+      });
+    }
+  } else {
+    // tournament_over
+    const finalMatch = matches.find((m) => m.round === "Final");
+    const thirdPlace = matches.find((m) => m.round === "Third-place play-off");
+
+    headline = "The FIFA World Cup 2026 has concluded.";
+
+    if (finalMatch) {
+      sections.push({
+        title: "Final Result",
+        match: enrichMatch(finalMatch, args.timezone),
+      });
+    }
+    if (thirdPlace) {
+      sections.push({
+        title: "Third-Place Result",
+        match: enrichMatch(thirdPlace, args.timezone),
+      });
+    }
+  }
+
+  const available_tools = [];
+  if (phase === "pre_playoff" || phase === "post_playoff") {
+    available_tools.push(
+      "Use get_team_profile to research any team in depth",
+      "Use get_groups to explore group compositions and match schedules",
+      "Use get_venues to explore stadiums and host cities",
+      "Use get_schedule to see the full tournament calendar",
+    );
+  } else if (phase === "group_stage") {
+    available_tools.push(
+      "Use get_team_profile to research teams playing today",
+      "Use get_matches to filter matches by team, group, or date",
+      "Use get_groups to see full group standings and remaining fixtures",
+    );
+  } else if (phase === "knockout") {
+    available_tools.push(
+      "Use get_team_profile to research teams still in the tournament",
+      "Use get_matches with round filter to see knockout bracket",
+      "Use get_schedule to see remaining match dates",
+    );
+  } else {
+    available_tools.push(
+      "Use get_matches to review any match from the tournament",
+      "Use get_team_profile to look up team details",
+    );
+  }
+
+  return json({
+    phase,
+    phase_label: PHASE_LABELS[phase],
+    as_of: today,
+    ...(phase !== "tournament_over" ? { days_until_kickoff: Math.max(0, daysUntilKickoff) } : {}),
+    headline,
+    sections,
+    available_tools,
   });
 });
 

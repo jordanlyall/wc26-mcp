@@ -91,3 +91,24 @@ export interface VenueFilter {
   city?: string;
   region?: string;
 }
+
+export interface KeyPlayer {
+  name: string;
+  position: string; // "GK", "DEF", "MID", "FWD"
+  club: string;
+}
+
+export interface WorldCupHistory {
+  appearances: number;
+  best_result: string; // e.g. "Champions (2022)", "Quarter-finals (2018)"
+  titles: number;
+}
+
+export interface TeamProfile {
+  team_id: string; // matches Team.id
+  coach: string;
+  playing_style: string; // 1-2 sentence description
+  key_players: KeyPlayer[];
+  world_cup_history: WorldCupHistory;
+  qualifying_summary: string; // 1-2 sentence narrative
+}
