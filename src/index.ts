@@ -167,6 +167,7 @@ const matchStatuses: MatchStatus[] = [
 ];
 
 server.registerTool("get_matches", {
+  annotations: { readOnlyHint: true },
   title: "Get Matches",
   description:
     "Query FIFA World Cup 2026 matches. Filter by date, date range, team, group, venue, round, or status. Returns enriched match data with team names, venue details, and local venue time. Optionally pass a timezone to convert match times to any IANA timezone.",
@@ -262,6 +263,7 @@ const confederations = [
 ] as const;
 
 server.registerTool("get_teams", {
+  annotations: { readOnlyHint: true },
   title: "Get Teams",
   description:
     "Query FIFA World Cup 2026 teams. Filter by group, confederation, or host status. Returns team details including FIFA ranking and flag emoji.",
@@ -303,6 +305,7 @@ server.registerTool("get_teams", {
 // ── Tool: get_groups ────────────────────────────────────────────────
 
 server.registerTool("get_groups", {
+  annotations: { readOnlyHint: true },
   title: "Get Groups",
   description:
     "Get FIFA World Cup 2026 group details. Returns teams, venues, and match schedule for each group. Optionally filter to a specific group.",
@@ -330,6 +333,7 @@ server.registerTool("get_groups", {
 // ── Tool: get_venues ────────────────────────────────────────────────
 
 server.registerTool("get_venues", {
+  annotations: { readOnlyHint: true },
   title: "Get Venues",
   description:
     "Query FIFA World Cup 2026 venues across the USA, Mexico, and Canada. Filter by country, city, or region. Returns full venue details including capacity, coordinates, and notable events.",
@@ -371,6 +375,7 @@ server.registerTool("get_venues", {
 // ── Tool: get_schedule ──────────────────────────────────────────────
 
 server.registerTool("get_schedule", {
+  annotations: { readOnlyHint: true },
   title: "Get Schedule",
   description:
     "Get the full FIFA World Cup 2026 tournament schedule organized by date. Optionally filter to a specific date range. Each day includes all matches with team names, venues, kick-off times (UTC), and local venue time. Optionally pass a timezone to convert all match times.",
@@ -426,6 +431,7 @@ server.registerTool("get_schedule", {
 // ── Tool: get_team_profile ───────────────────────────────────────────
 
 server.registerTool("get_team_profile", {
+  annotations: { readOnlyHint: true },
   title: "Get Team Profile",
   description:
     "Get a detailed profile for any FIFA World Cup 2026 team. Returns coach, playing style, key players with clubs, World Cup history, and qualifying summary. Use team ID or FIFA code (e.g. 'usa', 'BRA', 'arg').",
@@ -474,6 +480,7 @@ server.registerTool("get_team_profile", {
 // ── Tool: get_nearby_venues ──────────────────────────────────────────
 
 server.registerTool("get_nearby_venues", {
+  annotations: { readOnlyHint: true },
   title: "Get Nearby Venues",
   description:
     "Find venues near a given World Cup venue, sorted by distance. Useful for planning multi-match trips. Returns distance in miles and kilometers between all venue pairs.",
@@ -534,6 +541,7 @@ server.registerTool("get_nearby_venues", {
 // ── Tool: get_city_guide ────────────────────────────────────────────
 
 server.registerTool("get_city_guide", {
+  annotations: { readOnlyHint: true },
   title: "Get City Guide",
   description:
     "Get a travel guide for any FIFA World Cup 2026 host city. Returns highlights, getting there, food & drink recommendations, things to do, and local tips. Accepts venue ID (e.g. 'metlife'), city name (e.g. 'Miami'), or metro area name (e.g. 'New York'). Case-insensitive.",
@@ -623,6 +631,7 @@ server.registerTool("get_city_guide", {
 // ── Tool: get_historical_matchups ────────────────────────────────────
 
 server.registerTool("get_historical_matchups", {
+  annotations: { readOnlyHint: true },
   title: "Get Historical Matchups",
   description:
     "Head-to-head World Cup history between any two teams. Returns all tournament meetings, aggregate stats, and a narrative summary. Accepts team ID or FIFA code (e.g. 'bra', 'ARG', 'england'). Also checks for a scheduled 2026 match between the pair.",
@@ -781,6 +790,7 @@ const PHASE_LABELS: Record<TournamentPhase, string> = {
 };
 
 server.registerTool("what_to_know_now", {
+  annotations: { readOnlyHint: true },
   title: "What to Know Now",
   description:
     "Zero-query temporal briefing for the FIFA World Cup 2026. No parameters needed — just brief me. Automatically detects the current tournament phase and returns the most relevant information for today. Optionally pass a date to simulate a different day, or a timezone for local times.",
@@ -1043,6 +1053,7 @@ server.registerTool("what_to_know_now", {
 // ── Tool: get_visa_info ──────────────────────────────────────────────
 
 server.registerTool("get_visa_info", {
+  annotations: { readOnlyHint: true },
   title: "Get Visa Info",
   description:
     "Entry requirements for FIFA World Cup 2026 travelers. Returns visa/ESTA/eTA requirements for any team's nationals entering the three host countries (USA, Mexico, Canada). Accepts team ID, FIFA code, or country name. Optionally filter to a specific host country.",
@@ -1099,6 +1110,7 @@ server.registerTool("get_visa_info", {
 // ── Tool: get_fan_zones ─────────────────────────────────────────────
 
 server.registerTool("get_fan_zones", {
+  annotations: { readOnlyHint: true },
   title: "Get Fan Zones",
   description:
     "Official FIFA Fan Festival and fan zone locations for World Cup 2026 host cities. Returns venue details, capacity, hours, activities, transportation tips, and amenities. Filter by city, country, or match venue.",

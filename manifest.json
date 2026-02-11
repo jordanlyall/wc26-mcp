@@ -1,0 +1,49 @@
+{
+  "manifest_version": "0.3",
+  "name": "wc26-mcp",
+  "display_name": "World Cup 2026",
+  "version": "0.3.0",
+  "description": "FIFA World Cup 2026 data — matches, teams, venues, city guides, fan zones, visa info, and more",
+  "author": {
+    "name": "Jordan Lyall",
+    "url": "https://github.com/jordanlyall"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jordanlyall/wc26-mcp.git"
+  },
+  "homepage": "https://wc26.ai",
+  "support": "https://github.com/jordanlyall/wc26-mcp/issues",
+  "license": "MIT",
+  "server": {
+    "type": "node",
+    "entry_point": "dist/index.js",
+    "mcp_config": {
+      "command": "node",
+      "args": ["${__dirname}/dist/index.js"],
+      "env": {}
+    }
+  },
+  "tools": [
+    { "name": "get_matches", "description": "Query FIFA World Cup 2026 matches by date, team, group, venue, round, or status." },
+    { "name": "get_teams", "description": "Query all 48 qualified nations with FIFA rankings and confederations." },
+    { "name": "get_groups", "description": "Get group details with teams, venues, and match schedules." },
+    { "name": "get_venues", "description": "Query 16 stadiums across USA, Mexico, and Canada." },
+    { "name": "get_schedule", "description": "Full tournament schedule organized by date with timezone conversion." },
+    { "name": "get_team_profile", "description": "Coach, key players, playing style, World Cup history for any team." },
+    { "name": "get_nearby_venues", "description": "Find venues near a given venue, sorted by distance." },
+    { "name": "get_city_guide", "description": "Travel guide for any host city — food, transit, things to do, local tips." },
+    { "name": "get_historical_matchups", "description": "Head-to-head World Cup history between any two teams." },
+    { "name": "what_to_know_now", "description": "Zero-query temporal briefing that auto-detects the current tournament phase." },
+    { "name": "get_visa_info", "description": "Entry requirements for World Cup travelers entering USA, Mexico, or Canada." },
+    { "name": "get_fan_zones", "description": "Official FIFA Fan Festival and fan zone locations across all host cities." }
+  ],
+  "keywords": ["world-cup", "fifa", "2026", "football", "soccer", "sports", "travel"],
+  "privacy_policies": ["https://wc26.ai/privacy"],
+  "compatibility": {
+    "platforms": ["darwin", "win32"],
+    "runtimes": {
+      "node": ">=18.0.0"
+    }
+  }
+}
