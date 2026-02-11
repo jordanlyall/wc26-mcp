@@ -460,6 +460,13 @@
       border-radius: 12px;
       padding: 1.5rem;
       margin-bottom: 1.25rem;
+      text-decoration: none;
+      color: inherit;
+      display: block;
+      transition: border-color 0.2s;
+    }
+    .demo-card:hover {
+      border-color: var(--gold);
     }
     .demo-prompt {
       font-size: 1.05rem;
@@ -583,7 +590,7 @@
   <div class="section-label">See it in action</div>
   <h2>Natural questions, real answers</h2>
 
-  <div class="demo-card">
+  <a class="demo-card" href="/try#brief">
     <div class="demo-prompt">"Brief me on the World Cup"</div>
     <div class="demo-response">
       <div><span class="demo-label">Phase</span><span class="demo-value">Pre-Tournament (Playoffs Pending)</span></div>
@@ -591,26 +598,30 @@
       <div><span class="demo-label">Hosts</span><span class="demo-value">USA, Mexico, Canada</span></div>
       <div><span class="demo-label">Venues</span><span class="demo-value">16 stadiums across 3 countries</span></div>
     </div>
-  </div>
+  </a>
 
-  <div class="demo-card">
+  <a class="demo-card" href="/try#arg-fra">
     <div class="demo-prompt">"What's the history between Argentina and France?"</div>
     <div class="demo-response">
-      <div><span class="demo-label">Record</span><span class="demo-value">3 meetings &mdash; Argentina 1W, France 1W, 1D</span></div>
+      <div><span class="demo-label">Record</span><span class="demo-value">4 meetings &mdash; Argentina 3W, France 1W</span></div>
       <div><span class="demo-label">Last match</span><span class="demo-value">2022 Final: Argentina 3-3 (4-2 pens)</span></div>
-      <div><span class="demo-label">Total goals</span><span class="demo-value">11 goals in 3 games</span></div>
-      <div><span class="demo-label">Narrative</span><span class="demo-value">Two of the most dramatic World Cup meetings ever</span></div>
+      <div><span class="demo-label">Total goals</span><span class="demo-value">17 goals in 4 games</span></div>
+      <div><span class="demo-label">Narrative</span><span class="demo-value">A modern-day World Cup epic, crowned by the legendary 2022 final</span></div>
     </div>
-  </div>
+  </a>
 
-  <div class="demo-card">
-    <div class="demo-prompt">"City guide for Dallas"</div>
+  <a class="demo-card" href="/try#miami">
+    <div class="demo-prompt">"City guide for Miami"</div>
     <div class="demo-response">
-      <div><span class="demo-label">Highlights</span><span class="demo-value">AT&T Stadium, Deep Ellum, Arts District</span></div>
-      <div><span class="demo-label">Food picks</span><span class="demo-value">Tex-Mex, BBQ, craft beer scene</span></div>
-      <div><span class="demo-label">Getting there</span><span class="demo-value">DFW Airport, DART rail to downtown</span></div>
-      <div><span class="demo-label">Local tip</span><span class="demo-value">Summer heat is real &mdash; plan around AC and shade</span></div>
+      <div><span class="demo-label">Highlights</span><span class="demo-value">Hard Rock Stadium, South Beach, Wynwood Walls</span></div>
+      <div><span class="demo-label">Food picks</span><span class="demo-value">Cuban sandwiches, ceviche, stone crab claws</span></div>
+      <div><span class="demo-label">Getting there</span><span class="demo-value">MIA airport, Tri-Rail, ride-share to stadium</span></div>
+      <div><span class="demo-label">Local tip</span><span class="demo-value">Expect 90+ heat with daily thunderstorms &mdash; carry an umbrella</span></div>
     </div>
+  </a>
+
+  <div style="text-align: center; margin-top: 1.5rem;">
+    <a href="/try" class="btn btn-primary" style="display: inline-block;">Explore all 16 demos &rarr;</a>
   </div>
 </div>
 

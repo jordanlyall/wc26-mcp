@@ -704,6 +704,7 @@
   var queries = [
     // ── Briefings ──
     {
+      id: "brief",
       category: "Briefings",
       query: "Brief me on the World Cup",
       tool: "what_to_know_now",
@@ -712,18 +713,21 @@
 
     // ── Teams ──
     {
+      id: "argentina",
       category: "Teams",
       query: "Tell me about Argentina",
       tool: "get_team_profile",
       html: '<div class="response-card"><div class="card-header"><div class="card-flag">\ud83c\udde6\ud83c\uddf7</div><div><div class="card-title">Argentina</div><div class="card-subtitle">Group J &middot; FIFA #2 &middot; CONMEBOL &middot; Defending Champions</div></div></div><div class="card-body"><div class="card-grid"><div class="field"><div class="field-label">Coach</div><div class="field-value">Lionel Scaloni</div></div><div class="field"><div class="field-label">Playing Style</div><div class="field-value">Balanced and cohesive with elite individual quality, a rock-solid defense, and Messi\'s orchestration in attack.</div></div></div><div class="card-section-label">Key Players</div><div class="card-grid"><div class="field"><div class="field-label">Forward</div><div class="field-value">Lionel Messi (Inter Miami)</div></div><div class="field"><div class="field-label">Forward</div><div class="field-value">Julian Alvarez (Atletico Madrid)</div></div><div class="field"><div class="field-label">Midfielder</div><div class="field-value">Enzo Fernandez (Chelsea)</div></div></div><div class="card-section-label">World Cup History</div><div class="card-grid"><div class="field"><div class="field-label">Appearances</div><div class="field-value">18</div></div><div class="field"><div class="field-label">Titles</div><div class="field-value highlight">3 (1978, 1986, 2022)</div></div><div class="field"><div class="field-label">Best Result</div><div class="field-value">Champions (2022)</div></div><div class="field"><div class="field-label">Qualifying</div><div class="field-value">Qualified through CONMEBOL qualifiers as defending world champions</div></div></div></div></div>'
     },
     {
+      id: "usa",
       category: "Teams",
       query: "Tell me about the USMNT",
       tool: "get_team_profile",
       html: '<div class="response-card"><div class="card-header"><div class="card-flag">\ud83c\uddfa\ud83c\uddf8</div><div><div class="card-title">United States</div><div class="card-subtitle">Group D &middot; FIFA #15 &middot; CONCACAF &middot; Host Nation</div></div></div><div class="card-body"><div class="card-grid"><div class="field"><div class="field-label">Coach</div><div class="field-value">Mauricio Pochettino</div></div><div class="field"><div class="field-label">Playing Style</div><div class="field-value">Athletic and high-pressing with a young, technically gifted squad and versatile attacking options.</div></div></div><div class="card-section-label">Key Players</div><div class="card-grid"><div class="field"><div class="field-label">Forward</div><div class="field-value">Christian Pulisic (AC Milan)</div></div><div class="field"><div class="field-label">Midfielder</div><div class="field-value">Weston McKennie (Juventus)</div></div><div class="field"><div class="field-label">Midfielder</div><div class="field-value">Yunus Musah (AC Milan)</div></div></div><div class="card-section-label">World Cup History</div><div class="card-grid"><div class="field"><div class="field-label">Appearances</div><div class="field-value">11</div></div><div class="field"><div class="field-label">Best Result</div><div class="field-value">Semi-finals (1930)</div></div><div class="field"><div class="field-label">Titles</div><div class="field-value">0</div></div><div class="field"><div class="field-label">Qualifying</div><div class="field-value">Automatic qualification as co-hosts</div></div></div><div class="card-section-label">Group D Matches</div><div class="match-row"><div class="match-teams">\ud83c\uddfa\ud83c\uddf8 USA vs Paraguay \ud83c\uddf5\ud83c\uddfe</div><div class="match-meta"><span class="date">Jun 12</span> &middot; SoFi Stadium</div></div><div class="match-row"><div class="match-teams">\ud83c\uddfa\ud83c\uddf8 USA vs Australia \ud83c\udde6\ud83c\uddfa</div><div class="match-meta"><span class="date">Jun 19</span> &middot; Gillette Stadium</div></div><div class="match-row"><div class="match-teams">TBD vs USA \ud83c\uddfa\ud83c\uddf8</div><div class="match-meta"><span class="date">Jun 26</span> &middot; Lumen Field</div></div></div></div>'
     },
     {
+      id: "group-c",
       category: "Teams",
       query: "Who\'s in Group C?",
       tool: "get_groups",
@@ -732,18 +736,21 @@
 
     // ── Matches ──
     {
+      id: "usa-schedule",
       category: "Matches",
       query: "When does USA play?",
       tool: "get_matches",
       html: '<div class="response-card"><div class="card-header"><div class="card-flag">\ud83c\uddfa\ud83c\uddf8</div><div><div class="card-title">United States &mdash; Group Stage Schedule</div><div class="card-subtitle">Group D &middot; 3 matches</div></div></div><div class="card-body"><div class="match-row"><div class="match-teams"><strong>\ud83c\uddfa\ud83c\uddf8 USA</strong> vs <strong>Paraguay \ud83c\uddf5\ud83c\uddfe</strong></div><div class="match-meta"><span class="date">Jun 12, 2026</span><br>SoFi Stadium, Inglewood &middot; 6:00 PM PT</div></div><div class="match-row"><div class="match-teams"><strong>\ud83c\uddfa\ud83c\uddf8 USA</strong> vs <strong>Australia \ud83c\udde6\ud83c\uddfa</strong></div><div class="match-meta"><span class="date">Jun 19, 2026</span><br>Gillette Stadium, Foxborough &middot; 9:00 PM ET</div></div><div class="match-row"><div class="match-teams"><strong>UEFA PO C Winner</strong> vs <strong>USA \ud83c\uddfa\ud83c\uddf8</strong></div><div class="match-meta"><span class="date">Jun 26, 2026</span><br>Lumen Field, Seattle &middot; 2:00 PM PT</div></div></div></div>'
     },
     {
+      id: "opening-day",
       category: "Matches",
       query: "What matches are on opening day?",
       tool: "get_matches",
       html: '<div class="response-card"><div class="card-header"><div><div class="card-title">Opening Day &mdash; June 11, 2026</div><div class="card-subtitle">1 match &middot; The tournament begins!</div></div></div><div class="card-body"><div class="match-row"><div class="match-teams"><strong>\ud83c\uddf2\ud83c\uddfd Mexico</strong> vs <strong>South Africa \ud83c\uddff\ud83c\udde6</strong></div><div class="match-meta"><span class="date">Match #1</span><br>Estadio Azteca, Mexico City &middot; 1:00 PM CT<br><span style="color: var(--gold); font-weight: 500;">Group A &middot; Opening Ceremony</span></div></div><div class="card-section-label" style="margin-top: 1rem;">June 12 &mdash; The Tournament Expands</div><div class="match-row"><div class="match-teams"><strong>\ud83c\udde8\ud83c\udde6 Canada</strong> vs <strong>UEFA PO A Winner \ud83c\udff3\ufe0f</strong></div><div class="match-meta"><span class="date">Match #2</span><br>BMO Field, Toronto &middot; 3:00 PM ET<br><span style="color: var(--text-muted);">Group B</span></div></div><div class="match-row"><div class="match-teams"><strong>\ud83c\udde9\ud83c\uddea Germany</strong> vs <strong>Curacao \ud83c\udde8\ud83c\uddfc</strong></div><div class="match-meta"><span class="date">Match #3</span><br>NRG Stadium, Houston &middot; 5:00 PM CT<br><span style="color: var(--text-muted);">Group E</span></div></div><div class="match-row"><div class="match-teams"><strong>\ud83c\uddfa\ud83c\uddf8 USA</strong> vs <strong>Paraguay \ud83c\uddf5\ud83c\uddfe</strong></div><div class="match-meta"><span class="date">Match #4</span><br>SoFi Stadium, Inglewood &middot; 6:00 PM PT<br><span style="color: var(--gold); font-weight: 500;">Group D &middot; USA\'s opening match</span></div></div></div></div>'
     },
     {
+      id: "knockout",
       category: "Matches",
       query: "Show me the knockout bracket",
       tool: "get_matches",
@@ -752,24 +759,28 @@
 
     // ── Venues & Cities ──
     {
+      id: "metlife",
       category: "Venues & Cities",
       query: "Tell me about MetLife Stadium",
       tool: "get_venues",
       html: '<div class="response-card"><div class="card-header"><div><div class="card-title">MetLife Stadium</div><div class="card-subtitle">East Rutherford, New Jersey, USA</div></div></div><div class="card-body"><div class="card-grid"><div class="field"><div class="field-label">Capacity</div><div class="field-value highlight">82,500</div></div><div class="field"><div class="field-label">Timezone</div><div class="field-value">America/New_York (Eastern)</div></div><div class="field"><div class="field-label">June Weather</div><div class="field-value">Avg High 80&deg;F / Low 62&deg;F &mdash; Warm and humid with occasional thunderstorms</div></div><div class="field"><div class="field-label">July Weather</div><div class="field-value">Avg High 85&deg;F / Low 67&deg;F</div></div></div><div class="card-section-label">Notable</div><div class="list-item"><span class="list-bullet">&bull;</span> Hosts the 2026 FIFA World Cup Final (July 19)</div><div class="list-item"><span class="list-bullet">&bull;</span> Multiple group stage matches across Groups C, I, and L</div><div class="list-item"><span class="list-bullet">&bull;</span> Quarter-final venue (July 10)</div><div class="card-section-label">Key Matches at This Venue</div><div class="match-row"><div class="match-teams">\ud83c\udde7\ud83c\uddf7 Brazil vs Morocco \ud83c\uddf2\ud83c\udde6</div><div class="match-meta"><span class="date">Jun 13</span> &middot; Group C</div></div><div class="match-row"><div class="match-teams">\ud83c\udde7\ud83c\uddf7 Brazil vs Scotland \ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc73\udb40\udc63\udb40\udc74\udb40\udc7f</div><div class="match-meta"><span class="date">Jun 19</span> &middot; Group C</div></div><div class="match-row"><div class="match-teams">\ud83c\uddeb\ud83c\uddf7 France vs Senegal \ud83c\uddf8\ud83c\uddf3</div><div class="match-meta"><span class="date">Jun 22</span> &middot; Group I</div></div><div class="match-row"><div class="match-teams" style="color: var(--gold); font-weight: 600;">FINAL</div><div class="match-meta"><span class="date" style="color: var(--gold);">Jul 19</span> &middot; 4:00 PM ET</div></div></div></div>'
     },
     {
+      id: "miami",
       category: "Venues & Cities",
       query: "City guide for Miami",
       tool: "get_city_guide",
       html: '<div class="response-card"><div class="card-header"><div class="card-flag">\ud83c\udf34</div><div><div class="card-title">Miami City Guide</div><div class="card-subtitle">Hard Rock Stadium &middot; Capacity 65,326 &middot; Third-place playoff venue</div></div></div><div class="card-body"><div class="field" style="margin-bottom: 1rem;"><div class="field-label">Highlights</div><div class="field-value">Miami is a tropical, bilingual gateway city hosting the third-place playoff. Hard Rock Stadium in Miami Gardens is an open-air venue with a partial canopy. The city\'s Latin American influence means a passionate soccer atmosphere.</div></div><div class="card-section-label">Getting There</div><div class="field-value" style="font-size: 0.85rem; margin-bottom: 0.75rem;">Miami International Airport (MIA) is 30 minutes from the stadium. Fort Lauderdale-Hollywood (FLL) is another option. Tri-Rail connects the airports to nearby stations; ride-share or shuttle to the stadium from there.</div><div class="card-section-label">Food & Drink</div><div class="list-item"><span class="list-bullet">&bull;</span> Cuban sandwich and cafecito from Versailles in Little Havana</div><div class="list-item"><span class="list-bullet">&bull;</span> Fresh ceviche at a Peruvian or Colombian spot in Doral or Brickell</div><div class="list-item"><span class="list-bullet">&bull;</span> Stone crab claws at Joe\'s Stone Crab (seasonal) on South Beach</div><div class="list-item"><span class="list-bullet">&bull;</span> Empanadas from any of the dozens of Latin bakeries across the city</div><div class="card-section-label">Things To Do</div><div class="list-item"><span class="list-bullet">&bull;</span> Stroll South Beach and the Art Deco Historic District on Ocean Drive</div><div class="list-item"><span class="list-bullet">&bull;</span> Visit the Wynwood Walls &mdash; a world-famous open-air street art museum</div><div class="list-item"><span class="list-bullet">&bull;</span> Take a day trip to the Everglades for airboat rides and wildlife</div><div class="list-item"><span class="list-bullet">&bull;</span> Explore Little Havana\'s Calle Ocho for live music, dominos, and culture</div><div class="card-section-label">Local Tips</div><div class="list-item"><span class="list-bullet">&rarr;</span> Expect 90&deg;F+ heat with high humidity and daily afternoon thunderstorms &mdash; carry an umbrella</div><div class="list-item"><span class="list-bullet">&rarr;</span> Hard Rock Stadium is open-air &mdash; sunscreen and water are musts for day games</div><div class="list-item"><span class="list-bullet">&rarr;</span> Miami traffic is brutal &mdash; use ride-share pooling or arrive very early on match day</div></div></div>'
     },
     {
+      id: "mexico-city",
       category: "Venues & Cities",
       query: "City guide for Mexico City",
       tool: "get_city_guide",
       html: '<div class="response-card"><div class="card-header"><div class="card-flag">\ud83c\uddf2\ud83c\uddfd</div><div><div class="card-title">Mexico City City Guide</div><div class="card-subtitle">Estadio Azteca &middot; Capacity 87,523 &middot; Opening match venue</div></div></div><div class="card-body"><div class="field" style="margin-bottom: 1rem;"><div class="field-label">Highlights</div><div class="field-value">Mexico City is a massive, vibrant metropolis hosting the tournament\'s opening match at the legendary Estadio Azteca &mdash; the only stadium to host three World Cup opening ceremonies (1970, 1986, 2026). At 7,350 feet elevation, the thin air affects stamina and ball flight.</div></div><div class="card-section-label">Getting There</div><div class="field-value" style="font-size: 0.85rem; margin-bottom: 0.75rem;">Mexico City International Airport (MEX) is centrally located. The Metro is extensive, cheap, and efficient &mdash; Line 2 reaches the Azteca area. Ride-share apps Uber and DiDi work well throughout the city.</div><div class="card-section-label">Food & Drink</div><div class="list-item"><span class="list-bullet">&bull;</span> Tacos al pastor from a street stand &mdash; arguably the world\'s greatest street food</div><div class="list-item"><span class="list-bullet">&bull;</span> Mole at a traditional restaurant in Coyoacan or the Centro Historico</div><div class="list-item"><span class="list-bullet">&bull;</span> Churros and hot chocolate from El Moro, a classic since 1935</div><div class="list-item"><span class="list-bullet">&bull;</span> Mezcal at one of the craft mezcalerias in Roma Norte or Condesa</div><div class="card-section-label">Things To Do</div><div class="list-item"><span class="list-bullet">&bull;</span> Visit the Museo Nacional de Antropologia &mdash; one of the world\'s great museums</div><div class="list-item"><span class="list-bullet">&bull;</span> Explore the ancient pyramids of Teotihuacan, 30 miles northeast of the city</div><div class="list-item"><span class="list-bullet">&bull;</span> Stroll through Chapultepec Park and Castle &mdash; larger than Central Park</div><div class="list-item"><span class="list-bullet">&bull;</span> Wander the colorful streets of Coyoacan and visit the Frida Kahlo Museum</div><div class="card-section-label">Local Tips</div><div class="list-item"><span class="list-bullet">&rarr;</span> The altitude (7,350 ft) can cause fatigue and headaches &mdash; take it easy the first day and stay hydrated</div><div class="list-item"><span class="list-bullet">&rarr;</span> Tap water is not safe to drink &mdash; buy bottled water or use a purification bottle</div><div class="list-item"><span class="list-bullet">&rarr;</span> Mexico City is enormous &mdash; use the Metro and ride-share rather than trying to walk between neighborhoods</div></div></div>'
     },
     {
+      id: "nearby-metlife",
       category: "Venues & Cities",
       query: "What venues are closest to MetLife?",
       tool: "get_nearby_venues",
@@ -778,12 +789,14 @@
 
     // ── History ──
     {
+      id: "arg-fra",
       category: "History",
       query: "Argentina vs France history",
       tool: "get_historical_matchups",
       html: '<div class="response-card"><div class="card-header"><div class="card-flag">\ud83c\udde6\ud83c\uddf7</div><div><div class="card-title">Argentina vs France</div><div class="card-subtitle">4 World Cup meetings &middot; Argentina lead 3-1</div></div><div class="card-flag" style="margin-left: auto;">\ud83c\uddeb\ud83c\uddf7</div></div><div class="card-body"><div class="card-grid" style="margin-bottom: 1rem;"><div class="field"><div class="field-label">Record</div><div class="field-value highlight">Argentina 3W &middot; France 1W &middot; 0D</div></div><div class="field"><div class="field-label">Total Goals</div><div class="field-value">17 goals in 4 games (Argentina 9, France 8)</div></div></div><div class="field" style="margin-bottom: 0.75rem;"><div class="field-label">Narrative</div><div class="field-value">A modern-day World Cup epic. Argentina lead 3-1 overall, crowned by the legendary 2022 final &mdash; a 3-3 draw with Argentina winning on penalties after Mbappe\'s hat trick.</div></div><div class="card-section-label">All Meetings</div><div class="meeting-row"><span class="meeting-year">1930</span><span class="meeting-detail">Group Stage &middot; Montevideo</span><span class="meeting-score">\ud83c\udde6\ud83c\uddf7 1-0 \ud83c\uddeb\ud83c\uddf7</span></div><div class="meeting-row"><span class="meeting-year">1978</span><span class="meeting-detail">Group Stage &middot; Buenos Aires</span><span class="meeting-score">\ud83c\udde6\ud83c\uddf7 2-1 \ud83c\uddeb\ud83c\uddf7</span></div><div class="meeting-row"><span class="meeting-year">2018</span><span class="meeting-detail">Round of 16 &middot; Kazan</span><span class="meeting-score">\ud83c\udde6\ud83c\uddf7 3-4 \ud83c\uddeb\ud83c\uddf7</span></div><div class="meeting-row"><span class="meeting-year">2022</span><span class="meeting-detail">Final &middot; Lusail</span><span class="meeting-score">\ud83c\udde6\ud83c\uddf7 3-3 (4-2 pens) \ud83c\uddeb\ud83c\uddf7</span></div></div></div>'
     },
     {
+      id: "bra-sco",
       category: "History",
       query: "Brazil vs Scotland history",
       tool: "get_historical_matchups",
@@ -792,18 +805,21 @@
 
     // ── Travel ──
     {
+      id: "uk-visa",
       category: "Travel",
       query: "Do UK fans need a visa?",
       tool: "get_visa_info",
       html: '<div class="response-card"><div class="card-header"><div class="card-flag">\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f</div><div><div class="card-title">Visa Info for England / UK Fans</div><div class="card-subtitle">British passport holders &middot; UK Visa Waiver Program</div></div></div><div class="card-body"><div class="visa-row"><span class="visa-country">\ud83c\uddfa\ud83c\uddf8 USA</span><span class="visa-badge esta">ESTA</span><span class="visa-note">ESTA ($21) &mdash; UK nationals are part of the US Visa Waiver Program. Apply at least 72 hours before departure. Max stay 90 days.</span></div><div class="visa-row"><span class="visa-country">\ud83c\uddf2\ud83c\uddfd Mexico</span><span class="visa-badge visa-free">Visa-Free</span><span class="visa-note">No visa needed &mdash; UK passport holders can enter Mexico visa-free for up to 180 days for tourism.</span></div><div class="visa-row"><span class="visa-country">\ud83c\udde8\ud83c\udde6 Canada</span><span class="visa-badge eta">eTA</span><span class="visa-note">eTA (CA$7) &mdash; UK is visa-exempt for Canada. An eTA is required when arriving by air. Apply online before your flight.</span></div><div class="card-section-label" style="margin-top: 0.75rem;">Quick Summary</div><div class="field-value" style="font-size: 0.85rem;">UK fans have it easy &mdash; no full visa required for any host country. ESTA for the USA, eTA for Canada, and visa-free entry to Mexico. Budget about $30 total for entry documents and apply well before departure.</div></div></div>'
     },
     {
+      id: "ny-fan-zones",
       category: "Travel",
       query: "Fan zones in New York",
       tool: "get_fan_zones",
       html: '<div class="response-card"><div class="card-header"><div><div class="card-title">Fan Zones &mdash; New York / New Jersey</div><div class="card-subtitle">3 official fan zones for the MetLife Stadium region</div></div></div><div class="card-body"><div style="margin-bottom: 1.25rem;"><div class="fz-name">FIFA Fan Festival NYNJ<span class="fz-badge">Free Entry</span></div><div class="fz-location">Liberty State Park, Jersey City, NJ</div><div class="card-grid"><div class="field"><div class="field-label">Capacity</div><div class="field-value">45,000</div></div><div class="field"><div class="field-label">Dates</div><div class="field-value">June 11 &ndash; July 19 (full tournament)</div></div><div class="field"><div class="field-label">Highlights</div><div class="field-value">Flagship FIFA Fan Festival with Manhattan skyline and Statue of Liberty backdrop. 800,000+ sq ft &mdash; the largest fan festival site in the tournament.</div></div><div class="field"><div class="field-label">Getting There</div><div class="field-value">PATH train to Exchange Place/Grove St, then Hudson-Bergen Light Rail or walk. NY Waterway ferry from Manhattan.</div></div></div></div><div style="border-top: 1px solid var(--border); padding-top: 1rem; margin-bottom: 1.25rem;"><div class="fz-name">Fan Zone Queens<span class="fz-badge" style="background: rgba(239,68,68,0.15); color: #f87171;">Ticketed</span></div><div class="fz-location">USTA Billie Jean King National Tennis Center, Queens, NY</div><div class="card-grid"><div class="field"><div class="field-label">Capacity</div><div class="field-value">14,000</div></div><div class="field"><div class="field-label">Dates</div><div class="field-value">June 17 &ndash; June 28</div></div><div class="field"><div class="field-label">Highlights</div><div class="field-value">Premium viewing and Live Nation concert experience at Louis Armstrong Stadium. Intimate arena setting in one of the world\'s most diverse neighborhoods.</div></div><div class="field"><div class="field-label">Getting There</div><div class="field-value">7 train to Mets-Willets Point station, steps from the venue.</div></div></div></div><div style="border-top: 1px solid var(--border); padding-top: 1rem;"><div class="fz-name">Fan Zone Rockefeller Center<span class="fz-badge">Free Entry</span></div><div class="fz-location">Rockefeller Center, Midtown Manhattan</div><div class="card-grid"><div class="field"><div class="field-label">Capacity</div><div class="field-value">5,000</div></div><div class="field"><div class="field-label">Dates</div><div class="field-value">July 4 &ndash; July 19 (knockout rounds + Final)</div></div><div class="field"><div class="field-label">Highlights</div><div class="field-value">The iconic ice rink transforms into a football pitch with large screens. Celebrations extend across the three-block campus including Top of the Rock.</div></div><div class="field"><div class="field-label">Getting There</div><div class="field-value">Subway: B/D/F/M to 47-50 Sts-Rockefeller Center.</div></div></div></div></div></div>'
     },
     {
+      id: "arg-visa",
       category: "Travel",
       query: "Do Argentine fans need a visa?",
       tool: "get_visa_info",
@@ -884,8 +900,15 @@
     }
   }
 
-  // Auto-select first query
-  selectQuery(0);
+  // Deep link: check for hash matching a query id
+  var startIndex = 0;
+  if (window.location.hash) {
+    var hash = window.location.hash.substring(1);
+    for (var hi = 0; hi < queries.length; hi++) {
+      if (queries[hi].id === hash) { startIndex = hi; break; }
+    }
+  }
+  selectQuery(startIndex);
 })();
 </script>
 </body>
