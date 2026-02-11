@@ -1,6 +1,16 @@
-import { handler, param, teams } from "./_helpers.js";
+import { handler, param, teams, groups, enrichGroup } from "./_helpers.js";
 
 export default handler(async (req, res) => {
+  // Also handles /api/groups via rewrite with ?_endpoint=groups
+  const endpoint = param(req, "_endpoint");
+
+  if (endpoint === "groups") {
+    const group = param(req, "group");
+    let result = groups;
+    if (group) result = result.filter((g) => g.id.toUpperCase() === group.toUpperCase());
+    return res.json({ count: result.length, groups: result.map(enrichGroup) });
+  }
+
   const group = param(req, "group");
   const confederation = param(req, "confederation");
   const isHost = param(req, "is_host");

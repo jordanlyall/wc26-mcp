@@ -4,7 +4,7 @@
   "rewrites": [
     { "source": "/api/matches", "destination": "/api/matches" },
     { "source": "/api/teams", "destination": "/api/teams" },
-    { "source": "/api/groups", "destination": "/api/groups" },
+    { "source": "/api/groups", "destination": "/api/teams?_endpoint=groups" },
     { "source": "/api/venues", "destination": "/api/venues" },
     { "source": "/api/schedule", "destination": "/api/schedule" },
     { "source": "/api/team-profile", "destination": "/api/team-profile" },
@@ -13,11 +13,18 @@
     { "source": "/api/nearby-venues", "destination": "/api/nearby-venues" },
     { "source": "/api/visa-info", "destination": "/api/visa-info" },
     { "source": "/api/fan-zones", "destination": "/api/fan-zones" },
-    { "source": "/api/what-to-know-now", "destination": "/api/what-to-know-now" }
+    { "source": "/api/what-to-know-now", "destination": "/api/what-to-know-now" },
+    { "source": "/api/telegram", "destination": "/api/telegram" }
   ],
   "headers": [
     {
-      "source": "/api/(.*)",
+      "source": "/api/telegram",
+      "headers": [
+        { "key": "Cache-Control", "value": "no-store" }
+      ]
+    },
+    {
+      "source": "/api/((?!telegram).*)",
       "headers": [
         { "key": "Cache-Control", "value": "public, s-maxage=3600, stale-while-revalidate=86400" }
       ]
