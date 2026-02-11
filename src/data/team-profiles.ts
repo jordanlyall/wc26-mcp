@@ -7,9 +7,9 @@ export const teamProfiles: TeamProfile[] = [
     coach: "Javier Aguirre",
     playing_style: "Defensively disciplined with quick transitions and strong set-piece play.",
     key_players: [
-      { name: "Edson Alvarez", position: "MID", club: "West Ham United" },
-      { name: "Santiago Gimenez", position: "FWD", club: "Feyenoord" },
-      { name: "Guillermo Ochoa", position: "GK", club: "Salernitana" },
+      { name: "Edson Alvarez", position: "MID", club: "Fenerbahce" },
+      { name: "Santiago Gimenez", position: "FWD", club: "AC Milan" },
+      { name: "Guillermo Ochoa", position: "GK", club: "AEL Limassol" },
     ],
     world_cup_history: { appearances: 17, best_result: "Quarter-finals (1970, 1986)", titles: 0 },
     qualifying_summary: "Automatic qualification as co-hosts.",
@@ -19,7 +19,7 @@ export const teamProfiles: TeamProfile[] = [
     coach: "Hugo Broos",
     playing_style: "High-energy pressing with young, athletic talent and direct attacking play.",
     key_players: [
-      { name: "Percy Tau", position: "FWD", club: "Al Ahly" },
+      { name: "Percy Tau", position: "FWD", club: "Thep Xanh Nam Dinh" },
       { name: "Ronwen Williams", position: "GK", club: "Mamelodi Sundowns" },
       { name: "Themba Zwane", position: "MID", club: "Mamelodi Sundowns" },
     ],
@@ -53,9 +53,9 @@ export const teamProfiles: TeamProfile[] = [
     coach: "Jesse Marsch",
     playing_style: "High-pressing, physically imposing side with pace on the wings and direct attacking transitions.",
     key_players: [
-      { name: "Alphonso Davies", position: "DEF", club: "Real Madrid" },
-      { name: "Jonathan David", position: "FWD", club: "Lille" },
-      { name: "Tajon Buchanan", position: "MID", club: "Inter Milan" },
+      { name: "Alphonso Davies", position: "DEF", club: "Bayern Munich" },
+      { name: "Jonathan David", position: "FWD", club: "Juventus" },
+      { name: "Tajon Buchanan", position: "MID", club: "Villarreal" },
     ],
     world_cup_history: { appearances: 2, best_result: "Group stage (2022)", titles: 0 },
     qualifying_summary: "Automatic qualification as co-hosts.",
@@ -74,7 +74,7 @@ export const teamProfiles: TeamProfile[] = [
   },
   {
     team_id: "qat",
-    coach: "Carlos Queiroz",
+    coach: "Julen Lopetegui",
     playing_style: "Possession-based approach with emphasis on technical quality and tactical discipline.",
     key_players: [
       { name: "Akram Afif", position: "FWD", club: "Al Sadd" },
@@ -112,7 +112,7 @@ export const teamProfiles: TeamProfile[] = [
     playing_style: "Defensively resolute with rapid counter-attacks and a fearless big-game mentality built on 2022 semi-final run.",
     key_players: [
       { name: "Achraf Hakimi", position: "DEF", club: "Paris Saint-Germain" },
-      { name: "Hakim Ziyech", position: "MID", club: "Galatasaray" },
+      { name: "Hakim Ziyech", position: "MID", club: "Wydad AC" },
       { name: "Youssef En-Nesyri", position: "FWD", club: "Fenerbahce" },
     ],
     world_cup_history: { appearances: 7, best_result: "Semi-finals (2022)", titles: 0 },
@@ -120,10 +120,10 @@ export const teamProfiles: TeamProfile[] = [
   },
   {
     team_id: "hai",
-    coach: "Marc Collat",
+    coach: "Sebastien Migne",
     playing_style: "Energetic and passionate with quick passing combinations and reliance on speed in transition.",
     key_players: [
-      { name: "Frantzdy Pierrot", position: "FWD", club: "Rapid Wien" },
+      { name: "Frantzdy Pierrot", position: "FWD", club: "AEK Athens" },
       { name: "Derrick Etienne Jr.", position: "MID", club: "Columbus Crew" },
       { name: "Josue Duverger", position: "GK", club: "Real Espana" },
     ],
@@ -158,11 +158,11 @@ export const teamProfiles: TeamProfile[] = [
   },
   {
     team_id: "par",
-    coach: "Alfaro Moreno",
+    coach: "Gustavo Alfaro",
     playing_style: "Physically combative with a deep defensive block and dangerous set-piece delivery.",
     key_players: [
       { name: "Miguel Almiron", position: "MID", club: "Atlanta United" },
-      { name: "Julio Enciso", position: "FWD", club: "Brighton" },
+      { name: "Julio Enciso", position: "FWD", club: "Strasbourg" },
       { name: "Gustavo Gomez", position: "DEF", club: "Palmeiras" },
     ],
     world_cup_history: { appearances: 9, best_result: "Round of 16 (1998, 2002, 2006, 2010)", titles: 0 },
@@ -196,7 +196,7 @@ export const teamProfiles: TeamProfile[] = [
     playing_style: "Possession-oriented with aggressive pressing, tactical flexibility, and quick vertical transitions.",
     key_players: [
       { name: "Jamal Musiala", position: "MID", club: "Bayern Munich" },
-      { name: "Florian Wirtz", position: "MID", club: "Bayer Leverkusen" },
+      { name: "Florian Wirtz", position: "MID", club: "Liverpool" },
       { name: "Kai Havertz", position: "FWD", club: "Arsenal" },
     ],
     world_cup_history: { appearances: 20, best_result: "Champions (2014)", titles: 4 },
@@ -208,20 +208,20 @@ export const teamProfiles: TeamProfile[] = [
     playing_style: "High-altitude conditioning translates to relentless pressing and physical endurance with pacey forwards.",
     key_players: [
       { name: "Moises Caicedo", position: "MID", club: "Chelsea" },
-      { name: "Enner Valencia", position: "FWD", club: "Internacional" },
-      { name: "Piero Hincapie", position: "DEF", club: "Bayer Leverkusen" },
+      { name: "Enner Valencia", position: "FWD", club: "Pachuca" },
+      { name: "Piero Hincapie", position: "DEF", club: "Arsenal" },
     ],
     world_cup_history: { appearances: 4, best_result: "Round of 16 (2006)", titles: 0 },
     qualifying_summary: "Qualified through CONMEBOL qualifiers, finishing in the top four of the South American table.",
   },
   {
     team_id: "civ",
-    coach: "Faouzi Benzarti",
+    coach: "Emerse Fae",
     playing_style: "Explosive attacking talent combined with aggressive pressing and flair on the ball.",
     key_players: [
-      { name: "Sebastien Haller", position: "FWD", club: "Borussia Dortmund" },
+      { name: "Sebastien Haller", position: "FWD", club: "FC Utrecht" },
       { name: "Franck Kessie", position: "MID", club: "Al Ahli" },
-      { name: "Simon Adingra", position: "FWD", club: "Brighton" },
+      { name: "Simon Adingra", position: "FWD", club: "Monaco" },
     ],
     world_cup_history: { appearances: 4, best_result: "Group stage (2006, 2010, 2014)", titles: 0 },
     qualifying_summary: "Qualified through CAF qualifiers as reigning AFCON champions, finishing top of their qualifying group.",
@@ -231,9 +231,9 @@ export const teamProfiles: TeamProfile[] = [
     coach: "Dick Advocaat",
     playing_style: "Compact and defensively oriented with quick transitions and reliance on individual quality in attack.",
     key_players: [
-      { name: "Juninho Bacuna", position: "MID", club: "Rangers" },
-      { name: "Kenji Gorre", position: "FWD", club: "NAC Breda" },
-      { name: "Eloy Room", position: "GK", club: "Vitesse" },
+      { name: "Juninho Bacuna", position: "MID", club: "FC Volendam" },
+      { name: "Kenji Gorre", position: "FWD", club: "Maccabi Haifa" },
+      { name: "Eloy Room", position: "GK", club: "Miami FC" },
     ],
     world_cup_history: { appearances: 1, best_result: "Debut appearance (2026)", titles: 0 },
     qualifying_summary: "Historic first World Cup qualification through CONCACAF qualifiers, finishing in the top qualifying positions.",
@@ -266,12 +266,12 @@ export const teamProfiles: TeamProfile[] = [
   },
   {
     team_id: "tun",
-    coach: "Jalel Kadri",
+    coach: "Sami Trabelsi",
     playing_style: "Physically strong and well-organized with a pragmatic approach and clinical counter-attacking.",
     key_players: [
-      { name: "Aissa Laidouni", position: "MID", club: "Union Berlin" },
-      { name: "Youssef Msakni", position: "FWD", club: "Al-Arabi" },
-      { name: "Hannibal Mejbri", position: "MID", club: "Manchester United" },
+      { name: "Aissa Laidouni", position: "MID", club: "Al-Wakrah" },
+      { name: "Youssef Msakni", position: "FWD", club: "Esperance de Tunis" },
+      { name: "Hannibal Mejbri", position: "MID", club: "Burnley" },
     ],
     world_cup_history: { appearances: 6, best_result: "Group stage (1978, 1998, 2002, 2006, 2018, 2022)", titles: 0 },
     qualifying_summary: "Qualified through CAF qualifiers, navigating a tough group to earn their spot.",
@@ -288,10 +288,10 @@ export const teamProfiles: TeamProfile[] = [
   // ── Group G ────────────────────────────────────────────────
   {
     team_id: "bel",
-    coach: "Domenico Tedesco",
+    coach: "Rudi Garcia",
     playing_style: "Technically gifted with creative midfield play, though transitioning from a golden generation to emerging new talent.",
     key_players: [
-      { name: "Kevin De Bruyne", position: "MID", club: "Manchester City" },
+      { name: "Kevin De Bruyne", position: "MID", club: "Napoli" },
       { name: "Jeremy Doku", position: "FWD", club: "Manchester City" },
       { name: "Amadou Onana", position: "MID", club: "Aston Villa" },
     ],
@@ -303,8 +303,8 @@ export const teamProfiles: TeamProfile[] = [
     coach: "Amir Ghalenoei",
     playing_style: "Defensively resilient with a low block, physical duels, and dangerous on set pieces and counter-attacks.",
     key_players: [
-      { name: "Mehdi Taremi", position: "FWD", club: "Inter Milan" },
-      { name: "Sardar Azmoun", position: "FWD", club: "Roma" },
+      { name: "Mehdi Taremi", position: "FWD", club: "Olympiacos" },
+      { name: "Sardar Azmoun", position: "FWD", club: "Shabab Al-Ahli" },
       { name: "Alireza Beiranvand", position: "GK", club: "Persepolis" },
     ],
     world_cup_history: { appearances: 6, best_result: "Group stage (1978, 1998, 2006, 2014, 2018, 2022)", titles: 0 },
@@ -317,7 +317,7 @@ export const teamProfiles: TeamProfile[] = [
     key_players: [
       { name: "Mohamed Salah", position: "FWD", club: "Liverpool" },
       { name: "Omar Marmoush", position: "FWD", club: "Manchester City" },
-      { name: "Mohamed Elneny", position: "MID", club: "Al Ahly" },
+      { name: "Mohamed Elneny", position: "MID", club: "Al Jazira" },
     ],
     world_cup_history: { appearances: 4, best_result: "Group stage (1934, 1990, 2018)", titles: 0 },
     qualifying_summary: "Qualified through CAF qualifiers, finishing at the top of their qualifying group.",
@@ -328,7 +328,7 @@ export const teamProfiles: TeamProfile[] = [
     playing_style: "Resolute and hardworking with a direct, physical approach and strong team cohesion.",
     key_players: [
       { name: "Chris Wood", position: "FWD", club: "Nottingham Forest" },
-      { name: "Liberato Cacace", position: "DEF", club: "Empoli" },
+      { name: "Liberato Cacace", position: "DEF", club: "Wrexham" },
       { name: "Matt Garbett", position: "MID", club: "Torino" },
     ],
     world_cup_history: { appearances: 3, best_result: "Group stage (1982, 2010)", titles: 0 },
@@ -354,7 +354,7 @@ export const teamProfiles: TeamProfile[] = [
     playing_style: "Aggressive pressing with relentless intensity, fluid attacking movements, and a fearless mentality under Bielsa's demanding system.",
     key_players: [
       { name: "Federico Valverde", position: "MID", club: "Real Madrid" },
-      { name: "Darwin Nunez", position: "FWD", club: "Liverpool" },
+      { name: "Darwin Nunez", position: "FWD", club: "Al-Hilal" },
       { name: "Ronald Araujo", position: "DEF", club: "Barcelona" },
     ],
     world_cup_history: { appearances: 14, best_result: "Champions (1930, 1950)", titles: 2 },
@@ -362,7 +362,7 @@ export const teamProfiles: TeamProfile[] = [
   },
   {
     team_id: "ksa",
-    coach: "Roberto Mancini",
+    coach: "Herve Renard",
     playing_style: "Possession-focused with improved tactical discipline and a growing emphasis on developing domestic talent.",
     key_players: [
       { name: "Salem Al-Dawsari", position: "FWD", club: "Al Hilal" },
@@ -377,7 +377,7 @@ export const teamProfiles: TeamProfile[] = [
     coach: "Bubista",
     playing_style: "Technically skilled with flair on the ball, emphasizing width and individual creativity in tight spaces.",
     key_players: [
-      { name: "Garry Rodrigues", position: "FWD", club: "Olympiacos" },
+      { name: "Garry Rodrigues", position: "FWD", club: "Apollon Limassol" },
       { name: "Kenny Rocha Santos", position: "MID", club: "Al-Ittihad" },
       { name: "Stopira", position: "DEF", club: "Giresunspor" },
     ],
@@ -392,7 +392,7 @@ export const teamProfiles: TeamProfile[] = [
     playing_style: "Pragmatic and adaptable with world-class individual talent, capable of both defensive solidity and explosive attacking football.",
     key_players: [
       { name: "Kylian Mbappe", position: "FWD", club: "Real Madrid" },
-      { name: "Antoine Griezmann", position: "FWD", club: "Atletico Madrid" },
+      { name: "Michael Olise", position: "FWD", club: "Bayern Munich" },
       { name: "Aurelien Tchouameni", position: "MID", club: "Real Madrid" },
     ],
     world_cup_history: { appearances: 16, best_result: "Champions (2018)", titles: 2 },
@@ -400,7 +400,7 @@ export const teamProfiles: TeamProfile[] = [
   },
   {
     team_id: "sen",
-    coach: "Aliou Cisse",
+    coach: "Pape Thiaw",
     playing_style: "Physically powerful with pace on the flanks, tactical discipline, and strong defensive organization.",
     key_players: [
       { name: "Sadio Mane", position: "FWD", club: "Al Nassr" },
@@ -462,8 +462,8 @@ export const teamProfiles: TeamProfile[] = [
     playing_style: "Technically proficient with a structured build-up, strong midfield control, and clinical finishing.",
     key_players: [
       { name: "Riyad Mahrez", position: "FWD", club: "Al Ahli" },
-      { name: "Ismael Bennacer", position: "MID", club: "AC Milan" },
-      { name: "Islam Slimani", position: "FWD", club: "Coritiba" },
+      { name: "Ismael Bennacer", position: "MID", club: "Dinamo Zagreb" },
+      { name: "Islam Slimani", position: "FWD", club: "CFR Cluj" },
     ],
     world_cup_history: { appearances: 5, best_result: "Round of 16 (2014)", titles: 0 },
     qualifying_summary: "Qualified through CAF qualifiers, finishing at the top of their group.",
@@ -500,20 +500,20 @@ export const teamProfiles: TeamProfile[] = [
     playing_style: "Possession-based with technical flair, creative playmaking through James Rodriguez, and physicality in midfield.",
     key_players: [
       { name: "Luis Diaz", position: "FWD", club: "Liverpool" },
-      { name: "James Rodriguez", position: "MID", club: "Rayo Vallecano" },
-      { name: "Jhon Arias", position: "FWD", club: "Fluminense" },
+      { name: "James Rodriguez", position: "MID", club: "Minnesota United" },
+      { name: "Jhon Arias", position: "FWD", club: "Palmeiras" },
     ],
     world_cup_history: { appearances: 7, best_result: "Quarter-finals (2014)", titles: 0 },
     qualifying_summary: "Qualified through CONMEBOL qualifiers, finishing in a strong position in the South American standings.",
   },
   {
     team_id: "uzb",
-    coach: "Srecko Katanec",
+    coach: "Fabio Cannavaro",
     playing_style: "Well-organized with a disciplined defensive shape and ability to compete physically against stronger opponents.",
     key_players: [
-      { name: "Eldor Shomurodov", position: "FWD", club: "Roma" },
-      { name: "Abbosbek Fayzullaev", position: "MID", club: "CSKA Moscow" },
-      { name: "Otabek Shukurov", position: "MID", club: "Al Wasl" },
+      { name: "Eldor Shomurodov", position: "FWD", club: "Istanbul Basaksehir" },
+      { name: "Abbosbek Fayzullaev", position: "MID", club: "Istanbul Basaksehir" },
+      { name: "Otabek Shukurov", position: "MID", club: "Baniyas" },
     ],
     world_cup_history: { appearances: 1, best_result: "Debut appearance (2026)", titles: 0 },
     qualifying_summary: "Historic first World Cup qualification through AFC qualifiers, finishing in a direct qualification spot from the third round.",
@@ -557,8 +557,8 @@ export const teamProfiles: TeamProfile[] = [
     coach: "Otto Addo",
     playing_style: "Athletic and dynamic with pace in attack, spirited performances, and strong team unity.",
     key_players: [
-      { name: "Mohammed Kudus", position: "MID", club: "West Ham United" },
-      { name: "Thomas Partey", position: "MID", club: "Arsenal" },
+      { name: "Mohammed Kudus", position: "MID", club: "Tottenham Hotspur" },
+      { name: "Thomas Partey", position: "MID", club: "Villarreal" },
       { name: "Antoine Semenyo", position: "FWD", club: "Bournemouth" },
     ],
     world_cup_history: { appearances: 5, best_result: "Quarter-finals (2010)", titles: 0 },
