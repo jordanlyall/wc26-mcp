@@ -2,10 +2,18 @@
 
 [![npm version](https://img.shields.io/npm/v/wc26-mcp.svg)](https://www.npmjs.com/package/wc26-mcp)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue.svg)](https://www.typescriptlang.org/)
+[![MCP](https://img.shields.io/badge/MCP-compatible-green.svg)](https://modelcontextprotocol.io)
 
-MCP server for FIFA World Cup 2026 data — 104 matches, 48 teams, 16 venues, 12 groups. Team profiles, city guides, historical head-to-head records, timezone support, and a smart briefing tool that knows what's relevant right now. All data included, no API keys needed.
+<p align="center">
+  <img src="website/og-image.png" alt="WC26 MCP — World Cup 2026 data for AI" width="600">
+</p>
 
-**[Website](https://wc26.ai)** | **[npm](https://www.npmjs.com/package/wc26-mcp)**
+Ask your AI anything about the 2026 World Cup and get real answers. 12 tools covering matches, teams, venues, city guides, fan zones, head-to-head records, visa info, and more. All data ships with the package. Zero API keys, zero external dependencies.
+
+Works with **Claude Desktop** · **Claude Code** · **Cursor** · **Windsurf** · **ChatGPT** · any MCP client
+
+**[Website](https://wc26.ai)** | **[npm](https://www.npmjs.com/package/wc26-mcp)** | **[MCP Registry](https://registry.modelcontextprotocol.io)**
 
 ## Quick Start
 
@@ -87,31 +95,42 @@ npx -y wc26-mcp
 
 ## Example Prompts
 
-- "Brief me on the World Cup"
-- "Tell me about Argentina's squad and playing style"
-- "When does the USA play their first match?"
-- "Show me all venues in Texas"
-- "What teams are in Group C with Brazil?"
-- "What's the schedule for the knockout rounds?"
-- "Which matches are at MetLife Stadium?"
-- "Show me tomorrow's matches in my timezone (America/New_York)"
-- "What venues are closest to MetLife Stadium?"
-- "Give me a city guide for Dallas"
-- "What's the World Cup history between Argentina and England?"
-- "Do Iranian fans need a visa to attend matches in the US?"
-- "Where are the fan zones in Dallas?"
+> "Brief me on the World Cup"
 
-## Data Notes
+> "Tell me about Argentina's squad and playing style"
 
-- All kick-off times are in **UTC** (pass `timezone` to convert)
-- Tournament runs **June 11 – July 19, 2026**
-- Some teams are listed as **TBD** (intercontinental playoff winners)
-- 3 host nations: USA (11 venues), Mexico (3 venues), Canada (2 venues)
-- Team profiles include coach, 3 key players, playing style, and World Cup history for all 48 teams
-- Each venue includes average June/July weather (highs, lows, climate description)
-- City guides cover all 16 host cities with transit, food, attractions, and local tips
-- Historical matchups cover 30 team pairings with World Cup tournament meeting data
-- Visa/entry requirements for all 42 confirmed team nationalities across all 3 host countries
+> "When does the USA play their first match?"
+
+> "Show me tomorrow's matches in my timezone (America/New_York)"
+
+> "What's the World Cup history between Argentina and England?"
+
+> "Give me a city guide for Dallas"
+
+> "Where are the fan zones in New York?"
+
+> "Do Iranian fans need a visa to attend matches in the US?"
+
+> "What venues are closest to MetLife Stadium?"
+
+## Data
+
+| | Count | Details |
+|---|---|---|
+| Matches | 104 | Group stage + knockout, all in UTC (timezone conversion supported) |
+| Teams | 48 | 42 confirmed, 6 TBD (playoffs March 26 & 31) |
+| Venues | 16 | USA (11), Mexico (3), Canada (2) with weather data |
+| Team profiles | 48 | Coach, key players, style, WC history |
+| City guides | 16 | Transit, food, attractions, local tips |
+| Historical matchups | 30 | Head-to-head WC records with narrative |
+| Fan zones | 18 | All host cities, capacity, hours, transport |
+| Visa entries | 42 | All confirmed nationalities across 3 host countries |
+
+Tournament: **June 11 - July 19, 2026**
+
+## Contributing
+
+This is an open source project under the MIT license. Issues and PRs welcome at [github.com/jordanlyall/wc26-mcp](https://github.com/jordanlyall/wc26-mcp).
 
 ## License
 
