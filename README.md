@@ -78,6 +78,7 @@ npx -y wc26-mcp
 | `get_teams` | All 48 qualified nations with FIFA rankings and confederations | `group`, `confederation`, `is_host` |
 | `get_groups` | Group details with teams, venues, and match schedules | `group` |
 | `get_venues` | 16 stadiums across USA, Mexico, and Canada with weather data | `country`, `city`, `region` |
+| `get_nearby_venues` | Find venues near a given venue, sorted by distance in miles/km | `venue`, `limit` |
 | `get_schedule` | Tournament schedule organized by date with timezone conversion | `date_from`, `date_to`, `timezone` |
 
 ## Example Prompts
@@ -90,6 +91,7 @@ npx -y wc26-mcp
 - "What's the schedule for the knockout rounds?"
 - "Which matches are at MetLife Stadium?"
 - "Show me tomorrow's matches in my timezone (America/New_York)"
+- "What venues are closest to MetLife Stadium?"
 
 ## Data Notes
 

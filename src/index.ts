@@ -46,6 +46,18 @@ function venueName(id: string): string {
   return v ? `${v.name}, ${v.city}` : id;
 }
 
+function haversineDistance(lat1: number, lng1: number, lat2: number, lng2: number): { miles: number; km: number } {
+  const R = 6371; // Earth radius in km
+  const toRad = (d: number) => (d * Math.PI) / 180;
+  const dLat = toRad(lat2 - lat1);
+  const dLng = toRad(lng2 - lng1);
+  const a =
+    Math.sin(dLat / 2) ** 2 +
+    Math.cos(toRad(lat1)) * Math.cos(toRad(lat2)) * Math.sin(dLng / 2) ** 2;
+  const km = R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+  return { miles: Math.round(km * 0.621371), km: Math.round(km) };
+}
+
 function convertTime(date: string, timeUtc: string, timezone: string): { date: string; time: string } {
   const dt = new Date(`${date}T${timeUtc}:00Z`);
   const formatter = new Intl.DateTimeFormat("en-CA", {
@@ -445,6 +457,66 @@ server.registerTool("get_team_profile", {
     related_tools: [
       "Use get_matches with team filter to see this team's match schedule",
       "Use get_groups to see this team's group rivals and venue assignments",
+    ],
+  });
+});
+
+// ── Tool: get_nearby_venues ──────────────────────────────────────────
+
+server.registerTool("get_nearby_venues", {
+  title: "Get Nearby Venues",
+  description:
+    "Find venues near a given World Cup venue, sorted by distance. Useful for planning multi-match trips. Returns distance in miles and kilometers between all venue pairs.",
+  inputSchema: z.object({
+    venue: z
+      .string()
+      .describe("Venue ID (e.g. 'metlife', 'azteca', 'sofi'). Use get_venues to see all IDs."),
+    limit: z
+      .number()
+      .optional()
+      .describe("Max number of nearby venues to return. Defaults to all 15."),
+  }),
+}, async (args) => {
+  const origin = venues.find((v) => v.id === args.venue.toLowerCase());
+
+  if (!origin) {
+    return json({
+      error: `Venue '${args.venue}' not found.`,
+      suggestion: "Use the get_venues tool to see all available venues and their IDs.",
+    });
+  }
+
+  const nearby = venues
+    .filter((v) => v.id !== origin.id)
+    .map((v) => {
+      const dist = haversineDistance(
+        origin.coordinates.lat, origin.coordinates.lng,
+        v.coordinates.lat, v.coordinates.lng
+      );
+      return {
+        id: v.id,
+        name: v.name,
+        city: v.city,
+        country: v.country,
+        distance_miles: dist.miles,
+        distance_km: dist.km,
+      };
+    })
+    .sort((a, b) => a.distance_miles - b.distance_miles);
+
+  const limited = args.limit ? nearby.slice(0, args.limit) : nearby;
+
+  return json({
+    origin: {
+      id: origin.id,
+      name: origin.name,
+      city: origin.city,
+      country: origin.country,
+    },
+    nearby_venues: limited,
+    related_tools: [
+      "Use get_venues to see full venue details including weather and capacity",
+      "Use get_matches with venue filter to see matches at a specific venue",
     ],
   });
 });
