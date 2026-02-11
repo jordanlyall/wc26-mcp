@@ -1171,7 +1171,20 @@ server.registerTool("get_fan_zones", {
 
   if (args.city) {
     const city = args.city.toLowerCase();
-    results = results.filter((fz) => fz.city.toLowerCase().includes(city));
+    const cityMatches = results.filter((fz) => fz.city.toLowerCase().includes(city));
+    if (cityMatches.length > 0) {
+      // Also include sibling zones sharing the same venue_id (e.g. NYNJ metro has 3 zones)
+      const venueIds = new Set(cityMatches.map((fz) => fz.venue_id));
+      results = results.filter((fz) => venueIds.has(fz.venue_id));
+    } else {
+      // Try matching via venue name/city for alternate names
+      const matchingVenue = venues.find((v) =>
+        v.city.toLowerCase().includes(city) || v.name.toLowerCase().includes(city)
+      );
+      results = matchingVenue
+        ? results.filter((fz) => fz.venue_id === matchingVenue.id)
+        : [];
+    }
   }
 
   if (results.length === 0) {
