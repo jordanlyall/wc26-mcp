@@ -178,14 +178,17 @@ server.registerTool("get_matches", {
   inputSchema: z.object({
     date: z
       .string()
+      .regex(/^\d{4}-\d{2}-\d{2}$/, "Date must be YYYY-MM-DD format")
       .optional()
       .describe("Exact date in YYYY-MM-DD format"),
     date_from: z
       .string()
+      .regex(/^\d{4}-\d{2}-\d{2}$/, "Date must be YYYY-MM-DD format")
       .optional()
       .describe("Start of date range (YYYY-MM-DD), inclusive"),
     date_to: z
       .string()
+      .regex(/^\d{4}-\d{2}-\d{2}$/, "Date must be YYYY-MM-DD format")
       .optional()
       .describe("End of date range (YYYY-MM-DD), inclusive"),
     team: z
@@ -229,17 +232,37 @@ server.registerTool("get_matches", {
   }
   if (args.team) {
     const team = resolveTeam(args.team);
-    const teamId = team?.id ?? args.team.toLowerCase();
+    if (!team) {
+      return json({
+        error: `Team '${args.team}' not found.`,
+        suggestion: "Use the get_teams tool to see all available teams and their IDs.",
+      });
+    }
     result = result.filter(
-      (m) => m.home_team_id === teamId || m.away_team_id === teamId
+      (m) => m.home_team_id === team.id || m.away_team_id === team.id
     );
   }
   if (args.group) {
+    const groupLetter = args.group.toUpperCase();
+    const validGroups = [...new Set(matches.map((m) => m.group).filter(Boolean))];
+    if (!validGroups.includes(groupLetter)) {
+      return json({
+        error: `Group '${args.group}' not found.`,
+        suggestion: `Valid groups: ${validGroups.sort().join(", ")}. Use the get_groups tool for full group details.`,
+      });
+    }
     result = result.filter(
-      (m) => m.group?.toUpperCase() === args.group!.toUpperCase()
+      (m) => m.group?.toUpperCase() === groupLetter
     );
   }
   if (args.venue) {
+    const venueExists = venues.some((v) => v.id === args.venue);
+    if (!venueExists) {
+      return json({
+        error: `Venue '${args.venue}' not found.`,
+        suggestion: "Use the get_venues tool to see all available venues and their IDs.",
+      });
+    }
     result = result.filter((m) => m.venue_id === args.venue);
   }
   if (args.round) {
@@ -386,10 +409,12 @@ server.registerTool("get_schedule", {
   inputSchema: z.object({
     date_from: z
       .string()
+      .regex(/^\d{4}-\d{2}-\d{2}$/, "Date must be YYYY-MM-DD format")
       .optional()
       .describe("Start date (YYYY-MM-DD), defaults to tournament start (2026-06-11)"),
     date_to: z
       .string()
+      .regex(/^\d{4}-\d{2}-\d{2}$/, "Date must be YYYY-MM-DD format")
       .optional()
       .describe("End date (YYYY-MM-DD), defaults to tournament end (2026-07-19)"),
     timezone: z
@@ -801,6 +826,7 @@ server.registerTool("what_to_know_now", {
   inputSchema: z.object({
     date: z
       .string()
+      .regex(/^\d{4}-\d{2}-\d{2}$/, "Date must be YYYY-MM-DD format")
       .optional()
       .describe("Override date in YYYY-MM-DD format (for testing different phases). Defaults to today."),
     timezone: z
