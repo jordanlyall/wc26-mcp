@@ -30,6 +30,9 @@
   ],
   "author": "Jordan Lyall",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jordanlyall/wc26-mcp/issues"
+  },
   "engines": {
     "node": ">=18"
   },

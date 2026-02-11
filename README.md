@@ -1,5 +1,8 @@
 # wc26-mcp
 
+[![npm version](https://img.shields.io/npm/v/wc26-mcp.svg)](https://www.npmjs.com/package/wc26-mcp)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 MCP server for FIFA World Cup 2026 data — 104 matches, 48 teams, 16 venues, 12 groups. All data included, no API keys needed.
 
 ## Quick Start
@@ -25,15 +28,43 @@ Add to your `claude_desktop_config.json`:
 claude mcp add wc26 -- npx -y wc26-mcp
 ```
 
-### Cursor / Other MCP Clients
+### Cursor
 
-Run the server directly:
+Add to `.cursor/mcp.json`:
+
+```json
+{
+  "mcpServers": {
+    "wc26": {
+      "command": "npx",
+      "args": ["-y", "wc26-mcp"]
+    }
+  }
+}
+```
+
+### Windsurf
+
+Add to `~/.codeium/windsurf/mcp_config.json`:
+
+```json
+{
+  "mcpServers": {
+    "wc26": {
+      "command": "npx",
+      "args": ["-y", "wc26-mcp"]
+    }
+  }
+}
+```
+
+### Other MCP Clients
+
+The server communicates over stdio using the [Model Context Protocol](https://modelcontextprotocol.io):
 
 ```bash
 npx -y wc26-mcp
 ```
-
-The server communicates over stdio using the [Model Context Protocol](https://modelcontextprotocol.io).
 
 ## Tools
 

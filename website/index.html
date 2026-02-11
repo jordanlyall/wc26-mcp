@@ -5,6 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>WC26 MCP - FIFA World Cup 2026 Data for AI</title>
   <meta name="description" content="An MCP server with comprehensive FIFA World Cup 2026 data. Matches, teams, venues, groups, and schedules - ready for Claude, ChatGPT, and any MCP-compatible AI.">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="WC26 MCP - FIFA World Cup 2026 Data for AI">
+  <meta property="og:description" content="An MCP server with comprehensive FIFA World Cup 2026 data. 104 matches, 48 teams, 16 venues, 12 groups - ready for Claude, ChatGPT, and any MCP-compatible AI.">
+  <meta property="og:url" content="https://wc26-mcp.vercel.app">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="WC26 MCP - FIFA World Cup 2026 Data for AI">
+  <meta name="twitter:description" content="An MCP server with comprehensive FIFA World Cup 2026 data. 104 matches, 48 teams, 16 venues, 12 groups.">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -582,6 +594,36 @@
     </div>
     <div class="step">
       <div class="step-num">3</div>
+      <div class="step-content">
+        <h3>Cursor</h3>
+        <p>Add to your <code>.cursor/mcp.json</code>:</p>
+        <div class="step-code">{
+  "mcpServers": {
+    "wc26": {
+      "command": "npx",
+      "args": ["-y", "wc26-mcp"]
+    }
+  }
+}</div>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step-num">4</div>
+      <div class="step-content">
+        <h3>Windsurf</h3>
+        <p>Add to your <code>~/.codeium/windsurf/mcp_config.json</code>:</p>
+        <div class="step-code">{
+  "mcpServers": {
+    "wc26": {
+      "command": "npx",
+      "args": ["-y", "wc26-mcp"]
+    }
+  }
+}</div>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step-num">5</div>
       <div class="step-content">
         <h3>Ask away</h3>
         <p>Start asking about World Cup 2026:</p>
