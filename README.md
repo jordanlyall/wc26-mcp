@@ -5,7 +5,7 @@
 
 MCP server for FIFA World Cup 2026 data — 104 matches, 48 teams, 16 venues, 12 groups. Team profiles, city guides, historical head-to-head records, timezone support, and a smart briefing tool that knows what's relevant right now. All data included, no API keys needed.
 
-**[Website](https://wc26-mcp.vercel.app)** | **[npm](https://www.npmjs.com/package/wc26-mcp)**
+**[Website](https://wc26.ai)** | **[npm](https://www.npmjs.com/package/wc26-mcp)**
 
 ## Quick Start
 
