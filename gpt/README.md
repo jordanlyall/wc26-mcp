@@ -49,27 +49,9 @@ This directory contains everything needed to create a **FIFA World Cup 2026 Comp
 2. Choose your publishing preference (Only me, Anyone with a link, or Public)
 3. Click **Save** / **Update**
 
-## API Deployment
+## API
 
-The OpenAPI spec uses `https://api.wc26.ai` as the server URL. This is a **placeholder** -- you need to deploy an actual API that serves these endpoints before the GPT actions will work.
-
-### Recommended: Vercel Serverless Functions
-
-Since the WC26 MCP server uses static bundled data with zero runtime dependencies, the simplest deployment path is Vercel serverless functions wrapping the same data:
-
-1. Create API route handlers in `/api/matches.ts`, `/api/teams.ts`, etc.
-2. Each handler imports the same data files from `src/data/`
-3. Parse query parameters and apply the same filtering logic from `src/index.ts`
-4. Return JSON responses
-5. Deploy to Vercel and point `api.wc26.ai` to the deployment
-
-The project already has a `vercel.json` in the root, so it may already be partially configured for deployment.
-
-### Alternative Options
-
-- **Cloudflare Workers** -- lightweight, global edge deployment
-- **AWS Lambda + API Gateway** -- if you prefer AWS
-- **Express/Fastify server** -- wrap the data in a simple Node.js HTTP server
+The OpenAPI spec points to `https://wc26.ai/api` — the live REST API deployed on Vercel as serverless functions. All 12 endpoints are active and serving public data with no authentication required.
 
 ## Links
 

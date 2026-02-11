@@ -13,7 +13,7 @@ Ask your AI anything about the 2026 World Cup and get real answers. 12 tools cov
 
 Works with **Claude Desktop** · **Claude Code** · **Cursor** · **Windsurf** · **ChatGPT** · any MCP client
 
-**[Website](https://wc26.ai)** | **[npm](https://www.npmjs.com/package/wc26-mcp)** | **[MCP Registry](https://registry.modelcontextprotocol.io)**
+**[Website](https://wc26.ai)** | **[npm](https://www.npmjs.com/package/wc26-mcp)** | **[ChatGPT GPT](https://chatgpt.com/g/g-698d038f171481919ada44947304a196-world-cup-2026-companion)** | **[MCP Registry](https://registry.modelcontextprotocol.io)**
 
 ## Quick Start
 
@@ -67,6 +67,12 @@ Add to `~/.codeium/windsurf/mcp_config.json`:
   }
 }
 ```
+
+### ChatGPT
+
+No setup needed — use the GPT directly:
+
+**[Open World Cup 2026 Companion](https://chatgpt.com/g/g-698d038f171481919ada44947304a196-world-cup-2026-companion)**
 
 ### Other MCP Clients
 
