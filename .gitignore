@@ -4,3 +4,6 @@ dist/
 .DS_Store
 .env
 .vercel
+*.mcpb
+mcpb-build/
+awesome-mcp-servers/
