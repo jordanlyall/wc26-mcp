@@ -464,6 +464,7 @@ server.registerTool("get_team_profile", {
     related_tools: [
       "Use get_matches with team filter to see this team's match schedule",
       "Use get_groups to see this team's group rivals and venue assignments",
+      "Use get_visa_info to check entry requirements for this team's fans traveling to host countries",
     ],
   });
 });
@@ -611,7 +612,7 @@ server.registerTool("get_city_guide", {
     related_tools: [
       "Use get_matches with venue filter to see matches at this venue",
       "Use get_nearby_venues to find other stadiums near this city",
-      "Use get_schedule to see when matches are played here",
+      "Use get_visa_info to check entry requirements for fans traveling to this country",
     ],
   });
 });
@@ -991,6 +992,7 @@ server.registerTool("what_to_know_now", {
       "Use get_groups to explore group compositions and match schedules",
       "Use get_venues to explore stadiums and host cities",
       "Use get_schedule to see the full tournament calendar",
+      "Use get_visa_info to check entry requirements for any team's fans",
     );
   } else if (phase === "group_stage") {
     available_tools.push(
