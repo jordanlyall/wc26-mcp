@@ -83,6 +83,7 @@ npx -y wc26-mcp
 | `get_nearby_venues` | Find venues near a given venue, sorted by distance in miles/km | `venue`, `limit` |
 | `get_schedule` | Tournament schedule organized by date with timezone conversion | `date_from`, `date_to`, `timezone` |
 | `get_visa_info` | Entry requirements (visa, ESTA, eTA) for any team's nationals entering host countries | `team`, `host_country` |
+| `get_fan_zones` | Official FIFA Fan Festival locations across all 16 host cities with capacity, hours, activities, and transit tips | `city`, `country`, `venue_id` |
 
 ## Example Prompts
 
@@ -98,6 +99,7 @@ npx -y wc26-mcp
 - "Give me a city guide for Dallas"
 - "What's the World Cup history between Argentina and England?"
 - "Do Iranian fans need a visa to attend matches in the US?"
+- "Where are the fan zones in Dallas?"
 
 ## Data Notes
 

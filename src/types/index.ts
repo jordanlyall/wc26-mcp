@@ -169,3 +169,23 @@ export interface HistoricalMatchup {
   summary: string;
   meetings: HistoricalMeeting[];
 }
+
+export interface FanZone {
+  id: string;
+  venue_id: string;
+  city: string;
+  country: "USA" | "Mexico" | "Canada";
+  name: string;
+  location: string;
+  address: string;
+  coordinates: { lat: number; lng: number };
+  capacity: number;
+  free_entry: boolean;
+  hours: string;
+  activities: string[];
+  highlights: string;
+  transportation: string;
+  amenities: string[];
+  family_friendly: boolean;
+  status: "confirmed" | "expected";
+}

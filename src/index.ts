@@ -12,6 +12,7 @@ import { teamProfiles } from "./data/team-profiles.js";
 import { cityGuides } from "./data/city-guides.js";
 import { historicalMatchups } from "./data/historical-matchups.js";
 import { visaInfo } from "./data/visa-info.js";
+import { fanZones } from "./data/fan-zones.js";
 
 import type {
   Match,
@@ -24,6 +25,7 @@ import type {
   CityGuide,
   HistoricalMatchup,
   TeamVisaInfo,
+  FanZone,
 } from "./types/index.js";
 
 // ── Server setup ────────────────────────────────────────────────────
@@ -613,6 +615,7 @@ server.registerTool("get_city_guide", {
       "Use get_matches with venue filter to see matches at this venue",
       "Use get_nearby_venues to find other stadiums near this city",
       "Use get_visa_info to check entry requirements for fans traveling to this country",
+      "Use get_fan_zones to find fan festival locations in this city",
     ],
   });
 });
@@ -1076,6 +1079,79 @@ server.registerTool("get_visa_info", {
       "Use get_city_guide for travel tips in each host city",
       "Use get_matches with team filter to see where this team plays",
       "Use get_venues to check which countries host their matches",
+    ],
+  });
+});
+
+// ── Tool: get_fan_zones ─────────────────────────────────────────────
+
+server.registerTool("get_fan_zones", {
+  title: "Get Fan Zones",
+  description:
+    "Official FIFA Fan Festival and fan zone locations for World Cup 2026 host cities. Returns venue details, capacity, hours, activities, transportation tips, and amenities. Filter by city, country, or match venue.",
+  inputSchema: z.object({
+    city: z
+      .string()
+      .optional()
+      .describe("Filter by city name (e.g. 'Dallas', 'Mexico City', 'Toronto'). Case-insensitive."),
+    country: z
+      .enum(["USA", "Mexico", "Canada"])
+      .optional()
+      .describe("Filter by host country."),
+    venue_id: z
+      .string()
+      .optional()
+      .describe("Filter by match venue ID (e.g. 'metlife', 'azteca'). Returns fan zones associated with that stadium's city."),
+  }),
+}, async (args) => {
+  let results = fanZones;
+
+  if (args.venue_id) {
+    results = results.filter((fz) => fz.venue_id === args.venue_id);
+  }
+
+  if (args.country) {
+    results = results.filter((fz) => fz.country === args.country);
+  }
+
+  if (args.city) {
+    const city = args.city.toLowerCase();
+    results = results.filter((fz) => fz.city.toLowerCase().includes(city));
+  }
+
+  if (results.length === 0) {
+    return json({
+      error: "No fan zones found matching your criteria.",
+      suggestion: "Try get_fan_zones without filters to see all 18 fan zones, or use get_venues to find valid venue IDs.",
+      available_countries: ["USA", "Mexico", "Canada"],
+    });
+  }
+
+  return json({
+    count: results.length,
+    fan_zones: results.map((fz) => ({
+      id: fz.id,
+      name: fz.name,
+      city: fz.city,
+      country: fz.country,
+      location: fz.location,
+      address: fz.address,
+      coordinates: fz.coordinates,
+      capacity: fz.capacity,
+      free_entry: fz.free_entry,
+      hours: fz.hours,
+      activities: fz.activities,
+      highlights: fz.highlights,
+      transportation: fz.transportation,
+      amenities: fz.amenities,
+      family_friendly: fz.family_friendly,
+      status: fz.status,
+      match_venue: venueName(fz.venue_id),
+    })),
+    related_tools: [
+      "Use get_city_guide for full travel info on any host city",
+      "Use get_venues to see stadium details",
+      "Use get_visa_info for entry requirements",
     ],
   });
 });
