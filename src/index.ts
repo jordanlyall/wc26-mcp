@@ -386,7 +386,7 @@ server.registerTool("get_venues", {
   }
   if (args.city) {
     result = result.filter(
-      (v) => v.city.toLowerCase() === args.city!.toLowerCase()
+      (v) => v.city.toLowerCase().includes(args.city!.toLowerCase())
     );
   }
   if (args.region) {
@@ -594,7 +594,7 @@ server.registerTool("get_city_guide", {
 
   // Try city name
   if (!venue) {
-    venue = venues.find((v) => v.city.toLowerCase() === query);
+    venue = venues.find((v) => v.city.toLowerCase().includes(query));
     if (venue) {
       guide = cityGuides.find((g) => g.venue_id === venue!.id);
     }
