@@ -1,5 +1,13 @@
 // Core types for WC26 MCP Server
 
+export interface VenueWeather {
+  june_avg_high_f: number;
+  june_avg_low_f: number;
+  july_avg_high_f: number;
+  july_avg_low_f: number;
+  description: string; // e.g. "Hot and humid with afternoon thunderstorms"
+}
+
 export interface Venue {
   id: string;
   name: string;
@@ -16,6 +24,7 @@ export interface Venue {
   region: "Western" | "Central" | "Eastern";
   image_url?: string;
   notable: string[];
+  weather: VenueWeather;
 }
 
 export interface Team {

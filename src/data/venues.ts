@@ -14,6 +14,7 @@ export const venues: Venue[] = [
     timezone: "America/New_York",
     region: "Eastern",
     notable: ["Final (July 19)", "Multiple group stage matches"],
+    weather: { june_avg_high_f: 80, june_avg_low_f: 62, july_avg_high_f: 85, july_avg_low_f: 67, description: "Warm and humid with occasional thunderstorms" },
   },
   {
     id: "sofi",
@@ -27,6 +28,7 @@ export const venues: Venue[] = [
     timezone: "America/Los_Angeles",
     region: "Western",
     notable: ["USA opening match (June 12)"],
+    weather: { june_avg_high_f: 75, june_avg_low_f: 62, july_avg_high_f: 81, july_avg_low_f: 65, description: "Mild and dry with morning marine layer" },
   },
   {
     id: "att",
@@ -43,6 +45,7 @@ export const venues: Venue[] = [
       "Most matches of any venue (9 total)",
       "Semi-final (July 14)",
     ],
+    weather: { june_avg_high_f: 93, june_avg_low_f: 72, july_avg_high_f: 97, july_avg_low_f: 75, description: "Very hot with intense sun and occasional severe storms" },
   },
   {
     id: "hard_rock",
@@ -56,6 +59,7 @@ export const venues: Venue[] = [
     timezone: "America/New_York",
     region: "Eastern",
     notable: ["Third-place playoff (July 18)"],
+    weather: { june_avg_high_f: 90, june_avg_low_f: 76, july_avg_high_f: 91, july_avg_low_f: 77, description: "Hot and humid with daily afternoon thunderstorms" },
   },
   {
     id: "mercedes_benz",
@@ -69,6 +73,7 @@ export const venues: Venue[] = [
     timezone: "America/New_York",
     region: "Eastern",
     notable: ["Semi-final (July 15)"],
+    weather: { june_avg_high_f: 88, june_avg_low_f: 68, july_avg_high_f: 90, july_avg_low_f: 72, description: "Hot and humid with frequent afternoon thunderstorms" },
   },
   {
     id: "gillette",
@@ -82,6 +87,7 @@ export const venues: Venue[] = [
     timezone: "America/New_York",
     region: "Eastern",
     notable: ["Multiple group stage matches"],
+    weather: { june_avg_high_f: 76, june_avg_low_f: 57, july_avg_high_f: 82, july_avg_low_f: 63, description: "Warm and pleasant with occasional rain" },
   },
   {
     id: "nrg",
@@ -95,6 +101,7 @@ export const venues: Venue[] = [
     timezone: "America/Chicago",
     region: "Central",
     notable: [],
+    weather: { june_avg_high_f: 93, june_avg_low_f: 74, july_avg_high_f: 95, july_avg_low_f: 76, description: "Very hot and humid with oppressive heat index" },
   },
   {
     id: "arrowhead",
@@ -108,6 +115,7 @@ export const venues: Venue[] = [
     timezone: "America/Chicago",
     region: "Central",
     notable: [],
+    weather: { june_avg_high_f: 86, june_avg_low_f: 65, july_avg_high_f: 91, july_avg_low_f: 70, description: "Warm and humid with occasional severe thunderstorms" },
   },
   {
     id: "lincoln",
@@ -121,6 +129,7 @@ export const venues: Venue[] = [
     timezone: "America/New_York",
     region: "Eastern",
     notable: [],
+    weather: { june_avg_high_f: 83, june_avg_low_f: 64, july_avg_high_f: 87, july_avg_low_f: 69, description: "Warm and humid with afternoon thunderstorms" },
   },
   {
     id: "levis",
@@ -134,6 +143,7 @@ export const venues: Venue[] = [
     timezone: "America/Los_Angeles",
     region: "Western",
     notable: [],
+    weather: { june_avg_high_f: 79, june_avg_low_f: 56, july_avg_high_f: 82, july_avg_low_f: 58, description: "Warm and dry with clear skies" },
   },
   {
     id: "lumen",
@@ -147,6 +157,7 @@ export const venues: Venue[] = [
     timezone: "America/Los_Angeles",
     region: "Western",
     notable: [],
+    weather: { june_avg_high_f: 69, june_avg_low_f: 53, july_avg_high_f: 75, july_avg_low_f: 57, description: "Mild and comfortable with low humidity" },
   },
 
   // ── MEXICO (3 venues) ──────────────────────────────────────
@@ -166,6 +177,7 @@ export const venues: Venue[] = [
       "Third stadium to host 3 WC opening matches (1970, 1986, 2026)",
       "Largest capacity venue in the tournament",
     ],
+    weather: { june_avg_high_f: 77, june_avg_low_f: 54, july_avg_high_f: 74, july_avg_low_f: 53, description: "Mild at altitude with afternoon rain showers during rainy season" },
   },
   {
     id: "akron",
@@ -179,6 +191,7 @@ export const venues: Venue[] = [
     timezone: "America/Mexico_City",
     region: "Western",
     notable: [],
+    weather: { june_avg_high_f: 86, june_avg_low_f: 63, july_avg_high_f: 82, july_avg_low_f: 61, description: "Warm with afternoon thunderstorms during rainy season" },
   },
   {
     id: "bbva",
@@ -192,6 +205,7 @@ export const venues: Venue[] = [
     timezone: "America/Monterrey",
     region: "Central",
     notable: [],
+    weather: { june_avg_high_f: 95, june_avg_low_f: 73, july_avg_high_f: 96, july_avg_low_f: 74, description: "Very hot and humid with intense summer heat" },
   },
 
   // ── CANADA (2 venues) ──────────────────────────────────────
@@ -207,6 +221,7 @@ export const venues: Venue[] = [
     timezone: "America/Toronto",
     region: "Eastern",
     notable: ["Canada opening match (June 12)"],
+    weather: { june_avg_high_f: 77, june_avg_low_f: 57, july_avg_high_f: 81, july_avg_low_f: 62, description: "Warm and pleasant with occasional humidity" },
   },
   {
     id: "bc_place",
@@ -220,5 +235,6 @@ export const venues: Venue[] = [
     timezone: "America/Vancouver",
     region: "Western",
     notable: [],
+    weather: { june_avg_high_f: 67, june_avg_low_f: 53, july_avg_high_f: 72, july_avg_low_f: 57, description: "Mild and comfortable with low humidity and long daylight" },
   },
 ];
