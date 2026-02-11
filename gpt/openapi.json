@@ -15,7 +15,7 @@
   },
   "servers": [
     {
-      "url": "https://api.wc26.ai",
+      "url": "https://wc26.ai/api",
       "description": "WC26 API (production)"
     }
   ],

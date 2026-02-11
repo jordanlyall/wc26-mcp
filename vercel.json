@@ -1,4 +1,26 @@
 {
   "outputDirectory": "website",
-  "cleanUrls": true
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/api/matches", "destination": "/api/matches" },
+    { "source": "/api/teams", "destination": "/api/teams" },
+    { "source": "/api/groups", "destination": "/api/groups" },
+    { "source": "/api/venues", "destination": "/api/venues" },
+    { "source": "/api/schedule", "destination": "/api/schedule" },
+    { "source": "/api/team-profile", "destination": "/api/team-profile" },
+    { "source": "/api/city-guide", "destination": "/api/city-guide" },
+    { "source": "/api/historical-matchups", "destination": "/api/historical-matchups" },
+    { "source": "/api/nearby-venues", "destination": "/api/nearby-venues" },
+    { "source": "/api/visa-info", "destination": "/api/visa-info" },
+    { "source": "/api/fan-zones", "destination": "/api/fan-zones" },
+    { "source": "/api/what-to-know-now", "destination": "/api/what-to-know-now" }
+  ],
+  "headers": [
+    {
+      "source": "/api/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, s-maxage=3600, stale-while-revalidate=86400" }
+      ]
+    }
+  ]
 }
