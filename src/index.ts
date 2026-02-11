@@ -66,21 +66,25 @@ function haversineDistance(lat1: number, lng1: number, lat2: number, lng2: numbe
   return { miles: Math.round(km * 0.621371), km: Math.round(km) };
 }
 
-function convertTime(date: string, timeUtc: string, timezone: string): { date: string; time: string } {
-  const dt = new Date(`${date}T${timeUtc}:00Z`);
-  const formatter = new Intl.DateTimeFormat("en-CA", {
-    timeZone: timezone,
-    year: "numeric", month: "2-digit", day: "2-digit",
-    hour: "2-digit", minute: "2-digit",
-    hour12: false,
-  });
-  const parts = Object.fromEntries(
-    formatter.formatToParts(dt).map((p) => [p.type, p.value])
-  );
-  return {
-    date: `${parts.year}-${parts.month}-${parts.day}`,
-    time: `${parts.hour}:${parts.minute}`,
-  };
+function convertTime(date: string, timeUtc: string, timezone: string): { date: string; time: string; error?: string } {
+  try {
+    const dt = new Date(`${date}T${timeUtc}:00Z`);
+    const formatter = new Intl.DateTimeFormat("en-CA", {
+      timeZone: timezone,
+      year: "numeric", month: "2-digit", day: "2-digit",
+      hour: "2-digit", minute: "2-digit",
+      hour12: false,
+    });
+    const parts = Object.fromEntries(
+      formatter.formatToParts(dt).map((p) => [p.type, p.value])
+    );
+    return {
+      date: `${parts.year}-${parts.month}-${parts.day}`,
+      time: `${parts.hour}:${parts.minute}`,
+    };
+  } catch {
+    return { date, time: timeUtc, error: `Invalid timezone "${timezone}". Use IANA format like "America/New_York" or "Europe/London".` };
+  }
 }
 
 function resolveTeam(input: string): Team | undefined {

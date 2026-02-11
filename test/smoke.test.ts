@@ -64,14 +64,15 @@ describe("referential integrity", () => {
   });
 
   it("every match references valid teams (or TBD/knockout placeholder)", () => {
+    const knockoutPrefixes = ["W", "L", "R", "1", "2", "3"];
     for (const m of matches) {
-      const home = m.home_team;
-      const away = m.away_team;
-      if (home && !home.startsWith("Winner") && !home.startsWith("Loser") && !home.startsWith("Runner") && !home.startsWith("1") && !home.startsWith("2")) {
-        assert.ok(teamIds.has(home), `Match ${m.match_number}: invalid home_team "${home}"`);
+      const home = m.home_team_id;
+      const away = m.away_team_id;
+      if (home && !knockoutPrefixes.some((p) => home.startsWith(p))) {
+        assert.ok(teamIds.has(home), `Match ${m.match_number}: invalid home_team_id "${home}"`);
       }
-      if (away && !away.startsWith("Winner") && !away.startsWith("Loser") && !away.startsWith("Runner") && !away.startsWith("1") && !away.startsWith("2")) {
-        assert.ok(teamIds.has(away), `Match ${m.match_number}: invalid away_team "${away}"`);
+      if (away && !knockoutPrefixes.some((p) => away.startsWith(p))) {
+        assert.ok(teamIds.has(away), `Match ${m.match_number}: invalid away_team_id "${away}"`);
       }
     }
   });
@@ -166,6 +167,22 @@ describe("data quality", () => {
     for (const fz of fanZones) {
       assert.ok(fz.coordinates.lat >= -90 && fz.coordinates.lat <= 90, `${fz.id}: invalid latitude`);
       assert.ok(fz.coordinates.lng >= -180 && fz.coordinates.lng <= 180, `${fz.id}: invalid longitude`);
+    }
+  });
+
+  it("every group has 6 unique pairings (no duplicate matchups)", () => {
+    const groupMatches = matches.filter((m) => m.round === "Group Stage");
+    const byGroup = new Map<string, Set<string>>();
+    for (const m of groupMatches) {
+      if (!m.group) continue;
+      if (!byGroup.has(m.group)) byGroup.set(m.group, new Set());
+      const pair = [m.home_team_id, m.away_team_id].sort().join("-");
+      const set = byGroup.get(m.group)!;
+      assert.ok(!set.has(pair), `Group ${m.group}: duplicate pairing ${pair} (match ${m.match_number})`);
+      set.add(pair);
+    }
+    for (const [group, pairings] of byGroup) {
+      assert.equal(pairings.size, 6, `Group ${group}: expected 6 unique pairings, got ${pairings.size}`);
     }
   });
 
