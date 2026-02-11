@@ -4,18 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>WC26 MCP - FIFA World Cup 2026 Data for AI</title>
-  <meta name="description" content="An MCP server with comprehensive FIFA World Cup 2026 data. Matches, teams, venues, groups, and schedules - ready for Claude, ChatGPT, and any MCP-compatible AI.">
+  <meta name="description" content="10 MCP tools for FIFA World Cup 2026. Team profiles, city guides, head-to-head records, smart briefings, and full match data — zero API keys, works with any MCP client.">
 
   <!-- Open Graph -->
   <meta property="og:type" content="website">
   <meta property="og:title" content="WC26 MCP - FIFA World Cup 2026 Data for AI">
-  <meta property="og:description" content="An MCP server with comprehensive FIFA World Cup 2026 data. 104 matches, 48 teams, 16 venues, 12 groups - ready for Claude, ChatGPT, and any MCP-compatible AI.">
+  <meta property="og:description" content="10 MCP tools for FIFA World Cup 2026. Team profiles, city guides, head-to-head records, smart briefings, and full match data — zero API keys, works with any MCP client.">
   <meta property="og:url" content="https://wc26-mcp.vercel.app">
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="WC26 MCP - FIFA World Cup 2026 Data for AI">
-  <meta name="twitter:description" content="An MCP server with comprehensive FIFA World Cup 2026 data. 104 matches, 48 teams, 16 venues, 12 groups.">
+  <meta name="twitter:description" content="10 MCP tools for FIFA World Cup 2026. Team profiles, city guides, head-to-head records, smart briefings, and full match data — zero API keys.">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -427,12 +427,90 @@
     }
     .footer-links a:hover { color: var(--text); }
 
+    /* Demo section */
+    .demo-section {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 5rem 1.5rem 2rem;
+    }
+    .demo-section .section-label {
+      text-align: center;
+      margin-bottom: 0.5rem;
+    }
+    .demo-section h2 {
+      text-align: center;
+      font-size: 2rem;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      margin-bottom: 2.5rem;
+    }
+    .demo-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin-bottom: 1.25rem;
+    }
+    .demo-prompt {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--gold);
+      border-left: 3px solid var(--gold);
+      padding-left: 0.75rem;
+      margin-bottom: 1rem;
+    }
+    .demo-response {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.5rem 1.5rem;
+    }
+    .demo-response > div {
+      display: flex;
+      flex-direction: column;
+    }
+    .demo-label {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--text-muted);
+      margin-bottom: 0.1rem;
+    }
+    .demo-value {
+      font-size: 0.9rem;
+      color: var(--text);
+      font-weight: 500;
+    }
+
+    /* Prompt pills */
+    .prompt-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+      margin-top: 3rem;
+    }
+    .prompt-pill {
+      font-family: 'SF Mono', 'Fira Code', monospace;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 0.5rem 1rem;
+      transition: border-color 0.2s, color 0.2s;
+      cursor: default;
+    }
+    .prompt-pill:hover {
+      border-color: var(--gold);
+      color: var(--text);
+    }
+
     /* Responsive */
     @media (max-width: 640px) {
       .stats { grid-template-columns: repeat(2, 1fr); }
       .hero { padding: 8rem 1.5rem 3rem; }
       .footer-inner { flex-direction: column; gap: 1rem; }
       .nav-links a:not(.btn-sm) { display: none; }
+      .demo-response { grid-template-columns: 1fr; }
     }
   </style>
 </head>
@@ -453,13 +531,11 @@
 <section class="hero">
   <div class="hero-badge">
     <span class="dot"></span>
-    <span>v0.2 &mdash; Rich context layer</span>
+    <span id="countdown-badge">v0.2 &mdash; Rich context layer</span>
   </div>
   <h1>World Cup 2026<br>data for <span class="gradient">AI</span></h1>
   <p class="hero-sub">
-    An MCP server with comprehensive FIFA World Cup 2026 data.
-    Smart briefings, team profiles, city guides, historical matchups, timezone support, and full match data &mdash; ready for
-    Claude, ChatGPT, and any MCP-compatible AI.
+    Ask your AI anything about the World Cup &mdash; schedules, team history, city guides, head-to-head records &mdash; and get real answers. 10 tools, zero API keys, works with any MCP client.
   </p>
   <div class="hero-actions">
     <a href="#setup" class="btn btn-primary">Get Started</a>
@@ -491,6 +567,41 @@
     </div>
   </div>
 </section>
+
+<div class="demo-section">
+  <div class="section-label">See it in action</div>
+  <h2>Natural questions, real answers</h2>
+
+  <div class="demo-card">
+    <div class="demo-prompt">"Brief me on the World Cup"</div>
+    <div class="demo-response">
+      <div><span class="demo-label">Phase</span><span class="demo-value">Pre-Tournament (Playoffs Pending)</span></div>
+      <div><span class="demo-label">Countdown</span><span class="demo-value">120 days to kickoff</span></div>
+      <div><span class="demo-label">Hosts</span><span class="demo-value">USA, Mexico, Canada</span></div>
+      <div><span class="demo-label">Venues</span><span class="demo-value">16 stadiums across 3 countries</span></div>
+    </div>
+  </div>
+
+  <div class="demo-card">
+    <div class="demo-prompt">"What's the history between Argentina and France?"</div>
+    <div class="demo-response">
+      <div><span class="demo-label">Record</span><span class="demo-value">3 meetings &mdash; Argentina 1W, France 1W, 1D</span></div>
+      <div><span class="demo-label">Last match</span><span class="demo-value">2022 Final: Argentina 3-3 (4-2 pens)</span></div>
+      <div><span class="demo-label">Total goals</span><span class="demo-value">11 goals in 3 games</span></div>
+      <div><span class="demo-label">Narrative</span><span class="demo-value">Two of the most dramatic World Cup meetings ever</span></div>
+    </div>
+  </div>
+
+  <div class="demo-card">
+    <div class="demo-prompt">"City guide for Dallas"</div>
+    <div class="demo-response">
+      <div><span class="demo-label">Highlights</span><span class="demo-value">AT&T Stadium, Deep Ellum, Arts District</span></div>
+      <div><span class="demo-label">Food picks</span><span class="demo-value">Tex-Mex, BBQ, craft beer scene</span></div>
+      <div><span class="demo-label">Getting there</span><span class="demo-value">DFW Airport, DART rail to downtown</span></div>
+      <div><span class="demo-label">Local tip</span><span class="demo-value">Summer heat is real &mdash; plan around AC and shade</span></div>
+    </div>
+  </div>
+</div>
 
 <section class="section" id="tools">
   <div class="section-label">Tools</div>
@@ -685,15 +796,14 @@
     </div>
   </div>
 
-  <div class="example-block" style="margin-top: 3rem;">
-    <div class="example-header">Then start asking</div>
-    <div class="example-code" style="color: var(--text); font-family: 'Inter', sans-serif; line-height: 2;">"Brief me on the World Cup"
-"Tell me about Argentina's squad"
-"When does the USA play their first match?"
-"Show me tomorrow's matches in my timezone"
-"What's the weather like in Dallas for the semi-final?"
-"Give me a city guide for Miami"
-"What's the history between Argentina and England?"</div>
+  <div class="prompt-pills">
+    <span class="prompt-pill">"Brief me on the World Cup"</span>
+    <span class="prompt-pill">"Tell me about Argentina's squad"</span>
+    <span class="prompt-pill">"When does the USA play their first match?"</span>
+    <span class="prompt-pill">"Show me tomorrow's matches in my timezone"</span>
+    <span class="prompt-pill">"What's the weather like in Dallas for the semi-final?"</span>
+    <span class="prompt-pill">"Give me a city guide for Miami"</span>
+    <span class="prompt-pill">"What's the history between Argentina and England?"</span>
   </div>
 </section>
 
@@ -707,5 +817,16 @@
   </div>
 </footer>
 
+<script>
+(function() {
+  var kickoff = new Date('2026-06-11T00:00:00');
+  var now = new Date();
+  var days = Math.ceil((kickoff - now) / (1000 * 60 * 60 * 24));
+  var badge = document.getElementById('countdown-badge');
+  if (badge && days > 0) {
+    badge.textContent = days + ' days to kickoff \u2014 June 11, 2026';
+  }
+})();
+</script>
 </body>
 </html>
