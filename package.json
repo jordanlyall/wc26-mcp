@@ -1,7 +1,7 @@
 {
   "name": "wc26-mcp",
-  "version": "0.1.0",
-  "description": "MCP server for FIFA World Cup 2026 data - matches, teams, venues, and more",
+  "version": "0.2.0",
+  "description": "MCP server for FIFA World Cup 2026 data - matches, teams, venues, profiles, briefings, and more",
   "type": "module",
   "bin": {
     "wc26-mcp": "dist/index.js"
