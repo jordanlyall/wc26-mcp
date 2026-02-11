@@ -75,7 +75,7 @@ npx -y wc26-mcp
 | `get_matches` | Query matches with enriched team names, flags, venue details, and timezone conversion | `date`, `date_from`, `date_to`, `team`, `group`, `venue`, `round`, `status`, `timezone` |
 | `get_teams` | All 48 qualified nations with FIFA rankings and confederations | `group`, `confederation`, `is_host` |
 | `get_groups` | Group details with teams, venues, and match schedules | `group` |
-| `get_venues` | 16 stadiums across USA, Mexico, and Canada | `country`, `city`, `region` |
+| `get_venues` | 16 stadiums across USA, Mexico, and Canada with weather data | `country`, `city`, `region` |
 | `get_schedule` | Tournament schedule organized by date with timezone conversion | `date_from`, `date_to`, `timezone` |
 
 ## Example Prompts
@@ -96,6 +96,7 @@ npx -y wc26-mcp
 - Some teams are listed as **TBD** (intercontinental playoff winners)
 - 3 host nations: USA (11 venues), Mexico (3 venues), Canada (2 venues)
 - Team profiles include coach, 3 key players, playing style, and World Cup history for all 48 teams
+- Each venue includes average June/July weather (highs, lows, climate description)
 
 ## License
 
