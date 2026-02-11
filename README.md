@@ -3,7 +3,7 @@
 [![npm version](https://img.shields.io/npm/v/wc26-mcp.svg)](https://www.npmjs.com/package/wc26-mcp)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-MCP server for FIFA World Cup 2026 data — 104 matches, 48 teams, 16 venues, 12 groups. Team profiles, city guides, timezone support, and a smart briefing tool that knows what's relevant right now. All data included, no API keys needed.
+MCP server for FIFA World Cup 2026 data — 104 matches, 48 teams, 16 venues, 12 groups. Team profiles, city guides, historical head-to-head records, timezone support, and a smart briefing tool that knows what's relevant right now. All data included, no API keys needed.
 
 **[Website](https://wc26-mcp.vercel.app)** | **[npm](https://www.npmjs.com/package/wc26-mcp)**
 
@@ -79,6 +79,7 @@ npx -y wc26-mcp
 | `get_groups` | Group details with teams, venues, and match schedules | `group` |
 | `get_venues` | 16 stadiums across USA, Mexico, and Canada with weather data | `country`, `city`, `region` |
 | `get_city_guide` | Travel guide for any host city — highlights, transit, food, things to do, local tips | `city` |
+| `get_historical_matchups` | Head-to-head World Cup history between any two teams with aggregate stats and narrative | `team_a`, `team_b` |
 | `get_nearby_venues` | Find venues near a given venue, sorted by distance in miles/km | `venue`, `limit` |
 | `get_schedule` | Tournament schedule organized by date with timezone conversion | `date_from`, `date_to`, `timezone` |
 
@@ -94,6 +95,7 @@ npx -y wc26-mcp
 - "Show me tomorrow's matches in my timezone (America/New_York)"
 - "What venues are closest to MetLife Stadium?"
 - "Give me a city guide for Dallas"
+- "What's the World Cup history between Argentina and England?"
 
 ## Data Notes
 
@@ -104,6 +106,7 @@ npx -y wc26-mcp
 - Team profiles include coach, 3 key players, playing style, and World Cup history for all 48 teams
 - Each venue includes average June/July weather (highs, lows, climate description)
 - City guides cover all 16 host cities with transit, food, attractions, and local tips
+- Historical matchups cover 30 team pairings with World Cup tournament meeting data
 
 ## License
 

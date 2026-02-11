@@ -131,3 +131,26 @@ export interface CityGuide {
   things_to_do: string[]; // 3-4 attractions/activities
   local_tips: string[]; // 2-3 practical tips
 }
+
+export interface HistoricalMeeting {
+  year: number;
+  host_country: string;
+  round: string;
+  score: string; // team_a score first
+  penalty_score?: string; // only if decided on penalties
+  result: "team_a" | "team_b" | "draw";
+  venue_city: string;
+}
+
+export interface HistoricalMatchup {
+  team_a: string; // team ID, alphabetically first
+  team_b: string; // team ID, alphabetically second
+  total_matches: number;
+  team_a_wins: number;
+  draws: number;
+  team_b_wins: number;
+  total_goals_team_a: number;
+  total_goals_team_b: number;
+  summary: string;
+  meetings: HistoricalMeeting[];
+}

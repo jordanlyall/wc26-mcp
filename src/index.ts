@@ -10,6 +10,7 @@ import { groups } from "./data/groups.js";
 import { venues } from "./data/venues.js";
 import { teamProfiles } from "./data/team-profiles.js";
 import { cityGuides } from "./data/city-guides.js";
+import { historicalMatchups } from "./data/historical-matchups.js";
 
 import type {
   Match,
@@ -20,6 +21,7 @@ import type {
   MatchStatus,
   TeamProfile,
   CityGuide,
+  HistoricalMatchup,
 } from "./types/index.js";
 
 // ── Server setup ────────────────────────────────────────────────────
@@ -75,6 +77,13 @@ function convertTime(date: string, timeUtc: string, timezone: string): { date: s
     date: `${parts.year}-${parts.month}-${parts.day}`,
     time: `${parts.hour}:${parts.minute}`,
   };
+}
+
+function resolveTeam(input: string): Team | undefined {
+  const tid = input.toLowerCase();
+  return teams.find(
+    t => t.id === tid || t.code.toLowerCase() === tid || t.name.toLowerCase() === tid
+  );
 }
 
 function enrichMatch(m: Match, timezone?: string) {
@@ -210,11 +219,8 @@ server.registerTool("get_matches", {
     result = result.filter((m) => m.date <= args.date_to!);
   }
   if (args.team) {
-    const tid = args.team.toLowerCase();
-    const team = teams.find(
-      (t) => t.id === tid || t.code.toLowerCase() === tid
-    );
-    const teamId = team?.id ?? tid;
+    const team = resolveTeam(args.team);
+    const teamId = team?.id ?? args.team.toLowerCase();
     result = result.filter(
       (m) => m.home_team_id === teamId || m.away_team_id === teamId
     );
@@ -425,10 +431,7 @@ server.registerTool("get_team_profile", {
       .describe("Team ID or FIFA code (e.g. 'usa', 'BRA', 'arg'). Case-insensitive."),
   }),
 }, async (args) => {
-  const tid = args.team.toLowerCase();
-  const team = teams.find(
-    (t) => t.id === tid || t.code.toLowerCase() === tid
-  );
+  const team = resolveTeam(args.team);
 
   if (!team) {
     return json({
@@ -607,6 +610,134 @@ server.registerTool("get_city_guide", {
       "Use get_matches with venue filter to see matches at this venue",
       "Use get_nearby_venues to find other stadiums near this city",
       "Use get_schedule to see when matches are played here",
+    ],
+  });
+});
+
+// ── Tool: get_historical_matchups ────────────────────────────────────
+
+server.registerTool("get_historical_matchups", {
+  title: "Get Historical Matchups",
+  description:
+    "Head-to-head World Cup history between any two teams. Returns all tournament meetings, aggregate stats, and a narrative summary. Accepts team ID or FIFA code (e.g. 'bra', 'ARG', 'england'). Also checks for a scheduled 2026 match between the pair.",
+  inputSchema: z.object({
+    team_a: z
+      .string()
+      .describe("First team — ID or FIFA code (e.g. 'bra', 'ARG', 'england'). Case-insensitive."),
+    team_b: z
+      .string()
+      .describe("Second team — ID or FIFA code (e.g. 'eng', 'FRA', 'germany'). Case-insensitive."),
+  }),
+}, async (args) => {
+  const teamA = resolveTeam(args.team_a);
+  const teamB = resolveTeam(args.team_b);
+
+  if (!teamA) {
+    return json({
+      error: `Team '${args.team_a}' not found.`,
+      suggestion: "Use the get_teams tool to see all available teams and their IDs.",
+    });
+  }
+  if (!teamB) {
+    return json({
+      error: `Team '${args.team_b}' not found.`,
+      suggestion: "Use the get_teams tool to see all available teams and their IDs.",
+    });
+  }
+  if (teamA.id === teamB.id) {
+    return json({
+      error: "Both inputs resolve to the same team. Please provide two different teams.",
+    });
+  }
+
+  // TBD team check
+  if (teamA.code === "TBD") {
+    return json({
+      note: `${teamA.name} has not been determined yet. Historical matchup data will be available once the playoff is decided.`,
+      team_b: { id: teamB.id, name: teamB.name, flag_emoji: teamB.flag_emoji },
+      related_tools: [
+        "Use what_to_know_now to check the latest tournament status including pending playoffs",
+        "Use get_team_profile to learn more about the confirmed team",
+      ],
+    });
+  }
+  if (teamB.code === "TBD") {
+    return json({
+      note: `${teamB.name} has not been determined yet. Historical matchup data will be available once the playoff is decided.`,
+      team_a: { id: teamA.id, name: teamA.name, flag_emoji: teamA.flag_emoji },
+      related_tools: [
+        "Use what_to_know_now to check the latest tournament status including pending playoffs",
+        "Use get_team_profile to learn more about the confirmed team",
+      ],
+    });
+  }
+
+  // Sort alphabetically for canonical lookup
+  const [first, second] = [teamA, teamB].sort((a, b) => a.id.localeCompare(b.id));
+  const record = historicalMatchups.find(
+    (h) => h.team_a === first.id && h.team_b === second.id
+  );
+
+  // Check for a 2026 match between these teams
+  const upcoming2026 = matches.find(
+    (m) =>
+      (m.home_team_id === teamA.id && m.away_team_id === teamB.id) ||
+      (m.home_team_id === teamB.id && m.away_team_id === teamA.id)
+  );
+  const matchContext = upcoming2026
+    ? {
+        upcoming_2026_match: {
+          date: upcoming2026.date,
+          time_utc: upcoming2026.time_utc,
+          round: upcoming2026.round,
+          venue: venueName(upcoming2026.venue_id),
+          group: upcoming2026.group ?? undefined,
+        },
+      }
+    : {};
+
+  // No history found
+  if (!record) {
+    const profileA = teamProfiles.find((p) => p.team_id === first.id);
+    const profileB = teamProfiles.find((p) => p.team_id === second.id);
+    const firstTimerNote = (id: string, profile?: typeof profileA) => {
+      if (profile && profile.world_cup_history.appearances <= 1) {
+        const t = teams.find((t) => t.id === id);
+        return `${t?.name ?? id} is making their World Cup debut in 2026.`;
+      }
+      return null;
+    };
+
+    return json({
+      team_a: { id: first.id, name: first.name, flag_emoji: first.flag_emoji },
+      team_b: { id: second.id, name: second.name, flag_emoji: second.flag_emoji },
+      total_matches: 0,
+      summary: `${first.name} and ${second.name} have never met at a FIFA World Cup.`,
+      first_timer_notes: [firstTimerNote(first.id, profileA), firstTimerNote(second.id, profileB)].filter(Boolean),
+      ...matchContext,
+      related_tools: [
+        "Use get_team_profile to learn about each team's World Cup history",
+        "Use get_matches with team filter to see their 2026 schedules",
+      ],
+    });
+  }
+
+  // Return full matchup data
+  return json({
+    team_a: { id: first.id, name: first.name, flag_emoji: first.flag_emoji },
+    team_b: { id: second.id, name: second.name, flag_emoji: second.flag_emoji },
+    total_matches: record.total_matches,
+    team_a_wins: record.team_a_wins,
+    draws: record.draws,
+    team_b_wins: record.team_b_wins,
+    total_goals_team_a: record.total_goals_team_a,
+    total_goals_team_b: record.total_goals_team_b,
+    summary: record.summary,
+    meetings: record.meetings,
+    ...matchContext,
+    related_tools: [
+      "Use get_team_profile to learn more about either team",
+      "Use get_matches with team filter to see their 2026 schedules",
     ],
   });
 });
