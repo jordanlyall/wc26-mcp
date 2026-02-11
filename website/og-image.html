@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    width: 1200px;
+    height: 630px;
+    background: #141414;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    color: #e5e5e5;
+    display: flex;
+    flex-direction: column;
+    padding: 60px 72px;
+    overflow: hidden;
+  }
+
+  .logo {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 36px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .logo .icon { font-size: 22px; }
+  .logo .mcp { color: #d4a843; }
+
+  h1 {
+    font-size: 72px;
+    font-weight: 800;
+    line-height: 1.08;
+    letter-spacing: -2px;
+    margin-bottom: 16px;
+  }
+  h1 .gold { color: #d4a843; }
+
+  .subtitle {
+    font-size: 22px;
+    color: #999;
+    margin-bottom: 40px;
+  }
+
+  .stats {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 40px;
+  }
+  .stat {
+    border: 1px solid #333;
+    border-radius: 10px;
+    padding: 16px 28px;
+    text-align: center;
+    min-width: 120px;
+  }
+  .stat.highlight {
+    border-color: #d4a843;
+  }
+  .stat-value {
+    font-size: 36px;
+    font-weight: 800;
+    letter-spacing: -1px;
+  }
+  .stat.highlight .stat-value {
+    color: #d4a843;
+  }
+  .stat-label {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    color: #888;
+    margin-top: 4px;
+    text-transform: uppercase;
+  }
+  .stat.highlight .stat-label {
+    color: #d4a843;
+  }
+
+  .install {
+    font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace;
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  .install .dollar { color: #888; }
+  .install .cmd { color: #4ade80; }
+
+  .tagline {
+    font-size: 16px;
+    color: #666;
+  }
+
+  .domain {
+    position: absolute;
+    bottom: 48px;
+    right: 72px;
+    font-size: 16px;
+    color: #666;
+  }
+</style>
+</head>
+<body>
+  <div class="logo">
+    <span class="icon">⚽</span>
+    <span>WC26</span>
+    <span class="mcp">MCP</span>
+  </div>
+
+  <h1>World Cup 2026<br>data for <span class="gold">AI</span></h1>
+
+  <p class="subtitle">Ask your AI anything about the World Cup and get real answers.</p>
+
+  <div class="stats">
+    <div class="stat">
+      <div class="stat-value">104</div>
+      <div class="stat-label">Matches</div>
+    </div>
+    <div class="stat">
+      <div class="stat-value">48</div>
+      <div class="stat-label">Teams</div>
+    </div>
+    <div class="stat">
+      <div class="stat-value">16</div>
+      <div class="stat-label">Venues</div>
+    </div>
+    <div class="stat highlight">
+      <div class="stat-value">12</div>
+      <div class="stat-label">MCP Tools</div>
+    </div>
+  </div>
+
+  <p class="install"><span class="dollar">$</span> <span class="cmd">npx wc26-mcp</span></p>
+  <p class="tagline">Zero API keys. Works with Claude, ChatGPT, and any MCP client.</p>
+
+  <div class="domain">wc26.ai</div>
+</body>
+</html>
