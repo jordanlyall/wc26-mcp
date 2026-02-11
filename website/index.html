@@ -444,6 +444,7 @@
     <div class="nav-links">
       <a href="#tools">Tools</a>
       <a href="#setup">Setup</a>
+      <a href="https://www.npmjs.com/package/wc26-mcp">npm</a>
       <a href="https://github.com/jordanlyall/wc26-mcp" class="btn-sm">GitHub</a>
     </div>
   </div>
@@ -501,7 +502,7 @@
   <div class="tools-grid">
     <div class="tool-card" style="border-color: var(--gold);">
       <div class="tool-name">what_to_know_now</div>
-      <div class="tool-desc">Zero-query temporal briefing. Detects the current tournament phase and returns the most relevant info &mdash; no parameters needed, just "brief me."</div>
+      <div class="tool-desc">Zero-query temporal briefing. Detects the current tournament phase and returns the most relevant info &mdash; no parameters needed, just "brief me." Suggests follow-up tools automatically.</div>
       <div class="tool-filters">
         <span class="filter-tag">date</span>
         <span class="filter-tag">timezone</span>
@@ -509,7 +510,7 @@
     </div>
     <div class="tool-card" style="border-color: var(--gold);">
       <div class="tool-name">get_team_profile</div>
-      <div class="tool-desc">Coach, key players with clubs, playing style, World Cup history, and qualifying summary for any of the 48 teams.</div>
+      <div class="tool-desc">Coach, key players with clubs, playing style, World Cup history, and qualifying summary for any of the 48 teams. Links to related match and group tools.</div>
       <div class="tool-filters">
         <span class="filter-tag">team</span>
       </div>
@@ -590,13 +591,13 @@
 
 <section class="section" id="setup">
   <div class="section-label">Setup</div>
-  <h2>Up and running in 2 minutes</h2>
+  <h2>Pick your client, start asking</h2>
   <p class="section-desc">
-    Works with Claude Desktop, Cursor, Windsurf, and any MCP-compatible client.
+    Choose one of the options below. Works with any MCP-compatible client.
   </p>
   <div class="setup-steps">
     <div class="step">
-      <div class="step-num">1</div>
+      <div class="step-num">A</div>
       <div class="step-content">
         <h3>Claude Desktop</h3>
         <p>Add to your <code>claude_desktop_config.json</code>:</p>
@@ -611,15 +612,15 @@
       </div>
     </div>
     <div class="step">
-      <div class="step-num">2</div>
+      <div class="step-num">B</div>
       <div class="step-content">
         <h3>Claude Code</h3>
-        <p>Add via the CLI:</p>
+        <p>One command in your terminal:</p>
         <div class="step-code">claude mcp add wc26 -- npx -y wc26-mcp</div>
       </div>
     </div>
     <div class="step">
-      <div class="step-num">3</div>
+      <div class="step-num">C</div>
       <div class="step-content">
         <h3>Cursor</h3>
         <p>Add to your <code>.cursor/mcp.json</code>:</p>
@@ -634,7 +635,7 @@
       </div>
     </div>
     <div class="step">
-      <div class="step-num">4</div>
+      <div class="step-num">D</div>
       <div class="step-content">
         <h3>Windsurf</h3>
         <p>Add to your <code>~/.codeium/windsurf/mcp_config.json</code>:</p>
@@ -648,17 +649,15 @@
 }</div>
       </div>
     </div>
-    <div class="step">
-      <div class="step-num">5</div>
-      <div class="step-content">
-        <h3>Ask away</h3>
-        <p>Start asking about World Cup 2026:</p>
-        <div class="step-code" style="color: var(--text); font-family: 'Inter', sans-serif;">"Brief me on the World Cup"
+  </div>
+
+  <div class="example-block" style="margin-top: 3rem;">
+    <div class="example-header">Then start asking</div>
+    <div class="example-code" style="color: var(--text); font-family: 'Inter', sans-serif; line-height: 2;">"Brief me on the World Cup"
 "Tell me about Argentina's squad"
 "When does the USA play their first match?"
-"Show me tomorrow's matches in my timezone"</div>
-      </div>
-    </div>
+"Show me tomorrow's matches in my timezone"
+"What's the weather like in Dallas for the semi-final?"</div>
   </div>
 </section>
 
