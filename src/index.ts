@@ -837,6 +837,11 @@ server.registerTool("what_to_know_now", {
       title: "Venue Summary",
       content: `${venues.length} venues across 3 countries: ${venues.filter((v) => v.country === "USA").length} in USA, ${venues.filter((v) => v.country === "Mexico").length} in Mexico, ${venues.filter((v) => v.country === "Canada").length} in Canada.`,
     });
+
+    sections.push({
+      title: "Fan Zones",
+      content: `${fanZones.length} official FIFA Fan Festival and fan zone locations across all host cities. Free entry at most sites with live screenings, concerts, food, and interactive experiences.`,
+    });
   } else if (phase === "post_playoff") {
     headline = `${daysUntilKickoff} days until the FIFA World Cup 2026 kicks off. All 48 teams are confirmed.`;
 
@@ -880,6 +885,11 @@ server.registerTool("what_to_know_now", {
         content: marquee,
       });
     }
+
+    sections.push({
+      title: "Fan Zones",
+      content: `${fanZones.length} official FIFA Fan Festival and fan zone locations across all host cities. Free entry at most sites with live screenings, concerts, food, and interactive experiences.`,
+    });
   } else if (phase === "group_stage") {
     const todayMatches = matches.filter((m) => m.date === today);
     const yesterdayDate = new Date(new Date(today).getTime() - 86400000).toISOString().slice(0, 10);
@@ -996,18 +1006,21 @@ server.registerTool("what_to_know_now", {
       "Use get_venues to explore stadiums and host cities",
       "Use get_schedule to see the full tournament calendar",
       "Use get_visa_info to check entry requirements for any team's fans",
+      "Use get_fan_zones to find fan festival locations in any host city",
     );
   } else if (phase === "group_stage") {
     available_tools.push(
       "Use get_team_profile to research teams playing today",
       "Use get_matches to filter matches by team, group, or date",
       "Use get_groups to see full group standings and remaining fixtures",
+      "Use get_fan_zones to find fan festival locations near today's matches",
     );
   } else if (phase === "knockout") {
     available_tools.push(
       "Use get_team_profile to research teams still in the tournament",
       "Use get_matches with round filter to see knockout bracket",
       "Use get_schedule to see remaining match dates",
+      "Use get_fan_zones to find fan festival locations near today's matches",
     );
   } else {
     available_tools.push(
