@@ -9,6 +9,7 @@ import { teams } from "./data/teams.js";
 import { groups } from "./data/groups.js";
 import { venues } from "./data/venues.js";
 import { teamProfiles } from "./data/team-profiles.js";
+import { cityGuides } from "./data/city-guides.js";
 
 import type {
   Match,
@@ -18,6 +19,7 @@ import type {
   MatchRound,
   MatchStatus,
   TeamProfile,
+  CityGuide,
 } from "./types/index.js";
 
 // ── Server setup ────────────────────────────────────────────────────
@@ -517,6 +519,94 @@ server.registerTool("get_nearby_venues", {
     related_tools: [
       "Use get_venues to see full venue details including weather and capacity",
       "Use get_matches with venue filter to see matches at a specific venue",
+    ],
+  });
+});
+
+// ── Tool: get_city_guide ────────────────────────────────────────────
+
+server.registerTool("get_city_guide", {
+  title: "Get City Guide",
+  description:
+    "Get a travel guide for any FIFA World Cup 2026 host city. Returns highlights, getting there, food & drink recommendations, things to do, and local tips. Accepts venue ID (e.g. 'metlife'), city name (e.g. 'Miami'), or metro area name (e.g. 'New York'). Case-insensitive.",
+  inputSchema: z.object({
+    city: z
+      .string()
+      .describe("Venue ID (e.g. 'metlife'), city name (e.g. 'Miami Gardens'), or metro area (e.g. 'New York'). Case-insensitive."),
+  }),
+}, async (args) => {
+  const query = args.city.toLowerCase();
+
+  // Find matching venue + guide by venue ID, city name, or metro area
+  let venue: Venue | undefined;
+  let guide: CityGuide | undefined;
+
+  // Try venue ID first
+  venue = venues.find((v) => v.id === query);
+  if (venue) {
+    guide = cityGuides.find((g) => g.venue_id === venue!.id);
+  }
+
+  // Try city name
+  if (!venue) {
+    venue = venues.find((v) => v.city.toLowerCase() === query);
+    if (venue) {
+      guide = cityGuides.find((g) => g.venue_id === venue!.id);
+    }
+  }
+
+  // Try metro area
+  if (!guide) {
+    guide = cityGuides.find((g) => g.metro_area.toLowerCase() === query);
+    if (guide) {
+      venue = venues.find((v) => v.id === guide!.venue_id);
+    }
+  }
+
+  // Try partial match on metro area (e.g. "new york" matches "New York City")
+  if (!guide) {
+    guide = cityGuides.find((g) => g.metro_area.toLowerCase().includes(query));
+    if (guide) {
+      venue = venues.find((v) => v.id === guide!.venue_id);
+    }
+  }
+
+  // Try partial match on city name
+  if (!guide && !venue) {
+    venue = venues.find((v) => v.city.toLowerCase().includes(query));
+    if (venue) {
+      guide = cityGuides.find((g) => g.venue_id === venue!.id);
+    }
+  }
+
+  if (!venue || !guide) {
+    return json({
+      error: `City '${args.city}' not found.`,
+      suggestion: "Use the get_venues tool to see all available host cities and venue IDs.",
+    });
+  }
+
+  return json({
+    venue: {
+      id: venue.id,
+      name: venue.name,
+      city: venue.city,
+      state_province: venue.state_province,
+      country: venue.country,
+      capacity: venue.capacity,
+      timezone: venue.timezone,
+      weather: venue.weather,
+    },
+    metro_area: guide.metro_area,
+    highlights: guide.highlights,
+    getting_there: guide.getting_there,
+    food_and_drink: guide.food_and_drink,
+    things_to_do: guide.things_to_do,
+    local_tips: guide.local_tips,
+    related_tools: [
+      "Use get_matches with venue filter to see matches at this venue",
+      "Use get_nearby_venues to find other stadiums near this city",
+      "Use get_schedule to see when matches are played here",
     ],
   });
 });

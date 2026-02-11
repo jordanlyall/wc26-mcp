@@ -121,3 +121,13 @@ export interface TeamProfile {
   world_cup_history: WorldCupHistory;
   qualifying_summary: string; // 1-2 sentence narrative
 }
+
+export interface CityGuide {
+  venue_id: string; // matches Venue.id -- one guide per venue
+  metro_area: string; // display name, e.g. "New York City" for East Rutherford
+  highlights: string; // 2-3 sentence city overview
+  getting_there: string; // airport(s) + transit to stadium
+  food_and_drink: string[]; // 3-4 local food recommendations
+  things_to_do: string[]; // 3-4 attractions/activities
+  local_tips: string[]; // 2-3 practical tips
+}
