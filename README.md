@@ -82,6 +82,7 @@ npx -y wc26-mcp
 | `get_historical_matchups` | Head-to-head World Cup history between any two teams with aggregate stats and narrative | `team_a`, `team_b` |
 | `get_nearby_venues` | Find venues near a given venue, sorted by distance in miles/km | `venue`, `limit` |
 | `get_schedule` | Tournament schedule organized by date with timezone conversion | `date_from`, `date_to`, `timezone` |
+| `get_visa_info` | Entry requirements (visa, ESTA, eTA) for any team's nationals entering host countries | `team`, `host_country` |
 
 ## Example Prompts
 
@@ -96,6 +97,7 @@ npx -y wc26-mcp
 - "What venues are closest to MetLife Stadium?"
 - "Give me a city guide for Dallas"
 - "What's the World Cup history between Argentina and England?"
+- "Do Iranian fans need a visa to attend matches in the US?"
 
 ## Data Notes
 
@@ -107,6 +109,7 @@ npx -y wc26-mcp
 - Each venue includes average June/July weather (highs, lows, climate description)
 - City guides cover all 16 host cities with transit, food, attractions, and local tips
 - Historical matchups cover 30 team pairings with World Cup tournament meeting data
+- Visa/entry requirements for all 42 confirmed team nationalities across all 3 host countries
 
 ## License
 

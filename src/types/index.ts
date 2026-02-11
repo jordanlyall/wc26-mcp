@@ -142,6 +142,21 @@ export interface HistoricalMeeting {
   venue_city: string;
 }
 
+export interface VisaRequirement {
+  country: "USA" | "Mexico" | "Canada";
+  requirement: "visa-free" | "esta" | "eta" | "e-visa" | "visa-required";
+  max_stay_days: number;
+  document: string;
+  note: string;
+}
+
+export interface TeamVisaInfo {
+  team_id: string;
+  nationality: string;
+  passport_country: string;
+  entry_requirements: VisaRequirement[];
+}
+
 export interface HistoricalMatchup {
   team_a: string; // team ID, alphabetically first
   team_b: string; // team ID, alphabetically second

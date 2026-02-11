@@ -11,6 +11,7 @@ import { venues } from "./data/venues.js";
 import { teamProfiles } from "./data/team-profiles.js";
 import { cityGuides } from "./data/city-guides.js";
 import { historicalMatchups } from "./data/historical-matchups.js";
+import { visaInfo } from "./data/visa-info.js";
 
 import type {
   Match,
@@ -22,13 +23,14 @@ import type {
   TeamProfile,
   CityGuide,
   HistoricalMatchup,
+  TeamVisaInfo,
 } from "./types/index.js";
 
 // ── Server setup ────────────────────────────────────────────────────
 
 const server = new McpServer({
   name: "wc26-mcp",
-  version: "0.2.0",
+  version: "0.3.0",
 });
 
 // ── Helpers ─────────────────────────────────────────────────────────
@@ -1017,6 +1019,62 @@ server.registerTool("what_to_know_now", {
     headline,
     sections,
     available_tools,
+  });
+});
+
+// ── Tool: get_visa_info ──────────────────────────────────────────────
+
+server.registerTool("get_visa_info", {
+  title: "Get Visa Info",
+  description:
+    "Entry requirements for FIFA World Cup 2026 travelers. Returns visa/ESTA/eTA requirements for any team's nationals entering the three host countries (USA, Mexico, Canada). Accepts team ID, FIFA code, or country name. Optionally filter to a specific host country.",
+  inputSchema: z.object({
+    team: z
+      .string()
+      .describe("Team ID, FIFA code, or country name (e.g. 'bra', 'ARG', 'england'). Case-insensitive."),
+    host_country: z
+      .enum(["USA", "Mexico", "Canada"])
+      .optional()
+      .describe("Filter to a specific host country. Omit for all three."),
+  }),
+}, async (args) => {
+  const team = resolveTeam(args.team);
+
+  if (!team) {
+    return json({
+      error: `Team '${args.team}' not found.`,
+      suggestion: "Use the get_teams tool to see all available teams and their IDs.",
+    });
+  }
+
+  const info = visaInfo.find((v) => v.team_id === team.id);
+
+  if (!info) {
+    return json({
+      error: `No visa data available for ${team.name}.`,
+      team: { id: team.id, name: team.name, flag_emoji: team.flag_emoji },
+    });
+  }
+
+  const requirements = args.host_country
+    ? info.entry_requirements.filter((r) => r.country === args.host_country)
+    : info.entry_requirements;
+
+  return json({
+    team: {
+      id: team.id,
+      name: team.name,
+      flag_emoji: team.flag_emoji,
+      group: team.group,
+    },
+    nationality: info.nationality,
+    passport_country: info.passport_country,
+    entry_requirements: requirements,
+    related_tools: [
+      "Use get_city_guide for travel tips in each host city",
+      "Use get_matches with team filter to see where this team plays",
+      "Use get_venues to check which countries host their matches",
+    ],
   });
 });
 
