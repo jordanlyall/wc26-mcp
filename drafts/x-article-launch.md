@@ -162,7 +162,7 @@ You can see all of this in action on the [interactive playground](https://wc26.a
 
 **ChatGPT:** [World Cup 2026 Companion](https://chatgpt.com/g/g-698d038f171481919ada44947304a196-world-cup-2026-companion) — same 18 tools, live in the GPT Store. No setup.
 
-**Telegram:** [@wc26ai_bot](https://t.me/wc26ai_bot) — 18 slash commands, instant responses. `/team brazil`, `/city miami`, `/history argentina france`.
+**Telegram:** [@wc26ai_bot](https://t.me/wc26ai_bot) — 17 slash commands, instant responses. `/team brazil`, `/city miami`, `/history argentina france`.
 
 **REST API:** All 18 endpoints are live at `wc26.ai/api` for anyone who wants to build on top.
 
