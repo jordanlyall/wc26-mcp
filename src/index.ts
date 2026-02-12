@@ -1575,6 +1575,105 @@ server.registerTool("get_odds", {
   return json(result);
 });
 
+// ── Tool: compare_teams ─────────────────────────────────────────────
+
+server.registerTool("compare_teams", {
+  annotations: { readOnlyHint: true },
+  title: "Compare Teams",
+  description:
+    "Side-by-side comparison of any two FIFA World Cup 2026 teams. Rankings, odds, key players, group difficulty, injury concerns, and head-to-head history — all in one view. Accepts team ID, FIFA code, or country name.",
+  inputSchema: z.object({
+    team_a: z
+      .string()
+      .describe("First team — ID, FIFA code, or name (e.g. 'bra', 'ARG', 'england'). Case-insensitive."),
+    team_b: z
+      .string()
+      .describe("Second team — ID, FIFA code, or name (e.g. 'eng', 'FRA', 'germany'). Case-insensitive."),
+  }),
+}, async (args) => {
+  const teamA = resolveTeam(args.team_a);
+  const teamB = resolveTeam(args.team_b);
+
+  if (!teamA) return json({ error: `Team '${args.team_a}' not found.`, suggestion: "Use get_teams to see all available teams." });
+  if (!teamB) return json({ error: `Team '${args.team_b}' not found.`, suggestion: "Use get_teams to see all available teams." });
+  if (teamA.id === teamB.id) return json({ error: "Both inputs resolve to the same team." });
+
+  function buildProfile(team: typeof teamA) {
+    const profile = teamProfiles.find((p) => p.team_id === team!.id);
+    const teamInjuries = injuries.filter((i) => i.team_id === team!.id);
+    const winnerOdds = tournamentOdds.tournament_winner.find((o) => o.team_id === team!.id);
+    const darkHorse = tournamentOdds.dark_horses.find((d) => d.team_id === team!.id);
+    const groupPred = tournamentOdds.group_predictions.find((g) => g.group === team!.group);
+    const groupTeams = teams.filter((t) => t.group === team!.group && t.code !== "TBD");
+    const avgGroupRanking = groupTeams.length > 0
+      ? Math.round(groupTeams.reduce((s, t) => s + (t.fifa_ranking ?? 100), 0) / groupTeams.length)
+      : null;
+
+    return {
+      team: `${team!.flag_emoji} ${team!.name}`,
+      team_id: team!.id,
+      group: team!.group,
+      confederation: team!.confederation,
+      fifa_ranking: team!.fifa_ranking ?? null,
+      is_host: team!.is_host,
+      coach: profile?.coach ?? "Unknown",
+      playing_style: profile?.playing_style ?? null,
+      key_players: profile?.key_players.slice(0, 5).map((p) => `${p.name} (${p.position}, ${p.club})`) ?? [],
+      world_cup_history: profile?.world_cup_history ?? null,
+      winner_odds: winnerOdds ? { odds: winnerOdds.odds, implied_probability: winnerOdds.implied_probability } : null,
+      dark_horse_pick: darkHorse?.reason ?? null,
+      group_difficulty: {
+        avg_ranking: avgGroupRanking,
+        group_prediction: groupPred ? {
+          favorites: groupPred.favorites.map((f) => teamName(f)),
+          dark_horse: teamName(groupPred.dark_horse),
+        } : null,
+      },
+      injuries: teamInjuries.map((i) => ({
+        player: i.player,
+        status: i.status,
+        injury: i.injury,
+        expected_return: i.expected_return,
+      })),
+    };
+  }
+
+  // Head-to-head
+  const [first, second] = [teamA, teamB].sort((a, b) => a.id.localeCompare(b.id));
+  const h2h = historicalMatchups.find((h) => h.team_a === first.id && h.team_b === second.id);
+  const upcoming = matches.find(
+    (m) =>
+      (m.home_team_id === teamA.id && m.away_team_id === teamB.id) ||
+      (m.home_team_id === teamB.id && m.away_team_id === teamA.id)
+  );
+
+  return json({
+    comparison: {
+      [teamA.id]: buildProfile(teamA),
+      [teamB.id]: buildProfile(teamB),
+    },
+    head_to_head: h2h ? {
+      total_matches: h2h.total_matches,
+      [`${first.name}_wins`]: h2h.team_a_wins,
+      draws: h2h.draws,
+      [`${second.name}_wins`]: h2h.team_b_wins,
+      summary: h2h.summary,
+    } : { total_matches: 0, summary: `${first.name} and ${second.name} have never met at a World Cup.` },
+    upcoming_2026_match: upcoming ? {
+      date: upcoming.date,
+      time_utc: upcoming.time_utc,
+      venue: venueName(upcoming.venue_id),
+      round: upcoming.round,
+    } : null,
+    related_tools: [
+      "Use get_team_profile for a deeper dive on either team",
+      "Use get_historical_matchups for full match-by-match history",
+      "Use get_injuries for complete injury details",
+      "Use get_odds for full tournament predictions",
+    ],
+  });
+});
+
 // ── Start server ────────────────────────────────────────────────────
 
 async function main() {

@@ -9,7 +9,7 @@
   <img src="website/og-image.png" alt="WC26 MCP — World Cup 2026 data for AI" width="600">
 </p>
 
-Ask your AI anything about the 2026 World Cup and get real answers. 15 tools covering matches, teams, venues, city guides, fan zones, head-to-head records, visa info, news, injuries, odds, and more. All data ships with the package. Zero API keys, zero external dependencies.
+Ask your AI anything about the 2026 World Cup and get real answers. 16 tools covering matches, teams, venues, city guides, fan zones, head-to-head records, visa info, news, injuries, odds, and more. All data ships with the package. Zero API keys, zero external dependencies.
 
 Works with **Claude Desktop** · **Claude Code** · **Cursor** · **Windsurf** · **ChatGPT** · **Telegram** · any MCP client
 
@@ -109,6 +109,7 @@ npx -y wc26-mcp
 | `get_news` | Latest World Cup news headlines sourced by the Scout Agent daily | `topic`, `limit` |
 | `get_injuries` | Key player availability tracker — injury status, expected return dates, and impact assessment | `team`, `status` |
 | `get_odds` | Tournament favorites, golden boot predictions, group previews, and dark horse picks | `category`, `group` |
+| `compare_teams` | Side-by-side comparison of any two teams — rankings, odds, key players, group difficulty, injuries, and head-to-head | `team_a`, `team_b` |
 
 ## Example Prompts
 

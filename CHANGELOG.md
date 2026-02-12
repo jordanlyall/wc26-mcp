@@ -6,7 +6,8 @@
 - `get_news` tool: Latest World Cup news headlines curated daily by the Scout Agent.
 - `get_injuries` tool: Key player availability tracker with injury status, expected return dates, and impact assessment.
 - `get_odds` tool: Tournament favorites, golden boot predictions, group previews, and dark horse picks.
-- `/news` Telegram slash command for news headlines.
+- `compare_teams` tool: Side-by-side comparison of any two teams with rankings, odds, injuries, and head-to-head.
+- `/news`, `/injuries`, `/odds` Telegram slash commands.
 - Scout Agent: `scripts/scout.ts` with daily GitHub Actions cron (`scout.yml`, 8:00 UTC).
 
 ### Fixed
@@ -19,7 +20,9 @@
 - Date parameters validated against YYYY-MM-DD format. Invalid dates are rejected with a clear message.
 - TypeScript types now importable: `import type { Match } from 'wc26-mcp'`
 - Source maps removed from npm package (~146KB smaller).
-- `readOnlyHint: true` annotation on all 15 tools.
+- `readOnlyHint: true` annotation on all 16 tools.
+- Injuries and odds wired into `what_to_know_now` briefings and `get_team_profile` responses.
+- Injury data expanded from 6 to 18 entries across 15 teams.
 
 ## 0.3.0 (2026-02-11)
 

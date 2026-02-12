@@ -15,6 +15,8 @@ export { historicalMatchups } from "../src/data/historical-matchups.js";
 export { visaInfo } from "../src/data/visa-info.js";
 export { fanZones } from "../src/data/fan-zones.js";
 export { news } from "../src/data/news.js";
+export { injuries } from "../src/data/injuries.js";
+export { tournamentOdds } from "../src/data/odds.js";
 
 export type { Match, Team, Venue };
 

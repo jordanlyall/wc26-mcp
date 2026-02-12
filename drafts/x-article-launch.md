@@ -4,7 +4,7 @@
 
 120 days until the World Cup.
 
-I built an AI companion so your AI actually knows things about it. Schedules, rosters, city guides, head-to-head records, fan zones, visa info. 15 tools. Zero API keys.
+I built an AI companion so your AI actually knows things about it. Schedules, rosters, city guides, head-to-head records, fan zones, visa info. 16 tools. Zero API keys.
 
 "Brief me on the World Cup" and it just works.
 
@@ -18,7 +18,7 @@ Here's how I built it and why 👇
 
 1/ 120 days until the World Cup kicks off in Mexico City.
 
-I built an AI companion that makes your AI actually useful for it. 15 tools. Full data. Zero API keys.
+I built an AI companion that makes your AI actually useful for it. 16 tools. Full data. Zero API keys.
 
 Works with Claude, ChatGPT, Cursor, Telegram, and any MCP client.
 
@@ -48,7 +48,7 @@ All from structured data. No hallucination.
 
 6/ Don't use MCP? No problem:
 
-ChatGPT GPT — same 15 tools, live in the GPT Store: chatgpt.com/g/g-698d038f171481919ada44947304a196-world-cup-2026-companion
+ChatGPT GPT — same 16 tools, live in the GPT Store: chatgpt.com/g/g-698d038f171481919ada44947304a196-world-cup-2026-companion
 
 Telegram bot — slash commands for everything: t.me/wc26ai_bot
 
@@ -112,7 +112,7 @@ Then start asking questions. Your AI handles the rest.
 
 I also built a **ChatGPT GPT** so you don't even need to install anything — just open it and start chatting: [World Cup 2026 Companion](https://chatgpt.com/g/g-698d038f171481919ada44947304a196-world-cup-2026-companion)
 
-### 15 tools, zero API keys
+### 16 tools, zero API keys
 
 Everything ships with the package. No external APIs, no rate limits, no auth tokens. It works offline.
 
@@ -160,11 +160,11 @@ You can see all of this in action on the [interactive playground](https://wc26.a
 
 **MCP (Claude, Cursor, Windsurf):** `npx wc26-mcp` — installs in seconds, runs locally, zero dependencies.
 
-**ChatGPT:** [World Cup 2026 Companion](https://chatgpt.com/g/g-698d038f171481919ada44947304a196-world-cup-2026-companion) — same 15 tools, live in the GPT Store. No setup.
+**ChatGPT:** [World Cup 2026 Companion](https://chatgpt.com/g/g-698d038f171481919ada44947304a196-world-cup-2026-companion) — same 16 tools, live in the GPT Store. No setup.
 
-**Telegram:** [@wc26ai_bot](https://t.me/wc26ai_bot) — 15 slash commands, instant responses. `/team brazil`, `/city miami`, `/history argentina france`.
+**Telegram:** [@wc26ai_bot](https://t.me/wc26ai_bot) — 16 slash commands, instant responses. `/team brazil`, `/city miami`, `/history argentina france`.
 
-**REST API:** All 15 endpoints are live at `wc26.ai/api` for anyone who wants to build on top.
+**REST API:** All 16 endpoints are live at `wc26.ai/api` for anyone who wants to build on top.
 
 ### Why I built it
 

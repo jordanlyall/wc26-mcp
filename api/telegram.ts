@@ -1,7 +1,7 @@
 import type { VercelRequest, VercelResponse } from "@vercel/node";
 import {
   matches, teams, venues, groups, teamProfiles, cityGuides,
-  historicalMatchups, visaInfo, fanZones, news,
+  historicalMatchups, visaInfo, fanZones, news, injuries, tournamentOdds,
   resolveTeam, teamName, venueName, enrichMatch, enrichGroup,
 } from "./_helpers.js";
 
@@ -65,6 +65,8 @@ function cmdStart(): string {
     "/history &lt;team1&gt; &lt;team2&gt; — Head-to-head record",
     "/visa &lt;team&gt; — Visa requirements",
     "/fanzones &lt;city&gt; — Fan zone locations",
+    "/injuries [team|status] — Injury report",
+    "/odds [category] — Tournament odds &amp; predictions",
     "/schedule — Upcoming matches",
     "",
     'Share this bot: t.me/wc26ai_bot',
@@ -496,6 +498,126 @@ function cmdNews(args: string): string {
   return lines.join("\n");
 }
 
+function cmdInjuries(args: string): string {
+  let filtered = injuries;
+  let filterLabel = "";
+
+  if (args) {
+    const resolved = resolveTeam(args);
+    if (resolved) {
+      filtered = injuries.filter((i) => i.team_id === resolved.id);
+      filterLabel = ` — ${resolved.flag_emoji} ${resolved.name}`;
+    } else {
+      const validStatuses = ["out", "doubtful", "recovering", "fit"];
+      if (validStatuses.includes(args.toLowerCase())) {
+        filtered = injuries.filter((i) => i.status === args.toLowerCase());
+        filterLabel = ` — ${args.toLowerCase()}`;
+      } else {
+        return `No match for "${esc(args)}". Try a team name or status (out, doubtful, recovering, fit).`;
+      }
+    }
+  }
+
+  if (filtered.length === 0) {
+    return `No injuries found${filterLabel}. ${args ? "Try /injuries without a filter." : "All tracked players appear fit."}`;
+  }
+
+  const statusEmoji: Record<string, string> = { out: "🔴", doubtful: "🟡", recovering: "🟠", fit: "🟢" };
+
+  const lines: string[] = [
+    `<b>Injury Report${esc(filterLabel)}</b>`,
+    `${filtered.length} player(s) tracked`,
+    "",
+  ];
+
+  for (const i of filtered) {
+    const team = teams.find((t) => t.id === i.team_id);
+    const flag = team?.flag_emoji ?? "";
+    lines.push(`${statusEmoji[i.status] ?? "⚪"} <b>${esc(i.player)}</b> (${flag} ${esc(team?.name ?? i.team_id)})`);
+    lines.push(`  ${esc(i.injury)}`);
+    lines.push(`  Status: ${i.status} · Return: ${esc(i.expected_return)}`);
+    lines.push("");
+  }
+
+  return lines.join("\n");
+}
+
+function cmdOdds(args: string): string {
+  const category = args?.toLowerCase() || "winner";
+
+  if (category === "winner" || category === "favorites") {
+    const lines: string[] = [
+      "<b>Tournament Winner Odds</b>",
+      `Source: ${esc(tournamentOdds.source)}`,
+      "",
+    ];
+    for (const o of tournamentOdds.tournament_winner) {
+      const team = teams.find((t) => t.id === o.team_id);
+      lines.push(`${team?.flag_emoji ?? ""} ${esc(team?.name ?? o.team_id)} — ${o.odds} (${o.implied_probability})`);
+    }
+    return lines.join("\n");
+  }
+
+  if (category === "golden_boot" || category === "boot" || category === "goals") {
+    const lines: string[] = [
+      "<b>Golden Boot Favorites</b>",
+      "",
+    ];
+    for (const o of tournamentOdds.golden_boot) {
+      const team = teams.find((t) => t.id === o.team_id);
+      lines.push(`${team?.flag_emoji ?? ""} <b>${esc(o.player)}</b> (${esc(team?.name ?? o.team_id)}) — ${o.odds}`);
+    }
+    return lines.join("\n");
+  }
+
+  if (category.startsWith("group")) {
+    const groupLetter = category.replace("group", "").replace(/\s+/g, "").toUpperCase();
+    let preds = tournamentOdds.group_predictions;
+    if (groupLetter) {
+      preds = preds.filter((g) => g.group === groupLetter);
+    }
+    if (preds.length === 0) return `No group prediction found for "${esc(args)}". Try: /odds group A`;
+
+    const lines: string[] = [
+      `<b>Group Predictions${groupLetter ? ` — Group ${groupLetter}` : ""}</b>`,
+      "",
+    ];
+    for (const g of preds) {
+      const favs = g.favorites.map((f) => { const t = teams.find((t) => t.id === f); return t ? `${t.flag_emoji} ${t.name}` : f; }).join(", ");
+      const dh = (() => { const t = teams.find((t) => t.id === g.dark_horse); return t ? `${t.flag_emoji} ${t.name}` : g.dark_horse; })();
+      lines.push(`<b>Group ${g.group}</b>`);
+      lines.push(`  Favorites: ${esc(favs)}`);
+      lines.push(`  Dark horse: ${esc(dh)}`);
+      lines.push(`  ${esc(g.narrative)}`);
+      lines.push("");
+    }
+    return lines.join("\n");
+  }
+
+  if (category === "dark_horses" || category === "dark" || category === "darkhorses") {
+    const lines: string[] = [
+      "<b>Dark Horse Picks</b>",
+      "",
+    ];
+    for (const d of tournamentOdds.dark_horses) {
+      const team = teams.find((t) => t.id === d.team_id);
+      lines.push(`${team?.flag_emoji ?? ""} <b>${esc(team?.name ?? d.team_id)}</b>`);
+      lines.push(`  ${esc(d.reason)}`);
+      lines.push("");
+    }
+    return lines.join("\n");
+  }
+
+  return [
+    "<b>Odds Categories</b>",
+    "",
+    "/odds winner — Tournament winner odds",
+    "/odds golden_boot — Golden Boot favorites",
+    "/odds group A — Group predictions (A-L)",
+    "/odds dark_horses — Dark horse picks",
+  ].join("\n");
+}
+
 function cmdSchedule(): string {
   const today = new Date().toISOString().slice(0, 10);
   const threeDaysOut = new Date(Date.now() + 3 * 86400000).toISOString().slice(0, 10);
@@ -560,6 +682,10 @@ function handleCommand(command: string, args: string): string {
       return cmdVisa(args);
     case "/fanzones":
       return cmdFanzones(args);
+    case "/injuries":
+      return cmdInjuries(args);
+    case "/odds":
+      return cmdOdds(args);
     case "/schedule":
       return cmdSchedule();
     default:
