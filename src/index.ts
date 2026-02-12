@@ -501,10 +501,21 @@ server.registerTool("get_team_profile", {
           world_cup_history: null,
           qualifying_summary: "No qualifying data available.",
         }),
+    recent_news: news
+      .filter((n) => {
+        if (n.related_teams.includes(team.id)) return true;
+        // Fallback: text match on team name in title/summary
+        const text = `${n.title} ${n.summary}`.toLowerCase();
+        return text.includes(team.name.toLowerCase()) ||
+          (team.code !== "TBD" && text.includes(team.code.toLowerCase()));
+      })
+      .slice(0, 5)
+      .map((n) => ({ title: n.title, date: n.date, source: n.source, summary: n.summary, url: n.url })),
     related_tools: [
       "Use get_matches with team filter to see this team's match schedule",
       "Use get_groups to see this team's group rivals and venue assignments",
       "Use get_visa_info to check entry requirements for this team's fans traveling to host countries",
+      "Use get_news to see all World Cup headlines",
     ],
   });
 });
@@ -1041,6 +1052,22 @@ server.registerTool("what_to_know_now", {
     }
   }
 
+  // Latest news (up to 5 most recent)
+  const recentNews = news
+    .filter((n) => n.date >= new Date(new Date(today).getTime() - 7 * 86400000).toISOString().slice(0, 10))
+    .slice(0, 5);
+  if (recentNews.length > 0) {
+    sections.push({
+      title: "Latest News",
+      articles: recentNews.map((n) => ({
+        title: n.title,
+        date: n.date,
+        source: n.source,
+        summary: n.summary,
+      })),
+    });
+  }
+
   const available_tools = [];
   if (phase === "pre_playoff" || phase === "post_playoff") {
     available_tools.push(
@@ -1050,6 +1077,7 @@ server.registerTool("what_to_know_now", {
       "Use get_schedule to see the full tournament calendar",
       "Use get_visa_info to check entry requirements for any team's fans",
       "Use get_fan_zones to find fan festival locations in any host city",
+      "Use get_news for more World Cup headlines",
     );
   } else if (phase === "group_stage") {
     available_tools.push(
@@ -1057,6 +1085,7 @@ server.registerTool("what_to_know_now", {
       "Use get_matches to filter matches by team, group, or date",
       "Use get_groups to see full group standings and remaining fixtures",
       "Use get_fan_zones to find fan festival locations near today's matches",
+      "Use get_news for more World Cup headlines",
     );
   } else if (phase === "knockout") {
     available_tools.push(
@@ -1064,6 +1093,7 @@ server.registerTool("what_to_know_now", {
       "Use get_matches with round filter to see knockout bracket",
       "Use get_schedule to see remaining match dates",
       "Use get_fan_zones to find fan festival locations near today's matches",
+      "Use get_news for more World Cup headlines",
     );
   } else {
     available_tools.push(
