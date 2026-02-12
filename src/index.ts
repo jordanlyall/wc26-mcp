@@ -14,6 +14,8 @@ import { historicalMatchups } from "./data/historical-matchups.js";
 import { visaInfo } from "./data/visa-info.js";
 import { fanZones } from "./data/fan-zones.js";
 import { news } from "./data/news.js";
+import { injuries } from "./data/injuries.js";
+import { tournamentOdds } from "./data/odds.js";
 
 import type {
   Match,
@@ -29,6 +31,9 @@ import type {
   FanZone,
   NewsItem,
   NewsCategory,
+  InjuryReport,
+  InjuryStatus,
+  TournamentOdds,
 } from "./types/index.js";
 
 // ── Server setup ────────────────────────────────────────────────────
@@ -1337,6 +1342,146 @@ server.registerTool("get_news", {
       "Use what_to_know_now for a full tournament briefing",
     ],
   });
+});
+
+// ── Tool: get_injuries ────────────────────────────────────────────────
+
+const injuryStatuses: InjuryStatus[] = ["out", "doubtful", "recovering", "fit"];
+
+server.registerTool("get_injuries", {
+  annotations: { readOnlyHint: true },
+  title: "Get Injury Report",
+  description:
+    "Key player injury tracker for the FIFA World Cup 2026. Track availability of star players across all 48 teams. Filter by team or injury status (out, doubtful, recovering, fit).",
+  inputSchema: z.object({
+    team: z
+      .string()
+      .optional()
+      .describe("Team ID or FIFA code (e.g. 'usa', 'BRA'). Filters to injuries for this team."),
+    status: z
+      .enum(injuryStatuses as [string, ...string[]])
+      .optional()
+      .describe("Filter by injury status: out, doubtful, recovering, or fit."),
+  }),
+}, async (args) => {
+  let filtered: InjuryReport[] = injuries;
+
+  if (args.team) {
+    const team = resolveTeam(args.team);
+    if (!team) {
+      return json({
+        error: `Team '${args.team}' not found.`,
+        suggestion: "Use the get_teams tool to see all available teams and their IDs.",
+      });
+    }
+    filtered = filtered.filter((i) => i.team_id === team.id);
+  }
+
+  if (args.status) {
+    filtered = filtered.filter((i) => i.status === args.status);
+  }
+
+  return json({
+    count: filtered.length,
+    injuries: filtered.map((i) => {
+      const team = teams.find((t) => t.id === i.team_id);
+      return {
+        player: i.player,
+        team: team ? `${team.flag_emoji} ${team.name}` : i.team_id,
+        team_id: i.team_id,
+        position: i.position,
+        injury: i.injury,
+        status: i.status,
+        expected_return: i.expected_return,
+        last_updated: i.last_updated,
+        source: i.source,
+      };
+    }),
+    related_tools: [
+      "Use get_team_profile to see a team's full squad and key players",
+      "Use get_news for the latest injury headlines",
+      "Use get_odds to see how injuries affect tournament predictions",
+    ],
+  });
+});
+
+// ── Tool: get_odds ───────────────────────────────────────────────────
+
+server.registerTool("get_odds", {
+  annotations: { readOnlyHint: true },
+  title: "Get Tournament Odds",
+  description:
+    "FIFA World Cup 2026 betting odds and predictions. Tournament winner odds, Golden Boot favorites, group-by-group predictions, and dark horse picks. Illustrative odds aggregated from major bookmakers.",
+  inputSchema: z.object({
+    category: z
+      .enum(["winner", "golden_boot", "groups", "dark_horses", "all"])
+      .optional()
+      .describe("Which odds category to return. Defaults to 'all'."),
+    group: z
+      .string()
+      .optional()
+      .describe("Specific group (A-L) for group predictions."),
+  }),
+}, async (args) => {
+  const category = args.category ?? "all";
+
+  const enrichTeam = (tid: string) => {
+    const t = teams.find((t) => t.id === tid);
+    return t ? `${t.flag_emoji} ${t.name}` : tid;
+  };
+
+  const result: Record<string, unknown> = {
+    last_updated: tournamentOdds.last_updated,
+    source: tournamentOdds.source,
+  };
+
+  if (category === "winner" || category === "all") {
+    result.tournament_winner = tournamentOdds.tournament_winner.map((o) => ({
+      team: enrichTeam(o.team_id),
+      team_id: o.team_id,
+      odds: o.odds,
+      implied_probability: o.implied_probability,
+    }));
+  }
+
+  if (category === "golden_boot" || category === "all") {
+    result.golden_boot = tournamentOdds.golden_boot.map((o) => ({
+      player: o.player,
+      team: enrichTeam(o.team_id),
+      odds: o.odds,
+    }));
+  }
+
+  if (category === "groups" || category === "all") {
+    let groupPreds = tournamentOdds.group_predictions;
+    if (args.group) {
+      groupPreds = groupPreds.filter(
+        (g) => g.group.toUpperCase() === args.group!.toUpperCase()
+      );
+    }
+    result.group_predictions = groupPreds.map((g) => ({
+      group: `Group ${g.group}`,
+      favorites: g.favorites.map(enrichTeam),
+      dark_horse: enrichTeam(g.dark_horse),
+      narrative: g.narrative,
+    }));
+  }
+
+  if (category === "dark_horses" || category === "all") {
+    result.dark_horses = tournamentOdds.dark_horses.map((d) => ({
+      team: enrichTeam(d.team_id),
+      team_id: d.team_id,
+      reason: d.reason,
+    }));
+  }
+
+  result.related_tools = [
+    "Use get_team_profile to research any team in depth",
+    "Use get_injuries to check key player availability",
+    "Use get_historical_matchups to see head-to-head records",
+  ];
+
+  return json(result);
 });
 
 // ── Start server ────────────────────────────────────────────────────

@@ -15,6 +15,8 @@ import { historicalMatchups } from "../src/data/historical-matchups.js";
 import { visaInfo } from "../src/data/visa-info.js";
 import { fanZones } from "../src/data/fan-zones.js";
 import { news } from "../src/data/news.js";
+import { injuries } from "../src/data/injuries.js";
+import { tournamentOdds } from "../src/data/odds.js";
 
 // ── Data counts ──────────────────────────────────────────────────────
 
@@ -53,6 +55,16 @@ describe("data counts", () => {
 
   it("news array exists", () => {
     assert.ok(Array.isArray(news));
+  });
+  it("injuries array exists and has entries", () => {
+    assert.ok(Array.isArray(injuries));
+    assert.ok(injuries.length > 0, "injuries should have at least one entry");
+  });
+  it("tournament odds has required sections", () => {
+    assert.ok(tournamentOdds.tournament_winner.length > 0);
+    assert.ok(tournamentOdds.golden_boot.length > 0);
+    assert.ok(tournamentOdds.group_predictions.length === 12);
+    assert.ok(tournamentOdds.dark_horses.length > 0);
   });
 });
 
@@ -111,6 +123,19 @@ describe("referential integrity", () => {
       for (const tid of g.teams) {
         assert.ok(teamIds.has(tid), `Group ${g.group}: invalid team "${tid}"`);
       }
+    }
+  });
+  it("every injury references a valid team", () => {
+    for (const inj of injuries) {
+      assert.ok(teamIds.has(inj.team_id), `Injury: invalid team "${inj.team_id}" for ${inj.player}`);
+    }
+  });
+  it("every odds entry references a valid team", () => {
+    for (const o of tournamentOdds.tournament_winner) {
+      assert.ok(teamIds.has(o.team_id), `Odds: invalid team "${o.team_id}"`);
+    }
+    for (const d of tournamentOdds.dark_horses) {
+      assert.ok(teamIds.has(d.team_id), `Dark horse: invalid team "${d.team_id}"`);
     }
   });
 });

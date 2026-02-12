@@ -205,3 +205,38 @@ export interface FanZone {
   family_friendly: boolean;
   status: "confirmed" | "expected";
 }
+
+export type InjuryStatus = "out" | "doubtful" | "recovering" | "fit";
+
+export interface InjuryReport {
+  player: string;
+  team_id: string;
+  position: string;
+  injury: string;
+  status: InjuryStatus;
+  expected_return: string;     // e.g. "March 2026", "Before tournament", "Unknown"
+  last_updated: string;        // YYYY-MM-DD
+  source: string;
+}
+
+export interface OddsEntry {
+  team_id: string;
+  odds: string;                // e.g. "+450", "5/1"
+  implied_probability: string; // e.g. "18.2%"
+}
+
+export interface GroupPrediction {
+  group: string;
+  favorites: string[];         // team IDs in predicted finishing order
+  dark_horse: string;          // team ID
+  narrative: string;
+}
+
+export interface TournamentOdds {
+  last_updated: string;
+  source: string;
+  tournament_winner: OddsEntry[];
+  golden_boot: Array<{ player: string; team_id: string; odds: string }>;
+  group_predictions: GroupPrediction[];
+  dark_horses: Array<{ team_id: string; reason: string }>;
+}
