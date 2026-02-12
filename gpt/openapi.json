@@ -406,7 +406,7 @@
       "get": {
         "operationId": "getTeamProfile",
         "summary": "Get a detailed team profile",
-        "description": "Get a comprehensive profile for any FIFA World Cup 2026 team. Returns the coach, playing style description, key players with their club teams and positions (GK/DEF/MID/FWD), full World Cup history (appearances, best result, titles), and qualifying summary. Accepts team ID, FIFA code, or full name -- all case-insensitive.",
+        "description": "Get a profile for any WC2026 team: coach, playing style, key players with clubs, World Cup history, and qualifying summary. Accepts team ID, FIFA code, or full name (case-insensitive).",
         "parameters": [
           {
             "name": "team",
@@ -437,7 +437,7 @@
       "get": {
         "operationId": "getCityGuide",
         "summary": "Get a host city travel guide",
-        "description": "Get a travel guide for any of the 16 FIFA World Cup 2026 host cities. Returns city highlights, how to get there (airports and transit), food and drink recommendations, things to do, and practical local tips. Accepts venue ID (e.g., 'metlife'), city name (e.g., 'Miami Gardens'), or metro area name (e.g., 'New York'). Case-insensitive with partial matching.",
+        "description": "Travel guide for any of the 16 host cities: highlights, transit, food, things to do, and local tips. Accepts venue ID, city name, or metro area (case-insensitive, partial match).",
         "parameters": [
           {
             "name": "city",
@@ -468,7 +468,7 @@
       "get": {
         "operationId": "getHistoricalMatchups",
         "summary": "Head-to-head World Cup history between two teams",
-        "description": "Get the complete World Cup head-to-head record between any two teams. Returns every tournament meeting with year, host country, round, score, and result, plus aggregate stats (total matches, wins, draws, goals). Also checks if these teams are scheduled to meet in 2026 and includes that match context. Both team parameters accept team ID, FIFA code, or full name.",
+        "description": "Head-to-head World Cup record between two teams: every meeting with year, round, score, plus aggregate stats. Checks if they meet in 2026. Accepts team ID, FIFA code, or name.",
         "parameters": [
           {
             "name": "team_a",
@@ -552,7 +552,7 @@
       "get": {
         "operationId": "getVisaInfo",
         "summary": "Get visa and entry requirements for a team's fans",
-        "description": "Get entry requirements for nationals of any World Cup 2026 team traveling to the three host countries (USA, Mexico, Canada). Returns visa type (visa-free, ESTA, eTA, e-visa, visa-required), maximum stay, required documents, and important notes for each host country. Optionally filter to a specific host country.",
+        "description": "Entry requirements for any WC2026 team's fans traveling to USA, Mexico, and Canada. Returns visa type, max stay, documents, and notes. Optionally filter by host country.",
         "parameters": [
           {
             "name": "team",
@@ -593,7 +593,7 @@
       "get": {
         "operationId": "getFanZones",
         "summary": "Get official FIFA Fan Festival and fan zone locations",
-        "description": "Get details on official FIFA Fan Festival sites and fan zones across all World Cup 2026 host cities. Returns venue name, location, capacity, hours, activities, highlights, transportation tips, amenities, and family-friendliness. Filter by city, country, or match venue ID to find fan zones near a specific stadium.",
+        "description": "Official FIFA Fan Festival sites and fan zones across all host cities. Returns location, capacity, hours, activities, and amenities. Filter by city, country, or venue ID.",
         "parameters": [
           {
             "name": "city",
@@ -663,7 +663,7 @@
       "get": {
         "operationId": "whatToKnowNow",
         "summary": "Get a temporal briefing for the current tournament phase",
-        "description": "Zero-query temporal briefing for the FIFA World Cup 2026. Automatically detects the current tournament phase (pre-playoff, post-playoff, group stage, knockout, tournament over) and returns the most relevant information. Pre-tournament: countdown, pending playoffs, group previews. During tournament: today's matches, yesterday's results, tomorrow's preview. After: final results and recap. Optionally override the date or pass a timezone for local match times.",
+        "description": "Temporal briefing that auto-detects the tournament phase and returns the most relevant info: countdown, today's matches, or results. Optionally override date or pass a timezone.",
         "parameters": [
           {
             "name": "date",
