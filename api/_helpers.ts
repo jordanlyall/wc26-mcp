@@ -14,6 +14,7 @@ export { cityGuides } from "../src/data/city-guides.js";
 export { historicalMatchups } from "../src/data/historical-matchups.js";
 export { visaInfo } from "../src/data/visa-info.js";
 export { fanZones } from "../src/data/fan-zones.js";
+export { news } from "../src/data/news.js";
 
 export type { Match, Team, Venue };
 

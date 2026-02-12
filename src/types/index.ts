@@ -170,6 +170,22 @@ export interface HistoricalMatchup {
   meetings: HistoricalMeeting[];
 }
 
+export type NewsCategory =
+  | "roster" | "venue" | "schedule" | "injury" | "analysis"
+  | "transfer" | "qualifying" | "fan-content" | "logistics" | "general";
+
+export interface NewsItem {
+  id: string;              // sha256(url).slice(0, 12)
+  title: string;
+  date: string;            // YYYY-MM-DD
+  source: string;          // "ESPN" | "BBC Sport" | "Reddit r/worldcup" | "Reddit r/soccer"
+  url: string;
+  summary: string;         // 1-2 sentences from Claude Haiku
+  categories: NewsCategory[];
+  related_teams: string[]; // team IDs (e.g. "usa", "bra")
+  fetched_at: string;      // ISO timestamp
+}
+
 export interface FanZone {
   id: string;
   venue_id: string;

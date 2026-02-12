@@ -1,0 +1,40 @@
+name: WC26 Scout Agent
+
+on:
+  schedule:
+    - cron: "0 8 * * *" # Daily at 8:00 UTC
+  workflow_dispatch: # Manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  scout:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - run: npm ci
+
+      - name: Run scout agent
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: npx tsx scripts/scout.ts
+
+      - name: Check for changes
+        id: changes
+        run: |
+          git diff --quiet src/data/news.ts && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit news update
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "WC26 Scout Bot"
+          git config user.email "scout@wc26.ai"
+          git add src/data/news.ts
+          git commit -m "chore(scout): update news data $(date -u +%Y-%m-%d)"
+          git push

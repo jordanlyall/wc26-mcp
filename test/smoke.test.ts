@@ -14,6 +14,7 @@ import { cityGuides } from "../src/data/city-guides.js";
 import { historicalMatchups } from "../src/data/historical-matchups.js";
 import { visaInfo } from "../src/data/visa-info.js";
 import { fanZones } from "../src/data/fan-zones.js";
+import { news } from "../src/data/news.js";
 
 // ── Data counts ──────────────────────────────────────────────────────
 
@@ -48,6 +49,10 @@ describe("data counts", () => {
 
   it("has 18 fan zones", () => {
     assert.equal(fanZones.length, 18);
+  });
+
+  it("news array exists", () => {
+    assert.ok(Array.isArray(news));
   });
 });
 
@@ -183,6 +188,39 @@ describe("data quality", () => {
     }
     for (const [group, pairings] of byGroup) {
       assert.equal(pairings.size, 6, `Group ${group}: expected 6 unique pairings, got ${pairings.size}`);
+    }
+  });
+
+  it("no duplicate news IDs", () => {
+    if (news.length === 0) return; // skip if no news yet
+    const ids = news.map((n) => n.id);
+    assert.equal(ids.length, new Set(ids).size, "Duplicate news IDs found");
+  });
+
+  it("every news item has required fields", () => {
+    const validCategories = new Set([
+      "roster", "venue", "schedule", "injury", "analysis",
+      "transfer", "qualifying", "fan-content", "logistics", "general",
+    ]);
+    for (const n of news) {
+      assert.ok(n.id && n.id.length === 12, `News "${n.title}": id must be 12 chars`);
+      assert.ok(n.title && n.title.length > 0, `News id ${n.id}: missing title`);
+      assert.ok(/^\d{4}-\d{2}-\d{2}$/.test(n.date), `News "${n.title}": invalid date format`);
+      assert.ok(n.source && n.source.length > 0, `News "${n.title}": missing source`);
+      assert.ok(n.url && n.url.startsWith("http"), `News "${n.title}": invalid url`);
+      assert.ok(n.summary && n.summary.length > 0, `News "${n.title}": missing summary`);
+      assert.ok(n.categories.length >= 1, `News "${n.title}": must have at least 1 category`);
+      for (const c of n.categories) {
+        assert.ok(validCategories.has(c), `News "${n.title}": invalid category "${c}"`);
+      }
+      assert.ok(Array.isArray(n.related_teams), `News "${n.title}": related_teams must be array`);
+      assert.ok(n.fetched_at && n.fetched_at.length > 0, `News "${n.title}": missing fetched_at`);
+    }
+  });
+
+  it("news items sorted by date descending", () => {
+    for (let i = 1; i < news.length; i++) {
+      assert.ok(news[i - 1].date >= news[i].date, `News not sorted: ${news[i - 1].date} before ${news[i].date}`);
     }
   });
 

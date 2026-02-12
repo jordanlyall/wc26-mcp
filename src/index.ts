@@ -13,6 +13,7 @@ import { cityGuides } from "./data/city-guides.js";
 import { historicalMatchups } from "./data/historical-matchups.js";
 import { visaInfo } from "./data/visa-info.js";
 import { fanZones } from "./data/fan-zones.js";
+import { news } from "./data/news.js";
 
 import type {
   Match,
@@ -26,6 +27,8 @@ import type {
   HistoricalMatchup,
   TeamVisaInfo,
   FanZone,
+  NewsItem,
+  NewsCategory,
 } from "./types/index.js";
 
 // ── Server setup ────────────────────────────────────────────────────
@@ -1220,6 +1223,88 @@ server.registerTool("get_fan_zones", {
       "Use get_city_guide for full travel info on any host city",
       "Use get_venues to see stadium details",
       "Use get_visa_info for entry requirements",
+    ],
+  });
+});
+
+// ── Tool: get_news ──────────────────────────────────────────────────
+
+const newsCategories: NewsCategory[] = [
+  "roster", "venue", "schedule", "injury", "analysis",
+  "transfer", "qualifying", "fan-content", "logistics", "general",
+];
+
+server.registerTool("get_news", {
+  annotations: { readOnlyHint: true },
+  title: "Get News",
+  description:
+    "Latest FIFA World Cup 2026 news from ESPN, BBC Sport, and Reddit. Auto-updated daily by the WC26 Scout Agent. Filter by team, category, or both. Returns AI-generated summaries and source links.",
+  inputSchema: z.object({
+    team: z
+      .string()
+      .optional()
+      .describe("Team ID or FIFA code (e.g. 'usa', 'BRA'). Filters news mentioning this team."),
+    category: z
+      .enum(newsCategories as [string, ...string[]])
+      .optional()
+      .describe("News category to filter by."),
+    limit: z
+      .number()
+      .optional()
+      .describe("Max articles to return (default 10, max 50)."),
+  }),
+}, async (args) => {
+  if (news.length === 0) {
+    return json({
+      count: 0,
+      articles: [],
+      note: "No news articles available yet. The Scout Agent runs daily to fetch new articles.",
+      related_tools: [
+        "Use what_to_know_now for a tournament briefing",
+        "Use get_teams to browse participating teams",
+      ],
+    });
+  }
+
+  let filtered: NewsItem[] = news;
+
+  if (args.team) {
+    const team = resolveTeam(args.team);
+    if (!team) {
+      return json({
+        error: `Team '${args.team}' not found.`,
+        suggestion: "Use the get_teams tool to see all available teams and their IDs.",
+      });
+    }
+    filtered = filtered.filter((n) => n.related_teams.includes(team.id));
+  }
+
+  if (args.category) {
+    filtered = filtered.filter((n) =>
+      n.categories.includes(args.category as NewsCategory)
+    );
+  }
+
+  const limit = Math.min(Math.max(args.limit ?? 10, 1), 50);
+  const result = filtered.slice(0, limit);
+
+  return json({
+    count: result.length,
+    total_available: filtered.length,
+    articles: result.map((n) => ({
+      id: n.id,
+      title: n.title,
+      date: n.date,
+      source: n.source,
+      url: n.url,
+      summary: n.summary,
+      categories: n.categories,
+      related_teams: n.related_teams,
+    })),
+    related_tools: [
+      "Use get_team_profile to learn more about a mentioned team",
+      "Use get_matches to check a team's schedule",
+      "Use what_to_know_now for a full tournament briefing",
     ],
   });
 });

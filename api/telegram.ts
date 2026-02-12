@@ -1,7 +1,7 @@
 import type { VercelRequest, VercelResponse } from "@vercel/node";
 import {
   matches, teams, venues, groups, teamProfiles, cityGuides,
-  historicalMatchups, visaInfo, fanZones,
+  historicalMatchups, visaInfo, fanZones, news,
   resolveTeam, teamName, venueName, enrichMatch, enrichGroup,
 } from "./_helpers.js";
 
@@ -56,6 +56,7 @@ function cmdStart(): string {
     "<b>FIFA World Cup 2026</b>",
     "",
     "/brief — Tournament overview &amp; countdown",
+    "/news — Latest WC2026 news",
     "/team &lt;name&gt; — Team profile",
     "/matches &lt;team&gt; — Team match schedule",
     "/group &lt;letter&gt; — Group details",
@@ -444,6 +445,57 @@ function cmdFanzones(args: string): string {
   return lines.join("\n");
 }
 
+function cmdNews(args: string): string {
+  if (news.length === 0) return "No news articles available yet. Check back soon!";
+
+  const validCategories = new Set([
+    "roster", "venue", "schedule", "injury", "analysis",
+    "transfer", "qualifying", "fan-content", "logistics", "general",
+  ]);
+
+  let filtered = news;
+  let filterLabel = "";
+
+  if (args) {
+    // Try team resolution first
+    const resolved = resolveTeam(args);
+    if (resolved) {
+      filtered = news.filter((n) => n.related_teams.includes(resolved.id));
+      filterLabel = ` — ${resolved.flag_emoji} ${resolved.name}`;
+    } else if (validCategories.has(args.toLowerCase())) {
+      // Fall back to category match
+      const cat = args.toLowerCase();
+      filtered = news.filter((n) => n.categories.includes(cat as any));
+      filterLabel = ` — ${cat}`;
+    } else {
+      return `No match for "${esc(args)}". Try a team name or category (${[...validCategories].join(", ")}).`;
+    }
+  }
+
+  if (filtered.length === 0) {
+    return `No news found${filterLabel}. Try /news without a filter.`;
+  }
+
+  const top = filtered.slice(0, 5);
+  const lines: string[] = [
+    `<b>WC2026 News${esc(filterLabel)}</b>`,
+    "",
+  ];
+
+  for (const n of top) {
+    lines.push(`<b>${esc(n.title)}</b>`);
+    lines.push(esc(n.summary));
+    lines.push(`${esc(n.source)} · ${n.date} · <a href="${esc(n.url)}">Read more</a>`);
+    lines.push("");
+  }
+
+  if (filtered.length > 5) {
+    lines.push(`Showing 5 of ${filtered.length} articles.`);
+  }
+
+  return lines.join("\n");
+}
+
 function cmdSchedule(): string {
   const today = new Date().toISOString().slice(0, 10);
   const threeDaysOut = new Date(Date.now() + 3 * 86400000).toISOString().slice(0, 10);
@@ -490,6 +542,8 @@ function handleCommand(command: string, args: string): string {
       return cmdStart();
     case "/brief":
       return cmdBrief();
+    case "/news":
+      return cmdNews(args);
     case "/team":
       return cmdTeam(args);
     case "/matches":
