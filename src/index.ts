@@ -1736,8 +1736,9 @@ server.registerTool("get_standings", {
     }).sort((a, b) => a._power_score - b._power_score);
 
     const groupPred = tournamentOdds.group_predictions.find((gp) => gp.group === g.id);
-    const avgRanking = ranked.length > 0
-      ? Math.round(ranked.reduce((s, t) => s + (t.fifa_ranking ?? 100), 0) / ranked.length)
+    const confirmedTeams = ranked.filter((t) => !t.team_id.startsWith("tbd"));
+    const avgRanking = confirmedTeams.length > 0
+      ? Math.round(confirmedTeams.reduce((s, t) => s + (t.fifa_ranking ?? 100), 0) / confirmedTeams.length)
       : null;
 
     // Collect head-to-head matchups within the group
@@ -1790,7 +1791,7 @@ server.registerTool("get_bracket", {
     "Visualize the FIFA World Cup 2026 knockout bracket. Shows the full path from Round of 32 through the Final, including which group positions feed into each match, venues, and dates. Optionally filter by a specific round.",
   inputSchema: z.object({
     round: z
-      .enum(["Round of 32", "Round of 16", "Quarter-final", "Semi-final", "Final", "all"])
+      .enum(["Round of 32", "Round of 16", "Quarter-final", "Semi-final", "Third-place play-off", "Final", "all"])
       .optional()
       .describe("Specific knockout round to show. Defaults to 'all'."),
   }),
