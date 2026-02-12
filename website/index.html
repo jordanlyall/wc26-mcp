@@ -122,22 +122,6 @@
       background: radial-gradient(circle, rgba(139, 26, 26, 0.15) 0%, transparent 70%);
       pointer-events: none;
     }
-    .ball-wireframe {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      pointer-events: none;
-      overflow: hidden;
-    }
-    .ball-wireframe svg {
-      position: absolute;
-      top: 45%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      opacity: 0.045;
-    }
     .hero-badge {
       display: inline-flex;
       align-items: center;
@@ -592,18 +576,6 @@
 </nav>
 
 <section class="hero">
-  <div class="ball-wireframe">
-    <svg width="700" height="700" viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <!-- Ball outline -->
-      <circle cx="250" cy="250" r="240" stroke="white" stroke-width="1.2"/>
-      <!-- Central pentagon -->
-      <path d="M250,150 L345,219 L309,331 L191,331 L155,219 Z" stroke="white" stroke-width="1.2"/>
-      <!-- Seams from pentagon vertices outward -->
-      <path d="M250,150 L250,46 M345,219 L444,187 M309,331 L370,415 M191,331 L130,415 M155,219 L56,187" stroke="white" stroke-width="1.2"/>
-      <!-- Outer connecting seams (hexagon outer edges) -->
-      <path d="M250,46 L391,56 L444,187 L478,324 L370,415 L250,490 L130,415 L22,324 L56,187 L109,56 L250,46" stroke="white" stroke-width="1.2"/>
-    </svg>
-  </div>
   <div class="hero-badge">
     <span class="dot"></span>
     <span id="countdown-badge">v0.3 &mdash; 13 tools, ready to go</span>
