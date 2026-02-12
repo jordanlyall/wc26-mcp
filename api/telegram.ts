@@ -67,6 +67,8 @@ function cmdStart(): string {
     "/fanzones &lt;city&gt; — Fan zone locations",
     "/injuries [team|status] — Injury report",
     "/odds [category] — Tournament odds &amp; predictions",
+    "/standings [group] — Group power rankings",
+    "/bracket [round] — Knockout bracket",
     "/schedule — Upcoming matches",
     "",
     'Share this bot: t.me/wc26ai_bot',
@@ -618,6 +620,152 @@ function cmdOdds(args: string): string {
   ].join("\n");
 }
 
+function cmdStandings(args: string): string {
+  let targetGroups = groups;
+  let filterLabel = "";
+
+  if (args) {
+    const gid = args.toUpperCase();
+    targetGroups = groups.filter((g) => g.id === gid);
+    if (targetGroups.length === 0) return `Group "${esc(args)}" not found. Valid groups: A through L.`;
+    filterLabel = ` — Group ${gid}`;
+  }
+
+  const lines: string[] = [
+    `<b>Group Power Rankings${esc(filterLabel)}</b>`,
+    "",
+  ];
+
+  for (const g of targetGroups) {
+    const groupTeams = g.teams
+      .map((tid) => teams.find((t) => t.id === tid))
+      .filter(Boolean) as typeof teams;
+
+    const ranked = groupTeams.map((t) => {
+      const winnerOdds = tournamentOdds.tournament_winner.find((o) => o.team_id === t.id);
+      const ranking = t.fifa_ranking ?? 100;
+      const oddsBoost = winnerOdds
+        ? Math.max(0, 50 - parseFloat(winnerOdds.implied_probability))
+        : 50;
+      return { ...t, powerScore: ranking + oddsBoost, winnerOdds };
+    }).sort((a, b) => a.powerScore - b.powerScore);
+
+    const groupPred = tournamentOdds.group_predictions.find((gp) => gp.group === g.id);
+
+    lines.push(`<b>Group ${g.id}</b>`);
+    for (let i = 0; i < ranked.length; i++) {
+      const t = ranked[i];
+      const rankStr = t.fifa_ranking ? `#${t.fifa_ranking}` : "—";
+      const oddsStr = t.winnerOdds ? ` · ${t.winnerOdds.odds}` : "";
+      lines.push(`  ${i + 1}. ${t.flag_emoji} ${esc(t.name)} (${rankStr}${oddsStr})`);
+    }
+    if (groupPred) {
+      lines.push(`  💡 ${esc(groupPred.narrative)}`);
+    }
+    lines.push("");
+  }
+
+  if (!args) {
+    lines.push("Filter by group: /standings A");
+  }
+
+  return lines.join("\n");
+}
+
+function cmdBracket(args: string): string {
+  const knockoutRounds = [
+    "Round of 32", "Round of 16", "Quarter-final", "Semi-final",
+    "Third-place play-off", "Final",
+  ];
+
+  function describePlaceholder(p: string | undefined): string {
+    if (!p) return "TBD";
+    if (p.startsWith("W")) return `W${p.slice(1)}`;
+    if (p.startsWith("L")) return `L${p.slice(1)}`;
+    if (/^[12][A-L]$/.test(p)) {
+      return p[0] === "1" ? `1st ${p[1]}` : `2nd ${p[1]}`;
+    }
+    if (p.startsWith("3")) return `3rd ${p.slice(1)}`;
+    return p;
+  }
+
+  const knockoutMatches = matches.filter((m) =>
+    knockoutRounds.includes(m.round)
+  );
+
+  // Determine which round(s) to show
+  let targetRound = "";
+  if (args) {
+    const q = args.toLowerCase();
+    const roundMap: Record<string, string> = {
+      "r32": "Round of 32", "32": "Round of 32", "round of 32": "Round of 32",
+      "r16": "Round of 16", "16": "Round of 16", "round of 16": "Round of 16",
+      "qf": "Quarter-final", "quarter": "Quarter-final", "quarterfinal": "Quarter-final", "quarter-final": "Quarter-final",
+      "sf": "Semi-final", "semi": "Semi-final", "semifinal": "Semi-final", "semi-final": "Semi-final",
+      "3rd": "Third-place play-off", "third": "Third-place play-off", "third-place": "Third-place play-off",
+      "final": "Final", "f": "Final",
+    };
+    targetRound = roundMap[q] ?? "";
+    if (!targetRound) return `Round "${esc(args)}" not found. Try: r32, r16, qf, sf, final`;
+  }
+
+  if (targetRound) {
+    const roundMatches = knockoutMatches.filter((m) => m.round === targetRound);
+    if (roundMatches.length === 0) return `No matches found for ${esc(targetRound)}.`;
+
+    const lines: string[] = [
+      `<b>${esc(targetRound)}</b>`,
+      `${roundMatches.length} match(es)`,
+      "",
+    ];
+
+    for (const m of roundMatches) {
+      const home = m.home_team_id ? teamName(m.home_team_id) : describePlaceholder(m.home_placeholder);
+      const away = m.away_team_id ? teamName(m.away_team_id) : describePlaceholder(m.away_placeholder);
+      const venue = venueName(m.venue_id);
+      lines.push(`M${m.match_number}: ${esc(home)} vs ${esc(away)}`);
+      lines.push(`  ${esc(m.date)} ${m.time_utc} UTC · ${esc(venue)}`);
+      lines.push("");
+    }
+
+    return lines.join("\n");
+  }
+
+  // Default: show key dates + bracket entry points from each group
+  const lines: string[] = [
+    "<b>Knockout Bracket</b>",
+    "",
+    "<b>Key Dates:</b>",
+    "  R32: June 29 – July 3",
+    "  R16: July 4 – 7",
+    "  QF: July 9 – 11",
+    "  SF: July 14 – 15",
+    "  3rd: July 18",
+    "  Final: July 19 (MetLife Stadium)",
+    "",
+    "<b>Group → R32 Entry:</b>",
+  ];
+
+  for (const g of groups) {
+    const winnerId = `1${g.id}`;
+    const runnerUpId = `2${g.id}`;
+    const winnerMatch = knockoutMatches.find(
+      (m) => m.home_placeholder === winnerId || m.away_placeholder === winnerId
+    );
+    const runnerUpMatch = knockoutMatches.find(
+      (m) => m.home_placeholder === runnerUpId || m.away_placeholder === runnerUpId
+    );
+    const winStr = winnerMatch ? `M${winnerMatch.match_number}` : "?";
+    const runStr = runnerUpMatch ? `M${runnerUpMatch.match_number}` : "?";
+    lines.push(`  Group ${g.id}: 1st → ${winStr}, 2nd → ${runStr}`);
+  }
+
+  lines.push("");
+  lines.push("Filter by round: /bracket r32, /bracket qf, /bracket final");
+
+  return lines.join("\n");
+}
+
 function cmdSchedule(): string {
   const today = new Date().toISOString().slice(0, 10);
   const threeDaysOut = new Date(Date.now() + 3 * 86400000).toISOString().slice(0, 10);
@@ -686,6 +834,10 @@ function handleCommand(command: string, args: string): string {
       return cmdInjuries(args);
     case "/odds":
       return cmdOdds(args);
+    case "/standings":
+      return cmdStandings(args);
+    case "/bracket":
+      return cmdBracket(args);
     case "/schedule":
       return cmdSchedule();
     default:

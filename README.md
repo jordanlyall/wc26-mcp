@@ -80,7 +80,7 @@ No setup needed — message the bot directly:
 
 **[Open @wc26ai_bot on Telegram](https://t.me/wc26ai_bot)**
 
-15 slash commands: `/brief`, `/team`, `/matches`, `/group`, `/city`, `/venue`, `/history`, `/visa`, `/fanzones`, `/schedule`, `/news`, `/injuries`, `/odds`, and more.
+17 slash commands: `/brief`, `/team`, `/matches`, `/group`, `/city`, `/venue`, `/history`, `/visa`, `/fanzones`, `/schedule`, `/news`, `/injuries`, `/odds`, `/standings`, `/bracket`, and more.
 
 ### Other MCP Clients
 

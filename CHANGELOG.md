@@ -10,7 +10,7 @@
 - `get_standings` tool: Group power rankings based on FIFA rankings, betting odds, and predictions.
 - `get_bracket` tool: Knockout bracket visualization from Round of 32 through the Final.
 - 4 new historical matchups for group pairings: Morocco-Scotland, Saudi Arabia-Uruguay, Japan-Tunisia, Algeria-Austria.
-- `/news`, `/injuries`, `/odds` Telegram slash commands.
+- `/news`, `/injuries`, `/odds`, `/standings`, `/bracket` Telegram slash commands.
 - Scout Agent: `scripts/scout.ts` with daily GitHub Actions cron (`scout.yml`, 8:00 UTC).
 
 ### Fixed
