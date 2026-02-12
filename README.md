@@ -9,7 +9,7 @@
   <img src="website/og-image.png" alt="WC26 MCP — World Cup 2026 data for AI" width="600">
 </p>
 
-Ask your AI anything about the 2026 World Cup and get real answers. 12 tools covering matches, teams, venues, city guides, fan zones, head-to-head records, visa info, and more. All data ships with the package. Zero API keys, zero external dependencies.
+Ask your AI anything about the 2026 World Cup and get real answers. 13 tools covering matches, teams, venues, city guides, fan zones, head-to-head records, visa info, news, and more. All data ships with the package. Zero API keys, zero external dependencies.
 
 Works with **Claude Desktop** · **Claude Code** · **Cursor** · **Windsurf** · **ChatGPT** · **Telegram** · any MCP client
 
@@ -80,7 +80,7 @@ No setup needed — message the bot directly:
 
 **[Open @wc26ai_bot on Telegram](https://t.me/wc26ai_bot)**
 
-12 slash commands: `/brief`, `/team`, `/matches`, `/group`, `/city`, `/venue`, `/history`, `/visa`, `/fanzones`, `/schedule`, and more.
+13 slash commands: `/brief`, `/team`, `/matches`, `/group`, `/city`, `/venue`, `/history`, `/visa`, `/fanzones`, `/schedule`, `/news`, and more.
 
 ### Other MCP Clients
 
@@ -106,6 +106,7 @@ npx -y wc26-mcp
 | `get_schedule` | Tournament schedule organized by date with timezone conversion | `date_from`, `date_to`, `timezone` |
 | `get_visa_info` | Entry requirements (visa, ESTA, eTA) for any team's nationals entering host countries | `team`, `host_country` |
 | `get_fan_zones` | Official FIFA Fan Festival locations across all 16 host cities with capacity, hours, activities, and transit tips | `city`, `country`, `venue_id` |
+| `get_news` | Latest World Cup news headlines sourced by the Scout Agent daily | `topic`, `limit` |
 
 ## Example Prompts
 
@@ -123,6 +124,8 @@ npx -y wc26-mcp
 
 > "Where are the fan zones in New York?"
 
+> "What's the latest World Cup news?"
+
 > "Do Iranian fans need a visa to attend matches in the US?"
 
 > "What venues are closest to MetLife Stadium?"
@@ -139,6 +142,7 @@ npx -y wc26-mcp
 | Historical matchups | 30 | Head-to-head WC records with narrative |
 | Fan zones | 18 | All host cities, capacity, hours, transport |
 | Visa entries | 42 | All confirmed nationalities across 3 host countries |
+| News | Daily | Scout Agent curates latest World Cup headlines |
 
 Tournament: **June 11 - July 19, 2026**
 
