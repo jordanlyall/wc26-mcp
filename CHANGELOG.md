@@ -4,6 +4,8 @@
 
 ### Added
 - `get_news` tool: Latest World Cup news headlines curated daily by the Scout Agent.
+- `get_injuries` tool: Key player availability tracker with injury status, expected return dates, and impact assessment.
+- `get_odds` tool: Tournament favorites, golden boot predictions, group previews, and dark horse picks.
 - `/news` Telegram slash command for news headlines.
 - Scout Agent: `scripts/scout.ts` with daily GitHub Actions cron (`scout.yml`, 8:00 UTC).
 
@@ -17,7 +19,7 @@
 - Date parameters validated against YYYY-MM-DD format. Invalid dates are rejected with a clear message.
 - TypeScript types now importable: `import type { Match } from 'wc26-mcp'`
 - Source maps removed from npm package (~146KB smaller).
-- `readOnlyHint: true` annotation on all 13 tools.
+- `readOnlyHint: true` annotation on all 15 tools.
 
 ## 0.3.0 (2026-02-11)
 
@@ -25,7 +27,7 @@
 - `get_fan_zones` tool: 18 FIFA Fan Festival locations across all 16 host cities with capacity, hours, activities, and transit tips.
 - `get_visa_info` tool: Entry requirements for 42 nationalities across USA, Mexico, and Canada.
 - Fan zone summary wired into `what_to_know_now` briefings for pre-tournament phases.
-- Smoke test suite: 30 tests covering data counts, referential integrity, and data quality.
+- Smoke test suite: 34 tests covering data counts, referential integrity, and data quality.
 - `readOnlyHint: true` annotations on all tool registrations.
 - Privacy policy page at wc26.ai/privacy.
 - `server.json` for MCP Registry, `glama.json` for Glama.ai auto-indexing.
