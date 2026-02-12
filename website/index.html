@@ -46,6 +46,7 @@
     }
 
     * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
 
     body {
       font-family: 'Inter', -apple-system, sans-serif;
@@ -156,10 +157,16 @@
       margin-bottom: 1.25rem;
     }
     h1 .gradient {
-      background: linear-gradient(135deg, var(--gold) 0%, #f5d37a 50%, var(--gold) 100%);
+      background: linear-gradient(105deg, var(--gold) 0%, #f5d37a 40%, #fff 50%, #f5d37a 60%, var(--gold) 100%);
+      background-size: 250% 100%;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
+      animation: shimmer 4s ease-in-out infinite;
+    }
+    @keyframes shimmer {
+      0%, 100% { background-position: 100% 0; }
+      50% { background-position: 0% 0; }
     }
     .hero-sub {
       font-size: 1.1rem;
@@ -310,7 +317,13 @@
       border: 1px solid var(--border);
       border-radius: 12px;
       padding: 1.5rem;
-      transition: border-color 0.2s;
+      transition: border-color 0.2s, opacity 0.6s ease, transform 0.6s ease;
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    .tool-card.visible {
+      opacity: 1;
+      transform: translateY(0);
     }
     .tool-card:hover {
       border-color: var(--text-muted);
@@ -405,6 +418,9 @@
       font-size: 0.875rem;
       color: var(--text-muted);
     }
+    .step-code-wrap {
+      position: relative;
+    }
     .step-code {
       background: var(--code-bg);
       border: 1px solid var(--border);
@@ -416,6 +432,21 @@
       margin-top: 0.5rem;
       overflow-x: auto;
     }
+    .step-copy {
+      position: absolute;
+      top: 0.85rem;
+      right: 0.5rem;
+      background: var(--surface-2);
+      border: 1px solid var(--border);
+      color: var(--text-muted);
+      cursor: pointer;
+      font-size: 0.65rem;
+      padding: 0.2rem 0.45rem;
+      border-radius: 4px;
+      transition: all 0.2s;
+      font-family: inherit;
+    }
+    .step-copy:hover { background: var(--border); color: var(--text); }
 
     /* Footer */
     footer {
@@ -827,14 +858,10 @@
       <div class="step-content">
         <h3>Claude Desktop</h3>
         <p>Add to your <code>claude_desktop_config.json</code>:</p>
-        <div class="step-code">{
-  "mcpServers": {
-    "wc26": {
-      "command": "npx",
-      "args": ["-y", "wc26-mcp"]
-    }
-  }
-}</div>
+        <div class="step-code-wrap">
+          <div class="step-code">{"mcpServers":{"wc26":{"command":"npx","args":["-y","wc26-mcp"]}}}</div>
+          <button class="step-copy" onclick="copyCode(this)">Copy</button>
+        </div>
       </div>
     </div>
     <div class="step">
@@ -842,7 +869,10 @@
       <div class="step-content">
         <h3>Claude Code</h3>
         <p>One command in your terminal:</p>
-        <div class="step-code">claude mcp add wc26 -- npx -y wc26-mcp</div>
+        <div class="step-code-wrap">
+          <div class="step-code">claude mcp add wc26 -- npx -y wc26-mcp</div>
+          <button class="step-copy" onclick="copyCode(this)">Copy</button>
+        </div>
       </div>
     </div>
     <div class="step">
@@ -850,14 +880,10 @@
       <div class="step-content">
         <h3>Cursor</h3>
         <p>Add to your <code>.cursor/mcp.json</code>:</p>
-        <div class="step-code">{
-  "mcpServers": {
-    "wc26": {
-      "command": "npx",
-      "args": ["-y", "wc26-mcp"]
-    }
-  }
-}</div>
+        <div class="step-code-wrap">
+          <div class="step-code">{"mcpServers":{"wc26":{"command":"npx","args":["-y","wc26-mcp"]}}}</div>
+          <button class="step-copy" onclick="copyCode(this)">Copy</button>
+        </div>
       </div>
     </div>
     <div class="step">
@@ -865,14 +891,10 @@
       <div class="step-content">
         <h3>Windsurf</h3>
         <p>Add to your <code>~/.codeium/windsurf/mcp_config.json</code>:</p>
-        <div class="step-code">{
-  "mcpServers": {
-    "wc26": {
-      "command": "npx",
-      "args": ["-y", "wc26-mcp"]
-    }
-  }
-}</div>
+        <div class="step-code-wrap">
+          <div class="step-code">{"mcpServers":{"wc26":{"command":"npx","args":["-y","wc26-mcp"]}}}</div>
+          <button class="step-copy" onclick="copyCode(this)">Copy</button>
+        </div>
       </div>
     </div>
     <div class="step">
@@ -946,6 +968,63 @@ function showDemo(index) {
   tabs.forEach(function(tab, i) {
     tab.classList.toggle('active', i === index);
   });
+}
+
+// Count-up animation for stats
+function animateCount(el, target) {
+  var start = 0;
+  var duration = 1200;
+  var startTime = null;
+  function step(ts) {
+    if (!startTime) startTime = ts;
+    var progress = Math.min((ts - startTime) / duration, 1);
+    var ease = 1 - Math.pow(1 - progress, 3);
+    el.textContent = Math.round(ease * target);
+    if (progress < 1) requestAnimationFrame(step);
+  }
+  requestAnimationFrame(step);
+}
+
+// Intersection observer for stats count-up + tool card fade-in
+(function() {
+  var statsObserver = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+      if (entry.isIntersecting) {
+        var vals = entry.target.querySelectorAll('.stat-value');
+        vals.forEach(function(v) {
+          animateCount(v, parseInt(v.textContent));
+        });
+        statsObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.3 });
+  var stats = document.querySelector('.stats');
+  if (stats) {
+    stats.querySelectorAll('.stat-value').forEach(function(v) { v.textContent = '0'; });
+    statsObserver.observe(stats);
+  }
+
+  var cardObserver = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        cardObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.1 });
+  document.querySelectorAll('.tool-card').forEach(function(card, i) {
+    card.style.transitionDelay = (i % 3) * 0.1 + 's';
+    cardObserver.observe(card);
+  });
+})();
+
+// Copy button for setup code blocks
+function copyCode(btn) {
+  var code = btn.previousElementSibling.textContent.trim();
+  try { code = JSON.stringify(JSON.parse(code), null, 2); } catch(e) {}
+  navigator.clipboard.writeText(code);
+  btn.textContent = 'Copied!';
+  setTimeout(function() { btn.textContent = 'Copy'; }, 1500);
 }
 </script>
 </body>
