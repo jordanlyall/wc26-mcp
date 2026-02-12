@@ -32,6 +32,7 @@ if (!ANTHROPIC_API_KEY) {
 // ── WC2026 relevance keywords ──────────────────────────────────────
 
 const WC_KEYWORDS = [
+  // Direct WC2026 references
   "world cup 2026", "wc 2026", "wc2026", "fifa 2026",
   "world cup 26", "copa del mundo 2026",
   "united 2026", "united states mexico canada",
@@ -40,15 +41,44 @@ const WC_KEYWORDS = [
   "hard rock stadium", "nrg stadium", "gillette stadium",
   "lumen field", "mercedes-benz stadium", "lincoln financial",
   "arrowhead stadium", "bmo field", "bc place",
-  // General WC terms when combined with football context
+  // General WC terms
   "world cup qualif", "world cup roster", "world cup squad",
   "world cup draw", "world cup group", "world cup venue",
   "world cup ticket", "world cup schedule", "world cup fixture",
+  "world cup playoff", "world cup spot", "world cup bid",
+  "world cup host", "world cup prep", "world cup camp",
+  // FIFA + tournament context
+  "fifa world cup", "fifa fan fest", "fifa fan zone",
+  // Broad but high-signal phrases
+  "2026 squad", "2026 roster", "2026 qualif", "2026 playoff",
+  "called up for 2026", "qualify for 2026",
+];
+
+// Team names that are high-signal when paired with football context words
+const TEAM_CONTEXT_NAMES = [
+  "argentina", "brazil", "france", "germany", "england", "spain",
+  "portugal", "netherlands", "usa", "usmnt", "mexico", "el tri",
+  "canada", "japan", "south korea", "australia", "socceroos",
+  "saudi arabia", "qatar", "iran", "morocco", "senegal", "cameroon",
+  "nigeria", "ghana", "egypt", "colombia", "uruguay", "ecuador",
+  "croatia", "belgium", "denmark", "switzerland", "serbia", "poland",
+  "scotland", "wales",
+];
+
+const FOOTBALL_CONTEXT = [
+  "squad", "roster", "call-up", "call up", "callup", "injury",
+  "ruled out", "coach", "manager", "sacked", "appointed", "cap",
+  "friendly", "qualifier", "national team", "international",
 ];
 
 function isWC2026Relevant(title: string, description: string): boolean {
   const text = `${title} ${description}`.toLowerCase();
-  return WC_KEYWORDS.some((kw) => text.includes(kw));
+  // Direct keyword match
+  if (WC_KEYWORDS.some((kw) => text.includes(kw))) return true;
+  // Team name + football context (e.g. "Argentina squad" or "USMNT roster")
+  const hasTeam = TEAM_CONTEXT_NAMES.some((t) => text.includes(t));
+  const hasContext = FOOTBALL_CONTEXT.some((c) => text.includes(c));
+  return hasTeam && hasContext;
 }
 
 // ── Deterministic ID ───────────────────────────────────────────────
@@ -248,28 +278,38 @@ async function main() {
 
   // 2. Fetch from all sources in parallel
   console.log("📡 Fetching from sources...");
-  const [espn, bbc, redditWC, redditSoccer] = await Promise.all([
+  const [espn, bbc, guardian, marca, redditWC, redditSoccer, redditFootball] = await Promise.all([
     fetchRSS("https://www.espn.com/espn/rss/soccer/news", "ESPN"),
     fetchRSS("https://feeds.bbci.co.uk/sport/football/rss.xml", "BBC Sport"),
+    fetchRSS("https://www.theguardian.com/football/rss", "The Guardian"),
+    fetchRSS("https://e00-marca.uecdn.es/rss/en/football.xml", "Marca"),
     fetchReddit(
-      "https://www.reddit.com/r/worldcup/hot.json?limit=25",
+      "https://www.reddit.com/r/worldcup/hot.json?limit=50",
       "Reddit r/worldcup",
-      50
+      10
     ),
     fetchReddit(
-      "https://www.reddit.com/r/soccer/search.json?q=world+cup+2026&sort=new&limit=25&restrict_sr=on",
+      "https://www.reddit.com/r/soccer/search.json?q=world+cup+2026&sort=new&limit=50&restrict_sr=on",
       "Reddit r/soccer",
-      50
+      10
+    ),
+    fetchReddit(
+      "https://www.reddit.com/r/football/search.json?q=world+cup+2026&sort=new&limit=25&restrict_sr=on",
+      "Reddit r/football",
+      10
     ),
   ]);
 
   console.log(`  ESPN: ${espn.length} items`);
   console.log(`  BBC Sport: ${bbc.length} items`);
+  console.log(`  The Guardian: ${guardian.length} items`);
+  console.log(`  Marca: ${marca.length} items`);
   console.log(`  Reddit r/worldcup: ${redditWC.length} items`);
   console.log(`  Reddit r/soccer: ${redditSoccer.length} items`);
+  console.log(`  Reddit r/football: ${redditFootball.length} items`);
 
   // 3. Combine and filter
-  const allArticles = [...espn, ...bbc, ...redditWC, ...redditSoccer];
+  const allArticles = [...espn, ...bbc, ...guardian, ...marca, ...redditWC, ...redditSoccer, ...redditFootball];
 
   // Reddit r/worldcup posts are assumed relevant; others need keyword match
   const relevant = allArticles.filter((a) => {
