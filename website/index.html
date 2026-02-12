@@ -122,7 +122,7 @@
       background: radial-gradient(circle, rgba(139, 26, 26, 0.15) 0%, transparent 70%);
       pointer-events: none;
     }
-    .pitch-lines {
+    .hex-pattern {
       position: absolute;
       top: 0;
       left: 0;
@@ -130,37 +130,15 @@
       height: 100%;
       pointer-events: none;
       overflow: hidden;
+      -webkit-mask-image: radial-gradient(ellipse 60% 50% at 50% 40%, black 0%, transparent 100%);
+      mask-image: radial-gradient(ellipse 60% 50% at 50% 40%, black 0%, transparent 100%);
     }
-    .pitch-lines::before {
-      content: '';
+    .hex-pattern svg {
       position: absolute;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      width: 400px;
-      height: 400px;
-      border-radius: 50%;
-      border: 1.5px solid rgba(255, 255, 255, 0.035);
-    }
-    .pitch-lines::after {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 50%;
-      transform: translateX(-50%);
-      width: 1.5px;
-      height: 100%;
-      background: rgba(255, 255, 255, 0.03);
-    }
-    .pitch-center-dot {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      width: 8px;
-      height: 8px;
-      border-radius: 50%;
-      background: rgba(255, 255, 255, 0.04);
+      opacity: 0.04;
     }
     .hero-badge {
       display: inline-flex;
@@ -616,7 +594,16 @@
 </nav>
 
 <section class="hero">
-  <div class="pitch-lines"><div class="pitch-center-dot"></div></div>
+  <div class="hex-pattern">
+    <svg width="900" height="780" viewBox="0 0 900 780" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <pattern id="hex" width="104" height="120" patternUnits="userSpaceOnUse" patternTransform="translate(0,0)">
+          <path d="M52 0 L104 30 L104 90 L52 120 L0 90 L0 30 Z" fill="none" stroke="white" stroke-width="1"/>
+        </pattern>
+      </defs>
+      <rect width="900" height="780" fill="url(#hex)"/>
+    </svg>
+  </div>
   <div class="hero-badge">
     <span class="dot"></span>
     <span id="countdown-badge">v0.3 &mdash; 13 tools, ready to go</span>
