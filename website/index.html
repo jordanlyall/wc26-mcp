@@ -83,6 +83,14 @@
       gap: 0.5rem;
     }
     .nav-brand span { color: var(--gold); }
+    .nav-ball {
+      display: inline-block;
+      animation: spin 6s linear infinite;
+    }
+    @keyframes spin {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
     .nav-links { display: flex; gap: 1.5rem; align-items: center; }
     .nav-links a {
       color: var(--text-muted);
@@ -564,7 +572,7 @@
 
 <nav>
   <div class="nav-inner">
-    <a href="/" class="nav-brand">&#9917; WC26 <span>MCP</span></a>
+    <a href="/" class="nav-brand"><span class="nav-ball">&#9917;</span> WC26 <span>MCP</span></a>
     <div class="nav-links">
       <a href="#tools">Tools</a>
       <a href="#setup">Setup</a>
