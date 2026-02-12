@@ -7,6 +7,9 @@
 - `get_injuries` tool: Key player availability tracker with injury status, expected return dates, and impact assessment.
 - `get_odds` tool: Tournament favorites, golden boot predictions, group previews, and dark horse picks.
 - `compare_teams` tool: Side-by-side comparison of any two teams with rankings, odds, injuries, and head-to-head.
+- `get_standings` tool: Group power rankings based on FIFA rankings, betting odds, and predictions.
+- `get_bracket` tool: Knockout bracket visualization from Round of 32 through the Final.
+- 4 new historical matchups for group pairings: Morocco-Scotland, Saudi Arabia-Uruguay, Japan-Tunisia, Algeria-Austria.
 - `/news`, `/injuries`, `/odds` Telegram slash commands.
 - Scout Agent: `scripts/scout.ts` with daily GitHub Actions cron (`scout.yml`, 8:00 UTC).
 
@@ -20,7 +23,7 @@
 - Date parameters validated against YYYY-MM-DD format. Invalid dates are rejected with a clear message.
 - TypeScript types now importable: `import type { Match } from 'wc26-mcp'`
 - Source maps removed from npm package (~146KB smaller).
-- `readOnlyHint: true` annotation on all 16 tools.
+- `readOnlyHint: true` annotation on all 18 tools.
 - Injuries and odds wired into `what_to_know_now` briefings and `get_team_profile` responses.
 - Injury data expanded from 6 to 18 entries across 15 teams.
 

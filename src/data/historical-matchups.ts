@@ -193,6 +193,74 @@ export const historicalMatchups: HistoricalMatchup[] = [
     ],
   },
 
+  // Group J: Algeria vs Austria
+  {
+    team_a: "alg",
+    team_b: "aut",
+    total_matches: 1,
+    team_a_wins: 1,
+    draws: 0,
+    team_b_wins: 0,
+    total_goals_team_a: 2,
+    total_goals_team_b: 0,
+    summary:
+      "Algeria stunned Austria 2-0 in the 1982 group stage, part of an incredible Algerian debut that also saw them beat West Germany — before the infamous 'Disgrace of Gijón' eliminated them.",
+    meetings: [
+      { year: 1982, host_country: "Spain", round: "Group Stage", score: "2-0", result: "team_a", venue_city: "Oviedo" },
+    ],
+  },
+
+  // Group F: Japan vs Tunisia
+  {
+    team_a: "jpn",
+    team_b: "tun",
+    total_matches: 1,
+    team_a_wins: 1,
+    draws: 0,
+    team_b_wins: 0,
+    total_goals_team_a: 2,
+    total_goals_team_b: 0,
+    summary:
+      "Japan beat Tunisia 2-0 in the 2002 group stage on home soil in Osaka, securing their first-ever World Cup knockout round berth.",
+    meetings: [
+      { year: 2002, host_country: "South Korea / Japan", round: "Group Stage", score: "2-0", result: "team_a", venue_city: "Osaka" },
+    ],
+  },
+
+  // Group H: Saudi Arabia vs Uruguay
+  {
+    team_a: "ksa",
+    team_b: "uru",
+    total_matches: 1,
+    team_a_wins: 0,
+    draws: 0,
+    team_b_wins: 1,
+    total_goals_team_a: 0,
+    total_goals_team_b: 1,
+    summary:
+      "Uruguay edged Saudi Arabia 1-0 in the 2018 group stage, with Luis Suárez scoring the only goal to seal qualification from Group A.",
+    meetings: [
+      { year: 2018, host_country: "Russia", round: "Group Stage", score: "0-1", result: "team_b", venue_city: "Rostov-on-Don" },
+    ],
+  },
+
+  // Group C: Morocco vs Scotland
+  {
+    team_a: "mar",
+    team_b: "sco",
+    total_matches: 1,
+    team_a_wins: 1,
+    draws: 0,
+    team_b_wins: 0,
+    total_goals_team_a: 3,
+    total_goals_team_b: 0,
+    summary:
+      "Morocco routed Scotland 3-0 in the 1998 group stage, condemning the Scots to a last-place finish and early elimination.",
+    meetings: [
+      { year: 1998, host_country: "France", round: "Group Stage", score: "3-0", result: "team_a", venue_city: "Saint-Étienne" },
+    ],
+  },
+
   // ── Tier 2: Major historical rivalries ───────────────────────────
 
   // Argentina vs Brazil

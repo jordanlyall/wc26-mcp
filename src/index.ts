@@ -1674,6 +1674,250 @@ server.registerTool("compare_teams", {
   });
 });
 
+// ── Tool: get_standings ─────────────────────────────────────────────
+
+server.registerTool("get_standings", {
+  annotations: { readOnlyHint: true },
+  title: "Get Group Standings",
+  description:
+    "Group power rankings for the FIFA World Cup 2026. Before the tournament starts, returns pre-tournament strength ratings for each group based on FIFA rankings, betting odds, and predictions. Filter by group (A-L) or get all 12 groups at once.",
+  inputSchema: z.object({
+    group: z
+      .string()
+      .optional()
+      .describe("Specific group letter (A-L). If omitted, returns all 12 groups."),
+  }),
+}, async (args) => {
+  let targetGroups = groups;
+  if (args.group) {
+    const gid = args.group.toUpperCase();
+    targetGroups = groups.filter((g) => g.id === gid);
+    if (targetGroups.length === 0) {
+      return json({
+        error: `Group '${args.group}' not found. Valid groups are A through L.`,
+      });
+    }
+  }
+
+  const result = targetGroups.map((g) => {
+    const groupTeams = g.teams
+      .map((tid) => teams.find((t) => t.id === tid))
+      .filter(Boolean) as Team[];
+
+    const ranked = groupTeams.map((t) => {
+      const winnerOdds = tournamentOdds.tournament_winner.find((o) => o.team_id === t.id);
+      const darkHorse = tournamentOdds.dark_horses.find((d) => d.team_id === t.id);
+      const profile = teamProfiles.find((p) => p.team_id === t.id);
+      const teamInjuries = injuries.filter((i) => i.team_id === t.id && i.status !== "fit");
+
+      // Power score: lower is better. Ranking contributes directly; odds boost reduces it.
+      const ranking = t.fifa_ranking ?? 100;
+      const oddsBoost = winnerOdds
+        ? Math.max(0, 50 - parseFloat(winnerOdds.implied_probability))
+        : 50;
+      const powerScore = ranking + oddsBoost;
+
+      return {
+        team: `${t.flag_emoji} ${t.name}`,
+        team_id: t.id,
+        fifa_ranking: t.fifa_ranking ?? null,
+        confederation: t.confederation,
+        is_host: t.is_host,
+        winner_odds: winnerOdds ? { odds: winnerOdds.odds, implied_probability: winnerOdds.implied_probability } : null,
+        dark_horse_pick: darkHorse?.reason ?? null,
+        world_cup_pedigree: profile?.world_cup_history
+          ? `${profile.world_cup_history.appearances} appearances, ${profile.world_cup_history.titles} titles, best: ${profile.world_cup_history.best_result}`
+          : null,
+        key_injuries: teamInjuries.length > 0
+          ? teamInjuries.map((i) => `${i.player} (${i.status})`)
+          : null,
+        _power_score: powerScore,
+      };
+    }).sort((a, b) => a._power_score - b._power_score);
+
+    const groupPred = tournamentOdds.group_predictions.find((gp) => gp.group === g.id);
+    const avgRanking = ranked.length > 0
+      ? Math.round(ranked.reduce((s, t) => s + (t.fifa_ranking ?? 100), 0) / ranked.length)
+      : null;
+
+    // Collect head-to-head matchups within the group
+    const groupH2H: Array<{ matchup: string; summary: string }> = [];
+    for (let i = 0; i < groupTeams.length; i++) {
+      for (let j = i + 1; j < groupTeams.length; j++) {
+        const [a, b] = [groupTeams[i].id, groupTeams[j].id].sort();
+        const h2h = historicalMatchups.find((h) => h.team_a === a && h.team_b === b);
+        if (h2h) {
+          groupH2H.push({
+            matchup: `${teamName(a)} vs ${teamName(b)}`,
+            summary: h2h.summary,
+          });
+        }
+      }
+    }
+
+    return {
+      group: `Group ${g.id}`,
+      difficulty_rating: avgRanking,
+      prediction: groupPred ? {
+        favorites: groupPred.favorites.map((f) => teamName(f)),
+        dark_horse: teamName(groupPred.dark_horse),
+        narrative: groupPred.narrative,
+      } : null,
+      teams: ranked.map(({ _power_score, ...rest }) => rest),
+      head_to_head_history: groupH2H.length > 0 ? groupH2H : null,
+    };
+  });
+
+  return json({
+    count: result.length,
+    note: "Teams ranked by pre-tournament power rating (FIFA ranking + betting odds). Lower difficulty_rating = harder group.",
+    groups: result,
+    related_tools: [
+      "Use get_team_profile for a deep dive on any team",
+      "Use get_odds for full tournament predictions",
+      "Use get_historical_matchups for complete head-to-head records",
+      "Use get_bracket to see the knockout path from each group",
+    ],
+  });
+});
+
+// ── Tool: get_bracket ──────────────────────────────────────────────
+
+server.registerTool("get_bracket", {
+  annotations: { readOnlyHint: true },
+  title: "Get Knockout Bracket",
+  description:
+    "Visualize the FIFA World Cup 2026 knockout bracket. Shows the full path from Round of 32 through the Final, including which group positions feed into each match, venues, and dates. Optionally filter by a specific round.",
+  inputSchema: z.object({
+    round: z
+      .enum(["Round of 32", "Round of 16", "Quarter-final", "Semi-final", "Final", "all"])
+      .optional()
+      .describe("Specific knockout round to show. Defaults to 'all'."),
+  }),
+}, async (args) => {
+  const knockoutRounds: MatchRound[] = [
+    "Round of 32", "Round of 16", "Quarter-final", "Semi-final",
+    "Third-place play-off", "Final",
+  ];
+
+  const targetRound = args.round ?? "all";
+
+  const knockoutMatches = matches.filter((m) =>
+    knockoutRounds.includes(m.round)
+  );
+
+  function describePlaceholder(p: string | undefined): string {
+    if (!p) return "TBD";
+    // Winner/Loser of match
+    if (p.startsWith("W")) return `Winner of Match ${p.slice(1)}`;
+    if (p.startsWith("L")) return `Loser of Match ${p.slice(1)}`;
+    // Group position like "1A", "2B"
+    if (/^[12][A-L]$/.test(p)) {
+      const pos = p[0] === "1" ? "Winner" : "Runner-up";
+      return `${pos} of Group ${p[1]}`;
+    }
+    // Best third-place like "3C/D/E"
+    if (p.startsWith("3")) {
+      const groups = p.slice(1);
+      return `Best 3rd from Groups ${groups}`;
+    }
+    return p;
+  }
+
+  const enrichedKnockout = knockoutMatches.map((m) => {
+    const venue = venues.find((v) => v.id === m.venue_id);
+    return {
+      match_number: m.match_number,
+      match_id: m.id,
+      round: m.round,
+      date: m.date,
+      time_utc: m.time_utc,
+      venue: venue ? `${venue.name}, ${venue.city}` : m.venue_id,
+      home: m.home_team_id ? teamName(m.home_team_id) : describePlaceholder(m.home_placeholder),
+      away: m.away_team_id ? teamName(m.away_team_id) : describePlaceholder(m.away_placeholder),
+      feeds_into: (() => {
+        const nextAsHome = knockoutMatches.find(
+          (n) => n.home_placeholder === `W${m.match_number}`
+        );
+        const nextAsAway = knockoutMatches.find(
+          (n) => n.away_placeholder === `W${m.match_number}`
+        );
+        const next = nextAsHome || nextAsAway;
+        return next ? `Winner → Match ${next.match_number} (${next.round})` : null;
+      })(),
+    };
+  });
+
+  // Group by round
+  const byRound: Record<string, typeof enrichedKnockout> = {};
+  for (const m of enrichedKnockout) {
+    if (!byRound[m.round]) byRound[m.round] = [];
+    byRound[m.round].push(m);
+  }
+
+  // Filter if specific round requested
+  let result: Record<string, unknown>;
+  if (targetRound !== "all") {
+    const roundKey = targetRound === "Final" ? "Final" : targetRound;
+    const roundMatches = byRound[roundKey];
+    if (!roundMatches) {
+      return json({ error: `No matches found for '${targetRound}'.` });
+    }
+    result = {
+      round: roundKey,
+      matches: roundMatches,
+    };
+  } else {
+    // Build bracket paths: show which group feeds where
+    const bracketPaths = groups.map((g) => {
+      const winnerId = `1${g.id}`;
+      const runnerUpId = `2${g.id}`;
+
+      const winnerMatch = knockoutMatches.find(
+        (m) => m.home_placeholder === winnerId || m.away_placeholder === winnerId
+      );
+      const runnerUpMatch = knockoutMatches.find(
+        (m) => m.home_placeholder === runnerUpId || m.away_placeholder === runnerUpId
+      );
+
+      return {
+        group: `Group ${g.id}`,
+        teams: g.teams.map((tid) => teamName(tid)),
+        winner_enters: winnerMatch
+          ? `Match ${winnerMatch.match_number} (${winnerMatch.round})`
+          : "TBD",
+        runner_up_enters: runnerUpMatch
+          ? `Match ${runnerUpMatch.match_number} (${runnerUpMatch.round})`
+          : "TBD",
+      };
+    });
+
+    result = {
+      bracket_overview: bracketPaths,
+      rounds: Object.fromEntries(
+        knockoutRounds.map((r) => [r, byRound[r] ?? []])
+      ),
+    };
+  }
+
+  return json({
+    ...result,
+    key_dates: {
+      round_of_32: "June 29 - July 3",
+      round_of_16: "July 4 - 7",
+      quarter_finals: "July 9 - 11",
+      semi_finals: "July 14 - 15",
+      third_place: "July 18",
+      final: "July 19 (MetLife Stadium, East Rutherford, NJ)",
+    },
+    related_tools: [
+      "Use get_standings to see group power rankings",
+      "Use get_matches to see the full schedule with filters",
+      "Use get_venues for stadium details",
+    ],
+  });
+});
+
 // ── Start server ────────────────────────────────────────────────────
 
 async function main() {

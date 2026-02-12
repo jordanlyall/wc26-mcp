@@ -9,7 +9,7 @@
   <img src="website/og-image.png" alt="WC26 MCP — World Cup 2026 data for AI" width="600">
 </p>
 
-Ask your AI anything about the 2026 World Cup and get real answers. 16 tools covering matches, teams, venues, city guides, fan zones, head-to-head records, visa info, news, injuries, odds, and more. All data ships with the package. Zero API keys, zero external dependencies.
+Ask your AI anything about the 2026 World Cup and get real answers. 18 tools covering matches, teams, venues, city guides, fan zones, head-to-head records, visa info, news, injuries, odds, standings, knockout bracket, and more. All data ships with the package. Zero API keys, zero external dependencies.
 
 Works with **Claude Desktop** · **Claude Code** · **Cursor** · **Windsurf** · **ChatGPT** · **Telegram** · any MCP client
 
@@ -80,7 +80,7 @@ No setup needed — message the bot directly:
 
 **[Open @wc26ai_bot on Telegram](https://t.me/wc26ai_bot)**
 
-13 slash commands: `/brief`, `/team`, `/matches`, `/group`, `/city`, `/venue`, `/history`, `/visa`, `/fanzones`, `/schedule`, `/news`, and more.
+15 slash commands: `/brief`, `/team`, `/matches`, `/group`, `/city`, `/venue`, `/history`, `/visa`, `/fanzones`, `/schedule`, `/news`, `/injuries`, `/odds`, and more.
 
 ### Other MCP Clients
 
@@ -110,6 +110,8 @@ npx -y wc26-mcp
 | `get_injuries` | Key player availability tracker — injury status, expected return dates, and impact assessment | `team`, `status` |
 | `get_odds` | Tournament favorites, golden boot predictions, group previews, and dark horse picks | `category`, `group` |
 | `compare_teams` | Side-by-side comparison of any two teams — rankings, odds, key players, group difficulty, injuries, and head-to-head | `team_a`, `team_b` |
+| `get_standings` | Group power rankings based on FIFA rankings, betting odds, and predictions | `group` |
+| `get_bracket` | Knockout bracket visualization — R32 through Final with venues, dates, and group entry points | `round` |
 
 ## Example Prompts
 
@@ -142,7 +144,7 @@ npx -y wc26-mcp
 | Venues | 16 | USA (11), Mexico (3), Canada (2) with weather data |
 | Team profiles | 48 | Coach, key players, style, WC history |
 | City guides | 16 | Transit, food, attractions, local tips |
-| Historical matchups | 30 | Head-to-head WC records with narrative |
+| Historical matchups | 34 | Head-to-head WC records with narrative |
 | Fan zones | 18 | All host cities, capacity, hours, transport |
 | Visa entries | 42 | All confirmed nationalities across 3 host countries |
 | News | Daily | Scout Agent curates latest World Cup headlines |
