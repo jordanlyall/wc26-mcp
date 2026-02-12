@@ -506,6 +506,32 @@ server.registerTool("get_team_profile", {
           world_cup_history: null,
           qualifying_summary: "No qualifying data available.",
         }),
+    injury_report: injuries
+      .filter((i) => i.team_id === team.id)
+      .map((i) => ({
+        player: i.player,
+        position: i.position,
+        injury: i.injury,
+        status: i.status,
+        expected_return: i.expected_return,
+        last_updated: i.last_updated,
+      })),
+    tournament_odds: (() => {
+      const winnerOdds = tournamentOdds.tournament_winner.find((o) => o.team_id === team.id);
+      const groupPred = tournamentOdds.group_predictions.find((g) => g.group === team.group);
+      const darkHorse = tournamentOdds.dark_horses.find((d) => d.team_id === team.id);
+      return {
+        ...(winnerOdds ? { winner_odds: winnerOdds.odds, implied_probability: winnerOdds.implied_probability } : {}),
+        ...(groupPred ? {
+          group_prediction: {
+            favorites: groupPred.favorites.map((f) => teamName(f)),
+            dark_horse: teamName(groupPred.dark_horse),
+            narrative: groupPred.narrative,
+          },
+        } : {}),
+        ...(darkHorse ? { dark_horse_pick: darkHorse.reason } : {}),
+      };
+    })(),
     recent_news: news
       .filter((n) => {
         if (n.related_teams.includes(team.id)) return true;
@@ -520,6 +546,8 @@ server.registerTool("get_team_profile", {
       "Use get_matches with team filter to see this team's match schedule",
       "Use get_groups to see this team's group rivals and venue assignments",
       "Use get_visa_info to check entry requirements for this team's fans traveling to host countries",
+      "Use get_injuries for full injury details across all teams",
+      "Use get_odds for complete tournament predictions",
       "Use get_news to see all World Cup headlines",
     ],
   });
@@ -901,6 +929,35 @@ server.registerTool("what_to_know_now", {
       title: "Fan Zones",
       content: `${fanZones.length} official FIFA Fan Festival and fan zone locations across all host cities. Free entry at most sites with live screenings, concerts, food, and interactive experiences.`,
     });
+
+    // Key injuries
+    const activeInjuries = injuries.filter((i) => i.status !== "fit");
+    if (activeInjuries.length > 0) {
+      sections.push({
+        title: "Key Injuries to Watch",
+        content: activeInjuries.map((i) => ({
+          player: i.player,
+          team: teamName(i.team_id),
+          status: i.status,
+          injury: i.injury,
+          expected_return: i.expected_return,
+        })),
+      });
+    }
+
+    // Tournament favorites
+    sections.push({
+      title: "Tournament Favorites",
+      content: tournamentOdds.tournament_winner.slice(0, 8).map((o) => ({
+        team: teamName(o.team_id),
+        odds: o.odds,
+        implied_probability: o.implied_probability,
+      })),
+      dark_horses: tournamentOdds.dark_horses.map((d) => ({
+        team: teamName(d.team_id),
+        reason: d.reason,
+      })),
+    });
   } else if (phase === "post_playoff") {
     headline = `${daysUntilKickoff} days until the FIFA World Cup 2026 kicks off. All 48 teams are confirmed.`;
 
@@ -948,6 +1005,35 @@ server.registerTool("what_to_know_now", {
     sections.push({
       title: "Fan Zones",
       content: `${fanZones.length} official FIFA Fan Festival and fan zone locations across all host cities. Free entry at most sites with live screenings, concerts, food, and interactive experiences.`,
+    });
+
+    // Key injuries
+    const activeInjuriesPost = injuries.filter((i) => i.status !== "fit");
+    if (activeInjuriesPost.length > 0) {
+      sections.push({
+        title: "Key Injuries to Watch",
+        content: activeInjuriesPost.map((i) => ({
+          player: i.player,
+          team: teamName(i.team_id),
+          status: i.status,
+          injury: i.injury,
+          expected_return: i.expected_return,
+        })),
+      });
+    }
+
+    // Tournament favorites
+    sections.push({
+      title: "Tournament Favorites",
+      content: tournamentOdds.tournament_winner.slice(0, 8).map((o) => ({
+        team: teamName(o.team_id),
+        odds: o.odds,
+        implied_probability: o.implied_probability,
+      })),
+      dark_horses: tournamentOdds.dark_horses.map((d) => ({
+        team: teamName(d.team_id),
+        reason: d.reason,
+      })),
     });
   } else if (phase === "group_stage") {
     const todayMatches = matches.filter((m) => m.date === today);
@@ -1083,6 +1169,8 @@ server.registerTool("what_to_know_now", {
       "Use get_visa_info to check entry requirements for any team's fans",
       "Use get_fan_zones to find fan festival locations in any host city",
       "Use get_news for more World Cup headlines",
+      "Use get_injuries to check key player availability",
+      "Use get_odds for tournament predictions and group previews",
     );
   } else if (phase === "group_stage") {
     available_tools.push(
@@ -1091,6 +1179,8 @@ server.registerTool("what_to_know_now", {
       "Use get_groups to see full group standings and remaining fixtures",
       "Use get_fan_zones to find fan festival locations near today's matches",
       "Use get_news for more World Cup headlines",
+      "Use get_injuries to check key player availability",
+      "Use get_odds for tournament predictions and group previews",
     );
   } else if (phase === "knockout") {
     available_tools.push(
@@ -1099,6 +1189,7 @@ server.registerTool("what_to_know_now", {
       "Use get_schedule to see remaining match dates",
       "Use get_fan_zones to find fan festival locations near today's matches",
       "Use get_news for more World Cup headlines",
+      "Use get_injuries to check key player availability",
     );
   } else {
     available_tools.push(
