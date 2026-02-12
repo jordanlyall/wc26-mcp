@@ -992,7 +992,7 @@ function animateCount(el, target) {
       if (entry.isIntersecting) {
         var vals = entry.target.querySelectorAll('.stat-value');
         vals.forEach(function(v) {
-          animateCount(v, parseInt(v.textContent));
+          animateCount(v, parseInt(v.getAttribute('data-target')));
         });
         statsObserver.unobserve(entry.target);
       }
@@ -1000,7 +1000,10 @@ function animateCount(el, target) {
   }, { threshold: 0.3 });
   var stats = document.querySelector('.stats');
   if (stats) {
-    stats.querySelectorAll('.stat-value').forEach(function(v) { v.textContent = '0'; });
+    stats.querySelectorAll('.stat-value').forEach(function(v) {
+      v.setAttribute('data-target', v.textContent);
+      v.textContent = '0';
+    });
     statsObserver.observe(stats);
   }
 
