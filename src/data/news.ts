@@ -2,6 +2,136 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "c6536bcc5b2d",
+    "title": "FA: Tuchel's new deal not related to Man Utd job",
+    "date": "2026-02-13",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/47908191/thomas-tuchel-new-england-deal-not-related-man-united-job-fa",
+    "summary": "FA: Tuchel's new deal not related to Man Utd job",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-13T08:19:56.797Z"
+  },
+  {
+    "id": "6b457536e5b9",
+    "title": "Tuchel extended England stay for 'amazing players'",
+    "date": "2026-02-12",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cgjz7qln875o?at_medium=RSS&at_campaign=rss",
+    "summary": "Tuchel extended England stay for 'amazing players'",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-13T08:19:56.797Z"
+  },
+  {
+    "id": "251ae9d7d092",
+    "title": "Tuchel deal delights FA - but timing has echoes of Capello decision",
+    "date": "2026-02-12",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c62g4l2r5l8o?at_medium=RSS&at_campaign=rss",
+    "summary": "Tuchel deal delights FA - but timing has echoes of Capello decision",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-13T08:19:56.797Z"
+  },
+  {
+    "id": "2c350d36e34b",
+    "title": "Injured Bellingham a doubt for England friendlies",
+    "date": "2026-02-12",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cy4wn9wzvdlo?at_medium=RSS&at_campaign=rss",
+    "summary": "Injured Bellingham a doubt for England friendlies",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-13T08:19:56.797Z"
+  },
+  {
+    "id": "d7823fd188ee",
+    "title": "Barnes rules out Scotland switch, confirms Clarke",
+    "date": "2026-02-12",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c0mgz7nz9m0o?at_medium=RSS&at_campaign=rss",
+    "summary": "Barnes rules out Scotland switch, confirms Clarke",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-13T08:19:56.797Z"
+  },
+  {
+    "id": "1c810edca536",
+    "title": "'I didn't hesitate' - Tuchel extends stay in England 'dream job'",
+    "date": "2026-02-12",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c9dnl94750zo?at_medium=RSS&at_campaign=rss",
+    "summary": "'I didn't hesitate' - Tuchel extends stay in England 'dream job'",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-13T08:19:56.797Z"
+  },
+  {
+    "id": "d7823fd188ee",
+    "title": "Barnes rules out Scotland switch, confirms Clarke",
+    "date": "2026-02-12",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c0mgz7nz9m0o?at_medium=RSS&at_campaign=rss",
+    "summary": "Barnes rules out Scotland switch, confirms Clarke",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-13T08:19:56.797Z"
+  },
+  {
+    "id": "6d0f1665c054",
+    "title": "Thomas Tuchel targets World Cup glory after signing contract extension until 2028",
+    "date": "2026-02-12",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/feb/12/thomas-tuchel-england-contract-extension-2028-head-coach-nations-league",
+    "summary": "Thomas Tuchel targets World Cup glory after signing contract extension until 2028",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-13T08:19:56.797Z"
+  },
+  {
+    "id": "d190873c901e",
+    "title": "Raheem Sterling joins Feyenoord for rest of season after Chelsea exit",
+    "date": "2026-02-12",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/feb/12/raheem-sterling-joins-feyenoord-rest-of-season-chelsea-robin-van-persie",
+    "summary": "Raheem Sterling joins Feyenoord for rest of season after Chelsea exit",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-13T08:19:56.797Z"
+  },
+  {
+    "id": "412ee360cfea",
+    "title": "Mauricio Pochettino's role as USMNT head coach questioned",
+    "date": "2026-02-12",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/football/2026/02/12/698e1fd8ca47410f158b45b7.html",
+    "summary": "Mauricio Pochettino's role as USMNT head coach questioned",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-13T08:19:56.797Z"
+  },
+  {
     "id": "2bc6a048f147",
     "title": "England to play New Zealand and Costa Rica in final World Cup warm-ups",
     "date": "2026-02-11",
@@ -52,6 +182,19 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-02-12T01:17:44.917Z"
+  },
+  {
+    "id": "da8958fce42e",
+    "title": "Lindsey Heaps: ‘The Champions League is the baby you always want to win’",
+    "date": "2026-02-10",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/feb/10/lindsey-heaps-lyonnes-womens-football-moving-the-goalposts",
+    "summary": "Lindsey Heaps: ‘The Champions League is the baby you always want to win’",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-13T08:19:56.797Z"
   },
   {
     "id": "0b5774ce1cb6",
