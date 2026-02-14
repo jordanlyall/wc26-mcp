@@ -40,8 +40,14 @@ import type {
 
 const server = new McpServer({
   name: "wc26-mcp",
-  version: "0.3.0",
+  version: "0.3.1",
 });
+
+// ── Lookup indexes (O(1) access) ────────────────────────────────────
+
+const teamById = new Map(teams.map((t) => [t.id, t]));
+const venueById = new Map(venues.map((v) => [v.id, v]));
+const profileByTeamId = new Map(teamProfiles.map((p) => [p.team_id, p]));
 
 // ── Helpers ─────────────────────────────────────────────────────────
 
@@ -53,12 +59,12 @@ function json(data: unknown): { content: Array<{ type: "text"; text: string }> }
 
 function teamName(id: string | null): string {
   if (!id) return "TBD";
-  const t = teams.find((t) => t.id === id);
+  const t = teamById.get(id);
   return t ? `${t.flag_emoji} ${t.name}` : id;
 }
 
 function venueName(id: string): string {
-  const v = venues.find((v) => v.id === id);
+  const v = venueById.get(id);
   return v ? `${v.name}, ${v.city}` : id;
 }
 
@@ -103,7 +109,7 @@ function resolveTeam(input: string): Team | undefined {
 }
 
 function enrichMatch(m: Match, timezone?: string) {
-  const venue = venues.find((v) => v.id === m.venue_id);
+  const venue = venueById.get(m.venue_id);
   const venueTimezone = venue?.timezone ?? "UTC";
   const venueLocal = convertTime(m.date, m.time_utc, venueTimezone);
 
@@ -128,10 +134,10 @@ function enrichMatch(m: Match, timezone?: string) {
 
 function enrichGroup(g: Group) {
   const groupTeams = g.teams
-    .map((tid) => teams.find((t) => t.id === tid))
+    .map((tid) => teamById.get(tid))
     .filter(Boolean) as Team[];
   const groupVenues = g.venue_ids
-    .map((vid) => venues.find((v) => v.id === vid))
+    .map((vid) => venueById.get(vid))
     .filter(Boolean) as Venue[];
   const groupMatches = matches
     .filter((m) => m.group === g.id)
@@ -155,6 +161,51 @@ function enrichGroup(g: Group) {
       country: v.country,
     })),
     matches: groupMatches,
+  };
+}
+
+/** Shared team-profile builder used by get_team_profile and compare_teams. */
+function buildTeamProfile(team: Team) {
+  const profile = profileByTeamId.get(team.id);
+  const teamInjuries = injuries.filter((i) => i.team_id === team.id);
+  const winnerOdds = tournamentOdds.tournament_winner.find((o) => o.team_id === team.id);
+  const darkHorse = tournamentOdds.dark_horses.find((d) => d.team_id === team.id);
+  const groupPred = tournamentOdds.group_predictions.find((g) => g.group === team.group);
+  const groupTeams = teams.filter((t) => t.group === team.group && t.code !== "TBD");
+  const avgGroupRanking = groupTeams.length > 0
+    ? Math.round(groupTeams.reduce((s, t) => s + (t.fifa_ranking ?? 100), 0) / groupTeams.length)
+    : null;
+
+  return {
+    team: `${team.flag_emoji} ${team.name}`,
+    team_id: team.id,
+    group: team.group,
+    confederation: team.confederation,
+    fifa_ranking: team.fifa_ranking ?? null,
+    is_host: team.is_host,
+    coach: profile?.coach ?? "Unknown",
+    playing_style: profile?.playing_style ?? "No profile data available.",
+    key_players: profile?.key_players ?? [],
+    world_cup_history: profile?.world_cup_history ?? null,
+    qualifying_summary: profile?.qualifying_summary ?? "No qualifying data available.",
+    winner_odds: winnerOdds ? { odds: winnerOdds.odds, implied_probability: winnerOdds.implied_probability } : null,
+    dark_horse_pick: darkHorse?.reason ?? null,
+    group_difficulty: {
+      avg_ranking: avgGroupRanking,
+      group_prediction: groupPred ? {
+        favorites: groupPred.favorites.map((f) => teamName(f)),
+        dark_horse: teamName(groupPred.dark_horse),
+        narrative: groupPred.narrative,
+      } : null,
+    },
+    injuries: teamInjuries.map((i) => ({
+      player: i.player,
+      position: i.position,
+      status: i.status,
+      injury: i.injury,
+      expected_return: i.expected_return,
+      last_updated: i.last_updated,
+    })),
   };
 }
 
@@ -264,8 +315,7 @@ server.registerTool("get_matches", {
     );
   }
   if (args.venue) {
-    const venueExists = venues.some((v) => v.id === args.venue);
-    if (!venueExists) {
+    if (!venueById.has(args.venue)) {
       return json({
         error: `Venue '${args.venue}' not found.`,
         suggestion: "Use the get_venues tool to see all available venues and their IDs.",
@@ -320,8 +370,16 @@ server.registerTool("get_teams", {
   let result = teams;
 
   if (args.group) {
+    const groupLetter = args.group.toUpperCase();
+    const validGroups = [...new Set(teams.map((t) => t.group.toUpperCase()))];
+    if (!validGroups.includes(groupLetter)) {
+      return json({
+        error: `Group '${args.group}' not found.`,
+        suggestion: `Valid groups: ${validGroups.sort().join(", ")}.`,
+      });
+    }
     result = result.filter(
-      (t) => t.group.toUpperCase() === args.group!.toUpperCase()
+      (t) => t.group.toUpperCase() === groupLetter
     );
   }
   if (args.confederation) {
@@ -354,8 +412,16 @@ server.registerTool("get_groups", {
   let result = groups;
 
   if (args.group) {
+    const groupLetter = args.group.toUpperCase();
+    const validGroups = groups.map((g) => g.id);
+    if (!validGroups.includes(groupLetter)) {
+      return json({
+        error: `Group '${args.group}' not found.`,
+        suggestion: `Valid groups: ${validGroups.sort().join(", ")}.`,
+      });
+    }
     result = result.filter(
-      (g) => g.id.toUpperCase() === args.group!.toUpperCase()
+      (g) => g.id.toUpperCase() === groupLetter
     );
   }
 
@@ -487,55 +553,13 @@ server.registerTool("get_team_profile", {
     });
   }
 
-  const profile = teamProfiles.find((p) => p.team_id === team.id);
+  const profile = buildTeamProfile(team);
 
   return json({
-    ...team,
-    ...(profile
-      ? {
-          coach: profile.coach,
-          playing_style: profile.playing_style,
-          key_players: profile.key_players,
-          world_cup_history: profile.world_cup_history,
-          qualifying_summary: profile.qualifying_summary,
-        }
-      : {
-          coach: "Unknown",
-          playing_style: "No profile data available.",
-          key_players: [],
-          world_cup_history: null,
-          qualifying_summary: "No qualifying data available.",
-        }),
-    injury_report: injuries
-      .filter((i) => i.team_id === team.id)
-      .map((i) => ({
-        player: i.player,
-        position: i.position,
-        injury: i.injury,
-        status: i.status,
-        expected_return: i.expected_return,
-        last_updated: i.last_updated,
-      })),
-    tournament_odds: (() => {
-      const winnerOdds = tournamentOdds.tournament_winner.find((o) => o.team_id === team.id);
-      const groupPred = tournamentOdds.group_predictions.find((g) => g.group === team.group);
-      const darkHorse = tournamentOdds.dark_horses.find((d) => d.team_id === team.id);
-      return {
-        ...(winnerOdds ? { winner_odds: winnerOdds.odds, implied_probability: winnerOdds.implied_probability } : {}),
-        ...(groupPred ? {
-          group_prediction: {
-            favorites: groupPred.favorites.map((f) => teamName(f)),
-            dark_horse: teamName(groupPred.dark_horse),
-            narrative: groupPred.narrative,
-          },
-        } : {}),
-        ...(darkHorse ? { dark_horse_pick: darkHorse.reason } : {}),
-      };
-    })(),
+    ...profile,
     recent_news: news
       .filter((n) => {
         if (n.related_teams.includes(team.id)) return true;
-        // Fallback: text match on team name in title/summary
         const text = `${n.title} ${n.summary}`.toLowerCase();
         return text.includes(team.name.toLowerCase()) ||
           (team.code !== "TBD" && text.includes(team.code.toLowerCase()));
@@ -570,7 +594,7 @@ server.registerTool("get_nearby_venues", {
       .describe("Max number of nearby venues to return. Defaults to all 15."),
   }),
 }, async (args) => {
-  const origin = venues.find((v) => v.id === args.venue.toLowerCase());
+  const origin = venueById.get(args.venue.toLowerCase());
 
   if (!origin) {
     return json({
@@ -634,7 +658,7 @@ server.registerTool("get_city_guide", {
   let guide: CityGuide | undefined;
 
   // Try venue ID first
-  venue = venues.find((v) => v.id === query);
+  venue = venueById.get(query);
   if (venue) {
     guide = cityGuides.find((g) => g.venue_id === venue!.id);
   }
@@ -651,7 +675,7 @@ server.registerTool("get_city_guide", {
   if (!guide) {
     guide = cityGuides.find((g) => g.metro_area.toLowerCase() === query);
     if (guide) {
-      venue = venues.find((v) => v.id === guide!.venue_id);
+      venue = venueById.get(guide.venue_id);
     }
   }
 
@@ -659,7 +683,7 @@ server.registerTool("get_city_guide", {
   if (!guide) {
     guide = cityGuides.find((g) => g.metro_area.toLowerCase().includes(query));
     if (guide) {
-      venue = venues.find((v) => v.id === guide!.venue_id);
+      venue = venueById.get(guide.venue_id);
     }
   }
 
@@ -789,11 +813,11 @@ server.registerTool("get_historical_matchups", {
 
   // No history found
   if (!record) {
-    const profileA = teamProfiles.find((p) => p.team_id === first.id);
-    const profileB = teamProfiles.find((p) => p.team_id === second.id);
+    const profileA = profileByTeamId.get(first.id);
+    const profileB = profileByTeamId.get(second.id);
     const firstTimerNote = (id: string, profile?: typeof profileA) => {
       if (profile && profile.world_cup_history.appearances <= 1) {
-        const t = teams.find((t) => t.id === id);
+        const t = teamById.get(id);
         return `${t?.name ?? id} is making their World Cup debut in 2026.`;
       }
       return null;
@@ -914,7 +938,7 @@ server.registerTool("what_to_know_now", {
       content: groups.map((g) => ({
         group: g.id,
         teams: g.teams.map((tid) => {
-          const t = teams.find((t) => t.id === tid);
+          const t = teamById.get(tid);
           return t ? `${t.flag_emoji} ${t.name}` : tid;
         }),
       })),
@@ -1475,7 +1499,7 @@ server.registerTool("get_injuries", {
   return json({
     count: filtered.length,
     injuries: filtered.map((i) => {
-      const team = teams.find((t) => t.id === i.team_id);
+      const team = teamById.get(i.team_id);
       return {
         player: i.player,
         team: team ? `${team.flag_emoji} ${team.name}` : i.team_id,
@@ -1517,7 +1541,7 @@ server.registerTool("get_odds", {
   const category = args.category ?? "all";
 
   const enrichTeam = (tid: string) => {
-    const t = teams.find((t) => t.id === tid);
+    const t = teamById.get(tid);
     return t ? `${t.flag_emoji} ${t.name}` : tid;
   };
 
@@ -1598,46 +1622,6 @@ server.registerTool("compare_teams", {
   if (!teamB) return json({ error: `Team '${args.team_b}' not found.`, suggestion: "Use get_teams to see all available teams." });
   if (teamA.id === teamB.id) return json({ error: "Both inputs resolve to the same team." });
 
-  function buildProfile(team: typeof teamA) {
-    const profile = teamProfiles.find((p) => p.team_id === team!.id);
-    const teamInjuries = injuries.filter((i) => i.team_id === team!.id);
-    const winnerOdds = tournamentOdds.tournament_winner.find((o) => o.team_id === team!.id);
-    const darkHorse = tournamentOdds.dark_horses.find((d) => d.team_id === team!.id);
-    const groupPred = tournamentOdds.group_predictions.find((g) => g.group === team!.group);
-    const groupTeams = teams.filter((t) => t.group === team!.group && t.code !== "TBD");
-    const avgGroupRanking = groupTeams.length > 0
-      ? Math.round(groupTeams.reduce((s, t) => s + (t.fifa_ranking ?? 100), 0) / groupTeams.length)
-      : null;
-
-    return {
-      team: `${team!.flag_emoji} ${team!.name}`,
-      team_id: team!.id,
-      group: team!.group,
-      confederation: team!.confederation,
-      fifa_ranking: team!.fifa_ranking ?? null,
-      is_host: team!.is_host,
-      coach: profile?.coach ?? "Unknown",
-      playing_style: profile?.playing_style ?? null,
-      key_players: profile?.key_players.slice(0, 5).map((p) => `${p.name} (${p.position}, ${p.club})`) ?? [],
-      world_cup_history: profile?.world_cup_history ?? null,
-      winner_odds: winnerOdds ? { odds: winnerOdds.odds, implied_probability: winnerOdds.implied_probability } : null,
-      dark_horse_pick: darkHorse?.reason ?? null,
-      group_difficulty: {
-        avg_ranking: avgGroupRanking,
-        group_prediction: groupPred ? {
-          favorites: groupPred.favorites.map((f) => teamName(f)),
-          dark_horse: teamName(groupPred.dark_horse),
-        } : null,
-      },
-      injuries: teamInjuries.map((i) => ({
-        player: i.player,
-        status: i.status,
-        injury: i.injury,
-        expected_return: i.expected_return,
-      })),
-    };
-  }
-
   // Head-to-head
   const [first, second] = [teamA, teamB].sort((a, b) => a.id.localeCompare(b.id));
   const h2h = historicalMatchups.find((h) => h.team_a === first.id && h.team_b === second.id);
@@ -1649,8 +1633,8 @@ server.registerTool("compare_teams", {
 
   return json({
     comparison: {
-      [teamA.id]: buildProfile(teamA),
-      [teamB.id]: buildProfile(teamB),
+      [teamA.id]: buildTeamProfile(teamA),
+      [teamB.id]: buildTeamProfile(teamB),
     },
     head_to_head: h2h ? {
       total_matches: h2h.total_matches,
@@ -1701,13 +1685,13 @@ server.registerTool("get_standings", {
 
   const result = targetGroups.map((g) => {
     const groupTeams = g.teams
-      .map((tid) => teams.find((t) => t.id === tid))
+      .map((tid) => teamById.get(tid))
       .filter(Boolean) as Team[];
 
     const ranked = groupTeams.map((t) => {
       const winnerOdds = tournamentOdds.tournament_winner.find((o) => o.team_id === t.id);
       const darkHorse = tournamentOdds.dark_horses.find((d) => d.team_id === t.id);
-      const profile = teamProfiles.find((p) => p.team_id === t.id);
+      const profile = profileByTeamId.get(t.id);
       const teamInjuries = injuries.filter((i) => i.team_id === t.id && i.status !== "fit");
 
       // Power score: lower is better. Ranking contributes directly; odds boost reduces it.
@@ -1826,7 +1810,7 @@ server.registerTool("get_bracket", {
   }
 
   const enrichedKnockout = knockoutMatches.map((m) => {
-    const venue = venues.find((v) => v.id === m.venue_id);
+    const venue = venueById.get(m.venue_id);
     return {
       match_number: m.match_number,
       match_id: m.id,
@@ -1901,15 +1885,30 @@ server.registerTool("get_bracket", {
     };
   }
 
+  // Derive key dates from actual match data
+  function roundDateRange(round: string): string {
+    const roundMatches = matches.filter((m) => m.round === round);
+    if (roundMatches.length === 0) return "TBD";
+    const dates = roundMatches.map((m) => m.date).sort();
+    const fmt = (d: string) => new Date(d + "T00:00:00").toLocaleDateString("en-US", { month: "long", day: "numeric" });
+    if (dates[0] === dates[dates.length - 1]) return fmt(dates[0]);
+    return `${fmt(dates[0])} - ${fmt(dates[dates.length - 1])}`;
+  }
+
+  const finalMatch = matches.find((m) => m.round === "Final");
+  const finalVenue = finalMatch ? venueById.get(finalMatch.venue_id) : undefined;
+
   return json({
     ...result,
     key_dates: {
-      round_of_32: "June 29 - July 3",
-      round_of_16: "July 4 - 7",
-      quarter_finals: "July 9 - 11",
-      semi_finals: "July 14 - 15",
-      third_place: "July 18",
-      final: "July 19 (MetLife Stadium, East Rutherford, NJ)",
+      round_of_32: roundDateRange("Round of 32"),
+      round_of_16: roundDateRange("Round of 16"),
+      quarter_finals: roundDateRange("Quarter-final"),
+      semi_finals: roundDateRange("Semi-final"),
+      third_place: roundDateRange("Third-place play-off"),
+      final: finalMatch
+        ? `${roundDateRange("Final")}${finalVenue ? ` (${finalVenue.name}, ${finalVenue.city}, ${finalVenue.state_province})` : ""}`
+        : "TBD",
     },
     related_tools: [
       "Use get_standings to see group power rankings",

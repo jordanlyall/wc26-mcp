@@ -2,7 +2,7 @@
   "manifest_version": "0.3",
   "name": "wc26-mcp",
   "display_name": "World Cup 2026",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "FIFA World Cup 2026 data — matches, teams, venues, city guides, fan zones, visa info, and more",
   "author": {
     "name": "Jordan Lyall",
@@ -36,12 +36,18 @@
     { "name": "get_historical_matchups", "description": "Head-to-head World Cup history between any two teams." },
     { "name": "what_to_know_now", "description": "Zero-query temporal briefing that auto-detects the current tournament phase." },
     { "name": "get_visa_info", "description": "Entry requirements for World Cup travelers entering USA, Mexico, or Canada." },
-    { "name": "get_fan_zones", "description": "Official FIFA Fan Festival and fan zone locations across all host cities." }
+    { "name": "get_fan_zones", "description": "Official FIFA Fan Festival and fan zone locations across all host cities." },
+    { "name": "get_news", "description": "Latest World Cup 2026 news from ESPN, BBC Sport, and Reddit. Auto-updated by Scout Agent." },
+    { "name": "get_injuries", "description": "Key player injury tracker across all 48 teams." },
+    { "name": "get_odds", "description": "Tournament winner odds, Golden Boot favorites, group predictions, and dark horse picks." },
+    { "name": "compare_teams", "description": "Side-by-side comparison of any two teams — rankings, odds, key players, and head-to-head history." },
+    { "name": "get_standings", "description": "Group power rankings based on FIFA rankings, betting odds, and predictions." },
+    { "name": "get_bracket", "description": "Full knockout bracket from Round of 32 through the Final." }
   ],
   "keywords": ["world-cup", "fifa", "2026", "football", "soccer", "sports", "travel"],
   "privacy_policies": ["https://wc26.ai/privacy"],
   "compatibility": {
-    "platforms": ["darwin", "win32"],
+    "platforms": ["darwin", "win32", "linux"],
     "runtimes": {
       "node": ">=18.0.0"
     }

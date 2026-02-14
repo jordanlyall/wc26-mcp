@@ -41,19 +41,6 @@ export const news: NewsItem[] = [
     "fetched_at": "2026-02-14T08:11:50.911Z"
   },
   {
-    "id": "ec1d69c4b27f",
-    "title": "BBC to show Scots' games live as Serie A returns to free-to-air TV",
-    "date": "2026-02-13",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cx2ye666jjlo?at_medium=RSS&at_campaign=rss",
-    "summary": "BBC to show Scots' games live as Serie A returns to free-to-air TV",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-14T08:11:50.911Z"
-  },
-  {
     "id": "db68041a08b5",
     "title": "Spurs agree deal to make Igor Tudor interim manager until end of season",
     "date": "2026-02-13",
@@ -177,19 +164,6 @@ export const news: NewsItem[] = [
     "source": "BBC Sport",
     "url": "https://www.bbc.com/sport/football/articles/c9dnl94750zo?at_medium=RSS&at_campaign=rss",
     "summary": "'I didn't hesitate' - Tuchel extends stay in England 'dream job'",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-13T08:19:56.797Z"
-  },
-  {
-    "id": "d7823fd188ee",
-    "title": "Barnes rules out Scotland switch, confirms Clarke",
-    "date": "2026-02-12",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c0mgz7nz9m0o?at_medium=RSS&at_campaign=rss",
-    "summary": "Barnes rules out Scotland switch, confirms Clarke",
     "categories": [
       "general"
     ],
