@@ -106,7 +106,7 @@ npx -y wc26-mcp
 | `get_schedule` | Tournament schedule organized by date with timezone conversion | `date_from`, `date_to`, `timezone` |
 | `get_visa_info` | Entry requirements (visa, ESTA, eTA) for any team's nationals entering host countries | `team`, `host_country` |
 | `get_fan_zones` | Official FIFA Fan Festival locations across all 16 host cities with capacity, hours, activities, and transit tips | `city`, `country`, `venue_id` |
-| `get_news` | Latest World Cup news headlines sourced by the Scout Agent daily | `topic`, `limit` |
+| `get_news` | Latest World Cup news headlines sourced by the Scout Agent daily | `team`, `category`, `limit` |
 | `get_injuries` | Key player availability tracker — injury status, expected return dates, and impact assessment | `team`, `status` |
 | `get_odds` | Tournament favorites, golden boot predictions, group previews, and dark horse picks | `category`, `group` |
 | `compare_teams` | Side-by-side comparison of any two teams — rankings, odds, key players, group difficulty, injuries, and head-to-head | `team_a`, `team_b` |
