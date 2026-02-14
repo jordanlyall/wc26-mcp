@@ -2,6 +2,110 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "ef051d27adde",
+    "title": "A 'very special' FA Cup win and why managing Ronaldo is 'easy'",
+    "date": "2026-02-14",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c98gy904nggo?at_medium=RSS&at_campaign=rss",
+    "summary": "A 'very special' FA Cup win and why managing Ronaldo is 'easy'",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-14T08:11:50.911Z"
+  },
+  {
+    "id": "c2fb4feaf4cd",
+    "title": "Martinez on club v country & managing Belgium's 'golden generation'",
+    "date": "2026-02-14",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/videos/c0rjgxn75dxo?at_medium=RSS&at_campaign=rss",
+    "summary": "Martinez on club v country & managing Belgium's 'golden generation'",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-14T08:11:50.911Z"
+  },
+  {
+    "id": "ec1d69c4b27f",
+    "title": "BBC to show Scots' games live as Serie A returns to free-to-air TV",
+    "date": "2026-02-13",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cx2ye666jjlo?at_medium=RSS&at_campaign=rss",
+    "summary": "BBC to show Scots' games live as Serie A returns to free-to-air TV",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-14T08:11:50.911Z"
+  },
+  {
+    "id": "ec1d69c4b27f",
+    "title": "BBC to show Scots' games live as Serie A returns to free-to-air TV",
+    "date": "2026-02-13",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cx2ye666jjlo?at_medium=RSS&at_campaign=rss",
+    "summary": "BBC to show Scots' games live as Serie A returns to free-to-air TV",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-14T08:11:50.911Z"
+  },
+  {
+    "id": "db68041a08b5",
+    "title": "Spurs agree deal to make Igor Tudor interim manager until end of season",
+    "date": "2026-02-13",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/feb/13/spurs-igor-tudor-interim-manager-mauricio-pochettino",
+    "summary": "Spurs agree deal to make Igor Tudor interim manager until end of season",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-14T08:11:50.911Z"
+  },
+  {
+    "id": "e0cf000b95fe",
+    "title": "Thomas Tuchel is in no hurry to return to club management. It’s easy to see why | Jacob Steinberg",
+    "date": "2026-02-13",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/feb/13/thomas-tuchel-england-club-management-world-cup-2026-euro-2028",
+    "summary": "Thomas Tuchel is in no hurry to return to club management. It’s easy to see why | Jacob Steinberg",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-14T08:11:50.911Z"
+  },
+  {
+    "id": "f5203d3c580d",
+    "title": "Why James Rodríguez signed in Minnesota amid a federal occupation",
+    "date": "2026-02-13",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/feb/13/james-rodriguez-minnesota-united-colombia-world-cup-2026",
+    "summary": "Why James Rodríguez signed in Minnesota amid a federal occupation",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-14T08:11:50.911Z"
+  },
+  {
+    "id": "cfca98e67fc1",
+    "title": "Alexi Lalas dispels doubts about Christian Pulisic and predicts his role in the World Cup with USMNT",
+    "date": "2026-02-13",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/world-cup/2026/02/13/698f435f46163f45338b45f7.html",
+    "summary": "Alexi Lalas dispels doubts about Christian Pulisic and predicts his role in the World Cup with USMNT",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-14T08:11:50.911Z"
+  },
+  {
     "id": "c6536bcc5b2d",
     "title": "FA: Tuchel's new deal not related to Man Utd job",
     "date": "2026-02-13",
