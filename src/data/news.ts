@@ -2,6 +2,84 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "31547547b0ac",
+    "title": "Man Utd's Toone set to miss League Cup final",
+    "date": "2026-02-14",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c77ejy5mdk3o?at_medium=RSS&at_campaign=rss",
+    "summary": "Man Utd's Toone set to miss League Cup final",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-15T08:12:54.208Z"
+  },
+  {
+    "id": "8c4a156f4064",
+    "title": "Mohamed Salah recaptures scintillating form as Liverpool see off Brighton",
+    "date": "2026-02-14",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/feb/14/liverpool-brighton-fa-cup-fourth-round-match-report",
+    "summary": "Mohamed Salah recaptures scintillating form as Liverpool see off Brighton",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-15T08:12:54.208Z"
+  },
+  {
+    "id": "a7ee663d8baf",
+    "title": "European football: Harry Kane double restores Bayern Munich’s six-point Bundesliga lead",
+    "date": "2026-02-14",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/feb/14/european-football-bayern-munich-inter-juventus-real-madrid",
+    "summary": "European football: Harry Kane double restores Bayern Munich’s six-point Bundesliga lead",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-15T08:12:54.208Z"
+  },
+  {
+    "id": "b9ee85711932",
+    "title": "‘It is an honour’: Tottenham confirm Igor Tudor as interim head coach until end of season",
+    "date": "2026-02-14",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/feb/14/tottenham-igor-tudor-interim-head-coach-premier-league",
+    "summary": "‘It is an honour’: Tottenham confirm Igor Tudor as interim head coach until end of season",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-15T08:12:54.208Z"
+  },
+  {
+    "id": "cfc91d523ecb",
+    "title": "Portugal coach predicts when Cristiano Ronaldo will retire and it may come as a surprise",
+    "date": "2026-02-14",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/football/2026/02/14/69907f6446163f10068b4582.html",
+    "summary": "Portugal coach predicts when Cristiano Ronaldo will retire and it may come as a surprise",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-15T08:12:54.208Z"
+  },
+  {
+    "id": "5fa23a02280d",
+    "title": "Mauricio Pochettino does not want to disappoint Donald Trump and sends him a message about winning the next World Cup in the USA",
+    "date": "2026-02-14",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/football/2026/02/14/69907af7e2704e04068b45ca.html",
+    "summary": "Mauricio Pochettino does not want to disappoint Donald Trump and sends him a message about winning the next World Cup in the USA",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-15T08:12:54.208Z"
+  },
+  {
     "id": "ef051d27adde",
     "title": "A 'very special' FA Cup win and why managing Ronaldo is 'easy'",
     "date": "2026-02-14",
