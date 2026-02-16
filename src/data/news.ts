@@ -2,6 +2,58 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "f0120872c369",
+    "title": "Clarke plans Scotland talks next month - gossip",
+    "date": "2026-02-16",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cqxd9vqndjxo?at_medium=RSS&at_campaign=rss",
+    "summary": "Clarke plans Scotland talks next month - gossip",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-16T08:20:40.944Z"
+  },
+  {
+    "id": "123a65617a5f",
+    "title": "Captain Van Dijk wants 'so important' Salah to stay",
+    "date": "2026-02-15",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c0k158g7700o?at_medium=RSS&at_campaign=rss",
+    "summary": "Captain Van Dijk wants 'so important' Salah to stay",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-16T08:20:40.944Z"
+  },
+  {
+    "id": "bacf469fe264",
+    "title": "Youssef Chermiti hat-trick powers Rangers to victory over leaders Hearts",
+    "date": "2026-02-15",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/feb/15/rangers-hearts-scottish-premiership-match-report",
+    "summary": "Youssef Chermiti hat-trick powers Rangers to victory over leaders Hearts",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-16T08:20:40.944Z"
+  },
+  {
+    "id": "4290e2cefe99",
+    "title": "Arbeloa, two wins away from the best league start by a Real Madrid coach",
+    "date": "2026-02-15",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/football/real-madrid/2026/02/16/6992537d22601dda668b45cf.html",
+    "summary": "Arbeloa, two wins away from the best league start by a Real Madrid coach",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-16T08:20:40.944Z"
+  },
+  {
     "id": "31547547b0ac",
     "title": "Man Utd's Toone set to miss League Cup final",
     "date": "2026-02-14",
