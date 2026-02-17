@@ -2,6 +2,84 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "b22262b699fc",
+    "title": "Klopp's agent: Man Utd, Chelsea made approach",
+    "date": "2026-02-17",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/47951029/united-states-england-wanted-jurgen-klopp-coach",
+    "summary": "Klopp's agent: Man Utd, Chelsea made approach",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-17T08:21:02.422Z"
+  },
+  {
+    "id": "4322151924e0",
+    "title": "Will we see changes to first England squad in 2026?",
+    "date": "2026-02-16",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cwyxwyzy9wxo?at_medium=RSS&at_campaign=rss",
+    "summary": "Will we see changes to first England squad in 2026?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-17T08:21:02.422Z"
+  },
+  {
+    "id": "4322151924e0",
+    "title": "Will we see changes to first England squad in 2026?",
+    "date": "2026-02-16",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cwyxwyzy9wxo?at_medium=RSS&at_campaign=rss",
+    "summary": "Will we see changes to first England squad in 2026?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-17T08:21:02.422Z"
+  },
+  {
+    "id": "9b9f5851210d",
+    "title": "Rayo Vallecano stun Atlético with their fans in revolt and stadium unusable | Sid Lowe",
+    "date": "2026-02-16",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/feb/16/rayo-vallecano-stun-atletico-with-their-fans-in-revolt-and-stadium-unusable",
+    "summary": "Rayo Vallecano stun Atlético with their fans in revolt and stadium unusable | Sid Lowe",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-17T08:21:02.422Z"
+  },
+  {
+    "id": "c59124276b9b",
+    "title": "Javier Aguirre in trouble: How many Mexican national team players could miss the 2026 World Cup?",
+    "date": "2026-02-16",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/world-cup/2026/02/16/699309d522601ddd648b457f.html",
+    "summary": "Javier Aguirre in trouble: How many Mexican national team players could miss the 2026 World Cup?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-17T08:21:02.422Z"
+  },
+  {
+    "id": "7a653f6a9eae",
+    "title": "Neymar is back: \"Ancelotti will be happy if he does well\"",
+    "date": "2026-02-16",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/world-cup/2026/02/16/69930754ca4741ba0a8b45da.html",
+    "summary": "Neymar is back: \"Ancelotti will be happy if he does well\"",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-17T08:21:02.422Z"
+  },
+  {
     "id": "f0120872c369",
     "title": "Clarke plans Scotland talks next month - gossip",
     "date": "2026-02-16",
