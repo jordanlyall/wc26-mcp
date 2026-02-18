@@ -2,6 +2,136 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "135256056497",
+    "title": "Mexico confirms trio of World Cup warm-up games",
+    "date": "2026-02-18",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/47957283/mexico-ghana-australia-serbia-2026-world-cup-friendlies",
+    "summary": "Mexico confirms trio of World Cup warm-up games",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-18T08:20:03.543Z"
+  },
+  {
+    "id": "aa5ace2325b6",
+    "title": "José Mourinho's strong accusations: Are referees helping Real Madrid?",
+    "date": "2026-02-18",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/football/champions-league/2026/02/18/69951c77e2704ed7028b4602.html",
+    "summary": "José Mourinho's strong accusations: Are referees helping Real Madrid?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-18T08:20:03.543Z"
+  },
+  {
+    "id": "9c6745ed6617",
+    "title": "Real Madrid's Vinicius Jr issues racism accusations: Mourinho sends strong message",
+    "date": "2026-02-18",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/football/real-madrid/2026/02/18/6995150146163f27038b4606.html",
+    "summary": "Real Madrid's Vinicius Jr issues racism accusations: Mourinho sends strong message",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-18T08:20:03.543Z"
+  },
+  {
+    "id": "16f3ce620eb6",
+    "title": "Meet Noahkai Banks, 19, the outside pick to make USMNT's World Cup squad",
+    "date": "2026-02-17",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/47943775/meet-noahkai-banks-19-pick-make-usmnts-world-cup-squad",
+    "summary": "Meet Noahkai Banks, 19, the outside pick to make USMNT's World Cup squad",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-18T08:20:03.543Z"
+  },
+  {
+    "id": "e9bad8248f8c",
+    "title": "Williamson returns for World Cup qualifiers",
+    "date": "2026-02-17",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/ce82m6rnng7o?at_medium=RSS&at_campaign=rss",
+    "summary": "Williamson returns for World Cup qualifiers",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-18T08:20:03.543Z"
+  },
+  {
+    "id": "052eead680fe",
+    "title": "Republic of Ireland trio return for qualifiers",
+    "date": "2026-02-17",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/ckglzmkn8r3o?at_medium=RSS&at_campaign=rss",
+    "summary": "Republic of Ireland trio return for qualifiers",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-18T08:20:03.543Z"
+  },
+  {
+    "id": "e9bad8248f8c",
+    "title": "Williamson returns for World Cup qualifiers",
+    "date": "2026-02-17",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/ce82m6rnng7o?at_medium=RSS&at_campaign=rss",
+    "summary": "Williamson returns for World Cup qualifiers",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-18T08:20:03.543Z"
+  },
+  {
+    "id": "052eead680fe",
+    "title": "Republic of Ireland trio return for qualifiers",
+    "date": "2026-02-17",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/ckglzmkn8r3o?at_medium=RSS&at_campaign=rss",
+    "summary": "Republic of Ireland trio return for qualifiers",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-18T08:20:03.543Z"
+  },
+  {
+    "id": "d1f44b59ecd0",
+    "title": "Williamson back for World Cup qualifiers as Wiegman denies contract is ‘distraction’",
+    "date": "2026-02-17",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/feb/17/leah-williamson-england-squad-world-cup-qualifiers-sarina-wiegman-contract",
+    "summary": "Williamson back for World Cup qualifiers as Wiegman denies contract is ‘distraction’",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-18T08:20:03.543Z"
+  },
+  {
+    "id": "17fc991716b4",
+    "title": "Emma Hayes strikes balance of experience and youth for USWNT’s SheBelieves Cup roster",
+    "date": "2026-02-17",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/feb/17/uswnt-shebelieves-roster-emma-hayes",
+    "summary": "Emma Hayes strikes balance of experience and youth for USWNT’s SheBelieves Cup roster",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-18T08:20:03.543Z"
+  },
+  {
     "id": "b22262b699fc",
     "title": "Klopp's agent: Man Utd, Chelsea made approach",
     "date": "2026-02-17",
