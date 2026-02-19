@@ -2,6 +2,149 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "7a36875e0d3f",
+    "title": "Montemurro on home Asian Cup, WSL pressure & fixing cultures",
+    "date": "2026-02-19",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cx2ryg14yxlo?at_medium=RSS&at_campaign=rss",
+    "summary": "Montemurro on home Asian Cup, WSL pressure & fixing cultures",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-19T08:20:20.341Z"
+  },
+  {
+    "id": "9a15242cb081",
+    "title": "McGinn says VAR  in Scotland is 'a mess' - gossip",
+    "date": "2026-02-19",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c70nzlgxgw6o?at_medium=RSS&at_campaign=rss",
+    "summary": "McGinn says VAR  in Scotland is 'a mess' - gossip",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-19T08:20:20.341Z"
+  },
+  {
+    "id": "7a36875e0d3f",
+    "title": "Montemurro on home Asian Cup, WSL pressure & fixing cultures",
+    "date": "2026-02-19",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cx2ryg14yxlo?at_medium=RSS&at_campaign=rss",
+    "summary": "Montemurro on home Asian Cup, WSL pressure & fixing cultures",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-19T08:20:20.341Z"
+  },
+  {
+    "id": "2521663463f0",
+    "title": "Matildas golden generation given last shot at silverware but next wave are key to Asian Cup hopes | Samantha Lewis",
+    "date": "2026-02-19",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/blog/2026/feb/19/matildas-australia-golden-generation-womens-asian-cup-squad",
+    "summary": "Matildas golden generation given last shot at silverware but next wave are key to Asian Cup hopes | Samantha Lewis",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-19T08:20:20.341Z"
+  },
+  {
+    "id": "ab8f5dc220a5",
+    "title": "Cristian Roldan acknowledges Pochettino's impact on U.S. Men's Soccer",
+    "date": "2026-02-19",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/football/2026/02/19/6996593946163f11088b456c.html",
+    "summary": "Cristian Roldan acknowledges Pochettino's impact on U.S. Men's Soccer",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-19T08:20:20.341Z"
+  },
+  {
+    "id": "0cb46f0c33bd",
+    "title": "Fishlock to join Wales staff for opening qualifier",
+    "date": "2026-02-18",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cm2rje9mq23o?at_medium=RSS&at_campaign=rss",
+    "summary": "Fishlock to join Wales staff for opening qualifier",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-19T08:20:20.341Z"
+  },
+  {
+    "id": "2976634b1cec",
+    "title": "Pressley backs Dundee's Graham for Premier League",
+    "date": "2026-02-18",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c4gq204pwk7o?at_medium=RSS&at_campaign=rss",
+    "summary": "Pressley backs Dundee's Graham for Premier League",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-19T08:20:20.341Z"
+  },
+  {
+    "id": "0cb46f0c33bd",
+    "title": "Fishlock to join Wales staff for opening qualifier",
+    "date": "2026-02-18",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cm2rje9mq23o?at_medium=RSS&at_campaign=rss",
+    "summary": "Fishlock to join Wales staff for opening qualifier",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-19T08:20:20.341Z"
+  },
+  {
+    "id": "17749d1f20ce",
+    "title": "Matildas gamble on Mary Fowler’s fitness as Women’s Asian Cup squad named",
+    "date": "2026-02-18",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/feb/18/matildas-australia-womens-asian-cup-squad-team-named",
+    "summary": "Matildas gamble on Mary Fowler’s fitness as Women’s Asian Cup squad named",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-19T08:20:20.341Z"
+  },
+  {
+    "id": "fc9ed7cb204f",
+    "title": "Football Daily | The Galatasaray Expendables lay waste Juve on night to forget for Cabal",
+    "date": "2026-02-18",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/feb/18/football-daily-email-the-galatasaray-expendables-juve",
+    "summary": "Football Daily | The Galatasaray Expendables lay waste Juve on night to forget for Cabal",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-19T08:20:20.341Z"
+  },
+  {
+    "id": "9cf008221ee9",
+    "title": "Lionel Messi's return to training brings relief to Argentina and Inter Miami",
+    "date": "2026-02-18",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/football/mls/2026/02/18/69961d16ca474143668b4579.html",
+    "summary": "Lionel Messi's return to training brings relief to Argentina and Inter Miami",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-19T08:20:20.341Z"
+  },
+  {
     "id": "135256056497",
     "title": "Mexico confirms trio of World Cup warm-up games",
     "date": "2026-02-18",
