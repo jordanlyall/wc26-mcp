@@ -2,6 +2,136 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "8d0c55ad7081",
+    "title": "NY/NJ scrap Liberty State Park World Cup FanFest",
+    "date": "2026-02-21",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/47987578/world-cup-2026-new-york-jersey-fanfest-statue-liberty",
+    "summary": "NY/NJ scrap Liberty State Park World Cup FanFest",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-21T08:11:36.027Z"
+  },
+  {
+    "id": "690bccbc9075",
+    "title": "‘I’m living year to year now’: Neymar says he may retire by end of 2026",
+    "date": "2026-02-21",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/feb/21/neymar-says-he-may-retire-by-end-of-2026-brazil",
+    "summary": "‘I’m living year to year now’: Neymar says he may retire by end of 2026",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-21T08:11:36.027Z"
+  },
+  {
+    "id": "e77eb31a8f37",
+    "title": "Brazil striker Neymar considering retirement",
+    "date": "2026-02-20",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c62g6zdjzpxo?at_medium=RSS&at_campaign=rss",
+    "summary": "Brazil striker Neymar considering retirement",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-21T08:11:36.027Z"
+  },
+  {
+    "id": "3b94733e8a29",
+    "title": "Rafferty returns for NI's World Cup qualifiers",
+    "date": "2026-02-20",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/ce94vvrxjnpo?at_medium=RSS&at_campaign=rss",
+    "summary": "Rafferty returns for NI's World Cup qualifiers",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-21T08:11:36.027Z"
+  },
+  {
+    "id": "9eec1bd293b4",
+    "title": "German soccer club cancel US trip amid concerns over ICE actions in Minnesota",
+    "date": "2026-02-20",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/feb/20/werder-bremen-cancel-us-trip-minnesota-ice",
+    "summary": "German soccer club cancel US trip amid concerns over ICE actions in Minnesota",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-21T08:11:36.027Z"
+  },
+  {
+    "id": "370f454c3220",
+    "title": "Murillo hails Pereira after ‘problems’ with past Nottingham Forest managers",
+    "date": "2026-02-20",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/feb/20/murillo-hails-vitor-pereira-after-problems-with-past-nottingham-forest-managers",
+    "summary": "Murillo hails Pereira after ‘problems’ with past Nottingham Forest managers",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-21T08:11:36.027Z"
+  },
+  {
+    "id": "7c44b9958a90",
+    "title": "Xabi Alonso says no to European champion in crisis as he waits for a better offer",
+    "date": "2026-02-20",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/football/2026/02/20/69988271e2704ea4128b458e.html",
+    "summary": "Xabi Alonso says no to European champion in crisis as he waits for a better offer",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-21T08:11:36.027Z"
+  },
+  {
+    "id": "3f499706f261",
+    "title": "The son of Brazilian international Thiago Silva makes his debut with... England!",
+    "date": "2026-02-20",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/football/2026/02/20/69986c3022601d415d8b45b3.html",
+    "summary": "The son of Brazilian international Thiago Silva makes his debut with... England!",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-21T08:11:36.027Z"
+  },
+  {
+    "id": "99c4a0f9cc5c",
+    "title": "2026 World Cup will be a sell-out: FIFA confirms tickets are sold out",
+    "date": "2026-02-20",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/world-cup/2026/02/20/69983824e2704e081c8b4593.html",
+    "summary": "2026 World Cup will be a sell-out: FIFA confirms tickets are sold out",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-21T08:11:36.027Z"
+  },
+  {
+    "id": "a046cd6c36d8",
+    "title": "Carlo Ancelotti breaks silence on Vinicius Junior's attitude at Real Madrid and Brazil",
+    "date": "2026-02-20",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/world-cup/2026/02/20/6998333ae2704eb02a8b459b.html",
+    "summary": "Carlo Ancelotti breaks silence on Vinicius Junior's attitude at Real Madrid and Brazil",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-21T08:11:36.027Z"
+  },
+  {
     "id": "0e9d105ec3e9",
     "title": "Manchester United sweep aside Atlético to tee up Bayern Munich clash in WCL",
     "date": "2026-02-19",
