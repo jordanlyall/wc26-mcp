@@ -2,6 +2,32 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "b80a428db82a",
+    "title": "Sources: USMNT's Sargent set to join Toronto FC",
+    "date": "2026-02-21",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/47986546/usmnt-norwich-city-forward-josh-sargent-set-toronto-fc-transfer-sources",
+    "summary": "Sources: USMNT's Sargent set to join Toronto FC",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-22T08:11:55.836Z"
+  },
+  {
+    "id": "2cc47ee832a3",
+    "title": "Birmingham’s Hurtré piles pain on Chatham during 8-0 rout in Women’s FA Cup",
+    "date": "2026-02-21",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/feb/21/womens-fa-cup-birmingham-chatham-match-report",
+    "summary": "Birmingham’s Hurtré piles pain on Chatham during 8-0 rout in Women’s FA Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-22T08:11:55.836Z"
+  },
+  {
     "id": "8d0c55ad7081",
     "title": "NY/NJ scrap Liberty State Park World Cup FanFest",
     "date": "2026-02-21",
