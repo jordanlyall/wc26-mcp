@@ -2,6 +2,97 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "198dfae88fb4",
+    "title": "Games in Mexico called off after cartel boss killed",
+    "date": "2026-02-23",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48010697/mexican-league-matches-postponed-cartel-leader-dies",
+    "summary": "Games in Mexico called off after cartel boss killed",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-23T08:20:59.833Z"
+  },
+  {
+    "id": "d97008934261",
+    "title": "Loftus-Cheek carried off after collision",
+    "date": "2026-02-23",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c3wl4g1g7ywo?at_medium=RSS&at_campaign=rss",
+    "summary": "Loftus-Cheek carried off after collision",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-23T08:20:59.833Z"
+  },
+  {
+    "id": "1a777cf17c16",
+    "title": "Premier League: 10 talking points from the weekend’s action",
+    "date": "2026-02-23",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/feb/23/premier-league-10-talking-points-from-the-weekends-action",
+    "summary": "Premier League: 10 talking points from the weekend’s action",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-23T08:20:59.833Z"
+  },
+  {
+    "id": "4803f134bbb7",
+    "title": "Bruno Fernandes is back in his best position and more effective than ever",
+    "date": "2026-02-23",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/who-scored-blog/2026/feb/23/bruno-fernandes-best-position-effective-manchester-united-season",
+    "summary": "Bruno Fernandes is back in his best position and more effective than ever",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-23T08:20:59.833Z"
+  },
+  {
+    "id": "c8fa3571cf0b",
+    "title": "North Korea: world’s most secretive nation lands in spotlight at Women’s Asian Cup | Samantha Lewis",
+    "date": "2026-02-23",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/sport/2026/feb/23/north-korea-womens-national-football-team-asian-cup-2026",
+    "summary": "North Korea: world’s most secretive nation lands in spotlight at Women’s Asian Cup | Samantha Lewis",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-23T08:20:59.833Z"
+  },
+  {
+    "id": "0aff540dc294",
+    "title": "Cristiano Ronaldo match in Mexico under threat after cartel violence erupts",
+    "date": "2026-02-23",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/football/2026/02/23/699bcecf22601d16448b4572.html",
+    "summary": "Cristiano Ronaldo match in Mexico under threat after cartel violence erupts",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-23T08:20:59.833Z"
+  },
+  {
+    "id": "1bcbe90bae1a",
+    "title": "Alphonso Davies goes down leaving Bayern Munich and Canada with a big headache before the World Cup",
+    "date": "2026-02-23",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/football/bundesliga/2026/02/23/699bb2daca4741ab578b45a9.html",
+    "summary": "Alphonso Davies goes down leaving Bayern Munich and Canada with a big headache before the World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-23T08:20:59.833Z"
+  },
+  {
     "id": "b80a428db82a",
     "title": "Sources: USMNT's Sargent set to join Toronto FC",
     "date": "2026-02-21",
