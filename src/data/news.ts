@@ -2,6 +2,136 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "9498b749a12d",
+    "title": "Sources: Mexico game still on amid cartel violence",
+    "date": "2026-02-24",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48018058/mexico-iceland-game-cartel-violence",
+    "summary": "Sources: Mexico game still on amid cartel violence",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-24T08:21:15.610Z"
+  },
+  {
+    "id": "f616b015c12a",
+    "title": "Countdowns for throw-ins, goal kicks set for WC",
+    "date": "2026-02-24",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48014733/fifa-world-cup-countdown-throw-ins-goal-kicks-feature",
+    "summary": "Countdowns for throw-ins, goal kicks set for WC",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-24T08:21:15.610Z"
+  },
+  {
+    "id": "9ab2b979b444",
+    "title": "Madrid's Huijsen apologises for offensive post",
+    "date": "2026-02-24",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48013184/real-madrid-dean-huijsen-apologises-weibo-chinese-friends",
+    "summary": "Madrid's Huijsen apologises for offensive post",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-24T08:21:15.610Z"
+  },
+  {
+    "id": "56e812b6e84c",
+    "title": "Curacao boss Advocaat steps down and misses making World Cup history",
+    "date": "2026-02-23",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cn0e23gkg5lo?at_medium=RSS&at_campaign=rss",
+    "summary": "Curacao boss Advocaat steps down and misses making World Cup history",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-24T08:21:15.610Z"
+  },
+  {
+    "id": "e575842df72d",
+    "title": "Scotland lose Maclean and Cornet for World Cup qualifying openers",
+    "date": "2026-02-23",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cy0dqr1en95o?at_medium=RSS&at_campaign=rss",
+    "summary": "Scotland lose Maclean and Cornet for World Cup qualifying openers",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-24T08:21:15.610Z"
+  },
+  {
+    "id": "56e812b6e84c",
+    "title": "Advocaat to miss Scotland friendly and World Cup history ",
+    "date": "2026-02-23",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cn0e23gkg5lo?at_medium=RSS&at_campaign=rss",
+    "summary": "Advocaat to miss Scotland friendly and World Cup history ",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-24T08:21:15.610Z"
+  },
+  {
+    "id": "e575842df72d",
+    "title": "Scotland lose Maclean and Cornet for World Cup openers",
+    "date": "2026-02-23",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cy0dqr1en95o?at_medium=RSS&at_campaign=rss",
+    "summary": "Scotland lose Maclean and Cornet for World Cup openers",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-24T08:21:15.610Z"
+  },
+  {
+    "id": "e575842df72d",
+    "title": "Scotland lose Maclean and Cornet for World Cup qualifying openers",
+    "date": "2026-02-23",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cy0dqr1en95o?at_medium=RSS&at_campaign=rss",
+    "summary": "Scotland lose Maclean and Cornet for World Cup qualifying openers",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-24T08:21:15.610Z"
+  },
+  {
+    "id": "15c1e948116b",
+    "title": "Supersub Benjamin Sesko fires Manchester United past Everton and into top four",
+    "date": "2026-02-23",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/feb/23/everton-manchester-united-premier-league-match-report",
+    "summary": "Supersub Benjamin Sesko fires Manchester United past Everton and into top four",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-24T08:21:15.610Z"
+  },
+  {
+    "id": "9e03f5e4512c",
+    "title": "Women’s FA Cup talking points: Kerr shows the way and Liverpool resurgence continues",
+    "date": "2026-02-23",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/feb/23/womens-fa-cup-talking-points-kerr-shows-the-way-and-liverpool-resurgence-continues",
+    "summary": "Women’s FA Cup talking points: Kerr shows the way and Liverpool resurgence continues",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-24T08:21:15.610Z"
+  },
+  {
     "id": "198dfae88fb4",
     "title": "Games in Mexico called off after cartel boss killed",
     "date": "2026-02-23",
