@@ -2,6 +2,214 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "64f736eda89b",
+    "title": "WC host cities warn Congress of security concerns",
+    "date": "2026-02-25",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48024269/world-cup-host-cities-warn-congress-security-concerns",
+    "summary": "WC host cities warn Congress of security concerns",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-25T08:20:50.174Z"
+  },
+  {
+    "id": "870a7a93bb11",
+    "title": "Mexico's Aguirre: Everyone 'safe' for Iceland game",
+    "date": "2026-02-25",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48027164/mexico-coach-aguirre-everyone-safe-iceland-game",
+    "summary": "Mexico's Aguirre: Everyone 'safe' for Iceland game",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-25T08:20:50.174Z"
+  },
+  {
+    "id": "f3fb6e4bed04",
+    "title": "Is Portugal's friendly against Mexico in doubt due to rising security concerns?",
+    "date": "2026-02-25",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/football/2026/02/25/699e65a2268e3e0a6a8b4588.html",
+    "summary": "Is Portugal's friendly against Mexico in doubt due to rising security concerns?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-25T08:20:50.174Z"
+  },
+  {
+    "id": "d6e6b7e7c149",
+    "title": "Williamson 'wouldn't rule out' striking over scheduling",
+    "date": "2026-02-24",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cwyke2k1eryo?at_medium=RSS&at_campaign=rss",
+    "summary": "Williamson 'wouldn't rule out' striking over scheduling",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-25T08:20:50.174Z"
+  },
+  {
+    "id": "7f764bd5b4af",
+    "title": "BBC Women's Football Weekly",
+    "date": "2026-02-24",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sounds/play/p0n3056d?at_medium=RSS&at_campaign=rss",
+    "summary": "BBC Women's Football Weekly",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-25T08:20:50.174Z"
+  },
+  {
+    "id": "d6e6b7e7c149",
+    "title": "Williamson 'wouldn't rule out' striking over scheduling",
+    "date": "2026-02-24",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cwyke2k1eryo?at_medium=RSS&at_campaign=rss",
+    "summary": "Williamson 'wouldn't rule out' striking over scheduling",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-25T08:20:50.174Z"
+  },
+  {
+    "id": "7f764bd5b4af",
+    "title": "BBC Women's Football Weekly",
+    "date": "2026-02-24",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sounds/play/p0n3056d?at_medium=RSS&at_campaign=rss",
+    "summary": "BBC Women's Football Weekly",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-25T08:20:50.174Z"
+  },
+  {
+    "id": "67a4661b4b89",
+    "title": "Swansea bow to co-owner Snoop Dogg with guard of honour before kick-off",
+    "date": "2026-02-24",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/feb/24/swansea-preston-snoop-dogg-championship-roundup",
+    "summary": "Swansea bow to co-owner Snoop Dogg with guard of honour before kick-off",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-25T08:20:50.174Z"
+  },
+  {
+    "id": "55e69a8dcb1b",
+    "title": "Newcastle finish off Qarabag in rapid time to set up Chelsea or Barcelona tie",
+    "date": "2026-02-24",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/feb/24/newcastle-qarabag-champions-league-playoff-match-report",
+    "summary": "Newcastle finish off Qarabag in rapid time to set up Chelsea or Barcelona tie",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-25T08:20:50.174Z"
+  },
+  {
+    "id": "56f9afd9437b",
+    "title": "World Cup host cities ‘running out of time’ with $625m in funding held up by shutdown",
+    "date": "2026-02-24",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/feb/24/world-cup-host-cities-funding-dhs-shutdown",
+    "summary": "World Cup host cities ‘running out of time’ with $625m in funding held up by shutdown",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-25T08:20:50.174Z"
+  },
+  {
+    "id": "d1434862ae13",
+    "title": "Williamson refuses to rule out strike action amid player overload concerns",
+    "date": "2026-02-24",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/feb/24/england-womens-world-cup-qualifier-everton-hill-dickinson-stadium-ukraine-june",
+    "summary": "Williamson refuses to rule out strike action amid player overload concerns",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-25T08:20:50.174Z"
+  },
+  {
+    "id": "7b25d1c5f85c",
+    "title": "Paris Saint-Germain defender Achraf Hakimi to face trial for alleged rape",
+    "date": "2026-02-24",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/feb/24/paris-saint-germain-achraf-hakimi-face-trial-alleged-rape",
+    "summary": "Paris Saint-Germain defender Achraf Hakimi to face trial for alleged rape",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-25T08:20:50.174Z"
+  },
+  {
+    "id": "c08919885cc0",
+    "title": "Benjamin Sesko happy to be patient in wait for Manchester United starting spot",
+    "date": "2026-02-24",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/feb/24/benjamin-sesko-manchester-united",
+    "summary": "Benjamin Sesko happy to be patient in wait for Manchester United starting spot",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-25T08:20:50.174Z"
+  },
+  {
+    "id": "6c48500efccf",
+    "title": "Noni Madueke backs Arsenal’s push to tackle knife crime: ‘It’s so important to try to share the community’s pain’",
+    "date": "2026-02-24",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/feb/24/noni-madueke-arsenal-tackle-knife-crime",
+    "summary": "Noni Madueke backs Arsenal’s push to tackle knife crime: ‘It’s so important to try to share the community’s pain’",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-25T08:20:50.174Z"
+  },
+  {
+    "id": "2df52111cfd8",
+    "title": "Women’s Asian Cup 2026: complete guide to all 26 Matildas players",
+    "date": "2026-02-24",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/feb/24/matildas-players-guide-womens-asian-cup-2026-australia-team",
+    "summary": "Women’s Asian Cup 2026: complete guide to all 26 Matildas players",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-25T08:20:50.174Z"
+  },
+  {
+    "id": "dedbc695dc0e",
+    "title": "FA Cup shootout drama and an Asian Cup preview – Women’s Football Weekly",
+    "date": "2026-02-24",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/audio/2026/feb/24/fa-cup-shootout-drama-and-an-asian-cup-preview-womens-football-weekly",
+    "summary": "FA Cup shootout drama and an Asian Cup preview – Women’s Football Weekly",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-25T08:20:50.174Z"
+  },
+  {
     "id": "9498b749a12d",
     "title": "Sources: Mexico game still on amid cartel violence",
     "date": "2026-02-24",
