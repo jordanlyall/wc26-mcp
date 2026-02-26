@@ -2,6 +2,97 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "f748e43631e6",
+    "title": "Henderson calls for ‘unity’ as fractious Palace face crucial clash with Zrinjski",
+    "date": "2026-02-26",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/feb/26/crystal-palace-europa-conference-league-dean-henderson-oliver-glasner-zrinjski-mostar",
+    "summary": "Henderson calls for ‘unity’ as fractious Palace face crucial clash with Zrinjski",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-26T08:20:56.899Z"
+  },
+  {
+    "id": "08bdbc0f38d1",
+    "title": "Why is Mexico star 'Chucky' Lozano being paid $6M to not play in MLS?",
+    "date": "2026-02-25",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48018243/why-healthy-mexico-star-chucky-lozano-being-paid-6-million-not-play-mls",
+    "summary": "Why is Mexico star 'Chucky' Lozano being paid $6M to not play in MLS?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-26T08:20:56.899Z"
+  },
+  {
+    "id": "2c1f5456e827",
+    "title": "England to host Ukraine at Everton's Hill Dickinson",
+    "date": "2026-02-25",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/ckg3en711wzo?at_medium=RSS&at_campaign=rss",
+    "summary": "England to host Ukraine at Everton's Hill Dickinson",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-26T08:20:56.899Z"
+  },
+  {
+    "id": "5d91fc7f1ed2",
+    "title": "Shrewsbury stand-in role 'a lot of fun' for Hart",
+    "date": "2026-02-25",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cg4g2ld0zrxo?at_medium=RSS&at_campaign=rss",
+    "summary": "Shrewsbury stand-in role 'a lot of fun' for Hart",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-26T08:20:56.899Z"
+  },
+  {
+    "id": "2c1f5456e827",
+    "title": "England to host Ukraine at Everton's Hill Dickinson",
+    "date": "2026-02-25",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/ckg3en711wzo?at_medium=RSS&at_campaign=rss",
+    "summary": "England to host Ukraine at Everton's Hill Dickinson",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-26T08:20:56.899Z"
+  },
+  {
+    "id": "c43350a42446",
+    "title": "Mary Earps says she ‘learned some tough lessons’ from book backlash",
+    "date": "2026-02-25",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/feb/25/mary-earps-learned-tough-lessons-book-backlash-sarina-wiegman",
+    "summary": "Mary Earps says she ‘learned some tough lessons’ from book backlash",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-26T08:20:56.899Z"
+  },
+  {
+    "id": "a037336c47ee",
+    "title": "‘I hurt so much for years but now feel proud’: John Quansah on the pain of a football career ruined by injury",
+    "date": "2026-02-25",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/feb/25/hurt-years-proud-john-quansah-pain-football-career-injury-ghana-ajax-purpose-life",
+    "summary": "‘I hurt so much for years but now feel proud’: John Quansah on the pain of a football career ruined by injury",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-26T08:20:56.899Z"
+  },
+  {
     "id": "64f736eda89b",
     "title": "WC host cities warn Congress of security concerns",
     "date": "2026-02-25",
@@ -39,6 +130,19 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-02-25T08:20:50.174Z"
+  },
+  {
+    "id": "ee06e536b802",
+    "title": "Tom Brady explains why 2026 FIFA World Cup will be different, as NFL legend plays an ambassador role",
+    "date": "2026-02-24",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/nfl/las-vegas-raiders/2026/02/24/699dd151ca474136638b45c8.html",
+    "summary": "Tom Brady explains why 2026 FIFA World Cup will be different, as NFL legend plays an ambassador role",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-26T08:20:56.899Z"
   },
   {
     "id": "d6e6b7e7c149",
