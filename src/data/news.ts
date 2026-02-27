@@ -2,6 +2,162 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "ff97fc1edc92",
+    "title": "Football Daily",
+    "date": "2026-02-27",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sounds/play/p0n3gnf0?at_medium=RSS&at_campaign=rss",
+    "summary": "Football Daily",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-27T08:18:56.837Z"
+  },
+  {
+    "id": "f2d30cbb07ab",
+    "title": "Lionel Messi tackled by pitch invader during chaotic friendly in Puerto Rico",
+    "date": "2026-02-27",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/feb/26/lionel-messi-tackled-inter-miami-friendly-independiente-del-valle-puerto-rico",
+    "summary": "Lionel Messi tackled by pitch invader during chaotic friendly in Puerto Rico",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-27T08:18:56.837Z"
+  },
+  {
+    "id": "05a97596a262",
+    "title": "Arsenal's Smith out of Canada squad with concussion",
+    "date": "2026-02-26",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cddnm1ml6vvo?at_medium=RSS&at_campaign=rss",
+    "summary": "Arsenal's Smith out of Canada squad with concussion",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-27T08:18:56.837Z"
+  },
+  {
+    "id": "afe7f95be6be",
+    "title": "'Really ugly' abuse affects players - Wales' Cain",
+    "date": "2026-02-26",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cx2dr4wppdxo?at_medium=RSS&at_campaign=rss",
+    "summary": "'Really ugly' abuse affects players - Wales' Cain",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-27T08:18:56.837Z"
+  },
+  {
+    "id": "05a97596a262",
+    "title": "Arsenal's Smith out of Canada squad with concussion",
+    "date": "2026-02-26",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cddnm1ml6vvo?at_medium=RSS&at_campaign=rss",
+    "summary": "Arsenal's Smith out of Canada squad with concussion",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-27T08:18:56.837Z"
+  },
+  {
+    "id": "afe7f95be6be",
+    "title": "'Really ugly' abuse affects players - Wales' Cain",
+    "date": "2026-02-26",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cx2dr4wppdxo?at_medium=RSS&at_campaign=rss",
+    "summary": "'Really ugly' abuse affects players - Wales' Cain",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-27T08:18:56.837Z"
+  },
+  {
+    "id": "739e5ca4c69f",
+    "title": "Hudson-Odoi sends Nottingham Forest into last 16 despite fright by Fenerbahce",
+    "date": "2026-02-26",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/feb/26/nottingham-forest-fenerbahce-europa-league-match-report",
+    "summary": "Hudson-Odoi sends Nottingham Forest into last 16 despite fright by Fenerbahce",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-27T08:18:56.837Z"
+  },
+  {
+    "id": "bb10d455b639",
+    "title": "Celtic save face in Stuttgart but Europa League miracle proves out of reach",
+    "date": "2026-02-26",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/feb/26/celtic-stuttgart-europa-league-match-report",
+    "summary": "Celtic save face in Stuttgart but Europa League miracle proves out of reach",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-27T08:18:56.837Z"
+  },
+  {
+    "id": "180825ecc32f",
+    "title": "Glasner admits sparking media storm after Crystal Palace ease past Zrinjski",
+    "date": "2026-02-26",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/feb/26/crystal-palace-zrinjski-mostar-conference-league-match-report",
+    "summary": "Glasner admits sparking media storm after Crystal Palace ease past Zrinjski",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-27T08:18:56.837Z"
+  },
+  {
+    "id": "12cb8a15c4ae",
+    "title": "The third stage: what to expect from Emma Hayes’s USWNT with World Cup in sight?",
+    "date": "2026-02-26",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/feb/26/emma-hayes-uswnt-shebelieves-cup",
+    "summary": "The third stage: what to expect from Emma Hayes’s USWNT with World Cup in sight?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-27T08:18:56.837Z"
+  },
+  {
+    "id": "b13bd2bc7cba",
+    "title": "From Women’s World Cup euphoria to Olympic despair: how did the Matildas get here?",
+    "date": "2026-02-26",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/feb/27/matildas-australia-football-team-timeline-journey-womens-world-cup-olympics",
+    "summary": "From Women’s World Cup euphoria to Olympic despair: how did the Matildas get here?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-27T08:18:56.837Z"
+  },
+  {
+    "id": "752e5d4b0a64",
+    "title": "In Portugal they claim that Prestianni admitted to calling Vinicius a monkey; Benfica denies it",
+    "date": "2026-02-26",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/football/champions-league/2026/02/26/69a097e046163f0d028b45eb.html",
+    "summary": "In Portugal they claim that Prestianni admitted to calling Vinicius a monkey; Benfica denies it",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-27T08:18:56.837Z"
+  },
+  {
     "id": "f748e43631e6",
     "title": "Henderson calls for ‘unity’ as fractious Palace face crucial clash with Zrinjski",
     "date": "2026-02-26",
