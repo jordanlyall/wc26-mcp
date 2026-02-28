@@ -2,6 +2,149 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "ff5ccefbfcb5",
+    "title": "The moment I told my mum I wanted to stop football - and how life changed",
+    "date": "2026-02-28",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c363j2ygwy8o?at_medium=RSS&at_campaign=rss",
+    "summary": "The moment I told my mum I wanted to stop football - and how life changed",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-28T08:10:53.883Z"
+  },
+  {
+    "id": "ff5ccefbfcb5",
+    "title": "The moment I told my mum I wanted to stop football - and how life changed",
+    "date": "2026-02-28",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c363j2ygwy8o?at_medium=RSS&at_campaign=rss",
+    "summary": "The moment I told my mum I wanted to stop football - and how life changed",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-28T08:10:53.883Z"
+  },
+  {
+    "id": "ec88051807a2",
+    "title": "Do the USWNT's up-and-comers really have a shot at the Women's World Cup roster?",
+    "date": "2026-02-27",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/47982164/do-uswnt-newbies-2026-shebelieves-cup-shot-world-cup-next-year",
+    "summary": "Do the USWNT's up-and-comers really have a shot at the Women's World Cup roster?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-28T08:10:53.883Z"
+  },
+  {
+    "id": "e30e73870d83",
+    "title": "Messi tackled by pitch invader in Inter Miami game",
+    "date": "2026-02-27",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cy4w0q7e490o?at_medium=RSS&at_campaign=rss",
+    "summary": "Messi tackled by pitch invader in Inter Miami game",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-28T08:10:53.883Z"
+  },
+  {
+    "id": "17da7ea8614b",
+    "title": "Wales 'grateful' to have Fishlock on board",
+    "date": "2026-02-27",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cdr2z6r8rg3o?at_medium=RSS&at_campaign=rss",
+    "summary": "Wales 'grateful' to have Fishlock on board",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-28T08:10:53.883Z"
+  },
+  {
+    "id": "1488032fb4d3",
+    "title": "'Breath of fresh air' Lindsay backed for NI job",
+    "date": "2026-02-27",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c1d60q3ygp1o?at_medium=RSS&at_campaign=rss",
+    "summary": "'Breath of fresh air' Lindsay backed for NI job",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-28T08:10:53.883Z"
+  },
+  {
+    "id": "8ba674d80713",
+    "title": "You don't know what people are going through - Coady",
+    "date": "2026-02-27",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c5ygl7n584xo?at_medium=RSS&at_campaign=rss",
+    "summary": "You don't know what people are going through - Coady",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-28T08:10:53.883Z"
+  },
+  {
+    "id": "1488032fb4d3",
+    "title": "'Breath of fresh air' Lindsay backed for NI job",
+    "date": "2026-02-27",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c1d60q3ygp1o?at_medium=RSS&at_campaign=rss",
+    "summary": "'Breath of fresh air' Lindsay backed for NI job",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-28T08:10:53.883Z"
+  },
+  {
+    "id": "17da7ea8614b",
+    "title": "Wales 'grateful' to have Fishlock on board",
+    "date": "2026-02-27",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cdr2z6r8rg3o?at_medium=RSS&at_campaign=rss",
+    "summary": "Wales 'grateful' to have Fishlock on board",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-28T08:10:53.883Z"
+  },
+  {
+    "id": "98164b7847bd",
+    "title": "Human rights issues swirl around the Women’s Asian Cup. They cannot be ignored | Samantha Lewis",
+    "date": "2026-02-27",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/feb/28/2026-womens-asian-cup-football-human-rights-issues",
+    "summary": "Human rights issues swirl around the Women’s Asian Cup. They cannot be ignored | Samantha Lewis",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-28T08:10:53.883Z"
+  },
+  {
+    "id": "3d8b53d4e894",
+    "title": "Josh Sargent’s messy transfer saga ends with $22m move from Norwich to Toronto",
+    "date": "2026-02-27",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/feb/27/josh-sargent-toronto-norwich-city-transfer-usmnt",
+    "summary": "Josh Sargent’s messy transfer saga ends with $22m move from Norwich to Toronto",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-02-28T08:10:53.883Z"
+  },
+  {
     "id": "ff97fc1edc92",
     "title": "Football Daily",
     "date": "2026-02-27",
