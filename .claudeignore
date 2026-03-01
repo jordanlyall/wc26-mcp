@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Build
+dist/
+build/
+*.tsbuildinfo
+
+# Vercel
+.vercel/
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Large static data (bundled at build time, don't need to search)
+data/*.json

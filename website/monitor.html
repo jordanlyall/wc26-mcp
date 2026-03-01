@@ -1,0 +1,1249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WC26 Monitor — Live World Cup 2026 Dashboard</title>
+  <meta name="description" content="Live dashboard tracking the 2026 FIFA World Cup. News, standings, injuries, odds, and upcoming matches.">
+  <meta property="og:title" content="WC26 Monitor — Live World Cup 2026 Dashboard">
+  <meta property="og:url" content="https://wc26.ai/monitor">
+  <link rel="canonical" href="https://wc26.ai/monitor">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg: #0a0a0a;
+      --surface: #141414;
+      --surface-2: #1e1e1e;
+      --border: #2a2a2a;
+      --text: #e5e5e5;
+      --text-muted: #666;
+      --text-dim: #444;
+      --accent: #8b1a1a;
+      --accent-light: #c42f2f;
+      --gold: #d4a843;
+      --silver: #94a3b8;
+      --bronze: #cd7c2c;
+      --green: #22c55e;
+      --orange: #f97316;
+      --teal: #14b8a6;
+      --header-h: 52px;
+      --ticker-h: 36px;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Inter', sans-serif;
+      font-size: 13px;
+      line-height: 1.5;
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+    /* ── HEADER ─────────────────────────────────────────────────── */
+    .header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: #080808;
+      border-bottom: 1px solid var(--border);
+      height: var(--header-h);
+      display: flex;
+      align-items: center;
+      padding: 0 16px;
+      gap: 12px;
+    }
+
+    .header-back {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 11px;
+      letter-spacing: 0.05em;
+      transition: color 0.15s;
+      white-space: nowrap;
+    }
+    .header-back:hover { color: var(--text); }
+
+    .header-divider { width: 1px; height: 20px; background: var(--border); }
+
+    .wordmark {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 15px;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      white-space: nowrap;
+    }
+    .wordmark-wc { color: var(--text); }
+    .wordmark-26 { color: var(--accent-light); }
+    .wordmark-sep { color: var(--border); font-weight: 400; margin: 0 2px; }
+    .wordmark-monitor { color: var(--text-muted); font-weight: 600; font-size: 13px; letter-spacing: 0.08em; }
+
+    .live-badge {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      background: rgba(34,197,94,0.12);
+      border: 1px solid rgba(34,197,94,0.3);
+      border-radius: 4px;
+      padding: 3px 8px;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      color: var(--green);
+    }
+    .live-dot {
+      width: 6px; height: 6px;
+      border-radius: 50%;
+      background: var(--green);
+      animation: pulse-dot 2s ease-in-out infinite;
+    }
+    @keyframes pulse-dot {
+      0%,100% { opacity:1; transform:scale(1); }
+      50% { opacity:0.5; transform:scale(0.8); }
+    }
+
+    .phase-pill {
+      background: rgba(196,47,47,0.12);
+      border: 1px solid rgba(196,47,47,0.25);
+      border-radius: 4px;
+      padding: 3px 8px;
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      color: var(--accent-light);
+      text-transform: uppercase;
+    }
+
+    .header-spacer { flex: 1; }
+
+    .update-time {
+      font-size: 11px;
+      color: var(--text-muted);
+      font-family: 'JetBrains Mono', monospace;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+    .update-spin {
+      display: inline-block;
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+    .update-spin.active { opacity: 1; animation: spin 1.2s linear infinite; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    .header-btn {
+      background: var(--surface-2);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 5px 10px;
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--text-muted);
+      cursor: pointer;
+      letter-spacing: 0.05em;
+      transition: all 0.15s;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+    .header-btn:hover { border-color: var(--text-muted); color: var(--text); }
+
+    /* ── TICKER ──────────────────────────────────────────────────── */
+    .ticker-bar {
+      background: var(--accent);
+      height: var(--ticker-h);
+      display: flex;
+      align-items: center;
+      overflow: hidden;
+      border-bottom: 1px solid #5a1010;
+    }
+    .ticker-label {
+      flex-shrink: 0;
+      background: var(--accent-light);
+      height: 100%;
+      display: flex;
+      align-items: center;
+      padding: 0 14px;
+      font-size: 10px;
+      font-weight: 800;
+      letter-spacing: 0.15em;
+      color: #fff;
+      border-right: 1px solid rgba(255,255,255,0.2);
+    }
+    .ticker-track { flex:1; overflow:hidden; height:100%; display:flex; align-items:center; }
+    .ticker-inner {
+      display: flex;
+      white-space: nowrap;
+      animation: ticker-scroll 60s linear infinite;
+    }
+    .ticker-inner:hover { animation-play-state: paused; }
+    @keyframes ticker-scroll {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }
+    .ticker-item {
+      display: inline-flex;
+      align-items: center;
+      padding: 0 24px;
+      font-size: 12px;
+      color: rgba(255,255,255,0.92);
+      font-weight: 500;
+    }
+    .ticker-item a { color: inherit; text-decoration: none; }
+    .ticker-item a:hover { text-decoration: underline; }
+    .ticker-sep { color: rgba(255,255,255,0.35); margin-left: 16px; }
+
+    /* ── MAIN GRID ───────────────────────────────────────────────── */
+    .main-grid {
+      display: grid;
+      grid-template-columns: 280px 1fr 260px;
+      min-height: calc(100vh - var(--header-h) - var(--ticker-h));
+    }
+
+    .col { border-right: 1px solid var(--border); overflow: hidden; }
+    .col:last-child { border-right: none; }
+
+    /* ── PANEL ────────────────────────────────────────────────────── */
+    .panel { border-bottom: 1px solid var(--border); }
+
+    .panel-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 14px;
+      border-bottom: 1px solid var(--border);
+      background: rgba(255,255,255,0.015);
+    }
+    .panel-title {
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      color: var(--text-muted);
+      text-transform: uppercase;
+    }
+    .panel-meta { font-size: 10px; color: var(--text-dim); font-family: 'JetBrains Mono', monospace; }
+    .panel-body { padding: 12px 14px; }
+
+    /* ── SKELETON ─────────────────────────────────────────────────── */
+    .skeleton {
+      background: linear-gradient(90deg, var(--surface) 25%, var(--surface-2) 50%, var(--surface) 75%);
+      background-size: 200% 100%;
+      animation: shimmer 1.5s infinite;
+      border-radius: 3px;
+    }
+    @keyframes shimmer { 0% { background-position:200% 0; } 100% { background-position:-200% 0; } }
+    .sk-line { height: 12px; margin-bottom: 8px; }
+    .sk-w100 { width: 100%; }
+    .sk-w80 { width: 80%; }
+    .sk-w60 { width: 60%; }
+
+    /* ── NEWS ────────────────────────────────────────────────────── */
+    .news-list { display: flex; flex-direction: column; }
+
+    .news-item {
+      padding: 10px 14px;
+      border-bottom: 1px solid var(--border);
+      transition: background 0.12s;
+      text-decoration: none;
+      display: block;
+      color: inherit;
+    }
+    .news-item:last-child { border-bottom: none; }
+    .news-item:hover { background: rgba(255,255,255,0.025); }
+
+    .news-title {
+      font-size: 12px;
+      font-weight: 500;
+      color: var(--text);
+      line-height: 1.4;
+      margin-bottom: 6px;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .news-meta { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+
+    .src-badge {
+      font-size: 9px;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      padding: 2px 5px;
+      border-radius: 3px;
+      text-transform: uppercase;
+    }
+    .src-bbc,.src-espn { background:rgba(196,47,47,0.2); color:#e05c5c; border:1px solid rgba(196,47,47,0.3); }
+    .src-guardian,.src-thetimes { background:rgba(20,184,166,0.15); color:#5eead4; border:1px solid rgba(20,184,166,0.25); }
+    .src-marca,.src-reddit { background:rgba(249,115,22,0.15); color:#fb923c; border:1px solid rgba(249,115,22,0.25); }
+    .src-default { background:rgba(255,255,255,0.07); color:var(--text-muted); border:1px solid var(--border); }
+
+    .news-date { font-size: 10px; color: var(--text-dim); font-family: 'JetBrains Mono', monospace; }
+
+    .cat-pill {
+      font-size: 9px;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      padding: 1px 5px;
+      border-radius: 3px;
+      background: rgba(255,255,255,0.06);
+      color: var(--text-muted);
+      border: 1px solid var(--border);
+      text-transform: uppercase;
+    }
+
+    /* ── BRIEFING ─────────────────────────────────────────────────── */
+    .briefing-hl {
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--text);
+      line-height: 1.4;
+      margin-bottom: 12px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border);
+    }
+    .briefing-days {
+      font-size: 28px;
+      font-weight: 800;
+      font-family: 'JetBrains Mono', monospace;
+      color: var(--gold);
+      line-height: 1;
+    }
+    .section-block { margin-bottom: 10px; }
+    .section-label {
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      color: var(--accent-light);
+      text-transform: uppercase;
+      margin-bottom: 4px;
+    }
+    .section-content { font-size: 12px; color: var(--text-muted); line-height: 1.5; }
+
+    /* ── MATCHES ──────────────────────────────────────────────────── */
+    .match-stack { display: flex; flex-direction: column; gap: 8px; }
+
+    .match-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 10px 12px;
+      transition: border-color 0.15s;
+    }
+    .match-card:hover { border-color: #3a3a3a; }
+    .match-card.is-live { border-color: rgba(34,197,94,0.4); background: rgba(34,197,94,0.04); }
+
+    .mc-top { display:flex; align-items:center; justify-content:space-between; margin-bottom:8px; }
+    .mc-date { font-size:10px; font-weight:600; color:var(--text-dim); font-family:'JetBrains Mono',monospace; }
+    .mc-round {
+      font-size: 9px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      padding: 2px 6px;
+      border-radius: 3px;
+      background: rgba(255,255,255,0.06);
+      color: var(--text-muted);
+      border: 1px solid var(--border);
+    }
+    .mc-round.is-group { background:rgba(212,168,67,0.12); color:var(--gold); border-color:rgba(212,168,67,0.25); }
+
+    .mc-teams { display:flex; align-items:center; gap:8px; font-size:13px; font-weight:600; }
+    .mc-team { display:flex; align-items:center; gap:5px; }
+    .mc-flag { font-size:16px; }
+    .mc-vs { color:var(--text-dim); font-size:11px; font-weight:400; }
+    .mc-score { font-family:'JetBrains Mono',monospace; color:var(--gold); }
+
+    .mc-bot { display:flex; align-items:center; gap:8px; margin-top:6px; }
+    .mc-time { font-size:11px; font-family:'JetBrains Mono',monospace; color:var(--text-muted); }
+    .mc-venue { font-size:10px; color:var(--text-dim); }
+
+    .status-badge {
+      margin-left: auto;
+      font-size: 9px;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      padding: 2px 6px;
+      border-radius: 3px;
+      text-transform: uppercase;
+    }
+    .sb-sched { background:rgba(255,255,255,0.06); color:var(--text-dim); border:1px solid var(--border); }
+    .sb-live {
+      background:rgba(34,197,94,0.15); color:var(--green); border:1px solid rgba(34,197,94,0.3);
+      animation: pulse-border 2s ease-in-out infinite;
+    }
+    @keyframes pulse-border { 0%,100%{border-color:rgba(34,197,94,0.3);} 50%{border-color:rgba(34,197,94,0.7);} }
+    .sb-ft { background:rgba(255,255,255,0.04); color:var(--text-dim); border:1px solid var(--border); }
+
+    .no-matches { padding:20px 14px; text-align:center; color:var(--text-dim); font-size:12px; }
+
+    /* ── COUNTDOWN ────────────────────────────────────────────────── */
+    .cd-wrap { text-align:center; padding:16px 14px; }
+    .cd-digits { display:flex; justify-content:center; gap:4px; margin-bottom:6px; }
+    .cd-unit { display:flex; flex-direction:column; align-items:center; }
+    .cd-num {
+      font-size: 28px;
+      font-weight: 800;
+      font-family: 'JetBrains Mono', monospace;
+      color: var(--text);
+      line-height: 1;
+      min-width: 44px;
+      text-align: center;
+    }
+    .cd-lbl { font-size:8px; letter-spacing:0.12em; color:var(--text-muted); text-transform:uppercase; margin-top:3px; }
+    .cd-colon {
+      font-size: 24px;
+      font-weight: 800;
+      color: var(--text-dim);
+      line-height: 1;
+      margin-top: 2px;
+      animation: blink 1s step-end infinite;
+    }
+    @keyframes blink { 50%{opacity:0.2;} }
+    .cd-sub { font-size:11px; color:var(--text-muted); margin-top:8px; }
+    .cd-target { font-size:10px; color:var(--text-dim); font-family:'JetBrains Mono',monospace; margin-top:2px; }
+    .cd-live {
+      font-size: 18px;
+      font-weight: 800;
+      color: var(--green);
+      letter-spacing: 0.1em;
+      padding: 12px 0;
+      animation: pulse-text 2s ease-in-out infinite;
+    }
+    @keyframes pulse-text { 0%,100%{opacity:1;} 50%{opacity:0.6;} }
+
+    /* ── FAVORITES ────────────────────────────────────────────────── */
+    .fav-list { display:flex; flex-direction:column; gap:7px; padding:10px 14px; }
+    .fav-row { display:flex; align-items:center; gap:8px; }
+    .fav-rank { font-size:10px; font-weight:700; font-family:'JetBrains Mono',monospace; width:14px; flex-shrink:0; }
+    .fav-rank.r1{color:var(--gold);} .fav-rank.r2{color:var(--silver);} .fav-rank.r3{color:var(--bronze);} .fav-rank.rn{color:var(--text-dim);}
+    .fav-team { display:flex; align-items:center; gap:5px; min-width:0; flex:1; }
+    .fav-flag { font-size:14px; flex-shrink:0; }
+    .fav-name { font-size:11px; font-weight:600; color:var(--text); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+    .fav-bar-wrap { flex:1; height:3px; background:var(--surface-2); border-radius:2px; overflow:hidden; }
+    .fav-bar { height:100%; border-radius:2px; transition:width 0.8s ease; }
+    .fav-bar.r1{background:var(--gold);} .fav-bar.r2{background:var(--silver);} .fav-bar.r3{background:var(--bronze);} .fav-bar.rn{background:var(--accent-light);}
+    .fav-odds { font-size:10px; font-weight:600; font-family:'JetBrains Mono',monospace; color:var(--text-muted); flex-shrink:0; width:38px; text-align:right; }
+
+    /* ── INJURIES ─────────────────────────────────────────────────── */
+    .inj-list { display:flex; flex-direction:column; }
+    .inj-row { display:flex; align-items:center; gap:8px; padding:8px 14px; border-bottom:1px solid var(--border); }
+    .inj-row:last-child { border-bottom:none; }
+    .inj-badge {
+      font-size: 8px;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      padding: 2px 5px;
+      border-radius: 3px;
+      text-transform: uppercase;
+      flex-shrink: 0;
+      width: 58px;
+      text-align: center;
+    }
+    .ib-out{background:rgba(196,47,47,0.2);color:#e05c5c;border:1px solid rgba(196,47,47,0.3);}
+    .ib-doubtful{background:rgba(249,115,22,0.15);color:var(--orange);border:1px solid rgba(249,115,22,0.25);}
+    .ib-recovering{background:rgba(212,168,67,0.15);color:var(--gold);border:1px solid rgba(212,168,67,0.25);}
+    .inj-info { flex:1; min-width:0; }
+    .inj-player { font-size:12px; font-weight:600; color:var(--text); }
+    .inj-detail { font-size:10px; color:var(--text-dim); }
+
+    /* ── GOLDEN BOOT ──────────────────────────────────────────────── */
+    .boot-scroll {
+      display: flex;
+      gap: 8px;
+      padding: 12px 14px;
+      overflow-x: auto;
+      scrollbar-width: thin;
+      scrollbar-color: var(--border) transparent;
+    }
+    .boot-scroll::-webkit-scrollbar { height: 3px; }
+    .boot-scroll::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+    .boot-card {
+      flex-shrink: 0;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 10px 12px;
+      min-width: 120px;
+      text-align: center;
+      transition: border-color 0.15s;
+    }
+    .boot-card:hover { border-color: rgba(212,168,67,0.35); }
+    .boot-card.top { border-color: rgba(212,168,67,0.3); background: rgba(212,168,67,0.05); }
+    .boot-flag { font-size:22px; margin-bottom:4px; }
+    .boot-player { font-size:11px; font-weight:700; color:var(--text); margin-bottom:2px; }
+    .boot-team { font-size:10px; color:var(--text-muted); margin-bottom:4px; }
+    .boot-odds { font-size:12px; font-weight:700; color:var(--gold); font-family:'JetBrains Mono',monospace; }
+
+    /* ── DARK HORSES ──────────────────────────────────────────────── */
+    .dh-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(175px,1fr)); gap:8px; padding:12px 14px; }
+    .dh-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 10px 12px;
+      transition: border-color 0.15s;
+    }
+    .dh-card:hover { border-color: #3a3a3a; }
+    .dh-top { display:flex; align-items:center; gap:7px; margin-bottom:6px; }
+    .dh-flag { font-size:18px; }
+    .dh-name { font-size:12px; font-weight:700; color:var(--text); }
+    .dh-reason { font-size:11px; color:var(--text-muted); line-height:1.4; display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden; }
+
+    /* ── BOTTOM ROW ──────────────────────────────────────────────── */
+    .bottom-grid { display:grid; grid-template-columns:1fr 1fr; border-top:1px solid var(--border); }
+    .bot-col { border-right:1px solid var(--border); }
+    .bot-col:last-child { border-right:none; }
+
+    /* ── EMPTY / ERROR ──────────────────────────────────────────── */
+    .empty { padding:16px 14px; text-align:center; color:var(--text-dim); font-size:12px; }
+    .err { padding:10px 14px; font-size:11px; color:var(--accent-light); background:rgba(196,47,47,0.06); border-left:2px solid var(--accent-light); }
+
+    /* ── MOBILE ─────────────────────────────────────────────────── */
+    @media (max-width: 900px) {
+      .main-grid { grid-template-columns:1fr; }
+      .col { border-right:none; }
+      .bottom-grid { grid-template-columns:1fr; }
+      .bot-col { border-right:none; }
+      .header-back,.header-divider,.phase-pill { display:none; }
+    }
+    @media (max-width: 560px) {
+      .wordmark-monitor,.wordmark-sep { display:none; }
+      .update-time { display:none; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header">
+  <a href="/" class="header-back">← wc26.ai</a>
+  <div class="header-divider"></div>
+  <div class="wordmark">
+    ⚽&nbsp;<span class="wordmark-wc">WC</span><span class="wordmark-26">26</span><span class="wordmark-sep">/</span><span class="wordmark-monitor">MONITOR</span>
+  </div>
+  <div class="live-badge"><div class="live-dot"></div>LIVE</div>
+  <div class="phase-pill" id="phasePill">PRE-TOURNAMENT</div>
+  <div class="header-spacer"></div>
+  <div class="update-time">
+    <span class="update-spin" id="spinIcon">↻</span>
+    <span id="lastUpdatedText">–</span>
+  </div>
+  <a href="https://github.com/jordanlyall/wc26" target="_blank" class="header-btn" title="GitHub" aria-label="GitHub">
+    <svg width="13" height="13" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+  </a>
+  <button class="header-btn" id="shareBtn" onclick="shareMonitor()">
+    <svg width="11" height="11" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M15 8a3 3 0 10-2.977-2.63l-4.94 2.47a3 3 0 100 4.319l4.94 2.47a3 3 0 10.895-1.789l-4.94-2.47a3.027 3.027 0 000-.74l4.94-2.47C13.456 7.68 14.19 8 15 8z"/></svg>
+    SHARE
+  </button>
+</header>
+
+<!-- BREAKING TICKER -->
+<div class="ticker-bar">
+  <div class="ticker-label">BREAKING</div>
+  <div class="ticker-track">
+    <div class="ticker-inner" id="tickerInner">
+      <span class="ticker-item">Loading World Cup 2026 headlines…<span class="ticker-sep">•</span></span>
+      <span class="ticker-item">Loading World Cup 2026 headlines…<span class="ticker-sep">•</span></span>
+    </div>
+  </div>
+</div>
+
+<!-- MAIN 3-COL GRID -->
+<div class="main-grid">
+
+  <!-- LEFT: NEWS -->
+  <div class="col">
+    <div class="panel">
+      <div class="panel-header">
+        <span class="panel-title">Latest News</span>
+        <span class="panel-meta" id="newsCount">–</span>
+      </div>
+      <div class="news-list" id="newsList">
+        <div style="padding:12px 14px">
+          <div class="skeleton sk-line sk-w100"></div>
+          <div class="skeleton sk-line sk-w80"></div>
+          <div class="skeleton sk-line sk-w60" style="margin-top:4px"></div>
+        </div>
+        <div style="padding:12px 14px;border-top:1px solid var(--border)">
+          <div class="skeleton sk-line sk-w100"></div>
+          <div class="skeleton sk-line sk-w80"></div>
+        </div>
+        <div style="padding:12px 14px;border-top:1px solid var(--border)">
+          <div class="skeleton sk-line sk-w100"></div>
+          <div class="skeleton sk-line sk-w60"></div>
+        </div>
+        <div style="padding:12px 14px;border-top:1px solid var(--border)">
+          <div class="skeleton sk-line sk-w80"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CENTER: BRIEFING + MATCHES -->
+  <div class="col">
+    <div class="panel">
+      <div class="panel-header">
+        <span class="panel-title">What's Happening Now</span>
+        <span class="panel-meta" id="briefingPhase">–</span>
+      </div>
+      <div class="panel-body" id="briefingBody">
+        <div class="skeleton sk-line sk-w80"></div>
+        <div class="skeleton sk-line sk-w100" style="margin-top:8px"></div>
+        <div class="skeleton sk-line sk-w60" style="margin-top:8px"></div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-header">
+        <span class="panel-title">Upcoming Matches</span>
+        <span class="panel-meta" id="matchesMeta">next 60 days</span>
+      </div>
+      <div style="padding:12px 14px">
+        <div class="match-stack" id="matchStack">
+          <div class="skeleton sk-line sk-w100" style="height:72px;border-radius:6px"></div>
+          <div class="skeleton sk-line sk-w100" style="height:72px;border-radius:6px;margin-top:8px"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- RIGHT: COUNTDOWN + FAVORITES + INJURIES -->
+  <div class="col">
+    <div class="panel">
+      <div class="panel-header">
+        <span class="panel-title">Countdown to Kickoff</span>
+        <span class="panel-meta">Jun 11, 2026</span>
+      </div>
+      <div class="cd-wrap">
+        <div class="cd-digits" id="cdDigits">
+          <div class="cd-unit"><div class="cd-num" id="cdDays">--</div><div class="cd-lbl">Days</div></div>
+          <div class="cd-colon">:</div>
+          <div class="cd-unit"><div class="cd-num" id="cdHours">--</div><div class="cd-lbl">Hours</div></div>
+          <div class="cd-colon">:</div>
+          <div class="cd-unit"><div class="cd-num" id="cdMins">--</div><div class="cd-lbl">Mins</div></div>
+          <div class="cd-colon">:</div>
+          <div class="cd-unit"><div class="cd-num" id="cdSecs">--</div><div class="cd-lbl">Secs</div></div>
+        </div>
+        <div class="cd-sub">until kickoff</div>
+        <div class="cd-target">Mexico vs South Africa · MetLife</div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-header">
+        <span class="panel-title">Tournament Favorites</span>
+        <span class="panel-meta">win odds</span>
+      </div>
+      <div class="fav-list" id="favList">
+        <div class="skeleton sk-line sk-w100" style="height:14px"></div>
+        <div class="skeleton sk-line sk-w100" style="height:14px;margin-top:6px"></div>
+        <div class="skeleton sk-line sk-w100" style="height:14px;margin-top:6px"></div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-header">
+        <span class="panel-title">Injury Watch</span>
+        <span class="panel-meta" id="injSummary">–</span>
+      </div>
+      <div class="inj-list" id="injList">
+        <div style="padding:10px 14px">
+          <div class="skeleton sk-line sk-w100"></div>
+          <div class="skeleton sk-line sk-w80" style="margin-top:6px"></div>
+          <div class="skeleton sk-line sk-w100" style="margin-top:6px"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- BOTTOM ROW -->
+<div class="bottom-grid">
+  <div class="bot-col">
+    <div class="panel-header">
+      <span class="panel-title">🏆 Golden Boot Contenders</span>
+      <span class="panel-meta">scroll →</span>
+    </div>
+    <div class="boot-scroll" id="bootScroll">
+      <div class="skeleton sk-line" style="height:92px;width:120px;border-radius:6px;flex-shrink:0"></div>
+      <div class="skeleton sk-line" style="height:92px;width:120px;border-radius:6px;flex-shrink:0"></div>
+      <div class="skeleton sk-line" style="height:92px;width:120px;border-radius:6px;flex-shrink:0"></div>
+      <div class="skeleton sk-line" style="height:92px;width:120px;border-radius:6px;flex-shrink:0"></div>
+    </div>
+  </div>
+  <div class="bot-col">
+    <div class="panel-header">
+      <span class="panel-title">Dark Horse Picks</span>
+      <span class="panel-meta">sleepers to watch</span>
+    </div>
+    <div class="dh-grid" id="dhGrid">
+      <div class="skeleton sk-line" style="height:80px;border-radius:6px"></div>
+      <div class="skeleton sk-line" style="height:80px;border-radius:6px"></div>
+      <div class="skeleton sk-line" style="height:80px;border-radius:6px"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+// ── CONSTANTS ──────────────────────────────────────────────────────
+const KICKOFF_UTC = new Date('2026-06-11T19:00:00Z');
+const REFRESH_MS  = 5 * 60 * 1000;
+
+// ── SECURITY: HTML escape all dynamic content ──────────────────────
+function esc(str) {
+  if (str == null) return '';
+  return String(str)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
+
+// ── UTILS ─────────────────────────────────────────────────────────
+function pad2(n) { return String(n).padStart(2, '0'); }
+
+function relTime(dateStr) {
+  if (!dateStr) return '';
+  const d = new Date(dateStr.includes('T') ? dateStr : dateStr + 'T00:00:00Z');
+  const diff = Date.now() - d.getTime();
+  if (isNaN(diff)) return '';
+  const mins = Math.floor(diff / 60000);
+  if (mins < 2) return 'just now';
+  if (mins < 60) return mins + 'm ago';
+  const hrs = Math.floor(mins / 60);
+  if (hrs < 24) return hrs + 'h ago';
+  return Math.floor(hrs / 24) + 'd ago';
+}
+
+function fmtMatchDate(dateStr) {
+  try {
+    const d = new Date(dateStr + 'T12:00:00Z');
+    return d.toLocaleDateString('en-US', { timeZone: 'UTC', month: 'short', day: 'numeric' });
+  } catch { return dateStr; }
+}
+
+function fmtMatchTime(dateStr, timeUtc) {
+  try {
+    if (!timeUtc) return '';
+    const dt = new Date(dateStr + 'T' + timeUtc + ':00Z');
+    return dt.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', timeZoneName: 'short' });
+  } catch { return timeUtc + ' UTC'; }
+}
+
+function srcClass(src) {
+  const s = (src || '').toLowerCase();
+  if (s.includes('bbc'))      return 'src-bbc';
+  if (s.includes('espn'))     return 'src-espn';
+  if (s.includes('guardian')) return 'src-guardian';
+  if (s.includes('marca'))    return 'src-marca';
+  if (s.includes('reddit'))   return 'src-reddit';
+  return 'src-default';
+}
+
+function rankCls(i) {
+  return ['r1','r2','r3'][i] || 'rn';
+}
+
+function parseProb(str) {
+  return parseFloat((str || '0').replace('%','')) || 0;
+}
+
+function todayStr() { return new Date().toISOString().slice(0,10); }
+function futureStr(days) {
+  const d = new Date();
+  d.setDate(d.getDate() + days);
+  return d.toISOString().slice(0,10);
+}
+
+// ── DOM HELPERS ────────────────────────────────────────────────────
+// Safe: create anchor element with text content (no innerHTML for text)
+function makeLink(url, textContent, cls) {
+  const a = document.createElement('a');
+  a.href = url;
+  a.target = '_blank';
+  a.rel = 'noopener noreferrer';
+  if (cls) a.className = cls;
+  a.textContent = textContent;
+  return a;
+}
+
+function el(tag, cls, text) {
+  const e = document.createElement(tag);
+  if (cls) e.className = cls;
+  if (text != null) e.textContent = text;
+  return e;
+}
+
+// ── TEAMS CACHE ────────────────────────────────────────────────────
+const teamsCache = {};
+async function loadTeams() {
+  try {
+    const d = await fetchJSON('/api/teams');
+    (d.teams || []).forEach(t => { teamsCache[t.id] = t; });
+  } catch (e) { console.warn('Teams:', e); }
+}
+function getFlag(id) { return teamsCache[id]?.flag_emoji || '🏳️'; }
+
+// ── FETCH ─────────────────────────────────────────────────────────
+async function fetchJSON(url) {
+  const r = await fetch(url);
+  if (!r.ok) throw new Error(r.status + ' ' + url);
+  return r.json();
+}
+
+// ── SPINNER ───────────────────────────────────────────────────────
+let lastFetch = null;
+let lastFetchTimer = null;
+
+function setSpinner(on) {
+  document.getElementById('spinIcon').classList.toggle('active', on);
+}
+function markUpdated() {
+  lastFetch = Date.now();
+  document.getElementById('lastUpdatedText').textContent = 'Just now';
+  clearInterval(lastFetchTimer);
+  lastFetchTimer = setInterval(() => {
+    if (!lastFetch) return;
+    const m = Math.floor((Date.now() - lastFetch) / 60000);
+    document.getElementById('lastUpdatedText').textContent = m < 1 ? 'Just now' : m + 'm ago';
+    if (m >= 10) clearInterval(lastFetchTimer);
+  }, 30000);
+}
+
+// ── COUNTDOWN ─────────────────────────────────────────────────────
+function tickCountdown() {
+  const diff = KICKOFF_UTC - Date.now();
+  if (diff <= 0) {
+    document.getElementById('cdDigits').style.display = 'none';
+    document.querySelector('.cd-sub').style.display = 'none';
+    document.querySelector('.cd-target').style.display = 'none';
+    const w = document.querySelector('.cd-wrap');
+    if (!w.querySelector('.cd-live')) {
+      const d = document.createElement('div');
+      d.className = 'cd-live';
+      d.textContent = '⚽ TOURNAMENT LIVE';
+      w.appendChild(d);
+    }
+    return;
+  }
+  const days  = Math.floor(diff / 86400000);
+  const hours = Math.floor((diff % 86400000) / 3600000);
+  const mins  = Math.floor((diff % 3600000) / 60000);
+  const secs  = Math.floor((diff % 60000) / 1000);
+  document.getElementById('cdDays').textContent  = pad2(days);
+  document.getElementById('cdHours').textContent = pad2(hours);
+  document.getElementById('cdMins').textContent  = pad2(mins);
+  document.getElementById('cdSecs').textContent  = pad2(secs);
+}
+setInterval(tickCountdown, 1000);
+tickCountdown();
+
+// ── RENDER: TICKER ────────────────────────────────────────────────
+function renderTicker(items) {
+  if (!items || items.length === 0) return;
+  const wrap = document.getElementById('tickerInner');
+  wrap.innerHTML = '';
+  const list = items.slice(0, 12);
+  // Duplicate for seamless loop (using safe DOM creation)
+  [...list, ...list].forEach(n => {
+    const span = document.createElement('span');
+    span.className = 'ticker-item';
+    const a = makeLink(n.url, n.title, null);
+    const sep = el('span', 'ticker-sep', '•');
+    span.appendChild(a);
+    span.appendChild(sep);
+    wrap.appendChild(span);
+  });
+  const totalLen = list.reduce((s, n) => s + (n.title || '').length, 0);
+  const dur = Math.max(40, Math.min(100, totalLen * 0.22));
+  wrap.style.animationDuration = dur + 's';
+}
+
+// ── RENDER: NEWS ──────────────────────────────────────────────────
+function renderNews(items) {
+  const list = document.getElementById('newsList');
+  const countEl = document.getElementById('newsCount');
+  list.innerHTML = '';
+
+  if (!items || items.length === 0) {
+    list.appendChild(el('div', 'empty', 'No news available'));
+    return;
+  }
+  countEl.textContent = items.length + ' items';
+
+  items.slice(0, 20).forEach(n => {
+    const a = document.createElement('a');
+    a.className = 'news-item';
+    a.href = n.url || '#';
+    a.target = '_blank';
+    a.rel = 'noopener noreferrer';
+
+    const title = el('div', 'news-title', n.title || '(no title)');
+
+    const meta = el('div', 'news-meta');
+    const src = el('span', 'src-badge ' + srcClass(n.source), n.source || 'NEWS');
+    const date = el('span', 'news-date', relTime(n.date || n.fetched_at));
+    meta.appendChild(src);
+    meta.appendChild(date);
+
+    (n.categories || []).slice(0, 2).forEach(c => {
+      meta.appendChild(el('span', 'cat-pill', c));
+    });
+
+    a.appendChild(title);
+    a.appendChild(meta);
+    list.appendChild(a);
+  });
+}
+
+// ── RENDER: BRIEFING ──────────────────────────────────────────────
+function renderBriefing(data) {
+  const body = document.getElementById('briefingBody');
+  const phaseEl = document.getElementById('briefingPhase');
+  const pill = document.getElementById('phasePill');
+  body.innerHTML = '';
+
+  if (!data) {
+    body.appendChild(el('div', 'err', 'Briefing unavailable'));
+    return;
+  }
+
+  const phase = data.phase_label || '';
+  phaseEl.textContent = phase;
+
+  // Normalize phase pill label
+  const phaseMap = {
+    'Pre-Tournament (Playoffs Pending)': 'PRE-TOURNAMENT',
+    'Pre-Tournament (All Teams Confirmed)': 'PRE-TOURNAMENT',
+    'Group Stage': 'GROUP STAGE',
+    'Knockout Stage': 'KNOCKOUT',
+    'Tournament Complete': 'COMPLETE',
+  };
+  pill.textContent = phaseMap[phase] || phase.toUpperCase() || 'PRE-TOURNAMENT';
+
+  const hl = el('div', 'briefing-hl', data.headline || 'World Cup 2026 is coming.');
+  body.appendChild(hl);
+
+  if (data.days_until_kickoff) {
+    const block = el('div', 'section-block');
+    const lbl = el('div', 'section-label', 'Countdown');
+    const content = el('div', 'section-content');
+    const big = el('span', 'briefing-days', data.days_until_kickoff);
+    content.appendChild(big);
+    content.appendChild(document.createTextNode(' days until kickoff'));
+    block.appendChild(lbl);
+    block.appendChild(content);
+    body.appendChild(block);
+  }
+
+  (data.sections || []).slice(0, 4).forEach(s => {
+    const block = el('div', 'section-block');
+    block.appendChild(el('div', 'section-label', s.title || ''));
+    const content = el('div', 'section-content');
+
+    if (Array.isArray(s.items)) {
+      s.items.slice(0, 4).forEach((item, idx) => {
+        if (idx > 0) content.appendChild(document.createElement('br'));
+        const text = typeof item === 'string' ? item :
+          (item.name || item.label || item.headline || item.team_name || JSON.stringify(item));
+        content.appendChild(document.createTextNode('• ' + text));
+      });
+    } else {
+      const text = s.content || s.description || s.value || s.headline || '';
+      content.textContent = text;
+    }
+
+    block.appendChild(content);
+    body.appendChild(block);
+  });
+}
+
+// ── RENDER: MATCHES ────────────────────────────────────────────────
+function renderMatches(data) {
+  const stack = document.getElementById('matchStack');
+  const meta  = document.getElementById('matchesMeta');
+  stack.innerHTML = '';
+
+  const matches = (data.matches || data || [])
+    .filter(m => m.status !== 'completed')
+    .slice(0, 7);
+
+  if (matches.length === 0) {
+    const div = el('div', 'no-matches');
+    div.textContent = 'No upcoming matches in the next 60 days.';
+    const sub = el('span', '');
+    sub.style.cssText = 'color:var(--text-dim);font-size:10px;display:block;margin-top:4px';
+    sub.textContent = 'Tournament begins June 11, 2026';
+    div.appendChild(sub);
+    stack.appendChild(div);
+    meta.textContent = 'Jun 11, 2026';
+    return;
+  }
+
+  matches.forEach(m => {
+    const isLive  = m.status === 'live';
+    const isFt    = m.status === 'completed';
+    const isGroup = m.group != null;
+
+    const card = el('div', 'match-card' + (isLive ? ' is-live' : ''));
+
+    // Top row
+    const top = el('div', 'mc-top');
+    top.appendChild(el('span', 'mc-date', fmtMatchDate(m.date)));
+    const roundLabel = isGroup ? ('Group ' + m.group) : (m.round || 'Knockout');
+    top.appendChild(el('span', 'mc-round' + (isGroup ? ' is-group' : ''), roundLabel));
+    card.appendChild(top);
+
+    // Teams row
+    // home_team_name = "🇲🇽 Mexico" format — split emoji vs name
+    const splitTeam = (nameStr, placeholder) => {
+      if (!nameStr) return { flag: '🏳️', name: placeholder || 'TBD' };
+      const parts = nameStr.split(' ');
+      // First "word" is the flag emoji (multi-codepoint)
+      const flag = parts[0];
+      const name = parts.slice(1).join(' ') || nameStr;
+      return { flag, name };
+    };
+
+    const home = splitTeam(m.home_team_name, m.home_placeholder);
+    const away = splitTeam(m.away_team_name, m.away_placeholder);
+
+    const teams = el('div', 'mc-teams');
+
+    const homeTeam = el('div', 'mc-team');
+    homeTeam.appendChild(el('span', 'mc-flag', home.flag));
+    homeTeam.appendChild(el('span', '', home.name));
+    teams.appendChild(homeTeam);
+
+    if (m.home_score != null && m.away_score != null) {
+      const score = el('span', 'mc-score', m.home_score + ' – ' + m.away_score);
+      teams.appendChild(score);
+    } else {
+      teams.appendChild(el('span', 'mc-vs', 'vs'));
+    }
+
+    const awayTeam = el('div', 'mc-team');
+    awayTeam.appendChild(el('span', 'mc-flag', away.flag));
+    awayTeam.appendChild(el('span', '', away.name));
+    teams.appendChild(awayTeam);
+    card.appendChild(teams);
+
+    // Bottom row
+    const bot = el('div', 'mc-bot');
+    const timeStr = fmtMatchTime(m.date, m.time_utc || m.time_venue);
+    if (timeStr) bot.appendChild(el('span', 'mc-time', timeStr));
+    const venueShort = (m.venue_name || '').split(',')[0];
+    if (venueShort) bot.appendChild(el('span', 'mc-venue', venueShort));
+
+    let sbCls = 'status-badge sb-sched', sbText = 'Scheduled';
+    if (isLive) { sbCls = 'status-badge sb-live'; sbText = '● LIVE'; }
+    else if (isFt) { sbCls = 'status-badge sb-ft'; sbText = 'FT'; }
+    const badge = el('span', sbCls, sbText);
+    bot.appendChild(badge);
+    card.appendChild(bot);
+
+    stack.appendChild(card);
+  });
+}
+
+// ── RENDER: FAVORITES ─────────────────────────────────────────────
+function renderFavorites(winners) {
+  const list = document.getElementById('favList');
+  list.innerHTML = '';
+
+  if (!winners || winners.length === 0) {
+    list.appendChild(el('div', 'empty', 'No odds data'));
+    return;
+  }
+
+  const top6 = winners.slice(0, 6);
+  const maxP = parseProb(top6[0].implied_probability);
+
+  top6.forEach((w, i) => {
+    const rc = rankCls(i);
+    const flag = w.team_name ? w.team_name.split(' ')[0] : getFlag(w.team_id);
+    const name = w.team_name ? w.team_name.split(' ').slice(1).join(' ') : (w.team_id || '').toUpperCase();
+    const prob = parseProb(w.implied_probability);
+    const pct  = maxP > 0 ? (prob / maxP * 100).toFixed(1) : 0;
+
+    const row = el('div', 'fav-row');
+    row.appendChild(el('span', 'fav-rank ' + rc, i + 1 + ''));
+
+    const team = el('div', 'fav-team');
+    team.appendChild(el('span', 'fav-flag', flag));
+    team.appendChild(el('span', 'fav-name', name));
+    row.appendChild(team);
+
+    const barWrap = el('div', 'fav-bar-wrap');
+    const bar = el('div', 'fav-bar ' + rc);
+    bar.style.width = pct + '%';
+    barWrap.appendChild(bar);
+    row.appendChild(barWrap);
+
+    row.appendChild(el('span', 'fav-odds', w.odds || ''));
+    list.appendChild(row);
+  });
+}
+
+// ── RENDER: INJURIES ──────────────────────────────────────────────
+function renderInjuries(data) {
+  const list   = document.getElementById('injList');
+  const summEl = document.getElementById('injSummary');
+  list.innerHTML = '';
+
+  const injuries = (data.injuries || []).filter(i => i.status !== 'fit');
+  const summary  = data.summary || {};
+
+  summEl.textContent = (summary.out || 0) + ' out · ' + (summary.doubtful || 0) + ' doubtful';
+
+  if (injuries.length === 0) {
+    list.appendChild(el('div', 'empty', 'No active injuries reported'));
+    return;
+  }
+
+  const order = { out:0, doubtful:1, recovering:2 };
+  const sorted = [...injuries].sort((a, b) => (order[a.status]||9) - (order[b.status]||9));
+
+  sorted.slice(0, 7).forEach(inj => {
+    const row = el('div', 'inj-row');
+
+    let bCls = 'inj-badge ib-recovering', bText = 'RECOVERING';
+    if (inj.status === 'out')      { bCls = 'inj-badge ib-out';      bText = 'OUT'; }
+    else if (inj.status === 'doubtful') { bCls = 'inj-badge ib-doubtful'; bText = 'DOUBTFUL'; }
+    row.appendChild(el('span', bCls, bText));
+
+    const info = el('div', 'inj-info');
+    const flag = getFlag(inj.team_id);
+    info.appendChild(el('div', 'inj-player', flag + ' ' + (inj.player || '')));
+    info.appendChild(el('div', 'inj-detail', (inj.position || '') + (inj.expected_return ? ' · ' + inj.expected_return : '')));
+    row.appendChild(info);
+
+    list.appendChild(row);
+  });
+}
+
+// ── RENDER: GOLDEN BOOT ───────────────────────────────────────────
+function renderGoldenBoot(gb) {
+  const scroll = document.getElementById('bootScroll');
+  scroll.innerHTML = '';
+
+  if (!gb || gb.length === 0) {
+    scroll.appendChild(el('div', 'empty', 'No data'));
+    return;
+  }
+
+  gb.forEach((p, i) => {
+    const flag = p.team_name ? p.team_name.split(' ')[0] : getFlag(p.team_id);
+    const team = p.team_name ? p.team_name.split(' ').slice(1).join(' ') : (p.team_id || '').toUpperCase();
+
+    const card = el('div', 'boot-card' + (i === 0 ? ' top' : ''));
+    card.appendChild(el('div', 'boot-flag', flag));
+    card.appendChild(el('div', 'boot-player', p.player || ''));
+    card.appendChild(el('div', 'boot-team', team));
+    card.appendChild(el('div', 'boot-odds', p.odds || ''));
+    scroll.appendChild(card);
+  });
+}
+
+// ── RENDER: DARK HORSES ──────────────────────────────────────────
+function renderDarkHorses(dh) {
+  const grid = document.getElementById('dhGrid');
+  grid.innerHTML = '';
+
+  if (!dh || dh.length === 0) {
+    grid.appendChild(el('div', 'empty', 'No data'));
+    return;
+  }
+
+  dh.slice(0, 6).forEach(d => {
+    const flag = d.team_name ? d.team_name.split(' ')[0] : getFlag(d.team_id);
+    const name = d.team_name ? d.team_name.split(' ').slice(1).join(' ') : (d.team_id || '').toUpperCase();
+
+    const card = el('div', 'dh-card');
+    const top  = el('div', 'dh-top');
+    top.appendChild(el('span', 'dh-flag', flag));
+    top.appendChild(el('span', 'dh-name', name));
+    card.appendChild(top);
+    card.appendChild(el('div', 'dh-reason', d.reason || ''));
+    grid.appendChild(card);
+  });
+}
+
+// ── FETCH ALL ─────────────────────────────────────────────────────
+async function fetchAll() {
+  setSpinner(true);
+  const today  = todayStr();
+  const future = futureStr(60);
+
+  const [monitorR, briefR, matchR] = await Promise.allSettled([
+    fetchJSON('/api/monitor'),
+    fetchJSON('/api/what-to-know-now'),
+    fetchJSON('/api/matches?date_from=' + today + '&date_to=' + future),
+  ]);
+
+  if (monitorR.status === 'fulfilled') {
+    renderTicker(monitorR.value.news);
+    renderNews(monitorR.value.news);
+    renderFavorites(monitorR.value.odds?.tournament_winner);
+    renderGoldenBoot(monitorR.value.odds?.golden_boot);
+    renderDarkHorses(monitorR.value.odds?.dark_horses);
+    renderInjuries(monitorR.value.injuries);
+  } else {
+    document.getElementById('newsList').innerHTML = '';
+    document.getElementById('newsList').appendChild(el('div','err','Failed to load data'));
+  }
+
+  if (briefR.status === 'fulfilled') {
+    renderBriefing(briefR.value);
+  } else {
+    document.getElementById('briefingBody').innerHTML = '';
+    document.getElementById('briefingBody').appendChild(el('div','err','Failed to load briefing'));
+  }
+
+  if (matchR.status === 'fulfilled') {
+    renderMatches(matchR.value);
+  }
+
+  setSpinner(false);
+  markUpdated();
+}
+
+// ── SHARE ─────────────────────────────────────────────────────────
+function shareMonitor() {
+  if (navigator.share) {
+    navigator.share({
+      title: 'WC26 Monitor',
+      text: 'Live FIFA World Cup 2026 dashboard',
+      url: location.href,
+    }).catch(() => {});
+  } else if (navigator.clipboard) {
+    navigator.clipboard.writeText(location.href).then(() => {
+      const btn = document.getElementById('shareBtn');
+      const orig = btn.textContent;
+      btn.textContent = '✓ COPIED';
+      setTimeout(() => { btn.textContent = orig; }, 2000);
+    });
+  }
+}
+
+// ── INIT ──────────────────────────────────────────────────────────
+(async () => {
+  await loadTeams();
+  await fetchAll();
+  setInterval(fetchAll, REFRESH_MS);
+})();
+</script>
+</body>
+</html>

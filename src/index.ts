@@ -40,7 +40,7 @@ import type {
 
 const server = new McpServer({
   name: "wc26-mcp",
-  version: "0.3.0",
+  version: "0.3.1",
 });
 
 // ── Helpers ─────────────────────────────────────────────────────────
