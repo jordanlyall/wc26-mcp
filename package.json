@@ -22,7 +22,8 @@
     "dev": "tsx src/index.ts",
     "start": "node dist/index.js",
     "test": "tsx --test test/smoke.test.ts",
-    "prepublishOnly": "npm run build && chmod +x dist/index.js"
+    "prepublishOnly": "npm run build && chmod +x dist/index.js",
+    "start:http": "node dist/server-http.js"
   },
   "files": [
     "dist/"
@@ -50,7 +51,13 @@
     "node": ">=18"
   },
   "dependencies": {
+    "@coinbase/x402": "^2.1.0",
     "@modelcontextprotocol/sdk": "^1.26.0",
+    "@types/express": "^5.0.6",
+    "@x402/evm": "^2.5.0",
+    "@x402/express": "^2.5.0",
+    "express": "^5.2.1",
+    "x402": "^1.1.0",
     "zod": "^4.3.6"
   },
   "devDependencies": {
