@@ -2,6 +2,84 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "75ed27d6099c",
+    "title": "USMNT starlet Banks considering Germany switch",
+    "date": "2026-03-01",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48066548/usmnt-noahkai-banks-germany-switch-augsburg",
+    "summary": "USMNT starlet Banks considering Germany switch",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-01T08:12:21.656Z"
+  },
+  {
+    "id": "12cf51ca22ea",
+    "title": "Iran women's NT: 'Let's just focus' on Asian Cup",
+    "date": "2026-03-01",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48069381/iran-women-national-team-let-just-focus-asian-cup",
+    "summary": "Iran women's NT: 'Let's just focus' on Asian Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-01T08:12:21.656Z"
+  },
+  {
+    "id": "844be5f93d73",
+    "title": "Game-changing rules for 2026 FIFA World Cup: Say goodbye to time-wasting tactics",
+    "date": "2026-03-01",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/world-cup/2026/03/01/69a3bdd6ca4741b77a8b458f.html",
+    "summary": "Game-changing rules for 2026 FIFA World Cup: Say goodbye to time-wasting tactics",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-01T08:12:21.656Z"
+  },
+  {
+    "id": "9000dda51788",
+    "title": "Branthwaite to give 'best shot' at making World Cup squad",
+    "date": "2026-02-28",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/programmes/p0n3xbt6?at_medium=RSS&at_campaign=rss",
+    "summary": "Branthwaite to give 'best shot' at making World Cup squad",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-01T08:12:21.656Z"
+  },
+  {
+    "id": "2985bbc2beec",
+    "title": "European football: Kane double helps Bayern Munich sink Borussia Dortmund",
+    "date": "2026-02-28",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/feb/28/european-football-barcelona-bayern-munich-borussia-dortmund-inter-psg",
+    "summary": "European football: Kane double helps Bayern Munich sink Borussia Dortmund",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-01T08:12:21.656Z"
+  },
+  {
+    "id": "7af2e23961f7",
+    "title": "Matildas set off on Asian Cup journey to prove home sequel can be better than the original",
+    "date": "2026-02-28",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/feb/28/matildas-australia-football-team-womens-asian-cup-preview",
+    "summary": "Matildas set off on Asian Cup journey to prove home sequel can be better than the original",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-01T08:12:21.656Z"
+  },
+  {
     "id": "ff5ccefbfcb5",
     "title": "The moment I told my mum I wanted to stop football - and how life changed",
     "date": "2026-02-28",
@@ -26,6 +104,19 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-02-28T08:10:53.883Z"
+  },
+  {
+    "id": "5f187e844320",
+    "title": "Football Daily | Dortmund v Bayern Munich: will Der Klassiker live up to its name?",
+    "date": "2026-02-27",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/feb/27/football-daily-borussia-dortmund-bayern-munich-der-klassiker",
+    "summary": "Football Daily | Dortmund v Bayern Munich: will Der Klassiker live up to its name?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-01T08:12:21.656Z"
   },
   {
     "id": "ec88051807a2",
