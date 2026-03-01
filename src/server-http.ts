@@ -137,6 +137,108 @@ app.delete("/mcp", (req: Request, res: Response) => {
   res.status(204).send();
 });
 
+
+// ── Root — developer docs ────────────────────────────────────────────
+
+app.get("/", (_req, res) => {
+  res.setHeader("Content-Type", "text/html");
+  res.send(`<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WC26 MCP — x402 API</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: #0a0a0a; color: #e0e0e0; font-family: 'SF Mono', 'Fira Code', monospace; font-size: 14px; line-height: 1.7; padding: 48px 24px; }
+    .container { max-width: 720px; margin: 0 auto; }
+    h1 { font-size: 22px; font-weight: 600; color: #fff; margin-bottom: 4px; }
+    .subtitle { color: #666; margin-bottom: 40px; }
+    h2 { font-size: 11px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: #555; margin: 36px 0 12px; }
+    .badge { display: inline-block; background: #1a2a1a; color: #4ade80; border: 1px solid #1f3a1f; border-radius: 4px; padding: 2px 8px; font-size: 11px; margin-bottom: 20px; }
+    .card { background: #111; border: 1px solid #1e1e1e; border-radius: 8px; padding: 20px 24px; margin-bottom: 12px; }
+    .card p { color: #888; font-size: 13px; margin-top: 2px; }
+    code, pre { background: #161616; border: 1px solid #222; border-radius: 6px; }
+    pre { padding: 16px 20px; overflow-x: auto; color: #a0c8ff; font-size: 13px; line-height: 1.6; }
+    code { padding: 1px 6px; font-size: 12px; color: #a0c8ff; }
+    .tool-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+    .tool { background: #111; border: 1px solid #1e1e1e; border-radius: 6px; padding: 10px 14px; }
+    .tool-name { color: #c9a0ff; font-size: 12px; }
+    .tool-desc { color: #555; font-size: 11px; margin-top: 2px; }
+    .kv { display: flex; gap: 12px; margin-bottom: 8px; }
+    .k { color: #555; min-width: 110px; }
+    .v { color: #e0e0e0; }
+    a { color: #a0c8ff; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .footer { margin-top: 48px; color: #333; font-size: 12px; }
+  </style>
+</head>
+<body>
+<div class="container">
+
+  <h1>WC26 MCP</h1>
+  <p class="subtitle">FIFA World Cup 2026 data API for AI agents — x402 micropayment gated</p>
+  <span class="badge">online</span>
+
+  <h2>Endpoint</h2>
+  <div class="card">
+    <div class="kv"><span class="k">URL</span><span class="v">https://wc26-mcp-production.up.railway.app/mcp</span></div>
+    <div class="kv"><span class="k">Protocol</span><span class="v">MCP Streamable HTTP (POST / GET / DELETE)</span></div>
+    <div class="kv"><span class="k">Payment</span><span class="v">$0.002 USDC per call — Base Sepolia (chain 84532)</span></div>
+    <div class="kv"><span class="k">Wallet</span><span class="v">0x39614af23b76a33e01f33d63657cB3a878217f24</span></div>
+    <div class="kv"><span class="k">Facilitator</span><span class="v"><a href="https://x402.org/facilitator">x402.org/facilitator</a></span></div>
+  </div>
+
+  <h2>Connect (Claude Desktop)</h2>
+  <pre>{
+  "mcpServers": {
+    "wc26": {
+      "url": "https://wc26-mcp-production.up.railway.app/mcp",
+      "transport": "http"
+    }
+  }
+}</pre>
+
+  <h2>18 Tools</h2>
+  <div class="tool-grid">
+    <div class="tool"><div class="tool-name">get_matches</div><div class="tool-desc">Match schedule and results</div></div>
+    <div class="tool"><div class="tool-name">get_teams</div><div class="tool-desc">All 48 qualified teams</div></div>
+    <div class="tool"><div class="tool-name">get_groups</div><div class="tool-desc">Group stage standings</div></div>
+    <div class="tool"><div class="tool-name">get_venues</div><div class="tool-desc">Host stadiums and cities</div></div>
+    <div class="tool"><div class="tool-name">get_schedule</div><div class="tool-desc">Full tournament schedule</div></div>
+    <div class="tool"><div class="tool-name">get_team_profile</div><div class="tool-desc">Deep team stats and history</div></div>
+    <div class="tool"><div class="tool-name">get_city_guide</div><div class="tool-desc">Travel guide for host cities</div></div>
+    <div class="tool"><div class="tool-name">get_nearby_venues</div><div class="tool-desc">Venues near a location</div></div>
+    <div class="tool"><div class="tool-name">get_historical_matchups</div><div class="tool-desc">Head-to-head team history</div></div>
+    <div class="tool"><div class="tool-name">get_standings</div><div class="tool-desc">Live group standings</div></div>
+    <div class="tool"><div class="tool-name">get_bracket</div><div class="tool-desc">Knockout bracket</div></div>
+    <div class="tool"><div class="tool-name">compare_teams</div><div class="tool-desc">Side-by-side team comparison</div></div>
+    <div class="tool"><div class="tool-name">get_odds</div><div class="tool-desc">Tournament betting odds</div></div>
+    <div class="tool"><div class="tool-name">get_injuries</div><div class="tool-desc">Player injury reports</div></div>
+    <div class="tool"><div class="tool-name">get_news</div><div class="tool-desc">Latest news and updates</div></div>
+    <div class="tool"><div class="tool-name">get_fan_zones</div><div class="tool-desc">Official fan zone locations</div></div>
+    <div class="tool"><div class="tool-name">get_visa_info</div><div class="tool-desc">Visa requirements by country</div></div>
+    <div class="tool"><div class="tool-name">what_to_know_now</div><div class="tool-desc">Real-time tournament highlights</div></div>
+  </div>
+
+  <h2>How it works</h2>
+  <div class="card">
+    <p>Every <code>POST /mcp</code> request is intercepted by the x402 middleware. If no valid payment header is present, the server returns <code>402 Payment Required</code> with a signed payment requirement. An x402-aware client pays $0.002 USDC on Base Sepolia and retries — the middleware verifies settlement via <a href="https://x402.org">x402.org</a> and calls the MCP handler. No subscriptions, no API keys.</p>
+  </div>
+
+  <h2>Status</h2>
+  <pre>GET /health   → server status + payment config
+POST /mcp     → MCP tool call (requires x402 payment)
+GET  /mcp     → SSE stream for server-initiated messages
+DELETE /mcp   → terminate session</pre>
+
+  <p class="footer">Built on <a href="https://github.com/jordanlyall/wc26-mcp">github.com/jordanlyall/wc26-mcp</a> · <a href="https://wc26.ai">wc26.ai</a></p>
+
+</div>
+</body>
+</html>`);
+});
+
 // ── Health check ────────────────────────────────────────────────────
 
 app.get("/health", (_req, res) => {
