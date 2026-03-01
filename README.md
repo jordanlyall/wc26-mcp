@@ -15,6 +15,10 @@ Works with **Claude Desktop** · **Claude Code** · **Cursor** · **Windsurf** �
 
 **[Website](https://wc26.ai)** | **[npm](https://www.npmjs.com/package/wc26-mcp)** | **[ChatGPT GPT](https://chatgpt.com/g/g-698d038f171481919ada44947304a196-world-cup-2026-companion)** | **[Telegram Bot](https://t.me/wc26ai_bot)** | **[MCP Registry](https://registry.modelcontextprotocol.io)**
 
+<a href="https://glama.ai/mcp/servers/@jordanlyall/wc26-mcp">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@jordanlyall/wc26-mcp/badge" alt="wc26-mcp MCP server" />
+</a>
+
 ## Quick Start
 
 ### Claude Desktop
