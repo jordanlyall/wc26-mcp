@@ -2,6 +2,188 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "8a4478cd7ba5",
+    "title": "Iran federation says participation in WC in doubt",
+    "date": "2026-03-02",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48074546/iran-soccer-federation-world-cup-participation-doubt",
+    "summary": "Iran federation says participation in WC in doubt",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-02T08:19:35.482Z"
+  },
+  {
+    "id": "3b5216695963",
+    "title": "Hayes sees 'growth' in USWNT since Portugal loss",
+    "date": "2026-03-02",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48077631/emma-hayes-sees-growth-uswnt-portugal-loss",
+    "summary": "Hayes sees 'growth' in USWNT since Portugal loss",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-02T08:19:35.482Z"
+  },
+  {
+    "id": "5acd29596803",
+    "title": "Wales boss Wilkinson to continue rotating keepers",
+    "date": "2026-03-02",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cpv81j3jldno?at_medium=RSS&at_campaign=rss",
+    "summary": "Wales boss Wilkinson to continue rotating keepers",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-02T08:19:35.482Z"
+  },
+  {
+    "id": "5acd29596803",
+    "title": "Wales boss Wilkinson to continue rotating keepers",
+    "date": "2026-03-02",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cpv81j3jldno?at_medium=RSS&at_campaign=rss",
+    "summary": "Wales boss Wilkinson to continue rotating keepers",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-02T08:19:35.482Z"
+  },
+  {
+    "id": "5dda1c35a31f",
+    "title": "Iran's participation in the 2026 FIFA World Cup in the United States is not guaranteed",
+    "date": "2026-03-02",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/world-cup/2026/03/02/69a4c011e2704efe0d8b457e.html",
+    "summary": "Iran's participation in the 2026 FIFA World Cup in the United States is not guaranteed",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-02T08:19:35.482Z"
+  },
+  {
+    "id": "9c63090d1cbd",
+    "title": "What now for 'epic' Scottish title race after Old Firm draw?",
+    "date": "2026-03-01",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c70n9nr3dx6o?at_medium=RSS&at_campaign=rss",
+    "summary": "What now for 'epic' Scottish title race after Old Firm draw?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-02T08:19:35.482Z"
+  },
+  {
+    "id": "60bbc6126c66",
+    "title": "Kerr scores first international goal in 28 months in Australia win",
+    "date": "2026-03-01",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c70n99nkzeyo?at_medium=RSS&at_campaign=rss",
+    "summary": "Kerr scores first international goal in 28 months in Australia win",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-02T08:19:35.482Z"
+  },
+  {
+    "id": "9c63090d1cbd",
+    "title": "What now for 'epic' Scottish title race after Old Firm draw?",
+    "date": "2026-03-01",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c70n9nr3dx6o?at_medium=RSS&at_campaign=rss",
+    "summary": "What now for 'epic' Scottish title race after Old Firm draw?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-02T08:19:35.482Z"
+  },
+  {
+    "id": "60bbc6126c66",
+    "title": "Kerr scores first international goal in 28 months in Australia win",
+    "date": "2026-03-01",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c70n99nkzeyo?at_medium=RSS&at_campaign=rss",
+    "summary": "Kerr scores first international goal in 28 months in Australia win",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-02T08:19:35.482Z"
+  },
+  {
+    "id": "f129f899438e",
+    "title": "Iranian football association unsure if national team will play at World Cup in US",
+    "date": "2026-03-01",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/01/iranian-football-association-world-cup-usa",
+    "summary": "Iranian football association unsure if national team will play at World Cup in US",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-02T08:19:35.482Z"
+  },
+  {
+    "id": "abf0ee7be429",
+    "title": "Sam Kerr header delivers Matildas win over Philippines in Women’s Asian Cup opener",
+    "date": "2026-03-01",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/01/matildas-australia-philippines-football-womens-asian-cup-report",
+    "summary": "Sam Kerr header delivers Matildas win over Philippines in Women’s Asian Cup opener",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-02T08:19:35.482Z"
+  },
+  {
+    "id": "c37d4e16f285",
+    "title": "Referee pauses La Liga game after Elche’s Rafa Mir accused of racist insult",
+    "date": "2026-03-01",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/01/referee-pauses-la-liga-game-after-elches-rafa-mir-accused-of-racist-insult",
+    "summary": "Referee pauses La Liga game after Elche’s Rafa Mir accused of racist insult",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-02T08:19:35.482Z"
+  },
+  {
+    "id": "a03f5fb8f2eb",
+    "title": "Mexican cartel proposes a temporary truce in the country's violence to prevent the FIFA World Cup from being canceled",
+    "date": "2026-03-01",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/world-cup/2026/03/01/69a4a85422601d3f228b45d2.html",
+    "summary": "Mexican cartel proposes a temporary truce in the country's violence to prevent the FIFA World Cup from being canceled",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-02T08:19:35.482Z"
+  },
+  {
+    "id": "bb24e444a826",
+    "title": "Taylor Swift emerges as a key supporter for the upcoming 2026 FIFA World Cup in the USA",
+    "date": "2026-03-01",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/nfl/kansas-city-chiefs/2026/03/01/69a49de022601d3f228b45c4.html",
+    "summary": "Taylor Swift emerges as a key supporter for the upcoming 2026 FIFA World Cup in the USA",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-02T08:19:35.482Z"
+  },
+  {
     "id": "75ed27d6099c",
     "title": "USMNT starlet Banks considering Germany switch",
     "date": "2026-03-01",
