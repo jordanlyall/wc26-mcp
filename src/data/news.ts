@@ -2,6 +2,214 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "4777bfac7040",
+    "title": "Important to get early points on board -  Caldwell",
+    "date": "2026-03-03",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c4g80ppd8pno?at_medium=RSS&at_campaign=rss",
+    "summary": "Important to get early points on board -  Caldwell",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-03T08:17:44.751Z"
+  },
+  {
+    "id": "cfb3c72d5a3b",
+    "title": "Brazil World Cup is in Wales' sights - James ",
+    "date": "2026-03-03",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c98qpy9m34lo?at_medium=RSS&at_campaign=rss",
+    "summary": "Brazil World Cup is in Wales' sights - James ",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-03T08:17:44.751Z"
+  },
+  {
+    "id": "5ba3a5f19f4f",
+    "title": "Scotland change World Cup friendly opponent - gossip",
+    "date": "2026-03-03",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cj98rvk119ko?at_medium=RSS&at_campaign=rss",
+    "summary": "Scotland change World Cup friendly opponent - gossip",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-03T08:17:44.751Z"
+  },
+  {
+    "id": "4777bfac7040",
+    "title": "Important to get early points on board -  Caldwell",
+    "date": "2026-03-03",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c4g80ppd8pno?at_medium=RSS&at_campaign=rss",
+    "summary": "Important to get early points on board -  Caldwell",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-03T08:17:44.751Z"
+  },
+  {
+    "id": "cfb3c72d5a3b",
+    "title": "Brazil World Cup is in Wales' sights - James ",
+    "date": "2026-03-03",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c98qpy9m34lo?at_medium=RSS&at_campaign=rss",
+    "summary": "Brazil World Cup is in Wales' sights - James ",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-03T08:17:44.751Z"
+  },
+  {
+    "id": "49cad2c997c3",
+    "title": "Miami vies to host Finalissima soccer final, but tennis may derail its bid",
+    "date": "2026-03-03",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/football/2026/03/03/69a6384946163ff7618b45aa.html",
+    "summary": "Miami vies to host Finalissima soccer final, but tennis may derail its bid",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-03T08:17:44.751Z"
+  },
+  {
+    "id": "71eb61e85ebe",
+    "title": "England given 'reassurances' about Turkey security - Wiegman",
+    "date": "2026-03-02",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/videos/crm8lnwn7vmo?at_medium=RSS&at_campaign=rss",
+    "summary": "England given 'reassurances' about Turkey security - Wiegman",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-03T08:17:44.751Z"
+  },
+  {
+    "id": "cad245e9c760",
+    "title": "England 'given reassurances' over safety in Turkey",
+    "date": "2026-03-02",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cpv87y79zpzo?at_medium=RSS&at_campaign=rss",
+    "summary": "England 'given reassurances' over safety in Turkey",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-03T08:17:44.751Z"
+  },
+  {
+    "id": "e2da56619d40",
+    "title": "Hickey adds to Scotland injury woes for March friendlies",
+    "date": "2026-03-02",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c4gq3znn535o?at_medium=RSS&at_campaign=rss",
+    "summary": "Hickey adds to Scotland injury woes for March friendlies",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-03T08:17:44.751Z"
+  },
+  {
+    "id": "e2da56619d40",
+    "title": "Hickey adds to Scotland injury woes for March friendlies",
+    "date": "2026-03-02",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c4gq3znn535o?at_medium=RSS&at_campaign=rss",
+    "summary": "Hickey adds to Scotland injury woes for March friendlies",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-03T08:17:44.751Z"
+  },
+  {
+    "id": "b5be5e80ca37",
+    "title": "Your guide to Scotland's 2027 World Cup qualifiers",
+    "date": "2026-03-02",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cly2m5epp4do?at_medium=RSS&at_campaign=rss",
+    "summary": "Your guide to Scotland's 2027 World Cup qualifiers",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-03T08:17:44.751Z"
+  },
+  {
+    "id": "cad245e9c760",
+    "title": "England 'given reassurances' over safety in Turkey",
+    "date": "2026-03-02",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cpv87y79zpzo?at_medium=RSS&at_campaign=rss",
+    "summary": "England 'given reassurances' over safety in Turkey",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-03T08:17:44.751Z"
+  },
+  {
+    "id": "dba0b9a074e3",
+    "title": "‘Our first No 7’: Lynda Hale, pioneer who scored in England’s first women’s match, dies",
+    "date": "2026-03-02",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/02/lynda-hale-trailblazing-england-international-and-seven-time-fa-cup-winner-dies",
+    "summary": "‘Our first No 7’: Lynda Hale, pioneer who scored in England’s first women’s match, dies",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-03T08:17:44.751Z"
+  },
+  {
+    "id": "0ffb5d32ec06",
+    "title": "England keeping close eye on safety before World Cup qualifier in Turkey",
+    "date": "2026-03-02",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/02/england-lionesses-safety-turkey-sarina-wiegman-ukraine-world-cup-qualifier",
+    "summary": "England keeping close eye on safety before World Cup qualifier in Turkey",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-03T08:17:44.751Z"
+  },
+  {
+    "id": "6e896b9203ad",
+    "title": "Mbappe Injury Update: Real Madrid confirms left knee sprain",
+    "date": "2026-03-02",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/football/real-madrid/2026/03/02/69a5dd61e2704efd608b45e7.html",
+    "summary": "Mbappe Injury Update: Real Madrid confirms left knee sprain",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-03T08:17:44.751Z"
+  },
+  {
+    "id": "abfa7522599c",
+    "title": "Mbappe travels to France to consult specialist about knee injury",
+    "date": "2026-03-02",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/football/real-madrid/2026/03/02/69a57abfca4741697a8b45ac.html",
+    "summary": "Mbappe travels to France to consult specialist about knee injury",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-03T08:17:44.751Z"
+  },
+  {
     "id": "8a4478cd7ba5",
     "title": "Iran federation says participation in WC in doubt",
     "date": "2026-03-02",
