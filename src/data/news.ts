@@ -2,6 +2,253 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "fc5256c92f44",
+    "title": "100 days from the World Cup: What's the state of the USMNT?",
+    "date": "2026-03-04",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48064771/100-days-world-cup-state-usmnt",
+    "summary": "100 days from the World Cup: What's the state of the USMNT?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-04T08:15:52.916Z"
+  },
+  {
+    "id": "17e51a5e694a",
+    "title": "World Cup playoff tickets on sale for less than $17",
+    "date": "2026-03-04",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48092692/world-cup-2026-playoff-tickets-sale-fifa-price",
+    "summary": "World Cup playoff tickets on sale for less than $17",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-04T08:15:52.916Z"
+  },
+  {
+    "id": "8b5ee6f7d79e",
+    "title": "Madrid's Rodrygo (torn ACL) to miss World Cup",
+    "date": "2026-03-04",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48089822/real-madrid-rodrygo-torn-acl-season-miss-world-cup",
+    "summary": "Madrid's Rodrygo (torn ACL) to miss World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-04T08:15:52.916Z"
+  },
+  {
+    "id": "36ccac39c9ff",
+    "title": "Utah spends big to sign Mexico forward Palacios",
+    "date": "2026-03-04",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48090861/utah-royals-mexico-kiana-palacios-club-america-transfer",
+    "summary": "Utah spends big to sign Mexico forward Palacios",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-04T08:15:52.916Z"
+  },
+  {
+    "id": "ae1d70cc5a88",
+    "title": "Why does Scotland lead the way on heading in football?",
+    "date": "2026-03-04",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c1w5z2e003no?at_medium=RSS&at_campaign=rss",
+    "summary": "Why does Scotland lead the way on heading in football?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-04T08:15:52.916Z"
+  },
+  {
+    "id": "094ad422f48f",
+    "title": "Does 'class' captain Weir hold the key to Scotland's World Cup return?",
+    "date": "2026-03-04",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/czx71xgjvlko?at_medium=RSS&at_campaign=rss",
+    "summary": "Does 'class' captain Weir hold the key to Scotland's World Cup return?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-04T08:15:52.916Z"
+  },
+  {
+    "id": "d43bc37e6c3d",
+    "title": "Republic of Ireland loss to France 'stings' - McCabe",
+    "date": "2026-03-04",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cgjzw3jnxg7o?at_medium=RSS&at_campaign=rss",
+    "summary": "Republic of Ireland loss to France 'stings' - McCabe",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-04T08:15:52.916Z"
+  },
+  {
+    "id": "ae1d70cc5a88",
+    "title": "Why does Scotland lead the way on football headers?",
+    "date": "2026-03-04",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c1w5z2e003no?at_medium=RSS&at_campaign=rss",
+    "summary": "Why does Scotland lead the way on football headers?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-04T08:15:52.916Z"
+  },
+  {
+    "id": "094ad422f48f",
+    "title": "Does 'class' captain Weir hold the key to Scotland's World Cup return?",
+    "date": "2026-03-04",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/czx71xgjvlko?at_medium=RSS&at_campaign=rss",
+    "summary": "Does 'class' captain Weir hold the key to Scotland's World Cup return?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-04T08:15:52.916Z"
+  },
+  {
+    "id": "094ad422f48f",
+    "title": "Does 'class' captain Weir hold the key to Scotland's World Cup return?",
+    "date": "2026-03-04",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/czx71xgjvlko?at_medium=RSS&at_campaign=rss",
+    "summary": "Does 'class' captain Weir hold the key to Scotland's World Cup return?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-04T08:15:52.916Z"
+  },
+  {
+    "id": "d43bc37e6c3d",
+    "title": "Republic of Ireland loss to France 'stings' - McCabe",
+    "date": "2026-03-04",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cgjzw3jnxg7o?at_medium=RSS&at_campaign=rss",
+    "summary": "Republic of Ireland loss to France 'stings' - McCabe",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-04T08:15:52.916Z"
+  },
+  {
+    "id": "df4e29f2aa18",
+    "title": "England deliver Wiegman's 'clear win' to make World Cup statement",
+    "date": "2026-03-03",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c98qp2lzj13o?at_medium=RSS&at_campaign=rss",
+    "summary": "England deliver Wiegman's 'clear win' to make World Cup statement",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-04T08:15:52.916Z"
+  },
+  {
+    "id": "d291bfd4ca9d",
+    "title": "Weir hits hat-trick as Scotland hammer Luxembourg",
+    "date": "2026-03-03",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/videos/ce82r8p3ppxo?at_medium=RSS&at_campaign=rss",
+    "summary": "Weir hits hat-trick as Scotland hammer Luxembourg",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-04T08:15:52.916Z"
+  },
+  {
+    "id": "d894a6097a4b",
+    "title": "NI have 'something to build on' under Lindsay",
+    "date": "2026-03-03",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c4g5rg20zrro?at_medium=RSS&at_campaign=rss",
+    "summary": "NI have 'something to build on' under Lindsay",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-04T08:15:52.916Z"
+  },
+  {
+    "id": "f6e907db755c",
+    "title": "Brazil's Rodrygo to miss World Cup with ACL injury",
+    "date": "2026-03-03",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cdxzj8q9wdvo?at_medium=RSS&at_campaign=rss",
+    "summary": "Brazil's Rodrygo to miss World Cup with ACL injury",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-04T08:15:52.916Z"
+  },
+  {
+    "id": "02b39af14285",
+    "title": "England squad not 'political spokespeople' - PFA chief",
+    "date": "2026-03-03",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c3rz1yl41v0o?at_medium=RSS&at_campaign=rss",
+    "summary": "England squad not 'political spokespeople' - PFA chief",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-04T08:15:52.916Z"
+  },
+  {
+    "id": "d291bfd4ca9d",
+    "title": "Weir hits hat-trick as Scotland hammer Luxembourg",
+    "date": "2026-03-03",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/videos/ce82r8p3ppxo?at_medium=RSS&at_campaign=rss",
+    "summary": "Weir hits hat-trick as Scotland hammer Luxembourg",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-04T08:15:52.916Z"
+  },
+  {
+    "id": "df4e29f2aa18",
+    "title": "England deliver Wiegman's 'clear win' to make World Cup statement",
+    "date": "2026-03-03",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c98qp2lzj13o?at_medium=RSS&at_campaign=rss",
+    "summary": "England deliver Wiegman's 'clear win' to make World Cup statement",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-04T08:15:52.916Z"
+  },
+  {
+    "id": "8368ced91a3f",
+    "title": "Arne Slot laments ‘same old story’ after Liverpool concede late winner at Wolves",
+    "date": "2026-03-03",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/03/arne-slot-laments-same-old-story-after-liverpool-concede-late-winner-at-wolves",
+    "summary": "Arne Slot laments ‘same old story’ after Liverpool concede late winner at Wolves",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-04T08:15:52.916Z"
+  },
+  {
     "id": "4777bfac7040",
     "title": "Important to get early points on board -  Caldwell",
     "date": "2026-03-03",
@@ -2413,19 +2660,6 @@ export const news: NewsItem[] = [
     "source": "The Guardian",
     "url": "https://www.theguardian.com/football/2026/feb/03/transfer-window-verdict-how-every-premier-league-club-fared",
     "summary": "Transfer window verdict: how every Premier League club fared",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-12T01:17:44.917Z"
-  },
-  {
-    "id": "916a30aff7d3",
-    "title": "Real and England wait on Bellingham injury",
-    "date": "2026-02-01",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c9qprwlqdq0o?at_medium=RSS&at_campaign=rss",
-    "summary": "Real and England wait on Bellingham injury",
     "categories": [
       "general"
     ],
