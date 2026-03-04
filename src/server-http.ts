@@ -140,7 +140,29 @@ app.delete("/mcp", (req: Request, res: Response) => {
 
 // ── Root — developer docs ────────────────────────────────────────────
 
-app.get("/", (_req, res) => {
+app.get("/", (req, res) => {
+  if (req.accepts("application/json") && !req.accepts("text/html")) {
+    res.json({
+      name: "wc26-mcp",
+      description: "FIFA World Cup 2026 data API for AI agents",
+      version: "0.3.1",
+      endpoint: "https://wc26-mcp-production.up.railway.app/mcp",
+      protocol: "MCP Streamable HTTP",
+      payment: {
+        scheme: "x402",
+        price: "$0.002 USDC per call",
+        network: "eip155:84532",
+        payTo: WALLET_ADDRESS,
+        facilitator: "https://x402.org/facilitator",
+      },
+      tools: 18,
+      llms_txt: "https://wc26-mcp-production.up.railway.app/llms.txt",
+      openapi: "https://wc26-mcp-production.up.railway.app/openapi.json",
+      source: "https://github.com/jordanlyall/wc26-mcp",
+      homepage: "https://wc26.ai",
+    });
+    return;
+  }
   res.setHeader("Content-Type", "text/html");
   res.send(`<!DOCTYPE html>
 <html lang="en">
@@ -237,6 +259,72 @@ DELETE /mcp   → terminate session</pre>
 </div>
 </body>
 </html>`);
+});
+
+// ── Agent-friendly discovery routes ─────────────────────────────────
+
+const LLMS_TXT = `# WC26 MCP
+
+> FIFA World Cup 2026 data API for AI agents — x402 micropayment gated
+
+WC26 MCP provides structured data for the 2026 FIFA World Cup across 18 tools.
+Every tool call costs $0.002 USDC on Base Sepolia via x402 micropayments.
+No API keys or subscriptions required.
+
+## Endpoint
+
+- URL: https://wc26-mcp-production.up.railway.app/mcp
+- Protocol: MCP Streamable HTTP (POST / GET / DELETE)
+- Payment: $0.002 USDC per call on Base Sepolia (eip155:84532)
+- Wallet: 0x39614af23b76a33e01f33d63657cB3a878217f24
+- Facilitator: https://x402.org/facilitator
+
+## Tools
+
+- get_matches: Query the 104-match schedule by date, team, group, venue, round, or status
+- get_teams: All 48 qualified nations with FIFA rankings and confederations
+- get_groups: Group stage standings, teams, and schedules
+- get_venues: 16 host stadiums with capacity, location, and travel info
+- get_schedule: Full tournament schedule with timezone conversion support
+- get_team_profile: Deep team history, manager, formation, and star players
+- get_city_guide: Travel guide for host cities (food, transport, hotels, attractions)
+- get_nearby_venues: Find stadiums near a given location
+- get_historical_matchups: Head-to-head history between any two nations
+- get_standings: Live group table standings
+- get_bracket: Full knockout bracket from Round of 32 to Final
+- compare_teams: Side-by-side comparison of two teams
+- get_odds: Tournament and match betting odds
+- get_injuries: Player injury and suspension reports by team
+- get_news: Latest World Cup news with category and recency filters
+- get_fan_zones: Official FIFA Fan Festival locations with hours and amenities
+- get_visa_info: Entry requirements for fans traveling to the US, Canada, or Mexico
+- what_to_know_now: Real-time tournament highlights and key talking points
+
+## Payment flow
+
+1. Client sends POST /mcp without payment header
+2. Server returns 402 with signed payment requirements
+3. Client pays $0.002 USDC on Base Sepolia, attaches X-PAYMENT header
+4. Server verifies via x402.org facilitator, calls MCP handler
+5. Client receives MCP tool response
+
+## OpenAPI spec
+
+GET /openapi.json
+
+## Source
+
+https://github.com/jordanlyall/wc26-mcp
+https://wc26.ai
+`;
+
+app.get("/llms.txt", (_req, res) => {
+  res.setHeader("Content-Type", "text/plain; charset=utf-8");
+  res.send(LLMS_TXT);
+});
+
+app.get("/openapi.json", (_req, res) => {
+  res.redirect(301, "https://raw.githubusercontent.com/jordanlyall/wc26-mcp/main/gpt/openapi.json");
 });
 
 // ── Health check ────────────────────────────────────────────────────

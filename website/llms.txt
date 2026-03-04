@@ -1,0 +1,64 @@
+# WC26 MCP
+
+> FIFA World Cup 2026 data for AI agents — 18 tools, no API key required
+
+WC26 MCP is an MCP (Model Context Protocol) server providing structured data
+for the 2026 FIFA World Cup. Covers all 104 matches, 48 teams, 16 venues,
+city guides, fan zones, visa information, standings, bracket, odds, injuries,
+and live news updates.
+
+## Install (stdio, free)
+
+```json
+{
+  "mcpServers": {
+    "wc26": {
+      "command": "npx",
+      "args": ["-y", "wc26-mcp"]
+    }
+  }
+}
+```
+
+## Install (HTTP, x402 micropayments)
+
+```json
+{
+  "mcpServers": {
+    "wc26": {
+      "url": "https://wc26-mcp-production.up.railway.app/mcp",
+      "transport": "http"
+    }
+  }
+}
+```
+
+HTTP transport costs $0.002 USDC per call on Base Sepolia via x402.
+
+## Tools
+
+- get_matches: Query the 104-match schedule by date, team, group, venue, round, or status
+- get_teams: All 48 qualified nations with FIFA rankings and confederations
+- get_groups: Group stage standings, teams, and schedules
+- get_venues: 16 host stadiums with capacity, location, and travel info
+- get_schedule: Full tournament schedule with timezone conversion support
+- get_team_profile: Deep team history, manager, formation, and star players
+- get_city_guide: Travel guide for host cities (food, transport, hotels, attractions)
+- get_nearby_venues: Find stadiums near a given location
+- get_historical_matchups: Head-to-head history between any two nations
+- get_standings: Live group table standings
+- get_bracket: Full knockout bracket from Round of 32 to Final
+- compare_teams: Side-by-side comparison of two teams
+- get_odds: Tournament and match betting odds
+- get_injuries: Player injury and suspension reports by team
+- get_news: Latest World Cup news with category and recency filters
+- get_fan_zones: Official FIFA Fan Festival locations with hours and amenities
+- get_visa_info: Entry requirements for fans traveling to the US, Canada, or Mexico
+- what_to_know_now: Real-time tournament highlights and key talking points
+
+## Resources
+
+- npm: https://www.npmjs.com/package/wc26-mcp
+- Source: https://github.com/jordanlyall/wc26-mcp
+- OpenAPI: https://wc26-mcp-production.up.railway.app/openapi.json
+- HTTP API docs: https://wc26-mcp-production.up.railway.app/llms.txt
