@@ -2,6 +2,201 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "f36fdc273a3e",
+    "title": "Flamengo appoints Jardim to replace Filipe Luís",
+    "date": "2026-03-05",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48104682/flamengo-hires-leonardo-jardim-replace-filipe-luis",
+    "summary": "Flamengo appoints Jardim to replace Filipe Luís",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-05T08:17:32.065Z"
+  },
+  {
+    "id": "537bbda66340",
+    "title": "Neymar could benefit from Rodrygo's injury and sneak into the World Cup with Brazil",
+    "date": "2026-03-05",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/world-cup/2026/03/05/69a8f441ca4741e23d8b4586.html",
+    "summary": "Neymar could benefit from Rodrygo's injury and sneak into the World Cup with Brazil",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-05T08:17:32.065Z"
+  },
+  {
+    "id": "824e04086e4c",
+    "title": "2026 World Cup rosters: Predicting starting XIs for Spain, USA, France, more",
+    "date": "2026-03-04",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/47964079/2026-world-cup-rosters-predictions-starting-xis-usa-france-mexico-england-spain-germany-brazil-argentina",
+    "summary": "2026 World Cup rosters: Predicting starting XIs for Spain, USA, France, more",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-05T08:17:32.065Z"
+  },
+  {
+    "id": "dd82b9607c85",
+    "title": "Why haven't World Cup host cities received $625 million of critical funding?",
+    "date": "2026-03-04",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48081576/why-havent-world-cup-host-cities-received-critical-funding",
+    "summary": "Why haven't World Cup host cities received $625 million of critical funding?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-05T08:17:32.065Z"
+  },
+  {
+    "id": "4b13a0abc2ce",
+    "title": "BBC Women's Football Weekly",
+    "date": "2026-03-04",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sounds/play/p0n4nh3d?at_medium=RSS&at_campaign=rss",
+    "summary": "BBC Women's Football Weekly",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-05T08:17:32.065Z"
+  },
+  {
+    "id": "2a59f84795c5",
+    "title": "Wales aiming for World Cup qualifying winning run - Hughes",
+    "date": "2026-03-04",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cx2dd9799w9o?at_medium=RSS&at_campaign=rss",
+    "summary": "Wales aiming for World Cup qualifying winning run - Hughes",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-05T08:17:32.065Z"
+  },
+  {
+    "id": "4b13a0abc2ce",
+    "title": "BBC Women's Football Weekly",
+    "date": "2026-03-04",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sounds/play/p0n4nh3d?at_medium=RSS&at_campaign=rss",
+    "summary": "BBC Women's Football Weekly",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-05T08:17:32.065Z"
+  },
+  {
+    "id": "2a59f84795c5",
+    "title": "Wales aiming for World Cup qualifying winning run - Hughes",
+    "date": "2026-03-04",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cx2dd9799w9o?at_medium=RSS&at_campaign=rss",
+    "summary": "Wales aiming for World Cup qualifying winning run - Hughes",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-05T08:17:32.065Z"
+  },
+  {
+    "id": "7adae74eb7b0",
+    "title": "Anderson saves draw for Nottingham Forest as Manchester City slip back",
+    "date": "2026-03-04",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/04/manchester-city-nottingham-forest-premier-league-match-report",
+    "summary": "Anderson saves draw for Nottingham Forest as Manchester City slip back",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-05T08:17:32.065Z"
+  },
+  {
+    "id": "e7fa3c85e983",
+    "title": "Intercontinental World Cup playoffs in doubt as Iraq squad face travel chaos",
+    "date": "2026-03-04",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/04/world-cup-playoffs-in-doubt-iraq-squad-travel-chaos",
+    "summary": "Intercontinental World Cup playoffs in doubt as Iraq squad face travel chaos",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-05T08:17:32.065Z"
+  },
+  {
+    "id": "3077015124b9",
+    "title": "Saudi clubs have a new strategy: buy up France’s best young footballers",
+    "date": "2026-03-04",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/04/saudi-clubs-france-footballers-ligue-1-monaco-rennes-nantes-reims-money",
+    "summary": "Saudi clubs have a new strategy: buy up France’s best young footballers",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-05T08:17:32.065Z"
+  },
+  {
+    "id": "55c2c401d875",
+    "title": "What now for Iranian football after Khamenei’s death and bombing of Tehran?",
+    "date": "2026-03-04",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/04/iran-world-cup-ayatollah-ali-khamenei-womens-asian-cup-champions-league-uncertainty",
+    "summary": "What now for Iranian football after Khamenei’s death and bombing of Tehran?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-05T08:17:32.065Z"
+  },
+  {
+    "id": "03fbdb9bcff7",
+    "title": "Iranian journalist barred by AFC has Women’s Asian Cup accreditation reinstated",
+    "date": "2026-03-04",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/05/iranian-journalist-womens-asian-cup-accreditation-reinstated",
+    "summary": "Iranian journalist barred by AFC has Women’s Asian Cup accreditation reinstated",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-05T08:17:32.065Z"
+  },
+  {
+    "id": "819505519ba8",
+    "title": "Cristiano Ronaldo's injury hits Al Nassr hard and complicates his World Cup dream with Portugal",
+    "date": "2026-03-04",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/world-cup/2026/03/04/69a8748f46163fc2548b459f.html",
+    "summary": "Cristiano Ronaldo's injury hits Al Nassr hard and complicates his World Cup dream with Portugal",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-05T08:17:32.065Z"
+  },
+  {
+    "id": "b0aad930623b",
+    "title": "Why Dallas Cowboys AT&T Stadium will temporarily disappear during FIFA World Cup 2026",
+    "date": "2026-03-04",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/nfl/dallas-cowboys/2026/03/04/69a79c89268e3e000b8b45b0.html",
+    "summary": "Why Dallas Cowboys AT&T Stadium will temporarily disappear during FIFA World Cup 2026",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-05T08:17:32.065Z"
+  },
+  {
     "id": "fc5256c92f44",
     "title": "100 days from the World Cup: What's the state of the USMNT?",
     "date": "2026-03-04",
@@ -143,6 +338,19 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-03-04T08:15:52.916Z"
+  },
+  {
+    "id": "2d650a9ce9c3",
+    "title": "Jennifer Echegini: ‘Winning the Wafcon is on another level. The pride I felt’",
+    "date": "2026-03-03",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/03/jennifer-echegini-womens-football-interview-nigeria-winning-wafcon-is-on-another-level",
+    "summary": "Jennifer Echegini: ‘Winning the Wafcon is on another level. The pride I felt’",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-05T08:17:32.065Z"
   },
   {
     "id": "df4e29f2aa18",
