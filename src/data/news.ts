@@ -2,6 +2,162 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "af6f4b16538e",
+    "title": "Morocco coach quits 3 months before World Cup",
+    "date": "2026-03-06",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48115189/morocco-coach-walid-regragui-world-cup-mohamed-ouahbi",
+    "summary": "Morocco coach quits 3 months before World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-06T08:15:16.514Z"
+  },
+  {
+    "id": "68d44046e753",
+    "title": "Disillusionment and disbelief - thousands leave early with Spurs in freefall",
+    "date": "2026-03-06",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cr731n9g521o?at_medium=RSS&at_campaign=rss",
+    "summary": "Disillusionment and disbelief - thousands leave early with Spurs in freefall",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-06T08:15:16.514Z"
+  },
+  {
+    "id": "4daa53a1871a",
+    "title": "USMNT 2026 World Cup big board 5.0: Who should make Pochettino's roster for March camp?",
+    "date": "2026-03-05",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48094135/usmnt-2026-world-cup-big-board-50-roster-pre-world-cup-camp",
+    "summary": "USMNT 2026 World Cup big board 5.0: Who should make Pochettino's roster for March camp?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-06T08:15:16.514Z"
+  },
+  {
+    "id": "ceb95187e170",
+    "title": "Previously silent Iran players sing and salute anthem",
+    "date": "2026-03-05",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cjrqqw771z3o?at_medium=RSS&at_campaign=rss",
+    "summary": "Previously silent Iran players sing and salute anthem",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-06T08:15:16.514Z"
+  },
+  {
+    "id": "b0ab99cb3923",
+    "title": "Regragui departs as Morocco appoint Ouahbi as new coach",
+    "date": "2026-03-05",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c62dnepz5g7o?at_medium=RSS&at_campaign=rss",
+    "summary": "Regragui departs as Morocco appoint Ouahbi as new coach",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-06T08:15:16.514Z"
+  },
+  {
+    "id": "1ab98b461a04",
+    "title": "'So special' - Kelly honoured with Barbie doll",
+    "date": "2026-03-05",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cqlggx232pno?at_medium=RSS&at_campaign=rss",
+    "summary": "'So special' - Kelly honoured with Barbie doll",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-06T08:15:16.514Z"
+  },
+  {
+    "id": "2a44ff2e8a29",
+    "title": "Wales to host Ghana in historic World Cup warm-up",
+    "date": "2026-03-05",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/ce944k34v7do?at_medium=RSS&at_campaign=rss",
+    "summary": "Wales to host Ghana in historic World Cup warm-up",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-06T08:15:16.514Z"
+  },
+  {
+    "id": "b0ab99cb3923",
+    "title": "Ouahbi replaces Regragui in charge of Scotland's World Cup opponents",
+    "date": "2026-03-05",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c62dnepz5g7o?at_medium=RSS&at_campaign=rss",
+    "summary": "Ouahbi replaces Regragui in charge of Scotland's World Cup opponents",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-06T08:15:16.514Z"
+  },
+  {
+    "id": "ceb95187e170",
+    "title": "Previously silent Iran players sing and salute anthem",
+    "date": "2026-03-05",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cjrqqw771z3o?at_medium=RSS&at_campaign=rss",
+    "summary": "Previously silent Iran players sing and salute anthem",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-06T08:15:16.514Z"
+  },
+  {
+    "id": "1ab98b461a04",
+    "title": "'So special' - Kelly honoured with Barbie doll",
+    "date": "2026-03-05",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cqlggx232pno?at_medium=RSS&at_campaign=rss",
+    "summary": "'So special' - Kelly honoured with Barbie doll",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-06T08:15:16.514Z"
+  },
+  {
+    "id": "b9a14ed3a101",
+    "title": "Messi and Inter Miami were wallpaper for Trump’s whims in their White House visit",
+    "date": "2026-03-05",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/05/inter-miami-messi-trump-white-house",
+    "summary": "Messi and Inter Miami were wallpaper for Trump’s whims in their White House visit",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-06T08:15:16.514Z"
+  },
+  {
+    "id": "8984fd11b5d2",
+    "title": "QPR’s Jonathan Varane: ‘Football is a big part of my life, but it’s not everything’",
+    "date": "2026-03-05",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/05/qpr-jonathan-varane-interview",
+    "summary": "QPR’s Jonathan Varane: ‘Football is a big part of my life, but it’s not everything’",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-06T08:15:16.514Z"
+  },
+  {
     "id": "f36fdc273a3e",
     "title": "Flamengo appoints Jardim to replace Filipe Luís",
     "date": "2026-03-05",
@@ -26,6 +182,19 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-03-05T08:17:32.065Z"
+  },
+  {
+    "id": "96217e30558e",
+    "title": "Neymar's emotional message to Rodrygo after the worst was confirmed for Brazil",
+    "date": "2026-03-04",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/world-cup/2026/03/04/69a77baf46163feb128b457a.html",
+    "summary": "Neymar's emotional message to Rodrygo after the worst was confirmed for Brazil",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-06T08:15:16.514Z"
   },
   {
     "id": "824e04086e4c",
@@ -2855,19 +3024,6 @@ export const news: NewsItem[] = [
     "source": "The Guardian",
     "url": "https://www.theguardian.com/football/2026/feb/04/mauricio-pochettino-tim-weah-world-cup-ticket-prices",
     "summary": "Mauricio Pochettino’s odd jab at Tim Weah misread the player and the moment | Leander Schaerlaeckens",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-12T01:17:44.917Z"
-  },
-  {
-    "id": "5e0a4b9769e5",
-    "title": "Transfer window verdict: how every Premier League club fared",
-    "date": "2026-02-03",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/feb/03/transfer-window-verdict-how-every-premier-league-club-fared",
-    "summary": "Transfer window verdict: how every Premier League club fared",
     "categories": [
       "general"
     ],
