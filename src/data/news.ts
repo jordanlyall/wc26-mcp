@@ -2,6 +2,214 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "143dacd3cea9",
+    "title": "'Stick with the plan' - Patience key for England, says Wiegman",
+    "date": "2026-03-06",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c93we05q3edo?at_medium=RSS&at_campaign=rss",
+    "summary": "'Stick with the plan' - Patience key for England, says Wiegman",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-07T08:11:12.717Z"
+  },
+  {
+    "id": "714f8970f225",
+    "title": "Ronaldo to travel to Spain for hamstring treatment",
+    "date": "2026-03-06",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cd70j0x0nrzo?at_medium=RSS&at_campaign=rss",
+    "summary": "Ronaldo to travel to Spain for hamstring treatment",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-07T08:11:12.717Z"
+  },
+  {
+    "id": "5813b8a47a3a",
+    "title": "What questions face Scotland 100 days from World Cup opener?",
+    "date": "2026-03-06",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c36382yx34wo?at_medium=RSS&at_campaign=rss",
+    "summary": "What questions face Scotland 100 days from World Cup opener?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-07T08:11:12.717Z"
+  },
+  {
+    "id": "931c62cb4ffb",
+    "title": "Being Scotland vice-captain 'great honour' - Cuthbert",
+    "date": "2026-03-06",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cp32lx3ky24o?at_medium=RSS&at_campaign=rss",
+    "summary": "Being Scotland vice-captain 'great honour' - Cuthbert",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-07T08:11:12.717Z"
+  },
+  {
+    "id": "dadc3b2110fb",
+    "title": "Wilkinson salutes Wales' World Cup bid 'finishers' ",
+    "date": "2026-03-06",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cgrzl4krwl4o?at_medium=RSS&at_campaign=rss",
+    "summary": "Wilkinson salutes Wales' World Cup bid 'finishers' ",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-07T08:11:12.717Z"
+  },
+  {
+    "id": "343205624585",
+    "title": "Pick your England XI to face Iceland",
+    "date": "2026-03-06",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cz6eed9gl0do?at_medium=RSS&at_campaign=rss",
+    "summary": "Pick your England XI to face Iceland",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-07T08:11:12.717Z"
+  },
+  {
+    "id": "25f6d3050672",
+    "title": "Liverpool's O'Sullivan to miss World Cup qualifier",
+    "date": "2026-03-06",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cqxdlzxg9g1o?at_medium=RSS&at_campaign=rss",
+    "summary": "Liverpool's O'Sullivan to miss World Cup qualifier",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-07T08:11:12.717Z"
+  },
+  {
+    "id": "931c62cb4ffb",
+    "title": "Being Scotland vice-captain 'great honour' - Cuthbert",
+    "date": "2026-03-06",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cp32lx3ky24o?at_medium=RSS&at_campaign=rss",
+    "summary": "Being Scotland vice-captain 'great honour' - Cuthbert",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-07T08:11:12.717Z"
+  },
+  {
+    "id": "143dacd3cea9",
+    "title": "'Stick with the plan' - Patience key for England, says Wiegman",
+    "date": "2026-03-06",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c93we05q3edo?at_medium=RSS&at_campaign=rss",
+    "summary": "'Stick with the plan' - Patience key for England, says Wiegman",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-07T08:11:12.717Z"
+  },
+  {
+    "id": "931c62cb4ffb",
+    "title": "Being Scotland vice-captain 'great honour' - Cuthbert",
+    "date": "2026-03-06",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cp32lx3ky24o?at_medium=RSS&at_campaign=rss",
+    "summary": "Being Scotland vice-captain 'great honour' - Cuthbert",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-07T08:11:12.717Z"
+  },
+  {
+    "id": "f7d0fd5b1bdb",
+    "title": "Lindsay hoping for home comforts against Turkey",
+    "date": "2026-03-06",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/articles/cm2xk825dreo?at_medium=RSS&at_campaign=rss",
+    "summary": "Lindsay hoping for home comforts against Turkey",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-07T08:11:12.717Z"
+  },
+  {
+    "id": "dadc3b2110fb",
+    "title": "Wilkinson salutes Wales' World Cup bid 'finishers' ",
+    "date": "2026-03-06",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cgrzl4krwl4o?at_medium=RSS&at_campaign=rss",
+    "summary": "Wilkinson salutes Wales' World Cup bid 'finishers' ",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-07T08:11:12.717Z"
+  },
+  {
+    "id": "343205624585",
+    "title": "Pick your England XI to face Iceland",
+    "date": "2026-03-06",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cz6eed9gl0do?at_medium=RSS&at_campaign=rss",
+    "summary": "Pick your England XI to face Iceland",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-07T08:11:12.717Z"
+  },
+  {
+    "id": "25f6d3050672",
+    "title": "Liverpool's O'Sullivan to miss World Cup qualifier with Dutch",
+    "date": "2026-03-06",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cqxdlzxg9g1o?at_medium=RSS&at_campaign=rss",
+    "summary": "Liverpool's O'Sullivan to miss World Cup qualifier with Dutch",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-07T08:11:12.717Z"
+  },
+  {
+    "id": "d7caf570fd08",
+    "title": "The Ladies Football Club shines light on women’s game and battle against injustice | Emma John",
+    "date": "2026-03-06",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/06/the-ladies-football-club-play-sheffield-crucible-theatre",
+    "summary": "The Ladies Football Club shines light on women’s game and battle against injustice | Emma John",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-07T08:11:12.717Z"
+  },
+  {
+    "id": "5a1b79071dac",
+    "title": "Australian government urged to protect Iran women’s players labelled ‘wartime traitors’",
+    "date": "2026-03-06",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/06/iran-womens-football-team-national-anthem-protection-ntwnfb",
+    "summary": "Australian government urged to protect Iran women’s players labelled ‘wartime traitors’",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-07T08:11:12.717Z"
+  },
+  {
     "id": "af6f4b16538e",
     "title": "Morocco coach quits 3 months before World Cup",
     "date": "2026-03-06",
@@ -3011,19 +3219,6 @@ export const news: NewsItem[] = [
     "source": "The Guardian",
     "url": "https://www.theguardian.com/football/2026/feb/06/usmnt-striker-mauricio-pochettino-world-cup",
     "summary": "The race to be the USMNT’s top striker is – once again – an open competition",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-12T01:17:44.917Z"
-  },
-  {
-    "id": "b3d6fa7bbaa4",
-    "title": "Mauricio Pochettino’s odd jab at Tim Weah misread the player and the moment | Leander Schaerlaeckens",
-    "date": "2026-02-04",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/feb/04/mauricio-pochettino-tim-weah-world-cup-ticket-prices",
-    "summary": "Mauricio Pochettino’s odd jab at Tim Weah misread the player and the moment | Leander Schaerlaeckens",
     "categories": [
       "general"
     ],
