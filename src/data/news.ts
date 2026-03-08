@@ -2,6 +2,149 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "7b59af482500",
+    "title": "USMNT gets injury scare as Dest limps off for PSV",
+    "date": "2026-03-08",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48137146/usmnt-sergino-dest-injury-hamstring-psv-eindhoven",
+    "summary": "USMNT gets injury scare as Dest limps off for PSV",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-08T08:11:46.122Z"
+  },
+  {
+    "id": "09c0e7fd3dcb",
+    "title": "Griffiths shines as Wales get a glimpse of future",
+    "date": "2026-03-08",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c5ykrg5rr3eo?at_medium=RSS&at_campaign=rss",
+    "summary": "Griffiths shines as Wales get a glimpse of future",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-08T08:11:46.122Z"
+  },
+  {
+    "id": "09c0e7fd3dcb",
+    "title": "Griffiths shines as Wales get a glimpse of future",
+    "date": "2026-03-08",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c5ykrg5rr3eo?at_medium=RSS&at_campaign=rss",
+    "summary": "Griffiths shines as Wales get a glimpse of future",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-08T08:11:46.122Z"
+  },
+  {
+    "id": "92800e11fdd0",
+    "title": "Scotland fire seven past Luxembourg in World Cup qualifying",
+    "date": "2026-03-07",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/videos/ckg1pdv5drlo?at_medium=RSS&at_campaign=rss",
+    "summary": "Scotland fire seven past Luxembourg in World Cup qualifying",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-08T08:11:46.122Z"
+  },
+  {
+    "id": "99d79e64abdc",
+    "title": "Wilkinson 'happy' - but wants more from Wales",
+    "date": "2026-03-07",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cr45pld6v99o?at_medium=RSS&at_campaign=rss",
+    "summary": "Wilkinson 'happy' - but wants more from Wales",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-08T08:11:46.122Z"
+  },
+  {
+    "id": "92800e11fdd0",
+    "title": "Watch: Scotland fire seven past Luxembourg",
+    "date": "2026-03-07",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/videos/ckg1pdv5drlo?at_medium=RSS&at_campaign=rss",
+    "summary": "Watch: Scotland fire seven past Luxembourg",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-08T08:11:46.122Z"
+  },
+  {
+    "id": "e1863a0bca2a",
+    "title": "Scots in action on BBC as Bologna host Verona",
+    "date": "2026-03-07",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cwyg2j5ny2vo?at_medium=RSS&at_campaign=rss",
+    "summary": "Scots in action on BBC as Bologna host Verona",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-08T08:11:46.122Z"
+  },
+  {
+    "id": "a33e46f5e0c5",
+    "title": "Bronze and Stanway fire England past Iceland in Women’s World Cup qualifier",
+    "date": "2026-03-07",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/07/england-iceland-womens-world-cup-qualifier-match-report",
+    "summary": "Bronze and Stanway fire England past Iceland in Women’s World Cup qualifier",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-08T08:11:46.122Z"
+  },
+  {
+    "id": "a1da703e24a9",
+    "title": "‘I sat in his seat’: Southampton’s Tonda Eckert on sauna beers with Klose and his unlikely career path",
+    "date": "2026-03-07",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/07/tonda-eckert-southampton-championship-fulham-fa-cup-fifth-round",
+    "summary": "‘I sat in his seat’: Southampton’s Tonda Eckert on sauna beers with Klose and his unlikely career path",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-08T08:11:46.122Z"
+  },
+  {
+    "id": "63a9706588a0",
+    "title": "Berhalter reacts to Pochettino's promise to Trump to compete for World Cup",
+    "date": "2026-03-07",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/world-cup/2026/03/07/69ac02b522601d18078b45ed.html",
+    "summary": "Berhalter reacts to Pochettino's promise to Trump to compete for World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-08T08:11:46.122Z"
+  },
+  {
+    "id": "f04138145aea",
+    "title": "Sinkhole opens in the newly remodeled Circuito Azteca and a soft drink truck falls in",
+    "date": "2026-03-06",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/world-cup/2026/03/06/69aabe95268e3e775c8b45cf.html",
+    "summary": "Sinkhole opens in the newly remodeled Circuito Azteca and a soft drink truck falls in",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-08T08:11:46.122Z"
+  },
+  {
     "id": "143dacd3cea9",
     "title": "'Stick with the plan' - Patience key for England, says Wiegman",
     "date": "2026-03-06",
