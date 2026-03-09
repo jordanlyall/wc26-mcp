@@ -2,6 +2,149 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "2504884f4507",
+    "title": "Iraq coach asks FIFA to reschedule its WC playoff",
+    "date": "2026-03-09",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48148224/iraq-coach-arnold-begs-fifa-reschedule-wc-playoff",
+    "summary": "Iraq coach asks FIFA to reschedule its WC playoff",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-09T08:20:22.050Z"
+  },
+  {
+    "id": "ac040a3aff7a",
+    "title": "FIFPRO calls on FIFA to ensure Iran WNT's safety",
+    "date": "2026-03-09",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48149706/fifpro-calls-fifa-afc-guarantee-safety-iran-womens-national-team",
+    "summary": "FIFPRO calls on FIFA to ensure Iran WNT's safety",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-09T08:20:22.050Z"
+  },
+  {
+    "id": "62dadbdaf2a3",
+    "title": "Contrasting news on Tierney & McGregor injuries - gossip",
+    "date": "2026-03-09",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c4g8v840939o?at_medium=RSS&at_campaign=rss",
+    "summary": "Contrasting news on Tierney & McGregor injuries - gossip",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-09T08:20:22.050Z"
+  },
+  {
+    "id": "c50b0acd7adc",
+    "title": "Time is running out for the Iranian women’s football team as fears for their safety grow | Jack Snape",
+    "date": "2026-03-09",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/09/iran-womens-football-team-safety-fears-australia",
+    "summary": "Time is running out for the Iranian women’s football team as fears for their safety grow | Jack Snape",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-09T08:20:22.050Z"
+  },
+  {
+    "id": "2b7e55cd420f",
+    "title": "José Mourinho denies 'traitor' accusations after fiery Benfica vs Porto clash",
+    "date": "2026-03-09",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/football/2026/03/09/69ae565146163fe3568b4584.html",
+    "summary": "José Mourinho denies 'traitor' accusations after fiery Benfica vs Porto clash",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-09T08:20:22.050Z"
+  },
+  {
+    "id": "efcd449d174f",
+    "title": "Iraq request World Cup playoff delay after rejecting Fifa plan for 25-hour road journey",
+    "date": "2026-03-08",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/08/iraq-request-world-cup-playoff-postponement-rejecting-fifa-25-hour-road-journey-middle-east-war-world-cup-2026",
+    "summary": "Iraq request World Cup playoff delay after rejecting Fifa plan for 25-hour road journey",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-09T08:20:22.050Z"
+  },
+  {
+    "id": "64ea45b3a9f2",
+    "title": "England make it two out of two in Women’s World Cup qualifiers: what we learned",
+    "date": "2026-03-08",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/08/england-womens-world-cup-qualifiers-what-we-learned",
+    "summary": "England make it two out of two in Women’s World Cup qualifiers: what we learned",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-09T08:20:22.050Z"
+  },
+  {
+    "id": "7a09dc62323c",
+    "title": "Sabrina Wittmann: ‘I’ll always be the first woman coaching a men’s team – but I want to be seen as a coach’",
+    "date": "2026-03-08",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/sport/2026/mar/08/sabrina-wittmann-ill-always-be-the-first-woman-coaching-a-mens-team-but-i-want-to-be-seen-as-a-coach",
+    "summary": "Sabrina Wittmann: ‘I’ll always be the first woman coaching a men’s team – but I want to be seen as a coach’",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-09T08:20:22.050Z"
+  },
+  {
+    "id": "c1d5edf3bf0c",
+    "title": "72,000 fans turned up to watch DC United. But only Messi’s Inter Miami dazzled",
+    "date": "2026-03-08",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/08/dc-united-inter-miami-mls-lionel-messi",
+    "summary": "72,000 fans turned up to watch DC United. But only Messi’s Inter Miami dazzled",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-09T08:20:22.050Z"
+  },
+  {
+    "id": "2374c8b40943",
+    "title": "USMNT’s Sergiño Dest comes off with apparent hamstring injury in PSV win",
+    "date": "2026-03-08",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/08/sergino-dest-usmnt-injury-psv",
+    "summary": "USMNT’s Sergiño Dest comes off with apparent hamstring injury in PSV win",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-09T08:20:22.050Z"
+  },
+  {
+    "id": "b4853e2c4a0f",
+    "title": "Emma Hayes’ USWNT built World Cup momentum with SheBelieves title: Three takeaways",
+    "date": "2026-03-08",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/08/emma-hayes-uswnt-shebelieves-cup-world-cup",
+    "summary": "Emma Hayes’ USWNT built World Cup momentum with SheBelieves title: Three takeaways",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-09T08:20:22.050Z"
+  },
+  {
     "id": "7b59af482500",
     "title": "USMNT gets injury scare as Dest limps off for PSV",
     "date": "2026-03-08",
@@ -3349,19 +3492,6 @@ export const news: NewsItem[] = [
     "source": "Marca",
     "url": "https://www.marca.com/en/world-cup/2026/02/08/6988d5a122601d8c648b45d0.html",
     "summary": "Neymar's future in Carlo Ancelotti's hands: would consider retirement if not called up for the World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-12T01:17:44.917Z"
-  },
-  {
-    "id": "4c99cf3bb3cf",
-    "title": "The race to be the USMNT’s top striker is – once again – an open competition",
-    "date": "2026-02-06",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/feb/06/usmnt-striker-mauricio-pochettino-world-cup",
-    "summary": "The race to be the USMNT’s top striker is – once again – an open competition",
     "categories": [
       "general"
     ],
