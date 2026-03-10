@@ -2,6 +2,188 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "32ae60b1d229",
+    "title": "Despite wingback depth, Dest injury threatens USMNT's World Cup hopes",
+    "date": "2026-03-10",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48154669/despite-wingback-depth-sergino-dest-injury-threatens-usmnt-world-cup-hopes",
+    "summary": "Despite wingback depth, Dest injury threatens USMNT's World Cup hopes",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-10T08:17:51.744Z"
+  },
+  {
+    "id": "787d09f168f8",
+    "title": "Australia grants asylum to five Iranian players",
+    "date": "2026-03-10",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48156225/women-asian-cup-iranian-soccer-players-australian-federal-police-watch-daring-escape",
+    "summary": "Australia grants asylum to five Iranian players",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-10T08:17:51.744Z"
+  },
+  {
+    "id": "e0e864d2fad9",
+    "title": "Relegated and then European champions? Have I got Spurs for you | Jon Harvey",
+    "date": "2026-03-10",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/10/relegated-and-then-european-champions-have-i-got-spurs-for-you",
+    "summary": "Relegated and then European champions? Have I got Spurs for you | Jon Harvey",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-10T08:17:51.744Z"
+  },
+  {
+    "id": "47d6f641c49c",
+    "title": "Iran women’s football team heads to airport as clock ticks on Australia’s offer of asylum",
+    "date": "2026-03-10",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/10/iran-womens-football-team-asylum-australia",
+    "summary": "Iran women’s football team heads to airport as clock ticks on Australia’s offer of asylum",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-10T08:17:51.744Z"
+  },
+  {
+    "id": "ce3c542e7d6f",
+    "title": "Where the World Cup stadiums are in Canada and what fans can expect in each host city",
+    "date": "2026-03-10",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/world-cup/2026/03/10/69af756446163f40298b45b8.html",
+    "summary": "Where the World Cup stadiums are in Canada and what fans can expect in each host city",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-10T08:17:51.744Z"
+  },
+  {
+    "id": "70a0488dfc2b",
+    "title": "FIFA World Cup 2026 Miami Host Committee launches \"ONE GAME ONE FUTURE\" initiative to expand youth soccer",
+    "date": "2026-03-10",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/world-cup/2026/03/10/69af7958e2704e12398b45a5.html",
+    "summary": "FIFA World Cup 2026 Miami Host Committee launches \"ONE GAME ONE FUTURE\" initiative to expand youth soccer",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-10T08:17:51.744Z"
+  },
+  {
+    "id": "56e1574a10e6",
+    "title": "Where the World Cup stadiums are in Mexico and what fans can expect in each host city",
+    "date": "2026-03-10",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/world-cup/2026/03/10/69af707346163f0c0f8b45b5.html",
+    "summary": "Where the World Cup stadiums are in Mexico and what fans can expect in each host city",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-10T08:17:51.744Z"
+  },
+  {
+    "id": "9806bcddaff7",
+    "title": "'Disciplined, brave, relentless' - new NI boss McArdle lays out plans",
+    "date": "2026-03-09",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cvg8lmpg80no?at_medium=RSS&at_campaign=rss",
+    "summary": "'Disciplined, brave, relentless' - new NI boss McArdle lays out plans",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-10T08:17:51.744Z"
+  },
+  {
+    "id": "9806bcddaff7",
+    "title": "McArdle appointed Northern Ireland women's boss",
+    "date": "2026-03-09",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cvg8lmpg80no?at_medium=RSS&at_campaign=rss",
+    "summary": "McArdle appointed Northern Ireland women's boss",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-10T08:17:51.744Z"
+  },
+  {
+    "id": "87655995bb18",
+    "title": "Why do so many people want Arsenal to fail in the Premier League title race? | Jonathan Wilson",
+    "date": "2026-03-09",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/09/it-seems-like-most-of-england-wants-arsenal-to-fail-why",
+    "summary": "Why do so many people want Arsenal to fail in the Premier League title race? | Jonathan Wilson",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-10T08:17:51.744Z"
+  },
+  {
+    "id": "4daf3d1dfb54",
+    "title": "Football Daily | ‘It’s a pain in the bum’: Port Vale and the magic of the FA Cup",
+    "date": "2026-03-09",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/09/port-vale-magic-of-the-fa-cup-football-daily-newsletter",
+    "summary": "Football Daily | ‘It’s a pain in the bum’: Port Vale and the magic of the FA Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-10T08:17:51.744Z"
+  },
+  {
+    "id": "0b558609b84f",
+    "title": "Mauricio Pochettino could join Real Madrid after attempting to make history with the USMNT",
+    "date": "2026-03-09",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/football/real-madrid/2026/03/10/69af5d18268e3ecc098b45b3.html",
+    "summary": "Mauricio Pochettino could join Real Madrid after attempting to make history with the USMNT",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-10T08:17:51.744Z"
+  },
+  {
+    "id": "af806ab5831a",
+    "title": "Neymar closer to the World Cup? Ancelotti names him in Brazil's preliminary squad for upcoming friendlies",
+    "date": "2026-03-09",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/world-cup/2026/03/09/69af39b722601d53418b4587.html",
+    "summary": "Neymar closer to the World Cup? Ancelotti names him in Brazil's preliminary squad for upcoming friendlies",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-10T08:17:51.744Z"
+  },
+  {
+    "id": "b9994a015738",
+    "title": "Iraq asks FIFA for an alternative plan because of the Iran war: \"Delaying the playoff would help us\"",
+    "date": "2026-03-09",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/world-cup/2026/03/09/69aedb8c46163fe3568b45a6.html",
+    "summary": "Iraq asks FIFA for an alternative plan because of the Iran war: \"Delaying the playoff would help us\"",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-10T08:17:51.744Z"
+  },
+  {
     "id": "2504884f4507",
     "title": "Iraq coach asks FIFA to reschedule its WC playoff",
     "date": "2026-03-09",
