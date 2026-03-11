@@ -2,6 +2,136 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "0809b2920797",
+    "title": "USMNT picks Irvine as World Cup training base",
+    "date": "2026-03-11",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48168483/united-states-picks-irvine-world-cup-training-base",
+    "summary": "USMNT picks Irvine as World Cup training base",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-11T08:17:48.034Z"
+  },
+  {
+    "id": "ba7fddb2974d",
+    "title": "Achilles injury clouds Malagón's World Cup hopes",
+    "date": "2026-03-11",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48169787/mexico-goalkeeper-malagon-world-cup-risk-achilles-injury",
+    "summary": "Achilles injury clouds Malagón's World Cup hopes",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-11T08:17:48.034Z"
+  },
+  {
+    "id": "13ba16632b6d",
+    "title": "Iran player changes mind on asylum in Australia",
+    "date": "2026-03-11",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48167227/iran-player-changes-mind-asylum-australia",
+    "summary": "Iran player changes mind on asylum in Australia",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-11T08:17:48.034Z"
+  },
+  {
+    "id": "1e59c0635a67",
+    "title": "Which football match holds the record for the most red cards? | The Knowledge",
+    "date": "2026-03-11",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/11/football-match-record-most-red-cards-the-knowledge",
+    "summary": "Which football match holds the record for the most red cards? | The Knowledge",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-11T08:17:48.034Z"
+  },
+  {
+    "id": "f17b2ce343ca",
+    "title": "England's Walker retires from international football",
+    "date": "2026-03-10",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cpv83g4dpgeo?at_medium=RSS&at_campaign=rss",
+    "summary": "England's Walker retires from international football",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-11T08:17:48.034Z"
+  },
+  {
+    "id": "b275990d0db9",
+    "title": "‘So much disrespect’: outrage grows over postponement of Women’s Africa Cup of Nations",
+    "date": "2026-03-10",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/10/wafcon-womens-africa-cup-of-nations-outrage-over-postponement",
+    "summary": "‘So much disrespect’: outrage grows over postponement of Women’s Africa Cup of Nations",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-11T08:17:48.034Z"
+  },
+  {
+    "id": "058f72e538db",
+    "title": "Havertz eager to make up for lost time for Arsenal against familiar foe",
+    "date": "2026-03-10",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/10/havertz-eager-to-make-up-for-lost-time-for-arsenal-against-familiar-foe",
+    "summary": "Havertz eager to make up for lost time for Arsenal against familiar foe",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-11T08:17:48.034Z"
+  },
+  {
+    "id": "8d8735b68044",
+    "title": "The US World Cup is facing two crises: a financial mess – and ICE | Nellie Pou",
+    "date": "2026-03-10",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/commentisfree/2026/mar/10/world-cup-congress-funding-ice",
+    "summary": "The US World Cup is facing two crises: a financial mess – and ICE | Nellie Pou",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-11T08:17:48.034Z"
+  },
+  {
+    "id": "553b8772515a",
+    "title": "Neymar's new injury could affect his inclusion in Carlo Ancelotti's Brazil squad",
+    "date": "2026-03-10",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/football/2026/03/10/69b0335d268e3e230f8b458a.html",
+    "summary": "Neymar's new injury could affect his inclusion in Carlo Ancelotti's Brazil squad",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-11T08:17:48.034Z"
+  },
+  {
+    "id": "dfe71d283d26",
+    "title": "Modric deactivates his return to Madrid with Allegri as coach: \"I'm not interested in rumours\"",
+    "date": "2026-03-10",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/football/real-madrid/2026/03/10/69b00d68e2704e12398b45c9.html",
+    "summary": "Modric deactivates his return to Madrid with Allegri as coach: \"I'm not interested in rumours\"",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-11T08:17:48.034Z"
+  },
+  {
     "id": "32ae60b1d229",
     "title": "Despite wingback depth, Dest injury threatens USMNT's World Cup hopes",
     "date": "2026-03-10",
@@ -3666,18 +3796,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-02-12T00:25:01.301Z"
-  },
-  {
-    "id": "ca99a57b1970",
-    "title": "Neymar's future in Carlo Ancelotti's hands: would consider retirement if not called up for the World Cup",
-    "date": "2026-02-08",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/world-cup/2026/02/08/6988d5a122601d8c648b45d0.html",
-    "summary": "Neymar's future in Carlo Ancelotti's hands: would consider retirement if not called up for the World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-12T01:17:44.917Z"
   }
 ];
