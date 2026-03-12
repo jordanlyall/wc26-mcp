@@ -2,6 +2,201 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "d53ba959c1a7",
+    "title": "WC games in Foxborough on as sides reach deal",
+    "date": "2026-03-12",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48179018/world-cup-games-foxborough-sides-reach-deal",
+    "summary": "WC games in Foxborough on as sides reach deal",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-12T08:19:28.034Z"
+  },
+  {
+    "id": "a61d3fb40419",
+    "title": "Mexico GK Malagón out of WC after Achilles tear",
+    "date": "2026-03-12",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48177846/achilles-tear-ends-mexico-goalkeeper-malagon-world-cup-dreams",
+    "summary": "Mexico GK Malagón out of WC after Achilles tear",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-12T08:19:28.034Z"
+  },
+  {
+    "id": "9c95122bf160",
+    "title": "'Rangers can sell Fernandez for £40m' - gossip",
+    "date": "2026-03-12",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/ce82krjrln8o?at_medium=RSS&at_campaign=rss",
+    "summary": "'Rangers can sell Fernandez for £40m' - gossip",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-12T08:19:28.034Z"
+  },
+  {
+    "id": "d5f4249c6b7e",
+    "title": "Sam Kerr in defence? Matildas rocked by key absences for Asian Cup quarter-final",
+    "date": "2026-03-12",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/12/matildas-asian-cup-quarter-final-starting-lineup-north-korea-sam-kerr",
+    "summary": "Sam Kerr in defence? Matildas rocked by key absences for Asian Cup quarter-final",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-12T08:19:28.034Z"
+  },
+  {
+    "id": "fb5128b06d63",
+    "title": "How Thibaut Courtois humiliated Raphinha with his assist to Valverde in the Champions League",
+    "date": "2026-03-12",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/football/champions-league/2026/03/12/69b22b87e2704e59248b4579.html",
+    "summary": "How Thibaut Courtois humiliated Raphinha with his assist to Valverde in the Champions League",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-12T08:19:28.034Z"
+  },
+  {
+    "id": "725d9dc2983d",
+    "title": "Arsenal undone by own set-piece weapon as 100% record ends in Germany",
+    "date": "2026-03-11",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cwyklwdzljyo?at_medium=RSS&at_campaign=rss",
+    "summary": "Arsenal undone by own set-piece weapon as 100% record ends in Germany",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-12T08:19:28.034Z"
+  },
+  {
+    "id": "edd962487ba6",
+    "title": "NI to play remaining home qualifiers at Mourneview",
+    "date": "2026-03-11",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/articles/cx247ggr30vo?at_medium=RSS&at_campaign=rss",
+    "summary": "NI to play remaining home qualifiers at Mourneview",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-12T08:19:28.034Z"
+  },
+  {
+    "id": "b153485b8a0e",
+    "title": "Iran’s sports minister says football team will not play at 2026 World Cup",
+    "date": "2026-03-11",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/11/donald-trump-iran-welcome-2026-world-cup-gianni-infantino",
+    "summary": "Iran’s sports minister says football team will not play at 2026 World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-12T08:19:28.034Z"
+  },
+  {
+    "id": "88622367bcbd",
+    "title": "Dibble to Duverger: other goalkeeper nightmares after Kinsky’s horror show",
+    "date": "2026-03-11",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/11/other-goalkeeper-nightmares-antonin-kinsky-spurs-atletico-madrid-dibble-to-duverger",
+    "summary": "Dibble to Duverger: other goalkeeper nightmares after Kinsky’s horror show",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-12T08:19:28.034Z"
+  },
+  {
+    "id": "4825601e423b",
+    "title": "North Korea’s shady tactics show Matildas must be ready for more than football",
+    "date": "2026-03-11",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/sport/2026/mar/11/north-korea-protest-matildas-australia-womens-asian-cup",
+    "summary": "North Korea’s shady tactics show Matildas must be ready for more than football",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-12T08:19:28.034Z"
+  },
+  {
+    "id": "85ed5c717eef",
+    "title": "Vinícius Jr. matches Cristiano Ronaldo's unwanted record at Real Madrid",
+    "date": "2026-03-11",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/football/champions-league/2026/03/12/69b1eb4ae2704e3b038b45d8.html",
+    "summary": "Vinícius Jr. matches Cristiano Ronaldo's unwanted record at Real Madrid",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-12T08:19:28.034Z"
+  },
+  {
+    "id": "025d3b9ce9c9",
+    "title": "Piers Morgan launches scathing attack on Megan Rapinoe after silence over Iran controversy",
+    "date": "2026-03-11",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/football/2026/03/11/69b1e194e2704e0c658b45d1.html",
+    "summary": "Piers Morgan launches scathing attack on Megan Rapinoe after silence over Iran controversy",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-12T08:19:28.034Z"
+  },
+  {
+    "id": "de98d9b0f79e",
+    "title": "Why Neymar's viral training video is restarting the debate about his Brazil national team return",
+    "date": "2026-03-11",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/football/2026/03/11/69b1ce3ae2704e6e568b45d1.html",
+    "summary": "Why Neymar's viral training video is restarting the debate about his Brazil national team return",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-12T08:19:28.034Z"
+  },
+  {
+    "id": "351d27b53ea7",
+    "title": "Who could aspire to be Mexico's goalkeeper for the 2026 World Cup after Malagón's injury?",
+    "date": "2026-03-11",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/world-cup/2026/03/11/69b1b0a522601df3228b45a5.html",
+    "summary": "Who could aspire to be Mexico's goalkeeper for the 2026 World Cup after Malagón's injury?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-12T08:19:28.034Z"
+  },
+  {
+    "id": "4948b4be279c",
+    "title": "World Cup 2026 Playoff: SRE confirms visas for Iraq players to travel to Monterrey",
+    "date": "2026-03-11",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/world-cup/2026/03/11/69b14f63ca4741895f8b4588.html",
+    "summary": "World Cup 2026 Playoff: SRE confirms visas for Iraq players to travel to Monterrey",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-12T08:19:28.034Z"
+  },
+  {
     "id": "0809b2920797",
     "title": "USMNT picks Irvine as World Cup training base",
     "date": "2026-03-11",
@@ -52,6 +247,19 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-03-11T08:17:48.034Z"
+  },
+  {
+    "id": "f8cb28f0e68c",
+    "title": "England’s perfect start to World Cup qualifying: Women’s Football Weekly – podcast",
+    "date": "2026-03-10",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/audio/2026/mar/10/england-perfect-start-to-world-cup-qualifying-womens-football-weekly-podcast",
+    "summary": "England’s perfect start to World Cup qualifying: Women’s Football Weekly – podcast",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-12T08:19:28.034Z"
   },
   {
     "id": "f17b2ce343ca",
