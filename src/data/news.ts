@@ -2,6 +2,123 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "a0c3dd05a3c2",
+    "title": "Trump: Iran should skip WC 'for their safety'",
+    "date": "2026-03-13",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48184550/us-president-trump-iran-skip-world-cup-safety",
+    "summary": "Trump: Iran should skip WC 'for their safety'",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-13T08:17:46.174Z"
+  },
+  {
+    "id": "16928c7ef016",
+    "title": "Mancini to miss game in Qatar due to travel issues",
+    "date": "2026-03-13",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48189286/roberto-mancini-miss-game-qatar-travel-issues",
+    "summary": "Mancini to miss game in Qatar due to travel issues",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-13T08:17:46.174Z"
+  },
+  {
+    "id": "3d9f692ba4da",
+    "title": "From Norfolk to La Masia - Tavares is 'England's one to watch'",
+    "date": "2026-03-13",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cpqw8regdz4o?at_medium=RSS&at_campaign=rss",
+    "summary": "From Norfolk to La Masia - Tavares is 'England's one to watch'",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-13T08:17:46.174Z"
+  },
+  {
+    "id": "846f4fe4a9dd",
+    "title": "Fridolina Rolfö: ‘It’s been a great first season at United but now the fun starts …’",
+    "date": "2026-03-13",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/13/fridolina-rolfo-manchester-united-womens-league-cup-final-chelsea-interview",
+    "summary": "Fridolina Rolfö: ‘It’s been a great first season at United but now the fun starts …’",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-13T08:17:46.174Z"
+  },
+  {
+    "id": "78baa47bdc03",
+    "title": "Sweden coach Potter extends contract to 2030",
+    "date": "2026-03-12",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cy4wk4mkdk9o?at_medium=RSS&at_campaign=rss",
+    "summary": "Sweden coach Potter extends contract to 2030",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-13T08:17:46.174Z"
+  },
+  {
+    "id": "16b081023d82",
+    "title": "Celtic eye Robbie Keane as next boss - gossip",
+    "date": "2026-03-12",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/czx4z0y1rzxo?at_medium=RSS&at_campaign=rss",
+    "summary": "Celtic eye Robbie Keane as next boss - gossip",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-13T08:17:46.174Z"
+  },
+  {
+    "id": "9c9bcc2d6571",
+    "title": "Crystal Palace frustrated by Larnaca again in Conference League draw",
+    "date": "2026-03-12",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/12/crystal-palace-larnaca-conference-league-last-16-first-leg-match-report",
+    "summary": "Crystal Palace frustrated by Larnaca again in Conference League draw",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-13T08:17:46.174Z"
+  },
+  {
+    "id": "d3b2876d7ea3",
+    "title": "They will relaunch the shirt with which Rafael Marquez made his debut with Mexico by mistake",
+    "date": "2026-03-12",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/football/2026/03/12/69b31e0b268e3eed748b45c0.html",
+    "summary": "They will relaunch the shirt with which Rafael Marquez made his debut with Mexico by mistake",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-13T08:17:46.174Z"
+  },
+  {
+    "id": "027b99418dd4",
+    "title": "Trump recommends Iran's national team not to go to the World Cup \"for their own safety\"",
+    "date": "2026-03-12",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/world-cup/2026/03/12/69b2e967ca47410f168b45a2.html",
+    "summary": "Trump recommends Iran's national team not to go to the World Cup \"for their own safety\"",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-13T08:17:46.174Z"
+  },
+  {
     "id": "d53ba959c1a7",
     "title": "WC games in Foxborough on as sides reach deal",
     "date": "2026-03-12",
@@ -3939,70 +4056,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-02-12T01:17:44.917Z"
-  },
-  {
-    "id": "da8958fce42e",
-    "title": "Lindsey Heaps: ‘The Champions League is the baby you always want to win’",
-    "date": "2026-02-10",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/feb/10/lindsey-heaps-lyonnes-womens-football-moving-the-goalposts",
-    "summary": "Lindsey Heaps: ‘The Champions League is the baby you always want to win’",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-13T08:19:56.797Z"
-  },
-  {
-    "id": "0b5774ce1cb6",
-    "title": "Erling Haaland should not put pressure on himself to score, says Guardiola",
-    "date": "2026-02-10",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/feb/10/erling-haaland-should-not-pressure-himself-to-score-guardiola",
-    "summary": "Erling Haaland should not put pressure on himself to score, says Guardiola",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-12T01:17:44.917Z"
-  },
-  {
-    "id": "356401d0a0f1",
-    "title": "World Cup 2026: These are the most expensive stadiums that will host the best teams in the world",
-    "date": "2026-02-10",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/football/2026/02/10/698b78dcca4741de028b45d9.html",
-    "summary": "World Cup 2026: These are the most expensive stadiums that will host the best teams in the world",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-12T01:17:44.917Z"
-  },
-  {
-    "id": "4f0cb9282e2a",
-    "title": "United States to give priority visa appointments to fans with 2026 World Cup tickets",
-    "date": "2026-02-10",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/world-cup/2026/02/10/698b056922601d23198b45b6.html",
-    "summary": "United States to give priority visa appointments to fans with 2026 World Cup tickets",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-12T01:17:44.917Z"
-  },
-  {
-    "id": "3c91f1877c8c",
-    "title": "Real Madrid's Weir made Scotland captain full-time",
-    "date": "2026-02-10",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cqj9ry8r4p1o?at_medium=RSS&at_campaign=rss",
-    "summary": "Real Madrid's Weir made Scotland captain full-time",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-12T00:25:01.301Z"
   }
 ];
