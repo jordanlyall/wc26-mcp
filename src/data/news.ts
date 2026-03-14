@@ -2,6 +2,188 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "45ea0ac793f2",
+    "title": "Mexico's Ruiz ruled out of World Cup with torn ACL",
+    "date": "2026-03-14",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48199145/mexico-marcel-ruiz-2026-world-cup-injury-torn-acl",
+    "summary": "Mexico's Ruiz ruled out of World Cup with torn ACL",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-14T08:13:14.850Z"
+  },
+  {
+    "id": "45644a3b22dc",
+    "title": "USMNT's Sands out for season, major WC doubt",
+    "date": "2026-03-14",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48199352/usa-james-sands-injury-st-pauli-2026-world-cup",
+    "summary": "USMNT's Sands out for season, major WC doubt",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-14T08:13:14.850Z"
+  },
+  {
+    "id": "7ce4d426239c",
+    "title": "👀 Brazil away kit is Jordan's first at a World Cup",
+    "date": "2026-03-14",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48192953/brazils-stunning-away-kit-jordans-first-world-cup",
+    "summary": "👀 Brazil away kit is Jordan's first at a World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-14T08:13:14.850Z"
+  },
+  {
+    "id": "2d168a51ffd8",
+    "title": "Talented attacker Adrian Segecic turns back on Socceroos for Croatia",
+    "date": "2026-03-14",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/14/australia-socceroos-croatia-adrian-segecic-football-allegiance",
+    "summary": "Talented attacker Adrian Segecic turns back on Socceroos for Croatia",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-14T08:13:14.850Z"
+  },
+  {
+    "id": "4f0e7e981abc",
+    "title": "'Iran's women are heroes - they want to be free'",
+    "date": "2026-03-13",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c1e95p9nqxdo?at_medium=RSS&at_campaign=rss",
+    "summary": "'Iran's women are heroes - they want to be free'",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-14T08:13:14.850Z"
+  },
+  {
+    "id": "4f0e7e981abc",
+    "title": "'Iran's women are heroes - they want to be free'",
+    "date": "2026-03-13",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c1e95p9nqxdo?at_medium=RSS&at_campaign=rss",
+    "summary": "'Iran's women are heroes - they want to be free'",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-14T08:13:14.850Z"
+  },
+  {
+    "id": "46aec9de4371",
+    "title": "Crunch time: how England’s battle for Champions League places is shaping up",
+    "date": "2026-03-13",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/13/crunch-time-how-englands-battle-for-champions-league-places-is-shaping-up",
+    "summary": "Crunch time: how England’s battle for Champions League places is shaping up",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-14T08:13:14.850Z"
+  },
+  {
+    "id": "a83e0a8b2e2b",
+    "title": "Will Iran play at the 2026 World Cup? Explaining the state of play",
+    "date": "2026-03-13",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/13/iran-2026-world-cup-status-explainer",
+    "summary": "Will Iran play at the 2026 World Cup? Explaining the state of play",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-14T08:13:14.850Z"
+  },
+  {
+    "id": "dbb4398f5784",
+    "title": "Matildas survive North Korea scare to book spot in Women’s Asian Cup semi-final",
+    "date": "2026-03-13",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/13/australia-matildas-north-korea-womens-asian-cup-football-report",
+    "summary": "Matildas survive North Korea scare to book spot in Women’s Asian Cup semi-final",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-14T08:13:14.850Z"
+  },
+  {
+    "id": "d91c952a864e",
+    "title": "Matildas make room for bigger questions over future after Asian Cup escape | Joey Lynch",
+    "date": "2026-03-13",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/blog/2026/mar/13/matildas-asian-cup-north-korea-analysis",
+    "summary": "Matildas make room for bigger questions over future after Asian Cup escape | Joey Lynch",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-14T08:13:14.850Z"
+  },
+  {
+    "id": "62d1b1425dba",
+    "title": "Football Daily | Emery and a glorious love affair that could take Aston Villa to glory",
+    "date": "2026-03-13",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/13/unai-emery-europa-league-aston-villa-football-daily-newsletter",
+    "summary": "Football Daily | Emery and a glorious love affair that could take Aston Villa to glory",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-14T08:13:14.850Z"
+  },
+  {
+    "id": "4a75ff7092b8",
+    "title": "Brazil and Jordan Brand unveil historic away kit for 2026 World Cup",
+    "date": "2026-03-13",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/world-cup/2026/03/13/69b47eb5268e3ebb538b45fd.html",
+    "summary": "Brazil and Jordan Brand unveil historic away kit for 2026 World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-14T08:13:14.850Z"
+  },
+  {
+    "id": "ca5bfb38eac5",
+    "title": "\"They will be treated like stars\": Donald Trump sends message to 2026 World Cup participants",
+    "date": "2026-03-13",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/world-cup/2026/03/13/69b4781d268e3eff4f8b45b7.html",
+    "summary": "\"They will be treated like stars\": Donald Trump sends message to 2026 World Cup participants",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-14T08:13:14.850Z"
+  },
+  {
+    "id": "46c608861e03",
+    "title": "If it's not Cristiano Ronaldo, it will be Messi: The 'Plan B' for the new Estadio Azteca",
+    "date": "2026-03-13",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/world-cup/2026/03/13/69b43ea0268e3e75438b45a2.html",
+    "summary": "If it's not Cristiano Ronaldo, it will be Messi: The 'Plan B' for the new Estadio Azteca",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-14T08:13:14.850Z"
+  },
+  {
     "id": "a0c3dd05a3c2",
     "title": "Trump: Iran should skip WC 'for their safety'",
     "date": "2026-03-13",
@@ -4004,57 +4186,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-02-13T08:19:56.797Z"
-  },
-  {
-    "id": "2bc6a048f147",
-    "title": "England to play New Zealand and Costa Rica in final World Cup warm-ups",
-    "date": "2026-02-11",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/crrx9werrexo?at_medium=RSS&at_campaign=rss",
-    "summary": "England to play New Zealand and Costa Rica in final World Cup warm-ups",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-12T01:17:44.917Z"
-  },
-  {
-    "id": "cf5929f52526",
-    "title": "England to play New Zealand and Costa Rica in final pre-World Cup friendlies",
-    "date": "2026-02-11",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/feb/11/england-to-play-new-zealand-costa-rica-final-pre-world-cup-friendlies-florida-base-kansas-city",
-    "summary": "England to play New Zealand and Costa Rica in final pre-World Cup friendlies",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-12T01:17:44.917Z"
-  },
-  {
-    "id": "4b0be4c25993",
-    "title": "Eni Aluko damages her legacy with her latest attack on Ian Wright | Suzanne Wrack",
-    "date": "2026-02-11",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/feb/11/eni-aluko-attack-ian-wright-pundits",
-    "summary": "Eni Aluko damages her legacy with her latest attack on Ian Wright | Suzanne Wrack",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-12T01:17:44.917Z"
-  },
-  {
-    "id": "c6bd6d57de83",
-    "title": "Inter Miami announce Messi injury that shakes Argentina",
-    "date": "2026-02-11",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/football/mls/2026/02/11/698cff5546163f59648b45ae.html",
-    "summary": "Inter Miami announce Messi injury that shakes Argentina",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-12T01:17:44.917Z"
   }
 ];
