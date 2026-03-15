@@ -2,6 +2,32 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "a859c2288ad5",
+    "title": "Iraq taking private plane to Mexico for World Cup play-off",
+    "date": "2026-03-14",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c0k10zzjk6yo?at_medium=RSS&at_campaign=rss",
+    "summary": "Iraq taking private plane to Mexico for World Cup play-off",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-15T08:16:26.295Z"
+  },
+  {
+    "id": "33eb4a23ba1a",
+    "title": "Argentina is set to face Spain in the Finalissima at the Santiago Bernabeu",
+    "date": "2026-03-14",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/world-cup/2026/03/14/69b5524c22601d983b8b45a9.html",
+    "summary": "Argentina is set to face Spain in the Finalissima at the Santiago Bernabeu",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-15T08:16:26.295Z"
+  },
+  {
     "id": "45ea0ac793f2",
     "title": "Mexico's Ruiz ruled out of World Cup with torn ACL",
     "date": "2026-03-14",
@@ -4064,123 +4090,6 @@ export const news: NewsItem[] = [
     "source": "ESPN",
     "url": "https://www.espn.com/soccer/story/_/id/47908191/thomas-tuchel-new-england-deal-not-related-man-united-job-fa",
     "summary": "FA: Tuchel's new deal not related to Man Utd job",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-13T08:19:56.797Z"
-  },
-  {
-    "id": "6b457536e5b9",
-    "title": "Tuchel extended England stay for 'amazing players'",
-    "date": "2026-02-12",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cgjz7qln875o?at_medium=RSS&at_campaign=rss",
-    "summary": "Tuchel extended England stay for 'amazing players'",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-13T08:19:56.797Z"
-  },
-  {
-    "id": "251ae9d7d092",
-    "title": "Tuchel deal delights FA - but timing has echoes of Capello decision",
-    "date": "2026-02-12",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c62g4l2r5l8o?at_medium=RSS&at_campaign=rss",
-    "summary": "Tuchel deal delights FA - but timing has echoes of Capello decision",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-13T08:19:56.797Z"
-  },
-  {
-    "id": "2c350d36e34b",
-    "title": "Injured Bellingham a doubt for England friendlies",
-    "date": "2026-02-12",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cy4wn9wzvdlo?at_medium=RSS&at_campaign=rss",
-    "summary": "Injured Bellingham a doubt for England friendlies",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-13T08:19:56.797Z"
-  },
-  {
-    "id": "d7823fd188ee",
-    "title": "Barnes rules out Scotland switch, confirms Clarke",
-    "date": "2026-02-12",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c0mgz7nz9m0o?at_medium=RSS&at_campaign=rss",
-    "summary": "Barnes rules out Scotland switch, confirms Clarke",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-13T08:19:56.797Z"
-  },
-  {
-    "id": "1c810edca536",
-    "title": "'I didn't hesitate' - Tuchel extends stay in England 'dream job'",
-    "date": "2026-02-12",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c9dnl94750zo?at_medium=RSS&at_campaign=rss",
-    "summary": "'I didn't hesitate' - Tuchel extends stay in England 'dream job'",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-13T08:19:56.797Z"
-  },
-  {
-    "id": "d7823fd188ee",
-    "title": "Barnes rules out Scotland switch, confirms Clarke",
-    "date": "2026-02-12",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c0mgz7nz9m0o?at_medium=RSS&at_campaign=rss",
-    "summary": "Barnes rules out Scotland switch, confirms Clarke",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-13T08:19:56.797Z"
-  },
-  {
-    "id": "6d0f1665c054",
-    "title": "Thomas Tuchel targets World Cup glory after signing contract extension until 2028",
-    "date": "2026-02-12",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/feb/12/thomas-tuchel-england-contract-extension-2028-head-coach-nations-league",
-    "summary": "Thomas Tuchel targets World Cup glory after signing contract extension until 2028",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-13T08:19:56.797Z"
-  },
-  {
-    "id": "d190873c901e",
-    "title": "Raheem Sterling joins Feyenoord for rest of season after Chelsea exit",
-    "date": "2026-02-12",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/feb/12/raheem-sterling-joins-feyenoord-rest-of-season-chelsea-robin-van-persie",
-    "summary": "Raheem Sterling joins Feyenoord for rest of season after Chelsea exit",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-13T08:19:56.797Z"
-  },
-  {
-    "id": "412ee360cfea",
-    "title": "Mauricio Pochettino's role as USMNT head coach questioned",
-    "date": "2026-02-12",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/football/2026/02/12/698e1fd8ca47410f158b45b7.html",
-    "summary": "Mauricio Pochettino's role as USMNT head coach questioned",
     "categories": [
       "general"
     ],
