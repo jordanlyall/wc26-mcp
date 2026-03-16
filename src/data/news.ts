@@ -2,6 +2,123 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "4fa34aa758b0",
+    "title": "Source: Messi had no say in cancelling Finalissima",
+    "date": "2026-03-16",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48215232/lionel-messi-not-involved-finalissima-spain-argentina-cancellation-wanted-world-cup-final-source",
+    "summary": "Source: Messi had no say in cancelling Finalissima",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-16T08:31:00.809Z"
+  },
+  {
+    "id": "8e52ca0cad9a",
+    "title": "Ashley Cole lands first managerial role as head coach of Serie B side Cesena",
+    "date": "2026-03-15",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/15/ashley-cole-appointed-head-coach-cesena-italy-serie-b",
+    "summary": "Ashley Cole lands first managerial role as head coach of Serie B side Cesena",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-16T08:31:00.809Z"
+  },
+  {
+    "id": "27772d72c605",
+    "title": "Captain of Iranian women’s football team leaves Australia after initially accepting offer of asylum",
+    "date": "2026-03-15",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/australia-news/2026/mar/16/fifth-iranian-football-player-leaves-australia-after-initially-accepting-offer-of-asylum",
+    "summary": "Captain of Iranian women’s football team leaves Australia after initially accepting offer of asylum",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-16T08:31:00.809Z"
+  },
+  {
+    "id": "e9c89c4e0907",
+    "title": "Four Iranian women’s team members set to return home after being granted asylum in Australia",
+    "date": "2026-03-15",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/australia-news/2026/mar/15/iran-womens-football-squad-members-decide-to-return-home-australia-asylum-visas-tony-burke",
+    "summary": "Four Iranian women’s team members set to return home after being granted asylum in Australia",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-16T08:31:00.809Z"
+  },
+  {
+    "id": "bfc9a48f6949",
+    "title": "What did Di María say about the possibility of returning to the Argentina national team?",
+    "date": "2026-03-15",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/football/2026/03/15/69b7175a268e3e28328b45ac.html",
+    "summary": "What did Di María say about the possibility of returning to the Argentina national team?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-16T08:31:00.809Z"
+  },
+  {
+    "id": "67a3619413bc",
+    "title": "Scaloni's stance on the Finalissima was unwavering: \"We're not going to the Bernabeu\"",
+    "date": "2026-03-15",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/football/2026/03/15/69b702a4268e3e652b8b45a2.html",
+    "summary": "Scaloni's stance on the Finalissima was unwavering: \"We're not going to the Bernabeu\"",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-16T08:31:00.809Z"
+  },
+  {
+    "id": "e3b413a64c3b",
+    "title": "With 88 days to go until the FIFA World Cup: Which 8 teams have won the tournament?",
+    "date": "2026-03-15",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/world-cup/2026/03/15/69b6f947268e3e01328b458e.html",
+    "summary": "With 88 days to go until the FIFA World Cup: Which 8 teams have won the tournament?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-16T08:31:00.809Z"
+  },
+  {
+    "id": "e59541699c72",
+    "title": "Who is allowed to touch the FIFA World Cup Trophy and why Trump, Carney and Sheinbaum were exceptions",
+    "date": "2026-03-15",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/world-cup/2026/03/15/69b6eb4a268e3edc2e8b4588.html",
+    "summary": "Who is allowed to touch the FIFA World Cup Trophy and why Trump, Carney and Sheinbaum were exceptions",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-16T08:31:00.809Z"
+  },
+  {
+    "id": "c16fa2540346",
+    "title": "How much money would Portugal lose without Cristiano Ronaldo against Mexico and the USA?",
+    "date": "2026-03-15",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/football/2026/03/15/69b6b8fe268e3e474c8b457c.html",
+    "summary": "How much money would Portugal lose without Cristiano Ronaldo against Mexico and the USA?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-16T08:31:00.809Z"
+  },
+  {
     "id": "a859c2288ad5",
     "title": "Iraq taking private plane to Mexico for World Cup play-off",
     "date": "2026-03-14",
@@ -4004,96 +4121,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-02-14T08:11:50.911Z"
-  },
-  {
-    "id": "ec1d69c4b27f",
-    "title": "BBC to show Scots' games live as Serie A returns to free-to-air TV",
-    "date": "2026-02-13",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cx2ye666jjlo?at_medium=RSS&at_campaign=rss",
-    "summary": "BBC to show Scots' games live as Serie A returns to free-to-air TV",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-14T08:11:50.911Z"
-  },
-  {
-    "id": "ec1d69c4b27f",
-    "title": "BBC to show Scots' games live as Serie A returns to free-to-air TV",
-    "date": "2026-02-13",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cx2ye666jjlo?at_medium=RSS&at_campaign=rss",
-    "summary": "BBC to show Scots' games live as Serie A returns to free-to-air TV",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-14T08:11:50.911Z"
-  },
-  {
-    "id": "db68041a08b5",
-    "title": "Spurs agree deal to make Igor Tudor interim manager until end of season",
-    "date": "2026-02-13",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/feb/13/spurs-igor-tudor-interim-manager-mauricio-pochettino",
-    "summary": "Spurs agree deal to make Igor Tudor interim manager until end of season",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-14T08:11:50.911Z"
-  },
-  {
-    "id": "e0cf000b95fe",
-    "title": "Thomas Tuchel is in no hurry to return to club management. It’s easy to see why | Jacob Steinberg",
-    "date": "2026-02-13",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/feb/13/thomas-tuchel-england-club-management-world-cup-2026-euro-2028",
-    "summary": "Thomas Tuchel is in no hurry to return to club management. It’s easy to see why | Jacob Steinberg",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-14T08:11:50.911Z"
-  },
-  {
-    "id": "f5203d3c580d",
-    "title": "Why James Rodríguez signed in Minnesota amid a federal occupation",
-    "date": "2026-02-13",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/feb/13/james-rodriguez-minnesota-united-colombia-world-cup-2026",
-    "summary": "Why James Rodríguez signed in Minnesota amid a federal occupation",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-14T08:11:50.911Z"
-  },
-  {
-    "id": "cfca98e67fc1",
-    "title": "Alexi Lalas dispels doubts about Christian Pulisic and predicts his role in the World Cup with USMNT",
-    "date": "2026-02-13",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/world-cup/2026/02/13/698f435f46163f45338b45f7.html",
-    "summary": "Alexi Lalas dispels doubts about Christian Pulisic and predicts his role in the World Cup with USMNT",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-14T08:11:50.911Z"
-  },
-  {
-    "id": "c6536bcc5b2d",
-    "title": "FA: Tuchel's new deal not related to Man Utd job",
-    "date": "2026-02-13",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/47908191/thomas-tuchel-new-england-deal-not-related-man-united-job-fa",
-    "summary": "FA: Tuchel's new deal not related to Man Utd job",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-13T08:19:56.797Z"
   }
 ];
