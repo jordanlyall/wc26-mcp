@@ -2,6 +2,188 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "9d17a0d66392",
+    "title": "Neymar left out of Brazil squad, Endrick makes cut",
+    "date": "2026-03-17",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48225082/neymar-left-brazil-squad-endrick-makes-cut",
+    "summary": "Neymar left out of Brazil squad, Endrick makes cut",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-17T08:22:16.412Z"
+  },
+  {
+    "id": "532e285babde",
+    "title": "Sources: Banks opts out of USMNT March camp",
+    "date": "2026-03-17",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48223049/dual-national-noahkai-banks-opts-usmnt-march-camp-sources",
+    "summary": "Sources: Banks opts out of USMNT March camp",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-17T08:22:16.412Z"
+  },
+  {
+    "id": "5169444387b9",
+    "title": "Dembélé: PSG won't let up on Chelsea in 2nd leg",
+    "date": "2026-03-17",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48224744/psg-let-chelsea-second-leg-dembele",
+    "summary": "Dembélé: PSG won't let up on Chelsea in 2nd leg",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-17T08:22:16.412Z"
+  },
+  {
+    "id": "d940c1f7bcbe",
+    "title": "Thiago and Rayan receive first Brazil call-ups",
+    "date": "2026-03-16",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c8eg0y22w2ro?at_medium=RSS&at_campaign=rss",
+    "summary": "Thiago and Rayan receive first Brazil call-ups",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-17T08:22:16.412Z"
+  },
+  {
+    "id": "77a81ee01135",
+    "title": "Scotland boss Clarke 'hasn't had contract offer'",
+    "date": "2026-03-16",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c5yr1e9vyy0o?at_medium=RSS&at_campaign=rss",
+    "summary": "Scotland boss Clarke 'hasn't had contract offer'",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-17T08:22:16.412Z"
+  },
+  {
+    "id": "22f410ede2f4",
+    "title": "The key takeaways from Scotland's March squad",
+    "date": "2026-03-16",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c5yv1kv57l0o?at_medium=RSS&at_campaign=rss",
+    "summary": "The key takeaways from Scotland's March squad",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-17T08:22:16.412Z"
+  },
+  {
+    "id": "fbb9f8745226",
+    "title": "Wrexham's Moore to miss Wales' World Cup play-offs",
+    "date": "2026-03-16",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c4gqn013527o?at_medium=RSS&at_campaign=rss",
+    "summary": "Wrexham's Moore to miss Wales' World Cup play-offs",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-17T08:22:16.412Z"
+  },
+  {
+    "id": "694be89c0354",
+    "title": "Bosnia's Dzeko poses big World Cup threat - Bellamy",
+    "date": "2026-03-16",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c98q73rjleno?at_medium=RSS&at_campaign=rss",
+    "summary": "Bosnia's Dzeko poses big World Cup threat - Bellamy",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-17T08:22:16.412Z"
+  },
+  {
+    "id": "77a81ee01135",
+    "title": "Scotland boss Clarke 'hasn't had contract offer'",
+    "date": "2026-03-16",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c5yr1e9vyy0o?at_medium=RSS&at_campaign=rss",
+    "summary": "Scotland boss Clarke 'hasn't had contract offer'",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-17T08:22:16.412Z"
+  },
+  {
+    "id": "09d6018b921d",
+    "title": "Teenager Curtis given maiden Scotland call-up",
+    "date": "2026-03-16",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cpd8w4xg991o?at_medium=RSS&at_campaign=rss",
+    "summary": "Teenager Curtis given maiden Scotland call-up",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-17T08:22:16.412Z"
+  },
+  {
+    "id": "22f410ede2f4",
+    "title": "Gunn back & Motherwell players miss out - Key takeaways from Scotland's March squad",
+    "date": "2026-03-16",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c5yv1kv57l0o?at_medium=RSS&at_campaign=rss",
+    "summary": "Gunn back & Motherwell players miss out - Key takeaways from Scotland's March squad",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-17T08:22:16.412Z"
+  },
+  {
+    "id": "18b4952dff1b",
+    "title": "Chelsea’s Reece James an England World Cup doubt with hamstring injury",
+    "date": "2026-03-16",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/16/reece-james-hamstring-injury-liam-rosenior-chelsea-champions-league-last-16-second-leg-psg-england-world-cup-2026",
+    "summary": "Chelsea’s Reece James an England World Cup doubt with hamstring injury",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-17T08:22:16.412Z"
+  },
+  {
+    "id": "4d62aa998362",
+    "title": "Brentford’s European hopes take a hit as Arokodare caps Wolves’ comeback",
+    "date": "2026-03-16",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/16/brentford-wolves-premier-league-match-report",
+    "summary": "Brentford’s European hopes take a hit as Arokodare caps Wolves’ comeback",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-17T08:22:16.412Z"
+  },
+  {
+    "id": "a4de537e056f",
+    "title": "How USMNT players designed the boldest kits in generations for World Cup 2026",
+    "date": "2026-03-16",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/16/usmnt-kits-world-cup-2026",
+    "summary": "How USMNT players designed the boldest kits in generations for World Cup 2026",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-17T08:22:16.412Z"
+  },
+  {
     "id": "4fa34aa758b0",
     "title": "Source: Messi had no say in cancelling Finalissima",
     "date": "2026-03-16",
@@ -13,6 +195,32 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-03-16T08:31:00.809Z"
+  },
+  {
+    "id": "77d3c5299ac0",
+    "title": "Iran captain latest footballer to drop asylum bid, Iranian state media says",
+    "date": "2026-03-15",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/news/articles/c98gz372683o?at_medium=RSS&at_campaign=rss",
+    "summary": "Iran captain latest footballer to drop asylum bid, Iranian state media says",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-17T08:22:16.412Z"
+  },
+  {
+    "id": "77d3c5299ac0",
+    "title": "Iran captain latest footballer to drop asylum bid, Iranian state media says",
+    "date": "2026-03-15",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/news/articles/c98gz372683o?at_medium=RSS&at_campaign=rss",
+    "summary": "Iran captain latest footballer to drop asylum bid, Iranian state media says",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-17T08:22:16.412Z"
   },
   {
     "id": "8e52ca0cad9a",
@@ -4017,109 +4225,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-02-16T08:20:40.944Z"
-  },
-  {
-    "id": "31547547b0ac",
-    "title": "Man Utd's Toone set to miss League Cup final",
-    "date": "2026-02-14",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c77ejy5mdk3o?at_medium=RSS&at_campaign=rss",
-    "summary": "Man Utd's Toone set to miss League Cup final",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-15T08:12:54.208Z"
-  },
-  {
-    "id": "8c4a156f4064",
-    "title": "Mohamed Salah recaptures scintillating form as Liverpool see off Brighton",
-    "date": "2026-02-14",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/feb/14/liverpool-brighton-fa-cup-fourth-round-match-report",
-    "summary": "Mohamed Salah recaptures scintillating form as Liverpool see off Brighton",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-15T08:12:54.208Z"
-  },
-  {
-    "id": "a7ee663d8baf",
-    "title": "European football: Harry Kane double restores Bayern Munich’s six-point Bundesliga lead",
-    "date": "2026-02-14",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/feb/14/european-football-bayern-munich-inter-juventus-real-madrid",
-    "summary": "European football: Harry Kane double restores Bayern Munich’s six-point Bundesliga lead",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-15T08:12:54.208Z"
-  },
-  {
-    "id": "b9ee85711932",
-    "title": "‘It is an honour’: Tottenham confirm Igor Tudor as interim head coach until end of season",
-    "date": "2026-02-14",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/feb/14/tottenham-igor-tudor-interim-head-coach-premier-league",
-    "summary": "‘It is an honour’: Tottenham confirm Igor Tudor as interim head coach until end of season",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-15T08:12:54.208Z"
-  },
-  {
-    "id": "cfc91d523ecb",
-    "title": "Portugal coach predicts when Cristiano Ronaldo will retire and it may come as a surprise",
-    "date": "2026-02-14",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/football/2026/02/14/69907f6446163f10068b4582.html",
-    "summary": "Portugal coach predicts when Cristiano Ronaldo will retire and it may come as a surprise",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-15T08:12:54.208Z"
-  },
-  {
-    "id": "5fa23a02280d",
-    "title": "Mauricio Pochettino does not want to disappoint Donald Trump and sends him a message about winning the next World Cup in the USA",
-    "date": "2026-02-14",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/football/2026/02/14/69907af7e2704e04068b45ca.html",
-    "summary": "Mauricio Pochettino does not want to disappoint Donald Trump and sends him a message about winning the next World Cup in the USA",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-15T08:12:54.208Z"
-  },
-  {
-    "id": "ef051d27adde",
-    "title": "A 'very special' FA Cup win and why managing Ronaldo is 'easy'",
-    "date": "2026-02-14",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c98gy904nggo?at_medium=RSS&at_campaign=rss",
-    "summary": "A 'very special' FA Cup win and why managing Ronaldo is 'easy'",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-14T08:11:50.911Z"
-  },
-  {
-    "id": "c2fb4feaf4cd",
-    "title": "Martinez on club v country & managing Belgium's 'golden generation'",
-    "date": "2026-02-14",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/videos/c0rjgxn75dxo?at_medium=RSS&at_campaign=rss",
-    "summary": "Martinez on club v country & managing Belgium's 'golden generation'",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-14T08:11:50.911Z"
   }
 ];
