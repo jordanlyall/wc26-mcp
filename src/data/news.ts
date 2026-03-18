@@ -2,6 +2,201 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "4375191da9bc",
+    "title": "Poch made exception for 'special talent' Reyna",
+    "date": "2026-03-18",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48233161/pochettino-makes-form-exception-special-talent-reyna",
+    "summary": "Poch made exception for 'special talent' Reyna",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-18T08:21:30.997Z"
+  },
+  {
+    "id": "c109e8184eb1",
+    "title": "🤔 Poch's USMNT roster shows softened stance",
+    "date": "2026-03-18",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48232146/mauricio-pochettino-usmnt-roster-march-international-window-shows-flexibility-club-form-demand",
+    "summary": "🤔 Poch's USMNT roster shows softened stance",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-18T08:21:30.997Z"
+  },
+  {
+    "id": "a58456c514bb",
+    "title": "Will Ferrell, Luka Doncic and more named as Los Angeles World Cup host ambassadors",
+    "date": "2026-03-18",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48232448/los-angeles-world-cup-2026-host-ambassadors-ferrell-luka-doncic-magic-johnson",
+    "summary": "Will Ferrell, Luka Doncic and more named as Los Angeles World Cup host ambassadors",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-18T08:21:30.997Z"
+  },
+  {
+    "id": "8c9e64e7d9e9",
+    "title": "Wales leave captain Ramsey out of World Cup play-off squad",
+    "date": "2026-03-17",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cwyk0znkdz5o?at_medium=RSS&at_campaign=rss",
+    "summary": "Wales leave captain Ramsey out of World Cup play-off squad",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-18T08:21:30.997Z"
+  },
+  {
+    "id": "692ec8b4886a",
+    "title": "Kerr winner sends Australia into Asian Cup final",
+    "date": "2026-03-17",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/czd89zegm9go?at_medium=RSS&at_campaign=rss",
+    "summary": "Kerr winner sends Australia into Asian Cup final",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-18T08:21:30.997Z"
+  },
+  {
+    "id": "f7988fa6ed56",
+    "title": "Man United's Fletcher earns Scotland Under-21 call",
+    "date": "2026-03-17",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cz6eq5e5169o?at_medium=RSS&at_campaign=rss",
+    "summary": "Man United's Fletcher earns Scotland Under-21 call",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-18T08:21:30.997Z"
+  },
+  {
+    "id": "692ec8b4886a",
+    "title": "Kerr winner sends Australia into Asian Cup final",
+    "date": "2026-03-17",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/czd89zegm9go?at_medium=RSS&at_campaign=rss",
+    "summary": "Kerr winner sends Australia into Asian Cup final",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-18T08:21:30.997Z"
+  },
+  {
+    "id": "cd1c5088a22f",
+    "title": "Senegal stripped of Africa Cup of Nations title over walkout protest in final",
+    "date": "2026-03-17",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/17/senegal-stripped-of-africa-cup-of-nations-title-over-protest-in-chaotic-final",
+    "summary": "Senegal stripped of Africa Cup of Nations title over walkout protest in final",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-18T08:21:30.997Z"
+  },
+  {
+    "id": "bf7d01f5d08b",
+    "title": "Mauricio Pochettino’s latest USMNT roster signals door is ‘still open’ for World Cup hopefuls",
+    "date": "2026-03-17",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/17/usmnt-roster-friendlies-gio-reyna-noahkai-banks-world-cup-bubble",
+    "summary": "Mauricio Pochettino’s latest USMNT roster signals door is ‘still open’ for World Cup hopefuls",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-18T08:21:30.997Z"
+  },
+  {
+    "id": "e86819adf722",
+    "title": "Football Daily | Will there be no more Neymar for Brazil?",
+    "date": "2026-03-17",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/17/brazil-neymar-football-daily-newsletter",
+    "summary": "Football Daily | Will there be no more Neymar for Brazil?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-18T08:21:30.997Z"
+  },
+  {
+    "id": "be8a87f4c2a3",
+    "title": "Argentina confirmed a friendly against Guatemala after Finalissima cancellation: How many times have they faced each other?",
+    "date": "2026-03-17",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/football/2026/03/17/69b9ab03e2704e7e3d8b45f3.html",
+    "summary": "Argentina confirmed a friendly against Guatemala after Finalissima cancellation: How many times have they faced each other?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-18T08:21:30.997Z"
+  },
+  {
+    "id": "cd85f28339d7",
+    "title": "They reveal what Cristiano Ronaldo's participation in the friendly against Mexico depends on",
+    "date": "2026-03-17",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/football/2026/03/17/69b9442c46163f870a8b45f5.html",
+    "summary": "They reveal what Cristiano Ronaldo's participation in the friendly against Mexico depends on",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-18T08:21:30.997Z"
+  },
+  {
+    "id": "70d55fcad121",
+    "title": "Endrick reunites with Ancelotti after catapulting his career in France",
+    "date": "2026-03-17",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/world-cup/2026/03/17/69b9357d22601db26d8b457d.html",
+    "summary": "Endrick reunites with Ancelotti after catapulting his career in France",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-18T08:21:30.997Z"
+  },
+  {
+    "id": "b6c25a84695c",
+    "title": "Iran asks FIFA to play in Mexico during the 2026 World Cup",
+    "date": "2026-03-17",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/world-cup/2026/03/17/69b9342322601d6c538b457a.html",
+    "summary": "Iran asks FIFA to play in Mexico during the 2026 World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-18T08:21:30.997Z"
+  },
+  {
+    "id": "491cd0428f09",
+    "title": "How Neymar is proving Ancelotti wrong while still left out of Brazil's squad",
+    "date": "2026-03-17",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/world-cup/2026/03/17/69b8ba7c22601dca628b4575.html",
+    "summary": "How Neymar is proving Ancelotti wrong while still left out of Brazil's squad",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-18T08:21:30.997Z"
+  },
+  {
     "id": "9d17a0d66392",
     "title": "Neymar left out of Brazil squad, Endrick makes cut",
     "date": "2026-03-17",
@@ -39,6 +234,19 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-03-17T08:22:16.412Z"
+  },
+  {
+    "id": "e213f37d7325",
+    "title": "Football Daily | Ashley Cole finally gets the chance to scratch his seven-year itch",
+    "date": "2026-03-16",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/16/ashley-cole-cesena-football-daily-newsletter",
+    "summary": "Football Daily | Ashley Cole finally gets the chance to scratch his seven-year itch",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-18T08:21:30.997Z"
   },
   {
     "id": "d940c1f7bcbe",
@@ -4181,45 +4389,6 @@ export const news: NewsItem[] = [
     "source": "BBC Sport",
     "url": "https://www.bbc.com/sport/football/articles/cqxd9vqndjxo?at_medium=RSS&at_campaign=rss",
     "summary": "Clarke plans Scotland talks next month - gossip",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-16T08:20:40.944Z"
-  },
-  {
-    "id": "123a65617a5f",
-    "title": "Captain Van Dijk wants 'so important' Salah to stay",
-    "date": "2026-02-15",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c0k158g7700o?at_medium=RSS&at_campaign=rss",
-    "summary": "Captain Van Dijk wants 'so important' Salah to stay",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-16T08:20:40.944Z"
-  },
-  {
-    "id": "bacf469fe264",
-    "title": "Youssef Chermiti hat-trick powers Rangers to victory over leaders Hearts",
-    "date": "2026-02-15",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/feb/15/rangers-hearts-scottish-premiership-match-report",
-    "summary": "Youssef Chermiti hat-trick powers Rangers to victory over leaders Hearts",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-16T08:20:40.944Z"
-  },
-  {
-    "id": "4290e2cefe99",
-    "title": "Arbeloa, two wins away from the best league start by a Real Madrid coach",
-    "date": "2026-02-15",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/football/real-madrid/2026/02/16/6992537d22601dda668b45cf.html",
-    "summary": "Arbeloa, two wins away from the best league start by a Real Madrid coach",
     "categories": [
       "general"
     ],
