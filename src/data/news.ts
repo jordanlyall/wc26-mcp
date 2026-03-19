@@ -2,6 +2,84 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "0dca6f15b31c",
+    "title": "Tonali injured in UCL loss ahead of Italy playoff",
+    "date": "2026-03-19",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48242590/sandro-tonali-injured-newcastle-loss-italy-playoff",
+    "summary": "Tonali injured in UCL loss ahead of Italy playoff",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-19T08:20:01.596Z"
+  },
+  {
+    "id": "cd9ca07a65e6",
+    "title": "Japan’s ruthless streak poses fresh challenge for rising Matildas in Women’s Asian Cup final | Martin Pegan",
+    "date": "2026-03-19",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/blog/2026/mar/19/japans-ruthless-streak-poses-fresh-challenge-for-rising-matildas-on-the-rise",
+    "summary": "Japan’s ruthless streak poses fresh challenge for rising Matildas in Women’s Asian Cup final | Martin Pegan",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-19T08:20:01.596Z"
+  },
+  {
+    "id": "1a9a06a2fa9e",
+    "title": "Three uncapped players called up for final home Socceroos friendlies before World Cup",
+    "date": "2026-03-19",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/19/socceroos-squad-tony-popovic-friendlies-uncapped-players",
+    "summary": "Three uncapped players called up for final home Socceroos friendlies before World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-19T08:20:01.596Z"
+  },
+  {
+    "id": "f43fd9e2ae20",
+    "title": "How Raphinha called for Neymar to be included in the Brazil squad: A direct message to Ancelotti",
+    "date": "2026-03-19",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/world-cup/2026/03/19/69bb768522601d6d398b45c9.html",
+    "summary": "How Raphinha called for Neymar to be included in the Brazil squad: A direct message to Ancelotti",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-19T08:20:01.596Z"
+  },
+  {
+    "id": "48e1fb5979fa",
+    "title": "Senegal government alleges corruption after Morocco awarded Afcon title",
+    "date": "2026-03-18",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cwygyq495j8o?at_medium=RSS&at_campaign=rss",
+    "summary": "Senegal government alleges corruption after Morocco awarded Afcon title",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-19T08:20:01.596Z"
+  },
+  {
+    "id": "664124d8dd4b",
+    "title": "The one who got away: how did Australia lose one of its brightest football talents to Croatia? | Jack Snape",
+    "date": "2026-03-18",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/19/the-one-who-got-away-how-did-australia-lose-one-of-its-brightest-football-talents-to-croatia",
+    "summary": "The one who got away: how did Australia lose one of its brightest football talents to Croatia? | Jack Snape",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-19T08:20:01.596Z"
+  },
+  {
     "id": "4375191da9bc",
     "title": "Poch made exception for 'special talent' Reyna",
     "date": "2026-03-18",
@@ -4316,83 +4394,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-02-17T08:21:02.422Z"
-  },
-  {
-    "id": "4322151924e0",
-    "title": "Will we see changes to first England squad in 2026?",
-    "date": "2026-02-16",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cwyxwyzy9wxo?at_medium=RSS&at_campaign=rss",
-    "summary": "Will we see changes to first England squad in 2026?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-17T08:21:02.422Z"
-  },
-  {
-    "id": "4322151924e0",
-    "title": "Will we see changes to first England squad in 2026?",
-    "date": "2026-02-16",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cwyxwyzy9wxo?at_medium=RSS&at_campaign=rss",
-    "summary": "Will we see changes to first England squad in 2026?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-17T08:21:02.422Z"
-  },
-  {
-    "id": "9b9f5851210d",
-    "title": "Rayo Vallecano stun Atlético with their fans in revolt and stadium unusable | Sid Lowe",
-    "date": "2026-02-16",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/feb/16/rayo-vallecano-stun-atletico-with-their-fans-in-revolt-and-stadium-unusable",
-    "summary": "Rayo Vallecano stun Atlético with their fans in revolt and stadium unusable | Sid Lowe",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-17T08:21:02.422Z"
-  },
-  {
-    "id": "c59124276b9b",
-    "title": "Javier Aguirre in trouble: How many Mexican national team players could miss the 2026 World Cup?",
-    "date": "2026-02-16",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/world-cup/2026/02/16/699309d522601ddd648b457f.html",
-    "summary": "Javier Aguirre in trouble: How many Mexican national team players could miss the 2026 World Cup?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-17T08:21:02.422Z"
-  },
-  {
-    "id": "7a653f6a9eae",
-    "title": "Neymar is back: \"Ancelotti will be happy if he does well\"",
-    "date": "2026-02-16",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/world-cup/2026/02/16/69930754ca4741ba0a8b45da.html",
-    "summary": "Neymar is back: \"Ancelotti will be happy if he does well\"",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-17T08:21:02.422Z"
-  },
-  {
-    "id": "f0120872c369",
-    "title": "Clarke plans Scotland talks next month - gossip",
-    "date": "2026-02-16",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cqxd9vqndjxo?at_medium=RSS&at_campaign=rss",
-    "summary": "Clarke plans Scotland talks next month - gossip",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-16T08:20:40.944Z"
   }
 ];
