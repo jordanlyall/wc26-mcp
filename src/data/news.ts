@@ -2,6 +2,123 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "dfa6b591540b",
+    "title": "Ochoa, Fidalgo lead Mexico's list for WC warm-ups",
+    "date": "2026-03-20",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48253780/ochoa-fidalgo-highlight-mexico-squad-portugal-belgium-tests",
+    "summary": "Ochoa, Fidalgo lead Mexico's list for WC warm-ups",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-20T08:18:16.046Z"
+  },
+  {
+    "id": "490b74a7074e",
+    "title": "‘It’s 50-50’: coaches dodge ‘favourites’ question before Matildas meet Japan in Women’s Asian Cup final",
+    "date": "2026-03-20",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/20/matildas-japan-womens-asian-cup-final-coaches-on-match-favourite",
+    "summary": "‘It’s 50-50’: coaches dodge ‘favourites’ question before Matildas meet Japan in Women’s Asian Cup final",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-20T08:18:16.046Z"
+  },
+  {
+    "id": "286ecaff4cf0",
+    "title": "Who will be England's World Cup number 10? Tuchel's selection dilemmas",
+    "date": "2026-03-19",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cj989ywnwygo?at_medium=RSS&at_campaign=rss",
+    "summary": "Who will be England's World Cup number 10? Tuchel's selection dilemmas",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-20T08:18:16.046Z"
+  },
+  {
+    "id": "37e4083e760d",
+    "title": "'Perfect time' for Vale - but who is new Republic of Ireland call-up?",
+    "date": "2026-03-19",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c17vgddq82ko?at_medium=RSS&at_campaign=rss",
+    "summary": "'Perfect time' for Vale - but who is new Republic of Ireland call-up?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-20T08:18:16.046Z"
+  },
+  {
+    "id": "58bf5a7f622b",
+    "title": "Askou unsurprised no Well players made Scots squad",
+    "date": "2026-03-19",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cm25n04e53jo?at_medium=RSS&at_campaign=rss",
+    "summary": "Askou unsurprised no Well players made Scots squad",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-20T08:18:16.046Z"
+  },
+  {
+    "id": "58bf5a7f622b",
+    "title": "Askou unsurprised no Motherwell players made Scotland squad",
+    "date": "2026-03-19",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cm25n04e53jo?at_medium=RSS&at_campaign=rss",
+    "summary": "Askou unsurprised no Motherwell players made Scotland squad",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-20T08:18:16.046Z"
+  },
+  {
+    "id": "cf8adb7e5ec3",
+    "title": "New bill would bar ICE raids near World Cup matches in US host cities",
+    "date": "2026-03-19",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/19/bill-ban-world-cup-ice-raids-us",
+    "summary": "New bill would bar ICE raids near World Cup matches in US host cities",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-20T08:18:16.046Z"
+  },
+  {
+    "id": "08f62f7c6dfe",
+    "title": "Cafú claimed that Neymar is \"greater than Lionel Messi\" believes he will be at the World Cup",
+    "date": "2026-03-19",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/world-cup/2026/03/19/69bc5ea622601db0448b4573.html",
+    "summary": "Cafú claimed that Neymar is \"greater than Lionel Messi\" believes he will be at the World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-20T08:18:16.046Z"
+  },
+  {
+    "id": "9bc3f1e543b0",
+    "title": "Scaloni does not call up Mastantuono and rewards Gianluca Prestianni after his clash with Vinicius Jr",
+    "date": "2026-03-19",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/world-cup/2026/03/19/69bbddb222601dba458b45c8.html",
+    "summary": "Scaloni does not call up Mastantuono and rewards Gianluca Prestianni after his clash with Vinicius Jr",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-20T08:18:16.046Z"
+  },
+  {
     "id": "0dca6f15b31c",
     "title": "Tonali injured in UCL loss ahead of Italy playoff",
     "date": "2026-03-19",
@@ -4290,109 +4407,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-02-18T08:20:03.543Z"
-  },
-  {
-    "id": "16f3ce620eb6",
-    "title": "Meet Noahkai Banks, 19, the outside pick to make USMNT's World Cup squad",
-    "date": "2026-02-17",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/47943775/meet-noahkai-banks-19-pick-make-usmnts-world-cup-squad",
-    "summary": "Meet Noahkai Banks, 19, the outside pick to make USMNT's World Cup squad",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-18T08:20:03.543Z"
-  },
-  {
-    "id": "e9bad8248f8c",
-    "title": "Williamson returns for World Cup qualifiers",
-    "date": "2026-02-17",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/ce82m6rnng7o?at_medium=RSS&at_campaign=rss",
-    "summary": "Williamson returns for World Cup qualifiers",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-18T08:20:03.543Z"
-  },
-  {
-    "id": "052eead680fe",
-    "title": "Republic of Ireland trio return for qualifiers",
-    "date": "2026-02-17",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/ckglzmkn8r3o?at_medium=RSS&at_campaign=rss",
-    "summary": "Republic of Ireland trio return for qualifiers",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-18T08:20:03.543Z"
-  },
-  {
-    "id": "e9bad8248f8c",
-    "title": "Williamson returns for World Cup qualifiers",
-    "date": "2026-02-17",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/ce82m6rnng7o?at_medium=RSS&at_campaign=rss",
-    "summary": "Williamson returns for World Cup qualifiers",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-18T08:20:03.543Z"
-  },
-  {
-    "id": "052eead680fe",
-    "title": "Republic of Ireland trio return for qualifiers",
-    "date": "2026-02-17",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/ckglzmkn8r3o?at_medium=RSS&at_campaign=rss",
-    "summary": "Republic of Ireland trio return for qualifiers",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-18T08:20:03.543Z"
-  },
-  {
-    "id": "d1f44b59ecd0",
-    "title": "Williamson back for World Cup qualifiers as Wiegman denies contract is ‘distraction’",
-    "date": "2026-02-17",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/feb/17/leah-williamson-england-squad-world-cup-qualifiers-sarina-wiegman-contract",
-    "summary": "Williamson back for World Cup qualifiers as Wiegman denies contract is ‘distraction’",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-18T08:20:03.543Z"
-  },
-  {
-    "id": "17fc991716b4",
-    "title": "Emma Hayes strikes balance of experience and youth for USWNT’s SheBelieves Cup roster",
-    "date": "2026-02-17",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/feb/17/uswnt-shebelieves-roster-emma-hayes",
-    "summary": "Emma Hayes strikes balance of experience and youth for USWNT’s SheBelieves Cup roster",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-18T08:20:03.543Z"
-  },
-  {
-    "id": "b22262b699fc",
-    "title": "Klopp's agent: Man Utd, Chelsea made approach",
-    "date": "2026-02-17",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/47951029/united-states-england-wanted-jurgen-klopp-coach",
-    "summary": "Klopp's agent: Man Utd, Chelsea made approach",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-17T08:21:02.422Z"
   }
 ];
