@@ -2,6 +2,188 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "84ff1cfc1ea3",
+    "title": "Marsch: USMNT U-turn left me 'devastated, angry'",
+    "date": "2026-03-21",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48259610/jesse-marsch-usmnt-coach-canada-berhalter-us-soccer",
+    "summary": "Marsch: USMNT U-turn left me 'devastated, angry'",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-21T08:12:15.424Z"
+  },
+  {
+    "id": "b0339be43b92",
+    "title": "Ronaldo to miss Portugal games vs. U.S., Mexico",
+    "date": "2026-03-21",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48257794/cristiano-ronaldo-not-portugal-squad-pre-world-cup-friendlies",
+    "summary": "Ronaldo to miss Portugal games vs. U.S., Mexico",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-21T08:12:15.424Z"
+  },
+  {
+    "id": "85953dc86921",
+    "title": "Italy call up Chiesa for crucial World Cup playoffs",
+    "date": "2026-03-21",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48258842/italy-call-liverpool-chiesa-crucial-world-cup-playoffs",
+    "summary": "Italy call up Chiesa for crucial World Cup playoffs",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-21T08:12:15.424Z"
+  },
+  {
+    "id": "8915122559ed",
+    "title": "One final experiment? Unpicking Tuchel's latest England squad",
+    "date": "2026-03-20",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/clyrnrgp6k6o?at_medium=RSS&at_campaign=rss",
+    "summary": "One final experiment? Unpicking Tuchel's latest England squad",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-21T08:12:15.424Z"
+  },
+  {
+    "id": "e16ec7e4310e",
+    "title": "No contact, no World Cup place? What went wrong for Alexander-Arnold?",
+    "date": "2026-03-20",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c75knk1gzvgo?at_medium=RSS&at_campaign=rss",
+    "summary": "No contact, no World Cup place? What went wrong for Alexander-Arnold?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-21T08:12:15.424Z"
+  },
+  {
+    "id": "d20cea317a61",
+    "title": "Alisson out of Brazil squad and will miss Brighton",
+    "date": "2026-03-20",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/crm1wr44vxvo?at_medium=RSS&at_campaign=rss",
+    "summary": "Alisson out of Brazil squad and will miss Brighton",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-21T08:12:15.424Z"
+  },
+  {
+    "id": "eeb4971f8de1",
+    "title": "Tuchel names 35-man split squad but Alexander-Arnold not included",
+    "date": "2026-03-20",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cre1d33gr3no?at_medium=RSS&at_campaign=rss",
+    "summary": "Tuchel names 35-man split squad but Alexander-Arnold not included",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-21T08:12:15.424Z"
+  },
+  {
+    "id": "06326cbe9343",
+    "title": "Rohl throws doubt on 'direction' of Cornelius' Rangers career",
+    "date": "2026-03-20",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cje4242elyno?at_medium=RSS&at_campaign=rss",
+    "summary": "Rohl throws doubt on 'direction' of Cornelius' Rangers career",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-21T08:12:15.424Z"
+  },
+  {
+    "id": "b79e7468e00c",
+    "title": "Tuchel thinks outside the box in final push for World Cup places with England expansion",
+    "date": "2026-03-20",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/20/thomas-tuchel-england-squad-world-cup-football",
+    "summary": "Tuchel thinks outside the box in final push for World Cup places with England expansion",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-21T08:12:15.424Z"
+  },
+  {
+    "id": "996c01e71aad",
+    "title": "Thomas Tuchel hones an England squad to suit his tactical visionn | Jonathan Wilson",
+    "date": "2026-03-20",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/20/thomas-tuchel-hones-an-england-squad-to-suit-his-tactical-vision",
+    "summary": "Thomas Tuchel hones an England squad to suit his tactical visionn | Jonathan Wilson",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-21T08:12:15.424Z"
+  },
+  {
+    "id": "7e47de84c481",
+    "title": "Aguirre presents surprise Mexico-born call-ups for 2026 World Cup qualifiers",
+    "date": "2026-03-20",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/world-cup/2026/03/20/69bdb5e1268e3e782c8b459f.html",
+    "summary": "Aguirre presents surprise Mexico-born call-ups for 2026 World Cup qualifiers",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-21T08:12:15.424Z"
+  },
+  {
+    "id": "5da22778c87b",
+    "title": "Iran threatens U.S. boycott but continues World Cup preparations amid uncertainty",
+    "date": "2026-03-20",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/world-cup/2026/03/20/69bda8bc268e3e6f418b45b3.html",
+    "summary": "Iran threatens U.S. boycott but continues World Cup preparations amid uncertainty",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-21T08:12:15.424Z"
+  },
+  {
+    "id": "2492f0f6f047",
+    "title": "Portugal loses Cristiano Ronaldo for Azteca Stadium",
+    "date": "2026-03-20",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/world-cup/2026/03/20/69bd4cede2704ef83b8b4579.html",
+    "summary": "Portugal loses Cristiano Ronaldo for Azteca Stadium",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-21T08:12:15.424Z"
+  },
+  {
+    "id": "4fd4a00145fc",
+    "title": "Brutal injury in Brazil: Marlon is left with his ankle hanging after suffering a serious fracture",
+    "date": "2026-03-20",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/football/2026/03/20/69bd4baae2704e6c0b8b4575.html",
+    "summary": "Brutal injury in Brazil: Marlon is left with his ankle hanging after suffering a serious fracture",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-21T08:12:15.424Z"
+  },
+  {
     "id": "dfa6b591540b",
     "title": "Ochoa, Fidalgo lead Mexico's list for WC warm-ups",
     "date": "2026-03-20",
@@ -4290,122 +4472,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-02-19T08:20:20.341Z"
-  },
-  {
-    "id": "0cb46f0c33bd",
-    "title": "Fishlock to join Wales staff for opening qualifier",
-    "date": "2026-02-18",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cm2rje9mq23o?at_medium=RSS&at_campaign=rss",
-    "summary": "Fishlock to join Wales staff for opening qualifier",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-19T08:20:20.341Z"
-  },
-  {
-    "id": "2976634b1cec",
-    "title": "Pressley backs Dundee's Graham for Premier League",
-    "date": "2026-02-18",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c4gq204pwk7o?at_medium=RSS&at_campaign=rss",
-    "summary": "Pressley backs Dundee's Graham for Premier League",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-19T08:20:20.341Z"
-  },
-  {
-    "id": "0cb46f0c33bd",
-    "title": "Fishlock to join Wales staff for opening qualifier",
-    "date": "2026-02-18",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cm2rje9mq23o?at_medium=RSS&at_campaign=rss",
-    "summary": "Fishlock to join Wales staff for opening qualifier",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-19T08:20:20.341Z"
-  },
-  {
-    "id": "17749d1f20ce",
-    "title": "Matildas gamble on Mary Fowler’s fitness as Women’s Asian Cup squad named",
-    "date": "2026-02-18",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/feb/18/matildas-australia-womens-asian-cup-squad-team-named",
-    "summary": "Matildas gamble on Mary Fowler’s fitness as Women’s Asian Cup squad named",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-19T08:20:20.341Z"
-  },
-  {
-    "id": "fc9ed7cb204f",
-    "title": "Football Daily | The Galatasaray Expendables lay waste Juve on night to forget for Cabal",
-    "date": "2026-02-18",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/feb/18/football-daily-email-the-galatasaray-expendables-juve",
-    "summary": "Football Daily | The Galatasaray Expendables lay waste Juve on night to forget for Cabal",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-19T08:20:20.341Z"
-  },
-  {
-    "id": "9cf008221ee9",
-    "title": "Lionel Messi's return to training brings relief to Argentina and Inter Miami",
-    "date": "2026-02-18",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/football/mls/2026/02/18/69961d16ca474143668b4579.html",
-    "summary": "Lionel Messi's return to training brings relief to Argentina and Inter Miami",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-19T08:20:20.341Z"
-  },
-  {
-    "id": "135256056497",
-    "title": "Mexico confirms trio of World Cup warm-up games",
-    "date": "2026-02-18",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/47957283/mexico-ghana-australia-serbia-2026-world-cup-friendlies",
-    "summary": "Mexico confirms trio of World Cup warm-up games",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-18T08:20:03.543Z"
-  },
-  {
-    "id": "aa5ace2325b6",
-    "title": "José Mourinho's strong accusations: Are referees helping Real Madrid?",
-    "date": "2026-02-18",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/football/champions-league/2026/02/18/69951c77e2704ed7028b4602.html",
-    "summary": "José Mourinho's strong accusations: Are referees helping Real Madrid?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-18T08:20:03.543Z"
-  },
-  {
-    "id": "9c6745ed6617",
-    "title": "Real Madrid's Vinicius Jr issues racism accusations: Mourinho sends strong message",
-    "date": "2026-02-18",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/football/real-madrid/2026/02/18/6995150146163f27038b4606.html",
-    "summary": "Real Madrid's Vinicius Jr issues racism accusations: Mourinho sends strong message",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-18T08:20:03.543Z"
   }
 ];
