@@ -2,6 +2,71 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "3f3ccab908f3",
+    "title": "'Not just goals, he's a great connecter' - should Welbeck be in England squad?",
+    "date": "2026-03-21",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c2k3dqjz55do?at_medium=RSS&at_campaign=rss",
+    "summary": "'Not just goals, he's a great connecter' - should Welbeck be in England squad?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-22T08:13:27.356Z"
+  },
+  {
+    "id": "4808b4a671ab",
+    "title": "WSL roundup: Shaw’s 13-minute treble edges City closer to title as Chelsea falter",
+    "date": "2026-03-21",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/21/wsl-roundup-manchester-city-khadija-shaw-chelsea-manchester-united",
+    "summary": "WSL roundup: Shaw’s 13-minute treble edges City closer to title as Chelsea falter",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-22T08:13:27.356Z"
+  },
+  {
+    "id": "c5c703a3409c",
+    "title": "Sardar Azmoun reportedly left out of Iran squad for disloyalty to government",
+    "date": "2026-03-21",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/21/sardar-azmoun-left-out-of-iran-squad-amid-reports-of-expulsion-from-national-team-world-cup",
+    "summary": "Sardar Azmoun reportedly left out of Iran squad for disloyalty to government",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-22T08:13:27.356Z"
+  },
+  {
+    "id": "7a7c9e0c57b6",
+    "title": "‘Newcastle fans booed me. Sunderland fans booed me’: the striker who replaced Shearer",
+    "date": "2026-03-21",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/21/newcastle-sunderland-derby-alan-shearer-ruud-gullit-paul-robinson",
+    "summary": "‘Newcastle fans booed me. Sunderland fans booed me’: the striker who replaced Shearer",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-22T08:13:27.356Z"
+  },
+  {
+    "id": "4b127049cb9c",
+    "title": "Nottingham Forest aim to recreate Midtjylland magic in showdown at Spurs",
+    "date": "2026-03-21",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/21/nottingham-forest-midtjylland-tottenham-premier-league",
+    "summary": "Nottingham Forest aim to recreate Midtjylland magic in showdown at Spurs",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-22T08:13:27.356Z"
+  },
+  {
     "id": "84ff1cfc1ea3",
     "title": "Marsch: USMNT U-turn left me 'devastated, angry'",
     "date": "2026-03-21",
@@ -4342,135 +4407,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-02-21T08:11:36.027Z"
-  },
-  {
-    "id": "0e9d105ec3e9",
-    "title": "Manchester United sweep aside Atlético to tee up Bayern Munich clash in WCL",
-    "date": "2026-02-19",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/feb/19/manchester-united-atletico-madrid-womens-champions-league-playoff-second-leg-match-report",
-    "summary": "Manchester United sweep aside Atlético to tee up Bayern Munich clash in WCL",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-20T08:19:19.122Z"
-  },
-  {
-    "id": "55c3fa60fd58",
-    "title": "Saka rejects talk of Arsenal wilting but scars of title near-misses run deep",
-    "date": "2026-02-19",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/feb/19/bukayo-saka-rejects-talk-arsenal-wilting-title-wolves",
-    "summary": "Saka rejects talk of Arsenal wilting but scars of title near-misses run deep",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-20T08:19:19.122Z"
-  },
-  {
-    "id": "b576d8ff85d6",
-    "title": "Champions League review: Bodø shock again, PSG escape and Mourinho’s dismal comments",
-    "date": "2026-02-19",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/feb/19/champions-league-review-bod-shock-again-psg-escape-and-mourinhos-dismal-comments",
-    "summary": "Champions League review: Bodø shock again, PSG escape and Mourinho’s dismal comments",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-20T08:19:19.122Z"
-  },
-  {
-    "id": "c066423e177e",
-    "title": "Japan replace draws with shootouts and hope to avoid paying World Cup penalty",
-    "date": "2026-02-19",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/feb/19/japan-replace-draws-with-shootouts-hope-to-avoid-paying-world-cup-penalty",
-    "summary": "Japan replace draws with shootouts and hope to avoid paying World Cup penalty",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-20T08:19:19.122Z"
-  },
-  {
-    "id": "2a87347b5a46",
-    "title": "Thibaut Courtois challenges Kylian Mbappé and is currently winning",
-    "date": "2026-02-19",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/football/real-madrid/2026/02/19/6997801f268e3e01438b457d.html",
-    "summary": "Thibaut Courtois challenges Kylian Mbappé and is currently winning",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-20T08:19:19.122Z"
-  },
-  {
-    "id": "7a36875e0d3f",
-    "title": "Montemurro on home Asian Cup, WSL pressure & fixing cultures",
-    "date": "2026-02-19",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cx2ryg14yxlo?at_medium=RSS&at_campaign=rss",
-    "summary": "Montemurro on home Asian Cup, WSL pressure & fixing cultures",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-19T08:20:20.341Z"
-  },
-  {
-    "id": "9a15242cb081",
-    "title": "McGinn says VAR  in Scotland is 'a mess' - gossip",
-    "date": "2026-02-19",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c70nzlgxgw6o?at_medium=RSS&at_campaign=rss",
-    "summary": "McGinn says VAR  in Scotland is 'a mess' - gossip",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-19T08:20:20.341Z"
-  },
-  {
-    "id": "7a36875e0d3f",
-    "title": "Montemurro on home Asian Cup, WSL pressure & fixing cultures",
-    "date": "2026-02-19",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cx2ryg14yxlo?at_medium=RSS&at_campaign=rss",
-    "summary": "Montemurro on home Asian Cup, WSL pressure & fixing cultures",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-19T08:20:20.341Z"
-  },
-  {
-    "id": "2521663463f0",
-    "title": "Matildas golden generation given last shot at silverware but next wave are key to Asian Cup hopes | Samantha Lewis",
-    "date": "2026-02-19",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/blog/2026/feb/19/matildas-australia-golden-generation-womens-asian-cup-squad",
-    "summary": "Matildas golden generation given last shot at silverware but next wave are key to Asian Cup hopes | Samantha Lewis",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-19T08:20:20.341Z"
-  },
-  {
-    "id": "ab8f5dc220a5",
-    "title": "Cristian Roldan acknowledges Pochettino's impact on U.S. Men's Soccer",
-    "date": "2026-02-19",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/football/2026/02/19/6996593946163f11088b456c.html",
-    "summary": "Cristian Roldan acknowledges Pochettino's impact on U.S. Men's Soccer",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-19T08:20:20.341Z"
   }
 ];
