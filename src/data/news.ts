@@ -2,6 +2,136 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "c5dfc0341df1",
+    "title": "Saliba out of France squad, Lacroix called up",
+    "date": "2026-03-23",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48285602/arsenal-william-saliba-withdraws-france-squad-maxence-lacroix-earns-first-call-up",
+    "summary": "Saliba out of France squad, Lacroix called up",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-23T08:26:41.224Z"
+  },
+  {
+    "id": "1b09ffadd6c2",
+    "title": "Taking wildcards, leaving out stars - the art of World Cup squad building",
+    "date": "2026-03-23",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c3rzr1xd4w1o?at_medium=RSS&at_campaign=rss",
+    "summary": "Taking wildcards, leaving out stars - the art of World Cup squad building",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-23T08:26:41.224Z"
+  },
+  {
+    "id": "7cd6080884fa",
+    "title": "Chaos breaks out at U.S. airports less than 100 days before the start of the 2026 World Cup",
+    "date": "2026-03-23",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/world-cup/2026/03/23/69c0ba37e2704e06398b45c3.html",
+    "summary": "Chaos breaks out at U.S. airports less than 100 days before the start of the 2026 World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-23T08:26:41.224Z"
+  },
+  {
+    "id": "47bedba8e461",
+    "title": "Reports: Neymar \"practically\" out of the 2026 World Cup",
+    "date": "2026-03-23",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/world-cup/2026/03/23/69c08f16268e3e965d8b45a9.html",
+    "summary": "Reports: Neymar \"practically\" out of the 2026 World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-23T08:26:41.224Z"
+  },
+  {
+    "id": "ad32fe980288",
+    "title": "Watkins gives Tuchel timely reminder as World Cup hopes still alive",
+    "date": "2026-03-22",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cvg3lxd74zjo?at_medium=RSS&at_campaign=rss",
+    "summary": "Watkins gives Tuchel timely reminder as World Cup hopes still alive",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-23T08:26:41.224Z"
+  },
+  {
+    "id": "c81971697ed0",
+    "title": "Newcastle's Barnes set to replace Eze in England squad",
+    "date": "2026-03-22",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cgldklk5j34o?at_medium=RSS&at_campaign=rss",
+    "summary": "Newcastle's Barnes set to replace Eze in England squad",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-23T08:26:41.224Z"
+  },
+  {
+    "id": "2a73e2b8c821",
+    "title": "'He's a fighter' - Emery backs Watkins after England omission",
+    "date": "2026-03-22",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/videos/cql73peld0no?at_medium=RSS&at_campaign=rss",
+    "summary": "'He's a fighter' - Emery backs Watkins after England omission",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-23T08:26:41.224Z"
+  },
+  {
+    "id": "a46b250cfc6d",
+    "title": "Ollie Watkins puts seal on Villa’s win over West Ham after England omission",
+    "date": "2026-03-22",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/22/aston-villa-west-ham-premier-league-match-report",
+    "summary": "Ollie Watkins puts seal on Villa’s win over West Ham after England omission",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-23T08:26:41.224Z"
+  },
+  {
+    "id": "21b06bf10639",
+    "title": "European football: Vinícius doubles up as Real Madrid edge Atlético in derby thriller",
+    "date": "2026-03-22",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/22/barcelona-real-madrid-atletico-roma-inter",
+    "summary": "European football: Vinícius doubles up as Real Madrid edge Atlético in derby thriller",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-23T08:26:41.224Z"
+  },
+  {
+    "id": "180cc7393ab4",
+    "title": "Danny Welbeck double helps Brighton deal blow to Liverpool’s top-five hopes",
+    "date": "2026-03-21",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/21/brighton-liverpool-premier-league-match-report",
+    "summary": "Danny Welbeck double helps Brighton deal blow to Liverpool’s top-five hopes",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-23T08:26:41.224Z"
+  },
+  {
     "id": "3f3ccab908f3",
     "title": "'Not just goals, he's a great connecter' - should Welbeck be in England squad?",
     "date": "2026-03-21",
@@ -4298,110 +4428,6 @@ export const news: NewsItem[] = [
     "source": "The Guardian",
     "url": "https://www.theguardian.com/football/2026/feb/21/neymar-says-he-may-retire-by-end-of-2026-brazil",
     "summary": "‘I’m living year to year now’: Neymar says he may retire by end of 2026",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-21T08:11:36.027Z"
-  },
-  {
-    "id": "e77eb31a8f37",
-    "title": "Brazil striker Neymar considering retirement",
-    "date": "2026-02-20",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c62g6zdjzpxo?at_medium=RSS&at_campaign=rss",
-    "summary": "Brazil striker Neymar considering retirement",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-21T08:11:36.027Z"
-  },
-  {
-    "id": "3b94733e8a29",
-    "title": "Rafferty returns for NI's World Cup qualifiers",
-    "date": "2026-02-20",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/ce94vvrxjnpo?at_medium=RSS&at_campaign=rss",
-    "summary": "Rafferty returns for NI's World Cup qualifiers",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-21T08:11:36.027Z"
-  },
-  {
-    "id": "9eec1bd293b4",
-    "title": "German soccer club cancel US trip amid concerns over ICE actions in Minnesota",
-    "date": "2026-02-20",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/feb/20/werder-bremen-cancel-us-trip-minnesota-ice",
-    "summary": "German soccer club cancel US trip amid concerns over ICE actions in Minnesota",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-21T08:11:36.027Z"
-  },
-  {
-    "id": "370f454c3220",
-    "title": "Murillo hails Pereira after ‘problems’ with past Nottingham Forest managers",
-    "date": "2026-02-20",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/feb/20/murillo-hails-vitor-pereira-after-problems-with-past-nottingham-forest-managers",
-    "summary": "Murillo hails Pereira after ‘problems’ with past Nottingham Forest managers",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-21T08:11:36.027Z"
-  },
-  {
-    "id": "7c44b9958a90",
-    "title": "Xabi Alonso says no to European champion in crisis as he waits for a better offer",
-    "date": "2026-02-20",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/football/2026/02/20/69988271e2704ea4128b458e.html",
-    "summary": "Xabi Alonso says no to European champion in crisis as he waits for a better offer",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-21T08:11:36.027Z"
-  },
-  {
-    "id": "3f499706f261",
-    "title": "The son of Brazilian international Thiago Silva makes his debut with... England!",
-    "date": "2026-02-20",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/football/2026/02/20/69986c3022601d415d8b45b3.html",
-    "summary": "The son of Brazilian international Thiago Silva makes his debut with... England!",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-21T08:11:36.027Z"
-  },
-  {
-    "id": "99c4a0f9cc5c",
-    "title": "2026 World Cup will be a sell-out: FIFA confirms tickets are sold out",
-    "date": "2026-02-20",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/world-cup/2026/02/20/69983824e2704e081c8b4593.html",
-    "summary": "2026 World Cup will be a sell-out: FIFA confirms tickets are sold out",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-21T08:11:36.027Z"
-  },
-  {
-    "id": "a046cd6c36d8",
-    "title": "Carlo Ancelotti breaks silence on Vinicius Junior's attitude at Real Madrid and Brazil",
-    "date": "2026-02-20",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/world-cup/2026/02/20/6998333ae2704eb02a8b459b.html",
-    "summary": "Carlo Ancelotti breaks silence on Vinicius Junior's attitude at Real Madrid and Brazil",
     "categories": [
       "general"
     ],
