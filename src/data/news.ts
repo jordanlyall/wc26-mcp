@@ -2,6 +2,188 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "d31a7b902a81",
+    "title": "Sources: Zidane verbally agrees to take France job",
+    "date": "2026-03-24",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48286234/zinedine-zidane-reaches-verbal-agreement-take-france-job-sources",
+    "summary": "Sources: Zidane verbally agrees to take France job",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-24T08:22:02.874Z"
+  },
+  {
+    "id": "c37f74773679",
+    "title": "Utd's Mbeumo, Sesko withdraw from internationals",
+    "date": "2026-03-24",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48286871/manchester-united-bryan-mbeumo-benjamin-sesko-withdraw-internationals",
+    "summary": "Utd's Mbeumo, Sesko withdraw from internationals",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-24T08:22:02.874Z"
+  },
+  {
+    "id": "e880453f4e50",
+    "title": "Scaloni appears ready to evaluate new options across the Argentina roster before the World Cup",
+    "date": "2026-03-24",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/football/2026/03/24/69c20ecd46163f00478b45d9.html",
+    "summary": "Scaloni appears ready to evaluate new options across the Argentina roster before the World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-24T08:22:02.874Z"
+  },
+  {
+    "id": "4eec4d35b240",
+    "title": "Ex-USMNT star calls out Mauricio Pochettino over recent decisions",
+    "date": "2026-03-24",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/football/2026/03/24/69c1deb222601d5c4e8b45a6.html",
+    "summary": "Ex-USMNT star calls out Mauricio Pochettino over recent decisions",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-24T08:22:02.874Z"
+  },
+  {
+    "id": "c7d333aa7a2e",
+    "title": "Cooper accused of dropping Bosnia player before Wales tie",
+    "date": "2026-03-23",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cly6gxp4wngo?at_medium=RSS&at_campaign=rss",
+    "summary": "Cooper accused of dropping Bosnia player before Wales tie",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-24T08:22:02.874Z"
+  },
+  {
+    "id": "43fac87d982a",
+    "title": "Sancho in talks with Dortmund - Tuesday's gossip",
+    "date": "2026-03-23",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c98medn56r7o?at_medium=RSS&at_campaign=rss",
+    "summary": "Sancho in talks with Dortmund - Tuesday's gossip",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-24T08:22:02.874Z"
+  },
+  {
+    "id": "53ea35955840",
+    "title": "Foden final appearance felt like a 'charity' substitution - Rooney",
+    "date": "2026-03-23",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c2ev7mxr40go?at_medium=RSS&at_campaign=rss",
+    "summary": "Foden final appearance felt like a 'charity' substitution - Rooney",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-24T08:22:02.874Z"
+  },
+  {
+    "id": "c95388989f8f",
+    "title": "White gets first England call-up since 2022",
+    "date": "2026-03-23",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cx2dy01l238o?at_medium=RSS&at_campaign=rss",
+    "summary": "White gets first England call-up since 2022",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-24T08:22:02.874Z"
+  },
+  {
+    "id": "a2ebecee8c1b",
+    "title": "Scotland would be 'silly' not to offer Clarke new deal - Dalglish",
+    "date": "2026-03-23",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c3ex87d09pdo?at_medium=RSS&at_campaign=rss",
+    "summary": "Scotland would be 'silly' not to offer Clarke new deal - Dalglish",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-24T08:22:02.874Z"
+  },
+  {
+    "id": "9b85f80beb2f",
+    "title": "Stars finally align for Ben White with Tuchel ending defender’s England exile | David Hytner",
+    "date": "2026-03-23",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/23/ben-white-england-thomas-tuchel-arsenal-world-cup-football",
+    "summary": "Stars finally align for Ben White with Tuchel ending defender’s England exile | David Hytner",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-24T08:22:02.874Z"
+  },
+  {
+    "id": "fba0f268f26c",
+    "title": "English clubs’ plea for bigger Champions League squads rejected after Spanish backlash",
+    "date": "2026-03-23",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/23/english-clubs-plea-for-bigger-champions-league-squads-rejected-uefa-after-spanish-backlash",
+    "summary": "English clubs’ plea for bigger Champions League squads rejected after Spanish backlash",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-24T08:22:02.874Z"
+  },
+  {
+    "id": "7be183cdf849",
+    "title": "Esposito excels for Inter and could banish the fear stalking Italy before playoff | Nicky Bandini",
+    "date": "2026-03-23",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/23/pio-esposito-inter-serie-a-italy-playoff",
+    "summary": "Esposito excels for Inter and could banish the fear stalking Italy before playoff | Nicky Bandini",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-24T08:22:02.874Z"
+  },
+  {
+    "id": "17a60dba6b95",
+    "title": "Why the Mexico vs Portugal friendly in Mexico doesn't feel the same anymore",
+    "date": "2026-03-23",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/world-cup/2026/03/23/69c1a66946163f7d4e8b459a.html",
+    "summary": "Why the Mexico vs Portugal friendly in Mexico doesn't feel the same anymore",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-24T08:22:02.874Z"
+  },
+  {
+    "id": "22ed41b36e65",
+    "title": "Cristiano Ronaldo sparks optimism by sharing progress in his recovery after being left out of Portugal's squad",
+    "date": "2026-03-23",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/football/2026/03/23/69c1430322601de5018b4585.html",
+    "summary": "Cristiano Ronaldo sparks optimism by sharing progress in his recovery after being left out of Portugal's squad",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-24T08:22:02.874Z"
+  },
+  {
     "id": "c5dfc0341df1",
     "title": "Saliba out of France squad, Lacroix called up",
     "date": "2026-03-23",
@@ -4381,57 +4563,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-02-23T08:20:59.833Z"
-  },
-  {
-    "id": "b80a428db82a",
-    "title": "Sources: USMNT's Sargent set to join Toronto FC",
-    "date": "2026-02-21",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/47986546/usmnt-norwich-city-forward-josh-sargent-set-toronto-fc-transfer-sources",
-    "summary": "Sources: USMNT's Sargent set to join Toronto FC",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-22T08:11:55.836Z"
-  },
-  {
-    "id": "2cc47ee832a3",
-    "title": "Birmingham’s Hurtré piles pain on Chatham during 8-0 rout in Women’s FA Cup",
-    "date": "2026-02-21",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/feb/21/womens-fa-cup-birmingham-chatham-match-report",
-    "summary": "Birmingham’s Hurtré piles pain on Chatham during 8-0 rout in Women’s FA Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-22T08:11:55.836Z"
-  },
-  {
-    "id": "8d0c55ad7081",
-    "title": "NY/NJ scrap Liberty State Park World Cup FanFest",
-    "date": "2026-02-21",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/47987578/world-cup-2026-new-york-jersey-fanfest-statue-liberty",
-    "summary": "NY/NJ scrap Liberty State Park World Cup FanFest",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-21T08:11:36.027Z"
-  },
-  {
-    "id": "690bccbc9075",
-    "title": "‘I’m living year to year now’: Neymar says he may retire by end of 2026",
-    "date": "2026-02-21",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/feb/21/neymar-says-he-may-retire-by-end-of-2026-brazil",
-    "summary": "‘I’m living year to year now’: Neymar says he may retire by end of 2026",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-21T08:11:36.027Z"
   }
 ];
