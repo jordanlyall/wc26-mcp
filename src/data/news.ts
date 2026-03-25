@@ -2,6 +2,201 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "0b765a2ad351",
+    "title": "Roldan: 'Huge gap' in U.S. midfield without Adams",
+    "date": "2026-03-25",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48297948/roldan-competitive-us-midfield-huge-gap-adams",
+    "summary": "Roldan: 'Huge gap' in U.S. midfield without Adams",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-25T08:21:35.085Z"
+  },
+  {
+    "id": "e1a97ffa2cc5",
+    "title": "2026 World Cup: Which teams will claim the final 6 places?",
+    "date": "2026-03-25",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/40297462/2026-world-cup-how-nations-world-qualify",
+    "summary": "2026 World Cup: Which teams will claim the final 6 places?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-25T08:21:35.085Z"
+  },
+  {
+    "id": "c4efbe4fc079",
+    "title": "Key questions for Clarke in Scotland's final pre-World Cup camp",
+    "date": "2026-03-25",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/czd75vzevl2o?at_medium=RSS&at_campaign=rss",
+    "summary": "Key questions for Clarke in Scotland's final pre-World Cup camp",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-25T08:21:35.085Z"
+  },
+  {
+    "id": "d4339381938a",
+    "title": "Bosnia 2-0 Wales - 'The best defeat of my life'",
+    "date": "2026-03-25",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/videos/c2398j3r8dmo?at_medium=RSS&at_campaign=rss",
+    "summary": "Bosnia 2-0 Wales - 'The best defeat of my life'",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-25T08:21:35.085Z"
+  },
+  {
+    "id": "c4efbe4fc079",
+    "title": "Key questions for Clarke in Scotland's final pre-World Cup camp",
+    "date": "2026-03-25",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/czd75vzevl2o?at_medium=RSS&at_campaign=rss",
+    "summary": "Key questions for Clarke in Scotland's final pre-World Cup camp",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-25T08:21:35.085Z"
+  },
+  {
+    "id": "f91034362923",
+    "title": "‘I can’t leave like a coward’: Romania’s Mircea Lucescu on illness and his World Cup dream at 80",
+    "date": "2026-03-25",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/25/i-cant-leave-like-a-coward-romanias-mircea-lucescu-on-illness-and-his-world-cup-dream-at-80",
+    "summary": "‘I can’t leave like a coward’: Romania’s Mircea Lucescu on illness and his World Cup dream at 80",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-25T08:21:35.085Z"
+  },
+  {
+    "id": "9897c851eeba",
+    "title": "Who was the first footballer to announce their international retirement? | The Knowledge",
+    "date": "2026-03-25",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/25/who-was-the-first-footballer-to-announce-their-international-retirement-knowledge",
+    "summary": "Who was the first footballer to announce their international retirement? | The Knowledge",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-25T08:21:35.085Z"
+  },
+  {
+    "id": "3085ea956c9d",
+    "title": "Russo settles thrilling Champions League first leg for Arsenal",
+    "date": "2026-03-24",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/videos/c5ywdenzn12o?at_medium=RSS&at_campaign=rss",
+    "summary": "Russo settles thrilling Champions League first leg for Arsenal",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-25T08:21:35.085Z"
+  },
+  {
+    "id": "5e60c4ad1a1b",
+    "title": "Complaint filed over World Cup ticket prices",
+    "date": "2026-03-24",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/clyx27vv7rno?at_medium=RSS&at_campaign=rss",
+    "summary": "Complaint filed over World Cup ticket prices",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-25T08:21:35.085Z"
+  },
+  {
+    "id": "adf6c3cecdb4",
+    "title": "I miss English football - Pochettino on 'ideal place' to manage",
+    "date": "2026-03-24",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c0mjzmyx80ro?at_medium=RSS&at_campaign=rss",
+    "summary": "I miss English football - Pochettino on 'ideal place' to manage",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-25T08:21:35.085Z"
+  },
+  {
+    "id": "c5f944749109",
+    "title": "Is Scotland cap next step on Stewart's 'surreal' journey?",
+    "date": "2026-03-24",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c1450zrpey3o?at_medium=RSS&at_campaign=rss",
+    "summary": "Is Scotland cap next step on Stewart's 'surreal' journey?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-25T08:21:35.085Z"
+  },
+  {
+    "id": "c5f944749109",
+    "title": "Is Scotland cap next step on Stewart's 'surreal' journey?",
+    "date": "2026-03-24",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c1450zrpey3o?at_medium=RSS&at_campaign=rss",
+    "summary": "Is Scotland cap next step on Stewart's 'surreal' journey?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-25T08:21:35.085Z"
+  },
+  {
+    "id": "3085ea956c9d",
+    "title": "Russo settles thrilling Champions League first leg for Arsenal",
+    "date": "2026-03-24",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/videos/c5ywdenzn12o?at_medium=RSS&at_campaign=rss",
+    "summary": "Russo settles thrilling Champions League first leg for Arsenal",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-25T08:21:35.085Z"
+  },
+  {
+    "id": "63cfba035305",
+    "title": "James Garner pleased with defining year at Everton after receiving first England call-up",
+    "date": "2026-03-24",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/24/james-garner-england-everton-uruguay-japan-world-cup-squad",
+    "summary": "James Garner pleased with defining year at Everton after receiving first England call-up",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-25T08:21:35.085Z"
+  },
+  {
+    "id": "fc436cd8e0d0",
+    "title": "‘Sport gave me new dreams’: the emergence of Brazil women’s blind team",
+    "date": "2026-03-24",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/24/brazil-womens-blind-team-moving-the-goalposts-newsletter",
+    "summary": "‘Sport gave me new dreams’: the emergence of Brazil women’s blind team",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-25T08:21:35.085Z"
+  },
+  {
     "id": "d31a7b902a81",
     "title": "Sources: Zidane verbally agrees to take France job",
     "date": "2026-03-24",
@@ -52,6 +247,19 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-03-24T08:22:02.874Z"
+  },
+  {
+    "id": "3e980f4afd6f",
+    "title": "‘We’re not in England any more’: Tuchel hopes Kansas City is World Cup haven",
+    "date": "2026-03-23",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/23/thomas-tuchel-kansas-city-hotel-world-cup-england",
+    "summary": "‘We’re not in England any more’: Tuchel hopes Kansas City is World Cup haven",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-25T08:21:35.085Z"
   },
   {
     "id": "c7d333aa7a2e",
