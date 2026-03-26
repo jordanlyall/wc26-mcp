@@ -2,6 +2,201 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "631b5b6f9bc9",
+    "title": "FIFA details final phase of World Cup ticket sales",
+    "date": "2026-03-26",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48305423/fifa-2026-world-cup-ticket-sales-final-phase",
+    "summary": "FIFA details final phase of World Cup ticket sales",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-26T08:24:47.657Z"
+  },
+  {
+    "id": "c1ea694f2172",
+    "title": "MLS commish Garber would 'love' Salah in league",
+    "date": "2026-03-26",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48307318/mls-commissioner-garber-love-salah-league",
+    "summary": "MLS commish Garber would 'love' Salah in league",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-26T08:24:47.657Z"
+  },
+  {
+    "id": "53a19cbf74d7",
+    "title": "What Wales must do to keep World Cup dream alive",
+    "date": "2026-03-26",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c7vqem511n3o?at_medium=RSS&at_campaign=rss",
+    "summary": "What Wales must do to keep World Cup dream alive",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-26T08:24:47.657Z"
+  },
+  {
+    "id": "3691f0cd9c4b",
+    "title": "Listen: Latest on Scotland & St Mirren manager jobs and Tavernier contract",
+    "date": "2026-03-26",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sounds/play/p0n8tzh2?at_medium=RSS&at_campaign=rss",
+    "summary": "Listen: Latest on Scotland & St Mirren manager jobs and Tavernier contract",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-26T08:24:47.657Z"
+  },
+  {
+    "id": "34b33bc8f049",
+    "title": "2026 World Cup playoff preview, predictions: Who will book the final six spots?",
+    "date": "2026-03-25",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48297340/2026-world-cup-playoff-preview-predictions-uefa-intercontinental-fixtures-mark-ogden",
+    "summary": "2026 World Cup playoff preview, predictions: Who will book the final six spots?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-26T08:24:47.657Z"
+  },
+  {
+    "id": "0e28301c2e60",
+    "title": "Data usage, AI's role and player welfare - 'Football in 10 Years' discussion",
+    "date": "2026-03-25",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/ckgxz9yre4wo?at_medium=RSS&at_campaign=rss",
+    "summary": "Data usage, AI's role and player welfare - 'Football in 10 Years' discussion",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-26T08:24:47.657Z"
+  },
+  {
+    "id": "1cae0e608e14",
+    "title": "Scots playing with pressure encourages Andreatta",
+    "date": "2026-03-25",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/clyx21x73y4o?at_medium=RSS&at_campaign=rss",
+    "summary": "Scots playing with pressure encourages Andreatta",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-26T08:24:47.657Z"
+  },
+  {
+    "id": "1cae0e608e14",
+    "title": "Scots playing with pressure encourages Andreatta",
+    "date": "2026-03-25",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/clyx21x73y4o?at_medium=RSS&at_campaign=rss",
+    "summary": "Scots playing with pressure encourages Andreatta",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-26T08:24:47.657Z"
+  },
+  {
+    "id": "1cae0e608e14",
+    "title": "Scots playing with pressure encourages Andreatta",
+    "date": "2026-03-25",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/clyx21x73y4o?at_medium=RSS&at_campaign=rss",
+    "summary": "Scots playing with pressure encourages Andreatta",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-26T08:24:47.657Z"
+  },
+  {
+    "id": "2d481258fd87",
+    "title": "Italy and Northern Ireland target return to international football’s top table",
+    "date": "2026-03-25",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/25/italy-northern-ireland-world-cup-playoff-gennaro-gattuso-michael-o-neill",
+    "summary": "Italy and Northern Ireland target return to international football’s top table",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-26T08:24:47.657Z"
+  },
+  {
+    "id": "c4854eb502a5",
+    "title": "‘There won’t be any regrets’: Bellamy steels Wales for last World Cup push",
+    "date": "2026-03-25",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/25/there-wont-be-any-regrets-bellamy-steels-wales-for-last-world-cup-push",
+    "summary": "‘There won’t be any regrets’: Bellamy steels Wales for last World Cup push",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-26T08:24:47.657Z"
+  },
+  {
+    "id": "2e68bfc50da0",
+    "title": "Man who posted racist messages about England’s Jess Carter on TikTok avoids jail",
+    "date": "2026-03-25",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/25/man-suspended-prison-term-online-abuse-jess-carter-england-women-euro-2025",
+    "summary": "Man who posted racist messages about England’s Jess Carter on TikTok avoids jail",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-26T08:24:47.657Z"
+  },
+  {
+    "id": "896c9de20ccc",
+    "title": "Harry Maguire: ‘I really like Ruben, he’s got great ideas. They just didn’t work at Manchester United’",
+    "date": "2026-03-25",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/25/harry-maguire-ruben-amorim-manchester-united-england",
+    "summary": "Harry Maguire: ‘I really like Ruben, he’s got great ideas. They just didn’t work at Manchester United’",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-26T08:24:47.657Z"
+  },
+  {
+    "id": "71121c54ff00",
+    "title": "Fans and players from five African World Cup countries face $15,000 bond to enter US",
+    "date": "2026-03-25",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/25/fans-and-players-from-five-african-world-cup-countries-face-15000-bond-to-enter-us",
+    "summary": "Fans and players from five African World Cup countries face $15,000 bond to enter US",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-26T08:24:47.657Z"
+  },
+  {
+    "id": "2d85ca1886a9",
+    "title": "Coleman tells Ireland they have a duty to lift country in World Cup playoff",
+    "date": "2026-03-25",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/25/coleman-tells-ireland-they-have-a-duty-to-lift-country-before-world-cup-playoff",
+    "summary": "Coleman tells Ireland they have a duty to lift country in World Cup playoff",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-26T08:24:47.657Z"
+  },
+  {
     "id": "0b765a2ad351",
     "title": "Roldan: 'Huge gap' in U.S. midfield without Adams",
     "date": "2026-03-25",
@@ -91,6 +286,19 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-03-25T08:21:35.085Z"
+  },
+  {
+    "id": "a1dd9a6a3051",
+    "title": "Tuchel clearly doesn't rate Alexander-Arnold - Sutton",
+    "date": "2026-03-24",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/videos/cp8476659ygo?at_medium=RSS&at_campaign=rss",
+    "summary": "Tuchel clearly doesn't rate Alexander-Arnold - Sutton",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-26T08:24:47.657Z"
   },
   {
     "id": "3085ea956c9d",
@@ -4589,187 +4797,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-02-24T08:21:15.610Z"
-  },
-  {
-    "id": "56e812b6e84c",
-    "title": "Curacao boss Advocaat steps down and misses making World Cup history",
-    "date": "2026-02-23",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cn0e23gkg5lo?at_medium=RSS&at_campaign=rss",
-    "summary": "Curacao boss Advocaat steps down and misses making World Cup history",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-24T08:21:15.610Z"
-  },
-  {
-    "id": "e575842df72d",
-    "title": "Scotland lose Maclean and Cornet for World Cup qualifying openers",
-    "date": "2026-02-23",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cy0dqr1en95o?at_medium=RSS&at_campaign=rss",
-    "summary": "Scotland lose Maclean and Cornet for World Cup qualifying openers",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-24T08:21:15.610Z"
-  },
-  {
-    "id": "56e812b6e84c",
-    "title": "Advocaat to miss Scotland friendly and World Cup history ",
-    "date": "2026-02-23",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cn0e23gkg5lo?at_medium=RSS&at_campaign=rss",
-    "summary": "Advocaat to miss Scotland friendly and World Cup history ",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-24T08:21:15.610Z"
-  },
-  {
-    "id": "e575842df72d",
-    "title": "Scotland lose Maclean and Cornet for World Cup openers",
-    "date": "2026-02-23",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cy0dqr1en95o?at_medium=RSS&at_campaign=rss",
-    "summary": "Scotland lose Maclean and Cornet for World Cup openers",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-24T08:21:15.610Z"
-  },
-  {
-    "id": "e575842df72d",
-    "title": "Scotland lose Maclean and Cornet for World Cup qualifying openers",
-    "date": "2026-02-23",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cy0dqr1en95o?at_medium=RSS&at_campaign=rss",
-    "summary": "Scotland lose Maclean and Cornet for World Cup qualifying openers",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-24T08:21:15.610Z"
-  },
-  {
-    "id": "15c1e948116b",
-    "title": "Supersub Benjamin Sesko fires Manchester United past Everton and into top four",
-    "date": "2026-02-23",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/feb/23/everton-manchester-united-premier-league-match-report",
-    "summary": "Supersub Benjamin Sesko fires Manchester United past Everton and into top four",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-24T08:21:15.610Z"
-  },
-  {
-    "id": "9e03f5e4512c",
-    "title": "Women’s FA Cup talking points: Kerr shows the way and Liverpool resurgence continues",
-    "date": "2026-02-23",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/feb/23/womens-fa-cup-talking-points-kerr-shows-the-way-and-liverpool-resurgence-continues",
-    "summary": "Women’s FA Cup talking points: Kerr shows the way and Liverpool resurgence continues",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-24T08:21:15.610Z"
-  },
-  {
-    "id": "198dfae88fb4",
-    "title": "Games in Mexico called off after cartel boss killed",
-    "date": "2026-02-23",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48010697/mexican-league-matches-postponed-cartel-leader-dies",
-    "summary": "Games in Mexico called off after cartel boss killed",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-23T08:20:59.833Z"
-  },
-  {
-    "id": "d97008934261",
-    "title": "Loftus-Cheek carried off after collision",
-    "date": "2026-02-23",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c3wl4g1g7ywo?at_medium=RSS&at_campaign=rss",
-    "summary": "Loftus-Cheek carried off after collision",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-23T08:20:59.833Z"
-  },
-  {
-    "id": "1a777cf17c16",
-    "title": "Premier League: 10 talking points from the weekend’s action",
-    "date": "2026-02-23",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/feb/23/premier-league-10-talking-points-from-the-weekends-action",
-    "summary": "Premier League: 10 talking points from the weekend’s action",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-23T08:20:59.833Z"
-  },
-  {
-    "id": "4803f134bbb7",
-    "title": "Bruno Fernandes is back in his best position and more effective than ever",
-    "date": "2026-02-23",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/who-scored-blog/2026/feb/23/bruno-fernandes-best-position-effective-manchester-united-season",
-    "summary": "Bruno Fernandes is back in his best position and more effective than ever",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-23T08:20:59.833Z"
-  },
-  {
-    "id": "c8fa3571cf0b",
-    "title": "North Korea: world’s most secretive nation lands in spotlight at Women’s Asian Cup | Samantha Lewis",
-    "date": "2026-02-23",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/sport/2026/feb/23/north-korea-womens-national-football-team-asian-cup-2026",
-    "summary": "North Korea: world’s most secretive nation lands in spotlight at Women’s Asian Cup | Samantha Lewis",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-23T08:20:59.833Z"
-  },
-  {
-    "id": "0aff540dc294",
-    "title": "Cristiano Ronaldo match in Mexico under threat after cartel violence erupts",
-    "date": "2026-02-23",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/football/2026/02/23/699bcecf22601d16448b4572.html",
-    "summary": "Cristiano Ronaldo match in Mexico under threat after cartel violence erupts",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-23T08:20:59.833Z"
-  },
-  {
-    "id": "1bcbe90bae1a",
-    "title": "Alphonso Davies goes down leaving Bayern Munich and Canada with a big headache before the World Cup",
-    "date": "2026-02-23",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/football/bundesliga/2026/02/23/699bb2daca4741ab578b45a9.html",
-    "summary": "Alphonso Davies goes down leaving Bayern Munich and Canada with a big headache before the World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-23T08:20:59.833Z"
   }
 ];
