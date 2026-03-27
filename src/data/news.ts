@@ -2,6 +2,253 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "1abd93fc9b9c",
+    "title": "Tonali, Kean goals send Italy to WC playoff final",
+    "date": "2026-03-27",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48313675/2026-world-cup-playoffs-uefa-turkiye-italy-wales-ukraine-sweden-ireland",
+    "summary": "Tonali, Kean goals send Italy to WC playoff final",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-27T08:22:29.482Z"
+  },
+  {
+    "id": "6c6a2558119a",
+    "title": "Ancelotti on Neymar chants: 'Focus on who is here'",
+    "date": "2026-03-27",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48317743/ancelotti-deflects-neymar-chants-brazil-loss-france",
+    "summary": "Ancelotti on Neymar chants: 'Focus on who is here'",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-27T08:22:29.482Z"
+  },
+  {
+    "id": "3197abe0d679",
+    "title": "Reyna felt 'fortunate' to get March USMNT call",
+    "date": "2026-03-27",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48315777/giovanni-reyna-feels-fortunate-get-march-usmnt-call",
+    "summary": "Reyna felt 'fortunate' to get March USMNT call",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-27T08:22:29.482Z"
+  },
+  {
+    "id": "d535a8d2da98",
+    "title": "Gyokeres' 'incredible' hat trick gives Sweden win",
+    "date": "2026-03-27",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48316155/viktor-gyokeres-sweden-ukraine-hat-trick-world-cup-playoff",
+    "summary": "Gyokeres' 'incredible' hat trick gives Sweden win",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-27T08:22:29.482Z"
+  },
+  {
+    "id": "64e69ca03562",
+    "title": "Bellamy rues chaos against Bosnia as Wales' World Cup dream ends",
+    "date": "2026-03-27",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cx235x4xynjo?at_medium=RSS&at_campaign=rss",
+    "summary": "Bellamy rues chaos against Bosnia as Wales' World Cup dream ends",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-27T08:22:29.482Z"
+  },
+  {
+    "id": "bf97ec99fc45",
+    "title": "Will Uruguay be tough test Tuchel's England need?",
+    "date": "2026-03-27",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cd9ggjj1je5o?at_medium=RSS&at_campaign=rss",
+    "summary": "Will Uruguay be tough test Tuchel's England need?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-27T08:22:29.482Z"
+  },
+  {
+    "id": "77a46ce5597e",
+    "title": "Bellamy bewildered by Wales' shootout defeat",
+    "date": "2026-03-27",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/videos/c4g4xrw8yd9o?at_medium=RSS&at_campaign=rss",
+    "summary": "Bellamy bewildered by Wales' shootout defeat",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-27T08:22:29.482Z"
+  },
+  {
+    "id": "188795438b06",
+    "title": "The 'daredevil child' scouted by an ex-England captain",
+    "date": "2026-03-27",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/videos/c4gd388mp03o?at_medium=RSS&at_campaign=rss",
+    "summary": "The 'daredevil child' scouted by an ex-England captain",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-27T08:22:29.482Z"
+  },
+  {
+    "id": "7ad54df1b0df",
+    "title": "Australia v Cameroon: Fifa Series international football friendly – live",
+    "date": "2026-03-27",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/live/2026/mar/27/australia-v-cameroon-live-match-updates-football",
+    "summary": "Australia v Cameroon: Fifa Series international football friendly – live",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-27T08:22:29.482Z"
+  },
+  {
+    "id": "7ad6f4b936a3",
+    "title": "Germany's first woman coach at men's pro level is chasing her dreams",
+    "date": "2026-03-26",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48306172/germany-first-woman-coach-men-pro-level-chasing-dreams-sabrina-wittmann-ingolstadt",
+    "summary": "Germany's first woman coach at men's pro level is chasing her dreams",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-27T08:22:29.482Z"
+  },
+  {
+    "id": "67f77c0b8074",
+    "title": "White must clear air with England team-mates - Tuchel",
+    "date": "2026-03-26",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c62jq8ddn76o?at_medium=RSS&at_campaign=rss",
+    "summary": "White must clear air with England team-mates - Tuchel",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-27T08:22:29.482Z"
+  },
+  {
+    "id": "e68c88e30d99",
+    "title": "Dzeko could join oldest players in World Cup history",
+    "date": "2026-03-26",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/ce84y7g4427o?at_medium=RSS&at_campaign=rss",
+    "summary": "Dzeko could join oldest players in World Cup history",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-27T08:22:29.482Z"
+  },
+  {
+    "id": "9244f5dd7b0e",
+    "title": "Senegal to parade Afcon trophy despite title being stripped",
+    "date": "2026-03-26",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c070kg5rn0ko?at_medium=RSS&at_campaign=rss",
+    "summary": "Senegal to parade Afcon trophy despite title being stripped",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-27T08:22:29.482Z"
+  },
+  {
+    "id": "b47e8de1b670",
+    "title": "You are Scotland head coach Clarke… what would you do?",
+    "date": "2026-03-26",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cvglw2qzxkgo?at_medium=RSS&at_campaign=rss",
+    "summary": "You are Scotland head coach Clarke… what would you do?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-27T08:22:29.482Z"
+  },
+  {
+    "id": "73a255beefc2",
+    "title": "Wales agony as Bosnia and Herzegovina win penalty shootout to end World Cup hopes",
+    "date": "2026-03-26",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/26/wales-bosnia-herzegovina-world-cup-qualifying-playoff-semi-final-match-report",
+    "summary": "Wales agony as Bosnia and Herzegovina win penalty shootout to end World Cup hopes",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-27T08:22:29.482Z"
+  },
+  {
+    "id": "f5135b5c5354",
+    "title": "Ireland dreams end in shootout heartbreak after Krejci’s late goal rescues Czechs",
+    "date": "2026-03-26",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/26/czech-republic-republic-of-ireland-world-cup-qualifying-playoff-semi-final-match-report",
+    "summary": "Ireland dreams end in shootout heartbreak after Krejci’s late goal rescues Czechs",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-27T08:22:29.482Z"
+  },
+  {
+    "id": "b67d5fc4c95f",
+    "title": "Viktor Gyökeres hits hat-trick as Sweden and Graham Potter see off Ukraine",
+    "date": "2026-03-26",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/26/ukraine-sweden-world-cup-qualifying-playoff-semi-final-match-report",
+    "summary": "Viktor Gyökeres hits hat-trick as Sweden and Graham Potter see off Ukraine",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-27T08:22:29.482Z"
+  },
+  {
+    "id": "bea9d42ef83b",
+    "title": "World Cup playoffs: Poland fight back to sink Albania, Kosovo win thriller in Slovakia",
+    "date": "2026-03-26",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/26/world-cup-playoffs-turkey-romania-denmark-north-macedonia-poland-albania-slovakia-kosovo",
+    "summary": "World Cup playoffs: Poland fight back to sink Albania, Kosovo win thriller in Slovakia",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-27T08:22:29.482Z"
+  },
+  {
+    "id": "82732eaea2e6",
+    "title": "Thomas Tuchel confident Ben White will not be booed by England crowd",
+    "date": "2026-03-26",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/26/thomas-tuchel-confident-ben-white-will-not-be-booed-by-england-crowd",
+    "summary": "Thomas Tuchel confident Ben White will not be booed by England crowd",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-27T08:22:29.482Z"
+  },
+  {
     "id": "631b5b6f9bc9",
     "title": "FIFA details final phase of World Cup ticket sales",
     "date": "2026-03-26",
@@ -4576,226 +4823,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-02-25T08:20:50.174Z"
-  },
-  {
-    "id": "ee06e536b802",
-    "title": "Tom Brady explains why 2026 FIFA World Cup will be different, as NFL legend plays an ambassador role",
-    "date": "2026-02-24",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/nfl/las-vegas-raiders/2026/02/24/699dd151ca474136638b45c8.html",
-    "summary": "Tom Brady explains why 2026 FIFA World Cup will be different, as NFL legend plays an ambassador role",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-26T08:20:56.899Z"
-  },
-  {
-    "id": "d6e6b7e7c149",
-    "title": "Williamson 'wouldn't rule out' striking over scheduling",
-    "date": "2026-02-24",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cwyke2k1eryo?at_medium=RSS&at_campaign=rss",
-    "summary": "Williamson 'wouldn't rule out' striking over scheduling",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-25T08:20:50.174Z"
-  },
-  {
-    "id": "7f764bd5b4af",
-    "title": "BBC Women's Football Weekly",
-    "date": "2026-02-24",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sounds/play/p0n3056d?at_medium=RSS&at_campaign=rss",
-    "summary": "BBC Women's Football Weekly",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-25T08:20:50.174Z"
-  },
-  {
-    "id": "d6e6b7e7c149",
-    "title": "Williamson 'wouldn't rule out' striking over scheduling",
-    "date": "2026-02-24",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cwyke2k1eryo?at_medium=RSS&at_campaign=rss",
-    "summary": "Williamson 'wouldn't rule out' striking over scheduling",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-25T08:20:50.174Z"
-  },
-  {
-    "id": "7f764bd5b4af",
-    "title": "BBC Women's Football Weekly",
-    "date": "2026-02-24",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sounds/play/p0n3056d?at_medium=RSS&at_campaign=rss",
-    "summary": "BBC Women's Football Weekly",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-25T08:20:50.174Z"
-  },
-  {
-    "id": "67a4661b4b89",
-    "title": "Swansea bow to co-owner Snoop Dogg with guard of honour before kick-off",
-    "date": "2026-02-24",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/feb/24/swansea-preston-snoop-dogg-championship-roundup",
-    "summary": "Swansea bow to co-owner Snoop Dogg with guard of honour before kick-off",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-25T08:20:50.174Z"
-  },
-  {
-    "id": "55e69a8dcb1b",
-    "title": "Newcastle finish off Qarabag in rapid time to set up Chelsea or Barcelona tie",
-    "date": "2026-02-24",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/feb/24/newcastle-qarabag-champions-league-playoff-match-report",
-    "summary": "Newcastle finish off Qarabag in rapid time to set up Chelsea or Barcelona tie",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-25T08:20:50.174Z"
-  },
-  {
-    "id": "56f9afd9437b",
-    "title": "World Cup host cities ‘running out of time’ with $625m in funding held up by shutdown",
-    "date": "2026-02-24",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/feb/24/world-cup-host-cities-funding-dhs-shutdown",
-    "summary": "World Cup host cities ‘running out of time’ with $625m in funding held up by shutdown",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-25T08:20:50.174Z"
-  },
-  {
-    "id": "d1434862ae13",
-    "title": "Williamson refuses to rule out strike action amid player overload concerns",
-    "date": "2026-02-24",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/feb/24/england-womens-world-cup-qualifier-everton-hill-dickinson-stadium-ukraine-june",
-    "summary": "Williamson refuses to rule out strike action amid player overload concerns",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-25T08:20:50.174Z"
-  },
-  {
-    "id": "7b25d1c5f85c",
-    "title": "Paris Saint-Germain defender Achraf Hakimi to face trial for alleged rape",
-    "date": "2026-02-24",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/feb/24/paris-saint-germain-achraf-hakimi-face-trial-alleged-rape",
-    "summary": "Paris Saint-Germain defender Achraf Hakimi to face trial for alleged rape",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-25T08:20:50.174Z"
-  },
-  {
-    "id": "c08919885cc0",
-    "title": "Benjamin Sesko happy to be patient in wait for Manchester United starting spot",
-    "date": "2026-02-24",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/feb/24/benjamin-sesko-manchester-united",
-    "summary": "Benjamin Sesko happy to be patient in wait for Manchester United starting spot",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-25T08:20:50.174Z"
-  },
-  {
-    "id": "6c48500efccf",
-    "title": "Noni Madueke backs Arsenal’s push to tackle knife crime: ‘It’s so important to try to share the community’s pain’",
-    "date": "2026-02-24",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/feb/24/noni-madueke-arsenal-tackle-knife-crime",
-    "summary": "Noni Madueke backs Arsenal’s push to tackle knife crime: ‘It’s so important to try to share the community’s pain’",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-25T08:20:50.174Z"
-  },
-  {
-    "id": "2df52111cfd8",
-    "title": "Women’s Asian Cup 2026: complete guide to all 26 Matildas players",
-    "date": "2026-02-24",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/feb/24/matildas-players-guide-womens-asian-cup-2026-australia-team",
-    "summary": "Women’s Asian Cup 2026: complete guide to all 26 Matildas players",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-25T08:20:50.174Z"
-  },
-  {
-    "id": "dedbc695dc0e",
-    "title": "FA Cup shootout drama and an Asian Cup preview – Women’s Football Weekly",
-    "date": "2026-02-24",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/audio/2026/feb/24/fa-cup-shootout-drama-and-an-asian-cup-preview-womens-football-weekly",
-    "summary": "FA Cup shootout drama and an Asian Cup preview – Women’s Football Weekly",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-25T08:20:50.174Z"
-  },
-  {
-    "id": "9498b749a12d",
-    "title": "Sources: Mexico game still on amid cartel violence",
-    "date": "2026-02-24",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48018058/mexico-iceland-game-cartel-violence",
-    "summary": "Sources: Mexico game still on amid cartel violence",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-24T08:21:15.610Z"
-  },
-  {
-    "id": "f616b015c12a",
-    "title": "Countdowns for throw-ins, goal kicks set for WC",
-    "date": "2026-02-24",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48014733/fifa-world-cup-countdown-throw-ins-goal-kicks-feature",
-    "summary": "Countdowns for throw-ins, goal kicks set for WC",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-24T08:21:15.610Z"
-  },
-  {
-    "id": "9ab2b979b444",
-    "title": "Madrid's Huijsen apologises for offensive post",
-    "date": "2026-02-24",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48013184/real-madrid-dean-huijsen-apologises-weibo-chinese-friends",
-    "summary": "Madrid's Huijsen apologises for offensive post",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-24T08:21:15.610Z"
   }
 ];
