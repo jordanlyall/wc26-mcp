@@ -2,6 +2,253 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "9a5c418b1c28",
+    "title": "Richards, Robinson injuries leave U.S. shorthanded",
+    "date": "2026-03-28",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48322909/chris-richards-miles-robinson-injury-usa-belgium-portugal",
+    "summary": "Richards, Robinson injuries leave U.S. shorthanded",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-28T08:17:30.270Z"
+  },
+  {
+    "id": "241881afb4c7",
+    "title": "Tuchel 'disappointed' in England fans booing White",
+    "date": "2026-03-28",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48324077/ben-white-booed-england-fans-uruguay-friendly-wembley",
+    "summary": "Tuchel 'disappointed' in England fans booing White",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-28T08:17:30.270Z"
+  },
+  {
+    "id": "83989523770c",
+    "title": "Wirtz masterclass leads Germany to thrilling win",
+    "date": "2026-03-28",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/report/_/gameId/762550",
+    "summary": "Wirtz masterclass leads Germany to thrilling win",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-28T08:17:30.270Z"
+  },
+  {
+    "id": "837c283c68d2",
+    "title": "Argentina edge Mauritania behind Enzo, Paz goals",
+    "date": "2026-03-28",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/report/_/gameId/401866131",
+    "summary": "Argentina edge Mauritania behind Enzo, Paz goals",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-28T08:17:30.270Z"
+  },
+  {
+    "id": "bc07d9455926",
+    "title": "Ben White booed in return -- but he did more than flat England teammates in Uruguay draw",
+    "date": "2026-03-28",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48324168/ben-white-booed-return-flat-england-uruguay-draw-world-cup",
+    "summary": "Ben White booed in return -- but he did more than flat England teammates in Uruguay draw",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-28T08:17:30.270Z"
+  },
+  {
+    "id": "b638a383f550",
+    "title": "What is Scotland's first-choice defensive pairing?",
+    "date": "2026-03-28",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/ckg0xd3nk15o?at_medium=RSS&at_campaign=rss",
+    "summary": "What is Scotland's first-choice defensive pairing?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-28T08:17:30.270Z"
+  },
+  {
+    "id": "b638a383f550",
+    "title": "What is Scotland's first-choice defensive pairing?",
+    "date": "2026-03-28",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/ckg0xd3nk15o?at_medium=RSS&at_campaign=rss",
+    "summary": "What is Scotland's first-choice defensive pairing?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-28T08:17:30.270Z"
+  },
+  {
+    "id": "661096ec2662",
+    "title": "Roberto Martínez: ‘It’s a hammer blow when you don’t succeed, but let us dream’",
+    "date": "2026-03-28",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/28/roberto-martinez-interview-portugal-world-cup-cristiano-ronaldo",
+    "summary": "Roberto Martínez: ‘It’s a hammer blow when you don’t succeed, but let us dream’",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-28T08:17:30.270Z"
+  },
+  {
+    "id": "ea57aaab8284",
+    "title": "This is the deepest USMNT squad maybe ever. Is it enough for the best World Cup result ever?",
+    "date": "2026-03-27",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48308993/can-usmnt-depth-2026-world-cup-make-difference-results-finish",
+    "summary": "This is the deepest USMNT squad maybe ever. Is it enough for the best World Cup result ever?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-28T08:17:30.270Z"
+  },
+  {
+    "id": "02bb8b4a0d6b",
+    "title": "Does 34-year-old Casemiro have the legs to power Brazil's two-man midfield?",
+    "date": "2026-03-27",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48321806/does-casemiro-legs-power-brazil-two-man-midfield",
+    "summary": "Does 34-year-old Casemiro have the legs to power Brazil's two-man midfield?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-28T08:17:30.270Z"
+  },
+  {
+    "id": "fd935217ab94",
+    "title": "If these were the Tuchel trials, Foden - among others - failed",
+    "date": "2026-03-27",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c4gj9qq8d5ko?at_medium=RSS&at_campaign=rss",
+    "summary": "If these were the Tuchel trials, Foden - among others - failed",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-28T08:17:30.270Z"
+  },
+  {
+    "id": "2e54ab6c6f78",
+    "title": "Red card confusion & contentious calls - VAR's 'bad day at office'",
+    "date": "2026-03-27",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c747m4lrwn9o?at_medium=RSS&at_campaign=rss",
+    "summary": "Red card confusion & contentious calls - VAR's 'bad day at office'",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-28T08:17:30.270Z"
+  },
+  {
+    "id": "782c6fd05db7",
+    "title": "Who was the attacking spark? How England's players rated",
+    "date": "2026-03-27",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cp84kxzjne2o?at_medium=RSS&at_campaign=rss",
+    "summary": "Who was the attacking spark? How England's players rated",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-28T08:17:30.270Z"
+  },
+  {
+    "id": "d961befa9c96",
+    "title": "What next for Bellamy and Wales after World Cup agony?",
+    "date": "2026-03-27",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c62jqj5jq9xo?at_medium=RSS&at_campaign=rss",
+    "summary": "What next for Bellamy and Wales after World Cup agony?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-28T08:17:30.270Z"
+  },
+  {
+    "id": "5e2070288561",
+    "title": "Scotland highs kept me going, says Robertson",
+    "date": "2026-03-27",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cn89xn74pgjo?at_medium=RSS&at_campaign=rss",
+    "summary": "Scotland highs kept me going, says Robertson",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-28T08:17:30.270Z"
+  },
+  {
+    "id": "a57228ad707d",
+    "title": "Iran protest before friendly remembers victims of deadly school attack",
+    "date": "2026-03-27",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c1eqz131z37o?at_medium=RSS&at_campaign=rss",
+    "summary": "Iran protest before friendly remembers victims of deadly school attack",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-28T08:17:30.270Z"
+  },
+  {
+    "id": "5e2070288561",
+    "title": "Scotland highs kept me going, says Robertson",
+    "date": "2026-03-27",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cn89xn74pgjo?at_medium=RSS&at_campaign=rss",
+    "summary": "Scotland highs kept me going, says Robertson",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-28T08:17:30.270Z"
+  },
+  {
+    "id": "a02a211a4239",
+    "title": "‘I’m disappointed’: Tuchel unimpressed by Wembley crowd’s booing of Ben White",
+    "date": "2026-03-27",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/27/im-disappointed-tuchel-unimpressed-by-wembley-crowds-booing-of-ben-white",
+    "summary": "‘I’m disappointed’: Tuchel unimpressed by Wembley crowd’s booing of Ben White",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-28T08:17:30.270Z"
+  },
+  {
+    "id": "c4bd72a261fc",
+    "title": "Iran footballers hold school bags in memory of girls killed in bombing",
+    "date": "2026-03-27",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/27/iran-players-hold-school-bags-in-memory-of-girls-killed-in-bombing",
+    "summary": "Iran footballers hold school bags in memory of girls killed in bombing",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-28T08:17:30.270Z"
+  },
+  {
     "id": "1abd93fc9b9c",
     "title": "Tonali, Kean goals send Italy to WC playoff final",
     "date": "2026-03-27",
@@ -4706,122 +4953,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-02-26T08:20:56.899Z"
-  },
-  {
-    "id": "08bdbc0f38d1",
-    "title": "Why is Mexico star 'Chucky' Lozano being paid $6M to not play in MLS?",
-    "date": "2026-02-25",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48018243/why-healthy-mexico-star-chucky-lozano-being-paid-6-million-not-play-mls",
-    "summary": "Why is Mexico star 'Chucky' Lozano being paid $6M to not play in MLS?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-26T08:20:56.899Z"
-  },
-  {
-    "id": "2c1f5456e827",
-    "title": "England to host Ukraine at Everton's Hill Dickinson",
-    "date": "2026-02-25",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/ckg3en711wzo?at_medium=RSS&at_campaign=rss",
-    "summary": "England to host Ukraine at Everton's Hill Dickinson",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-26T08:20:56.899Z"
-  },
-  {
-    "id": "5d91fc7f1ed2",
-    "title": "Shrewsbury stand-in role 'a lot of fun' for Hart",
-    "date": "2026-02-25",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cg4g2ld0zrxo?at_medium=RSS&at_campaign=rss",
-    "summary": "Shrewsbury stand-in role 'a lot of fun' for Hart",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-26T08:20:56.899Z"
-  },
-  {
-    "id": "2c1f5456e827",
-    "title": "England to host Ukraine at Everton's Hill Dickinson",
-    "date": "2026-02-25",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/ckg3en711wzo?at_medium=RSS&at_campaign=rss",
-    "summary": "England to host Ukraine at Everton's Hill Dickinson",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-26T08:20:56.899Z"
-  },
-  {
-    "id": "c43350a42446",
-    "title": "Mary Earps says she ‘learned some tough lessons’ from book backlash",
-    "date": "2026-02-25",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/feb/25/mary-earps-learned-tough-lessons-book-backlash-sarina-wiegman",
-    "summary": "Mary Earps says she ‘learned some tough lessons’ from book backlash",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-26T08:20:56.899Z"
-  },
-  {
-    "id": "a037336c47ee",
-    "title": "‘I hurt so much for years but now feel proud’: John Quansah on the pain of a football career ruined by injury",
-    "date": "2026-02-25",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/feb/25/hurt-years-proud-john-quansah-pain-football-career-injury-ghana-ajax-purpose-life",
-    "summary": "‘I hurt so much for years but now feel proud’: John Quansah on the pain of a football career ruined by injury",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-26T08:20:56.899Z"
-  },
-  {
-    "id": "64f736eda89b",
-    "title": "WC host cities warn Congress of security concerns",
-    "date": "2026-02-25",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48024269/world-cup-host-cities-warn-congress-security-concerns",
-    "summary": "WC host cities warn Congress of security concerns",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-25T08:20:50.174Z"
-  },
-  {
-    "id": "870a7a93bb11",
-    "title": "Mexico's Aguirre: Everyone 'safe' for Iceland game",
-    "date": "2026-02-25",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48027164/mexico-coach-aguirre-everyone-safe-iceland-game",
-    "summary": "Mexico's Aguirre: Everyone 'safe' for Iceland game",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-25T08:20:50.174Z"
-  },
-  {
-    "id": "f3fb6e4bed04",
-    "title": "Is Portugal's friendly against Mexico in doubt due to rising security concerns?",
-    "date": "2026-02-25",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/football/2026/02/25/699e65a2268e3e0a6a8b4588.html",
-    "summary": "Is Portugal's friendly against Mexico in doubt due to rising security concerns?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-25T08:20:50.174Z"
   }
 ];
