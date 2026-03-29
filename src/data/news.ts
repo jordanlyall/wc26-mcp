@@ -2,6 +2,214 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "661aa4f8f19f",
+    "title": "USMNT routed by Belgium in blow to WCup prep",
+    "date": "2026-03-29",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48332813/usa-vs-belgium-friendly-world-cup-2026-atlanta-pochettino",
+    "summary": "USMNT routed by Belgium in blow to WCup prep",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-29T08:17:13.844Z"
+  },
+  {
+    "id": "628c03b44559",
+    "title": "Marsch: Canada not 'dirty team' despite latest red",
+    "date": "2026-03-29",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48334070/jesse-marsch-canada-vs-iceland-red-card-tajon-buchanan",
+    "summary": "Marsch: Canada not 'dirty team' despite latest red",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-29T08:17:13.844Z"
+  },
+  {
+    "id": "e8ab7a32cfe6",
+    "title": "World Cup playoff news, Scotland reaction and WSL buildup – matchday live",
+    "date": "2026-03-29",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/live/2026/mar/29/world-cup-playoff-news-scotland-reaction-and-wsl-buildup-matchday-live",
+    "summary": "World Cup playoff news, Scotland reaction and WSL buildup – matchday live",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-29T08:17:13.844Z"
+  },
+  {
+    "id": "fbf240288ed3",
+    "title": "USMNT looked disjointed, uneven and unrehearsed in big loss to Belgium | Jeff Rueter",
+    "date": "2026-03-29",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/28/usmnt-belgium-analysis-jeremy-doku-defense",
+    "summary": "USMNT looked disjointed, uneven and unrehearsed in big loss to Belgium | Jeff Rueter",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-29T08:17:13.844Z"
+  },
+  {
+    "id": "e42a9b37ee4b",
+    "title": "Were England players really 'playing for themselves' - and what next?",
+    "date": "2026-03-28",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cwyxe764gv0o?at_medium=RSS&at_campaign=rss",
+    "summary": "Were England players really 'playing for themselves' - and what next?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-29T08:17:13.844Z"
+  },
+  {
+    "id": "f25ad560846d",
+    "title": "Fans booing Scotland surprise and disappoint Clarke",
+    "date": "2026-03-28",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cx269yde4w7o?at_medium=RSS&at_campaign=rss",
+    "summary": "Fans booing Scotland surprise and disappoint Clarke",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-29T08:17:13.844Z"
+  },
+  {
+    "id": "736f3cf0fc31",
+    "title": "Senegal parade Afcon trophy before friendly despite title controversy",
+    "date": "2026-03-28",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cqxl0gj9787o?at_medium=RSS&at_campaign=rss",
+    "summary": "Senegal parade Afcon trophy before friendly despite title controversy",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-29T08:17:13.844Z"
+  },
+  {
+    "id": "6138e562c50f",
+    "title": "Scotland's World Cup build-up begins with narrow Japan loss",
+    "date": "2026-03-28",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/videos/c9wqpvjz80no?at_medium=RSS&at_campaign=rss",
+    "summary": "Scotland's World Cup build-up begins with narrow Japan loss",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-29T08:17:13.844Z"
+  },
+  {
+    "id": "ca93c6033526",
+    "title": "Brunt critical of 'ridiculous' Wales friendly",
+    "date": "2026-03-28",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c0e7g9jdgrqo?at_medium=RSS&at_campaign=rss",
+    "summary": "Brunt critical of 'ridiculous' Wales friendly",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-29T08:17:13.844Z"
+  },
+  {
+    "id": "f25ad560846d",
+    "title": "Fans booing Scotland surprise and disappoint Clarke",
+    "date": "2026-03-28",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cx269yde4w7o?at_medium=RSS&at_campaign=rss",
+    "summary": "Fans booing Scotland surprise and disappoint Clarke",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-29T08:17:13.844Z"
+  },
+  {
+    "id": "6138e562c50f",
+    "title": "Scotland's World Cup build-up begins with narrow Japan loss",
+    "date": "2026-03-28",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/videos/c9wqpvjz80no?at_medium=RSS&at_campaign=rss",
+    "summary": "Scotland's World Cup build-up begins with narrow Japan loss",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-29T08:17:13.844Z"
+  },
+  {
+    "id": "c7af6960dae3",
+    "title": "'Japan showed standard Scotland must strive for'",
+    "date": "2026-03-28",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sounds/play/p0n9d4m6?at_medium=RSS&at_campaign=rss",
+    "summary": "'Japan showed standard Scotland must strive for'",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-29T08:17:13.844Z"
+  },
+  {
+    "id": "48b415021456",
+    "title": "Stones the exception to Tuchel’s World Cup rule despite cold shoulder from Guardiola",
+    "date": "2026-03-28",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/28/john-stones-thomas-tuchel-england-world-cup-football",
+    "summary": "Stones the exception to Tuchel’s World Cup rule despite cold shoulder from Guardiola",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-29T08:17:13.844Z"
+  },
+  {
+    "id": "730e4ae03a91",
+    "title": "Passive Scotland’s World Cup preparations hit by late defeat against Japan",
+    "date": "2026-03-28",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/28/scotland-japan-friendly-international-match-report",
+    "summary": "Passive Scotland’s World Cup preparations hit by late defeat against Japan",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-29T08:17:13.844Z"
+  },
+  {
+    "id": "b9113cd0a86f",
+    "title": "Pochettino, Pulisic and the pressure of the USMNT’s World Cup moment",
+    "date": "2026-03-28",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/28/mauricio-pochettino-christian-pulisic-world-cup-pressure",
+    "summary": "Pochettino, Pulisic and the pressure of the USMNT’s World Cup moment",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-29T08:17:13.844Z"
+  },
+  {
+    "id": "72445ebd18d4",
+    "title": "Senegal parade Afcon trophy at Stade de France in defiance at being stripped of title",
+    "date": "2026-03-28",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/28/senegal-parade-afcon-trophy-at-stade-de-france-in-defiance-at-being-stripped-of-title",
+    "summary": "Senegal parade Afcon trophy at Stade de France in defiance at being stripped of title",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-29T08:17:13.844Z"
+  },
+  {
     "id": "9a5c418b1c28",
     "title": "Richards, Robinson injuries leave U.S. shorthanded",
     "date": "2026-03-28",
@@ -4810,148 +5018,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-02-27T08:18:56.837Z"
-  },
-  {
-    "id": "05a97596a262",
-    "title": "Arsenal's Smith out of Canada squad with concussion",
-    "date": "2026-02-26",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cddnm1ml6vvo?at_medium=RSS&at_campaign=rss",
-    "summary": "Arsenal's Smith out of Canada squad with concussion",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-27T08:18:56.837Z"
-  },
-  {
-    "id": "afe7f95be6be",
-    "title": "'Really ugly' abuse affects players - Wales' Cain",
-    "date": "2026-02-26",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cx2dr4wppdxo?at_medium=RSS&at_campaign=rss",
-    "summary": "'Really ugly' abuse affects players - Wales' Cain",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-27T08:18:56.837Z"
-  },
-  {
-    "id": "05a97596a262",
-    "title": "Arsenal's Smith out of Canada squad with concussion",
-    "date": "2026-02-26",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cddnm1ml6vvo?at_medium=RSS&at_campaign=rss",
-    "summary": "Arsenal's Smith out of Canada squad with concussion",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-27T08:18:56.837Z"
-  },
-  {
-    "id": "afe7f95be6be",
-    "title": "'Really ugly' abuse affects players - Wales' Cain",
-    "date": "2026-02-26",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cx2dr4wppdxo?at_medium=RSS&at_campaign=rss",
-    "summary": "'Really ugly' abuse affects players - Wales' Cain",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-27T08:18:56.837Z"
-  },
-  {
-    "id": "739e5ca4c69f",
-    "title": "Hudson-Odoi sends Nottingham Forest into last 16 despite fright by Fenerbahce",
-    "date": "2026-02-26",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/feb/26/nottingham-forest-fenerbahce-europa-league-match-report",
-    "summary": "Hudson-Odoi sends Nottingham Forest into last 16 despite fright by Fenerbahce",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-27T08:18:56.837Z"
-  },
-  {
-    "id": "bb10d455b639",
-    "title": "Celtic save face in Stuttgart but Europa League miracle proves out of reach",
-    "date": "2026-02-26",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/feb/26/celtic-stuttgart-europa-league-match-report",
-    "summary": "Celtic save face in Stuttgart but Europa League miracle proves out of reach",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-27T08:18:56.837Z"
-  },
-  {
-    "id": "180825ecc32f",
-    "title": "Glasner admits sparking media storm after Crystal Palace ease past Zrinjski",
-    "date": "2026-02-26",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/feb/26/crystal-palace-zrinjski-mostar-conference-league-match-report",
-    "summary": "Glasner admits sparking media storm after Crystal Palace ease past Zrinjski",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-27T08:18:56.837Z"
-  },
-  {
-    "id": "12cb8a15c4ae",
-    "title": "The third stage: what to expect from Emma Hayes’s USWNT with World Cup in sight?",
-    "date": "2026-02-26",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/feb/26/emma-hayes-uswnt-shebelieves-cup",
-    "summary": "The third stage: what to expect from Emma Hayes’s USWNT with World Cup in sight?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-27T08:18:56.837Z"
-  },
-  {
-    "id": "b13bd2bc7cba",
-    "title": "From Women’s World Cup euphoria to Olympic despair: how did the Matildas get here?",
-    "date": "2026-02-26",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/feb/27/matildas-australia-football-team-timeline-journey-womens-world-cup-olympics",
-    "summary": "From Women’s World Cup euphoria to Olympic despair: how did the Matildas get here?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-27T08:18:56.837Z"
-  },
-  {
-    "id": "752e5d4b0a64",
-    "title": "In Portugal they claim that Prestianni admitted to calling Vinicius a monkey; Benfica denies it",
-    "date": "2026-02-26",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/football/champions-league/2026/02/26/69a097e046163f0d028b45eb.html",
-    "summary": "In Portugal they claim that Prestianni admitted to calling Vinicius a monkey; Benfica denies it",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-27T08:18:56.837Z"
-  },
-  {
-    "id": "f748e43631e6",
-    "title": "Henderson calls for ‘unity’ as fractious Palace face crucial clash with Zrinjski",
-    "date": "2026-02-26",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/feb/26/crystal-palace-europa-conference-league-dean-henderson-oliver-glasner-zrinjski-mostar",
-    "summary": "Henderson calls for ‘unity’ as fractious Palace face crucial clash with Zrinjski",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-26T08:20:56.899Z"
   }
 ];
