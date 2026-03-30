@@ -2,6 +2,214 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "a0f4301bb2c6",
+    "title": "2026 World Cup playoffs: Predicting who will claim the final six places",
+    "date": "2026-03-30",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48334351/2026-world-cup-playoffs-claim-final-six-spots",
+    "summary": "2026 World Cup playoffs: Predicting who will claim the final six places",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-30T08:40:11.938Z"
+  },
+  {
+    "id": "0f4a46950f0f",
+    "title": "Time is running out for Foden to make England's World Cup squad",
+    "date": "2026-03-30",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48320796/phil-foden-england-manchester-city-2026-world-cup-doubt-form-fitness-rob-dawson",
+    "summary": "Time is running out for Foden to make England's World Cup squad",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-30T08:40:11.938Z"
+  },
+  {
+    "id": "c033a4ed085f",
+    "title": "Celtic legend Brown leaves Ayr 'by mutual consent'",
+    "date": "2026-03-30",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/czex1y95dleo?at_medium=RSS&at_campaign=rss",
+    "summary": "Celtic legend Brown leaves Ayr 'by mutual consent'",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-30T08:40:11.938Z"
+  },
+  {
+    "id": "c033a4ed085f",
+    "title": "Manager Brown exits Ayr United 'by mutual consent'",
+    "date": "2026-03-30",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/czex1y95dleo?at_medium=RSS&at_campaign=rss",
+    "summary": "Manager Brown exits Ayr United 'by mutual consent'",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-30T08:40:11.938Z"
+  },
+  {
+    "id": "017d5dfdc391",
+    "title": "From Purley to a World Cup playoff: how the DRC scour Europe for players",
+    "date": "2026-03-30",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/30/purley-world-cup-playoff-europe-democratic-republic-congo-gabriel-zakuani",
+    "summary": "From Purley to a World Cup playoff: how the DRC scour Europe for players",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-30T08:40:11.938Z"
+  },
+  {
+    "id": "6521289ff6f4",
+    "title": "Doué double sees France down Colombia in style",
+    "date": "2026-03-29",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/report/_/gameId/762453",
+    "summary": "Doué double sees France down Colombia in style",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-30T08:40:11.938Z"
+  },
+  {
+    "id": "dec82a77c1ea",
+    "title": "Ex-England and Spurs striker Defoe named Woking boss",
+    "date": "2026-03-29",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cde52ng3r11o?at_medium=RSS&at_campaign=rss",
+    "summary": "Ex-England and Spurs striker Defoe named Woking boss",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-30T08:40:11.938Z"
+  },
+  {
+    "id": "416c3d5f1d84",
+    "title": "BBC Sport experts choose England World Cup XIs - who would you pick?",
+    "date": "2026-03-29",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cy8l6z4gxlvo?at_medium=RSS&at_campaign=rss",
+    "summary": "BBC Sport experts choose England World Cup XIs - who would you pick?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-30T08:40:11.938Z"
+  },
+  {
+    "id": "22e10254659b",
+    "title": "Why are Scotland playing Ivory Coast in Liverpool?",
+    "date": "2026-03-29",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cvg043vjzv5o?at_medium=RSS&at_campaign=rss",
+    "summary": "Why are Scotland playing Ivory Coast in Liverpool?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-30T08:40:11.938Z"
+  },
+  {
+    "id": "b10e0e8f3051",
+    "title": "England's Kearns reveals she has had a miscarriage",
+    "date": "2026-03-29",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cpd5zqp8wxzo?at_medium=RSS&at_campaign=rss",
+    "summary": "England's Kearns reveals she has had a miscarriage",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-30T08:40:11.938Z"
+  },
+  {
+    "id": "dae311667946",
+    "title": "What might Scotland change for Ivory Coast test?",
+    "date": "2026-03-29",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/ce84ml83x14o?at_medium=RSS&at_campaign=rss",
+    "summary": "What might Scotland change for Ivory Coast test?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-30T08:40:11.938Z"
+  },
+  {
+    "id": "dae311667946",
+    "title": "What might Scotland change for Ivory Coast test?",
+    "date": "2026-03-29",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/ce84ml83x14o?at_medium=RSS&at_campaign=rss",
+    "summary": "What might Scotland change for Ivory Coast test?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-30T08:40:11.938Z"
+  },
+  {
+    "id": "22e10254659b",
+    "title": "Why are Scotland playing Ivory Coast in Liverpool?",
+    "date": "2026-03-29",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cvg043vjzv5o?at_medium=RSS&at_campaign=rss",
+    "summary": "Why are Scotland playing Ivory Coast in Liverpool?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-30T08:40:11.938Z"
+  },
+  {
+    "id": "b10e0e8f3051",
+    "title": "England's Kearns reveals she has had a miscarriage",
+    "date": "2026-03-29",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cpd5zqp8wxzo?at_medium=RSS&at_campaign=rss",
+    "summary": "England's Kearns reveals she has had a miscarriage",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-30T08:40:11.938Z"
+  },
+  {
+    "id": "d401cbe785bd",
+    "title": "Tuchel’s England? Maybe they are just not as good as we would like them to be | Barney Ronay",
+    "date": "2026-03-29",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/29/tuchels-england-maybe-they-are-just-not-as-good-as-we-would-like-them-to-be",
+    "summary": "Tuchel’s England? Maybe they are just not as good as we would like them to be | Barney Ronay",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-30T08:40:11.938Z"
+  },
+  {
+    "id": "6189d3de187b",
+    "title": "Curacao meet Socceroos in Fifa Series with more than World Cup hopes in common | John Duerden",
+    "date": "2026-03-29",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/30/curacao-australia-socceroos-football-fifa-series-melbourne",
+    "summary": "Curacao meet Socceroos in Fifa Series with more than World Cup hopes in common | John Duerden",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-30T08:40:11.938Z"
+  },
+  {
     "id": "661aa4f8f19f",
     "title": "USMNT routed by Belgium in blow to WCup prep",
     "date": "2026-03-29",
@@ -4862,161 +5070,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-02-28T08:10:53.883Z"
-  },
-  {
-    "id": "5f187e844320",
-    "title": "Football Daily | Dortmund v Bayern Munich: will Der Klassiker live up to its name?",
-    "date": "2026-02-27",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/feb/27/football-daily-borussia-dortmund-bayern-munich-der-klassiker",
-    "summary": "Football Daily | Dortmund v Bayern Munich: will Der Klassiker live up to its name?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-01T08:12:21.656Z"
-  },
-  {
-    "id": "ec88051807a2",
-    "title": "Do the USWNT's up-and-comers really have a shot at the Women's World Cup roster?",
-    "date": "2026-02-27",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/47982164/do-uswnt-newbies-2026-shebelieves-cup-shot-world-cup-next-year",
-    "summary": "Do the USWNT's up-and-comers really have a shot at the Women's World Cup roster?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-28T08:10:53.883Z"
-  },
-  {
-    "id": "e30e73870d83",
-    "title": "Messi tackled by pitch invader in Inter Miami game",
-    "date": "2026-02-27",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cy4w0q7e490o?at_medium=RSS&at_campaign=rss",
-    "summary": "Messi tackled by pitch invader in Inter Miami game",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-28T08:10:53.883Z"
-  },
-  {
-    "id": "17da7ea8614b",
-    "title": "Wales 'grateful' to have Fishlock on board",
-    "date": "2026-02-27",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cdr2z6r8rg3o?at_medium=RSS&at_campaign=rss",
-    "summary": "Wales 'grateful' to have Fishlock on board",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-28T08:10:53.883Z"
-  },
-  {
-    "id": "1488032fb4d3",
-    "title": "'Breath of fresh air' Lindsay backed for NI job",
-    "date": "2026-02-27",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c1d60q3ygp1o?at_medium=RSS&at_campaign=rss",
-    "summary": "'Breath of fresh air' Lindsay backed for NI job",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-28T08:10:53.883Z"
-  },
-  {
-    "id": "8ba674d80713",
-    "title": "You don't know what people are going through - Coady",
-    "date": "2026-02-27",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c5ygl7n584xo?at_medium=RSS&at_campaign=rss",
-    "summary": "You don't know what people are going through - Coady",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-28T08:10:53.883Z"
-  },
-  {
-    "id": "1488032fb4d3",
-    "title": "'Breath of fresh air' Lindsay backed for NI job",
-    "date": "2026-02-27",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c1d60q3ygp1o?at_medium=RSS&at_campaign=rss",
-    "summary": "'Breath of fresh air' Lindsay backed for NI job",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-28T08:10:53.883Z"
-  },
-  {
-    "id": "17da7ea8614b",
-    "title": "Wales 'grateful' to have Fishlock on board",
-    "date": "2026-02-27",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cdr2z6r8rg3o?at_medium=RSS&at_campaign=rss",
-    "summary": "Wales 'grateful' to have Fishlock on board",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-28T08:10:53.883Z"
-  },
-  {
-    "id": "98164b7847bd",
-    "title": "Human rights issues swirl around the Women’s Asian Cup. They cannot be ignored | Samantha Lewis",
-    "date": "2026-02-27",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/feb/28/2026-womens-asian-cup-football-human-rights-issues",
-    "summary": "Human rights issues swirl around the Women’s Asian Cup. They cannot be ignored | Samantha Lewis",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-28T08:10:53.883Z"
-  },
-  {
-    "id": "3d8b53d4e894",
-    "title": "Josh Sargent’s messy transfer saga ends with $22m move from Norwich to Toronto",
-    "date": "2026-02-27",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/feb/27/josh-sargent-toronto-norwich-city-transfer-usmnt",
-    "summary": "Josh Sargent’s messy transfer saga ends with $22m move from Norwich to Toronto",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-28T08:10:53.883Z"
-  },
-  {
-    "id": "ff97fc1edc92",
-    "title": "Football Daily",
-    "date": "2026-02-27",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sounds/play/p0n3gnf0?at_medium=RSS&at_campaign=rss",
-    "summary": "Football Daily",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-27T08:18:56.837Z"
-  },
-  {
-    "id": "f2d30cbb07ab",
-    "title": "Lionel Messi tackled by pitch invader during chaotic friendly in Puerto Rico",
-    "date": "2026-02-27",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/feb/26/lionel-messi-tackled-inter-miami-friendly-independiente-del-valle-puerto-rico",
-    "summary": "Lionel Messi tackled by pitch invader during chaotic friendly in Puerto Rico",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-27T08:18:56.837Z"
   }
 ];
