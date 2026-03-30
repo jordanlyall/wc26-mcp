@@ -90,6 +90,10 @@ The server communicates over stdio using the [Model Context Protocol](https://mo
 npx -y wc26-mcp
 ```
 
+## Hosted deployment
+
+A hosted deployment is available on [Fronteir AI](https://fronteir.ai/mcp/jordanlyall-wc26-mcp).
+
 ## Tools
 
 | Tool | Description | Filters |
