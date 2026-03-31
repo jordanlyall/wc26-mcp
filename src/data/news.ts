@@ -2,6 +2,253 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "fe84c6d42d87",
+    "title": "Ghana fire coach Addo 72 days before WC opener",
+    "date": "2026-03-31",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48353539/world-cup-bound-ghana-fire-coach-otto-addo-4-straight-losses",
+    "summary": "Ghana fire coach Addo 72 days before WC opener",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-31T08:31:06.932Z"
+  },
+  {
+    "id": "57f2fc5ddd59",
+    "title": "Argentina to start Messi for Zambia friendly",
+    "date": "2026-03-31",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48348573/argentina-start-lionel-messi-zambia-friendly-la-bombonera",
+    "summary": "Argentina to start Messi for Zambia friendly",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-31T08:31:06.932Z"
+  },
+  {
+    "id": "aa3b3eba36a5",
+    "title": "Ancelotti praises Modric ahead of Croatia match",
+    "date": "2026-03-31",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48348096/brazil-ancelotti-praises-luka-modric-ahead-croatia-friendly",
+    "summary": "Ancelotti praises Modric ahead of Croatia match",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-31T08:31:06.932Z"
+  },
+  {
+    "id": "fb0107db015c",
+    "title": "Ghana sack manager Addo, 72 days before World Cup",
+    "date": "2026-03-31",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/crr1zyyr8xvo?at_medium=RSS&at_campaign=rss",
+    "summary": "Ghana sack manager Addo, 72 days before World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-31T08:31:06.932Z"
+  },
+  {
+    "id": "6e9cbc4fd068",
+    "title": "Who are the Japan players England should look out for?",
+    "date": "2026-03-31",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cgldy0p024ro?at_medium=RSS&at_campaign=rss",
+    "summary": "Who are the Japan players England should look out for?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-31T08:31:06.932Z"
+  },
+  {
+    "id": "2373048301e6",
+    "title": "Wales v Northern Ireland - the match nobody wants",
+    "date": "2026-03-31",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cwyvnrqd3zxo?at_medium=RSS&at_campaign=rss",
+    "summary": "Wales v Northern Ireland - the match nobody wants",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-31T08:31:06.932Z"
+  },
+  {
+    "id": "78c28c5324a7",
+    "title": "Don Garber hits back at Egypt executive who warned Salah against MLS move",
+    "date": "2026-03-31",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/31/don-garber-egypt-ibrahim-hassan-mo-salah-mls",
+    "summary": "Don Garber hits back at Egypt executive who warned Salah against MLS move",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-31T08:31:06.932Z"
+  },
+  {
+    "id": "b16dc36080fe",
+    "title": "Steve Clarke plays down discord as Scotland aim to kickstart World Cup preparations",
+    "date": "2026-03-31",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/31/steve-clarke-scotland-japan-cote-divoire-world-cup-2026",
+    "summary": "Steve Clarke plays down discord as Scotland aim to kickstart World Cup preparations",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-31T08:31:06.932Z"
+  },
+  {
+    "id": "8f7072197894",
+    "title": "Ghana sack coach Otto Addo 72 days before World Cup begins",
+    "date": "2026-03-31",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/31/ghana-sack-coach-otto-addo-ahead-of-world-cup-england",
+    "summary": "Ghana sack coach Otto Addo 72 days before World Cup begins",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-31T08:31:06.932Z"
+  },
+  {
+    "id": "763e9d9311f9",
+    "title": "Australia v Curaçao: Fifa Series men’s international football friendly – live",
+    "date": "2026-03-31",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/live/2026/mar/31/australia-v-curacao-fifa-series-mens-international-football-friendly-live",
+    "summary": "Australia v Curaçao: Fifa Series men’s international football friendly – live",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-31T08:31:06.932Z"
+  },
+  {
+    "id": "cf1c7c68e45c",
+    "title": "Fit-again McGinn was 'petrified' he would miss World Cup",
+    "date": "2026-03-30",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cy81q4n6v3yo?at_medium=RSS&at_campaign=rss",
+    "summary": "Fit-again McGinn was 'petrified' he would miss World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-31T08:31:06.932Z"
+  },
+  {
+    "id": "8872bc962309",
+    "title": "Tuchel not angry over England withdrawals",
+    "date": "2026-03-30",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cvg39k8274ko?at_medium=RSS&at_campaign=rss",
+    "summary": "Tuchel not angry over England withdrawals",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-31T08:31:06.932Z"
+  },
+  {
+    "id": "b9e65938c7f1",
+    "title": "Wales boss Bellamy to keep 'best job in the world'",
+    "date": "2026-03-30",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c0e7lxzdd9jo?at_medium=RSS&at_campaign=rss",
+    "summary": "Wales boss Bellamy to keep 'best job in the world'",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-31T08:31:06.932Z"
+  },
+  {
+    "id": "454acab23a96",
+    "title": "Two teams, three games, six days - O'Neill's unique predicament",
+    "date": "2026-03-30",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c393j712p94o?at_medium=RSS&at_campaign=rss",
+    "summary": "Two teams, three games, six days - O'Neill's unique predicament",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-31T08:31:06.932Z"
+  },
+  {
+    "id": "a7e48e7cba23",
+    "title": "How to follow Ivory Coast v Scotland on BBC TV, radio & online",
+    "date": "2026-03-30",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c05dnj7n7dzo?at_medium=RSS&at_campaign=rss",
+    "summary": "How to follow Ivory Coast v Scotland on BBC TV, radio & online",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-31T08:31:06.932Z"
+  },
+  {
+    "id": "cf1c7c68e45c",
+    "title": "Fit-again McGinn was 'petrified' he would miss World Cup",
+    "date": "2026-03-30",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cy81q4n6v3yo?at_medium=RSS&at_campaign=rss",
+    "summary": "Fit-again McGinn was 'petrified' he would miss World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-31T08:31:06.932Z"
+  },
+  {
+    "id": "80852ae20e98",
+    "title": "Bohs' Brennan earns first Republic of Ireland call-up",
+    "date": "2026-03-30",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/articles/c895gd982zjo?at_medium=RSS&at_campaign=rss",
+    "summary": "Bohs' Brennan earns first Republic of Ireland call-up",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-31T08:31:06.932Z"
+  },
+  {
+    "id": "36c6a3ead7f2",
+    "title": "Tuchel’s England have plenty to prove against Japan after drab Uruguay draw | Jacob Steinberg",
+    "date": "2026-03-30",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/30/england-thomas-tuchel-japan-uruguay-wembley-world-cup",
+    "summary": "Tuchel’s England have plenty to prove against Japan after drab Uruguay draw | Jacob Steinberg",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-31T08:31:06.932Z"
+  },
+  {
+    "id": "09b318edbd0b",
+    "title": "‘I don’t need a crutch’: Roy Hodgson relishes Bristol City return at age of 78",
+    "date": "2026-03-30",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/30/roy-hodgson-bristol-city-crystal-palace-manager",
+    "summary": "‘I don’t need a crutch’: Roy Hodgson relishes Bristol City return at age of 78",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-03-31T08:31:06.932Z"
+  },
+  {
     "id": "a0f4301bb2c6",
     "title": "2026 World Cup playoffs: Predicting who will claim the final six places",
     "date": "2026-03-30",
@@ -5005,70 +5252,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-03-01T08:12:21.656Z"
-  },
-  {
-    "id": "9000dda51788",
-    "title": "Branthwaite to give 'best shot' at making World Cup squad",
-    "date": "2026-02-28",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/programmes/p0n3xbt6?at_medium=RSS&at_campaign=rss",
-    "summary": "Branthwaite to give 'best shot' at making World Cup squad",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-01T08:12:21.656Z"
-  },
-  {
-    "id": "2985bbc2beec",
-    "title": "European football: Kane double helps Bayern Munich sink Borussia Dortmund",
-    "date": "2026-02-28",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/feb/28/european-football-barcelona-bayern-munich-borussia-dortmund-inter-psg",
-    "summary": "European football: Kane double helps Bayern Munich sink Borussia Dortmund",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-01T08:12:21.656Z"
-  },
-  {
-    "id": "7af2e23961f7",
-    "title": "Matildas set off on Asian Cup journey to prove home sequel can be better than the original",
-    "date": "2026-02-28",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/feb/28/matildas-australia-football-team-womens-asian-cup-preview",
-    "summary": "Matildas set off on Asian Cup journey to prove home sequel can be better than the original",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-01T08:12:21.656Z"
-  },
-  {
-    "id": "ff5ccefbfcb5",
-    "title": "The moment I told my mum I wanted to stop football - and how life changed",
-    "date": "2026-02-28",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c363j2ygwy8o?at_medium=RSS&at_campaign=rss",
-    "summary": "The moment I told my mum I wanted to stop football - and how life changed",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-28T08:10:53.883Z"
-  },
-  {
-    "id": "ff5ccefbfcb5",
-    "title": "The moment I told my mum I wanted to stop football - and how life changed",
-    "date": "2026-02-28",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c363j2ygwy8o?at_medium=RSS&at_campaign=rss",
-    "summary": "The moment I told my mum I wanted to stop football - and how life changed",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-02-28T08:10:53.883Z"
   }
 ];
