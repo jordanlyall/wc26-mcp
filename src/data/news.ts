@@ -2,6 +2,253 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "9d7868298c62",
+    "title": "Ranked: All 48 teams that can win the 2026 World Cup",
+    "date": "2026-04-01",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48361967/2026-world-cup-squads-ranked-all-48-national-teams-win-tournament",
+    "summary": "Ranked: All 48 teams that can win the 2026 World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-01T08:35:40.335Z"
+  },
+  {
+    "id": "4f9c853a7a40",
+    "title": "Portugal outclasses U.S. amid Pulisic goal drought",
+    "date": "2026-04-01",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/report/_/gameId/762259",
+    "summary": "Portugal outclasses U.S. amid Pulisic goal drought",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-01T08:35:40.335Z"
+  },
+  {
+    "id": "45a51b351e74",
+    "title": "Poch, Pulisic agree, U.S. 'not far away' from best",
+    "date": "2026-04-01",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48363562/pochettino-pulisic-usmnt-not-far-best",
+    "summary": "Poch, Pulisic agree, U.S. 'not far away' from best",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-01T08:35:40.335Z"
+  },
+  {
+    "id": "56a5229696e4",
+    "title": "Fans warned for anti-Muslim chants at Spain game",
+    "date": "2026-04-01",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48359649/fans-warned-anti-muslim-chants-spain-egypt-match",
+    "summary": "Fans warned for anti-Muslim chants at Spain game",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-01T08:35:40.335Z"
+  },
+  {
+    "id": "fc8facdf0518",
+    "title": "Türkiye will be USMNT's stiffest test in World Cup group stage",
+    "date": "2026-04-01",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48360028/turkiye-usmnt-stiffest-test-world-cup-group-stage",
+    "summary": "Türkiye will be USMNT's stiffest test in World Cup group stage",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-01T08:35:40.335Z"
+  },
+  {
+    "id": "4f77530dfee3",
+    "title": "NI showed great character in Wales draw - O'Neill",
+    "date": "2026-04-01",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cddq2rj731eo?at_medium=RSS&at_campaign=rss",
+    "summary": "NI showed great character in Wales draw - O'Neill",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-01T08:35:40.335Z"
+  },
+  {
+    "id": "57e13c8ca7c8",
+    "title": "Scotland coach Clarke's contract talks on hold - gossip",
+    "date": "2026-04-01",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cwywd7lrpg9o?at_medium=RSS&at_campaign=rss",
+    "summary": "Scotland coach Clarke's contract talks on hold - gossip",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-01T08:35:40.335Z"
+  },
+  {
+    "id": "35067ad65642",
+    "title": "Failed experiment as England get grim glimpse of life without Kane",
+    "date": "2026-03-31",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c070185ygpno?at_medium=RSS&at_campaign=rss",
+    "summary": "Failed experiment as England get grim glimpse of life without Kane",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-01T08:35:40.335Z"
+  },
+  {
+    "id": "7713062736d2",
+    "title": "'Scotland fans can fret - but they need to keep perspective too'",
+    "date": "2026-03-31",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cn0wggq2lveo?at_medium=RSS&at_campaign=rss",
+    "summary": "'Scotland fans can fret - but they need to keep perspective too'",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-01T08:35:40.335Z"
+  },
+  {
+    "id": "341dfb181cf7",
+    "title": "Watch: Scotland lose friendly against Ivory Coast ",
+    "date": "2026-03-31",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/videos/cpqxe7pe0qxo?at_medium=RSS&at_campaign=rss",
+    "summary": "Watch: Scotland lose friendly against Ivory Coast ",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-01T08:35:40.335Z"
+  },
+  {
+    "id": "568cfe438a67",
+    "title": "Highlights: Wales draw 1-1 with Northern Ireland",
+    "date": "2026-03-31",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/videos/cddq2e1dlyno?at_medium=RSS&at_campaign=rss",
+    "summary": "Highlights: Wales draw 1-1 with Northern Ireland",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-01T08:35:40.335Z"
+  },
+  {
+    "id": "d80c0c1b4d0a",
+    "title": "Wiegman on 'speechless' Parkinson's England call-up",
+    "date": "2026-03-31",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/videos/c98m950d20go?at_medium=RSS&at_campaign=rss",
+    "summary": "Wiegman on 'speechless' Parkinson's England call-up",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-01T08:35:40.335Z"
+  },
+  {
+    "id": "561b936e42d0",
+    "title": "'Japan beat England too, so let's be real' - Robertson on Scotland defeats",
+    "date": "2026-03-31",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cgk0ddjd6n4o?at_medium=RSS&at_campaign=rss",
+    "summary": "'Japan beat England too, so let's be real' - Robertson on Scotland defeats",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-01T08:35:40.335Z"
+  },
+  {
+    "id": "56b79e09e761",
+    "title": "Who is a certain starter? How England's players rated against Japan",
+    "date": "2026-03-31",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c895p7epg3eo?at_medium=RSS&at_campaign=rss",
+    "summary": "Who is a certain starter? How England's players rated against Japan",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-01T08:35:40.335Z"
+  },
+  {
+    "id": "cede5cfc3776",
+    "title": "Spanish Football Federation condemns racist chants",
+    "date": "2026-03-31",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cgk0ddmmm3mo?at_medium=RSS&at_campaign=rss",
+    "summary": "Spanish Football Federation condemns racist chants",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-01T08:35:40.335Z"
+  },
+  {
+    "id": "5fbfaee8a07f",
+    "title": "'I like surprises' - Wiegman calls up 17-year-old Parkinson ",
+    "date": "2026-03-31",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cyv1qv55p17o?at_medium=RSS&at_campaign=rss",
+    "summary": "'I like surprises' - Wiegman calls up 17-year-old Parkinson ",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-01T08:35:40.335Z"
+  },
+  {
+    "id": "e3fbedbb5f26",
+    "title": "BBC Women's Football Weekly",
+    "date": "2026-03-31",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sounds/play/p0n9tvfk?at_medium=RSS&at_campaign=rss",
+    "summary": "BBC Women's Football Weekly",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-01T08:35:40.335Z"
+  },
+  {
+    "id": "b2eeced375da",
+    "title": "Are Scotland really going to name 55 players in World Cup squad?",
+    "date": "2026-03-31",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cwykwedjj88o?at_medium=RSS&at_campaign=rss",
+    "summary": "Are Scotland really going to name 55 players in World Cup squad?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-01T08:35:40.335Z"
+  },
+  {
+    "id": "7713062736d2",
+    "title": "'Scotland fans can fret - but they need to keep perspective too'",
+    "date": "2026-03-31",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cn0wggq2lveo?at_medium=RSS&at_campaign=rss",
+    "summary": "'Scotland fans can fret - but they need to keep perspective too'",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-01T08:35:40.335Z"
+  },
+  {
     "id": "fe84c6d42d87",
     "title": "Ghana fire coach Addo 72 days before WC opener",
     "date": "2026-03-31",
@@ -1027,6 +1274,19 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-03-27T08:22:29.482Z"
+  },
+  {
+    "id": "f012e3362332",
+    "title": "Have all home nations ever played in same World Cup?",
+    "date": "2026-03-26",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/articles/cpdy58d300zo?at_medium=RSS&at_campaign=rss",
+    "summary": "Have all home nations ever played in same World Cup?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-01T08:35:40.335Z"
   },
   {
     "id": "7ad6f4b936a3",
@@ -5096,161 +5356,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-03-02T08:19:35.482Z"
-  },
-  {
-    "id": "9c63090d1cbd",
-    "title": "What now for 'epic' Scottish title race after Old Firm draw?",
-    "date": "2026-03-01",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c70n9nr3dx6o?at_medium=RSS&at_campaign=rss",
-    "summary": "What now for 'epic' Scottish title race after Old Firm draw?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-02T08:19:35.482Z"
-  },
-  {
-    "id": "60bbc6126c66",
-    "title": "Kerr scores first international goal in 28 months in Australia win",
-    "date": "2026-03-01",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c70n99nkzeyo?at_medium=RSS&at_campaign=rss",
-    "summary": "Kerr scores first international goal in 28 months in Australia win",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-02T08:19:35.482Z"
-  },
-  {
-    "id": "9c63090d1cbd",
-    "title": "What now for 'epic' Scottish title race after Old Firm draw?",
-    "date": "2026-03-01",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c70n9nr3dx6o?at_medium=RSS&at_campaign=rss",
-    "summary": "What now for 'epic' Scottish title race after Old Firm draw?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-02T08:19:35.482Z"
-  },
-  {
-    "id": "60bbc6126c66",
-    "title": "Kerr scores first international goal in 28 months in Australia win",
-    "date": "2026-03-01",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c70n99nkzeyo?at_medium=RSS&at_campaign=rss",
-    "summary": "Kerr scores first international goal in 28 months in Australia win",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-02T08:19:35.482Z"
-  },
-  {
-    "id": "f129f899438e",
-    "title": "Iranian football association unsure if national team will play at World Cup in US",
-    "date": "2026-03-01",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/01/iranian-football-association-world-cup-usa",
-    "summary": "Iranian football association unsure if national team will play at World Cup in US",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-02T08:19:35.482Z"
-  },
-  {
-    "id": "abf0ee7be429",
-    "title": "Sam Kerr header delivers Matildas win over Philippines in Women’s Asian Cup opener",
-    "date": "2026-03-01",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/01/matildas-australia-philippines-football-womens-asian-cup-report",
-    "summary": "Sam Kerr header delivers Matildas win over Philippines in Women’s Asian Cup opener",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-02T08:19:35.482Z"
-  },
-  {
-    "id": "c37d4e16f285",
-    "title": "Referee pauses La Liga game after Elche’s Rafa Mir accused of racist insult",
-    "date": "2026-03-01",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/01/referee-pauses-la-liga-game-after-elches-rafa-mir-accused-of-racist-insult",
-    "summary": "Referee pauses La Liga game after Elche’s Rafa Mir accused of racist insult",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-02T08:19:35.482Z"
-  },
-  {
-    "id": "a03f5fb8f2eb",
-    "title": "Mexican cartel proposes a temporary truce in the country's violence to prevent the FIFA World Cup from being canceled",
-    "date": "2026-03-01",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/world-cup/2026/03/01/69a4a85422601d3f228b45d2.html",
-    "summary": "Mexican cartel proposes a temporary truce in the country's violence to prevent the FIFA World Cup from being canceled",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-02T08:19:35.482Z"
-  },
-  {
-    "id": "bb24e444a826",
-    "title": "Taylor Swift emerges as a key supporter for the upcoming 2026 FIFA World Cup in the USA",
-    "date": "2026-03-01",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/nfl/kansas-city-chiefs/2026/03/01/69a49de022601d3f228b45c4.html",
-    "summary": "Taylor Swift emerges as a key supporter for the upcoming 2026 FIFA World Cup in the USA",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-02T08:19:35.482Z"
-  },
-  {
-    "id": "75ed27d6099c",
-    "title": "USMNT starlet Banks considering Germany switch",
-    "date": "2026-03-01",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48066548/usmnt-noahkai-banks-germany-switch-augsburg",
-    "summary": "USMNT starlet Banks considering Germany switch",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-01T08:12:21.656Z"
-  },
-  {
-    "id": "12cf51ca22ea",
-    "title": "Iran women's NT: 'Let's just focus' on Asian Cup",
-    "date": "2026-03-01",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48069381/iran-women-national-team-let-just-focus-asian-cup",
-    "summary": "Iran women's NT: 'Let's just focus' on Asian Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-01T08:12:21.656Z"
-  },
-  {
-    "id": "844be5f93d73",
-    "title": "Game-changing rules for 2026 FIFA World Cup: Say goodbye to time-wasting tactics",
-    "date": "2026-03-01",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/world-cup/2026/03/01/69a3bdd6ca4741b77a8b458f.html",
-    "summary": "Game-changing rules for 2026 FIFA World Cup: Say goodbye to time-wasting tactics",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-01T08:12:21.656Z"
   }
 ];
