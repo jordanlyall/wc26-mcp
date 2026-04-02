@@ -2,6 +2,214 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "1b70d2ccad77",
+    "title": "World Cup 2026 kit ranking: Every jersey we'll see this summer to be released so far",
+    "date": "2026-04-02",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48352807/world-cup-2026-kit-ranking-canada-mexico-united-states-argentina-australia-brazil-england-france-germany-portugal-spain",
+    "summary": "World Cup 2026 kit ranking: Every jersey we'll see this summer to be released so far",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-02T08:28:45.310Z"
+  },
+  {
+    "id": "3730df75d198",
+    "title": "Sophia Wilson rejoins USWNT for Japan matches",
+    "date": "2026-04-02",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48368630/sophia-wilson-tierna-davidson-rejoin-uswnt-roster-japan-friendlies",
+    "summary": "Sophia Wilson rejoins USWNT for Japan matches",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-02T08:28:45.310Z"
+  },
+  {
+    "id": "099ae30902b6",
+    "title": "The remarkable rise of the only English coach in Tuchel's team",
+    "date": "2026-04-02",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/ckge7014m5yo?at_medium=RSS&at_campaign=rss",
+    "summary": "The remarkable rise of the only English coach in Tuchel's team",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-02T08:28:45.310Z"
+  },
+  {
+    "id": "0cf1dd037ad0",
+    "title": "England assistant manager Anthony Barry on Tuchel relationship & World Cup",
+    "date": "2026-04-02",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sounds/play/p0n9zq4r?at_medium=RSS&at_campaign=rss",
+    "summary": "England assistant manager Anthony Barry on Tuchel relationship & World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-02T08:28:45.310Z"
+  },
+  {
+    "id": "953337635bc3",
+    "title": "Will Wembley wobbles actually matter when England head to World Cup training camp?",
+    "date": "2026-04-02",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/02/thomas-tuchel-england-world-cup-preparations",
+    "summary": "Will Wembley wobbles actually matter when England head to World Cup training camp?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-02T08:28:45.310Z"
+  },
+  {
+    "id": "d837d1cc351f",
+    "title": "Matildas stars return to squad for friendlies as Joe Montemurro builds to 2027 World Cup",
+    "date": "2026-04-02",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/02/matildas-friendlies-squad-2027-world-cup",
+    "summary": "Matildas stars return to squad for friendlies as Joe Montemurro builds to 2027 World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-02T08:28:45.310Z"
+  },
+  {
+    "id": "2688dcbc7e0f",
+    "title": "Foden not guaranteed World Cup squad spot - Tuchel",
+    "date": "2026-04-01",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cp86d7j2g7vo?at_medium=RSS&at_campaign=rss",
+    "summary": "Foden not guaranteed World Cup squad spot - Tuchel",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-02T08:28:45.310Z"
+  },
+  {
+    "id": "ab1582ffb752",
+    "title": "BBC Sport's McNulty picks his England World Cup squad - do you agree?",
+    "date": "2026-04-01",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c995p9kdm3mo?at_medium=RSS&at_campaign=rss",
+    "summary": "BBC Sport's McNulty picks his England World Cup squad - do you agree?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-02T08:28:45.310Z"
+  },
+  {
+    "id": "7c835d9297cf",
+    "title": "Who were Scotland's winners and losers from international break?",
+    "date": "2026-04-01",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c6249z0zw4po?at_medium=RSS&at_campaign=rss",
+    "summary": "Who were Scotland's winners and losers from international break?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-02T08:28:45.310Z"
+  },
+  {
+    "id": "f449c0965ef5",
+    "title": "I can't expect to jump in at top level - Defoe",
+    "date": "2026-04-01",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/videos/cr41zp15zrxo?at_medium=RSS&at_campaign=rss",
+    "summary": "I can't expect to jump in at top level - Defoe",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-02T08:28:45.310Z"
+  },
+  {
+    "id": "7c835d9297cf",
+    "title": "Who were Scotland's winners and losers from international break?",
+    "date": "2026-04-01",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c6249z0zw4po?at_medium=RSS&at_campaign=rss",
+    "summary": "Who were Scotland's winners and losers from international break?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-02T08:28:45.310Z"
+  },
+  {
+    "id": "cb187d2b3c6d",
+    "title": "Arne Slot calls Mohamed Salah a Liverpool legend as Isak nears return",
+    "date": "2026-04-01",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/01/arne-slot-calls-mohamed-salah-a-liverpool-legend-as-isak-returns-to-team-training",
+    "summary": "Arne Slot calls Mohamed Salah a Liverpool legend as Isak nears return",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-02T08:28:45.310Z"
+  },
+  {
+    "id": "262a88f444fe",
+    "title": "Jermain Defoe grateful and happy to ‘earn his stripes’ before start as Woking manager | Ed Aarons",
+    "date": "2026-04-01",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/01/jermain-defoe-woking-manager-former-england-striker",
+    "summary": "Jermain Defoe grateful and happy to ‘earn his stripes’ before start as Woking manager | Ed Aarons",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-02T08:28:45.310Z"
+  },
+  {
+    "id": "6fa1a6c60ac7",
+    "title": "On the plane or the sofa? How England’s 2026 World Cup squad is shaping up",
+    "date": "2026-04-01",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/01/how-england-2026-world-cup-squad-is-shaping-up-plane-sofa",
+    "summary": "On the plane or the sofa? How England’s 2026 World Cup squad is shaping up",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-02T08:28:45.310Z"
+  },
+  {
+    "id": "e3d71a992533",
+    "title": "Lamine Yamal furious with Spain fans over anti-Muslim chants against Egypt",
+    "date": "2026-04-01",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/01/spain-fans-islamophobic-and-xenophobic-chants-egypt-police-investigate",
+    "summary": "Lamine Yamal furious with Spain fans over anti-Muslim chants against Egypt",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-02T08:28:45.310Z"
+  },
+  {
+    "id": "b3cebb97e7ee",
+    "title": "Sophia Wilson, Tierna Davidson return to USWNT for friendlies against Japan",
+    "date": "2026-04-01",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/01/sophia-wilson-tierna-davidson-uswnt-japan-friendlies",
+    "summary": "Sophia Wilson, Tierna Davidson return to USWNT for friendlies against Japan",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-02T08:28:45.310Z"
+  },
+  {
     "id": "9d7868298c62",
     "title": "Ranked: All 48 teams that can win the 2026 World Cup",
     "date": "2026-04-01",
@@ -5161,200 +5369,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-03-03T08:17:44.751Z"
-  },
-  {
-    "id": "71eb61e85ebe",
-    "title": "England given 'reassurances' about Turkey security - Wiegman",
-    "date": "2026-03-02",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/videos/crm8lnwn7vmo?at_medium=RSS&at_campaign=rss",
-    "summary": "England given 'reassurances' about Turkey security - Wiegman",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-03T08:17:44.751Z"
-  },
-  {
-    "id": "cad245e9c760",
-    "title": "England 'given reassurances' over safety in Turkey",
-    "date": "2026-03-02",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cpv87y79zpzo?at_medium=RSS&at_campaign=rss",
-    "summary": "England 'given reassurances' over safety in Turkey",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-03T08:17:44.751Z"
-  },
-  {
-    "id": "e2da56619d40",
-    "title": "Hickey adds to Scotland injury woes for March friendlies",
-    "date": "2026-03-02",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c4gq3znn535o?at_medium=RSS&at_campaign=rss",
-    "summary": "Hickey adds to Scotland injury woes for March friendlies",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-03T08:17:44.751Z"
-  },
-  {
-    "id": "e2da56619d40",
-    "title": "Hickey adds to Scotland injury woes for March friendlies",
-    "date": "2026-03-02",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c4gq3znn535o?at_medium=RSS&at_campaign=rss",
-    "summary": "Hickey adds to Scotland injury woes for March friendlies",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-03T08:17:44.751Z"
-  },
-  {
-    "id": "b5be5e80ca37",
-    "title": "Your guide to Scotland's 2027 World Cup qualifiers",
-    "date": "2026-03-02",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cly2m5epp4do?at_medium=RSS&at_campaign=rss",
-    "summary": "Your guide to Scotland's 2027 World Cup qualifiers",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-03T08:17:44.751Z"
-  },
-  {
-    "id": "cad245e9c760",
-    "title": "England 'given reassurances' over safety in Turkey",
-    "date": "2026-03-02",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cpv87y79zpzo?at_medium=RSS&at_campaign=rss",
-    "summary": "England 'given reassurances' over safety in Turkey",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-03T08:17:44.751Z"
-  },
-  {
-    "id": "dba0b9a074e3",
-    "title": "‘Our first No 7’: Lynda Hale, pioneer who scored in England’s first women’s match, dies",
-    "date": "2026-03-02",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/02/lynda-hale-trailblazing-england-international-and-seven-time-fa-cup-winner-dies",
-    "summary": "‘Our first No 7’: Lynda Hale, pioneer who scored in England’s first women’s match, dies",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-03T08:17:44.751Z"
-  },
-  {
-    "id": "0ffb5d32ec06",
-    "title": "England keeping close eye on safety before World Cup qualifier in Turkey",
-    "date": "2026-03-02",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/02/england-lionesses-safety-turkey-sarina-wiegman-ukraine-world-cup-qualifier",
-    "summary": "England keeping close eye on safety before World Cup qualifier in Turkey",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-03T08:17:44.751Z"
-  },
-  {
-    "id": "6e896b9203ad",
-    "title": "Mbappe Injury Update: Real Madrid confirms left knee sprain",
-    "date": "2026-03-02",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/football/real-madrid/2026/03/02/69a5dd61e2704efd608b45e7.html",
-    "summary": "Mbappe Injury Update: Real Madrid confirms left knee sprain",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-03T08:17:44.751Z"
-  },
-  {
-    "id": "abfa7522599c",
-    "title": "Mbappe travels to France to consult specialist about knee injury",
-    "date": "2026-03-02",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/football/real-madrid/2026/03/02/69a57abfca4741697a8b45ac.html",
-    "summary": "Mbappe travels to France to consult specialist about knee injury",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-03T08:17:44.751Z"
-  },
-  {
-    "id": "8a4478cd7ba5",
-    "title": "Iran federation says participation in WC in doubt",
-    "date": "2026-03-02",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48074546/iran-soccer-federation-world-cup-participation-doubt",
-    "summary": "Iran federation says participation in WC in doubt",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-02T08:19:35.482Z"
-  },
-  {
-    "id": "3b5216695963",
-    "title": "Hayes sees 'growth' in USWNT since Portugal loss",
-    "date": "2026-03-02",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48077631/emma-hayes-sees-growth-uswnt-portugal-loss",
-    "summary": "Hayes sees 'growth' in USWNT since Portugal loss",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-02T08:19:35.482Z"
-  },
-  {
-    "id": "5acd29596803",
-    "title": "Wales boss Wilkinson to continue rotating keepers",
-    "date": "2026-03-02",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cpv81j3jldno?at_medium=RSS&at_campaign=rss",
-    "summary": "Wales boss Wilkinson to continue rotating keepers",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-02T08:19:35.482Z"
-  },
-  {
-    "id": "5acd29596803",
-    "title": "Wales boss Wilkinson to continue rotating keepers",
-    "date": "2026-03-02",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cpv81j3jldno?at_medium=RSS&at_campaign=rss",
-    "summary": "Wales boss Wilkinson to continue rotating keepers",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-02T08:19:35.482Z"
-  },
-  {
-    "id": "5dda1c35a31f",
-    "title": "Iran's participation in the 2026 FIFA World Cup in the United States is not guaranteed",
-    "date": "2026-03-02",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/world-cup/2026/03/02/69a4c011e2704efe0d8b457e.html",
-    "summary": "Iran's participation in the 2026 FIFA World Cup in the United States is not guaranteed",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-02T08:19:35.482Z"
   }
 ];
