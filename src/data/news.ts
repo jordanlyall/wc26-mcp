@@ -2,6 +2,188 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "bf81f1541cb7",
+    "title": "Colombia star James hospitalized with dehydration",
+    "date": "2026-04-03",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48381336/colombia-james-rodriguez-hospital-minnesota-illness",
+    "summary": "Colombia star James hospitalized with dehydration",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-03T08:24:21.156Z"
+  },
+  {
+    "id": "cb92c6438be5",
+    "title": "Gerrard reveals Salah advice, backs Liverpool exit",
+    "date": "2026-04-03",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48375028/steven-gerrard-backs-mohamed-salah-liverpool-exit-best-interests",
+    "summary": "Gerrard reveals Salah advice, backs Liverpool exit",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-03T08:24:21.156Z"
+  },
+  {
+    "id": "b99174dc381f",
+    "title": "✨ Messi, Ronaldo among LEGO's WC stars",
+    "date": "2026-04-03",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48376425/lionel-messi-cristiano-ronaldo-world-cup-stars-feature-lego",
+    "summary": "✨ Messi, Ronaldo among LEGO's WC stars",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-03T08:24:21.156Z"
+  },
+  {
+    "id": "5fa9243cb924",
+    "title": "USMNT 2026 World Cup big board 6.0: Have March losses cemented Pochettino's squad?",
+    "date": "2026-04-03",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48359122/usmnt-2026-world-cup-big-board-6-march-international-losses-belgium-portugal-cemented-mauricio-pochettino-squad",
+    "summary": "USMNT 2026 World Cup big board 6.0: Have March losses cemented Pochettino's squad?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-03T08:24:21.156Z"
+  },
+  {
+    "id": "430969c343c6",
+    "title": "What NBA greats Kerr, Nash & Co. learned owning LaLiga's Mallorca",
+    "date": "2026-04-03",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/47650854/nba-greats-kerr-nash-ups-downs-owning-spanish-soccer-team-mallorca",
+    "summary": "What NBA greats Kerr, Nash & Co. learned owning LaLiga's Mallorca",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-03T08:24:21.156Z"
+  },
+  {
+    "id": "e583623873cb",
+    "title": "Endrick eases World Cup fears with breakout performance for Brazil",
+    "date": "2026-04-03",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/world-cup/2026/04/03/69cf3547ca4741f86f8b4588.html",
+    "summary": "Endrick eases World Cup fears with breakout performance for Brazil",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-03T08:24:21.156Z"
+  },
+  {
+    "id": "01845dab60b8",
+    "title": "Davies back in Wales squad but Clark misses out",
+    "date": "2026-04-02",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cx2elk0we3go?at_medium=RSS&at_campaign=rss",
+    "summary": "Davies back in Wales squad but Clark misses out",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-03T08:24:21.156Z"
+  },
+  {
+    "id": "a6d37c39cad8",
+    "title": "Wales boss Wilkinson condemns 'imbecile behaviour'",
+    "date": "2026-04-02",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/ckgr620pw20o?at_medium=RSS&at_campaign=rss",
+    "summary": "Wales boss Wilkinson condemns 'imbecile behaviour'",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-03T08:24:21.156Z"
+  },
+  {
+    "id": "a6d37c39cad8",
+    "title": "Wales boss Wilkinson condemns 'imbecile behaviour'",
+    "date": "2026-04-02",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/ckgr620pw20o?at_medium=RSS&at_campaign=rss",
+    "summary": "Wales boss Wilkinson condemns 'imbecile behaviour'",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-03T08:24:21.156Z"
+  },
+  {
+    "id": "01845dab60b8",
+    "title": "Davies back in Wales squad but Clark misses out",
+    "date": "2026-04-02",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cx2elk0we3go?at_medium=RSS&at_campaign=rss",
+    "summary": "Davies back in Wales squad but Clark misses out",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-03T08:24:21.156Z"
+  },
+  {
+    "id": "7fb36b2edeb8",
+    "title": "FA Cup quarter-finals: things to look out for this weekend",
+    "date": "2026-04-02",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/03/fa-cup-quarter-finals-things-to-look-out-for-this-weekend",
+    "summary": "FA Cup quarter-finals: things to look out for this weekend",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-03T08:24:21.156Z"
+  },
+  {
+    "id": "68d5dbacec49",
+    "title": "Chelsea’s precarious project further rocked by Cucurella and Fernández comments | Jacob Steinberg",
+    "date": "2026-04-02",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/02/chelsea-precarious-project-rocked-marc-cucurella-enzo-fernandez",
+    "summary": "Chelsea’s precarious project further rocked by Cucurella and Fernández comments | Jacob Steinberg",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-03T08:24:21.156Z"
+  },
+  {
+    "id": "d6f73fccf8eb",
+    "title": "Sam Kerr edges toward Chelsea exit after reportedly signing with US club Denver Summit",
+    "date": "2026-04-02",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/03/matildas-captain-sam-kerr-chelsea-exit-denver-summit",
+    "summary": "Sam Kerr edges toward Chelsea exit after reportedly signing with US club Denver Summit",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-03T08:24:21.156Z"
+  },
+  {
+    "id": "906d5ffb02b1",
+    "title": "Pre-World Cup results have you worried? They probably shouldn’t",
+    "date": "2026-04-02",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/02/pre-world-cup-results-have-you-worried-they-probably-shouldnt",
+    "summary": "Pre-World Cup results have you worried? They probably shouldn’t",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-03T08:24:21.156Z"
+  },
+  {
     "id": "1b70d2ccad77",
     "title": "World Cup 2026 kit ranking: Every jersey we'll see this summer to be released so far",
     "date": "2026-04-02",
@@ -301,6 +483,19 @@ export const news: NewsItem[] = [
     "fetched_at": "2026-04-01T08:35:40.335Z"
   },
   {
+    "id": "c7650b968810",
+    "title": "The never-ending story of England footballdom: this is why we can’t have nice things | Barney Ronay",
+    "date": "2026-03-31",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/31/the-never-ending-story-of-england-footballdom-this-is-why-we-cant-have-nice-things",
+    "summary": "The never-ending story of England footballdom: this is why we can’t have nice things | Barney Ronay",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-03T08:24:21.156Z"
+  },
+  {
     "id": "35067ad65642",
     "title": "Failed experiment as England get grim glimpse of life without Kane",
     "date": "2026-03-31",
@@ -585,6 +780,19 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-03-31T08:31:06.932Z"
+  },
+  {
+    "id": "d744e43cce6d",
+    "title": "Football Daily | Tottenham embrace the chaos in bid to stop slide into Championship",
+    "date": "2026-03-30",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/30/tottenham-hotspur-chaos-football-daily-newsletter",
+    "summary": "Football Daily | Tottenham embrace the chaos in bid to stop slide into Championship",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-03T08:24:21.156Z"
   },
   {
     "id": "cf1c7c68e45c",
@@ -5174,200 +5382,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-03-04T08:15:52.916Z"
-  },
-  {
-    "id": "2d650a9ce9c3",
-    "title": "Jennifer Echegini: ‘Winning the Wafcon is on another level. The pride I felt’",
-    "date": "2026-03-03",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/03/jennifer-echegini-womens-football-interview-nigeria-winning-wafcon-is-on-another-level",
-    "summary": "Jennifer Echegini: ‘Winning the Wafcon is on another level. The pride I felt’",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-05T08:17:32.065Z"
-  },
-  {
-    "id": "df4e29f2aa18",
-    "title": "England deliver Wiegman's 'clear win' to make World Cup statement",
-    "date": "2026-03-03",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c98qp2lzj13o?at_medium=RSS&at_campaign=rss",
-    "summary": "England deliver Wiegman's 'clear win' to make World Cup statement",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-04T08:15:52.916Z"
-  },
-  {
-    "id": "d291bfd4ca9d",
-    "title": "Weir hits hat-trick as Scotland hammer Luxembourg",
-    "date": "2026-03-03",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/videos/ce82r8p3ppxo?at_medium=RSS&at_campaign=rss",
-    "summary": "Weir hits hat-trick as Scotland hammer Luxembourg",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-04T08:15:52.916Z"
-  },
-  {
-    "id": "d894a6097a4b",
-    "title": "NI have 'something to build on' under Lindsay",
-    "date": "2026-03-03",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c4g5rg20zrro?at_medium=RSS&at_campaign=rss",
-    "summary": "NI have 'something to build on' under Lindsay",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-04T08:15:52.916Z"
-  },
-  {
-    "id": "f6e907db755c",
-    "title": "Brazil's Rodrygo to miss World Cup with ACL injury",
-    "date": "2026-03-03",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cdxzj8q9wdvo?at_medium=RSS&at_campaign=rss",
-    "summary": "Brazil's Rodrygo to miss World Cup with ACL injury",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-04T08:15:52.916Z"
-  },
-  {
-    "id": "02b39af14285",
-    "title": "England squad not 'political spokespeople' - PFA chief",
-    "date": "2026-03-03",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c3rz1yl41v0o?at_medium=RSS&at_campaign=rss",
-    "summary": "England squad not 'political spokespeople' - PFA chief",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-04T08:15:52.916Z"
-  },
-  {
-    "id": "d291bfd4ca9d",
-    "title": "Weir hits hat-trick as Scotland hammer Luxembourg",
-    "date": "2026-03-03",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/videos/ce82r8p3ppxo?at_medium=RSS&at_campaign=rss",
-    "summary": "Weir hits hat-trick as Scotland hammer Luxembourg",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-04T08:15:52.916Z"
-  },
-  {
-    "id": "df4e29f2aa18",
-    "title": "England deliver Wiegman's 'clear win' to make World Cup statement",
-    "date": "2026-03-03",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c98qp2lzj13o?at_medium=RSS&at_campaign=rss",
-    "summary": "England deliver Wiegman's 'clear win' to make World Cup statement",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-04T08:15:52.916Z"
-  },
-  {
-    "id": "8368ced91a3f",
-    "title": "Arne Slot laments ‘same old story’ after Liverpool concede late winner at Wolves",
-    "date": "2026-03-03",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/03/arne-slot-laments-same-old-story-after-liverpool-concede-late-winner-at-wolves",
-    "summary": "Arne Slot laments ‘same old story’ after Liverpool concede late winner at Wolves",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-04T08:15:52.916Z"
-  },
-  {
-    "id": "4777bfac7040",
-    "title": "Important to get early points on board -  Caldwell",
-    "date": "2026-03-03",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c4g80ppd8pno?at_medium=RSS&at_campaign=rss",
-    "summary": "Important to get early points on board -  Caldwell",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-03T08:17:44.751Z"
-  },
-  {
-    "id": "cfb3c72d5a3b",
-    "title": "Brazil World Cup is in Wales' sights - James ",
-    "date": "2026-03-03",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c98qpy9m34lo?at_medium=RSS&at_campaign=rss",
-    "summary": "Brazil World Cup is in Wales' sights - James ",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-03T08:17:44.751Z"
-  },
-  {
-    "id": "5ba3a5f19f4f",
-    "title": "Scotland change World Cup friendly opponent - gossip",
-    "date": "2026-03-03",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cj98rvk119ko?at_medium=RSS&at_campaign=rss",
-    "summary": "Scotland change World Cup friendly opponent - gossip",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-03T08:17:44.751Z"
-  },
-  {
-    "id": "4777bfac7040",
-    "title": "Important to get early points on board -  Caldwell",
-    "date": "2026-03-03",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c4g80ppd8pno?at_medium=RSS&at_campaign=rss",
-    "summary": "Important to get early points on board -  Caldwell",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-03T08:17:44.751Z"
-  },
-  {
-    "id": "cfb3c72d5a3b",
-    "title": "Brazil World Cup is in Wales' sights - James ",
-    "date": "2026-03-03",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c98qpy9m34lo?at_medium=RSS&at_campaign=rss",
-    "summary": "Brazil World Cup is in Wales' sights - James ",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-03T08:17:44.751Z"
-  },
-  {
-    "id": "49cad2c997c3",
-    "title": "Miami vies to host Finalissima soccer final, but tennis may derail its bid",
-    "date": "2026-03-03",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/football/2026/03/03/69a6384946163ff7618b45aa.html",
-    "summary": "Miami vies to host Finalissima soccer final, but tennis may derail its bid",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-03T08:17:44.751Z"
   }
 ];
