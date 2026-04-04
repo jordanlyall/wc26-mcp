@@ -2,6 +2,110 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "0cac0e2282c6",
+    "title": "Flick urges Rashford to step up for Barcelona",
+    "date": "2026-04-04",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48385051/barcelona-coach-hansi-flick-urges-marcus-rashford-step-raphinha-injury",
+    "summary": "Flick urges Rashford to step up for Barcelona",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-04T08:18:20.134Z"
+  },
+  {
+    "id": "5f18dfb97d22",
+    "title": "Arsenal in the blood: how Max Dowman is related to Gunners legend George Male",
+    "date": "2026-04-04",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/04/arsenal-max-dowman-related-to-gunners-legend-george-male",
+    "summary": "Arsenal in the blood: how Max Dowman is related to Gunners legend George Male",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-04T08:18:20.134Z"
+  },
+  {
+    "id": "be0db1b2a9eb",
+    "title": "Uncapped Chambers named in McArdle's first NI squad",
+    "date": "2026-04-03",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/articles/c2k3q7y7p5ko?at_medium=RSS&at_campaign=rss",
+    "summary": "Uncapped Chambers named in McArdle's first NI squad",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-04T08:18:20.134Z"
+  },
+  {
+    "id": "b21b81c61ed8",
+    "title": "Slot has no regrets over treatment of Salah and insists forward solely decided Liverpool exit",
+    "date": "2026-04-03",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/03/mohamed-salah-arne-slot-liverpool-football",
+    "summary": "Slot has no regrets over treatment of Salah and insists forward solely decided Liverpool exit",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-04T08:18:20.134Z"
+  },
+  {
+    "id": "f6b7e37387a6",
+    "title": "Burslem Globetrotters: Port Vale’s travelling stars plot Chelsea shock",
+    "date": "2026-04-03",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/03/jon-brady-port-vale-fa-cup-quarter-final-chelsea",
+    "summary": "Burslem Globetrotters: Port Vale’s travelling stars plot Chelsea shock",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-04T08:18:20.134Z"
+  },
+  {
+    "id": "135e22a56c78",
+    "title": "Gennaro Gattuso exits as Italy manager after World Cup qualifying failure",
+    "date": "2026-04-03",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/03/gennaro-gattuso-exits-italy-manager-world-cup-qualifying-failure",
+    "summary": "Gennaro Gattuso exits as Italy manager after World Cup qualifying failure",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-04T08:18:20.134Z"
+  },
+  {
+    "id": "22c94dd39e91",
+    "title": "Joachim  Löw admits \"nobody in Ghana has contacted\" him",
+    "date": "2026-04-03",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/world-cup/2026/04/03/69d016db22601d686d8b45a3.html",
+    "summary": "Joachim  Löw admits \"nobody in Ghana has contacted\" him",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-04T08:18:20.134Z"
+  },
+  {
+    "id": "7ecc3395c043",
+    "title": "The next Barcelona star who is attracting interest from outside of Spain",
+    "date": "2026-04-03",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/football/barcelona/2026/04/03/69cf317b22601de7138b4584.html",
+    "summary": "The next Barcelona star who is attracting interest from outside of Spain",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-04T08:18:20.134Z"
+  },
+  {
     "id": "bf81f1541cb7",
     "title": "Colombia star James hospitalized with dehydration",
     "date": "2026-04-03",
@@ -78,6 +182,32 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-04-03T08:24:21.156Z"
+  },
+  {
+    "id": "a2af8943a255",
+    "title": "Cristiano Ronaldo is back: a return that has Al Nassr and Portugal hopeful",
+    "date": "2026-04-02",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/football/2026/04/02/69cecb35e2704e4c7b8b45ac.html",
+    "summary": "Cristiano Ronaldo is back: a return that has Al Nassr and Portugal hopeful",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-04T08:18:20.134Z"
+  },
+  {
+    "id": "502630dff52c",
+    "title": "\"I Was Shaking\": Tomás Aranda recalls nerves after Argentina training session, first meeting with Leo Messi",
+    "date": "2026-04-02",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/world-cup/2026/04/02/69ce828de2704e4c7b8b459a.html",
+    "summary": "\"I Was Shaking\": Tomás Aranda recalls nerves after Argentina training session, first meeting with Leo Messi",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-04T08:18:20.134Z"
   },
   {
     "id": "01845dab60b8",
@@ -260,6 +390,71 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-04-02T08:28:45.310Z"
+  },
+  {
+    "id": "7d7f3d6a7cfe",
+    "title": "Argentina loses powerhouse status as World Cup favorites list has them outside of Top 5",
+    "date": "2026-04-01",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/football/2026/04/01/69cd49b746163f073f8b45a3.html",
+    "summary": "Argentina loses powerhouse status as World Cup favorites list has them outside of Top 5",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-04T08:18:20.134Z"
+  },
+  {
+    "id": "306cd5df0aa5",
+    "title": "USMNT hit before World Cup as Christian Pulisic loses 'Captain America' status",
+    "date": "2026-04-01",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/world-cup/2026/04/01/69cd44bfe2704ebe0a8b4582.html",
+    "summary": "USMNT hit before World Cup as Christian Pulisic loses 'Captain America' status",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-04T08:18:20.134Z"
+  },
+  {
+    "id": "7c0cc359196d",
+    "title": "Why Lamine Yamal is upset with Spain fans and refused to celebrate in farewell friendly",
+    "date": "2026-04-01",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/football/2026/04/01/69cd29ae46163fd21a8b4589.html",
+    "summary": "Why Lamine Yamal is upset with Spain fans and refused to celebrate in farewell friendly",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-04T08:18:20.134Z"
+  },
+  {
+    "id": "beb5bb7ceb5e",
+    "title": "Lionel Scaloni believes Messi has a strong chance of reaching 1,000 goals before retirement",
+    "date": "2026-04-01",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/world-cup/2026/04/01/69cd371046163f353e8b4584.html",
+    "summary": "Lionel Scaloni believes Messi has a strong chance of reaching 1,000 goals before retirement",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-04T08:18:20.134Z"
+  },
+  {
+    "id": "9dbac542696e",
+    "title": "Lamine Yamal raises his voice: \"Using a religion as a mockery makes you look ignorant and racist\"",
+    "date": "2026-04-01",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/world-cup/2026/04/01/69cd253ae2704e95728b45a4.html",
+    "summary": "Lamine Yamal raises his voice: \"Using a religion as a mockery makes you look ignorant and racist\"",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-04T08:18:20.134Z"
   },
   {
     "id": "2688dcbc7e0f",
@@ -5057,330 +5252,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-03-05T08:17:32.065Z"
-  },
-  {
-    "id": "96217e30558e",
-    "title": "Neymar's emotional message to Rodrygo after the worst was confirmed for Brazil",
-    "date": "2026-03-04",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/world-cup/2026/03/04/69a77baf46163feb128b457a.html",
-    "summary": "Neymar's emotional message to Rodrygo after the worst was confirmed for Brazil",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-06T08:15:16.514Z"
-  },
-  {
-    "id": "824e04086e4c",
-    "title": "2026 World Cup rosters: Predicting starting XIs for Spain, USA, France, more",
-    "date": "2026-03-04",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/47964079/2026-world-cup-rosters-predictions-starting-xis-usa-france-mexico-england-spain-germany-brazil-argentina",
-    "summary": "2026 World Cup rosters: Predicting starting XIs for Spain, USA, France, more",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-05T08:17:32.065Z"
-  },
-  {
-    "id": "dd82b9607c85",
-    "title": "Why haven't World Cup host cities received $625 million of critical funding?",
-    "date": "2026-03-04",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48081576/why-havent-world-cup-host-cities-received-critical-funding",
-    "summary": "Why haven't World Cup host cities received $625 million of critical funding?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-05T08:17:32.065Z"
-  },
-  {
-    "id": "4b13a0abc2ce",
-    "title": "BBC Women's Football Weekly",
-    "date": "2026-03-04",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sounds/play/p0n4nh3d?at_medium=RSS&at_campaign=rss",
-    "summary": "BBC Women's Football Weekly",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-05T08:17:32.065Z"
-  },
-  {
-    "id": "2a59f84795c5",
-    "title": "Wales aiming for World Cup qualifying winning run - Hughes",
-    "date": "2026-03-04",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cx2dd9799w9o?at_medium=RSS&at_campaign=rss",
-    "summary": "Wales aiming for World Cup qualifying winning run - Hughes",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-05T08:17:32.065Z"
-  },
-  {
-    "id": "4b13a0abc2ce",
-    "title": "BBC Women's Football Weekly",
-    "date": "2026-03-04",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sounds/play/p0n4nh3d?at_medium=RSS&at_campaign=rss",
-    "summary": "BBC Women's Football Weekly",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-05T08:17:32.065Z"
-  },
-  {
-    "id": "2a59f84795c5",
-    "title": "Wales aiming for World Cup qualifying winning run - Hughes",
-    "date": "2026-03-04",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cx2dd9799w9o?at_medium=RSS&at_campaign=rss",
-    "summary": "Wales aiming for World Cup qualifying winning run - Hughes",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-05T08:17:32.065Z"
-  },
-  {
-    "id": "7adae74eb7b0",
-    "title": "Anderson saves draw for Nottingham Forest as Manchester City slip back",
-    "date": "2026-03-04",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/04/manchester-city-nottingham-forest-premier-league-match-report",
-    "summary": "Anderson saves draw for Nottingham Forest as Manchester City slip back",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-05T08:17:32.065Z"
-  },
-  {
-    "id": "e7fa3c85e983",
-    "title": "Intercontinental World Cup playoffs in doubt as Iraq squad face travel chaos",
-    "date": "2026-03-04",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/04/world-cup-playoffs-in-doubt-iraq-squad-travel-chaos",
-    "summary": "Intercontinental World Cup playoffs in doubt as Iraq squad face travel chaos",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-05T08:17:32.065Z"
-  },
-  {
-    "id": "3077015124b9",
-    "title": "Saudi clubs have a new strategy: buy up France’s best young footballers",
-    "date": "2026-03-04",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/04/saudi-clubs-france-footballers-ligue-1-monaco-rennes-nantes-reims-money",
-    "summary": "Saudi clubs have a new strategy: buy up France’s best young footballers",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-05T08:17:32.065Z"
-  },
-  {
-    "id": "55c2c401d875",
-    "title": "What now for Iranian football after Khamenei’s death and bombing of Tehran?",
-    "date": "2026-03-04",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/04/iran-world-cup-ayatollah-ali-khamenei-womens-asian-cup-champions-league-uncertainty",
-    "summary": "What now for Iranian football after Khamenei’s death and bombing of Tehran?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-05T08:17:32.065Z"
-  },
-  {
-    "id": "03fbdb9bcff7",
-    "title": "Iranian journalist barred by AFC has Women’s Asian Cup accreditation reinstated",
-    "date": "2026-03-04",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/05/iranian-journalist-womens-asian-cup-accreditation-reinstated",
-    "summary": "Iranian journalist barred by AFC has Women’s Asian Cup accreditation reinstated",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-05T08:17:32.065Z"
-  },
-  {
-    "id": "819505519ba8",
-    "title": "Cristiano Ronaldo's injury hits Al Nassr hard and complicates his World Cup dream with Portugal",
-    "date": "2026-03-04",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/world-cup/2026/03/04/69a8748f46163fc2548b459f.html",
-    "summary": "Cristiano Ronaldo's injury hits Al Nassr hard and complicates his World Cup dream with Portugal",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-05T08:17:32.065Z"
-  },
-  {
-    "id": "b0aad930623b",
-    "title": "Why Dallas Cowboys AT&T Stadium will temporarily disappear during FIFA World Cup 2026",
-    "date": "2026-03-04",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/nfl/dallas-cowboys/2026/03/04/69a79c89268e3e000b8b45b0.html",
-    "summary": "Why Dallas Cowboys AT&T Stadium will temporarily disappear during FIFA World Cup 2026",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-05T08:17:32.065Z"
-  },
-  {
-    "id": "fc5256c92f44",
-    "title": "100 days from the World Cup: What's the state of the USMNT?",
-    "date": "2026-03-04",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48064771/100-days-world-cup-state-usmnt",
-    "summary": "100 days from the World Cup: What's the state of the USMNT?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-04T08:15:52.916Z"
-  },
-  {
-    "id": "17e51a5e694a",
-    "title": "World Cup playoff tickets on sale for less than $17",
-    "date": "2026-03-04",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48092692/world-cup-2026-playoff-tickets-sale-fifa-price",
-    "summary": "World Cup playoff tickets on sale for less than $17",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-04T08:15:52.916Z"
-  },
-  {
-    "id": "8b5ee6f7d79e",
-    "title": "Madrid's Rodrygo (torn ACL) to miss World Cup",
-    "date": "2026-03-04",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48089822/real-madrid-rodrygo-torn-acl-season-miss-world-cup",
-    "summary": "Madrid's Rodrygo (torn ACL) to miss World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-04T08:15:52.916Z"
-  },
-  {
-    "id": "36ccac39c9ff",
-    "title": "Utah spends big to sign Mexico forward Palacios",
-    "date": "2026-03-04",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48090861/utah-royals-mexico-kiana-palacios-club-america-transfer",
-    "summary": "Utah spends big to sign Mexico forward Palacios",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-04T08:15:52.916Z"
-  },
-  {
-    "id": "ae1d70cc5a88",
-    "title": "Why does Scotland lead the way on heading in football?",
-    "date": "2026-03-04",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c1w5z2e003no?at_medium=RSS&at_campaign=rss",
-    "summary": "Why does Scotland lead the way on heading in football?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-04T08:15:52.916Z"
-  },
-  {
-    "id": "094ad422f48f",
-    "title": "Does 'class' captain Weir hold the key to Scotland's World Cup return?",
-    "date": "2026-03-04",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/czx71xgjvlko?at_medium=RSS&at_campaign=rss",
-    "summary": "Does 'class' captain Weir hold the key to Scotland's World Cup return?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-04T08:15:52.916Z"
-  },
-  {
-    "id": "d43bc37e6c3d",
-    "title": "Republic of Ireland loss to France 'stings' - McCabe",
-    "date": "2026-03-04",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cgjzw3jnxg7o?at_medium=RSS&at_campaign=rss",
-    "summary": "Republic of Ireland loss to France 'stings' - McCabe",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-04T08:15:52.916Z"
-  },
-  {
-    "id": "ae1d70cc5a88",
-    "title": "Why does Scotland lead the way on football headers?",
-    "date": "2026-03-04",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c1w5z2e003no?at_medium=RSS&at_campaign=rss",
-    "summary": "Why does Scotland lead the way on football headers?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-04T08:15:52.916Z"
-  },
-  {
-    "id": "094ad422f48f",
-    "title": "Does 'class' captain Weir hold the key to Scotland's World Cup return?",
-    "date": "2026-03-04",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/czx71xgjvlko?at_medium=RSS&at_campaign=rss",
-    "summary": "Does 'class' captain Weir hold the key to Scotland's World Cup return?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-04T08:15:52.916Z"
-  },
-  {
-    "id": "094ad422f48f",
-    "title": "Does 'class' captain Weir hold the key to Scotland's World Cup return?",
-    "date": "2026-03-04",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/czx71xgjvlko?at_medium=RSS&at_campaign=rss",
-    "summary": "Does 'class' captain Weir hold the key to Scotland's World Cup return?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-04T08:15:52.916Z"
-  },
-  {
-    "id": "d43bc37e6c3d",
-    "title": "Republic of Ireland loss to France 'stings' - McCabe",
-    "date": "2026-03-04",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cgjzw3jnxg7o?at_medium=RSS&at_campaign=rss",
-    "summary": "Republic of Ireland loss to France 'stings' - McCabe",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-04T08:15:52.916Z"
   }
 ];
