@@ -2,6 +2,71 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "11eb52686254",
+    "title": "Why Falkirk's boss could be manager of year in Scotland - again",
+    "date": "2026-04-04",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/clyx733341ro?at_medium=RSS&at_campaign=rss",
+    "summary": "Why Falkirk's boss could be manager of year in Scotland - again",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-05T08:18:12.461Z"
+  },
+  {
+    "id": "73c20479be70",
+    "title": "There is no ceiling for Estevao - Rosenior",
+    "date": "2026-04-04",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/videos/cly7rd8dprlo?at_medium=RSS&at_campaign=rss",
+    "summary": "There is no ceiling for Estevao - Rosenior",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-05T08:18:12.461Z"
+  },
+  {
+    "id": "bb7433d64509",
+    "title": "Former Brazil midfielder Oscar retires aged 34 with cardiac problems",
+    "date": "2026-04-04",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/04/former-brazil-midfielder-oscar-retires-aged-34-with-cardiac-problems",
+    "summary": "Former Brazil midfielder Oscar retires aged 34 with cardiac problems",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-05T08:18:12.461Z"
+  },
+  {
+    "id": "aad6c5de7da0",
+    "title": "‘Don’t wait four more years’: World Cup co-hosts Canada offer Italy fans free shirt swap",
+    "date": "2026-04-04",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/04/world-cup-2026-canada-offer-italy-fans-free-shirt-swap",
+    "summary": "‘Don’t wait four more years’: World Cup co-hosts Canada offer Italy fans free shirt swap",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-05T08:18:12.461Z"
+  },
+  {
+    "id": "f11dbdceb489",
+    "title": "‘Emotional’ Trippier to leave Newcastle this summer when contract ends",
+    "date": "2026-04-04",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/04/kieran-trippier-leaving-newcastle-united-this-summer",
+    "summary": "‘Emotional’ Trippier to leave Newcastle this summer when contract ends",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-05T08:18:12.461Z"
+  },
+  {
     "id": "0cac0e2282c6",
     "title": "Flick urges Rashford to step up for Barcelona",
     "date": "2026-04-04",
@@ -26,6 +91,19 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-04-04T08:18:20.134Z"
+  },
+  {
+    "id": "7d6fc8e25209",
+    "title": "USMNT World Cup squad predictions: how we see the 26 for 2026",
+    "date": "2026-04-03",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/03/usmnt-world-cup-squad-predictions",
+    "summary": "USMNT World Cup squad predictions: how we see the 26 for 2026",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-05T08:18:12.461Z"
   },
   {
     "id": "be0db1b2a9eb",
@@ -182,6 +260,19 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-04-03T08:24:21.156Z"
+  },
+  {
+    "id": "4af0580fc753",
+    "title": "Arsenal battle past Chelsea in Champions League – Women’s Football Weekly",
+    "date": "2026-04-02",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/audio/2026/apr/02/arsenal-chelsea-champions-league-england-womens-football-weekly",
+    "summary": "Arsenal battle past Chelsea in Champions League – Women’s Football Weekly",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-05T08:18:12.461Z"
   },
   {
     "id": "a2af8943a255",
@@ -975,6 +1066,19 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-03-31T08:31:06.932Z"
+  },
+  {
+    "id": "468f8d977eb8",
+    "title": "Drink in the jeopardy of the World Cup playoffs, it’s the last we’ll get for a while | Jonathan Wilson",
+    "date": "2026-03-30",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/mar/30/world-cup-playoffs-jeopardy",
+    "summary": "Drink in the jeopardy of the World Cup playoffs, it’s the last we’ll get for a while | Jonathan Wilson",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-05T08:18:12.461Z"
   },
   {
     "id": "d744e43cce6d",
@@ -5096,161 +5200,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-03-06T08:15:16.514Z"
-  },
-  {
-    "id": "4daa53a1871a",
-    "title": "USMNT 2026 World Cup big board 5.0: Who should make Pochettino's roster for March camp?",
-    "date": "2026-03-05",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48094135/usmnt-2026-world-cup-big-board-50-roster-pre-world-cup-camp",
-    "summary": "USMNT 2026 World Cup big board 5.0: Who should make Pochettino's roster for March camp?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-06T08:15:16.514Z"
-  },
-  {
-    "id": "ceb95187e170",
-    "title": "Previously silent Iran players sing and salute anthem",
-    "date": "2026-03-05",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cjrqqw771z3o?at_medium=RSS&at_campaign=rss",
-    "summary": "Previously silent Iran players sing and salute anthem",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-06T08:15:16.514Z"
-  },
-  {
-    "id": "b0ab99cb3923",
-    "title": "Regragui departs as Morocco appoint Ouahbi as new coach",
-    "date": "2026-03-05",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c62dnepz5g7o?at_medium=RSS&at_campaign=rss",
-    "summary": "Regragui departs as Morocco appoint Ouahbi as new coach",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-06T08:15:16.514Z"
-  },
-  {
-    "id": "1ab98b461a04",
-    "title": "'So special' - Kelly honoured with Barbie doll",
-    "date": "2026-03-05",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cqlggx232pno?at_medium=RSS&at_campaign=rss",
-    "summary": "'So special' - Kelly honoured with Barbie doll",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-06T08:15:16.514Z"
-  },
-  {
-    "id": "2a44ff2e8a29",
-    "title": "Wales to host Ghana in historic World Cup warm-up",
-    "date": "2026-03-05",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/ce944k34v7do?at_medium=RSS&at_campaign=rss",
-    "summary": "Wales to host Ghana in historic World Cup warm-up",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-06T08:15:16.514Z"
-  },
-  {
-    "id": "b0ab99cb3923",
-    "title": "Ouahbi replaces Regragui in charge of Scotland's World Cup opponents",
-    "date": "2026-03-05",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c62dnepz5g7o?at_medium=RSS&at_campaign=rss",
-    "summary": "Ouahbi replaces Regragui in charge of Scotland's World Cup opponents",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-06T08:15:16.514Z"
-  },
-  {
-    "id": "ceb95187e170",
-    "title": "Previously silent Iran players sing and salute anthem",
-    "date": "2026-03-05",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cjrqqw771z3o?at_medium=RSS&at_campaign=rss",
-    "summary": "Previously silent Iran players sing and salute anthem",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-06T08:15:16.514Z"
-  },
-  {
-    "id": "1ab98b461a04",
-    "title": "'So special' - Kelly honoured with Barbie doll",
-    "date": "2026-03-05",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cqlggx232pno?at_medium=RSS&at_campaign=rss",
-    "summary": "'So special' - Kelly honoured with Barbie doll",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-06T08:15:16.514Z"
-  },
-  {
-    "id": "b9a14ed3a101",
-    "title": "Messi and Inter Miami were wallpaper for Trump’s whims in their White House visit",
-    "date": "2026-03-05",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/05/inter-miami-messi-trump-white-house",
-    "summary": "Messi and Inter Miami were wallpaper for Trump’s whims in their White House visit",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-06T08:15:16.514Z"
-  },
-  {
-    "id": "8984fd11b5d2",
-    "title": "QPR’s Jonathan Varane: ‘Football is a big part of my life, but it’s not everything’",
-    "date": "2026-03-05",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/05/qpr-jonathan-varane-interview",
-    "summary": "QPR’s Jonathan Varane: ‘Football is a big part of my life, but it’s not everything’",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-06T08:15:16.514Z"
-  },
-  {
-    "id": "f36fdc273a3e",
-    "title": "Flamengo appoints Jardim to replace Filipe Luís",
-    "date": "2026-03-05",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48104682/flamengo-hires-leonardo-jardim-replace-filipe-luis",
-    "summary": "Flamengo appoints Jardim to replace Filipe Luís",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-05T08:17:32.065Z"
-  },
-  {
-    "id": "537bbda66340",
-    "title": "Neymar could benefit from Rodrygo's injury and sneak into the World Cup with Brazil",
-    "date": "2026-03-05",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/world-cup/2026/03/05/69a8f441ca4741e23d8b4586.html",
-    "summary": "Neymar could benefit from Rodrygo's injury and sneak into the World Cup with Brazil",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-05T08:17:32.065Z"
   }
 ];
