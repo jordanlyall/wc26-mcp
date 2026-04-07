@@ -2,6 +2,84 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "4dced7e2dbba",
+    "title": "USMNT's Agyemang stretchered off, set for scan",
+    "date": "2026-04-07",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48413159/usmnt-patrick-agyemang-stretchered-set-scans",
+    "summary": "USMNT's Agyemang stretchered off, set for scan",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-07T08:34:39.728Z"
+  },
+  {
+    "id": "ed2f2e56c3e1",
+    "title": "The FA Cup still has an important place. This weekend was proof",
+    "date": "2026-04-06",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/06/fa-cup-premier-league-arsenal-southampton",
+    "summary": "The FA Cup still has an important place. This weekend was proof",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-07T08:34:39.728Z"
+  },
+  {
+    "id": "1d6b0070ca4e",
+    "title": "Spanish school emerges again as the superior model for Champions League success | Philipp Lahm",
+    "date": "2026-04-06",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/06/spain-champions-league-success-superior-model-italy-germany",
+    "summary": "Spanish school emerges again as the superior model for Champions League success | Philipp Lahm",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-07T08:34:39.728Z"
+  },
+  {
+    "id": "87f0b7dcc52b",
+    "title": "Reece James on track to deliver England World Cup boost with Chelsea return",
+    "date": "2026-04-06",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/06/reece-james-england-world-cup-boost-chelsea-return-hamstring-injury",
+    "summary": "Reece James on track to deliver England World Cup boost with Chelsea return",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-07T08:34:39.728Z"
+  },
+  {
+    "id": "55d496e6e5c2",
+    "title": "Bastoni turns Inter jeers to joy after World Cup heartbreak and ‘ugly’ wobble | Nicky Bandini",
+    "date": "2026-04-06",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/06/alessandro-bastoni-inter-jeers-joy-world-cup-heartbreak-ugly-wobble-serie-a-roma",
+    "summary": "Bastoni turns Inter jeers to joy after World Cup heartbreak and ‘ugly’ wobble | Nicky Bandini",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-07T08:34:39.728Z"
+  },
+  {
+    "id": "e4be5ecf615d",
+    "title": "Can the USMNT and USWNT become ‘America’s favorite sports teams’? Their CEO thinks so",
+    "date": "2026-04-06",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/06/jt-batson-usmnt-uswnt-world-cup",
+    "summary": "Can the USMNT and USWNT become ‘America’s favorite sports teams’? Their CEO thinks so",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-07T08:34:39.728Z"
+  },
+  {
     "id": "3883d9f79a37",
     "title": "FA Cup quarter-finals: 10 talking points from the men’s and women’s weekend ties",
     "date": "2026-04-06",
@@ -4922,97 +5000,6 @@ export const news: NewsItem[] = [
     "source": "BBC Sport",
     "url": "https://www.bbc.com/sport/football/articles/c5ykrg5rr3eo?at_medium=RSS&at_campaign=rss",
     "summary": "Griffiths shines as Wales get a glimpse of future",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-08T08:11:46.122Z"
-  },
-  {
-    "id": "92800e11fdd0",
-    "title": "Scotland fire seven past Luxembourg in World Cup qualifying",
-    "date": "2026-03-07",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/videos/ckg1pdv5drlo?at_medium=RSS&at_campaign=rss",
-    "summary": "Scotland fire seven past Luxembourg in World Cup qualifying",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-08T08:11:46.122Z"
-  },
-  {
-    "id": "99d79e64abdc",
-    "title": "Wilkinson 'happy' - but wants more from Wales",
-    "date": "2026-03-07",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cr45pld6v99o?at_medium=RSS&at_campaign=rss",
-    "summary": "Wilkinson 'happy' - but wants more from Wales",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-08T08:11:46.122Z"
-  },
-  {
-    "id": "92800e11fdd0",
-    "title": "Watch: Scotland fire seven past Luxembourg",
-    "date": "2026-03-07",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/videos/ckg1pdv5drlo?at_medium=RSS&at_campaign=rss",
-    "summary": "Watch: Scotland fire seven past Luxembourg",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-08T08:11:46.122Z"
-  },
-  {
-    "id": "e1863a0bca2a",
-    "title": "Scots in action on BBC as Bologna host Verona",
-    "date": "2026-03-07",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cwyg2j5ny2vo?at_medium=RSS&at_campaign=rss",
-    "summary": "Scots in action on BBC as Bologna host Verona",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-08T08:11:46.122Z"
-  },
-  {
-    "id": "a33e46f5e0c5",
-    "title": "Bronze and Stanway fire England past Iceland in Women’s World Cup qualifier",
-    "date": "2026-03-07",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/07/england-iceland-womens-world-cup-qualifier-match-report",
-    "summary": "Bronze and Stanway fire England past Iceland in Women’s World Cup qualifier",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-08T08:11:46.122Z"
-  },
-  {
-    "id": "a1da703e24a9",
-    "title": "‘I sat in his seat’: Southampton’s Tonda Eckert on sauna beers with Klose and his unlikely career path",
-    "date": "2026-03-07",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/07/tonda-eckert-southampton-championship-fulham-fa-cup-fifth-round",
-    "summary": "‘I sat in his seat’: Southampton’s Tonda Eckert on sauna beers with Klose and his unlikely career path",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-08T08:11:46.122Z"
-  },
-  {
-    "id": "63a9706588a0",
-    "title": "Berhalter reacts to Pochettino's promise to Trump to compete for World Cup",
-    "date": "2026-03-07",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/world-cup/2026/03/07/69ac02b522601d18078b45ed.html",
-    "summary": "Berhalter reacts to Pochettino's promise to Trump to compete for World Cup",
     "categories": [
       "general"
     ],
