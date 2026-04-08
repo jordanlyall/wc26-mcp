@@ -2,6 +2,214 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "f1b0884ae527",
+    "title": "USMNT's Agyemang (Achilles tendon) out of WC",
+    "date": "2026-04-08",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48419832/usa-patrick-agyemang-world-cup-achilles-tendon-injury",
+    "summary": "USMNT's Agyemang (Achilles tendon) out of WC",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-08T08:33:26.302Z"
+  },
+  {
+    "id": "e041d3d83e3d",
+    "title": "Pochettino's to-do list: What the USMNT must figure out before World Cup",
+    "date": "2026-04-08",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48412597/mauricio-pochettino-do-list-usmnt-figure-2026-fifa-world-cup",
+    "summary": "Pochettino's to-do list: What the USMNT must figure out before World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-08T08:33:26.302Z"
+  },
+  {
+    "id": "5b004e1fb816",
+    "title": "Alexander-Arnold fails to ease Tuchel concerns as Kane stars",
+    "date": "2026-04-07",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cp38dlkl7eko?at_medium=RSS&at_campaign=rss",
+    "summary": "Alexander-Arnold fails to ease Tuchel concerns as Kane stars",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-08T08:33:26.302Z"
+  },
+  {
+    "id": "2f57acacb7f2",
+    "title": "Thousands of England & Scotland World Cup tickets on resale at inflated prices",
+    "date": "2026-04-07",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c20d5pq6zplo?at_medium=RSS&at_campaign=rss",
+    "summary": "Thousands of England & Scotland World Cup tickets on resale at inflated prices",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-08T08:33:26.302Z"
+  },
+  {
+    "id": "47864ae9e112",
+    "title": "Barry gets first England call-up as Godfrey injured",
+    "date": "2026-04-07",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cn531wzr2d1o?at_medium=RSS&at_campaign=rss",
+    "summary": "Barry gets first England call-up as Godfrey injured",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-08T08:33:26.302Z"
+  },
+  {
+    "id": "74e5d460da76",
+    "title": "Fifa starts disciplinary action over Spain v Egypt chants",
+    "date": "2026-04-07",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cwyvpnw4j1lo?at_medium=RSS&at_campaign=rss",
+    "summary": "Fifa starts disciplinary action over Spain v Egypt chants",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-08T08:33:26.302Z"
+  },
+  {
+    "id": "5d44e4ac943e",
+    "title": "Wales suffer Holland blow for World Cup qualifiers",
+    "date": "2026-04-07",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/ckg9y7777kqo?at_medium=RSS&at_campaign=rss",
+    "summary": "Wales suffer Holland blow for World Cup qualifiers",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-08T08:33:26.302Z"
+  },
+  {
+    "id": "ac315ebefdd4",
+    "title": "Derby's Agyemang to miss World Cup with Achilles injury",
+    "date": "2026-04-07",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cn531w2wdqgo?at_medium=RSS&at_campaign=rss",
+    "summary": "Derby's Agyemang to miss World Cup with Achilles injury",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-08T08:33:26.302Z"
+  },
+  {
+    "id": "2f57acacb7f2",
+    "title": "Thousands of Scotland World Cup tickets on resale at inflated prices",
+    "date": "2026-04-07",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c20d5pq6zplo?at_medium=RSS&at_campaign=rss",
+    "summary": "Thousands of Scotland World Cup tickets on resale at inflated prices",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-08T08:33:26.302Z"
+  },
+  {
+    "id": "91636202dd38",
+    "title": "McLeary replaces McAneny in Scotland squad",
+    "date": "2026-04-07",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cj947jmnr1mo?at_medium=RSS&at_campaign=rss",
+    "summary": "McLeary replaces McAneny in Scotland squad",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-08T08:33:26.302Z"
+  },
+  {
+    "id": "47864ae9e112",
+    "title": "Barry gets first England call-up as Godfrey injured",
+    "date": "2026-04-07",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cn531wzr2d1o?at_medium=RSS&at_campaign=rss",
+    "summary": "Barry gets first England call-up as Godfrey injured",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-08T08:33:26.302Z"
+  },
+  {
+    "id": "e2d69c03488a",
+    "title": "Reynolds receives first Republic of Ireland call-up",
+    "date": "2026-04-07",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/articles/cn0w98lk8yvo?at_medium=RSS&at_campaign=rss",
+    "summary": "Reynolds receives first Republic of Ireland call-up",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-08T08:33:26.302Z"
+  },
+  {
+    "id": "39e891b7a640",
+    "title": "Enzo Fernández may captain Chelsea again despite being dropped for Madrid comments",
+    "date": "2026-04-07",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/07/enzo-fernandez-may-captain-chelsea-again-despite-being-dropped-for-madrid-comments",
+    "summary": "Enzo Fernández may captain Chelsea again despite being dropped for Madrid comments",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-08T08:33:26.302Z"
+  },
+  {
+    "id": "e83f2f0edf05",
+    "title": "Harry Maguire takes wage cut to sign Manchester United contract extension",
+    "date": "2026-04-07",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/07/harry-maguire-signs-manchester-united-contract-extension",
+    "summary": "Harry Maguire takes wage cut to sign Manchester United contract extension",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-08T08:33:26.302Z"
+  },
+  {
+    "id": "42f79e5b2bb9",
+    "title": "Bay Collective to buy Sunderland Women and sets ambitious target",
+    "date": "2026-04-07",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/07/keira-barry-first-england-call-up-niamh-charles-bay-fc",
+    "summary": "Bay Collective to buy Sunderland Women and sets ambitious target",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-08T08:33:26.302Z"
+  },
+  {
+    "id": "ad6112bb035c",
+    "title": "Aaron Ramsey, former Wales captain and Arsenal midfielder, retires aged 35",
+    "date": "2026-04-07",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/07/aaron-ramsey-former-wales-captain-arsenal-midfielder-retires-35",
+    "summary": "Aaron Ramsey, former Wales captain and Arsenal midfielder, retires aged 35",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-08T08:33:26.302Z"
+  },
+  {
     "id": "4dced7e2dbba",
     "title": "USMNT's Agyemang stretchered off, set for scan",
     "date": "2026-04-07",
@@ -4888,122 +5096,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-03-09T08:20:22.050Z"
-  },
-  {
-    "id": "efcd449d174f",
-    "title": "Iraq request World Cup playoff delay after rejecting Fifa plan for 25-hour road journey",
-    "date": "2026-03-08",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/08/iraq-request-world-cup-playoff-postponement-rejecting-fifa-25-hour-road-journey-middle-east-war-world-cup-2026",
-    "summary": "Iraq request World Cup playoff delay after rejecting Fifa plan for 25-hour road journey",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-09T08:20:22.050Z"
-  },
-  {
-    "id": "64ea45b3a9f2",
-    "title": "England make it two out of two in Women’s World Cup qualifiers: what we learned",
-    "date": "2026-03-08",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/08/england-womens-world-cup-qualifiers-what-we-learned",
-    "summary": "England make it two out of two in Women’s World Cup qualifiers: what we learned",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-09T08:20:22.050Z"
-  },
-  {
-    "id": "7a09dc62323c",
-    "title": "Sabrina Wittmann: ‘I’ll always be the first woman coaching a men’s team – but I want to be seen as a coach’",
-    "date": "2026-03-08",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/sport/2026/mar/08/sabrina-wittmann-ill-always-be-the-first-woman-coaching-a-mens-team-but-i-want-to-be-seen-as-a-coach",
-    "summary": "Sabrina Wittmann: ‘I’ll always be the first woman coaching a men’s team – but I want to be seen as a coach’",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-09T08:20:22.050Z"
-  },
-  {
-    "id": "c1d5edf3bf0c",
-    "title": "72,000 fans turned up to watch DC United. But only Messi’s Inter Miami dazzled",
-    "date": "2026-03-08",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/08/dc-united-inter-miami-mls-lionel-messi",
-    "summary": "72,000 fans turned up to watch DC United. But only Messi’s Inter Miami dazzled",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-09T08:20:22.050Z"
-  },
-  {
-    "id": "2374c8b40943",
-    "title": "USMNT’s Sergiño Dest comes off with apparent hamstring injury in PSV win",
-    "date": "2026-03-08",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/08/sergino-dest-usmnt-injury-psv",
-    "summary": "USMNT’s Sergiño Dest comes off with apparent hamstring injury in PSV win",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-09T08:20:22.050Z"
-  },
-  {
-    "id": "b4853e2c4a0f",
-    "title": "Emma Hayes’ USWNT built World Cup momentum with SheBelieves title: Three takeaways",
-    "date": "2026-03-08",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/08/emma-hayes-uswnt-shebelieves-cup-world-cup",
-    "summary": "Emma Hayes’ USWNT built World Cup momentum with SheBelieves title: Three takeaways",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-09T08:20:22.050Z"
-  },
-  {
-    "id": "7b59af482500",
-    "title": "USMNT gets injury scare as Dest limps off for PSV",
-    "date": "2026-03-08",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48137146/usmnt-sergino-dest-injury-hamstring-psv-eindhoven",
-    "summary": "USMNT gets injury scare as Dest limps off for PSV",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-08T08:11:46.122Z"
-  },
-  {
-    "id": "09c0e7fd3dcb",
-    "title": "Griffiths shines as Wales get a glimpse of future",
-    "date": "2026-03-08",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c5ykrg5rr3eo?at_medium=RSS&at_campaign=rss",
-    "summary": "Griffiths shines as Wales get a glimpse of future",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-08T08:11:46.122Z"
-  },
-  {
-    "id": "09c0e7fd3dcb",
-    "title": "Griffiths shines as Wales get a glimpse of future",
-    "date": "2026-03-08",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c5ykrg5rr3eo?at_medium=RSS&at_campaign=rss",
-    "summary": "Griffiths shines as Wales get a glimpse of future",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-08T08:11:46.122Z"
   }
 ];
