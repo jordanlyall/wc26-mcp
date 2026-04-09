@@ -2,6 +2,123 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "e5361d01d084",
+    "title": "Suárez, 39, open to Uruguay return for World Cup",
+    "date": "2026-04-09",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48431580/luis-suarez-uruguay-inter-miami-2026-world-cup-retire",
+    "summary": "Suárez, 39, open to Uruguay return for World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-09T08:39:25.554Z"
+  },
+  {
+    "id": "1f9ffd187867",
+    "title": "Drones, hype videos and data: The number crunchers behind the USMNT's World Cup prep",
+    "date": "2026-04-09",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48412954/drones-hype-videos-data-number-crunchers-usmnt-fifa-world-cup-preparations",
+    "summary": "Drones, hype videos and data: The number crunchers behind the USMNT's World Cup prep",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-09T08:39:25.554Z"
+  },
+  {
+    "id": "19d89d5021c1",
+    "title": "Scotland & England fans in Boston face World Cup train fare hike",
+    "date": "2026-04-08",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cly797p1399o?at_medium=RSS&at_campaign=rss",
+    "summary": "Scotland & England fans in Boston face World Cup train fare hike",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-09T08:39:25.554Z"
+  },
+  {
+    "id": "19d89d5021c1",
+    "title": "Scotland & England fans in Boston face train fare hike",
+    "date": "2026-04-08",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cly797p1399o?at_medium=RSS&at_campaign=rss",
+    "summary": "Scotland & England fans in Boston face train fare hike",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-09T08:39:25.554Z"
+  },
+  {
+    "id": "cb83dec0de94",
+    "title": "Nike’s high-tech 2026 World Cup jerseys have a shoulder problem",
+    "date": "2026-04-08",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/08/nike-world-cup-jerseys-shoulder-problem",
+    "summary": "Nike’s high-tech 2026 World Cup jerseys have a shoulder problem",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-09T08:39:25.554Z"
+  },
+  {
+    "id": "4a0a657c130e",
+    "title": "Football Daily | Madrid and Bayern burn rubber in fast and furious show at Bernabéu",
+    "date": "2026-04-08",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/08/real-madrid-bayern-munich-football-daily-newsletter",
+    "summary": "Football Daily | Madrid and Bayern burn rubber in fast and furious show at Bernabéu",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-09T08:39:25.554Z"
+  },
+  {
+    "id": "5f2792340b4b",
+    "title": "Players with the most FIFA World Cup appearances in history",
+    "date": "2026-04-08",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/world-cup/2026/04/08/69d6c716ca474104088b4572.html",
+    "summary": "Players with the most FIFA World Cup appearances in history",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-09T08:39:25.554Z"
+  },
+  {
+    "id": "c4238ba9ba1f",
+    "title": "Manuel Neuer's performance against Real Madrid has reignited the debate in Germany ahead of the 2026 World Cup",
+    "date": "2026-04-08",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/world-cup/2026/04/08/69d67c7be2704ea3328b45a0.html",
+    "summary": "Manuel Neuer's performance against Real Madrid has reignited the debate in Germany ahead of the 2026 World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-09T08:39:25.554Z"
+  },
+  {
+    "id": "682035f5bad3",
+    "title": "Brazil: when and where they will play the group stage",
+    "date": "2026-04-08",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/world-cup/2026/04/08/69d5b5c346163fd80f8b456c.html",
+    "summary": "Brazil: when and where they will play the group stage",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-09T08:39:25.554Z"
+  },
+  {
     "id": "f1b0884ae527",
     "title": "USMNT's Agyemang (Achilles tendon) out of WC",
     "date": "2026-04-08",
@@ -26,6 +143,45 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-04-08T08:33:26.302Z"
+  },
+  {
+    "id": "f127e88f9b39",
+    "title": "USMNT striker Patrick Agyemang to miss World Cup after ‘serious’ achilles injury",
+    "date": "2026-04-07",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/06/patrick-agyemang-injury-usmnt-derby-county",
+    "summary": "USMNT striker Patrick Agyemang to miss World Cup after ‘serious’ achilles injury",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-09T08:39:25.554Z"
+  },
+  {
+    "id": "9bc213ac0845",
+    "title": "Mauricio Pochettino and the USMNT lose Patrick Agyemang ahead of the 2026 FIFA World Cup",
+    "date": "2026-04-07",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/world-cup/2026/04/07/69d54caa268e3ee94e8b45a7.html",
+    "summary": "Mauricio Pochettino and the USMNT lose Patrick Agyemang ahead of the 2026 FIFA World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-09T08:39:25.554Z"
+  },
+  {
+    "id": "271af06fd9d9",
+    "title": "FIFA 2026 World Cup stadium capacities: New York, Mexico City, Dallas top list",
+    "date": "2026-04-07",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/world-cup/2026/04/07/69d5458446163f5c598b45a2.html",
+    "summary": "FIFA 2026 World Cup stadium capacities: New York, Mexico City, Dallas top list",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-09T08:39:25.554Z"
   },
   {
     "id": "5b004e1fb816",
@@ -4940,161 +5096,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-03-10T08:17:51.744Z"
-  },
-  {
-    "id": "9806bcddaff7",
-    "title": "'Disciplined, brave, relentless' - new NI boss McArdle lays out plans",
-    "date": "2026-03-09",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cvg8lmpg80no?at_medium=RSS&at_campaign=rss",
-    "summary": "'Disciplined, brave, relentless' - new NI boss McArdle lays out plans",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-10T08:17:51.744Z"
-  },
-  {
-    "id": "9806bcddaff7",
-    "title": "McArdle appointed Northern Ireland women's boss",
-    "date": "2026-03-09",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cvg8lmpg80no?at_medium=RSS&at_campaign=rss",
-    "summary": "McArdle appointed Northern Ireland women's boss",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-10T08:17:51.744Z"
-  },
-  {
-    "id": "87655995bb18",
-    "title": "Why do so many people want Arsenal to fail in the Premier League title race? | Jonathan Wilson",
-    "date": "2026-03-09",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/09/it-seems-like-most-of-england-wants-arsenal-to-fail-why",
-    "summary": "Why do so many people want Arsenal to fail in the Premier League title race? | Jonathan Wilson",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-10T08:17:51.744Z"
-  },
-  {
-    "id": "4daf3d1dfb54",
-    "title": "Football Daily | ‘It’s a pain in the bum’: Port Vale and the magic of the FA Cup",
-    "date": "2026-03-09",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/09/port-vale-magic-of-the-fa-cup-football-daily-newsletter",
-    "summary": "Football Daily | ‘It’s a pain in the bum’: Port Vale and the magic of the FA Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-10T08:17:51.744Z"
-  },
-  {
-    "id": "0b558609b84f",
-    "title": "Mauricio Pochettino could join Real Madrid after attempting to make history with the USMNT",
-    "date": "2026-03-09",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/football/real-madrid/2026/03/10/69af5d18268e3ecc098b45b3.html",
-    "summary": "Mauricio Pochettino could join Real Madrid after attempting to make history with the USMNT",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-10T08:17:51.744Z"
-  },
-  {
-    "id": "af806ab5831a",
-    "title": "Neymar closer to the World Cup? Ancelotti names him in Brazil's preliminary squad for upcoming friendlies",
-    "date": "2026-03-09",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/world-cup/2026/03/09/69af39b722601d53418b4587.html",
-    "summary": "Neymar closer to the World Cup? Ancelotti names him in Brazil's preliminary squad for upcoming friendlies",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-10T08:17:51.744Z"
-  },
-  {
-    "id": "b9994a015738",
-    "title": "Iraq asks FIFA for an alternative plan because of the Iran war: \"Delaying the playoff would help us\"",
-    "date": "2026-03-09",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/world-cup/2026/03/09/69aedb8c46163fe3568b45a6.html",
-    "summary": "Iraq asks FIFA for an alternative plan because of the Iran war: \"Delaying the playoff would help us\"",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-10T08:17:51.744Z"
-  },
-  {
-    "id": "2504884f4507",
-    "title": "Iraq coach asks FIFA to reschedule its WC playoff",
-    "date": "2026-03-09",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48148224/iraq-coach-arnold-begs-fifa-reschedule-wc-playoff",
-    "summary": "Iraq coach asks FIFA to reschedule its WC playoff",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-09T08:20:22.050Z"
-  },
-  {
-    "id": "ac040a3aff7a",
-    "title": "FIFPRO calls on FIFA to ensure Iran WNT's safety",
-    "date": "2026-03-09",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48149706/fifpro-calls-fifa-afc-guarantee-safety-iran-womens-national-team",
-    "summary": "FIFPRO calls on FIFA to ensure Iran WNT's safety",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-09T08:20:22.050Z"
-  },
-  {
-    "id": "62dadbdaf2a3",
-    "title": "Contrasting news on Tierney & McGregor injuries - gossip",
-    "date": "2026-03-09",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c4g8v840939o?at_medium=RSS&at_campaign=rss",
-    "summary": "Contrasting news on Tierney & McGregor injuries - gossip",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-09T08:20:22.050Z"
-  },
-  {
-    "id": "c50b0acd7adc",
-    "title": "Time is running out for the Iranian women’s football team as fears for their safety grow | Jack Snape",
-    "date": "2026-03-09",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/09/iran-womens-football-team-safety-fears-australia",
-    "summary": "Time is running out for the Iranian women’s football team as fears for their safety grow | Jack Snape",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-09T08:20:22.050Z"
-  },
-  {
-    "id": "2b7e55cd420f",
-    "title": "José Mourinho denies 'traitor' accusations after fiery Benfica vs Porto clash",
-    "date": "2026-03-09",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/football/2026/03/09/69ae565146163fe3568b4584.html",
-    "summary": "José Mourinho denies 'traitor' accusations after fiery Benfica vs Porto clash",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-09T08:20:22.050Z"
   }
 ];
