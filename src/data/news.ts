@@ -2,6 +2,162 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "228f09b53601",
+    "title": "'Hungry' Watkins is man on mission - but will Tuchel take notice?",
+    "date": "2026-04-09",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cx2rdd3pv7eo?at_medium=RSS&at_campaign=rss",
+    "summary": "'Hungry' Watkins is man on mission - but will Tuchel take notice?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-10T08:38:57.114Z"
+  },
+  {
+    "id": "ae6895998528",
+    "title": "Estevao could be Brazil's World Cup's surprise - Davide Ancelotti",
+    "date": "2026-04-09",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cjd8r27e48mo?at_medium=RSS&at_campaign=rss",
+    "summary": "Estevao could be Brazil's World Cup's surprise - Davide Ancelotti",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-10T08:38:57.114Z"
+  },
+  {
+    "id": "00e01bc3f12b",
+    "title": "Football Daily",
+    "date": "2026-04-09",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sounds/play/p0nckjkm?at_medium=RSS&at_campaign=rss",
+    "summary": "Football Daily",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-10T08:38:57.114Z"
+  },
+  {
+    "id": "b2a612d6ebe6",
+    "title": "Scotland confirm final World Cup warm-up against Bolivia - live on BBC",
+    "date": "2026-04-09",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cm25yp3k8vlo?at_medium=RSS&at_campaign=rss",
+    "summary": "Scotland confirm final World Cup warm-up against Bolivia - live on BBC",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-10T08:38:57.114Z"
+  },
+  {
+    "id": "7aae7d85a045",
+    "title": "Bedford on 'full circle' moment in England career",
+    "date": "2026-04-09",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c8x7dgvwww1o?at_medium=RSS&at_campaign=rss",
+    "summary": "Bedford on 'full circle' moment in England career",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-10T08:38:57.114Z"
+  },
+  {
+    "id": "b2a612d6ebe6",
+    "title": "Scotland confirm final World Cup warm-up against Bolivia - live on BBC",
+    "date": "2026-04-09",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cm25yp3k8vlo?at_medium=RSS&at_campaign=rss",
+    "summary": "Scotland confirm final World Cup warm-up against Bolivia - live on BBC",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-10T08:38:57.114Z"
+  },
+  {
+    "id": "7aae7d85a045",
+    "title": "Bedford on 'full circle' moment in England career",
+    "date": "2026-04-09",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c8x7dgvwww1o?at_medium=RSS&at_campaign=rss",
+    "summary": "Bedford on 'full circle' moment in England career",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-10T08:38:57.114Z"
+  },
+  {
+    "id": "4727e3dc0905",
+    "title": "Liverpool announce Andy Robertson will leave at the end of the season",
+    "date": "2026-04-09",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/09/andy-robertson-to-leave-liverpool-at-end-of-season",
+    "summary": "Liverpool announce Andy Robertson will leave at the end of the season",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-10T08:38:57.114Z"
+  },
+  {
+    "id": "89bfb8b4dd0f",
+    "title": "Julián Alvarez is proving that he’s more than second fiddle | Jeff Rueter",
+    "date": "2026-04-09",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/09/julian-alvarez-is-proving-that-hes-more-than-second-fiddle",
+    "summary": "Julián Alvarez is proving that he’s more than second fiddle | Jeff Rueter",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-10T08:38:57.114Z"
+  },
+  {
+    "id": "adfe8c354b2f",
+    "title": "American Samoa’s Women’s World Cup fairytale takes them from ‘underdog to dark horse’",
+    "date": "2026-04-09",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/09/american-samoa-womens-world-cup-fairytale-moving-the-goalposts",
+    "summary": "American Samoa’s Women’s World Cup fairytale takes them from ‘underdog to dark horse’",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-10T08:38:57.114Z"
+  },
+  {
+    "id": "683ddb3cdd71",
+    "title": "Champions League review: a brilliant Georgian, Bayern’s regret and Arsenal refind their faith",
+    "date": "2026-04-09",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/09/champions-league-review-arsenal-bayern-liverpool-psg-real-madrid",
+    "summary": "Champions League review: a brilliant Georgian, Bayern’s regret and Arsenal refind their faith",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-10T08:38:57.114Z"
+  },
+  {
+    "id": "28cfc4e389b2",
+    "title": "Football Daily | Liverpool get ripped apart again in an 'anti-football' beatdown",
+    "date": "2026-04-09",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/09/football-daily-email-liverpool-psg",
+    "summary": "Football Daily | Liverpool get ripped apart again in an 'anti-football' beatdown",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-10T08:38:57.114Z"
+  },
+  {
     "id": "e5361d01d084",
     "title": "Suárez, 39, open to Uruguay return for World Cup",
     "date": "2026-04-09",
@@ -4914,187 +5070,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-03-11T08:17:48.034Z"
-  },
-  {
-    "id": "f8cb28f0e68c",
-    "title": "England’s perfect start to World Cup qualifying: Women’s Football Weekly – podcast",
-    "date": "2026-03-10",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/audio/2026/mar/10/england-perfect-start-to-world-cup-qualifying-womens-football-weekly-podcast",
-    "summary": "England’s perfect start to World Cup qualifying: Women’s Football Weekly – podcast",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-12T08:19:28.034Z"
-  },
-  {
-    "id": "f17b2ce343ca",
-    "title": "England's Walker retires from international football",
-    "date": "2026-03-10",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cpv83g4dpgeo?at_medium=RSS&at_campaign=rss",
-    "summary": "England's Walker retires from international football",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-11T08:17:48.034Z"
-  },
-  {
-    "id": "b275990d0db9",
-    "title": "‘So much disrespect’: outrage grows over postponement of Women’s Africa Cup of Nations",
-    "date": "2026-03-10",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/10/wafcon-womens-africa-cup-of-nations-outrage-over-postponement",
-    "summary": "‘So much disrespect’: outrage grows over postponement of Women’s Africa Cup of Nations",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-11T08:17:48.034Z"
-  },
-  {
-    "id": "058f72e538db",
-    "title": "Havertz eager to make up for lost time for Arsenal against familiar foe",
-    "date": "2026-03-10",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/10/havertz-eager-to-make-up-for-lost-time-for-arsenal-against-familiar-foe",
-    "summary": "Havertz eager to make up for lost time for Arsenal against familiar foe",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-11T08:17:48.034Z"
-  },
-  {
-    "id": "8d8735b68044",
-    "title": "The US World Cup is facing two crises: a financial mess – and ICE | Nellie Pou",
-    "date": "2026-03-10",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/commentisfree/2026/mar/10/world-cup-congress-funding-ice",
-    "summary": "The US World Cup is facing two crises: a financial mess – and ICE | Nellie Pou",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-11T08:17:48.034Z"
-  },
-  {
-    "id": "553b8772515a",
-    "title": "Neymar's new injury could affect his inclusion in Carlo Ancelotti's Brazil squad",
-    "date": "2026-03-10",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/football/2026/03/10/69b0335d268e3e230f8b458a.html",
-    "summary": "Neymar's new injury could affect his inclusion in Carlo Ancelotti's Brazil squad",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-11T08:17:48.034Z"
-  },
-  {
-    "id": "dfe71d283d26",
-    "title": "Modric deactivates his return to Madrid with Allegri as coach: \"I'm not interested in rumours\"",
-    "date": "2026-03-10",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/football/real-madrid/2026/03/10/69b00d68e2704e12398b45c9.html",
-    "summary": "Modric deactivates his return to Madrid with Allegri as coach: \"I'm not interested in rumours\"",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-11T08:17:48.034Z"
-  },
-  {
-    "id": "32ae60b1d229",
-    "title": "Despite wingback depth, Dest injury threatens USMNT's World Cup hopes",
-    "date": "2026-03-10",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48154669/despite-wingback-depth-sergino-dest-injury-threatens-usmnt-world-cup-hopes",
-    "summary": "Despite wingback depth, Dest injury threatens USMNT's World Cup hopes",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-10T08:17:51.744Z"
-  },
-  {
-    "id": "787d09f168f8",
-    "title": "Australia grants asylum to five Iranian players",
-    "date": "2026-03-10",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48156225/women-asian-cup-iranian-soccer-players-australian-federal-police-watch-daring-escape",
-    "summary": "Australia grants asylum to five Iranian players",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-10T08:17:51.744Z"
-  },
-  {
-    "id": "e0e864d2fad9",
-    "title": "Relegated and then European champions? Have I got Spurs for you | Jon Harvey",
-    "date": "2026-03-10",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/10/relegated-and-then-european-champions-have-i-got-spurs-for-you",
-    "summary": "Relegated and then European champions? Have I got Spurs for you | Jon Harvey",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-10T08:17:51.744Z"
-  },
-  {
-    "id": "47d6f641c49c",
-    "title": "Iran women’s football team heads to airport as clock ticks on Australia’s offer of asylum",
-    "date": "2026-03-10",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/10/iran-womens-football-team-asylum-australia",
-    "summary": "Iran women’s football team heads to airport as clock ticks on Australia’s offer of asylum",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-10T08:17:51.744Z"
-  },
-  {
-    "id": "ce3c542e7d6f",
-    "title": "Where the World Cup stadiums are in Canada and what fans can expect in each host city",
-    "date": "2026-03-10",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/world-cup/2026/03/10/69af756446163f40298b45b8.html",
-    "summary": "Where the World Cup stadiums are in Canada and what fans can expect in each host city",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-10T08:17:51.744Z"
-  },
-  {
-    "id": "70a0488dfc2b",
-    "title": "FIFA World Cup 2026 Miami Host Committee launches \"ONE GAME ONE FUTURE\" initiative to expand youth soccer",
-    "date": "2026-03-10",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/world-cup/2026/03/10/69af7958e2704e12398b45a5.html",
-    "summary": "FIFA World Cup 2026 Miami Host Committee launches \"ONE GAME ONE FUTURE\" initiative to expand youth soccer",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-10T08:17:51.744Z"
-  },
-  {
-    "id": "56e1574a10e6",
-    "title": "Where the World Cup stadiums are in Mexico and what fans can expect in each host city",
-    "date": "2026-03-10",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/world-cup/2026/03/10/69af707346163f0c0f8b45b5.html",
-    "summary": "Where the World Cup stadiums are in Mexico and what fans can expect in each host city",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-10T08:17:51.744Z"
   }
 ];
