@@ -2,6 +2,149 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "2f1105aa160e",
+    "title": "Hayes: Wilson ready for U.S.-Japan triple-header",
+    "date": "2026-04-11",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48449649/sophia-wilson-uswnt-comeback-japan-emma-hayes",
+    "summary": "Hayes: Wilson ready for U.S.-Japan triple-header",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-11T08:18:47.338Z"
+  },
+  {
+    "id": "897a757d1c9c",
+    "title": "Lyon coach 'not satisfied' with Brazil teen Endrick",
+    "date": "2026-04-11",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48448378/lyon-coach-fonseca-not-satisfied-brazil-teen-endrick",
+    "summary": "Lyon coach 'not satisfied' with Brazil teen Endrick",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-11T08:18:47.338Z"
+  },
+  {
+    "id": "aa9ed71d77ba",
+    "title": "This season my toughest moment - Watkins",
+    "date": "2026-04-11",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/videos/cge054lj31yo?at_medium=RSS&at_campaign=rss",
+    "summary": "This season my toughest moment - Watkins",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-11T08:18:47.338Z"
+  },
+  {
+    "id": "d898ed6d5222",
+    "title": "‘His car stunk of fish for weeks’: Elliot Anderson on practical jokes and his World Cup dream",
+    "date": "2026-04-11",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/11/elliot-anderson-nottingham-forest-england",
+    "summary": "‘His car stunk of fish for weeks’: Elliot Anderson on practical jokes and his World Cup dream",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-11T08:18:47.338Z"
+  },
+  {
+    "id": "f56848911138",
+    "title": "Liverpool to sign Germany forward Endemann in July",
+    "date": "2026-04-10",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c4gd4nj0nkno?at_medium=RSS&at_campaign=rss",
+    "summary": "Liverpool to sign Germany forward Endemann in July",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-11T08:18:47.338Z"
+  },
+  {
+    "id": "4e3522ad2244",
+    "title": "Wales' Ingle back to best after injury woe",
+    "date": "2026-04-10",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cpwjkq4exxko?at_medium=RSS&at_campaign=rss",
+    "summary": "Wales' Ingle back to best after injury woe",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-11T08:18:47.338Z"
+  },
+  {
+    "id": "4e3522ad2244",
+    "title": "Wales' Ingle back to best after injury woe",
+    "date": "2026-04-10",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cpwjkq4exxko?at_medium=RSS&at_campaign=rss",
+    "summary": "Wales' Ingle back to best after injury woe",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-11T08:18:47.338Z"
+  },
+  {
+    "id": "f56848911138",
+    "title": "Liverpool to sign Germany forward Endemann in July",
+    "date": "2026-04-10",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c4gd4nj0nkno?at_medium=RSS&at_campaign=rss",
+    "summary": "Liverpool to sign Germany forward Endemann in July",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-11T08:18:47.338Z"
+  },
+  {
+    "id": "751eee5a5854",
+    "title": "Goodbye and thanks to Aaron Ramsey, a shoo-in for all-time Wales XI | Elis James",
+    "date": "2026-04-10",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/10/goodbye-to-the-rare-talent-aaron-ramsey-aka-the-biggest-what-if-in-history-of-wales-football",
+    "summary": "Goodbye and thanks to Aaron Ramsey, a shoo-in for all-time Wales XI | Elis James",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-11T08:18:47.338Z"
+  },
+  {
+    "id": "24c17ac3d866",
+    "title": "Women’s football in England at risk without WSL academy teams in third tier, FA claims",
+    "date": "2026-04-10",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/10/womens-football-england-risk-wsl-academy-teams-third-tier-fa",
+    "summary": "Women’s football in England at risk without WSL academy teams in third tier, FA claims",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-11T08:18:47.338Z"
+  },
+  {
+    "id": "acc3eb0e8fdb",
+    "title": "Football Daily | Enzo Fernández and Chelsea’s very English approach to playing happy families",
+    "date": "2026-04-10",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/10/enzo-fernandez-chelsea-football-daily-newsletter",
+    "summary": "Football Daily | Enzo Fernández and Chelsea’s very English approach to playing happy families",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-11T08:18:47.338Z"
+  },
+  {
     "id": "228f09b53601",
     "title": "'Hungry' Watkins is man on mission - but will Tuchel take notice?",
     "date": "2026-04-09",
@@ -4888,187 +5031,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-03-12T08:19:28.034Z"
-  },
-  {
-    "id": "725d9dc2983d",
-    "title": "Arsenal undone by own set-piece weapon as 100% record ends in Germany",
-    "date": "2026-03-11",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cwyklwdzljyo?at_medium=RSS&at_campaign=rss",
-    "summary": "Arsenal undone by own set-piece weapon as 100% record ends in Germany",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-12T08:19:28.034Z"
-  },
-  {
-    "id": "edd962487ba6",
-    "title": "NI to play remaining home qualifiers at Mourneview",
-    "date": "2026-03-11",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/articles/cx247ggr30vo?at_medium=RSS&at_campaign=rss",
-    "summary": "NI to play remaining home qualifiers at Mourneview",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-12T08:19:28.034Z"
-  },
-  {
-    "id": "b153485b8a0e",
-    "title": "Iran’s sports minister says football team will not play at 2026 World Cup",
-    "date": "2026-03-11",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/11/donald-trump-iran-welcome-2026-world-cup-gianni-infantino",
-    "summary": "Iran’s sports minister says football team will not play at 2026 World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-12T08:19:28.034Z"
-  },
-  {
-    "id": "88622367bcbd",
-    "title": "Dibble to Duverger: other goalkeeper nightmares after Kinsky’s horror show",
-    "date": "2026-03-11",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/11/other-goalkeeper-nightmares-antonin-kinsky-spurs-atletico-madrid-dibble-to-duverger",
-    "summary": "Dibble to Duverger: other goalkeeper nightmares after Kinsky’s horror show",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-12T08:19:28.034Z"
-  },
-  {
-    "id": "4825601e423b",
-    "title": "North Korea’s shady tactics show Matildas must be ready for more than football",
-    "date": "2026-03-11",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/sport/2026/mar/11/north-korea-protest-matildas-australia-womens-asian-cup",
-    "summary": "North Korea’s shady tactics show Matildas must be ready for more than football",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-12T08:19:28.034Z"
-  },
-  {
-    "id": "85ed5c717eef",
-    "title": "Vinícius Jr. matches Cristiano Ronaldo's unwanted record at Real Madrid",
-    "date": "2026-03-11",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/football/champions-league/2026/03/12/69b1eb4ae2704e3b038b45d8.html",
-    "summary": "Vinícius Jr. matches Cristiano Ronaldo's unwanted record at Real Madrid",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-12T08:19:28.034Z"
-  },
-  {
-    "id": "025d3b9ce9c9",
-    "title": "Piers Morgan launches scathing attack on Megan Rapinoe after silence over Iran controversy",
-    "date": "2026-03-11",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/football/2026/03/11/69b1e194e2704e0c658b45d1.html",
-    "summary": "Piers Morgan launches scathing attack on Megan Rapinoe after silence over Iran controversy",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-12T08:19:28.034Z"
-  },
-  {
-    "id": "de98d9b0f79e",
-    "title": "Why Neymar's viral training video is restarting the debate about his Brazil national team return",
-    "date": "2026-03-11",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/football/2026/03/11/69b1ce3ae2704e6e568b45d1.html",
-    "summary": "Why Neymar's viral training video is restarting the debate about his Brazil national team return",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-12T08:19:28.034Z"
-  },
-  {
-    "id": "351d27b53ea7",
-    "title": "Who could aspire to be Mexico's goalkeeper for the 2026 World Cup after Malagón's injury?",
-    "date": "2026-03-11",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/world-cup/2026/03/11/69b1b0a522601df3228b45a5.html",
-    "summary": "Who could aspire to be Mexico's goalkeeper for the 2026 World Cup after Malagón's injury?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-12T08:19:28.034Z"
-  },
-  {
-    "id": "4948b4be279c",
-    "title": "World Cup 2026 Playoff: SRE confirms visas for Iraq players to travel to Monterrey",
-    "date": "2026-03-11",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/world-cup/2026/03/11/69b14f63ca4741895f8b4588.html",
-    "summary": "World Cup 2026 Playoff: SRE confirms visas for Iraq players to travel to Monterrey",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-12T08:19:28.034Z"
-  },
-  {
-    "id": "0809b2920797",
-    "title": "USMNT picks Irvine as World Cup training base",
-    "date": "2026-03-11",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48168483/united-states-picks-irvine-world-cup-training-base",
-    "summary": "USMNT picks Irvine as World Cup training base",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-11T08:17:48.034Z"
-  },
-  {
-    "id": "ba7fddb2974d",
-    "title": "Achilles injury clouds Malagón's World Cup hopes",
-    "date": "2026-03-11",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48169787/mexico-goalkeeper-malagon-world-cup-risk-achilles-injury",
-    "summary": "Achilles injury clouds Malagón's World Cup hopes",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-11T08:17:48.034Z"
-  },
-  {
-    "id": "13ba16632b6d",
-    "title": "Iran player changes mind on asylum in Australia",
-    "date": "2026-03-11",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48167227/iran-player-changes-mind-asylum-australia",
-    "summary": "Iran player changes mind on asylum in Australia",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-11T08:17:48.034Z"
-  },
-  {
-    "id": "1e59c0635a67",
-    "title": "Which football match holds the record for the most red cards? | The Knowledge",
-    "date": "2026-03-11",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/11/football-match-record-most-red-cards-the-knowledge",
-    "summary": "Which football match holds the record for the most red cards? | The Knowledge",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-11T08:17:48.034Z"
   }
 ];
