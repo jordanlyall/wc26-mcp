@@ -2,6 +2,84 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "5d45aef051fb",
+    "title": "Wales told to show up in Albania qualifiers",
+    "date": "2026-04-12",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/ce35kw0d89lo?at_medium=RSS&at_campaign=rss",
+    "summary": "Wales told to show up in Albania qualifiers",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-12T08:23:12.420Z"
+  },
+  {
+    "id": "5d45aef051fb",
+    "title": "Wales told to show up in Albania qualifiers",
+    "date": "2026-04-12",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/ce35kw0d89lo?at_medium=RSS&at_campaign=rss",
+    "summary": "Wales told to show up in Albania qualifiers",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-12T08:23:12.420Z"
+  },
+  {
+    "id": "ae67867101f8",
+    "title": "Wasted weekend takes wind out of WSL’s sails … and get ready for more",
+    "date": "2026-04-12",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/12/wasted-weekend-international-break-womens-super-league-football",
+    "summary": "Wasted weekend takes wind out of WSL’s sails … and get ready for more",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-12T08:23:12.420Z"
+  },
+  {
+    "id": "92f485f017f7",
+    "title": "New faces pushing Wales - and why game in Wrexham is so important",
+    "date": "2026-04-11",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/ckgekdxnzndo?at_medium=RSS&at_campaign=rss",
+    "summary": "New faces pushing Wales - and why game in Wrexham is so important",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-12T08:23:12.420Z"
+  },
+  {
+    "id": "e4ee442ca631",
+    "title": "Uncapped Chambers deserves NI chance - Bell",
+    "date": "2026-04-11",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cpd567l25j2o?at_medium=RSS&at_campaign=rss",
+    "summary": "Uncapped Chambers deserves NI chance - Bell",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-12T08:23:12.420Z"
+  },
+  {
+    "id": "ec098df2a886",
+    "title": "Lotte Wubben-Moy finds ‘perfect storm’ to show she is more than England stand-in",
+    "date": "2026-04-11",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/11/lotte-wubben-moy-england-arsenal-tao-geoghegan-hart",
+    "summary": "Lotte Wubben-Moy finds ‘perfect storm’ to show she is more than England stand-in",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-12T08:23:12.420Z"
+  },
+  {
     "id": "2f1105aa160e",
     "title": "Hayes: Wilson ready for U.S.-Japan triple-header",
     "date": "2026-04-11",
@@ -4901,135 +4979,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-03-13T08:17:46.174Z"
-  },
-  {
-    "id": "78baa47bdc03",
-    "title": "Sweden coach Potter extends contract to 2030",
-    "date": "2026-03-12",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cy4wk4mkdk9o?at_medium=RSS&at_campaign=rss",
-    "summary": "Sweden coach Potter extends contract to 2030",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-13T08:17:46.174Z"
-  },
-  {
-    "id": "16b081023d82",
-    "title": "Celtic eye Robbie Keane as next boss - gossip",
-    "date": "2026-03-12",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/czx4z0y1rzxo?at_medium=RSS&at_campaign=rss",
-    "summary": "Celtic eye Robbie Keane as next boss - gossip",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-13T08:17:46.174Z"
-  },
-  {
-    "id": "9c9bcc2d6571",
-    "title": "Crystal Palace frustrated by Larnaca again in Conference League draw",
-    "date": "2026-03-12",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/12/crystal-palace-larnaca-conference-league-last-16-first-leg-match-report",
-    "summary": "Crystal Palace frustrated by Larnaca again in Conference League draw",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-13T08:17:46.174Z"
-  },
-  {
-    "id": "d3b2876d7ea3",
-    "title": "They will relaunch the shirt with which Rafael Marquez made his debut with Mexico by mistake",
-    "date": "2026-03-12",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/football/2026/03/12/69b31e0b268e3eed748b45c0.html",
-    "summary": "They will relaunch the shirt with which Rafael Marquez made his debut with Mexico by mistake",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-13T08:17:46.174Z"
-  },
-  {
-    "id": "027b99418dd4",
-    "title": "Trump recommends Iran's national team not to go to the World Cup \"for their own safety\"",
-    "date": "2026-03-12",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/world-cup/2026/03/12/69b2e967ca47410f168b45a2.html",
-    "summary": "Trump recommends Iran's national team not to go to the World Cup \"for their own safety\"",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-13T08:17:46.174Z"
-  },
-  {
-    "id": "d53ba959c1a7",
-    "title": "WC games in Foxborough on as sides reach deal",
-    "date": "2026-03-12",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48179018/world-cup-games-foxborough-sides-reach-deal",
-    "summary": "WC games in Foxborough on as sides reach deal",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-12T08:19:28.034Z"
-  },
-  {
-    "id": "a61d3fb40419",
-    "title": "Mexico GK Malagón out of WC after Achilles tear",
-    "date": "2026-03-12",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48177846/achilles-tear-ends-mexico-goalkeeper-malagon-world-cup-dreams",
-    "summary": "Mexico GK Malagón out of WC after Achilles tear",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-12T08:19:28.034Z"
-  },
-  {
-    "id": "9c95122bf160",
-    "title": "'Rangers can sell Fernandez for £40m' - gossip",
-    "date": "2026-03-12",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/ce82krjrln8o?at_medium=RSS&at_campaign=rss",
-    "summary": "'Rangers can sell Fernandez for £40m' - gossip",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-12T08:19:28.034Z"
-  },
-  {
-    "id": "d5f4249c6b7e",
-    "title": "Sam Kerr in defence? Matildas rocked by key absences for Asian Cup quarter-final",
-    "date": "2026-03-12",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/12/matildas-asian-cup-quarter-final-starting-lineup-north-korea-sam-kerr",
-    "summary": "Sam Kerr in defence? Matildas rocked by key absences for Asian Cup quarter-final",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-12T08:19:28.034Z"
-  },
-  {
-    "id": "fb5128b06d63",
-    "title": "How Thibaut Courtois humiliated Raphinha with his assist to Valverde in the Champions League",
-    "date": "2026-03-12",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/football/champions-league/2026/03/12/69b22b87e2704e59248b4579.html",
-    "summary": "How Thibaut Courtois humiliated Raphinha with his assist to Valverde in the Champions League",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-12T08:19:28.034Z"
   }
 ];
