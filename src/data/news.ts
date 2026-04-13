@@ -2,6 +2,97 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "654b2f4a1105",
+    "title": "Argentina's Romero limps off Spurs' loss in tears",
+    "date": "2026-04-13",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48467778/argentina-defender-cristian-romero-injured-tottenham-loss",
+    "summary": "Argentina's Romero limps off Spurs' loss in tears",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-13T08:50:43.818Z"
+  },
+  {
+    "id": "8076ca5f88e6",
+    "title": "Weir on World Cup dreams, coaching kids in Fife & Empire Biscuits",
+    "date": "2026-04-13",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c2evpjz3m19o?at_medium=RSS&at_campaign=rss",
+    "summary": "Weir on World Cup dreams, coaching kids in Fife & Empire Biscuits",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-13T08:50:43.818Z"
+  },
+  {
+    "id": "8076ca5f88e6",
+    "title": "Weir on World Cup dreams, coaching kids in Fife & Empire Biscuits",
+    "date": "2026-04-13",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c2evpjz3m19o?at_medium=RSS&at_campaign=rss",
+    "summary": "Weir on World Cup dreams, coaching kids in Fife & Empire Biscuits",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-13T08:50:43.818Z"
+  },
+  {
+    "id": "8076ca5f88e6",
+    "title": "Weir on World Cup dreams, coaching kids in Fife & Empire Biscuits",
+    "date": "2026-04-13",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c2evpjz3m19o?at_medium=RSS&at_campaign=rss",
+    "summary": "Weir on World Cup dreams, coaching kids in Fife & Empire Biscuits",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-13T08:50:43.818Z"
+  },
+  {
+    "id": "832d0e339f1a",
+    "title": "Luton break Stockport hearts in Vertu Trophy final to give Wilshere first silverware as manager",
+    "date": "2026-04-12",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/12/luton-win-vertu-trophy-as-nahki-wells-double-breaks-stockport-hearts",
+    "summary": "Luton break Stockport hearts in Vertu Trophy final to give Wilshere first silverware as manager",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-13T08:50:43.818Z"
+  },
+  {
+    "id": "234405d53ad4",
+    "title": "Cristian Romero could suffer serious injury after dirty push: Argentina on edge over center-back ahead of the World Cup",
+    "date": "2026-04-12",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/world-cup/2026/04/12/69dbc491e2704edd618b457d.html",
+    "summary": "Cristian Romero could suffer serious injury after dirty push: Argentina on edge over center-back ahead of the World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-13T08:50:43.818Z"
+  },
+  {
+    "id": "70a520acef56",
+    "title": "Hulk isn't helping Neymar make Brazil World Cup squad with a response that'll leave Ancelotti with even more doubts",
+    "date": "2026-04-12",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/world-cup/2026/04/12/69db5967e2704ee06e8b4585.html",
+    "summary": "Hulk isn't helping Neymar make Brazil World Cup squad with a response that'll leave Ancelotti with even more doubts",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-13T08:50:43.818Z"
+  },
+  {
     "id": "5d45aef051fb",
     "title": "Wales told to show up in Albania qualifiers",
     "date": "2026-04-12",
@@ -4797,187 +4888,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-03-14T08:13:14.850Z"
-  },
-  {
-    "id": "4f0e7e981abc",
-    "title": "'Iran's women are heroes - they want to be free'",
-    "date": "2026-03-13",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c1e95p9nqxdo?at_medium=RSS&at_campaign=rss",
-    "summary": "'Iran's women are heroes - they want to be free'",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-14T08:13:14.850Z"
-  },
-  {
-    "id": "4f0e7e981abc",
-    "title": "'Iran's women are heroes - they want to be free'",
-    "date": "2026-03-13",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c1e95p9nqxdo?at_medium=RSS&at_campaign=rss",
-    "summary": "'Iran's women are heroes - they want to be free'",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-14T08:13:14.850Z"
-  },
-  {
-    "id": "46aec9de4371",
-    "title": "Crunch time: how England’s battle for Champions League places is shaping up",
-    "date": "2026-03-13",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/13/crunch-time-how-englands-battle-for-champions-league-places-is-shaping-up",
-    "summary": "Crunch time: how England’s battle for Champions League places is shaping up",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-14T08:13:14.850Z"
-  },
-  {
-    "id": "a83e0a8b2e2b",
-    "title": "Will Iran play at the 2026 World Cup? Explaining the state of play",
-    "date": "2026-03-13",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/13/iran-2026-world-cup-status-explainer",
-    "summary": "Will Iran play at the 2026 World Cup? Explaining the state of play",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-14T08:13:14.850Z"
-  },
-  {
-    "id": "dbb4398f5784",
-    "title": "Matildas survive North Korea scare to book spot in Women’s Asian Cup semi-final",
-    "date": "2026-03-13",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/13/australia-matildas-north-korea-womens-asian-cup-football-report",
-    "summary": "Matildas survive North Korea scare to book spot in Women’s Asian Cup semi-final",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-14T08:13:14.850Z"
-  },
-  {
-    "id": "d91c952a864e",
-    "title": "Matildas make room for bigger questions over future after Asian Cup escape | Joey Lynch",
-    "date": "2026-03-13",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/blog/2026/mar/13/matildas-asian-cup-north-korea-analysis",
-    "summary": "Matildas make room for bigger questions over future after Asian Cup escape | Joey Lynch",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-14T08:13:14.850Z"
-  },
-  {
-    "id": "62d1b1425dba",
-    "title": "Football Daily | Emery and a glorious love affair that could take Aston Villa to glory",
-    "date": "2026-03-13",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/13/unai-emery-europa-league-aston-villa-football-daily-newsletter",
-    "summary": "Football Daily | Emery and a glorious love affair that could take Aston Villa to glory",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-14T08:13:14.850Z"
-  },
-  {
-    "id": "4a75ff7092b8",
-    "title": "Brazil and Jordan Brand unveil historic away kit for 2026 World Cup",
-    "date": "2026-03-13",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/world-cup/2026/03/13/69b47eb5268e3ebb538b45fd.html",
-    "summary": "Brazil and Jordan Brand unveil historic away kit for 2026 World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-14T08:13:14.850Z"
-  },
-  {
-    "id": "ca5bfb38eac5",
-    "title": "\"They will be treated like stars\": Donald Trump sends message to 2026 World Cup participants",
-    "date": "2026-03-13",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/world-cup/2026/03/13/69b4781d268e3eff4f8b45b7.html",
-    "summary": "\"They will be treated like stars\": Donald Trump sends message to 2026 World Cup participants",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-14T08:13:14.850Z"
-  },
-  {
-    "id": "46c608861e03",
-    "title": "If it's not Cristiano Ronaldo, it will be Messi: The 'Plan B' for the new Estadio Azteca",
-    "date": "2026-03-13",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/world-cup/2026/03/13/69b43ea0268e3e75438b45a2.html",
-    "summary": "If it's not Cristiano Ronaldo, it will be Messi: The 'Plan B' for the new Estadio Azteca",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-14T08:13:14.850Z"
-  },
-  {
-    "id": "a0c3dd05a3c2",
-    "title": "Trump: Iran should skip WC 'for their safety'",
-    "date": "2026-03-13",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48184550/us-president-trump-iran-skip-world-cup-safety",
-    "summary": "Trump: Iran should skip WC 'for their safety'",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-13T08:17:46.174Z"
-  },
-  {
-    "id": "16928c7ef016",
-    "title": "Mancini to miss game in Qatar due to travel issues",
-    "date": "2026-03-13",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48189286/roberto-mancini-miss-game-qatar-travel-issues",
-    "summary": "Mancini to miss game in Qatar due to travel issues",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-13T08:17:46.174Z"
-  },
-  {
-    "id": "3d9f692ba4da",
-    "title": "From Norfolk to La Masia - Tavares is 'England's one to watch'",
-    "date": "2026-03-13",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cpqw8regdz4o?at_medium=RSS&at_campaign=rss",
-    "summary": "From Norfolk to La Masia - Tavares is 'England's one to watch'",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-13T08:17:46.174Z"
-  },
-  {
-    "id": "846f4fe4a9dd",
-    "title": "Fridolina Rolfö: ‘It’s been a great first season at United but now the fun starts …’",
-    "date": "2026-03-13",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/13/fridolina-rolfo-manchester-united-womens-league-cup-final-chelsea-interview",
-    "summary": "Fridolina Rolfö: ‘It’s been a great first season at United but now the fun starts …’",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-13T08:17:46.174Z"
   }
 ];
