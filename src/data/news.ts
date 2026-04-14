@@ -2,6 +2,175 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "58f7586dd3d2",
+    "title": "Sources: Spurs' Romero out for rest of season",
+    "date": "2026-04-14",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48474970/tottenham-defender-cristian-romero-remainder-season-sources",
+    "summary": "Sources: Spurs' Romero out for rest of season",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-14T08:41:41.963Z"
+  },
+  {
+    "id": "4862f2c63bbb",
+    "title": "Ghana hires Queiroz ahead of World Cup campaign",
+    "date": "2026-04-14",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48477241/ghana-hires-carlos-queiroz-world-cup-campaign",
+    "summary": "Ghana hires Queiroz ahead of World Cup campaign",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-14T08:41:41.963Z"
+  },
+  {
+    "id": "70c34186f097",
+    "title": "Iran releases assets of women’s football team captain in Australia asylum drama",
+    "date": "2026-04-14",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/14/iran-releases-assets-of-womens-football-team-captain-in-australia-asylum-drama",
+    "summary": "Iran releases assets of women’s football team captain in Australia asylum drama",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-14T08:41:41.963Z"
+  },
+  {
+    "id": "3693948c6d28",
+    "title": "How crucial is 99-cap Walsh to the Lionesses?",
+    "date": "2026-04-13",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cj40qw1ennwo?at_medium=RSS&at_campaign=rss",
+    "summary": "How crucial is 99-cap Walsh to the Lionesses?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-14T08:41:41.963Z"
+  },
+  {
+    "id": "755c017e0b14",
+    "title": "Ghana appoint ex-Man Utd assistant Queiroz as coach",
+    "date": "2026-04-13",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cwyw6z2vw33o?at_medium=RSS&at_campaign=rss",
+    "summary": "Ghana appoint ex-Man Utd assistant Queiroz as coach",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-14T08:41:41.963Z"
+  },
+  {
+    "id": "9086ac922447",
+    "title": "Andreatta '500% sure' Scotland will reach major finals",
+    "date": "2026-04-13",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c248dm5l0g8o?at_medium=RSS&at_campaign=rss",
+    "summary": "Andreatta '500% sure' Scotland will reach major finals",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-14T08:41:41.963Z"
+  },
+  {
+    "id": "99c1ed21d7f7",
+    "title": "Wilkinson challenges Wales to fill Holland void ",
+    "date": "2026-04-13",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cq8wg4w4xqxo?at_medium=RSS&at_campaign=rss",
+    "summary": "Wilkinson challenges Wales to fill Holland void ",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-14T08:41:41.963Z"
+  },
+  {
+    "id": "9086ac922447",
+    "title": "Andreatta '500% sure' Scotland will reach major finals",
+    "date": "2026-04-13",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c248dm5l0g8o?at_medium=RSS&at_campaign=rss",
+    "summary": "Andreatta '500% sure' Scotland will reach major finals",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-14T08:41:41.963Z"
+  },
+  {
+    "id": "99c1ed21d7f7",
+    "title": "Wilkinson challenges Wales to fill Holland void ",
+    "date": "2026-04-13",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cq8wg4w4xqxo?at_medium=RSS&at_campaign=rss",
+    "summary": "Wilkinson challenges Wales to fill Holland void ",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-14T08:41:41.963Z"
+  },
+  {
+    "id": "3693948c6d28",
+    "title": "How crucial is 99-cap Walsh to the Lionesses?",
+    "date": "2026-04-13",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cj40qw1ennwo?at_medium=RSS&at_campaign=rss",
+    "summary": "How crucial is 99-cap Walsh to the Lionesses?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-14T08:41:41.963Z"
+  },
+  {
+    "id": "16fc87fbfd64",
+    "title": "Much-changed Spain will still test England in first meeting since Euro 2025 final",
+    "date": "2026-04-13",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/13/spain-much-changed-but-dna-will-test-england-in-first-clash-since-euro-2025-final",
+    "summary": "Much-changed Spain will still test England in first meeting since Euro 2025 final",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-14T08:41:41.963Z"
+  },
+  {
+    "id": "599b7e17d003",
+    "title": "Not over, but done: Lamine Yamal all smiles as he guides Barcelona to verge of title | Sid Lowe",
+    "date": "2026-04-13",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/13/lamine-yamal-all-smiles-as-he-guides-barcelona-to-verge-of-title-la-liga",
+    "summary": "Not over, but done: Lamine Yamal all smiles as he guides Barcelona to verge of title | Sid Lowe",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-14T08:41:41.963Z"
+  },
+  {
+    "id": "2447e49605cb",
+    "title": "Messi and Scaloni now know the extent of Cuti Romero's injury: World Cup on the line",
+    "date": "2026-04-13",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/world-cup/2026/04/13/69dd0b31268e3e897a8b458b.html",
+    "summary": "Messi and Scaloni now know the extent of Cuti Romero's injury: World Cup on the line",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-14T08:41:41.963Z"
+  },
+  {
     "id": "654b2f4a1105",
     "title": "Argentina's Romero limps off Spurs' loss in tears",
     "date": "2026-04-13",
@@ -4810,83 +4979,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-03-16T08:31:00.809Z"
-  },
-  {
-    "id": "a859c2288ad5",
-    "title": "Iraq taking private plane to Mexico for World Cup play-off",
-    "date": "2026-03-14",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c0k10zzjk6yo?at_medium=RSS&at_campaign=rss",
-    "summary": "Iraq taking private plane to Mexico for World Cup play-off",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-15T08:16:26.295Z"
-  },
-  {
-    "id": "33eb4a23ba1a",
-    "title": "Argentina is set to face Spain in the Finalissima at the Santiago Bernabeu",
-    "date": "2026-03-14",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/world-cup/2026/03/14/69b5524c22601d983b8b45a9.html",
-    "summary": "Argentina is set to face Spain in the Finalissima at the Santiago Bernabeu",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-15T08:16:26.295Z"
-  },
-  {
-    "id": "45ea0ac793f2",
-    "title": "Mexico's Ruiz ruled out of World Cup with torn ACL",
-    "date": "2026-03-14",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48199145/mexico-marcel-ruiz-2026-world-cup-injury-torn-acl",
-    "summary": "Mexico's Ruiz ruled out of World Cup with torn ACL",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-14T08:13:14.850Z"
-  },
-  {
-    "id": "45644a3b22dc",
-    "title": "USMNT's Sands out for season, major WC doubt",
-    "date": "2026-03-14",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48199352/usa-james-sands-injury-st-pauli-2026-world-cup",
-    "summary": "USMNT's Sands out for season, major WC doubt",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-14T08:13:14.850Z"
-  },
-  {
-    "id": "7ce4d426239c",
-    "title": "👀 Brazil away kit is Jordan's first at a World Cup",
-    "date": "2026-03-14",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48192953/brazils-stunning-away-kit-jordans-first-world-cup",
-    "summary": "👀 Brazil away kit is Jordan's first at a World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-14T08:13:14.850Z"
-  },
-  {
-    "id": "2d168a51ffd8",
-    "title": "Talented attacker Adrian Segecic turns back on Socceroos for Croatia",
-    "date": "2026-03-14",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/14/australia-socceroos-croatia-adrian-segecic-football-allegiance",
-    "summary": "Talented attacker Adrian Segecic turns back on Socceroos for Croatia",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-14T08:13:14.850Z"
   }
 ];
