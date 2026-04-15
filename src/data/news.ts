@@ -2,6 +2,188 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "1fb15fe73b2b",
+    "title": "Liverpool fear for 'very-bad' looking Ekitike injury",
+    "date": "2026-04-15",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48486502/hugo-ekitike-liverpool-psg-injury",
+    "summary": "Liverpool fear for 'very-bad' looking Ekitike injury",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-15T08:42:01.489Z"
+  },
+  {
+    "id": "e609a5814783",
+    "title": "Have Halliday's heroics started a new chapter for NI?",
+    "date": "2026-04-15",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c9955gzyy1go?at_medium=RSS&at_campaign=rss",
+    "summary": "Have Halliday's heroics started a new chapter for NI?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-15T08:42:01.489Z"
+  },
+  {
+    "id": "e609a5814783",
+    "title": "Have Halliday's heroics started a new chapter for NI?",
+    "date": "2026-04-15",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c9955gzyy1go?at_medium=RSS&at_campaign=rss",
+    "summary": "Have Halliday's heroics started a new chapter for NI?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-15T08:42:01.489Z"
+  },
+  {
+    "id": "36cc9f06e87f",
+    "title": "Slot fears Ekitike injury is 'really bad'",
+    "date": "2026-04-14",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cx2dd3z9lddo?at_medium=RSS&at_campaign=rss",
+    "summary": "Slot fears Ekitike injury is 'really bad'",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-15T08:42:01.489Z"
+  },
+  {
+    "id": "899e87f19612",
+    "title": "McArdle praises NI's 'intent' in big win over Malta",
+    "date": "2026-04-14",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/articles/ce9mmrjy17ko?at_medium=RSS&at_campaign=rss",
+    "summary": "McArdle praises NI's 'intent' in big win over Malta",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-15T08:42:01.489Z"
+  },
+  {
+    "id": "edd625ffff5c",
+    "title": "Shelvey to quit playing and manage UAE minnows",
+    "date": "2026-04-14",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/clyjj2pjdypo?at_medium=RSS&at_campaign=rss",
+    "summary": "Shelvey to quit playing and manage UAE minnows",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-15T08:42:01.489Z"
+  },
+  {
+    "id": "cfac10e2da48",
+    "title": "Wales must take care of own business - Wilkinson ",
+    "date": "2026-04-14",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cedee5evy93o?at_medium=RSS&at_campaign=rss",
+    "summary": "Wales must take care of own business - Wilkinson ",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-15T08:42:01.489Z"
+  },
+  {
+    "id": "6abae4977d77",
+    "title": "Walsh hits century - but who has most England Women caps?",
+    "date": "2026-04-14",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c705n7kz725o?at_medium=RSS&at_campaign=rss",
+    "summary": "Walsh hits century - but who has most England Women caps?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-15T08:42:01.489Z"
+  },
+  {
+    "id": "34cbe613b8dc",
+    "title": "Irish deserve praise for victory in Poland - Ward",
+    "date": "2026-04-14",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cjd88zypjm9o?at_medium=RSS&at_campaign=rss",
+    "summary": "Irish deserve praise for victory in Poland - Ward",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-15T08:42:01.489Z"
+  },
+  {
+    "id": "cfac10e2da48",
+    "title": "Wales must take care of own business - Wilkinson ",
+    "date": "2026-04-14",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cedee5evy93o?at_medium=RSS&at_campaign=rss",
+    "summary": "Wales must take care of own business - Wilkinson ",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-15T08:42:01.489Z"
+  },
+  {
+    "id": "6abae4977d77",
+    "title": "Walsh hits century - but who has most England Women caps?",
+    "date": "2026-04-14",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c705n7kz725o?at_medium=RSS&at_campaign=rss",
+    "summary": "Walsh hits century - but who has most England Women caps?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-15T08:42:01.489Z"
+  },
+  {
+    "id": "5c8fa868f779",
+    "title": "Return trip from NYC to World Cup final stadium could cost $100 during tournament",
+    "date": "2026-04-14",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/14/nj-transit-train-tickets-prices-new-york-world-cup",
+    "summary": "Return trip from NYC to World Cup final stadium could cost $100 during tournament",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-15T08:42:01.489Z"
+  },
+  {
+    "id": "1f07fe223285",
+    "title": "Hemp leads England past Spain to boost Women’s World Cup qualifying hopes",
+    "date": "2026-04-14",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/14/england-spain-womens-world-cup-2027-qualifying-match-report",
+    "summary": "Hemp leads England past Spain to boost Women’s World Cup qualifying hopes",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-15T08:42:01.489Z"
+  },
+  {
+    "id": "92c9a1f5350d",
+    "title": "Lionel Messi's injury relief arrives as Argentina receives unexpected boost before World Cup 2026",
+    "date": "2026-04-14",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/world-cup/2026/04/14/69dea9c2e2704e0b778b4573.html",
+    "summary": "Lionel Messi's injury relief arrives as Argentina receives unexpected boost before World Cup 2026",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-15T08:42:01.489Z"
+  },
+  {
     "id": "58f7586dd3d2",
     "title": "Sources: Spurs' Romero out for rest of season",
     "date": "2026-04-14",
@@ -4844,136 +5026,6 @@ export const news: NewsItem[] = [
     "source": "ESPN",
     "url": "https://www.espn.com/soccer/story/_/id/48215232/lionel-messi-not-involved-finalissima-spain-argentina-cancellation-wanted-world-cup-final-source",
     "summary": "Source: Messi had no say in cancelling Finalissima",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-16T08:31:00.809Z"
-  },
-  {
-    "id": "77d3c5299ac0",
-    "title": "Iran captain latest footballer to drop asylum bid, Iranian state media says",
-    "date": "2026-03-15",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/news/articles/c98gz372683o?at_medium=RSS&at_campaign=rss",
-    "summary": "Iran captain latest footballer to drop asylum bid, Iranian state media says",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-17T08:22:16.412Z"
-  },
-  {
-    "id": "77d3c5299ac0",
-    "title": "Iran captain latest footballer to drop asylum bid, Iranian state media says",
-    "date": "2026-03-15",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/news/articles/c98gz372683o?at_medium=RSS&at_campaign=rss",
-    "summary": "Iran captain latest footballer to drop asylum bid, Iranian state media says",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-17T08:22:16.412Z"
-  },
-  {
-    "id": "8e52ca0cad9a",
-    "title": "Ashley Cole lands first managerial role as head coach of Serie B side Cesena",
-    "date": "2026-03-15",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/15/ashley-cole-appointed-head-coach-cesena-italy-serie-b",
-    "summary": "Ashley Cole lands first managerial role as head coach of Serie B side Cesena",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-16T08:31:00.809Z"
-  },
-  {
-    "id": "27772d72c605",
-    "title": "Captain of Iranian women’s football team leaves Australia after initially accepting offer of asylum",
-    "date": "2026-03-15",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/australia-news/2026/mar/16/fifth-iranian-football-player-leaves-australia-after-initially-accepting-offer-of-asylum",
-    "summary": "Captain of Iranian women’s football team leaves Australia after initially accepting offer of asylum",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-16T08:31:00.809Z"
-  },
-  {
-    "id": "e9c89c4e0907",
-    "title": "Four Iranian women’s team members set to return home after being granted asylum in Australia",
-    "date": "2026-03-15",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/australia-news/2026/mar/15/iran-womens-football-squad-members-decide-to-return-home-australia-asylum-visas-tony-burke",
-    "summary": "Four Iranian women’s team members set to return home after being granted asylum in Australia",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-16T08:31:00.809Z"
-  },
-  {
-    "id": "bfc9a48f6949",
-    "title": "What did Di María say about the possibility of returning to the Argentina national team?",
-    "date": "2026-03-15",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/football/2026/03/15/69b7175a268e3e28328b45ac.html",
-    "summary": "What did Di María say about the possibility of returning to the Argentina national team?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-16T08:31:00.809Z"
-  },
-  {
-    "id": "67a3619413bc",
-    "title": "Scaloni's stance on the Finalissima was unwavering: \"We're not going to the Bernabeu\"",
-    "date": "2026-03-15",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/football/2026/03/15/69b702a4268e3e652b8b45a2.html",
-    "summary": "Scaloni's stance on the Finalissima was unwavering: \"We're not going to the Bernabeu\"",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-16T08:31:00.809Z"
-  },
-  {
-    "id": "e3b413a64c3b",
-    "title": "With 88 days to go until the FIFA World Cup: Which 8 teams have won the tournament?",
-    "date": "2026-03-15",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/world-cup/2026/03/15/69b6f947268e3e01328b458e.html",
-    "summary": "With 88 days to go until the FIFA World Cup: Which 8 teams have won the tournament?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-16T08:31:00.809Z"
-  },
-  {
-    "id": "e59541699c72",
-    "title": "Who is allowed to touch the FIFA World Cup Trophy and why Trump, Carney and Sheinbaum were exceptions",
-    "date": "2026-03-15",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/world-cup/2026/03/15/69b6eb4a268e3edc2e8b4588.html",
-    "summary": "Who is allowed to touch the FIFA World Cup Trophy and why Trump, Carney and Sheinbaum were exceptions",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-16T08:31:00.809Z"
-  },
-  {
-    "id": "c16fa2540346",
-    "title": "How much money would Portugal lose without Cristiano Ronaldo against Mexico and the USA?",
-    "date": "2026-03-15",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/football/2026/03/15/69b6b8fe268e3e474c8b457c.html",
-    "summary": "How much money would Portugal lose without Cristiano Ronaldo against Mexico and the USA?",
     "categories": [
       "general"
     ],
