@@ -2,6 +2,149 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "64f48e2e1564",
+    "title": "France confirm Ekitike (Achilles) to miss World Cup",
+    "date": "2026-04-16",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48492214/hugo-ekitike-ruptures-achilles-miss-world-cup-nine-months-sources",
+    "summary": "France confirm Ekitike (Achilles) to miss World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-16T08:42:30.332Z"
+  },
+  {
+    "id": "caeea1220439",
+    "title": "Messi sued for missing $7M Argentina friendly",
+    "date": "2026-04-16",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48496977/messi-argentina-federation-sued-missed-exhibition-match",
+    "summary": "Messi sued for missing $7M Argentina friendly",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-16T08:42:30.332Z"
+  },
+  {
+    "id": "0eec065d9db6",
+    "title": "The 24-year-old manager who has won a top-flight promotion",
+    "date": "2026-04-16",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c4gl59wkdzpo?at_medium=RSS&at_campaign=rss",
+    "summary": "The 24-year-old manager who has won a top-flight promotion",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-16T08:42:30.332Z"
+  },
+  {
+    "id": "7e1aada020de",
+    "title": "Ekitike to miss rest of season and World Cup - Deschamps",
+    "date": "2026-04-15",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c4g443g0l76o?at_medium=RSS&at_campaign=rss",
+    "summary": "Ekitike to miss rest of season and World Cup - Deschamps",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-16T08:42:30.332Z"
+  },
+  {
+    "id": "7803016cb9ea",
+    "title": "Scotland score in stoppage time to salvage draw with Belgium",
+    "date": "2026-04-15",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c4g55ywqnlgo?at_medium=RSS&at_campaign=rss",
+    "summary": "Scotland score in stoppage time to salvage draw with Belgium",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-16T08:42:30.332Z"
+  },
+  {
+    "id": "7803016cb9ea",
+    "title": "Scotland score in stoppage time to salvage draw with Belgium",
+    "date": "2026-04-15",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c4g55ywqnlgo?at_medium=RSS&at_campaign=rss",
+    "summary": "Scotland score in stoppage time to salvage draw with Belgium",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-16T08:42:30.332Z"
+  },
+  {
+    "id": "45dd3dd7b22c",
+    "title": "Liverpool’s Hugo Ekitiké ruled out for rest of season and World Cup with France",
+    "date": "2026-04-15",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/15/liverpools-hugo-ekitike-ruled-out-for-rest-of-season-and-world-cup-with-france",
+    "summary": "Liverpool’s Hugo Ekitiké ruled out for rest of season and World Cup with France",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-16T08:42:30.332Z"
+  },
+  {
+    "id": "b1a470bf6ea3",
+    "title": "Caitlin Foord baffled by lost goal as Kerr lifts Matildas to Fifa Series final win over Kenya",
+    "date": "2026-04-15",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/16/australia-matildas-kenya-fifa-series-final-kerr-foord-report",
+    "summary": "Caitlin Foord baffled by lost goal as Kerr lifts Matildas to Fifa Series final win over Kenya",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-16T08:42:30.332Z"
+  },
+  {
+    "id": "4c3a19e592d1",
+    "title": "MLS will have fewer US World Cup players than ever. Its impact is being felt anyway",
+    "date": "2026-04-15",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/sport/2026/apr/15/mls-world-cup-usmnt-players",
+    "summary": "MLS will have fewer US World Cup players than ever. Its impact is being felt anyway",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-16T08:42:30.332Z"
+  },
+  {
+    "id": "b56003b8280a",
+    "title": "A long-term plan with mixed results: how Matt Crocker’s US Soccer tenure stacked up",
+    "date": "2026-04-15",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/15/matt-crocker-us-soccer-legacy-mauricio-pochettino-emma-hayes",
+    "summary": "A long-term plan with mixed results: how Matt Crocker’s US Soccer tenure stacked up",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-16T08:42:30.332Z"
+  },
+  {
+    "id": "4cbdd13c3c61",
+    "title": "The severe suspension Raphinha faces for claiming that referees robbed Barcelona in the Champions League",
+    "date": "2026-04-15",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/football/champions-league/2026/04/15/69dffbdfe2704e290b8b45c2.html",
+    "summary": "The severe suspension Raphinha faces for claiming that referees robbed Barcelona in the Champions League",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-16T08:42:30.332Z"
+  },
+  {
     "id": "1fb15fe73b2b",
     "title": "Liverpool fear for 'very-bad' looking Ekitike injury",
     "date": "2026-04-15",
@@ -4862,174 +5005,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-03-17T08:22:16.412Z"
-  },
-  {
-    "id": "e213f37d7325",
-    "title": "Football Daily | Ashley Cole finally gets the chance to scratch his seven-year itch",
-    "date": "2026-03-16",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/16/ashley-cole-cesena-football-daily-newsletter",
-    "summary": "Football Daily | Ashley Cole finally gets the chance to scratch his seven-year itch",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-18T08:21:30.997Z"
-  },
-  {
-    "id": "d940c1f7bcbe",
-    "title": "Thiago and Rayan receive first Brazil call-ups",
-    "date": "2026-03-16",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c8eg0y22w2ro?at_medium=RSS&at_campaign=rss",
-    "summary": "Thiago and Rayan receive first Brazil call-ups",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-17T08:22:16.412Z"
-  },
-  {
-    "id": "77a81ee01135",
-    "title": "Scotland boss Clarke 'hasn't had contract offer'",
-    "date": "2026-03-16",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c5yr1e9vyy0o?at_medium=RSS&at_campaign=rss",
-    "summary": "Scotland boss Clarke 'hasn't had contract offer'",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-17T08:22:16.412Z"
-  },
-  {
-    "id": "22f410ede2f4",
-    "title": "The key takeaways from Scotland's March squad",
-    "date": "2026-03-16",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c5yv1kv57l0o?at_medium=RSS&at_campaign=rss",
-    "summary": "The key takeaways from Scotland's March squad",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-17T08:22:16.412Z"
-  },
-  {
-    "id": "fbb9f8745226",
-    "title": "Wrexham's Moore to miss Wales' World Cup play-offs",
-    "date": "2026-03-16",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c4gqn013527o?at_medium=RSS&at_campaign=rss",
-    "summary": "Wrexham's Moore to miss Wales' World Cup play-offs",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-17T08:22:16.412Z"
-  },
-  {
-    "id": "694be89c0354",
-    "title": "Bosnia's Dzeko poses big World Cup threat - Bellamy",
-    "date": "2026-03-16",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c98q73rjleno?at_medium=RSS&at_campaign=rss",
-    "summary": "Bosnia's Dzeko poses big World Cup threat - Bellamy",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-17T08:22:16.412Z"
-  },
-  {
-    "id": "77a81ee01135",
-    "title": "Scotland boss Clarke 'hasn't had contract offer'",
-    "date": "2026-03-16",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c5yr1e9vyy0o?at_medium=RSS&at_campaign=rss",
-    "summary": "Scotland boss Clarke 'hasn't had contract offer'",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-17T08:22:16.412Z"
-  },
-  {
-    "id": "09d6018b921d",
-    "title": "Teenager Curtis given maiden Scotland call-up",
-    "date": "2026-03-16",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cpd8w4xg991o?at_medium=RSS&at_campaign=rss",
-    "summary": "Teenager Curtis given maiden Scotland call-up",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-17T08:22:16.412Z"
-  },
-  {
-    "id": "22f410ede2f4",
-    "title": "Gunn back & Motherwell players miss out - Key takeaways from Scotland's March squad",
-    "date": "2026-03-16",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c5yv1kv57l0o?at_medium=RSS&at_campaign=rss",
-    "summary": "Gunn back & Motherwell players miss out - Key takeaways from Scotland's March squad",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-17T08:22:16.412Z"
-  },
-  {
-    "id": "18b4952dff1b",
-    "title": "Chelsea’s Reece James an England World Cup doubt with hamstring injury",
-    "date": "2026-03-16",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/16/reece-james-hamstring-injury-liam-rosenior-chelsea-champions-league-last-16-second-leg-psg-england-world-cup-2026",
-    "summary": "Chelsea’s Reece James an England World Cup doubt with hamstring injury",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-17T08:22:16.412Z"
-  },
-  {
-    "id": "4d62aa998362",
-    "title": "Brentford’s European hopes take a hit as Arokodare caps Wolves’ comeback",
-    "date": "2026-03-16",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/16/brentford-wolves-premier-league-match-report",
-    "summary": "Brentford’s European hopes take a hit as Arokodare caps Wolves’ comeback",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-17T08:22:16.412Z"
-  },
-  {
-    "id": "a4de537e056f",
-    "title": "How USMNT players designed the boldest kits in generations for World Cup 2026",
-    "date": "2026-03-16",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/16/usmnt-kits-world-cup-2026",
-    "summary": "How USMNT players designed the boldest kits in generations for World Cup 2026",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-17T08:22:16.412Z"
-  },
-  {
-    "id": "4fa34aa758b0",
-    "title": "Source: Messi had no say in cancelling Finalissima",
-    "date": "2026-03-16",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48215232/lionel-messi-not-involved-finalissima-spain-argentina-cancellation-wanted-world-cup-final-source",
-    "summary": "Source: Messi had no say in cancelling Finalissima",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-16T08:31:00.809Z"
   }
 ];
