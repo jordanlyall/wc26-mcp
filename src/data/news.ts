@@ -2,6 +2,97 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "1dae8bd7b514",
+    "title": "The girl from Barry who grew up to be world class",
+    "date": "2026-04-17",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cql7p6lvne4o?at_medium=RSS&at_campaign=rss",
+    "summary": "The girl from Barry who grew up to be world class",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-17T08:41:58.535Z"
+  },
+  {
+    "id": "35a19096a29e",
+    "title": "Stewart banned from Hampden over referee criticism - gossip",
+    "date": "2026-04-17",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cpwjpn7qd2ko?at_medium=RSS&at_campaign=rss",
+    "summary": "Stewart banned from Hampden over referee criticism - gossip",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-17T08:41:58.535Z"
+  },
+  {
+    "id": "1dae8bd7b514",
+    "title": "The girl from Barry who grew up to be world class",
+    "date": "2026-04-17",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cql7p6lvne4o?at_medium=RSS&at_campaign=rss",
+    "summary": "The girl from Barry who grew up to be world class",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-17T08:41:58.535Z"
+  },
+  {
+    "id": "bb882be697d9",
+    "title": "Italy made me a manager when England 'discouraged' me - Cole",
+    "date": "2026-04-16",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c6244xp5lvno?at_medium=RSS&at_campaign=rss",
+    "summary": "Italy made me a manager when England 'discouraged' me - Cole",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-17T08:41:58.535Z"
+  },
+  {
+    "id": "d0df13607740",
+    "title": "Watkins breaks record as Aston Villa cruise past Bologna into all-English semi-final",
+    "date": "2026-04-16",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/16/aston-villa-bologna-europa-league-match-report",
+    "summary": "Watkins breaks record as Aston Villa cruise past Bologna into all-English semi-final",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-17T08:41:58.535Z"
+  },
+  {
+    "id": "28892866ae42",
+    "title": "New Jersey governor hits out at Fifa over reported $100 World Cup train tickets: ‘They should pay’",
+    "date": "2026-04-16",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/16/mike-sherrill-train-tickets-new-jersey-world-cup",
+    "summary": "New Jersey governor hits out at Fifa over reported $100 World Cup train tickets: ‘They should pay’",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-17T08:41:58.535Z"
+  },
+  {
+    "id": "7af2899d4c3b",
+    "title": "Lionel Messi practically admits he's the GOAT in hype video before 2026 FIFA World Cup",
+    "date": "2026-04-16",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/football/mls/2026/04/16/69e1017f22601da3168b4582.html",
+    "summary": "Lionel Messi practically admits he's the GOAT in hype video before 2026 FIFA World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-17T08:41:58.535Z"
+  },
+  {
     "id": "64f48e2e1564",
     "title": "France confirm Ekitike (Achilles) to miss World Cup",
     "date": "2026-04-16",
@@ -4810,200 +4901,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-03-18T08:21:30.997Z"
-  },
-  {
-    "id": "8c9e64e7d9e9",
-    "title": "Wales leave captain Ramsey out of World Cup play-off squad",
-    "date": "2026-03-17",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cwyk0znkdz5o?at_medium=RSS&at_campaign=rss",
-    "summary": "Wales leave captain Ramsey out of World Cup play-off squad",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-18T08:21:30.997Z"
-  },
-  {
-    "id": "692ec8b4886a",
-    "title": "Kerr winner sends Australia into Asian Cup final",
-    "date": "2026-03-17",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/czd89zegm9go?at_medium=RSS&at_campaign=rss",
-    "summary": "Kerr winner sends Australia into Asian Cup final",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-18T08:21:30.997Z"
-  },
-  {
-    "id": "f7988fa6ed56",
-    "title": "Man United's Fletcher earns Scotland Under-21 call",
-    "date": "2026-03-17",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cz6eq5e5169o?at_medium=RSS&at_campaign=rss",
-    "summary": "Man United's Fletcher earns Scotland Under-21 call",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-18T08:21:30.997Z"
-  },
-  {
-    "id": "692ec8b4886a",
-    "title": "Kerr winner sends Australia into Asian Cup final",
-    "date": "2026-03-17",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/czd89zegm9go?at_medium=RSS&at_campaign=rss",
-    "summary": "Kerr winner sends Australia into Asian Cup final",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-18T08:21:30.997Z"
-  },
-  {
-    "id": "cd1c5088a22f",
-    "title": "Senegal stripped of Africa Cup of Nations title over walkout protest in final",
-    "date": "2026-03-17",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/17/senegal-stripped-of-africa-cup-of-nations-title-over-protest-in-chaotic-final",
-    "summary": "Senegal stripped of Africa Cup of Nations title over walkout protest in final",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-18T08:21:30.997Z"
-  },
-  {
-    "id": "bf7d01f5d08b",
-    "title": "Mauricio Pochettino’s latest USMNT roster signals door is ‘still open’ for World Cup hopefuls",
-    "date": "2026-03-17",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/17/usmnt-roster-friendlies-gio-reyna-noahkai-banks-world-cup-bubble",
-    "summary": "Mauricio Pochettino’s latest USMNT roster signals door is ‘still open’ for World Cup hopefuls",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-18T08:21:30.997Z"
-  },
-  {
-    "id": "e86819adf722",
-    "title": "Football Daily | Will there be no more Neymar for Brazil?",
-    "date": "2026-03-17",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/17/brazil-neymar-football-daily-newsletter",
-    "summary": "Football Daily | Will there be no more Neymar for Brazil?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-18T08:21:30.997Z"
-  },
-  {
-    "id": "be8a87f4c2a3",
-    "title": "Argentina confirmed a friendly against Guatemala after Finalissima cancellation: How many times have they faced each other?",
-    "date": "2026-03-17",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/football/2026/03/17/69b9ab03e2704e7e3d8b45f3.html",
-    "summary": "Argentina confirmed a friendly against Guatemala after Finalissima cancellation: How many times have they faced each other?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-18T08:21:30.997Z"
-  },
-  {
-    "id": "cd85f28339d7",
-    "title": "They reveal what Cristiano Ronaldo's participation in the friendly against Mexico depends on",
-    "date": "2026-03-17",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/football/2026/03/17/69b9442c46163f870a8b45f5.html",
-    "summary": "They reveal what Cristiano Ronaldo's participation in the friendly against Mexico depends on",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-18T08:21:30.997Z"
-  },
-  {
-    "id": "70d55fcad121",
-    "title": "Endrick reunites with Ancelotti after catapulting his career in France",
-    "date": "2026-03-17",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/world-cup/2026/03/17/69b9357d22601db26d8b457d.html",
-    "summary": "Endrick reunites with Ancelotti after catapulting his career in France",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-18T08:21:30.997Z"
-  },
-  {
-    "id": "b6c25a84695c",
-    "title": "Iran asks FIFA to play in Mexico during the 2026 World Cup",
-    "date": "2026-03-17",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/world-cup/2026/03/17/69b9342322601d6c538b457a.html",
-    "summary": "Iran asks FIFA to play in Mexico during the 2026 World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-18T08:21:30.997Z"
-  },
-  {
-    "id": "491cd0428f09",
-    "title": "How Neymar is proving Ancelotti wrong while still left out of Brazil's squad",
-    "date": "2026-03-17",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/world-cup/2026/03/17/69b8ba7c22601dca628b4575.html",
-    "summary": "How Neymar is proving Ancelotti wrong while still left out of Brazil's squad",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-18T08:21:30.997Z"
-  },
-  {
-    "id": "9d17a0d66392",
-    "title": "Neymar left out of Brazil squad, Endrick makes cut",
-    "date": "2026-03-17",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48225082/neymar-left-brazil-squad-endrick-makes-cut",
-    "summary": "Neymar left out of Brazil squad, Endrick makes cut",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-17T08:22:16.412Z"
-  },
-  {
-    "id": "532e285babde",
-    "title": "Sources: Banks opts out of USMNT March camp",
-    "date": "2026-03-17",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48223049/dual-national-noahkai-banks-opts-usmnt-march-camp-sources",
-    "summary": "Sources: Banks opts out of USMNT March camp",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-17T08:22:16.412Z"
-  },
-  {
-    "id": "5169444387b9",
-    "title": "Dembélé: PSG won't let up on Chelsea in 2nd leg",
-    "date": "2026-03-17",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48224744/psg-let-chelsea-second-leg-dembele",
-    "summary": "Dembélé: PSG won't let up on Chelsea in 2nd leg",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-17T08:22:16.412Z"
   }
 ];
