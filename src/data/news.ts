@@ -2,6 +2,162 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "d5f9516b5462",
+    "title": "Wesley sparks USWNT to 3-0 victory over Japan",
+    "date": "2026-04-18",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/report/_/gameId/401857908",
+    "summary": "Wesley sparks USWNT to 3-0 victory over Japan",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-18T08:20:23.750Z"
+  },
+  {
+    "id": "3eb41793c38d",
+    "title": "Saudi Arabia fire coach 2 months before WCup",
+    "date": "2026-04-18",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48514555/saudi-arabia-fires-coach-herve-renard-2026-world-cup",
+    "summary": "Saudi Arabia fire coach 2 months before WCup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-18T08:20:23.750Z"
+  },
+  {
+    "id": "829b4fe0d4b2",
+    "title": "Spurs seek elusive victory, Lionesses in Iceland and Coventry seal Premier League promotion– matchday live",
+    "date": "2026-04-18",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/live/2026/apr/18/spurs-seek-elusive-victory-lionesses-in-iceland-and-coventry-seal-premier-league-promotion-matchday-live",
+    "summary": "Spurs seek elusive victory, Lionesses in Iceland and Coventry seal Premier League promotion– matchday live",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-18T08:20:23.750Z"
+  },
+  {
+    "id": "53815e879e58",
+    "title": "USMNT needs ambitious post-World Cup succession plan",
+    "date": "2026-04-17",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48505205/life-mauricio-pochettino-usmnt-need-ambitious-post-world-cup-succession-plan",
+    "summary": "USMNT needs ambitious post-World Cup succession plan",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-18T08:20:23.750Z"
+  },
+  {
+    "id": "4e74761e9a05",
+    "title": "Scotland carry no burden in chase for World Cup spot",
+    "date": "2026-04-17",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cly0e2kjzz2o?at_medium=RSS&at_campaign=rss",
+    "summary": "Scotland carry no burden in chase for World Cup spot",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-18T08:20:23.750Z"
+  },
+  {
+    "id": "5d80891483f0",
+    "title": "Young Lionesses win European trophy",
+    "date": "2026-04-17",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cjw8pwexep3o?at_medium=RSS&at_campaign=rss",
+    "summary": "Young Lionesses win European trophy",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-18T08:20:23.750Z"
+  },
+  {
+    "id": "a4ca75192143",
+    "title": "NI need to evolve and enhance in Malta - McArdle",
+    "date": "2026-04-17",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cx24ky8qlvwo?at_medium=RSS&at_campaign=rss",
+    "summary": "NI need to evolve and enhance in Malta - McArdle",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-18T08:20:23.750Z"
+  },
+  {
+    "id": "4e74761e9a05",
+    "title": "Scotland carry no burden in chase for World Cup spot - Andreatta",
+    "date": "2026-04-17",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cly0e2kjzz2o?at_medium=RSS&at_campaign=rss",
+    "summary": "Scotland carry no burden in chase for World Cup spot - Andreatta",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-18T08:20:23.750Z"
+  },
+  {
+    "id": "4e74761e9a05",
+    "title": "Scotland carry no burden in chase for World Cup spot",
+    "date": "2026-04-17",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cly0e2kjzz2o?at_medium=RSS&at_campaign=rss",
+    "summary": "Scotland carry no burden in chase for World Cup spot",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-18T08:20:23.750Z"
+  },
+  {
+    "id": "5d80891483f0",
+    "title": "Young Lionesses win European trophy",
+    "date": "2026-04-17",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cjw8pwexep3o?at_medium=RSS&at_campaign=rss",
+    "summary": "Young Lionesses win European trophy",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-18T08:20:23.750Z"
+  },
+  {
+    "id": "12ae423f6552",
+    "title": "England face landmark 500th game in Iceland as Wiegman warns against slips",
+    "date": "2026-04-17",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/17/sarina-wiegman-iceland-england-spain-womens-world-cup-qualifier",
+    "summary": "England face landmark 500th game in Iceland as Wiegman warns against slips",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-18T08:20:23.750Z"
+  },
+  {
+    "id": "547c0689c83c",
+    "title": "New Jersey officials confirm World Cup transit prices: $150 by train, $225 to park",
+    "date": "2026-04-17",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/17/new-jersey-world-cup-matches-train-ticket-prices",
+    "summary": "New Jersey officials confirm World Cup transit prices: $150 by train, $225 to park",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-18T08:20:23.750Z"
+  },
+  {
     "id": "1dae8bd7b514",
     "title": "The girl from Barry who grew up to be world class",
     "date": "2026-04-17",
@@ -4836,70 +4992,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-03-19T08:20:01.596Z"
-  },
-  {
-    "id": "48e1fb5979fa",
-    "title": "Senegal government alleges corruption after Morocco awarded Afcon title",
-    "date": "2026-03-18",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cwygyq495j8o?at_medium=RSS&at_campaign=rss",
-    "summary": "Senegal government alleges corruption after Morocco awarded Afcon title",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-19T08:20:01.596Z"
-  },
-  {
-    "id": "664124d8dd4b",
-    "title": "The one who got away: how did Australia lose one of its brightest football talents to Croatia? | Jack Snape",
-    "date": "2026-03-18",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/19/the-one-who-got-away-how-did-australia-lose-one-of-its-brightest-football-talents-to-croatia",
-    "summary": "The one who got away: how did Australia lose one of its brightest football talents to Croatia? | Jack Snape",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-19T08:20:01.596Z"
-  },
-  {
-    "id": "4375191da9bc",
-    "title": "Poch made exception for 'special talent' Reyna",
-    "date": "2026-03-18",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48233161/pochettino-makes-form-exception-special-talent-reyna",
-    "summary": "Poch made exception for 'special talent' Reyna",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-18T08:21:30.997Z"
-  },
-  {
-    "id": "c109e8184eb1",
-    "title": "🤔 Poch's USMNT roster shows softened stance",
-    "date": "2026-03-18",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48232146/mauricio-pochettino-usmnt-roster-march-international-window-shows-flexibility-club-form-demand",
-    "summary": "🤔 Poch's USMNT roster shows softened stance",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-18T08:21:30.997Z"
-  },
-  {
-    "id": "a58456c514bb",
-    "title": "Will Ferrell, Luka Doncic and more named as Los Angeles World Cup host ambassadors",
-    "date": "2026-03-18",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48232448/los-angeles-world-cup-2026-host-ambassadors-ferrell-luka-doncic-magic-johnson",
-    "summary": "Will Ferrell, Luka Doncic and more named as Los Angeles World Cup host ambassadors",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-18T08:21:30.997Z"
   }
 ];
