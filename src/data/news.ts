@@ -2,6 +2,149 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "91b0732023ea",
+    "title": "Pep: 'Part of myself' leaving with Silva from City",
+    "date": "2026-04-19",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48525190/pep-guardiola-part-leaving-bernardo-silva-manchester-city",
+    "summary": "Pep: 'Part of myself' leaving with Silva from City",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-19T08:27:14.007Z"
+  },
+  {
+    "id": "4a4196425631",
+    "title": "'Frustrated' Scotland show signs of growth in Belgium",
+    "date": "2026-04-19",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/ckg904e4157o?at_medium=RSS&at_campaign=rss",
+    "summary": "'Frustrated' Scotland show signs of growth in Belgium",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-19T08:27:14.007Z"
+  },
+  {
+    "id": "580d43c98fa1",
+    "title": "Manchester City v Arsenal, the Merseyside derby, and more – matchday live",
+    "date": "2026-04-19",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/live/2026/apr/19/manchester-city-v-arsenal-the-merseyside-derby-and-more-matchday-live",
+    "summary": "Manchester City v Arsenal, the Merseyside derby, and more – matchday live",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-19T08:27:14.007Z"
+  },
+  {
+    "id": "d787d6fcd137",
+    "title": "What did the USWNT learn ahead of World Cup after Japan series?",
+    "date": "2026-04-18",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48519905/what-did-uswnt-learn-ahead-world-cup-japan-series",
+    "summary": "What did the USWNT learn ahead of World Cup after Japan series?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-19T08:27:14.007Z"
+  },
+  {
+    "id": "21ff391a0d7b",
+    "title": "Wilkinson pleased as Wales find a way to win",
+    "date": "2026-04-18",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cly0e50mvngo?at_medium=RSS&at_campaign=rss",
+    "summary": "Wilkinson pleased as Wales find a way to win",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-19T08:27:14.007Z"
+  },
+  {
+    "id": "87bc1507a6e8",
+    "title": "'Proper Irish performance' - Ward on Poland win",
+    "date": "2026-04-18",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c3v6y249d5no?at_medium=RSS&at_campaign=rss",
+    "summary": "'Proper Irish performance' - Ward on Poland win",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-19T08:27:14.007Z"
+  },
+  {
+    "id": "87c630e0d70f",
+    "title": "How Lampard's own revival ended Coventry's 25-year wait",
+    "date": "2026-04-18",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cm2kj1lv91xo?at_medium=RSS&at_campaign=rss",
+    "summary": "How Lampard's own revival ended Coventry's 25-year wait",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-19T08:27:14.007Z"
+  },
+  {
+    "id": "fa1c4ef7dbfc",
+    "title": "Watch: Scots take point from tense qualifier in Belgium",
+    "date": "2026-04-18",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/videos/c203yyexng2o?at_medium=RSS&at_campaign=rss",
+    "summary": "Watch: Scots take point from tense qualifier in Belgium",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-19T08:27:14.007Z"
+  },
+  {
+    "id": "550720f6683c",
+    "title": "Can you name every Women's World Cup host?",
+    "date": "2026-04-18",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/clyj3ddv97mo?at_medium=RSS&at_campaign=rss",
+    "summary": "Can you name every Women's World Cup host?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-19T08:27:14.007Z"
+  },
+  {
+    "id": "c825f41b0fb8",
+    "title": "Real Sociedad lift Copa del Rey after Marrero shootout heroics sink Atlético",
+    "date": "2026-04-18",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/18/atletico-madrid-real-sociedad-copa-del-rey-final-match-report",
+    "summary": "Real Sociedad lift Copa del Rey after Marrero shootout heroics sink Atlético",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-19T08:27:14.007Z"
+  },
+  {
+    "id": "35a116e1f4b0",
+    "title": "England do just enough as Russo seals Women’s World Cup qualifying win over Iceland",
+    "date": "2026-04-18",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/18/iceland-england-womens-world-cup-qualifier-match-report",
+    "summary": "England do just enough as Russo seals Women’s World Cup qualifying win over Iceland",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-19T08:27:14.007Z"
+  },
+  {
     "id": "d5f9516b5462",
     "title": "Wesley sparks USWNT to 3-0 victory over Japan",
     "date": "2026-04-18",
@@ -4849,148 +4992,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-03-20T08:18:16.046Z"
-  },
-  {
-    "id": "286ecaff4cf0",
-    "title": "Who will be England's World Cup number 10? Tuchel's selection dilemmas",
-    "date": "2026-03-19",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cj989ywnwygo?at_medium=RSS&at_campaign=rss",
-    "summary": "Who will be England's World Cup number 10? Tuchel's selection dilemmas",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-20T08:18:16.046Z"
-  },
-  {
-    "id": "37e4083e760d",
-    "title": "'Perfect time' for Vale - but who is new Republic of Ireland call-up?",
-    "date": "2026-03-19",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c17vgddq82ko?at_medium=RSS&at_campaign=rss",
-    "summary": "'Perfect time' for Vale - but who is new Republic of Ireland call-up?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-20T08:18:16.046Z"
-  },
-  {
-    "id": "58bf5a7f622b",
-    "title": "Askou unsurprised no Well players made Scots squad",
-    "date": "2026-03-19",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cm25n04e53jo?at_medium=RSS&at_campaign=rss",
-    "summary": "Askou unsurprised no Well players made Scots squad",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-20T08:18:16.046Z"
-  },
-  {
-    "id": "58bf5a7f622b",
-    "title": "Askou unsurprised no Motherwell players made Scotland squad",
-    "date": "2026-03-19",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cm25n04e53jo?at_medium=RSS&at_campaign=rss",
-    "summary": "Askou unsurprised no Motherwell players made Scotland squad",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-20T08:18:16.046Z"
-  },
-  {
-    "id": "cf8adb7e5ec3",
-    "title": "New bill would bar ICE raids near World Cup matches in US host cities",
-    "date": "2026-03-19",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/19/bill-ban-world-cup-ice-raids-us",
-    "summary": "New bill would bar ICE raids near World Cup matches in US host cities",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-20T08:18:16.046Z"
-  },
-  {
-    "id": "08f62f7c6dfe",
-    "title": "Cafú claimed that Neymar is \"greater than Lionel Messi\" believes he will be at the World Cup",
-    "date": "2026-03-19",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/world-cup/2026/03/19/69bc5ea622601db0448b4573.html",
-    "summary": "Cafú claimed that Neymar is \"greater than Lionel Messi\" believes he will be at the World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-20T08:18:16.046Z"
-  },
-  {
-    "id": "9bc3f1e543b0",
-    "title": "Scaloni does not call up Mastantuono and rewards Gianluca Prestianni after his clash with Vinicius Jr",
-    "date": "2026-03-19",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/world-cup/2026/03/19/69bbddb222601dba458b45c8.html",
-    "summary": "Scaloni does not call up Mastantuono and rewards Gianluca Prestianni after his clash with Vinicius Jr",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-20T08:18:16.046Z"
-  },
-  {
-    "id": "0dca6f15b31c",
-    "title": "Tonali injured in UCL loss ahead of Italy playoff",
-    "date": "2026-03-19",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48242590/sandro-tonali-injured-newcastle-loss-italy-playoff",
-    "summary": "Tonali injured in UCL loss ahead of Italy playoff",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-19T08:20:01.596Z"
-  },
-  {
-    "id": "cd9ca07a65e6",
-    "title": "Japan’s ruthless streak poses fresh challenge for rising Matildas in Women’s Asian Cup final | Martin Pegan",
-    "date": "2026-03-19",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/blog/2026/mar/19/japans-ruthless-streak-poses-fresh-challenge-for-rising-matildas-on-the-rise",
-    "summary": "Japan’s ruthless streak poses fresh challenge for rising Matildas in Women’s Asian Cup final | Martin Pegan",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-19T08:20:01.596Z"
-  },
-  {
-    "id": "1a9a06a2fa9e",
-    "title": "Three uncapped players called up for final home Socceroos friendlies before World Cup",
-    "date": "2026-03-19",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/19/socceroos-squad-tony-popovic-friendlies-uncapped-players",
-    "summary": "Three uncapped players called up for final home Socceroos friendlies before World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-19T08:20:01.596Z"
-  },
-  {
-    "id": "f43fd9e2ae20",
-    "title": "How Raphinha called for Neymar to be included in the Brazil squad: A direct message to Ancelotti",
-    "date": "2026-03-19",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/world-cup/2026/03/19/69bb768522601d6d398b45c9.html",
-    "summary": "How Raphinha called for Neymar to be included in the Brazil squad: A direct message to Ancelotti",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-19T08:20:01.596Z"
   }
 ];
