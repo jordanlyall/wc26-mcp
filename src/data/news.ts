@@ -2,6 +2,71 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "bf8ebf823ec2",
+    "title": "Arsenal fans must be better to help team in title hunt - Rooney",
+    "date": "2026-04-20",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c5yv3lx1e7ko?at_medium=RSS&at_campaign=rss",
+    "summary": "Arsenal fans must be better to help team in title hunt - Rooney",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-20T08:53:52.977Z"
+  },
+  {
+    "id": "68ad3cef8488",
+    "title": "Lionesses lessons from World Cup qualifying: Hampton and Russo shine with winning blueprint",
+    "date": "2026-04-20",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/20/lionesses-england-women-winning-blueprint-world-cup-qualifiers",
+    "summary": "Lionesses lessons from World Cup qualifying: Hampton and Russo shine with winning blueprint",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-20T08:53:52.977Z"
+  },
+  {
+    "id": "493389662963",
+    "title": "How Gibbs-White made a 'huge difference' in Forest's win against Burnley",
+    "date": "2026-04-19",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/videos/ce9m73djz5xo?at_medium=RSS&at_campaign=rss",
+    "summary": "How Gibbs-White made a 'huge difference' in Forest's win against Burnley",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-20T08:53:52.977Z"
+  },
+  {
+    "id": "205176b1ee2b",
+    "title": "Nico O’Reilly’s fearless quality exposes collapsing Arsenal’s title credentials | Barney Ronay",
+    "date": "2026-04-19",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/19/nico-oreilly-manchester-city-arsenal-premier-league-title-race",
+    "summary": "Nico O’Reilly’s fearless quality exposes collapsing Arsenal’s title credentials | Barney Ronay",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-20T08:53:52.977Z"
+  },
+  {
+    "id": "16289fd7f7d2",
+    "title": "Former Brazil international is clear: \"Vinicius is missing something\"",
+    "date": "2026-04-19",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/football/spanish-football/2026/04/19/69e4f54522601d03668b459b.html",
+    "summary": "Former Brazil international is clear: \"Vinicius is missing something\"",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-20T08:53:52.977Z"
+  },
+  {
     "id": "91b0732023ea",
     "title": "Pep: 'Part of myself' leaving with Silva from City",
     "date": "2026-04-19",
@@ -338,6 +403,19 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-04-17T08:41:58.535Z"
+  },
+  {
+    "id": "ec624205e2ee",
+    "title": "Michael Bradley’s Red Bulls are impressing in MLS – what could come next?",
+    "date": "2026-04-16",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/16/michael-bradley-red-bulls-mls-usmnt",
+    "summary": "Michael Bradley’s Red Bulls are impressing in MLS – what could come next?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-20T08:53:52.977Z"
   },
   {
     "id": "bb882be697d9",
@@ -4823,174 +4901,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-03-21T08:12:15.424Z"
-  },
-  {
-    "id": "8915122559ed",
-    "title": "One final experiment? Unpicking Tuchel's latest England squad",
-    "date": "2026-03-20",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/clyrnrgp6k6o?at_medium=RSS&at_campaign=rss",
-    "summary": "One final experiment? Unpicking Tuchel's latest England squad",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-21T08:12:15.424Z"
-  },
-  {
-    "id": "e16ec7e4310e",
-    "title": "No contact, no World Cup place? What went wrong for Alexander-Arnold?",
-    "date": "2026-03-20",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c75knk1gzvgo?at_medium=RSS&at_campaign=rss",
-    "summary": "No contact, no World Cup place? What went wrong for Alexander-Arnold?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-21T08:12:15.424Z"
-  },
-  {
-    "id": "d20cea317a61",
-    "title": "Alisson out of Brazil squad and will miss Brighton",
-    "date": "2026-03-20",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/crm1wr44vxvo?at_medium=RSS&at_campaign=rss",
-    "summary": "Alisson out of Brazil squad and will miss Brighton",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-21T08:12:15.424Z"
-  },
-  {
-    "id": "eeb4971f8de1",
-    "title": "Tuchel names 35-man split squad but Alexander-Arnold not included",
-    "date": "2026-03-20",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cre1d33gr3no?at_medium=RSS&at_campaign=rss",
-    "summary": "Tuchel names 35-man split squad but Alexander-Arnold not included",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-21T08:12:15.424Z"
-  },
-  {
-    "id": "06326cbe9343",
-    "title": "Rohl throws doubt on 'direction' of Cornelius' Rangers career",
-    "date": "2026-03-20",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cje4242elyno?at_medium=RSS&at_campaign=rss",
-    "summary": "Rohl throws doubt on 'direction' of Cornelius' Rangers career",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-21T08:12:15.424Z"
-  },
-  {
-    "id": "b79e7468e00c",
-    "title": "Tuchel thinks outside the box in final push for World Cup places with England expansion",
-    "date": "2026-03-20",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/20/thomas-tuchel-england-squad-world-cup-football",
-    "summary": "Tuchel thinks outside the box in final push for World Cup places with England expansion",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-21T08:12:15.424Z"
-  },
-  {
-    "id": "996c01e71aad",
-    "title": "Thomas Tuchel hones an England squad to suit his tactical visionn | Jonathan Wilson",
-    "date": "2026-03-20",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/20/thomas-tuchel-hones-an-england-squad-to-suit-his-tactical-vision",
-    "summary": "Thomas Tuchel hones an England squad to suit his tactical visionn | Jonathan Wilson",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-21T08:12:15.424Z"
-  },
-  {
-    "id": "7e47de84c481",
-    "title": "Aguirre presents surprise Mexico-born call-ups for 2026 World Cup qualifiers",
-    "date": "2026-03-20",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/world-cup/2026/03/20/69bdb5e1268e3e782c8b459f.html",
-    "summary": "Aguirre presents surprise Mexico-born call-ups for 2026 World Cup qualifiers",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-21T08:12:15.424Z"
-  },
-  {
-    "id": "5da22778c87b",
-    "title": "Iran threatens U.S. boycott but continues World Cup preparations amid uncertainty",
-    "date": "2026-03-20",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/world-cup/2026/03/20/69bda8bc268e3e6f418b45b3.html",
-    "summary": "Iran threatens U.S. boycott but continues World Cup preparations amid uncertainty",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-21T08:12:15.424Z"
-  },
-  {
-    "id": "2492f0f6f047",
-    "title": "Portugal loses Cristiano Ronaldo for Azteca Stadium",
-    "date": "2026-03-20",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/world-cup/2026/03/20/69bd4cede2704ef83b8b4579.html",
-    "summary": "Portugal loses Cristiano Ronaldo for Azteca Stadium",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-21T08:12:15.424Z"
-  },
-  {
-    "id": "4fd4a00145fc",
-    "title": "Brutal injury in Brazil: Marlon is left with his ankle hanging after suffering a serious fracture",
-    "date": "2026-03-20",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/football/2026/03/20/69bd4baae2704e6c0b8b4575.html",
-    "summary": "Brutal injury in Brazil: Marlon is left with his ankle hanging after suffering a serious fracture",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-21T08:12:15.424Z"
-  },
-  {
-    "id": "dfa6b591540b",
-    "title": "Ochoa, Fidalgo lead Mexico's list for WC warm-ups",
-    "date": "2026-03-20",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48253780/ochoa-fidalgo-highlight-mexico-squad-portugal-belgium-tests",
-    "summary": "Ochoa, Fidalgo lead Mexico's list for WC warm-ups",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-20T08:18:16.046Z"
-  },
-  {
-    "id": "490b74a7074e",
-    "title": "‘It’s 50-50’: coaches dodge ‘favourites’ question before Matildas meet Japan in Women’s Asian Cup final",
-    "date": "2026-03-20",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/20/matildas-japan-womens-asian-cup-final-coaches-on-match-favourite",
-    "summary": "‘It’s 50-50’: coaches dodge ‘favourites’ question before Matildas meet Japan in Women’s Asian Cup final",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-20T08:18:16.046Z"
   }
 ];
