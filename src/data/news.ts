@@ -2,6 +2,97 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "ed429a3305ad",
+    "title": "Arsenal lead pursuit of Rangers' Fernandez - gossip",
+    "date": "2026-04-21",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c9qdr7z4njlo?at_medium=RSS&at_campaign=rss",
+    "summary": "Arsenal lead pursuit of Rangers' Fernandez - gossip",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-21T08:45:38.864Z"
+  },
+  {
+    "id": "532ad1bf5059",
+    "title": "Lukaku holds positive clear-the-air talks with Napoli",
+    "date": "2026-04-20",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cr4199zr2g4o?at_medium=RSS&at_campaign=rss",
+    "summary": "Lukaku holds positive clear-the-air talks with Napoli",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-21T08:45:38.864Z"
+  },
+  {
+    "id": "90dead892090",
+    "title": "Ibrahima Konaté close to agreeing new contract and extending Liverpool stay",
+    "date": "2026-04-20",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/20/ibrahima-konate-liverpool-close-new-contract",
+    "summary": "Ibrahima Konaté close to agreeing new contract and extending Liverpool stay",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-21T08:45:38.864Z"
+  },
+  {
+    "id": "90fcdf3cb1b6",
+    "title": "Marie-Louise Eta, Union Berlin’s ‘Football Goddess’, breaks new ground in Bundesliga",
+    "date": "2026-04-20",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/20/marie-louise-eta-union-berlins-football-goddess-breaks-new-ground-in-bundesliga",
+    "summary": "Marie-Louise Eta, Union Berlin’s ‘Football Goddess’, breaks new ground in Bundesliga",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-21T08:45:38.864Z"
+  },
+  {
+    "id": "9b201c13f260",
+    "title": "US goalkeeper Jonathan Klinsmann breaks neck playing for Cesena",
+    "date": "2026-04-20",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/20/jonathan-klinsmann-broken-neck-usmnt-cesena",
+    "summary": "US goalkeeper Jonathan Klinsmann breaks neck playing for Cesena",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-21T08:45:38.864Z"
+  },
+  {
+    "id": "f1b4824a3cb3",
+    "title": "Diego Luna is making his strongest case for a US World Cup roster spot",
+    "date": "2026-04-20",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/20/mls-weekend-wrap-diego-luna-lionel-messi-columbus-crew",
+    "summary": "Diego Luna is making his strongest case for a US World Cup roster spot",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-21T08:45:38.864Z"
+  },
+  {
+    "id": "fd0c0cd22cf6",
+    "title": "FIFA World Cup 2026 brings scheduling disruptions for 13 NFL teams sharing stadiums",
+    "date": "2026-04-20",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/world-cup/2026/04/20/69e676de22601d7c1b8b45a8.html",
+    "summary": "FIFA World Cup 2026 brings scheduling disruptions for 13 NFL teams sharing stadiums",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-21T08:45:38.864Z"
+  },
+  {
     "id": "bf8ebf823ec2",
     "title": "Arsenal fans must be better to help team in title hunt - Rooney",
     "date": "2026-04-20",
@@ -4784,122 +4875,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-03-23T08:26:41.224Z"
-  },
-  {
-    "id": "180cc7393ab4",
-    "title": "Danny Welbeck double helps Brighton deal blow to Liverpool’s top-five hopes",
-    "date": "2026-03-21",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/21/brighton-liverpool-premier-league-match-report",
-    "summary": "Danny Welbeck double helps Brighton deal blow to Liverpool’s top-five hopes",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-23T08:26:41.224Z"
-  },
-  {
-    "id": "3f3ccab908f3",
-    "title": "'Not just goals, he's a great connecter' - should Welbeck be in England squad?",
-    "date": "2026-03-21",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c2k3dqjz55do?at_medium=RSS&at_campaign=rss",
-    "summary": "'Not just goals, he's a great connecter' - should Welbeck be in England squad?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-22T08:13:27.356Z"
-  },
-  {
-    "id": "4808b4a671ab",
-    "title": "WSL roundup: Shaw’s 13-minute treble edges City closer to title as Chelsea falter",
-    "date": "2026-03-21",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/21/wsl-roundup-manchester-city-khadija-shaw-chelsea-manchester-united",
-    "summary": "WSL roundup: Shaw’s 13-minute treble edges City closer to title as Chelsea falter",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-22T08:13:27.356Z"
-  },
-  {
-    "id": "c5c703a3409c",
-    "title": "Sardar Azmoun reportedly left out of Iran squad for disloyalty to government",
-    "date": "2026-03-21",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/21/sardar-azmoun-left-out-of-iran-squad-amid-reports-of-expulsion-from-national-team-world-cup",
-    "summary": "Sardar Azmoun reportedly left out of Iran squad for disloyalty to government",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-22T08:13:27.356Z"
-  },
-  {
-    "id": "7a7c9e0c57b6",
-    "title": "‘Newcastle fans booed me. Sunderland fans booed me’: the striker who replaced Shearer",
-    "date": "2026-03-21",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/21/newcastle-sunderland-derby-alan-shearer-ruud-gullit-paul-robinson",
-    "summary": "‘Newcastle fans booed me. Sunderland fans booed me’: the striker who replaced Shearer",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-22T08:13:27.356Z"
-  },
-  {
-    "id": "4b127049cb9c",
-    "title": "Nottingham Forest aim to recreate Midtjylland magic in showdown at Spurs",
-    "date": "2026-03-21",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/21/nottingham-forest-midtjylland-tottenham-premier-league",
-    "summary": "Nottingham Forest aim to recreate Midtjylland magic in showdown at Spurs",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-22T08:13:27.356Z"
-  },
-  {
-    "id": "84ff1cfc1ea3",
-    "title": "Marsch: USMNT U-turn left me 'devastated, angry'",
-    "date": "2026-03-21",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48259610/jesse-marsch-usmnt-coach-canada-berhalter-us-soccer",
-    "summary": "Marsch: USMNT U-turn left me 'devastated, angry'",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-21T08:12:15.424Z"
-  },
-  {
-    "id": "b0339be43b92",
-    "title": "Ronaldo to miss Portugal games vs. U.S., Mexico",
-    "date": "2026-03-21",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48257794/cristiano-ronaldo-not-portugal-squad-pre-world-cup-friendlies",
-    "summary": "Ronaldo to miss Portugal games vs. U.S., Mexico",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-21T08:12:15.424Z"
-  },
-  {
-    "id": "85953dc86921",
-    "title": "Italy call up Chiesa for crucial World Cup playoffs",
-    "date": "2026-03-21",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48258842/italy-call-liverpool-chiesa-crucial-world-cup-playoffs",
-    "summary": "Italy call up Chiesa for crucial World Cup playoffs",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-21T08:12:15.424Z"
   }
 ];
