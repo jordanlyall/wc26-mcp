@@ -2,6 +2,110 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "6ca0de318ce5",
+    "title": "FIFA opens sale of more WC tickets to all games",
+    "date": "2026-04-22",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48551738/fifa-put-more-world-cup-tickets-sale-all-games",
+    "summary": "FIFA opens sale of more WC tickets to all games",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-22T08:43:49.804Z"
+  },
+  {
+    "id": "fc4308eda90b",
+    "title": "The brilliant Robert Lewandowski is facing a career without a fitting curtain call",
+    "date": "2026-04-22",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/22/robert-lewandowski-poland-barcelona",
+    "summary": "The brilliant Robert Lewandowski is facing a career without a fitting curtain call",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-22T08:43:49.804Z"
+  },
+  {
+    "id": "06dc18f9c986",
+    "title": "Socceroo Mo Touré scores fourth goal in a week as sizzling run for Norwich continues",
+    "date": "2026-04-22",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/22/socceroo-mo-toure-scores-fourth-goal-in-week-norwich-footballer",
+    "summary": "Socceroo Mo Touré scores fourth goal in a week as sizzling run for Norwich continues",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-22T08:43:49.804Z"
+  },
+  {
+    "id": "b50f9ae88769",
+    "title": "Tired England play with fear - ex-manager Capello",
+    "date": "2026-04-21",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c1krxjww3meo?at_medium=RSS&at_campaign=rss",
+    "summary": "Tired England play with fear - ex-manager Capello",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-22T08:43:49.804Z"
+  },
+  {
+    "id": "a7ebd0f53fef",
+    "title": "Newcastle’s PIF owners to question Eddie Howe next week on poor run of form",
+    "date": "2026-04-21",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/21/eddie-howe-newcastle-pif-owners-meeting-anthony-gordon",
+    "summary": "Newcastle’s PIF owners to question Eddie Howe next week on poor run of form",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-22T08:43:49.804Z"
+  },
+  {
+    "id": "82351f63e52b",
+    "title": "The Vancouver Whitecaps are MLS’s best team this season. Why are they on life support?",
+    "date": "2026-04-21",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/21/vancouver-whitecaps-bc-place-survival-axel-schuster",
+    "summary": "The Vancouver Whitecaps are MLS’s best team this season. Why are they on life support?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-22T08:43:49.804Z"
+  },
+  {
+    "id": "0d867362eb54",
+    "title": "Football Daily | Wolves and a simple tale of paying the price for selling the family gold",
+    "date": "2026-04-21",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/21/wolves-relegated-football-daily-newsletter",
+    "summary": "Football Daily | Wolves and a simple tale of paying the price for selling the family gold",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-22T08:43:49.804Z"
+  },
+  {
+    "id": "04da7af943df",
+    "title": "Carlos Díez, Real Madrid's rising star who has caught the eye of the Argentina national team",
+    "date": "2026-04-21",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/football/real-madrid/2026/04/21/69e7cfee22601d81488b458f.html",
+    "summary": "Carlos Díez, Real Madrid's rising star who has caught the eye of the Argentina national team",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-22T08:43:49.804Z"
+  },
+  {
     "id": "ed429a3305ad",
     "title": "Arsenal lead pursuit of Rangers' Fernandez - gossip",
     "date": "2026-04-21",
@@ -4805,71 +4909,6 @@ export const news: NewsItem[] = [
     "source": "Marca",
     "url": "https://www.marca.com/en/world-cup/2026/03/23/69c08f16268e3e965d8b45a9.html",
     "summary": "Reports: Neymar \"practically\" out of the 2026 World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-23T08:26:41.224Z"
-  },
-  {
-    "id": "ad32fe980288",
-    "title": "Watkins gives Tuchel timely reminder as World Cup hopes still alive",
-    "date": "2026-03-22",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cvg3lxd74zjo?at_medium=RSS&at_campaign=rss",
-    "summary": "Watkins gives Tuchel timely reminder as World Cup hopes still alive",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-23T08:26:41.224Z"
-  },
-  {
-    "id": "c81971697ed0",
-    "title": "Newcastle's Barnes set to replace Eze in England squad",
-    "date": "2026-03-22",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cgldklk5j34o?at_medium=RSS&at_campaign=rss",
-    "summary": "Newcastle's Barnes set to replace Eze in England squad",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-23T08:26:41.224Z"
-  },
-  {
-    "id": "2a73e2b8c821",
-    "title": "'He's a fighter' - Emery backs Watkins after England omission",
-    "date": "2026-03-22",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/videos/cql73peld0no?at_medium=RSS&at_campaign=rss",
-    "summary": "'He's a fighter' - Emery backs Watkins after England omission",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-23T08:26:41.224Z"
-  },
-  {
-    "id": "a46b250cfc6d",
-    "title": "Ollie Watkins puts seal on Villa’s win over West Ham after England omission",
-    "date": "2026-03-22",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/22/aston-villa-west-ham-premier-league-match-report",
-    "summary": "Ollie Watkins puts seal on Villa’s win over West Ham after England omission",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-23T08:26:41.224Z"
-  },
-  {
-    "id": "21b06bf10639",
-    "title": "European football: Vinícius doubles up as Real Madrid edge Atlético in derby thriller",
-    "date": "2026-03-22",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/22/barcelona-real-madrid-atletico-roma-inter",
-    "summary": "European football: Vinícius doubles up as Real Madrid edge Atlético in derby thriller",
     "categories": [
       "general"
     ],
