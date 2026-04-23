@@ -2,6 +2,58 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "5c821951bd31",
+    "title": "Estevao's World Cup hopes in doubt after hamstring injury",
+    "date": "2026-04-22",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cn4vk4717vdo?at_medium=RSS&at_campaign=rss",
+    "summary": "Estevao's World Cup hopes in doubt after hamstring injury",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-23T08:44:30.740Z"
+  },
+  {
+    "id": "045c2f1e4e2f",
+    "title": "Fearless Rayan Cherki offers Manchester City a point of difference in title hunt | Will Unwin",
+    "date": "2026-04-22",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/22/fearless-rayan-cherki-offers-manchester-city-a-point-of-difference-in-title-hunt",
+    "summary": "Fearless Rayan Cherki offers Manchester City a point of difference in title hunt | Will Unwin",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-23T08:44:30.740Z"
+  },
+  {
+    "id": "e00ee86b76f5",
+    "title": "Project ACL: NWSL joins WSL in initiative aimed at expanding injury research",
+    "date": "2026-04-22",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/22/project-acl-injuries-nwsl-wsl",
+    "summary": "Project ACL: NWSL joins WSL in initiative aimed at expanding injury research",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-23T08:44:30.740Z"
+  },
+  {
+    "id": "cc3ea87d0e44",
+    "title": "Will Lamine Yamal miss the World Cup? Injury scenarios explained",
+    "date": "2026-04-22",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/football/barcelona/2026/04/23/69e953ecca47412c248b4594.html",
+    "summary": "Will Lamine Yamal miss the World Cup? Injury scenarios explained",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-23T08:44:30.740Z"
+  },
+  {
     "id": "6ca0de318ce5",
     "title": "FIFA opens sale of more WC tickets to all games",
     "date": "2026-04-22",
@@ -4719,200 +4771,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-03-24T08:22:02.874Z"
-  },
-  {
-    "id": "3e980f4afd6f",
-    "title": "‘We’re not in England any more’: Tuchel hopes Kansas City is World Cup haven",
-    "date": "2026-03-23",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/23/thomas-tuchel-kansas-city-hotel-world-cup-england",
-    "summary": "‘We’re not in England any more’: Tuchel hopes Kansas City is World Cup haven",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-25T08:21:35.085Z"
-  },
-  {
-    "id": "c7d333aa7a2e",
-    "title": "Cooper accused of dropping Bosnia player before Wales tie",
-    "date": "2026-03-23",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cly6gxp4wngo?at_medium=RSS&at_campaign=rss",
-    "summary": "Cooper accused of dropping Bosnia player before Wales tie",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-24T08:22:02.874Z"
-  },
-  {
-    "id": "43fac87d982a",
-    "title": "Sancho in talks with Dortmund - Tuesday's gossip",
-    "date": "2026-03-23",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c98medn56r7o?at_medium=RSS&at_campaign=rss",
-    "summary": "Sancho in talks with Dortmund - Tuesday's gossip",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-24T08:22:02.874Z"
-  },
-  {
-    "id": "53ea35955840",
-    "title": "Foden final appearance felt like a 'charity' substitution - Rooney",
-    "date": "2026-03-23",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c2ev7mxr40go?at_medium=RSS&at_campaign=rss",
-    "summary": "Foden final appearance felt like a 'charity' substitution - Rooney",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-24T08:22:02.874Z"
-  },
-  {
-    "id": "c95388989f8f",
-    "title": "White gets first England call-up since 2022",
-    "date": "2026-03-23",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cx2dy01l238o?at_medium=RSS&at_campaign=rss",
-    "summary": "White gets first England call-up since 2022",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-24T08:22:02.874Z"
-  },
-  {
-    "id": "a2ebecee8c1b",
-    "title": "Scotland would be 'silly' not to offer Clarke new deal - Dalglish",
-    "date": "2026-03-23",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c3ex87d09pdo?at_medium=RSS&at_campaign=rss",
-    "summary": "Scotland would be 'silly' not to offer Clarke new deal - Dalglish",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-24T08:22:02.874Z"
-  },
-  {
-    "id": "9b85f80beb2f",
-    "title": "Stars finally align for Ben White with Tuchel ending defender’s England exile | David Hytner",
-    "date": "2026-03-23",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/23/ben-white-england-thomas-tuchel-arsenal-world-cup-football",
-    "summary": "Stars finally align for Ben White with Tuchel ending defender’s England exile | David Hytner",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-24T08:22:02.874Z"
-  },
-  {
-    "id": "fba0f268f26c",
-    "title": "English clubs’ plea for bigger Champions League squads rejected after Spanish backlash",
-    "date": "2026-03-23",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/23/english-clubs-plea-for-bigger-champions-league-squads-rejected-uefa-after-spanish-backlash",
-    "summary": "English clubs’ plea for bigger Champions League squads rejected after Spanish backlash",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-24T08:22:02.874Z"
-  },
-  {
-    "id": "7be183cdf849",
-    "title": "Esposito excels for Inter and could banish the fear stalking Italy before playoff | Nicky Bandini",
-    "date": "2026-03-23",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/23/pio-esposito-inter-serie-a-italy-playoff",
-    "summary": "Esposito excels for Inter and could banish the fear stalking Italy before playoff | Nicky Bandini",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-24T08:22:02.874Z"
-  },
-  {
-    "id": "17a60dba6b95",
-    "title": "Why the Mexico vs Portugal friendly in Mexico doesn't feel the same anymore",
-    "date": "2026-03-23",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/world-cup/2026/03/23/69c1a66946163f7d4e8b459a.html",
-    "summary": "Why the Mexico vs Portugal friendly in Mexico doesn't feel the same anymore",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-24T08:22:02.874Z"
-  },
-  {
-    "id": "22ed41b36e65",
-    "title": "Cristiano Ronaldo sparks optimism by sharing progress in his recovery after being left out of Portugal's squad",
-    "date": "2026-03-23",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/football/2026/03/23/69c1430322601de5018b4585.html",
-    "summary": "Cristiano Ronaldo sparks optimism by sharing progress in his recovery after being left out of Portugal's squad",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-24T08:22:02.874Z"
-  },
-  {
-    "id": "c5dfc0341df1",
-    "title": "Saliba out of France squad, Lacroix called up",
-    "date": "2026-03-23",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48285602/arsenal-william-saliba-withdraws-france-squad-maxence-lacroix-earns-first-call-up",
-    "summary": "Saliba out of France squad, Lacroix called up",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-23T08:26:41.224Z"
-  },
-  {
-    "id": "1b09ffadd6c2",
-    "title": "Taking wildcards, leaving out stars - the art of World Cup squad building",
-    "date": "2026-03-23",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c3rzr1xd4w1o?at_medium=RSS&at_campaign=rss",
-    "summary": "Taking wildcards, leaving out stars - the art of World Cup squad building",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-23T08:26:41.224Z"
-  },
-  {
-    "id": "7cd6080884fa",
-    "title": "Chaos breaks out at U.S. airports less than 100 days before the start of the 2026 World Cup",
-    "date": "2026-03-23",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/world-cup/2026/03/23/69c0ba37e2704e06398b45c3.html",
-    "summary": "Chaos breaks out at U.S. airports less than 100 days before the start of the 2026 World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-23T08:26:41.224Z"
-  },
-  {
-    "id": "47bedba8e461",
-    "title": "Reports: Neymar \"practically\" out of the 2026 World Cup",
-    "date": "2026-03-23",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/world-cup/2026/03/23/69c08f16268e3e965d8b45a9.html",
-    "summary": "Reports: Neymar \"practically\" out of the 2026 World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-23T08:26:41.224Z"
   }
 ];
