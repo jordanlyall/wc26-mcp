@@ -2,6 +2,149 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "b374d60abfa3",
+    "title": "Gibbs-White's month to prove World Cup worth",
+    "date": "2026-04-24",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/ckgxky649gwo?at_medium=RSS&at_campaign=rss",
+    "summary": "Gibbs-White's month to prove World Cup worth",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-24T08:48:38.216Z"
+  },
+  {
+    "id": "1db5cb650f56",
+    "title": "Injured Lamine Yamal 'expected to be fit' for World Cup",
+    "date": "2026-04-23",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cly60l1e6nxo?at_medium=RSS&at_campaign=rss",
+    "summary": "Injured Lamine Yamal 'expected to be fit' for World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-24T08:48:38.216Z"
+  },
+  {
+    "id": "50f1056758bc",
+    "title": "World Cup 2026 injury watch: Key names racing to be ready",
+    "date": "2026-04-23",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c87wzlpd5l7o?at_medium=RSS&at_campaign=rss",
+    "summary": "World Cup 2026 injury watch: Key names racing to be ready",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-24T08:48:38.216Z"
+  },
+  {
+    "id": "cea1af4ab22c",
+    "title": "World Cup final tickets listed for more than $2m on Fifa’s resale site",
+    "date": "2026-04-23",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/23/world-cup-final-tickets-resale-prices-fifa-two-million",
+    "summary": "World Cup final tickets listed for more than $2m on Fifa’s resale site",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-24T08:48:38.216Z"
+  },
+  {
+    "id": "76377cffa6f0",
+    "title": "Jérémy Doku: ‘If I add goals I can be the world’s best winger, for sure’",
+    "date": "2026-04-23",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/23/jeremy-doku-if-i-add-goals-i-can-be-the-worlds-best-winger-for-sure",
+    "summary": "Jérémy Doku: ‘If I add goals I can be the world’s best winger, for sure’",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-24T08:48:38.216Z"
+  },
+  {
+    "id": "487c125a97d2",
+    "title": "Tracey Neville’s next big step: creating ‘a future in sport’ at Stockport County",
+    "date": "2026-04-23",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/23/tracey-neville-next-big-step-stockport-county",
+    "summary": "Tracey Neville’s next big step: creating ‘a future in sport’ at Stockport County",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-24T08:48:38.216Z"
+  },
+  {
+    "id": "b3ba7e6f7bf3",
+    "title": "European football: Lamine Yamal’s Barcelona season over but he should be fit for World Cup",
+    "date": "2026-04-23",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/22/european-football-lamine-yamal-injury-barcelona-celta-vigo-psg-bayern-munich",
+    "summary": "European football: Lamine Yamal’s Barcelona season over but he should be fit for World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-24T08:48:38.216Z"
+  },
+  {
+    "id": "b0a8bec1610a",
+    "title": "PSG have the edge in the Ligue 1 title race but face seven matches in 23 days",
+    "date": "2026-04-23",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/23/psg-advantage-ligue-1-title-race-games-piling-up-nantes",
+    "summary": "PSG have the edge in the Ligue 1 title race but face seven matches in 23 days",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-24T08:48:38.216Z"
+  },
+  {
+    "id": "bfbca9093185",
+    "title": "James Rodriguez disappears from Minnesota's plans",
+    "date": "2026-04-23",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/football/mls/2026/04/23/69ea824eca4741e52f8b4591.html",
+    "summary": "James Rodriguez disappears from Minnesota's plans",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-24T08:48:38.216Z"
+  },
+  {
+    "id": "add2e7536638",
+    "title": "Double injury blow: Real Madrid confirms Militao and Arda Güler are out for the season",
+    "date": "2026-04-23",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/football/real-madrid/2026/04/23/69ea179a22601dbd768b45b0.html",
+    "summary": "Double injury blow: Real Madrid confirms Militao and Arda Güler are out for the season",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-24T08:48:38.216Z"
+  },
+  {
+    "id": "e91131e8c85f",
+    "title": "Is Barça's loss Spain's gain? Lamine Yamal out for the season, but expected to be fit for the 2026 World Cup",
+    "date": "2026-04-23",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/football/barcelona/2026/04/23/69ea17b122601dab158b45aa.html",
+    "summary": "Is Barça's loss Spain's gain? Lamine Yamal out for the season, but expected to be fit for the 2026 World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-24T08:48:38.216Z"
+  },
+  {
     "id": "5c821951bd31",
     "title": "Estevao's World Cup hopes in doubt after hamstring injury",
     "date": "2026-04-22",
@@ -4602,174 +4745,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-03-25T08:21:35.085Z"
-  },
-  {
-    "id": "a1dd9a6a3051",
-    "title": "Tuchel clearly doesn't rate Alexander-Arnold - Sutton",
-    "date": "2026-03-24",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/videos/cp8476659ygo?at_medium=RSS&at_campaign=rss",
-    "summary": "Tuchel clearly doesn't rate Alexander-Arnold - Sutton",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-26T08:24:47.657Z"
-  },
-  {
-    "id": "3085ea956c9d",
-    "title": "Russo settles thrilling Champions League first leg for Arsenal",
-    "date": "2026-03-24",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/videos/c5ywdenzn12o?at_medium=RSS&at_campaign=rss",
-    "summary": "Russo settles thrilling Champions League first leg for Arsenal",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-25T08:21:35.085Z"
-  },
-  {
-    "id": "5e60c4ad1a1b",
-    "title": "Complaint filed over World Cup ticket prices",
-    "date": "2026-03-24",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/clyx27vv7rno?at_medium=RSS&at_campaign=rss",
-    "summary": "Complaint filed over World Cup ticket prices",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-25T08:21:35.085Z"
-  },
-  {
-    "id": "adf6c3cecdb4",
-    "title": "I miss English football - Pochettino on 'ideal place' to manage",
-    "date": "2026-03-24",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c0mjzmyx80ro?at_medium=RSS&at_campaign=rss",
-    "summary": "I miss English football - Pochettino on 'ideal place' to manage",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-25T08:21:35.085Z"
-  },
-  {
-    "id": "c5f944749109",
-    "title": "Is Scotland cap next step on Stewart's 'surreal' journey?",
-    "date": "2026-03-24",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c1450zrpey3o?at_medium=RSS&at_campaign=rss",
-    "summary": "Is Scotland cap next step on Stewart's 'surreal' journey?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-25T08:21:35.085Z"
-  },
-  {
-    "id": "c5f944749109",
-    "title": "Is Scotland cap next step on Stewart's 'surreal' journey?",
-    "date": "2026-03-24",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c1450zrpey3o?at_medium=RSS&at_campaign=rss",
-    "summary": "Is Scotland cap next step on Stewart's 'surreal' journey?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-25T08:21:35.085Z"
-  },
-  {
-    "id": "3085ea956c9d",
-    "title": "Russo settles thrilling Champions League first leg for Arsenal",
-    "date": "2026-03-24",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/videos/c5ywdenzn12o?at_medium=RSS&at_campaign=rss",
-    "summary": "Russo settles thrilling Champions League first leg for Arsenal",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-25T08:21:35.085Z"
-  },
-  {
-    "id": "63cfba035305",
-    "title": "James Garner pleased with defining year at Everton after receiving first England call-up",
-    "date": "2026-03-24",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/24/james-garner-england-everton-uruguay-japan-world-cup-squad",
-    "summary": "James Garner pleased with defining year at Everton after receiving first England call-up",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-25T08:21:35.085Z"
-  },
-  {
-    "id": "fc436cd8e0d0",
-    "title": "‘Sport gave me new dreams’: the emergence of Brazil women’s blind team",
-    "date": "2026-03-24",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/24/brazil-womens-blind-team-moving-the-goalposts-newsletter",
-    "summary": "‘Sport gave me new dreams’: the emergence of Brazil women’s blind team",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-25T08:21:35.085Z"
-  },
-  {
-    "id": "d31a7b902a81",
-    "title": "Sources: Zidane verbally agrees to take France job",
-    "date": "2026-03-24",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48286234/zinedine-zidane-reaches-verbal-agreement-take-france-job-sources",
-    "summary": "Sources: Zidane verbally agrees to take France job",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-24T08:22:02.874Z"
-  },
-  {
-    "id": "c37f74773679",
-    "title": "Utd's Mbeumo, Sesko withdraw from internationals",
-    "date": "2026-03-24",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48286871/manchester-united-bryan-mbeumo-benjamin-sesko-withdraw-internationals",
-    "summary": "Utd's Mbeumo, Sesko withdraw from internationals",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-24T08:22:02.874Z"
-  },
-  {
-    "id": "e880453f4e50",
-    "title": "Scaloni appears ready to evaluate new options across the Argentina roster before the World Cup",
-    "date": "2026-03-24",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/football/2026/03/24/69c20ecd46163f00478b45d9.html",
-    "summary": "Scaloni appears ready to evaluate new options across the Argentina roster before the World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-24T08:22:02.874Z"
-  },
-  {
-    "id": "4eec4d35b240",
-    "title": "Ex-USMNT star calls out Mauricio Pochettino over recent decisions",
-    "date": "2026-03-24",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/football/2026/03/24/69c1deb222601d5c4e8b45a6.html",
-    "summary": "Ex-USMNT star calls out Mauricio Pochettino over recent decisions",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-24T08:22:02.874Z"
   }
 ];
