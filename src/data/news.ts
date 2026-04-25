@@ -2,6 +2,71 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "158dfe0f6941",
+    "title": "Former Nigeria striker Eneramo dies during match",
+    "date": "2026-04-24",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c05d3zd1npjo?at_medium=RSS&at_campaign=rss",
+    "summary": "Former Nigeria striker Eneramo dies during match",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-25T08:26:36.470Z"
+  },
+  {
+    "id": "c288de9972b0",
+    "title": "Football news: Slot casts doubt on Alisson’s future; Livramento blow for Howe",
+    "date": "2026-04-24",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/24/football-news-slot-blames-crazy-schedule-for-alisson-absence-livramento-blow-for-howe",
+    "summary": "Football news: Slot casts doubt on Alisson’s future; Livramento blow for Howe",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-25T08:26:36.470Z"
+  },
+  {
+    "id": "b0b8249f7d8d",
+    "title": "Arsenal welcome back Bukayo Saka and ‘different energy’ for Newcastle clash",
+    "date": "2026-04-24",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/24/arsenal-welcome-back-bukayo-saka-newcastle-mikel-arteta-premier-league",
+    "summary": "Arsenal welcome back Bukayo Saka and ‘different energy’ for Newcastle clash",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-25T08:26:36.470Z"
+  },
+  {
+    "id": "723c9458c266",
+    "title": "Gianluca Prestianni hit with six-match ban for ‘homophobic conduct’ towards Vinícius Júnior",
+    "date": "2026-04-24",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/24/gianluca-prestianni-six-match-ban-homophobic-conduct-towards-vinicius-junior",
+    "summary": "Gianluca Prestianni hit with six-match ban for ‘homophobic conduct’ towards Vinícius Júnior",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-25T08:26:36.470Z"
+  },
+  {
+    "id": "5b851d4f3cf8",
+    "title": "Fifa criticized for ‘deeply concerning’ approach to ticketing for fans with disabilities",
+    "date": "2026-04-24",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/24/fifa-accessible-seating-tickets-criticism",
+    "summary": "Fifa criticized for ‘deeply concerning’ approach to ticketing for fans with disabilities",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-25T08:26:36.470Z"
+  },
+  {
     "id": "b374d60abfa3",
     "title": "Gibbs-White's month to prove World Cup worth",
     "date": "2026-04-24",
@@ -4511,239 +4576,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-03-26T08:24:47.657Z"
-  },
-  {
-    "id": "34b33bc8f049",
-    "title": "2026 World Cup playoff preview, predictions: Who will book the final six spots?",
-    "date": "2026-03-25",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48297340/2026-world-cup-playoff-preview-predictions-uefa-intercontinental-fixtures-mark-ogden",
-    "summary": "2026 World Cup playoff preview, predictions: Who will book the final six spots?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-26T08:24:47.657Z"
-  },
-  {
-    "id": "0e28301c2e60",
-    "title": "Data usage, AI's role and player welfare - 'Football in 10 Years' discussion",
-    "date": "2026-03-25",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/ckgxz9yre4wo?at_medium=RSS&at_campaign=rss",
-    "summary": "Data usage, AI's role and player welfare - 'Football in 10 Years' discussion",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-26T08:24:47.657Z"
-  },
-  {
-    "id": "1cae0e608e14",
-    "title": "Scots playing with pressure encourages Andreatta",
-    "date": "2026-03-25",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/clyx21x73y4o?at_medium=RSS&at_campaign=rss",
-    "summary": "Scots playing with pressure encourages Andreatta",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-26T08:24:47.657Z"
-  },
-  {
-    "id": "1cae0e608e14",
-    "title": "Scots playing with pressure encourages Andreatta",
-    "date": "2026-03-25",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/clyx21x73y4o?at_medium=RSS&at_campaign=rss",
-    "summary": "Scots playing with pressure encourages Andreatta",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-26T08:24:47.657Z"
-  },
-  {
-    "id": "1cae0e608e14",
-    "title": "Scots playing with pressure encourages Andreatta",
-    "date": "2026-03-25",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/clyx21x73y4o?at_medium=RSS&at_campaign=rss",
-    "summary": "Scots playing with pressure encourages Andreatta",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-26T08:24:47.657Z"
-  },
-  {
-    "id": "2d481258fd87",
-    "title": "Italy and Northern Ireland target return to international football’s top table",
-    "date": "2026-03-25",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/25/italy-northern-ireland-world-cup-playoff-gennaro-gattuso-michael-o-neill",
-    "summary": "Italy and Northern Ireland target return to international football’s top table",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-26T08:24:47.657Z"
-  },
-  {
-    "id": "c4854eb502a5",
-    "title": "‘There won’t be any regrets’: Bellamy steels Wales for last World Cup push",
-    "date": "2026-03-25",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/25/there-wont-be-any-regrets-bellamy-steels-wales-for-last-world-cup-push",
-    "summary": "‘There won’t be any regrets’: Bellamy steels Wales for last World Cup push",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-26T08:24:47.657Z"
-  },
-  {
-    "id": "2e68bfc50da0",
-    "title": "Man who posted racist messages about England’s Jess Carter on TikTok avoids jail",
-    "date": "2026-03-25",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/25/man-suspended-prison-term-online-abuse-jess-carter-england-women-euro-2025",
-    "summary": "Man who posted racist messages about England’s Jess Carter on TikTok avoids jail",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-26T08:24:47.657Z"
-  },
-  {
-    "id": "896c9de20ccc",
-    "title": "Harry Maguire: ‘I really like Ruben, he’s got great ideas. They just didn’t work at Manchester United’",
-    "date": "2026-03-25",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/25/harry-maguire-ruben-amorim-manchester-united-england",
-    "summary": "Harry Maguire: ‘I really like Ruben, he’s got great ideas. They just didn’t work at Manchester United’",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-26T08:24:47.657Z"
-  },
-  {
-    "id": "71121c54ff00",
-    "title": "Fans and players from five African World Cup countries face $15,000 bond to enter US",
-    "date": "2026-03-25",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/25/fans-and-players-from-five-african-world-cup-countries-face-15000-bond-to-enter-us",
-    "summary": "Fans and players from five African World Cup countries face $15,000 bond to enter US",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-26T08:24:47.657Z"
-  },
-  {
-    "id": "2d85ca1886a9",
-    "title": "Coleman tells Ireland they have a duty to lift country in World Cup playoff",
-    "date": "2026-03-25",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/25/coleman-tells-ireland-they-have-a-duty-to-lift-country-before-world-cup-playoff",
-    "summary": "Coleman tells Ireland they have a duty to lift country in World Cup playoff",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-26T08:24:47.657Z"
-  },
-  {
-    "id": "0b765a2ad351",
-    "title": "Roldan: 'Huge gap' in U.S. midfield without Adams",
-    "date": "2026-03-25",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48297948/roldan-competitive-us-midfield-huge-gap-adams",
-    "summary": "Roldan: 'Huge gap' in U.S. midfield without Adams",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-25T08:21:35.085Z"
-  },
-  {
-    "id": "e1a97ffa2cc5",
-    "title": "2026 World Cup: Which teams will claim the final 6 places?",
-    "date": "2026-03-25",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/40297462/2026-world-cup-how-nations-world-qualify",
-    "summary": "2026 World Cup: Which teams will claim the final 6 places?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-25T08:21:35.085Z"
-  },
-  {
-    "id": "c4efbe4fc079",
-    "title": "Key questions for Clarke in Scotland's final pre-World Cup camp",
-    "date": "2026-03-25",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/czd75vzevl2o?at_medium=RSS&at_campaign=rss",
-    "summary": "Key questions for Clarke in Scotland's final pre-World Cup camp",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-25T08:21:35.085Z"
-  },
-  {
-    "id": "d4339381938a",
-    "title": "Bosnia 2-0 Wales - 'The best defeat of my life'",
-    "date": "2026-03-25",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/videos/c2398j3r8dmo?at_medium=RSS&at_campaign=rss",
-    "summary": "Bosnia 2-0 Wales - 'The best defeat of my life'",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-25T08:21:35.085Z"
-  },
-  {
-    "id": "c4efbe4fc079",
-    "title": "Key questions for Clarke in Scotland's final pre-World Cup camp",
-    "date": "2026-03-25",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/czd75vzevl2o?at_medium=RSS&at_campaign=rss",
-    "summary": "Key questions for Clarke in Scotland's final pre-World Cup camp",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-25T08:21:35.085Z"
-  },
-  {
-    "id": "f91034362923",
-    "title": "‘I can’t leave like a coward’: Romania’s Mircea Lucescu on illness and his World Cup dream at 80",
-    "date": "2026-03-25",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/25/i-cant-leave-like-a-coward-romanias-mircea-lucescu-on-illness-and-his-world-cup-dream-at-80",
-    "summary": "‘I can’t leave like a coward’: Romania’s Mircea Lucescu on illness and his World Cup dream at 80",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-25T08:21:35.085Z"
-  },
-  {
-    "id": "9897c851eeba",
-    "title": "Who was the first footballer to announce their international retirement? | The Knowledge",
-    "date": "2026-03-25",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/25/who-was-the-first-footballer-to-announce-their-international-retirement-knowledge",
-    "summary": "Who was the first footballer to announce their international retirement? | The Knowledge",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-25T08:21:35.085Z"
   }
 ];
