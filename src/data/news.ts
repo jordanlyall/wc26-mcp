@@ -2,6 +2,84 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "2480241c2d9f",
+    "title": "Tartan Army 'taking back control' from  Fifa with fan ticket exchange",
+    "date": "2026-04-25",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/news/articles/cz7848z7pydo?at_medium=RSS&at_campaign=rss",
+    "summary": "Tartan Army 'taking back control' from  Fifa with fan ticket exchange",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-26T08:33:26.883Z"
+  },
+  {
+    "id": "bb8cb83dd873",
+    "title": "Mikel Arteta criticises red card escapes for Newcastle’s Pope and City’s Khusanov",
+    "date": "2026-04-25",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/25/angry-mikel-arteta-slams-red-card-decisions-after-arsenal-beat-newcastle",
+    "summary": "Mikel Arteta criticises red card escapes for Newcastle’s Pope and City’s Khusanov",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-26T08:33:26.883Z"
+  },
+  {
+    "id": "a1fcd2b6c8b5",
+    "title": "Scottish Premiership: Celtic go level on points with Hearts at top of table",
+    "date": "2026-04-25",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/25/scottish-premiership-celtic-rangers-aberdeen-kilmarnock",
+    "summary": "Scottish Premiership: Celtic go level on points with Hearts at top of table",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-26T08:33:26.883Z"
+  },
+  {
+    "id": "64e6b6d50175",
+    "title": "Leeds seek seminal moment with FA Cup semi-final chance against Chelsea",
+    "date": "2026-04-25",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/25/fa-cup-leeds-chelsea-semi-final-wembley-daniel-farke",
+    "summary": "Leeds seek seminal moment with FA Cup semi-final chance against Chelsea",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-26T08:33:26.883Z"
+  },
+  {
+    "id": "54d992a4c3b3",
+    "title": "Manchester United target Atalanta’s Éderson as Casemiro replacement",
+    "date": "2026-04-25",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/25/manchester-united-target-atalanta-ederson-to-replace-casemiro",
+    "summary": "Manchester United target Atalanta’s Éderson as Casemiro replacement",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-26T08:33:26.883Z"
+  },
+  {
+    "id": "6c688eb0a5df",
+    "title": "Mbappé gives France another scare ahead of the World Cup: new injury with Real Madrid",
+    "date": "2026-04-25",
+    "source": "Marca",
+    "url": "https://www.marca.com/en/football/real-madrid/2026/04/25/69ec8969ca4741b2268b4589.html",
+    "summary": "Mbappé gives France another scare ahead of the World Cup: new injury with Real Madrid",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-26T08:33:26.883Z"
+  },
+  {
     "id": "158dfe0f6941",
     "title": "Former Nigeria striker Eneramo dies during match",
     "date": "2026-04-24",
@@ -4381,200 +4459,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-03-27T08:22:29.482Z"
-  },
-  {
-    "id": "f012e3362332",
-    "title": "Have all home nations ever played in same World Cup?",
-    "date": "2026-03-26",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/articles/cpdy58d300zo?at_medium=RSS&at_campaign=rss",
-    "summary": "Have all home nations ever played in same World Cup?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-01T08:35:40.335Z"
-  },
-  {
-    "id": "7ad6f4b936a3",
-    "title": "Germany's first woman coach at men's pro level is chasing her dreams",
-    "date": "2026-03-26",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48306172/germany-first-woman-coach-men-pro-level-chasing-dreams-sabrina-wittmann-ingolstadt",
-    "summary": "Germany's first woman coach at men's pro level is chasing her dreams",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-27T08:22:29.482Z"
-  },
-  {
-    "id": "67f77c0b8074",
-    "title": "White must clear air with England team-mates - Tuchel",
-    "date": "2026-03-26",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c62jq8ddn76o?at_medium=RSS&at_campaign=rss",
-    "summary": "White must clear air with England team-mates - Tuchel",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-27T08:22:29.482Z"
-  },
-  {
-    "id": "e68c88e30d99",
-    "title": "Dzeko could join oldest players in World Cup history",
-    "date": "2026-03-26",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/ce84y7g4427o?at_medium=RSS&at_campaign=rss",
-    "summary": "Dzeko could join oldest players in World Cup history",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-27T08:22:29.482Z"
-  },
-  {
-    "id": "9244f5dd7b0e",
-    "title": "Senegal to parade Afcon trophy despite title being stripped",
-    "date": "2026-03-26",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c070kg5rn0ko?at_medium=RSS&at_campaign=rss",
-    "summary": "Senegal to parade Afcon trophy despite title being stripped",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-27T08:22:29.482Z"
-  },
-  {
-    "id": "b47e8de1b670",
-    "title": "You are Scotland head coach Clarke… what would you do?",
-    "date": "2026-03-26",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cvglw2qzxkgo?at_medium=RSS&at_campaign=rss",
-    "summary": "You are Scotland head coach Clarke… what would you do?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-27T08:22:29.482Z"
-  },
-  {
-    "id": "73a255beefc2",
-    "title": "Wales agony as Bosnia and Herzegovina win penalty shootout to end World Cup hopes",
-    "date": "2026-03-26",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/26/wales-bosnia-herzegovina-world-cup-qualifying-playoff-semi-final-match-report",
-    "summary": "Wales agony as Bosnia and Herzegovina win penalty shootout to end World Cup hopes",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-27T08:22:29.482Z"
-  },
-  {
-    "id": "f5135b5c5354",
-    "title": "Ireland dreams end in shootout heartbreak after Krejci’s late goal rescues Czechs",
-    "date": "2026-03-26",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/26/czech-republic-republic-of-ireland-world-cup-qualifying-playoff-semi-final-match-report",
-    "summary": "Ireland dreams end in shootout heartbreak after Krejci’s late goal rescues Czechs",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-27T08:22:29.482Z"
-  },
-  {
-    "id": "b67d5fc4c95f",
-    "title": "Viktor Gyökeres hits hat-trick as Sweden and Graham Potter see off Ukraine",
-    "date": "2026-03-26",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/26/ukraine-sweden-world-cup-qualifying-playoff-semi-final-match-report",
-    "summary": "Viktor Gyökeres hits hat-trick as Sweden and Graham Potter see off Ukraine",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-27T08:22:29.482Z"
-  },
-  {
-    "id": "bea9d42ef83b",
-    "title": "World Cup playoffs: Poland fight back to sink Albania, Kosovo win thriller in Slovakia",
-    "date": "2026-03-26",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/26/world-cup-playoffs-turkey-romania-denmark-north-macedonia-poland-albania-slovakia-kosovo",
-    "summary": "World Cup playoffs: Poland fight back to sink Albania, Kosovo win thriller in Slovakia",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-27T08:22:29.482Z"
-  },
-  {
-    "id": "82732eaea2e6",
-    "title": "Thomas Tuchel confident Ben White will not be booed by England crowd",
-    "date": "2026-03-26",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/26/thomas-tuchel-confident-ben-white-will-not-be-booed-by-england-crowd",
-    "summary": "Thomas Tuchel confident Ben White will not be booed by England crowd",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-27T08:22:29.482Z"
-  },
-  {
-    "id": "631b5b6f9bc9",
-    "title": "FIFA details final phase of World Cup ticket sales",
-    "date": "2026-03-26",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48305423/fifa-2026-world-cup-ticket-sales-final-phase",
-    "summary": "FIFA details final phase of World Cup ticket sales",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-26T08:24:47.657Z"
-  },
-  {
-    "id": "c1ea694f2172",
-    "title": "MLS commish Garber would 'love' Salah in league",
-    "date": "2026-03-26",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48307318/mls-commissioner-garber-love-salah-league",
-    "summary": "MLS commish Garber would 'love' Salah in league",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-26T08:24:47.657Z"
-  },
-  {
-    "id": "53a19cbf74d7",
-    "title": "What Wales must do to keep World Cup dream alive",
-    "date": "2026-03-26",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c7vqem511n3o?at_medium=RSS&at_campaign=rss",
-    "summary": "What Wales must do to keep World Cup dream alive",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-26T08:24:47.657Z"
-  },
-  {
-    "id": "3691f0cd9c4b",
-    "title": "Listen: Latest on Scotland & St Mirren manager jobs and Tavernier contract",
-    "date": "2026-03-26",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sounds/play/p0n8tzh2?at_medium=RSS&at_campaign=rss",
-    "summary": "Listen: Latest on Scotland & St Mirren manager jobs and Tavernier contract",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-26T08:24:47.657Z"
   }
 ];
