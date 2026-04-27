@@ -2,6 +2,84 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "57a00c38e696",
+    "title": "Lingard on playing in Brazil and Man Utd",
+    "date": "2026-04-27",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/videos/clyr42vlkj2o?at_medium=RSS&at_campaign=rss",
+    "summary": "Lingard on playing in Brazil and Man Utd",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-27T08:59:08.279Z"
+  },
+  {
+    "id": "d3a47d964737",
+    "title": "Xavi Simons ruled out for rest of season and World Cup with ruptured ACL",
+    "date": "2026-04-26",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/27/xavi-simons-acl-injury-tottenham-netherlands-world-cup",
+    "summary": "Xavi Simons ruled out for rest of season and World Cup with ruptured ACL",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-27T08:59:08.279Z"
+  },
+  {
+    "id": "775c547009ba",
+    "title": "Olivia Smith’s late strike gives Arsenal edge over OL Lyonnes in WCL semi-final",
+    "date": "2026-04-26",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/26/arsenal-ol-lyonnes-womens-champions-league-semi-final-match-report",
+    "summary": "Olivia Smith’s late strike gives Arsenal edge over OL Lyonnes in WCL semi-final",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-27T08:59:08.279Z"
+  },
+  {
+    "id": "f0c34c7ecd8a",
+    "title": "Pitched as a uniting force, the 2026 World Cup has been anything but | Jules Boykoff",
+    "date": "2026-04-26",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/26/2026-world-cup-bid-tickets-politics-trump",
+    "summary": "Pitched as a uniting force, the 2026 World Cup has been anything but | Jules Boykoff",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-27T08:59:08.279Z"
+  },
+  {
+    "id": "c84d0170fff5",
+    "title": "Fifa agrees to increase World Cup prize money after countries raise concerns over costs",
+    "date": "2026-04-26",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/26/fifa-agrees-to-increase-world-cup-prize-money-after-countries-raise-concerns-over-costs",
+    "summary": "Fifa agrees to increase World Cup prize money after countries raise concerns over costs",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-27T08:59:08.279Z"
+  },
+  {
+    "id": "ffad26727bf7",
+    "title": "WSL roundup: Sonia Bompastor calls for technology after Sam Kerr’s hat-trick denied",
+    "date": "2026-04-26",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/26/wsl-roundup-sonia-bompastor-technology-sam-kerr",
+    "summary": "WSL roundup: Sonia Bompastor calls for technology after Sam Kerr’s hat-trick denied",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-27T08:59:08.279Z"
+  },
+  {
     "id": "2480241c2d9f",
     "title": "Tartan Army 'taking back control' from  Fifa with fan ticket exchange",
     "date": "2026-04-25",
@@ -4199,265 +4277,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-03-28T08:17:30.270Z"
-  },
-  {
-    "id": "ea57aaab8284",
-    "title": "This is the deepest USMNT squad maybe ever. Is it enough for the best World Cup result ever?",
-    "date": "2026-03-27",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48308993/can-usmnt-depth-2026-world-cup-make-difference-results-finish",
-    "summary": "This is the deepest USMNT squad maybe ever. Is it enough for the best World Cup result ever?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-28T08:17:30.270Z"
-  },
-  {
-    "id": "02bb8b4a0d6b",
-    "title": "Does 34-year-old Casemiro have the legs to power Brazil's two-man midfield?",
-    "date": "2026-03-27",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48321806/does-casemiro-legs-power-brazil-two-man-midfield",
-    "summary": "Does 34-year-old Casemiro have the legs to power Brazil's two-man midfield?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-28T08:17:30.270Z"
-  },
-  {
-    "id": "fd935217ab94",
-    "title": "If these were the Tuchel trials, Foden - among others - failed",
-    "date": "2026-03-27",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c4gj9qq8d5ko?at_medium=RSS&at_campaign=rss",
-    "summary": "If these were the Tuchel trials, Foden - among others - failed",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-28T08:17:30.270Z"
-  },
-  {
-    "id": "2e54ab6c6f78",
-    "title": "Red card confusion & contentious calls - VAR's 'bad day at office'",
-    "date": "2026-03-27",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c747m4lrwn9o?at_medium=RSS&at_campaign=rss",
-    "summary": "Red card confusion & contentious calls - VAR's 'bad day at office'",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-28T08:17:30.270Z"
-  },
-  {
-    "id": "782c6fd05db7",
-    "title": "Who was the attacking spark? How England's players rated",
-    "date": "2026-03-27",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cp84kxzjne2o?at_medium=RSS&at_campaign=rss",
-    "summary": "Who was the attacking spark? How England's players rated",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-28T08:17:30.270Z"
-  },
-  {
-    "id": "d961befa9c96",
-    "title": "What next for Bellamy and Wales after World Cup agony?",
-    "date": "2026-03-27",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c62jqj5jq9xo?at_medium=RSS&at_campaign=rss",
-    "summary": "What next for Bellamy and Wales after World Cup agony?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-28T08:17:30.270Z"
-  },
-  {
-    "id": "5e2070288561",
-    "title": "Scotland highs kept me going, says Robertson",
-    "date": "2026-03-27",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cn89xn74pgjo?at_medium=RSS&at_campaign=rss",
-    "summary": "Scotland highs kept me going, says Robertson",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-28T08:17:30.270Z"
-  },
-  {
-    "id": "a57228ad707d",
-    "title": "Iran protest before friendly remembers victims of deadly school attack",
-    "date": "2026-03-27",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c1eqz131z37o?at_medium=RSS&at_campaign=rss",
-    "summary": "Iran protest before friendly remembers victims of deadly school attack",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-28T08:17:30.270Z"
-  },
-  {
-    "id": "5e2070288561",
-    "title": "Scotland highs kept me going, says Robertson",
-    "date": "2026-03-27",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cn89xn74pgjo?at_medium=RSS&at_campaign=rss",
-    "summary": "Scotland highs kept me going, says Robertson",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-28T08:17:30.270Z"
-  },
-  {
-    "id": "a02a211a4239",
-    "title": "‘I’m disappointed’: Tuchel unimpressed by Wembley crowd’s booing of Ben White",
-    "date": "2026-03-27",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/27/im-disappointed-tuchel-unimpressed-by-wembley-crowds-booing-of-ben-white",
-    "summary": "‘I’m disappointed’: Tuchel unimpressed by Wembley crowd’s booing of Ben White",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-28T08:17:30.270Z"
-  },
-  {
-    "id": "c4bd72a261fc",
-    "title": "Iran footballers hold school bags in memory of girls killed in bombing",
-    "date": "2026-03-27",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/27/iran-players-hold-school-bags-in-memory-of-girls-killed-in-bombing",
-    "summary": "Iran footballers hold school bags in memory of girls killed in bombing",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-28T08:17:30.270Z"
-  },
-  {
-    "id": "1abd93fc9b9c",
-    "title": "Tonali, Kean goals send Italy to WC playoff final",
-    "date": "2026-03-27",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48313675/2026-world-cup-playoffs-uefa-turkiye-italy-wales-ukraine-sweden-ireland",
-    "summary": "Tonali, Kean goals send Italy to WC playoff final",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-27T08:22:29.482Z"
-  },
-  {
-    "id": "6c6a2558119a",
-    "title": "Ancelotti on Neymar chants: 'Focus on who is here'",
-    "date": "2026-03-27",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48317743/ancelotti-deflects-neymar-chants-brazil-loss-france",
-    "summary": "Ancelotti on Neymar chants: 'Focus on who is here'",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-27T08:22:29.482Z"
-  },
-  {
-    "id": "3197abe0d679",
-    "title": "Reyna felt 'fortunate' to get March USMNT call",
-    "date": "2026-03-27",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48315777/giovanni-reyna-feels-fortunate-get-march-usmnt-call",
-    "summary": "Reyna felt 'fortunate' to get March USMNT call",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-27T08:22:29.482Z"
-  },
-  {
-    "id": "d535a8d2da98",
-    "title": "Gyokeres' 'incredible' hat trick gives Sweden win",
-    "date": "2026-03-27",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48316155/viktor-gyokeres-sweden-ukraine-hat-trick-world-cup-playoff",
-    "summary": "Gyokeres' 'incredible' hat trick gives Sweden win",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-27T08:22:29.482Z"
-  },
-  {
-    "id": "64e69ca03562",
-    "title": "Bellamy rues chaos against Bosnia as Wales' World Cup dream ends",
-    "date": "2026-03-27",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cx235x4xynjo?at_medium=RSS&at_campaign=rss",
-    "summary": "Bellamy rues chaos against Bosnia as Wales' World Cup dream ends",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-27T08:22:29.482Z"
-  },
-  {
-    "id": "bf97ec99fc45",
-    "title": "Will Uruguay be tough test Tuchel's England need?",
-    "date": "2026-03-27",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cd9ggjj1je5o?at_medium=RSS&at_campaign=rss",
-    "summary": "Will Uruguay be tough test Tuchel's England need?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-27T08:22:29.482Z"
-  },
-  {
-    "id": "77a46ce5597e",
-    "title": "Bellamy bewildered by Wales' shootout defeat",
-    "date": "2026-03-27",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/videos/c4g4xrw8yd9o?at_medium=RSS&at_campaign=rss",
-    "summary": "Bellamy bewildered by Wales' shootout defeat",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-27T08:22:29.482Z"
-  },
-  {
-    "id": "188795438b06",
-    "title": "The 'daredevil child' scouted by an ex-England captain",
-    "date": "2026-03-27",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/videos/c4gd388mp03o?at_medium=RSS&at_campaign=rss",
-    "summary": "The 'daredevil child' scouted by an ex-England captain",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-27T08:22:29.482Z"
-  },
-  {
-    "id": "7ad54df1b0df",
-    "title": "Australia v Cameroon: Fifa Series international football friendly – live",
-    "date": "2026-03-27",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/live/2026/mar/27/australia-v-cameroon-live-match-updates-football",
-    "summary": "Australia v Cameroon: Fifa Series international football friendly – live",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-27T08:22:29.482Z"
   }
 ];
