@@ -2,6 +2,136 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "8047d2f7848f",
+    "title": "FIFA greenlights tailgating at World Cup venues",
+    "date": "2026-04-28",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48612186/boston-world-cup-hosts-tailgating-world-cup-games",
+    "summary": "FIFA greenlights tailgating at World Cup venues",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-28T08:57:48.389Z"
+  },
+  {
+    "id": "dc9a2f83c65f",
+    "title": "Croatia confident of Modric recovery for World Cup",
+    "date": "2026-04-28",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cqjpl4zj0ezo?at_medium=RSS&at_campaign=rss",
+    "summary": "Croatia confident of Modric recovery for World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-28T08:57:48.389Z"
+  },
+  {
+    "id": "d61467e3d382",
+    "title": "Maloney targets Celtic director of football role - gossip",
+    "date": "2026-04-28",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cjep2w023y9o?at_medium=RSS&at_campaign=rss",
+    "summary": "Maloney targets Celtic director of football role - gossip",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-28T08:57:48.389Z"
+  },
+  {
+    "id": "b2d4fcb8cefa",
+    "title": "What, Howe and why: big questions Saudi owners may ask under-fire Newcastle manager | Louise Taylor",
+    "date": "2026-04-28",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/28/eddie-howe-big-questions-saudi-owners-may-ask-newcastle-manager",
+    "summary": "What, Howe and why: big questions Saudi owners may ask under-fire Newcastle manager | Louise Taylor",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-28T08:57:48.389Z"
+  },
+  {
+    "id": "177d5ea5946e",
+    "title": "World Cup group stage set for yellow card amnesty",
+    "date": "2026-04-27",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cdxdxxdnj9eo?at_medium=RSS&at_campaign=rss",
+    "summary": "World Cup group stage set for yellow card amnesty",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-28T08:57:48.389Z"
+  },
+  {
+    "id": "b853f9a5a035",
+    "title": "Wales legend Fishlock awaits injury verdict after stretcher exit",
+    "date": "2026-04-27",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c5y9llwqejxo?at_medium=RSS&at_campaign=rss",
+    "summary": "Wales legend Fishlock awaits injury verdict after stretcher exit",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-28T08:57:48.389Z"
+  },
+  {
+    "id": "b853f9a5a035",
+    "title": "Fishlock awaits injury news after stretcher exit",
+    "date": "2026-04-27",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c5y9llwqejxo?at_medium=RSS&at_campaign=rss",
+    "summary": "Fishlock awaits injury news after stretcher exit",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-28T08:57:48.389Z"
+  },
+  {
+    "id": "331fabbcf6e6",
+    "title": "Casemiro’s decision to leave Manchester United is final, insists Michael Carrick",
+    "date": "2026-04-27",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/27/casemiros-decision-to-leave-manchester-united-is-final-insists-michael-carrick",
+    "summary": "Casemiro’s decision to leave Manchester United is final, insists Michael Carrick",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-28T08:57:48.389Z"
+  },
+  {
+    "id": "637a6157b7fa",
+    "title": "Fatalism and fear stalk Sevilla with relegation edging closer by the day | Sid Lowe",
+    "date": "2026-04-27",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/27/fatalism-and-fear-sevilla-relegation-la-liga",
+    "summary": "Fatalism and fear stalk Sevilla with relegation edging closer by the day | Sid Lowe",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-28T08:57:48.389Z"
+  },
+  {
+    "id": "9f374d98b1db",
+    "title": "The new Ange? John Aloisi makes his mark with attacking brand of football in China",
+    "date": "2026-04-27",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/blog/2026/apr/27/john-aloisi-china-football-chinese-super-league",
+    "summary": "The new Ange? John Aloisi makes his mark with attacking brand of football in China",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-28T08:57:48.389Z"
+  },
+  {
     "id": "57a00c38e696",
     "title": "Lingard on playing in Brazil and Man Utd",
     "date": "2026-04-27",
@@ -4017,265 +4147,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-03-29T08:17:13.844Z"
-  },
-  {
-    "id": "e42a9b37ee4b",
-    "title": "Were England players really 'playing for themselves' - and what next?",
-    "date": "2026-03-28",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cwyxe764gv0o?at_medium=RSS&at_campaign=rss",
-    "summary": "Were England players really 'playing for themselves' - and what next?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-29T08:17:13.844Z"
-  },
-  {
-    "id": "f25ad560846d",
-    "title": "Fans booing Scotland surprise and disappoint Clarke",
-    "date": "2026-03-28",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cx269yde4w7o?at_medium=RSS&at_campaign=rss",
-    "summary": "Fans booing Scotland surprise and disappoint Clarke",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-29T08:17:13.844Z"
-  },
-  {
-    "id": "736f3cf0fc31",
-    "title": "Senegal parade Afcon trophy before friendly despite title controversy",
-    "date": "2026-03-28",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cqxl0gj9787o?at_medium=RSS&at_campaign=rss",
-    "summary": "Senegal parade Afcon trophy before friendly despite title controversy",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-29T08:17:13.844Z"
-  },
-  {
-    "id": "6138e562c50f",
-    "title": "Scotland's World Cup build-up begins with narrow Japan loss",
-    "date": "2026-03-28",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/videos/c9wqpvjz80no?at_medium=RSS&at_campaign=rss",
-    "summary": "Scotland's World Cup build-up begins with narrow Japan loss",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-29T08:17:13.844Z"
-  },
-  {
-    "id": "ca93c6033526",
-    "title": "Brunt critical of 'ridiculous' Wales friendly",
-    "date": "2026-03-28",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c0e7g9jdgrqo?at_medium=RSS&at_campaign=rss",
-    "summary": "Brunt critical of 'ridiculous' Wales friendly",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-29T08:17:13.844Z"
-  },
-  {
-    "id": "f25ad560846d",
-    "title": "Fans booing Scotland surprise and disappoint Clarke",
-    "date": "2026-03-28",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cx269yde4w7o?at_medium=RSS&at_campaign=rss",
-    "summary": "Fans booing Scotland surprise and disappoint Clarke",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-29T08:17:13.844Z"
-  },
-  {
-    "id": "6138e562c50f",
-    "title": "Scotland's World Cup build-up begins with narrow Japan loss",
-    "date": "2026-03-28",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/videos/c9wqpvjz80no?at_medium=RSS&at_campaign=rss",
-    "summary": "Scotland's World Cup build-up begins with narrow Japan loss",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-29T08:17:13.844Z"
-  },
-  {
-    "id": "c7af6960dae3",
-    "title": "'Japan showed standard Scotland must strive for'",
-    "date": "2026-03-28",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sounds/play/p0n9d4m6?at_medium=RSS&at_campaign=rss",
-    "summary": "'Japan showed standard Scotland must strive for'",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-29T08:17:13.844Z"
-  },
-  {
-    "id": "48b415021456",
-    "title": "Stones the exception to Tuchel’s World Cup rule despite cold shoulder from Guardiola",
-    "date": "2026-03-28",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/28/john-stones-thomas-tuchel-england-world-cup-football",
-    "summary": "Stones the exception to Tuchel’s World Cup rule despite cold shoulder from Guardiola",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-29T08:17:13.844Z"
-  },
-  {
-    "id": "730e4ae03a91",
-    "title": "Passive Scotland’s World Cup preparations hit by late defeat against Japan",
-    "date": "2026-03-28",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/28/scotland-japan-friendly-international-match-report",
-    "summary": "Passive Scotland’s World Cup preparations hit by late defeat against Japan",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-29T08:17:13.844Z"
-  },
-  {
-    "id": "b9113cd0a86f",
-    "title": "Pochettino, Pulisic and the pressure of the USMNT’s World Cup moment",
-    "date": "2026-03-28",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/28/mauricio-pochettino-christian-pulisic-world-cup-pressure",
-    "summary": "Pochettino, Pulisic and the pressure of the USMNT’s World Cup moment",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-29T08:17:13.844Z"
-  },
-  {
-    "id": "72445ebd18d4",
-    "title": "Senegal parade Afcon trophy at Stade de France in defiance at being stripped of title",
-    "date": "2026-03-28",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/28/senegal-parade-afcon-trophy-at-stade-de-france-in-defiance-at-being-stripped-of-title",
-    "summary": "Senegal parade Afcon trophy at Stade de France in defiance at being stripped of title",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-29T08:17:13.844Z"
-  },
-  {
-    "id": "9a5c418b1c28",
-    "title": "Richards, Robinson injuries leave U.S. shorthanded",
-    "date": "2026-03-28",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48322909/chris-richards-miles-robinson-injury-usa-belgium-portugal",
-    "summary": "Richards, Robinson injuries leave U.S. shorthanded",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-28T08:17:30.270Z"
-  },
-  {
-    "id": "241881afb4c7",
-    "title": "Tuchel 'disappointed' in England fans booing White",
-    "date": "2026-03-28",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48324077/ben-white-booed-england-fans-uruguay-friendly-wembley",
-    "summary": "Tuchel 'disappointed' in England fans booing White",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-28T08:17:30.270Z"
-  },
-  {
-    "id": "83989523770c",
-    "title": "Wirtz masterclass leads Germany to thrilling win",
-    "date": "2026-03-28",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/report/_/gameId/762550",
-    "summary": "Wirtz masterclass leads Germany to thrilling win",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-28T08:17:30.270Z"
-  },
-  {
-    "id": "837c283c68d2",
-    "title": "Argentina edge Mauritania behind Enzo, Paz goals",
-    "date": "2026-03-28",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/report/_/gameId/401866131",
-    "summary": "Argentina edge Mauritania behind Enzo, Paz goals",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-28T08:17:30.270Z"
-  },
-  {
-    "id": "bc07d9455926",
-    "title": "Ben White booed in return -- but he did more than flat England teammates in Uruguay draw",
-    "date": "2026-03-28",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48324168/ben-white-booed-return-flat-england-uruguay-draw-world-cup",
-    "summary": "Ben White booed in return -- but he did more than flat England teammates in Uruguay draw",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-28T08:17:30.270Z"
-  },
-  {
-    "id": "b638a383f550",
-    "title": "What is Scotland's first-choice defensive pairing?",
-    "date": "2026-03-28",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/ckg0xd3nk15o?at_medium=RSS&at_campaign=rss",
-    "summary": "What is Scotland's first-choice defensive pairing?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-28T08:17:30.270Z"
-  },
-  {
-    "id": "b638a383f550",
-    "title": "What is Scotland's first-choice defensive pairing?",
-    "date": "2026-03-28",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/ckg0xd3nk15o?at_medium=RSS&at_campaign=rss",
-    "summary": "What is Scotland's first-choice defensive pairing?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-28T08:17:30.270Z"
-  },
-  {
-    "id": "661096ec2662",
-    "title": "Roberto Martínez: ‘It’s a hammer blow when you don’t succeed, but let us dream’",
-    "date": "2026-03-28",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/28/roberto-martinez-interview-portugal-world-cup-cristiano-ronaldo",
-    "summary": "Roberto Martínez: ‘It’s a hammer blow when you don’t succeed, but let us dream’",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-28T08:17:30.270Z"
   }
 ];
