@@ -2,6 +2,84 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "1959bf9808ab",
+    "title": "Reign ease concerns over Wales legend Fishlock",
+    "date": "2026-04-29",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cjdpk4g8mv0o?at_medium=RSS&at_campaign=rss",
+    "summary": "Reign ease concerns over Wales legend Fishlock",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-29T08:54:10.863Z"
+  },
+  {
+    "id": "1959bf9808ab",
+    "title": "Reign ease concerns over Wales legend Fishlock",
+    "date": "2026-04-29",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cjdpk4g8mv0o?at_medium=RSS&at_campaign=rss",
+    "summary": "Reign ease concerns over Wales legend Fishlock",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-29T08:54:10.863Z"
+  },
+  {
+    "id": "ce0ecf38b41d",
+    "title": "All World Cup teams poised for tax exemption after Fifa talks with US treasury",
+    "date": "2026-04-29",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/29/world-cup-teams-tax-exemption-fifa-talks-us-treasury-federal-taxes",
+    "summary": "All World Cup teams poised for tax exemption after Fifa talks with US treasury",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-29T08:54:10.863Z"
+  },
+  {
+    "id": "a1a30daf4c35",
+    "title": "Australia’s Jackson Irvine says Trump’s Fifa peace prize makes ‘mockery’ of football",
+    "date": "2026-04-29",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/29/jackson-irvine-footballer-trump-fifa-peace-prize",
+    "summary": "Australia’s Jackson Irvine says Trump’s Fifa peace prize makes ‘mockery’ of football",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-29T08:54:10.863Z"
+  },
+  {
+    "id": "b426ce1c6bd7",
+    "title": "World Cup 2026 players who cover mouths or leave pitch in protest may be red carded",
+    "date": "2026-04-28",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/28/world-cup-cover-mouths-red-card-rule-ifab",
+    "summary": "World Cup 2026 players who cover mouths or leave pitch in protest may be red carded",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-29T08:54:10.863Z"
+  },
+  {
+    "id": "8a8e82d8b1fc",
+    "title": "Afghanistan women’s refugee players allowed to compete as official national team",
+    "date": "2026-04-28",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/28/afghanistan-womens-football-team-fifa-recognition",
+    "summary": "Afghanistan women’s refugee players allowed to compete as official national team",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-29T08:54:10.863Z"
+  },
+  {
     "id": "8047d2f7848f",
     "title": "FIFA greenlights tailgating at World Cup venues",
     "date": "2026-04-28",
@@ -3952,200 +4030,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-03-30T08:40:11.938Z"
-  },
-  {
-    "id": "6521289ff6f4",
-    "title": "Doué double sees France down Colombia in style",
-    "date": "2026-03-29",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/report/_/gameId/762453",
-    "summary": "Doué double sees France down Colombia in style",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-30T08:40:11.938Z"
-  },
-  {
-    "id": "dec82a77c1ea",
-    "title": "Ex-England and Spurs striker Defoe named Woking boss",
-    "date": "2026-03-29",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cde52ng3r11o?at_medium=RSS&at_campaign=rss",
-    "summary": "Ex-England and Spurs striker Defoe named Woking boss",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-30T08:40:11.938Z"
-  },
-  {
-    "id": "416c3d5f1d84",
-    "title": "BBC Sport experts choose England World Cup XIs - who would you pick?",
-    "date": "2026-03-29",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cy8l6z4gxlvo?at_medium=RSS&at_campaign=rss",
-    "summary": "BBC Sport experts choose England World Cup XIs - who would you pick?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-30T08:40:11.938Z"
-  },
-  {
-    "id": "22e10254659b",
-    "title": "Why are Scotland playing Ivory Coast in Liverpool?",
-    "date": "2026-03-29",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cvg043vjzv5o?at_medium=RSS&at_campaign=rss",
-    "summary": "Why are Scotland playing Ivory Coast in Liverpool?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-30T08:40:11.938Z"
-  },
-  {
-    "id": "b10e0e8f3051",
-    "title": "England's Kearns reveals she has had a miscarriage",
-    "date": "2026-03-29",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cpd5zqp8wxzo?at_medium=RSS&at_campaign=rss",
-    "summary": "England's Kearns reveals she has had a miscarriage",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-30T08:40:11.938Z"
-  },
-  {
-    "id": "dae311667946",
-    "title": "What might Scotland change for Ivory Coast test?",
-    "date": "2026-03-29",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/ce84ml83x14o?at_medium=RSS&at_campaign=rss",
-    "summary": "What might Scotland change for Ivory Coast test?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-30T08:40:11.938Z"
-  },
-  {
-    "id": "dae311667946",
-    "title": "What might Scotland change for Ivory Coast test?",
-    "date": "2026-03-29",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/ce84ml83x14o?at_medium=RSS&at_campaign=rss",
-    "summary": "What might Scotland change for Ivory Coast test?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-30T08:40:11.938Z"
-  },
-  {
-    "id": "22e10254659b",
-    "title": "Why are Scotland playing Ivory Coast in Liverpool?",
-    "date": "2026-03-29",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cvg043vjzv5o?at_medium=RSS&at_campaign=rss",
-    "summary": "Why are Scotland playing Ivory Coast in Liverpool?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-30T08:40:11.938Z"
-  },
-  {
-    "id": "b10e0e8f3051",
-    "title": "England's Kearns reveals she has had a miscarriage",
-    "date": "2026-03-29",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cpd5zqp8wxzo?at_medium=RSS&at_campaign=rss",
-    "summary": "England's Kearns reveals she has had a miscarriage",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-30T08:40:11.938Z"
-  },
-  {
-    "id": "d401cbe785bd",
-    "title": "Tuchel’s England? Maybe they are just not as good as we would like them to be | Barney Ronay",
-    "date": "2026-03-29",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/29/tuchels-england-maybe-they-are-just-not-as-good-as-we-would-like-them-to-be",
-    "summary": "Tuchel’s England? Maybe they are just not as good as we would like them to be | Barney Ronay",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-30T08:40:11.938Z"
-  },
-  {
-    "id": "6189d3de187b",
-    "title": "Curacao meet Socceroos in Fifa Series with more than World Cup hopes in common | John Duerden",
-    "date": "2026-03-29",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/30/curacao-australia-socceroos-football-fifa-series-melbourne",
-    "summary": "Curacao meet Socceroos in Fifa Series with more than World Cup hopes in common | John Duerden",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-30T08:40:11.938Z"
-  },
-  {
-    "id": "661aa4f8f19f",
-    "title": "USMNT routed by Belgium in blow to WCup prep",
-    "date": "2026-03-29",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48332813/usa-vs-belgium-friendly-world-cup-2026-atlanta-pochettino",
-    "summary": "USMNT routed by Belgium in blow to WCup prep",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-29T08:17:13.844Z"
-  },
-  {
-    "id": "628c03b44559",
-    "title": "Marsch: Canada not 'dirty team' despite latest red",
-    "date": "2026-03-29",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48334070/jesse-marsch-canada-vs-iceland-red-card-tajon-buchanan",
-    "summary": "Marsch: Canada not 'dirty team' despite latest red",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-29T08:17:13.844Z"
-  },
-  {
-    "id": "e8ab7a32cfe6",
-    "title": "World Cup playoff news, Scotland reaction and WSL buildup – matchday live",
-    "date": "2026-03-29",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/live/2026/mar/29/world-cup-playoff-news-scotland-reaction-and-wsl-buildup-matchday-live",
-    "summary": "World Cup playoff news, Scotland reaction and WSL buildup – matchday live",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-29T08:17:13.844Z"
-  },
-  {
-    "id": "fbf240288ed3",
-    "title": "USMNT looked disjointed, uneven and unrehearsed in big loss to Belgium | Jeff Rueter",
-    "date": "2026-03-29",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/28/usmnt-belgium-analysis-jeremy-doku-defense",
-    "summary": "USMNT looked disjointed, uneven and unrehearsed in big loss to Belgium | Jeff Rueter",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-29T08:17:13.844Z"
   }
 ];
