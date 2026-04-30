@@ -2,6 +2,123 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "3e10de6a36a3",
+    "title": "Bright reflects on 'incredible' 2022 Euros win",
+    "date": "2026-04-29",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/videos/c2k2jlep72go?at_medium=RSS&at_campaign=rss",
+    "summary": "Bright reflects on 'incredible' 2022 Euros win",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-30T08:54:22.063Z"
+  },
+  {
+    "id": "9fafecb0e428",
+    "title": "Chelsea captain Bright retires - what now for ex-England defender?",
+    "date": "2026-04-29",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cvgzd945593o?at_medium=RSS&at_campaign=rss",
+    "summary": "Chelsea captain Bright retires - what now for ex-England defender?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-30T08:54:22.063Z"
+  },
+  {
+    "id": "84f1935dccc2",
+    "title": "McInnes, McGlynn & Naysmith vie for manager award - but Askou misses out",
+    "date": "2026-04-29",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c072ne3499yo?at_medium=RSS&at_campaign=rss",
+    "summary": "McInnes, McGlynn & Naysmith vie for manager award - but Askou misses out",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-30T08:54:22.063Z"
+  },
+  {
+    "id": "977841356709",
+    "title": "McKenna keen to reward Clarke loyalty at World Cup",
+    "date": "2026-04-29",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c4g4ll3p22po?at_medium=RSS&at_campaign=rss",
+    "summary": "McKenna keen to reward Clarke loyalty at World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-30T08:54:22.063Z"
+  },
+  {
+    "id": "9fafecb0e428",
+    "title": "Chelsea captain Bright retires - what now for ex-England defender?",
+    "date": "2026-04-29",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cvgzd945593o?at_medium=RSS&at_campaign=rss",
+    "summary": "Chelsea captain Bright retires - what now for ex-England defender?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-30T08:54:22.063Z"
+  },
+  {
+    "id": "2bb5077b5504",
+    "title": "Crystal Palace back in business under Glasner but Shakhtar no pushovers",
+    "date": "2026-04-29",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/29/crystal-palace-oliver-glasner-shakhtar-donetsk-europa-conference-league-semi-final",
+    "summary": "Crystal Palace back in business under Glasner but Shakhtar no pushovers",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-30T08:54:22.063Z"
+  },
+  {
+    "id": "390b51d685ad",
+    "title": "Ashley Cole: ‘The players have to trust what I’m asking them to do’",
+    "date": "2026-04-29",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/29/ashley-cole-players-trust-first-manager-job-cesena-serie-b",
+    "summary": "Ashley Cole: ‘The players have to trust what I’m asking them to do’",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-30T08:54:22.063Z"
+  },
+  {
+    "id": "a198c137e7a3",
+    "title": "‘I’ve given all I can’: Chelsea’s Millie Bright announces retirement with immediate effect",
+    "date": "2026-04-29",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/29/millie-bright-announces-retirement-chelsea-england",
+    "summary": "‘I’ve given all I can’: Chelsea’s Millie Bright announces retirement with immediate effect",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-30T08:54:22.063Z"
+  },
+  {
+    "id": "66044fdc42bd",
+    "title": "Real Zaragoza goalkeeper Andrada gets 13-game ban after punching opponent",
+    "date": "2026-04-29",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/29/real-zaragoza-goalkeeper-esteban-andrada-13-game-ban-punching-huesca-opponent",
+    "summary": "Real Zaragoza goalkeeper Andrada gets 13-game ban after punching opponent",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-04-30T08:54:22.063Z"
+  },
+  {
     "id": "1959bf9808ab",
     "title": "Reign ease concerns over Wales legend Fishlock",
     "date": "2026-04-29",
@@ -3822,213 +3939,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-03-31T08:31:06.932Z"
-  },
-  {
-    "id": "468f8d977eb8",
-    "title": "Drink in the jeopardy of the World Cup playoffs, it’s the last we’ll get for a while | Jonathan Wilson",
-    "date": "2026-03-30",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/30/world-cup-playoffs-jeopardy",
-    "summary": "Drink in the jeopardy of the World Cup playoffs, it’s the last we’ll get for a while | Jonathan Wilson",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-05T08:18:12.461Z"
-  },
-  {
-    "id": "d744e43cce6d",
-    "title": "Football Daily | Tottenham embrace the chaos in bid to stop slide into Championship",
-    "date": "2026-03-30",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/30/tottenham-hotspur-chaos-football-daily-newsletter",
-    "summary": "Football Daily | Tottenham embrace the chaos in bid to stop slide into Championship",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-03T08:24:21.156Z"
-  },
-  {
-    "id": "cf1c7c68e45c",
-    "title": "Fit-again McGinn was 'petrified' he would miss World Cup",
-    "date": "2026-03-30",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cy81q4n6v3yo?at_medium=RSS&at_campaign=rss",
-    "summary": "Fit-again McGinn was 'petrified' he would miss World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-31T08:31:06.932Z"
-  },
-  {
-    "id": "8872bc962309",
-    "title": "Tuchel not angry over England withdrawals",
-    "date": "2026-03-30",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cvg39k8274ko?at_medium=RSS&at_campaign=rss",
-    "summary": "Tuchel not angry over England withdrawals",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-31T08:31:06.932Z"
-  },
-  {
-    "id": "b9e65938c7f1",
-    "title": "Wales boss Bellamy to keep 'best job in the world'",
-    "date": "2026-03-30",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c0e7lxzdd9jo?at_medium=RSS&at_campaign=rss",
-    "summary": "Wales boss Bellamy to keep 'best job in the world'",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-31T08:31:06.932Z"
-  },
-  {
-    "id": "454acab23a96",
-    "title": "Two teams, three games, six days - O'Neill's unique predicament",
-    "date": "2026-03-30",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c393j712p94o?at_medium=RSS&at_campaign=rss",
-    "summary": "Two teams, three games, six days - O'Neill's unique predicament",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-31T08:31:06.932Z"
-  },
-  {
-    "id": "a7e48e7cba23",
-    "title": "How to follow Ivory Coast v Scotland on BBC TV, radio & online",
-    "date": "2026-03-30",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c05dnj7n7dzo?at_medium=RSS&at_campaign=rss",
-    "summary": "How to follow Ivory Coast v Scotland on BBC TV, radio & online",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-31T08:31:06.932Z"
-  },
-  {
-    "id": "cf1c7c68e45c",
-    "title": "Fit-again McGinn was 'petrified' he would miss World Cup",
-    "date": "2026-03-30",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cy81q4n6v3yo?at_medium=RSS&at_campaign=rss",
-    "summary": "Fit-again McGinn was 'petrified' he would miss World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-31T08:31:06.932Z"
-  },
-  {
-    "id": "80852ae20e98",
-    "title": "Bohs' Brennan earns first Republic of Ireland call-up",
-    "date": "2026-03-30",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/articles/c895gd982zjo?at_medium=RSS&at_campaign=rss",
-    "summary": "Bohs' Brennan earns first Republic of Ireland call-up",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-31T08:31:06.932Z"
-  },
-  {
-    "id": "36c6a3ead7f2",
-    "title": "Tuchel’s England have plenty to prove against Japan after drab Uruguay draw | Jacob Steinberg",
-    "date": "2026-03-30",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/30/england-thomas-tuchel-japan-uruguay-wembley-world-cup",
-    "summary": "Tuchel’s England have plenty to prove against Japan after drab Uruguay draw | Jacob Steinberg",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-31T08:31:06.932Z"
-  },
-  {
-    "id": "09b318edbd0b",
-    "title": "‘I don’t need a crutch’: Roy Hodgson relishes Bristol City return at age of 78",
-    "date": "2026-03-30",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/30/roy-hodgson-bristol-city-crystal-palace-manager",
-    "summary": "‘I don’t need a crutch’: Roy Hodgson relishes Bristol City return at age of 78",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-31T08:31:06.932Z"
-  },
-  {
-    "id": "a0f4301bb2c6",
-    "title": "2026 World Cup playoffs: Predicting who will claim the final six places",
-    "date": "2026-03-30",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48334351/2026-world-cup-playoffs-claim-final-six-spots",
-    "summary": "2026 World Cup playoffs: Predicting who will claim the final six places",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-30T08:40:11.938Z"
-  },
-  {
-    "id": "0f4a46950f0f",
-    "title": "Time is running out for Foden to make England's World Cup squad",
-    "date": "2026-03-30",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48320796/phil-foden-england-manchester-city-2026-world-cup-doubt-form-fitness-rob-dawson",
-    "summary": "Time is running out for Foden to make England's World Cup squad",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-30T08:40:11.938Z"
-  },
-  {
-    "id": "c033a4ed085f",
-    "title": "Celtic legend Brown leaves Ayr 'by mutual consent'",
-    "date": "2026-03-30",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/czex1y95dleo?at_medium=RSS&at_campaign=rss",
-    "summary": "Celtic legend Brown leaves Ayr 'by mutual consent'",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-30T08:40:11.938Z"
-  },
-  {
-    "id": "c033a4ed085f",
-    "title": "Manager Brown exits Ayr United 'by mutual consent'",
-    "date": "2026-03-30",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/czex1y95dleo?at_medium=RSS&at_campaign=rss",
-    "summary": "Manager Brown exits Ayr United 'by mutual consent'",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-30T08:40:11.938Z"
-  },
-  {
-    "id": "017d5dfdc391",
-    "title": "From Purley to a World Cup playoff: how the DRC scour Europe for players",
-    "date": "2026-03-30",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/30/purley-world-cup-playoff-europe-democratic-republic-congo-gabriel-zakuani",
-    "summary": "From Purley to a World Cup playoff: how the DRC scour Europe for players",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-30T08:40:11.938Z"
   }
 ];
