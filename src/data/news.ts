@@ -2,6 +2,201 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "404cc1b47678",
+    "title": "McKennie keeps having to fight to keep his spot wi...",
+    "date": "2026-05-01",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48621741/usmnt-juventus-coaches-keep-doubting-mckennie-keeps-winning-over",
+    "summary": "McKennie keeps having to fight to keep his spot wi...",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-01T08:47:09.753Z"
+  },
+  {
+    "id": "e35daf36fffc",
+    "title": "'I lost myself' - Bright on retirement, abuse and the future",
+    "date": "2026-04-30",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c2l2nx48jwko?at_medium=RSS&at_campaign=rss",
+    "summary": "'I lost myself' - Bright on retirement, abuse and the future",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-01T08:47:09.753Z"
+  },
+  {
+    "id": "16234634d2c2",
+    "title": "England captain Williamson signs new Arsenal deal",
+    "date": "2026-04-30",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c9v38vgd2jwo?at_medium=RSS&at_campaign=rss",
+    "summary": "England captain Williamson signs new Arsenal deal",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-01T08:47:09.753Z"
+  },
+  {
+    "id": "e35daf36fffc",
+    "title": "'I lost myself' - Bright on retirement, abuse and the future",
+    "date": "2026-04-30",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c2l2nx48jwko?at_medium=RSS&at_campaign=rss",
+    "summary": "'I lost myself' - Bright on retirement, abuse and the future",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-01T08:47:09.753Z"
+  },
+  {
+    "id": "16234634d2c2",
+    "title": "England captain Williamson signs new Arsenal deal",
+    "date": "2026-04-30",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c9v38vgd2jwo?at_medium=RSS&at_campaign=rss",
+    "summary": "England captain Williamson signs new Arsenal deal",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-01T08:47:09.753Z"
+  },
+  {
+    "id": "e11b9d489661",
+    "title": "England to leave Tottenham in summer",
+    "date": "2026-04-30",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c62edg8k4l8o?at_medium=RSS&at_campaign=rss",
+    "summary": "England to leave Tottenham in summer",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-01T08:47:09.753Z"
+  },
+  {
+    "id": "2c46acbcc50d",
+    "title": "Manchester United target West Ham’s Diouf and confirm new Mainoo contract",
+    "date": "2026-04-30",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/30/manchester-united-west-ham-el-hadji-malick-diouf-target-kobbie-mainoo-new-contract",
+    "summary": "Manchester United target West Ham’s Diouf and confirm new Mainoo contract",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-01T08:47:09.753Z"
+  },
+  {
+    "id": "169ddfcdafa1",
+    "title": "Scott Parker leaves Burnley head coach’s job after relegation from Premier League",
+    "date": "2026-04-30",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/30/scott-parker-leaves-burnley-manager-job-relegation-premier-league",
+    "summary": "Scott Parker leaves Burnley head coach’s job after relegation from Premier League",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-01T08:47:09.753Z"
+  },
+  {
+    "id": "a3a577d629e9",
+    "title": "‘Football isn’t a nice place’: Endrick on Brazil hopes, his baby and Bellingham’s help",
+    "date": "2026-04-30",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/30/endrick-brazil-lyon-real-madrid-jude-bellingham",
+    "summary": "‘Football isn’t a nice place’: Endrick on Brazil hopes, his baby and Bellingham’s help",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-01T08:47:09.753Z"
+  },
+  {
+    "id": "da85bb18e943",
+    "title": "Spurs captain Bethany England bids tearful farewell to fans as she confirms exit",
+    "date": "2026-04-30",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/30/spurs-captain-bethany-england-leave-summer-club-opts-against-renewing-contract",
+    "summary": "Spurs captain Bethany England bids tearful farewell to fans as she confirms exit",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-01T08:47:09.753Z"
+  },
+  {
+    "id": "e0bea722fb4d",
+    "title": "USMNT’s Mauricio Pochettino says nation lacks ‘emotional relationship’ with soccer",
+    "date": "2026-04-30",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/30/mauricio-pochettino-usmnt-emotional-relationship-us-soccer",
+    "summary": "USMNT’s Mauricio Pochettino says nation lacks ‘emotional relationship’ with soccer",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-01T08:47:09.753Z"
+  },
+  {
+    "id": "cb59c78cb4ea",
+    "title": "MLS commissioner’s X account called British Columbia premier a ‘liar’ in deleted post",
+    "date": "2026-04-30",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/30/don-garber-tweet-vancouver-whitecaps",
+    "summary": "MLS commissioner’s X account called British Columbia premier a ‘liar’ in deleted post",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-01T08:47:09.753Z"
+  },
+  {
+    "id": "1d103a0237ac",
+    "title": "Champions League review: a stone-cold classic, Díaz’s perfect timing and a defensive puritan",
+    "date": "2026-04-30",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/30/champions-league-review-psg-bayern-atletico-arsenal",
+    "summary": "Champions League review: a stone-cold classic, Díaz’s perfect timing and a defensive puritan",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-01T08:47:09.753Z"
+  },
+  {
+    "id": "79458474ceea",
+    "title": "Arteta will seek to use perceived injustices as Arsenal fuel after Atlético anger",
+    "date": "2026-04-30",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/30/mikel-arteta-perceived-injustices-arsenal-atletico-madrid-champions-league-semi-final",
+    "summary": "Arteta will seek to use perceived injustices as Arsenal fuel after Atlético anger",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-01T08:47:09.753Z"
+  },
+  {
+    "id": "81c9c17e19cd",
+    "title": "Millie Bright, serial silverware winner, signs off with a legacy few will match",
+    "date": "2026-04-30",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/30/millie-bright-serial-silverware-winner-legacy-chelsea-england",
+    "summary": "Millie Bright, serial silverware winner, signs off with a legacy few will match",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-01T08:47:09.753Z"
+  },
+  {
     "id": "3e10de6a36a3",
     "title": "Bright reflects on 'incredible' 2022 Euros win",
     "date": "2026-04-29",
@@ -3640,304 +3835,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-04-01T08:35:40.335Z"
-  },
-  {
-    "id": "c7650b968810",
-    "title": "The never-ending story of England footballdom: this is why we can’t have nice things | Barney Ronay",
-    "date": "2026-03-31",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/31/the-never-ending-story-of-england-footballdom-this-is-why-we-cant-have-nice-things",
-    "summary": "The never-ending story of England footballdom: this is why we can’t have nice things | Barney Ronay",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-03T08:24:21.156Z"
-  },
-  {
-    "id": "35067ad65642",
-    "title": "Failed experiment as England get grim glimpse of life without Kane",
-    "date": "2026-03-31",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c070185ygpno?at_medium=RSS&at_campaign=rss",
-    "summary": "Failed experiment as England get grim glimpse of life without Kane",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-01T08:35:40.335Z"
-  },
-  {
-    "id": "7713062736d2",
-    "title": "'Scotland fans can fret - but they need to keep perspective too'",
-    "date": "2026-03-31",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cn0wggq2lveo?at_medium=RSS&at_campaign=rss",
-    "summary": "'Scotland fans can fret - but they need to keep perspective too'",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-01T08:35:40.335Z"
-  },
-  {
-    "id": "341dfb181cf7",
-    "title": "Watch: Scotland lose friendly against Ivory Coast ",
-    "date": "2026-03-31",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/videos/cpqxe7pe0qxo?at_medium=RSS&at_campaign=rss",
-    "summary": "Watch: Scotland lose friendly against Ivory Coast ",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-01T08:35:40.335Z"
-  },
-  {
-    "id": "568cfe438a67",
-    "title": "Highlights: Wales draw 1-1 with Northern Ireland",
-    "date": "2026-03-31",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/videos/cddq2e1dlyno?at_medium=RSS&at_campaign=rss",
-    "summary": "Highlights: Wales draw 1-1 with Northern Ireland",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-01T08:35:40.335Z"
-  },
-  {
-    "id": "d80c0c1b4d0a",
-    "title": "Wiegman on 'speechless' Parkinson's England call-up",
-    "date": "2026-03-31",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/videos/c98m950d20go?at_medium=RSS&at_campaign=rss",
-    "summary": "Wiegman on 'speechless' Parkinson's England call-up",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-01T08:35:40.335Z"
-  },
-  {
-    "id": "561b936e42d0",
-    "title": "'Japan beat England too, so let's be real' - Robertson on Scotland defeats",
-    "date": "2026-03-31",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cgk0ddjd6n4o?at_medium=RSS&at_campaign=rss",
-    "summary": "'Japan beat England too, so let's be real' - Robertson on Scotland defeats",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-01T08:35:40.335Z"
-  },
-  {
-    "id": "56b79e09e761",
-    "title": "Who is a certain starter? How England's players rated against Japan",
-    "date": "2026-03-31",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c895p7epg3eo?at_medium=RSS&at_campaign=rss",
-    "summary": "Who is a certain starter? How England's players rated against Japan",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-01T08:35:40.335Z"
-  },
-  {
-    "id": "cede5cfc3776",
-    "title": "Spanish Football Federation condemns racist chants",
-    "date": "2026-03-31",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cgk0ddmmm3mo?at_medium=RSS&at_campaign=rss",
-    "summary": "Spanish Football Federation condemns racist chants",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-01T08:35:40.335Z"
-  },
-  {
-    "id": "5fbfaee8a07f",
-    "title": "'I like surprises' - Wiegman calls up 17-year-old Parkinson ",
-    "date": "2026-03-31",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cyv1qv55p17o?at_medium=RSS&at_campaign=rss",
-    "summary": "'I like surprises' - Wiegman calls up 17-year-old Parkinson ",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-01T08:35:40.335Z"
-  },
-  {
-    "id": "e3fbedbb5f26",
-    "title": "BBC Women's Football Weekly",
-    "date": "2026-03-31",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sounds/play/p0n9tvfk?at_medium=RSS&at_campaign=rss",
-    "summary": "BBC Women's Football Weekly",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-01T08:35:40.335Z"
-  },
-  {
-    "id": "b2eeced375da",
-    "title": "Are Scotland really going to name 55 players in World Cup squad?",
-    "date": "2026-03-31",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cwykwedjj88o?at_medium=RSS&at_campaign=rss",
-    "summary": "Are Scotland really going to name 55 players in World Cup squad?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-01T08:35:40.335Z"
-  },
-  {
-    "id": "7713062736d2",
-    "title": "'Scotland fans can fret - but they need to keep perspective too'",
-    "date": "2026-03-31",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cn0wggq2lveo?at_medium=RSS&at_campaign=rss",
-    "summary": "'Scotland fans can fret - but they need to keep perspective too'",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-01T08:35:40.335Z"
-  },
-  {
-    "id": "fe84c6d42d87",
-    "title": "Ghana fire coach Addo 72 days before WC opener",
-    "date": "2026-03-31",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48353539/world-cup-bound-ghana-fire-coach-otto-addo-4-straight-losses",
-    "summary": "Ghana fire coach Addo 72 days before WC opener",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-31T08:31:06.932Z"
-  },
-  {
-    "id": "57f2fc5ddd59",
-    "title": "Argentina to start Messi for Zambia friendly",
-    "date": "2026-03-31",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48348573/argentina-start-lionel-messi-zambia-friendly-la-bombonera",
-    "summary": "Argentina to start Messi for Zambia friendly",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-31T08:31:06.932Z"
-  },
-  {
-    "id": "aa3b3eba36a5",
-    "title": "Ancelotti praises Modric ahead of Croatia match",
-    "date": "2026-03-31",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48348096/brazil-ancelotti-praises-luka-modric-ahead-croatia-friendly",
-    "summary": "Ancelotti praises Modric ahead of Croatia match",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-31T08:31:06.932Z"
-  },
-  {
-    "id": "fb0107db015c",
-    "title": "Ghana sack manager Addo, 72 days before World Cup",
-    "date": "2026-03-31",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/crr1zyyr8xvo?at_medium=RSS&at_campaign=rss",
-    "summary": "Ghana sack manager Addo, 72 days before World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-31T08:31:06.932Z"
-  },
-  {
-    "id": "6e9cbc4fd068",
-    "title": "Who are the Japan players England should look out for?",
-    "date": "2026-03-31",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cgldy0p024ro?at_medium=RSS&at_campaign=rss",
-    "summary": "Who are the Japan players England should look out for?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-31T08:31:06.932Z"
-  },
-  {
-    "id": "2373048301e6",
-    "title": "Wales v Northern Ireland - the match nobody wants",
-    "date": "2026-03-31",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cwyvnrqd3zxo?at_medium=RSS&at_campaign=rss",
-    "summary": "Wales v Northern Ireland - the match nobody wants",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-31T08:31:06.932Z"
-  },
-  {
-    "id": "78c28c5324a7",
-    "title": "Don Garber hits back at Egypt executive who warned Salah against MLS move",
-    "date": "2026-03-31",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/31/don-garber-egypt-ibrahim-hassan-mo-salah-mls",
-    "summary": "Don Garber hits back at Egypt executive who warned Salah against MLS move",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-31T08:31:06.932Z"
-  },
-  {
-    "id": "b16dc36080fe",
-    "title": "Steve Clarke plays down discord as Scotland aim to kickstart World Cup preparations",
-    "date": "2026-03-31",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/31/steve-clarke-scotland-japan-cote-divoire-world-cup-2026",
-    "summary": "Steve Clarke plays down discord as Scotland aim to kickstart World Cup preparations",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-31T08:31:06.932Z"
-  },
-  {
-    "id": "8f7072197894",
-    "title": "Ghana sack coach Otto Addo 72 days before World Cup begins",
-    "date": "2026-03-31",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/mar/31/ghana-sack-coach-otto-addo-ahead-of-world-cup-england",
-    "summary": "Ghana sack coach Otto Addo 72 days before World Cup begins",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-31T08:31:06.932Z"
-  },
-  {
-    "id": "763e9d9311f9",
-    "title": "Australia v Curaçao: Fifa Series men’s international football friendly – live",
-    "date": "2026-03-31",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/live/2026/mar/31/australia-v-curacao-fifa-series-mens-international-football-friendly-live",
-    "summary": "Australia v Curaçao: Fifa Series men’s international football friendly – live",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-03-31T08:31:06.932Z"
   }
 ];
