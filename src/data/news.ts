@@ -2,6 +2,123 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "e99741a0a4f0",
+    "title": "$4K World Cup tickets for USMNT still available",
+    "date": "2026-05-02",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48647342/usa-world-cup-group-stage-tickets-most-expensive-left-4k",
+    "summary": "$4K World Cup tickets for USMNT still available",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-02T08:37:51.143Z"
+  },
+  {
+    "id": "cc2437b6873f",
+    "title": "‘Of course, it crossed my mind’: Frenkie de Jong on refusing to leave Barcelona and his World Cup pain",
+    "date": "2026-05-02",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/02/frenkie-de-jong-barcelona-interview-world-cup-netherlands",
+    "summary": "‘Of course, it crossed my mind’: Frenkie de Jong on refusing to leave Barcelona and his World Cup pain",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-02T08:37:51.143Z"
+  },
+  {
+    "id": "7334aa2d52fa",
+    "title": "Rejuvenated Casemiro heads for Manchester United exit on a high",
+    "date": "2026-05-02",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/02/casemiro-manchester-united-premier-league-football",
+    "summary": "Rejuvenated Casemiro heads for Manchester United exit on a high",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-02T08:37:51.143Z"
+  },
+  {
+    "id": "80fdc8fd982f",
+    "title": "Saudi Arabian owners' desire for Newcastle 'unchanged'",
+    "date": "2026-05-01",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cx21nez03evo?at_medium=RSS&at_campaign=rss",
+    "summary": "Saudi Arabian owners' desire for Newcastle 'unchanged'",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-02T08:37:51.143Z"
+  },
+  {
+    "id": "e84b4ccc114c",
+    "title": "What does future hold for Havertz after season blighted by injury?",
+    "date": "2026-05-01",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c70v4qq98d1o?at_medium=RSS&at_campaign=rss",
+    "summary": "What does future hold for Havertz after season blighted by injury?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-02T08:37:51.143Z"
+  },
+  {
+    "id": "18bedf108f49",
+    "title": "Northern Ireland to play Guinea in June friendly",
+    "date": "2026-05-01",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c042ln6y515o?at_medium=RSS&at_campaign=rss",
+    "summary": "Northern Ireland to play Guinea in June friendly",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-02T08:37:51.143Z"
+  },
+  {
+    "id": "67205789d04a",
+    "title": "PSG and Bayern in ‘different world’ to tired Premier League teams, says Arteta",
+    "date": "2026-05-01",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/01/psg-and-bayern-in-different-world-to-tired-premier-league-teams-says-arteta",
+    "summary": "PSG and Bayern in ‘different world’ to tired Premier League teams, says Arteta",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-02T08:37:51.143Z"
+  },
+  {
+    "id": "8a384234ed83",
+    "title": "Arsenal target Champions League history but Lyonnes promise semi-final comeback",
+    "date": "2026-05-01",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/sport/2026/may/01/arsenal-target-champions-league-history-as-lyonnes-promise-semi-final-comeback",
+    "summary": "Arsenal target Champions League history but Lyonnes promise semi-final comeback",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-02T08:37:51.143Z"
+  },
+  {
+    "id": "ba92e5e6550f",
+    "title": "A World Cup surprise? The MLS youngsters who can make cases for the USMNT roster",
+    "date": "2026-05-01",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/01/usmnt-roster-world-cup-mls-teens-julian-hall-zavier-gozo",
+    "summary": "A World Cup surprise? The MLS youngsters who can make cases for the USMNT roster",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-02T08:37:51.143Z"
+  },
+  {
     "id": "404cc1b47678",
     "title": "McKennie keeps having to fight to keep his spot wi...",
     "date": "2026-05-01",
@@ -13,6 +130,19 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-05-01T08:47:09.753Z"
+  },
+  {
+    "id": "375890d098fe",
+    "title": "From national pride to fascism: how countries have used the World Cup to build identity",
+    "date": "2026-04-30",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/apr/16/the-world-behind-the-cup-nation-building-through-soccer",
+    "summary": "From national pride to fascism: how countries have used the World Cup to build identity",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-02T08:37:51.143Z"
   },
   {
     "id": "e35daf36fffc",
@@ -3549,291 +3679,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-04-02T08:28:45.310Z"
-  },
-  {
-    "id": "7d7f3d6a7cfe",
-    "title": "Argentina loses powerhouse status as World Cup favorites list has them outside of Top 5",
-    "date": "2026-04-01",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/football/2026/04/01/69cd49b746163f073f8b45a3.html",
-    "summary": "Argentina loses powerhouse status as World Cup favorites list has them outside of Top 5",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-04T08:18:20.134Z"
-  },
-  {
-    "id": "306cd5df0aa5",
-    "title": "USMNT hit before World Cup as Christian Pulisic loses 'Captain America' status",
-    "date": "2026-04-01",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/world-cup/2026/04/01/69cd44bfe2704ebe0a8b4582.html",
-    "summary": "USMNT hit before World Cup as Christian Pulisic loses 'Captain America' status",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-04T08:18:20.134Z"
-  },
-  {
-    "id": "7c0cc359196d",
-    "title": "Why Lamine Yamal is upset with Spain fans and refused to celebrate in farewell friendly",
-    "date": "2026-04-01",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/football/2026/04/01/69cd29ae46163fd21a8b4589.html",
-    "summary": "Why Lamine Yamal is upset with Spain fans and refused to celebrate in farewell friendly",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-04T08:18:20.134Z"
-  },
-  {
-    "id": "beb5bb7ceb5e",
-    "title": "Lionel Scaloni believes Messi has a strong chance of reaching 1,000 goals before retirement",
-    "date": "2026-04-01",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/world-cup/2026/04/01/69cd371046163f353e8b4584.html",
-    "summary": "Lionel Scaloni believes Messi has a strong chance of reaching 1,000 goals before retirement",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-04T08:18:20.134Z"
-  },
-  {
-    "id": "9dbac542696e",
-    "title": "Lamine Yamal raises his voice: \"Using a religion as a mockery makes you look ignorant and racist\"",
-    "date": "2026-04-01",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/world-cup/2026/04/01/69cd253ae2704e95728b45a4.html",
-    "summary": "Lamine Yamal raises his voice: \"Using a religion as a mockery makes you look ignorant and racist\"",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-04T08:18:20.134Z"
-  },
-  {
-    "id": "2688dcbc7e0f",
-    "title": "Foden not guaranteed World Cup squad spot - Tuchel",
-    "date": "2026-04-01",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cp86d7j2g7vo?at_medium=RSS&at_campaign=rss",
-    "summary": "Foden not guaranteed World Cup squad spot - Tuchel",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-02T08:28:45.310Z"
-  },
-  {
-    "id": "ab1582ffb752",
-    "title": "BBC Sport's McNulty picks his England World Cup squad - do you agree?",
-    "date": "2026-04-01",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c995p9kdm3mo?at_medium=RSS&at_campaign=rss",
-    "summary": "BBC Sport's McNulty picks his England World Cup squad - do you agree?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-02T08:28:45.310Z"
-  },
-  {
-    "id": "7c835d9297cf",
-    "title": "Who were Scotland's winners and losers from international break?",
-    "date": "2026-04-01",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c6249z0zw4po?at_medium=RSS&at_campaign=rss",
-    "summary": "Who were Scotland's winners and losers from international break?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-02T08:28:45.310Z"
-  },
-  {
-    "id": "f449c0965ef5",
-    "title": "I can't expect to jump in at top level - Defoe",
-    "date": "2026-04-01",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/videos/cr41zp15zrxo?at_medium=RSS&at_campaign=rss",
-    "summary": "I can't expect to jump in at top level - Defoe",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-02T08:28:45.310Z"
-  },
-  {
-    "id": "7c835d9297cf",
-    "title": "Who were Scotland's winners and losers from international break?",
-    "date": "2026-04-01",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c6249z0zw4po?at_medium=RSS&at_campaign=rss",
-    "summary": "Who were Scotland's winners and losers from international break?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-02T08:28:45.310Z"
-  },
-  {
-    "id": "cb187d2b3c6d",
-    "title": "Arne Slot calls Mohamed Salah a Liverpool legend as Isak nears return",
-    "date": "2026-04-01",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/01/arne-slot-calls-mohamed-salah-a-liverpool-legend-as-isak-returns-to-team-training",
-    "summary": "Arne Slot calls Mohamed Salah a Liverpool legend as Isak nears return",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-02T08:28:45.310Z"
-  },
-  {
-    "id": "262a88f444fe",
-    "title": "Jermain Defoe grateful and happy to ‘earn his stripes’ before start as Woking manager | Ed Aarons",
-    "date": "2026-04-01",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/01/jermain-defoe-woking-manager-former-england-striker",
-    "summary": "Jermain Defoe grateful and happy to ‘earn his stripes’ before start as Woking manager | Ed Aarons",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-02T08:28:45.310Z"
-  },
-  {
-    "id": "6fa1a6c60ac7",
-    "title": "On the plane or the sofa? How England’s 2026 World Cup squad is shaping up",
-    "date": "2026-04-01",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/01/how-england-2026-world-cup-squad-is-shaping-up-plane-sofa",
-    "summary": "On the plane or the sofa? How England’s 2026 World Cup squad is shaping up",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-02T08:28:45.310Z"
-  },
-  {
-    "id": "e3d71a992533",
-    "title": "Lamine Yamal furious with Spain fans over anti-Muslim chants against Egypt",
-    "date": "2026-04-01",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/01/spain-fans-islamophobic-and-xenophobic-chants-egypt-police-investigate",
-    "summary": "Lamine Yamal furious with Spain fans over anti-Muslim chants against Egypt",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-02T08:28:45.310Z"
-  },
-  {
-    "id": "b3cebb97e7ee",
-    "title": "Sophia Wilson, Tierna Davidson return to USWNT for friendlies against Japan",
-    "date": "2026-04-01",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/01/sophia-wilson-tierna-davidson-uswnt-japan-friendlies",
-    "summary": "Sophia Wilson, Tierna Davidson return to USWNT for friendlies against Japan",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-02T08:28:45.310Z"
-  },
-  {
-    "id": "9d7868298c62",
-    "title": "Ranked: All 48 teams that can win the 2026 World Cup",
-    "date": "2026-04-01",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48361967/2026-world-cup-squads-ranked-all-48-national-teams-win-tournament",
-    "summary": "Ranked: All 48 teams that can win the 2026 World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-01T08:35:40.335Z"
-  },
-  {
-    "id": "4f9c853a7a40",
-    "title": "Portugal outclasses U.S. amid Pulisic goal drought",
-    "date": "2026-04-01",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/report/_/gameId/762259",
-    "summary": "Portugal outclasses U.S. amid Pulisic goal drought",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-01T08:35:40.335Z"
-  },
-  {
-    "id": "45a51b351e74",
-    "title": "Poch, Pulisic agree, U.S. 'not far away' from best",
-    "date": "2026-04-01",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48363562/pochettino-pulisic-usmnt-not-far-best",
-    "summary": "Poch, Pulisic agree, U.S. 'not far away' from best",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-01T08:35:40.335Z"
-  },
-  {
-    "id": "56a5229696e4",
-    "title": "Fans warned for anti-Muslim chants at Spain game",
-    "date": "2026-04-01",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48359649/fans-warned-anti-muslim-chants-spain-egypt-match",
-    "summary": "Fans warned for anti-Muslim chants at Spain game",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-01T08:35:40.335Z"
-  },
-  {
-    "id": "fc8facdf0518",
-    "title": "Türkiye will be USMNT's stiffest test in World Cup group stage",
-    "date": "2026-04-01",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48360028/turkiye-usmnt-stiffest-test-world-cup-group-stage",
-    "summary": "Türkiye will be USMNT's stiffest test in World Cup group stage",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-01T08:35:40.335Z"
-  },
-  {
-    "id": "4f77530dfee3",
-    "title": "NI showed great character in Wales draw - O'Neill",
-    "date": "2026-04-01",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cddq2rj731eo?at_medium=RSS&at_campaign=rss",
-    "summary": "NI showed great character in Wales draw - O'Neill",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-01T08:35:40.335Z"
-  },
-  {
-    "id": "57e13c8ca7c8",
-    "title": "Scotland coach Clarke's contract talks on hold - gossip",
-    "date": "2026-04-01",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cwywd7lrpg9o?at_medium=RSS&at_campaign=rss",
-    "summary": "Scotland coach Clarke's contract talks on hold - gossip",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-01T08:35:40.335Z"
   }
 ];
