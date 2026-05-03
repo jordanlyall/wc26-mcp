@@ -2,6 +2,19 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "c22ebed206bb",
+    "title": "Villas-Boas tops Mourinho as Porto clinch title",
+    "date": "2026-05-03",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48660417/porto-portuguese-title-benfica-andre-villas-boas-jose-mourinho",
+    "summary": "Villas-Boas tops Mourinho as Porto clinch title",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-03T08:41:02.123Z"
+  },
+  {
     "id": "e99741a0a4f0",
     "title": "$4K World Cup tickets for USMNT still available",
     "date": "2026-05-02",
@@ -3458,226 +3471,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-04-03T08:24:21.156Z"
-  },
-  {
-    "id": "4af0580fc753",
-    "title": "Arsenal battle past Chelsea in Champions League – Women’s Football Weekly",
-    "date": "2026-04-02",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/audio/2026/apr/02/arsenal-chelsea-champions-league-england-womens-football-weekly",
-    "summary": "Arsenal battle past Chelsea in Champions League – Women’s Football Weekly",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-05T08:18:12.461Z"
-  },
-  {
-    "id": "a2af8943a255",
-    "title": "Cristiano Ronaldo is back: a return that has Al Nassr and Portugal hopeful",
-    "date": "2026-04-02",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/football/2026/04/02/69cecb35e2704e4c7b8b45ac.html",
-    "summary": "Cristiano Ronaldo is back: a return that has Al Nassr and Portugal hopeful",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-04T08:18:20.134Z"
-  },
-  {
-    "id": "502630dff52c",
-    "title": "\"I Was Shaking\": Tomás Aranda recalls nerves after Argentina training session, first meeting with Leo Messi",
-    "date": "2026-04-02",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/world-cup/2026/04/02/69ce828de2704e4c7b8b459a.html",
-    "summary": "\"I Was Shaking\": Tomás Aranda recalls nerves after Argentina training session, first meeting with Leo Messi",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-04T08:18:20.134Z"
-  },
-  {
-    "id": "01845dab60b8",
-    "title": "Davies back in Wales squad but Clark misses out",
-    "date": "2026-04-02",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cx2elk0we3go?at_medium=RSS&at_campaign=rss",
-    "summary": "Davies back in Wales squad but Clark misses out",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-03T08:24:21.156Z"
-  },
-  {
-    "id": "a6d37c39cad8",
-    "title": "Wales boss Wilkinson condemns 'imbecile behaviour'",
-    "date": "2026-04-02",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/ckgr620pw20o?at_medium=RSS&at_campaign=rss",
-    "summary": "Wales boss Wilkinson condemns 'imbecile behaviour'",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-03T08:24:21.156Z"
-  },
-  {
-    "id": "a6d37c39cad8",
-    "title": "Wales boss Wilkinson condemns 'imbecile behaviour'",
-    "date": "2026-04-02",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/ckgr620pw20o?at_medium=RSS&at_campaign=rss",
-    "summary": "Wales boss Wilkinson condemns 'imbecile behaviour'",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-03T08:24:21.156Z"
-  },
-  {
-    "id": "01845dab60b8",
-    "title": "Davies back in Wales squad but Clark misses out",
-    "date": "2026-04-02",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cx2elk0we3go?at_medium=RSS&at_campaign=rss",
-    "summary": "Davies back in Wales squad but Clark misses out",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-03T08:24:21.156Z"
-  },
-  {
-    "id": "7fb36b2edeb8",
-    "title": "FA Cup quarter-finals: things to look out for this weekend",
-    "date": "2026-04-02",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/03/fa-cup-quarter-finals-things-to-look-out-for-this-weekend",
-    "summary": "FA Cup quarter-finals: things to look out for this weekend",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-03T08:24:21.156Z"
-  },
-  {
-    "id": "68d5dbacec49",
-    "title": "Chelsea’s precarious project further rocked by Cucurella and Fernández comments | Jacob Steinberg",
-    "date": "2026-04-02",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/02/chelsea-precarious-project-rocked-marc-cucurella-enzo-fernandez",
-    "summary": "Chelsea’s precarious project further rocked by Cucurella and Fernández comments | Jacob Steinberg",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-03T08:24:21.156Z"
-  },
-  {
-    "id": "d6f73fccf8eb",
-    "title": "Sam Kerr edges toward Chelsea exit after reportedly signing with US club Denver Summit",
-    "date": "2026-04-02",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/03/matildas-captain-sam-kerr-chelsea-exit-denver-summit",
-    "summary": "Sam Kerr edges toward Chelsea exit after reportedly signing with US club Denver Summit",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-03T08:24:21.156Z"
-  },
-  {
-    "id": "906d5ffb02b1",
-    "title": "Pre-World Cup results have you worried? They probably shouldn’t",
-    "date": "2026-04-02",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/02/pre-world-cup-results-have-you-worried-they-probably-shouldnt",
-    "summary": "Pre-World Cup results have you worried? They probably shouldn’t",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-03T08:24:21.156Z"
-  },
-  {
-    "id": "1b70d2ccad77",
-    "title": "World Cup 2026 kit ranking: Every jersey we'll see this summer to be released so far",
-    "date": "2026-04-02",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48352807/world-cup-2026-kit-ranking-canada-mexico-united-states-argentina-australia-brazil-england-france-germany-portugal-spain",
-    "summary": "World Cup 2026 kit ranking: Every jersey we'll see this summer to be released so far",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-02T08:28:45.310Z"
-  },
-  {
-    "id": "3730df75d198",
-    "title": "Sophia Wilson rejoins USWNT for Japan matches",
-    "date": "2026-04-02",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48368630/sophia-wilson-tierna-davidson-rejoin-uswnt-roster-japan-friendlies",
-    "summary": "Sophia Wilson rejoins USWNT for Japan matches",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-02T08:28:45.310Z"
-  },
-  {
-    "id": "099ae30902b6",
-    "title": "The remarkable rise of the only English coach in Tuchel's team",
-    "date": "2026-04-02",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/ckge7014m5yo?at_medium=RSS&at_campaign=rss",
-    "summary": "The remarkable rise of the only English coach in Tuchel's team",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-02T08:28:45.310Z"
-  },
-  {
-    "id": "0cf1dd037ad0",
-    "title": "England assistant manager Anthony Barry on Tuchel relationship & World Cup",
-    "date": "2026-04-02",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sounds/play/p0n9zq4r?at_medium=RSS&at_campaign=rss",
-    "summary": "England assistant manager Anthony Barry on Tuchel relationship & World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-02T08:28:45.310Z"
-  },
-  {
-    "id": "953337635bc3",
-    "title": "Will Wembley wobbles actually matter when England head to World Cup training camp?",
-    "date": "2026-04-02",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/02/thomas-tuchel-england-world-cup-preparations",
-    "summary": "Will Wembley wobbles actually matter when England head to World Cup training camp?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-02T08:28:45.310Z"
-  },
-  {
-    "id": "d837d1cc351f",
-    "title": "Matildas stars return to squad for friendlies as Joe Montemurro builds to 2027 World Cup",
-    "date": "2026-04-02",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/02/matildas-friendlies-squad-2027-world-cup",
-    "summary": "Matildas stars return to squad for friendlies as Joe Montemurro builds to 2027 World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-02T08:28:45.310Z"
   }
 ];
