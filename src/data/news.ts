@@ -2,6 +2,97 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "0cbecf3e9161",
+    "title": "How I see the game - Davide Ancelotti's tactics deep dive",
+    "date": "2026-05-04",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/clyp3y9lwjdo?at_medium=RSS&at_campaign=rss",
+    "summary": "How I see the game - Davide Ancelotti's tactics deep dive",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-04T08:57:40.309Z"
+  },
+  {
+    "id": "9a3f5e069ef1",
+    "title": "Hearts trio pick up PFA Scotland prizes",
+    "date": "2026-05-04",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/crmpn0vn8ymo?at_medium=RSS&at_campaign=rss",
+    "summary": "Hearts trio pick up PFA Scotland prizes",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-04T08:57:40.309Z"
+  },
+  {
+    "id": "9a3f5e069ef1",
+    "title": "Hearts trio pick up PFA Scotland prizes",
+    "date": "2026-05-04",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/crmpn0vn8ymo?at_medium=RSS&at_campaign=rss",
+    "summary": "Hearts trio pick up PFA Scotland prizes",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-04T08:57:40.309Z"
+  },
+  {
+    "id": "47fda500a854",
+    "title": "North Korean women’s football club headed to Seoul in rare trip across the border",
+    "date": "2026-05-04",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/04/north-korea-womens-football-team-south-seoul-match",
+    "summary": "North Korean women’s football club headed to Seoul in rare trip across the border",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-04T08:57:40.309Z"
+  },
+  {
+    "id": "0f15da1d436c",
+    "title": "Socceroos eager to disprove World Cup underdog tag, says coach Tony Popovic",
+    "date": "2026-05-04",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/04/socceroos-australia-football-world-cup-underdog",
+    "summary": "Socceroos eager to disprove World Cup underdog tag, says coach Tony Popovic",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-04T08:57:40.309Z"
+  },
+  {
+    "id": "2cf9a151cd1b",
+    "title": "Howe set to stay in charge of Newcastle after summit",
+    "date": "2026-05-03",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c362exz0p98o?at_medium=RSS&at_campaign=rss",
+    "summary": "Howe set to stay in charge of Newcastle after summit",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-04T08:57:40.309Z"
+  },
+  {
+    "id": "f2a8de0d8e70",
+    "title": "Fit and firing Bukayo Saka injects fresh belief into Arsenal’s title challenge",
+    "date": "2026-05-03",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/03/fit-and-firing-bukayo-saka-injects-fresh-belief-into-arsenals-title-challenge",
+    "summary": "Fit and firing Bukayo Saka injects fresh belief into Arsenal’s title challenge",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-04T08:57:40.309Z"
+  },
+  {
     "id": "c22ebed206bb",
     "title": "Villas-Boas tops Mourinho as Porto clinch title",
     "date": "2026-05-03",
@@ -3302,174 +3393,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-04-04T08:18:20.134Z"
-  },
-  {
-    "id": "7d6fc8e25209",
-    "title": "USMNT World Cup squad predictions: how we see the 26 for 2026",
-    "date": "2026-04-03",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/03/usmnt-world-cup-squad-predictions",
-    "summary": "USMNT World Cup squad predictions: how we see the 26 for 2026",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-05T08:18:12.461Z"
-  },
-  {
-    "id": "be0db1b2a9eb",
-    "title": "Uncapped Chambers named in McArdle's first NI squad",
-    "date": "2026-04-03",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/articles/c2k3q7y7p5ko?at_medium=RSS&at_campaign=rss",
-    "summary": "Uncapped Chambers named in McArdle's first NI squad",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-04T08:18:20.134Z"
-  },
-  {
-    "id": "b21b81c61ed8",
-    "title": "Slot has no regrets over treatment of Salah and insists forward solely decided Liverpool exit",
-    "date": "2026-04-03",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/03/mohamed-salah-arne-slot-liverpool-football",
-    "summary": "Slot has no regrets over treatment of Salah and insists forward solely decided Liverpool exit",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-04T08:18:20.134Z"
-  },
-  {
-    "id": "f6b7e37387a6",
-    "title": "Burslem Globetrotters: Port Vale’s travelling stars plot Chelsea shock",
-    "date": "2026-04-03",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/03/jon-brady-port-vale-fa-cup-quarter-final-chelsea",
-    "summary": "Burslem Globetrotters: Port Vale’s travelling stars plot Chelsea shock",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-04T08:18:20.134Z"
-  },
-  {
-    "id": "135e22a56c78",
-    "title": "Gennaro Gattuso exits as Italy manager after World Cup qualifying failure",
-    "date": "2026-04-03",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/03/gennaro-gattuso-exits-italy-manager-world-cup-qualifying-failure",
-    "summary": "Gennaro Gattuso exits as Italy manager after World Cup qualifying failure",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-04T08:18:20.134Z"
-  },
-  {
-    "id": "22c94dd39e91",
-    "title": "Joachim  Löw admits \"nobody in Ghana has contacted\" him",
-    "date": "2026-04-03",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/world-cup/2026/04/03/69d016db22601d686d8b45a3.html",
-    "summary": "Joachim  Löw admits \"nobody in Ghana has contacted\" him",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-04T08:18:20.134Z"
-  },
-  {
-    "id": "7ecc3395c043",
-    "title": "The next Barcelona star who is attracting interest from outside of Spain",
-    "date": "2026-04-03",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/football/barcelona/2026/04/03/69cf317b22601de7138b4584.html",
-    "summary": "The next Barcelona star who is attracting interest from outside of Spain",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-04T08:18:20.134Z"
-  },
-  {
-    "id": "bf81f1541cb7",
-    "title": "Colombia star James hospitalized with dehydration",
-    "date": "2026-04-03",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48381336/colombia-james-rodriguez-hospital-minnesota-illness",
-    "summary": "Colombia star James hospitalized with dehydration",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-03T08:24:21.156Z"
-  },
-  {
-    "id": "cb92c6438be5",
-    "title": "Gerrard reveals Salah advice, backs Liverpool exit",
-    "date": "2026-04-03",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48375028/steven-gerrard-backs-mohamed-salah-liverpool-exit-best-interests",
-    "summary": "Gerrard reveals Salah advice, backs Liverpool exit",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-03T08:24:21.156Z"
-  },
-  {
-    "id": "b99174dc381f",
-    "title": "✨ Messi, Ronaldo among LEGO's WC stars",
-    "date": "2026-04-03",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48376425/lionel-messi-cristiano-ronaldo-world-cup-stars-feature-lego",
-    "summary": "✨ Messi, Ronaldo among LEGO's WC stars",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-03T08:24:21.156Z"
-  },
-  {
-    "id": "5fa9243cb924",
-    "title": "USMNT 2026 World Cup big board 6.0: Have March losses cemented Pochettino's squad?",
-    "date": "2026-04-03",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48359122/usmnt-2026-world-cup-big-board-6-march-international-losses-belgium-portugal-cemented-mauricio-pochettino-squad",
-    "summary": "USMNT 2026 World Cup big board 6.0: Have March losses cemented Pochettino's squad?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-03T08:24:21.156Z"
-  },
-  {
-    "id": "430969c343c6",
-    "title": "What NBA greats Kerr, Nash & Co. learned owning LaLiga's Mallorca",
-    "date": "2026-04-03",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/47650854/nba-greats-kerr-nash-ups-downs-owning-spanish-soccer-team-mallorca",
-    "summary": "What NBA greats Kerr, Nash & Co. learned owning LaLiga's Mallorca",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-03T08:24:21.156Z"
-  },
-  {
-    "id": "e583623873cb",
-    "title": "Endrick eases World Cup fears with breakout performance for Brazil",
-    "date": "2026-04-03",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/world-cup/2026/04/03/69cf3547ca4741f86f8b4588.html",
-    "summary": "Endrick eases World Cup fears with breakout performance for Brazil",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-03T08:24:21.156Z"
   }
 ];
