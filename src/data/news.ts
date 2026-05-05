@@ -2,6 +2,19 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "68694ba70fe3",
+    "title": "Ronaldo nears first major trophy at Al-Nassr but rivals find it a little too convenient",
+    "date": "2026-05-04",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/04/cristiano-ronaldo-nears-first-major-trophy-al-nassr-saudi-pro-league",
+    "summary": "Ronaldo nears first major trophy at Al-Nassr but rivals find it a little too convenient",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-05T08:53:31.668Z"
+  },
+  {
     "id": "0cbecf3e9161",
     "title": "How I see the game - Davide Ancelotti's tactics deep dive",
     "date": "2026-05-04",
@@ -3302,96 +3315,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-04-06T08:39:44.993Z"
-  },
-  {
-    "id": "11eb52686254",
-    "title": "Why Falkirk's boss could be manager of year in Scotland - again",
-    "date": "2026-04-04",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/clyx733341ro?at_medium=RSS&at_campaign=rss",
-    "summary": "Why Falkirk's boss could be manager of year in Scotland - again",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-05T08:18:12.461Z"
-  },
-  {
-    "id": "73c20479be70",
-    "title": "There is no ceiling for Estevao - Rosenior",
-    "date": "2026-04-04",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/videos/cly7rd8dprlo?at_medium=RSS&at_campaign=rss",
-    "summary": "There is no ceiling for Estevao - Rosenior",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-05T08:18:12.461Z"
-  },
-  {
-    "id": "bb7433d64509",
-    "title": "Former Brazil midfielder Oscar retires aged 34 with cardiac problems",
-    "date": "2026-04-04",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/04/former-brazil-midfielder-oscar-retires-aged-34-with-cardiac-problems",
-    "summary": "Former Brazil midfielder Oscar retires aged 34 with cardiac problems",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-05T08:18:12.461Z"
-  },
-  {
-    "id": "aad6c5de7da0",
-    "title": "‘Don’t wait four more years’: World Cup co-hosts Canada offer Italy fans free shirt swap",
-    "date": "2026-04-04",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/04/world-cup-2026-canada-offer-italy-fans-free-shirt-swap",
-    "summary": "‘Don’t wait four more years’: World Cup co-hosts Canada offer Italy fans free shirt swap",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-05T08:18:12.461Z"
-  },
-  {
-    "id": "f11dbdceb489",
-    "title": "‘Emotional’ Trippier to leave Newcastle this summer when contract ends",
-    "date": "2026-04-04",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/04/kieran-trippier-leaving-newcastle-united-this-summer",
-    "summary": "‘Emotional’ Trippier to leave Newcastle this summer when contract ends",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-05T08:18:12.461Z"
-  },
-  {
-    "id": "0cac0e2282c6",
-    "title": "Flick urges Rashford to step up for Barcelona",
-    "date": "2026-04-04",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48385051/barcelona-coach-hansi-flick-urges-marcus-rashford-step-raphinha-injury",
-    "summary": "Flick urges Rashford to step up for Barcelona",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-04T08:18:20.134Z"
-  },
-  {
-    "id": "5f18dfb97d22",
-    "title": "Arsenal in the blood: how Max Dowman is related to Gunners legend George Male",
-    "date": "2026-04-04",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/04/arsenal-max-dowman-related-to-gunners-legend-george-male",
-    "summary": "Arsenal in the blood: how Max Dowman is related to Gunners legend George Male",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-04T08:18:20.134Z"
   }
 ];
