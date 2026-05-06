@@ -2,6 +2,19 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "b7ccd2554dde",
+    "title": "'Caption this' - Ferdinand and Carragher's social spat",
+    "date": "2026-05-05",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/clypz9rr412o?at_medium=RSS&at_campaign=rss",
+    "summary": "'Caption this' - Ferdinand and Carragher's social spat",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-06T08:57:24.293Z"
+  },
+  {
     "id": "68694ba70fe3",
     "title": "Ronaldo nears first major trophy at Al-Nassr but rivals find it a little too convenient",
     "date": "2026-05-04",
@@ -3271,45 +3284,6 @@ export const news: NewsItem[] = [
     "source": "Marca",
     "url": "https://www.marca.com/en/football/ligue-1/2026/04/06/69d306cd268e3e12068b4595.html",
     "summary": "Balogun catches the eye of Europe's top clubs with a stunning goal against Marseille",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-06T08:39:44.993Z"
-  },
-  {
-    "id": "aada33b62e36",
-    "title": "‘We’re home’: Even in a draw, Inter Miami’s stadium opener was a win for David Beckham",
-    "date": "2026-04-05",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/05/inter-miami-lionel-messi-david-beckham-nu-stadium-opener",
-    "summary": "‘We’re home’: Even in a draw, Inter Miami’s stadium opener was a win for David Beckham",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-06T08:39:44.993Z"
-  },
-  {
-    "id": "0cc2933465ec",
-    "title": "MLS commissioner: Fifa ‘smart’ to use dynamic pricing for World Cup tickets",
-    "date": "2026-04-05",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/05/fifa-world-cup-tickets-mls-commissioner-dynamic-pricing",
-    "summary": "MLS commissioner: Fifa ‘smart’ to use dynamic pricing for World Cup tickets",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-06T08:39:44.993Z"
-  },
-  {
-    "id": "61d3f5be12a8",
-    "title": "Ronaldinho backs Lamine Yamal as Lionel Messi's successor in Barcelona's No. \"10\" jersey",
-    "date": "2026-04-05",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/football/barcelona/2026/04/05/69d27789e2704e77558b4580.html",
-    "summary": "Ronaldinho backs Lamine Yamal as Lionel Messi's successor in Barcelona's No. \"10\" jersey",
     "categories": [
       "general"
     ],
