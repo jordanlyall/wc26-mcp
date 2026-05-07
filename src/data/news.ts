@@ -2,6 +2,162 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "50f2451b341d",
+    "title": "FIFA extends Prestianni ban to World Cup matches",
+    "date": "2026-05-07",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48692428/fifa-extends-uefa-ban-argentina-gianluca-prestianni-world-cup",
+    "summary": "FIFA extends Prestianni ban to World Cup matches",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-07T09:02:01.592Z"
+  },
+  {
+    "id": "09d23633ef72",
+    "title": "Victorian government overturns World Cup venue ban",
+    "date": "2026-05-07",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c1m2n93y927o?at_medium=RSS&at_campaign=rss",
+    "summary": "Victorian government overturns World Cup venue ban",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-07T09:02:01.592Z"
+  },
+  {
+    "id": "60adad2a092d",
+    "title": "Listen: Who will be on Scotland's managerial merry-go-round?",
+    "date": "2026-05-07",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sounds/play/p0njscpx?at_medium=RSS&at_campaign=rss",
+    "summary": "Listen: Who will be on Scotland's managerial merry-go-round?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-07T09:02:01.592Z"
+  },
+  {
+    "id": "4e061e417335",
+    "title": "Michael Carrick has the light touch Manchester United need for next chapter | Jonathan Liew",
+    "date": "2026-05-07",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/07/michael-carrick-has-the-light-touch-manchester-united-need-for-next-chapter",
+    "summary": "Michael Carrick has the light touch Manchester United need for next chapter | Jonathan Liew",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-07T09:02:01.592Z"
+  },
+  {
+    "id": "f14ffa0c0127",
+    "title": "Mexico players given World Cup training ultimatum",
+    "date": "2026-05-06",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cvgzww4zzv7o?at_medium=RSS&at_campaign=rss",
+    "summary": "Mexico players given World Cup training ultimatum",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-07T09:02:01.592Z"
+  },
+  {
+    "id": "8b010b7c596a",
+    "title": "Haiti's record scorer on Paisley, stunning Scotland & escaping Iran",
+    "date": "2026-05-06",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c936y13v7vzo?at_medium=RSS&at_campaign=rss",
+    "summary": "Haiti's record scorer on Paisley, stunning Scotland & escaping Iran",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-07T09:02:01.592Z"
+  },
+  {
+    "id": "ad0f9647bc6f",
+    "title": "Our World Cup host 'is Fifa, not Trump or America' - Iran",
+    "date": "2026-05-06",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cq6pge92093o?at_medium=RSS&at_campaign=rss",
+    "summary": "Our World Cup host 'is Fifa, not Trump or America' - Iran",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-07T09:02:01.592Z"
+  },
+  {
+    "id": "2e23c8a30a34",
+    "title": "Former Everton defender Naysmith to become Ayr boss",
+    "date": "2026-05-06",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cnvpzdqpn21o?at_medium=RSS&at_campaign=rss",
+    "summary": "Former Everton defender Naysmith to become Ayr boss",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-07T09:02:01.592Z"
+  },
+  {
+    "id": "8b010b7c596a",
+    "title": "Haiti's record scorer on Paisley, stunning Scotland & escaping Iran",
+    "date": "2026-05-06",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c936y13v7vzo?at_medium=RSS&at_campaign=rss",
+    "summary": "Haiti's record scorer on Paisley, stunning Scotland & escaping Iran",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-07T09:02:01.592Z"
+  },
+  {
+    "id": "29fedb720510",
+    "title": "Manchester City’s WSL title winners 2025-26: player-by-player ratings",
+    "date": "2026-05-06",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/06/manchester-city-wsl-title-winners-2025-26-player-ratings",
+    "summary": "Manchester City’s WSL title winners 2025-26: player-by-player ratings",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-07T09:02:01.592Z"
+  },
+  {
+    "id": "5100ebc84d78",
+    "title": "Fifa extends Gianluca Prestianni ban, ruling him out for World Cup games",
+    "date": "2026-05-06",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/06/fifa-gianluca-prestianni-ban-racism-benfica-argentina",
+    "summary": "Fifa extends Gianluca Prestianni ban, ruling him out for World Cup games",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-07T09:02:01.592Z"
+  },
+  {
+    "id": "7a4c0bade12e",
+    "title": "From Boreham Wood FC’s bus to the world of Mugabe, Yeltsin, Bush and Trump",
+    "date": "2026-05-06",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/06/from-boreham-wood-fc-bus-to-world-of-mugabe-yeltsin-bush-and-trump",
+    "summary": "From Boreham Wood FC’s bus to the world of Mugabe, Yeltsin, Bush and Trump",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-07T09:02:01.592Z"
+  },
+  {
     "id": "b7ccd2554dde",
     "title": "'Caption this' - Ferdinand and Carragher's social spat",
     "date": "2026-05-05",
@@ -3198,96 +3354,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-04-07T08:34:39.728Z"
-  },
-  {
-    "id": "ed2f2e56c3e1",
-    "title": "The FA Cup still has an important place. This weekend was proof",
-    "date": "2026-04-06",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/06/fa-cup-premier-league-arsenal-southampton",
-    "summary": "The FA Cup still has an important place. This weekend was proof",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-07T08:34:39.728Z"
-  },
-  {
-    "id": "1d6b0070ca4e",
-    "title": "Spanish school emerges again as the superior model for Champions League success | Philipp Lahm",
-    "date": "2026-04-06",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/06/spain-champions-league-success-superior-model-italy-germany",
-    "summary": "Spanish school emerges again as the superior model for Champions League success | Philipp Lahm",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-07T08:34:39.728Z"
-  },
-  {
-    "id": "87f0b7dcc52b",
-    "title": "Reece James on track to deliver England World Cup boost with Chelsea return",
-    "date": "2026-04-06",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/06/reece-james-england-world-cup-boost-chelsea-return-hamstring-injury",
-    "summary": "Reece James on track to deliver England World Cup boost with Chelsea return",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-07T08:34:39.728Z"
-  },
-  {
-    "id": "55d496e6e5c2",
-    "title": "Bastoni turns Inter jeers to joy after World Cup heartbreak and ‘ugly’ wobble | Nicky Bandini",
-    "date": "2026-04-06",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/06/alessandro-bastoni-inter-jeers-joy-world-cup-heartbreak-ugly-wobble-serie-a-roma",
-    "summary": "Bastoni turns Inter jeers to joy after World Cup heartbreak and ‘ugly’ wobble | Nicky Bandini",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-07T08:34:39.728Z"
-  },
-  {
-    "id": "e4be5ecf615d",
-    "title": "Can the USMNT and USWNT become ‘America’s favorite sports teams’? Their CEO thinks so",
-    "date": "2026-04-06",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/06/jt-batson-usmnt-uswnt-world-cup",
-    "summary": "Can the USMNT and USWNT become ‘America’s favorite sports teams’? Their CEO thinks so",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-07T08:34:39.728Z"
-  },
-  {
-    "id": "3883d9f79a37",
-    "title": "FA Cup quarter-finals: 10 talking points from the men’s and women’s weekend ties",
-    "date": "2026-04-06",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/06/fa-cup-quarter-finals-10-talking-points-from-the-mens-and-womens-weekend-ties",
-    "summary": "FA Cup quarter-finals: 10 talking points from the men’s and women’s weekend ties",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-06T08:39:44.993Z"
-  },
-  {
-    "id": "aa1861ed7fe3",
-    "title": "Balogun catches the eye of Europe's top clubs with a stunning goal against Marseille",
-    "date": "2026-04-06",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/football/ligue-1/2026/04/06/69d306cd268e3e12068b4595.html",
-    "summary": "Balogun catches the eye of Europe's top clubs with a stunning goal against Marseille",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-06T08:39:44.993Z"
   }
 ];
