@@ -2,6 +2,71 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "8e231d89c83f",
+    "title": "Alexander-Arnold omission 'mind-boggling' to Rooney",
+    "date": "2026-05-08",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cn7pv5nrvglo?at_medium=RSS&at_campaign=rss",
+    "summary": "Alexander-Arnold omission 'mind-boggling' to Rooney",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-08T08:40:24.197Z"
+  },
+  {
+    "id": "b9a439358fbe",
+    "title": "Shakira unveils official World Cup 2026 song",
+    "date": "2026-05-07",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cgjp5q6xvg9o?at_medium=RSS&at_campaign=rss",
+    "summary": "Shakira unveils official World Cup 2026 song",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-08T08:40:24.197Z"
+  },
+  {
+    "id": "a1a6728bada1",
+    "title": "Villa's Staniforth 'at ease' with decision to retire",
+    "date": "2026-05-07",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cp3pw8v0qzno?at_medium=RSS&at_campaign=rss",
+    "summary": "Villa's Staniforth 'at ease' with decision to retire",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-08T08:40:24.197Z"
+  },
+  {
+    "id": "02cf8849b296",
+    "title": "Donald Trump says he ‘wouldn’t pay’ four figures for World Cup matches",
+    "date": "2026-05-07",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/07/donald-trump-world-cup-ticket-prices",
+    "summary": "Donald Trump says he ‘wouldn’t pay’ four figures for World Cup matches",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-08T08:40:24.197Z"
+  },
+  {
+    "id": "b93d1dfad59a",
+    "title": "Bev Priestman: ‘You become very isolated so I’ve loved getting back on the pitch’",
+    "date": "2026-05-07",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/07/bev-priestman-wellington-phoenix-canada-olympics-spy-scandal",
+    "summary": "Bev Priestman: ‘You become very isolated so I’ve loved getting back on the pitch’",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-08T08:40:24.197Z"
+  },
+  {
     "id": "50f2451b341d",
     "title": "FIFA extends Prestianni ban to World Cup matches",
     "date": "2026-05-07",
@@ -3120,239 +3185,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-04-08T08:33:26.302Z"
-  },
-  {
-    "id": "f127e88f9b39",
-    "title": "USMNT striker Patrick Agyemang to miss World Cup after ‘serious’ achilles injury",
-    "date": "2026-04-07",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/06/patrick-agyemang-injury-usmnt-derby-county",
-    "summary": "USMNT striker Patrick Agyemang to miss World Cup after ‘serious’ achilles injury",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-09T08:39:25.554Z"
-  },
-  {
-    "id": "9bc213ac0845",
-    "title": "Mauricio Pochettino and the USMNT lose Patrick Agyemang ahead of the 2026 FIFA World Cup",
-    "date": "2026-04-07",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/world-cup/2026/04/07/69d54caa268e3ee94e8b45a7.html",
-    "summary": "Mauricio Pochettino and the USMNT lose Patrick Agyemang ahead of the 2026 FIFA World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-09T08:39:25.554Z"
-  },
-  {
-    "id": "271af06fd9d9",
-    "title": "FIFA 2026 World Cup stadium capacities: New York, Mexico City, Dallas top list",
-    "date": "2026-04-07",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/world-cup/2026/04/07/69d5458446163f5c598b45a2.html",
-    "summary": "FIFA 2026 World Cup stadium capacities: New York, Mexico City, Dallas top list",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-09T08:39:25.554Z"
-  },
-  {
-    "id": "5b004e1fb816",
-    "title": "Alexander-Arnold fails to ease Tuchel concerns as Kane stars",
-    "date": "2026-04-07",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cp38dlkl7eko?at_medium=RSS&at_campaign=rss",
-    "summary": "Alexander-Arnold fails to ease Tuchel concerns as Kane stars",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-08T08:33:26.302Z"
-  },
-  {
-    "id": "2f57acacb7f2",
-    "title": "Thousands of England & Scotland World Cup tickets on resale at inflated prices",
-    "date": "2026-04-07",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c20d5pq6zplo?at_medium=RSS&at_campaign=rss",
-    "summary": "Thousands of England & Scotland World Cup tickets on resale at inflated prices",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-08T08:33:26.302Z"
-  },
-  {
-    "id": "47864ae9e112",
-    "title": "Barry gets first England call-up as Godfrey injured",
-    "date": "2026-04-07",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cn531wzr2d1o?at_medium=RSS&at_campaign=rss",
-    "summary": "Barry gets first England call-up as Godfrey injured",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-08T08:33:26.302Z"
-  },
-  {
-    "id": "74e5d460da76",
-    "title": "Fifa starts disciplinary action over Spain v Egypt chants",
-    "date": "2026-04-07",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cwyvpnw4j1lo?at_medium=RSS&at_campaign=rss",
-    "summary": "Fifa starts disciplinary action over Spain v Egypt chants",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-08T08:33:26.302Z"
-  },
-  {
-    "id": "5d44e4ac943e",
-    "title": "Wales suffer Holland blow for World Cup qualifiers",
-    "date": "2026-04-07",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/ckg9y7777kqo?at_medium=RSS&at_campaign=rss",
-    "summary": "Wales suffer Holland blow for World Cup qualifiers",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-08T08:33:26.302Z"
-  },
-  {
-    "id": "ac315ebefdd4",
-    "title": "Derby's Agyemang to miss World Cup with Achilles injury",
-    "date": "2026-04-07",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cn531w2wdqgo?at_medium=RSS&at_campaign=rss",
-    "summary": "Derby's Agyemang to miss World Cup with Achilles injury",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-08T08:33:26.302Z"
-  },
-  {
-    "id": "2f57acacb7f2",
-    "title": "Thousands of Scotland World Cup tickets on resale at inflated prices",
-    "date": "2026-04-07",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c20d5pq6zplo?at_medium=RSS&at_campaign=rss",
-    "summary": "Thousands of Scotland World Cup tickets on resale at inflated prices",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-08T08:33:26.302Z"
-  },
-  {
-    "id": "91636202dd38",
-    "title": "McLeary replaces McAneny in Scotland squad",
-    "date": "2026-04-07",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cj947jmnr1mo?at_medium=RSS&at_campaign=rss",
-    "summary": "McLeary replaces McAneny in Scotland squad",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-08T08:33:26.302Z"
-  },
-  {
-    "id": "47864ae9e112",
-    "title": "Barry gets first England call-up as Godfrey injured",
-    "date": "2026-04-07",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cn531wzr2d1o?at_medium=RSS&at_campaign=rss",
-    "summary": "Barry gets first England call-up as Godfrey injured",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-08T08:33:26.302Z"
-  },
-  {
-    "id": "e2d69c03488a",
-    "title": "Reynolds receives first Republic of Ireland call-up",
-    "date": "2026-04-07",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/articles/cn0w98lk8yvo?at_medium=RSS&at_campaign=rss",
-    "summary": "Reynolds receives first Republic of Ireland call-up",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-08T08:33:26.302Z"
-  },
-  {
-    "id": "39e891b7a640",
-    "title": "Enzo Fernández may captain Chelsea again despite being dropped for Madrid comments",
-    "date": "2026-04-07",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/07/enzo-fernandez-may-captain-chelsea-again-despite-being-dropped-for-madrid-comments",
-    "summary": "Enzo Fernández may captain Chelsea again despite being dropped for Madrid comments",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-08T08:33:26.302Z"
-  },
-  {
-    "id": "e83f2f0edf05",
-    "title": "Harry Maguire takes wage cut to sign Manchester United contract extension",
-    "date": "2026-04-07",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/07/harry-maguire-signs-manchester-united-contract-extension",
-    "summary": "Harry Maguire takes wage cut to sign Manchester United contract extension",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-08T08:33:26.302Z"
-  },
-  {
-    "id": "42f79e5b2bb9",
-    "title": "Bay Collective to buy Sunderland Women and sets ambitious target",
-    "date": "2026-04-07",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/07/keira-barry-first-england-call-up-niamh-charles-bay-fc",
-    "summary": "Bay Collective to buy Sunderland Women and sets ambitious target",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-08T08:33:26.302Z"
-  },
-  {
-    "id": "ad6112bb035c",
-    "title": "Aaron Ramsey, former Wales captain and Arsenal midfielder, retires aged 35",
-    "date": "2026-04-07",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/07/aaron-ramsey-former-wales-captain-arsenal-midfielder-retires-35",
-    "summary": "Aaron Ramsey, former Wales captain and Arsenal midfielder, retires aged 35",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-08T08:33:26.302Z"
-  },
-  {
-    "id": "4dced7e2dbba",
-    "title": "USMNT's Agyemang stretchered off, set for scan",
-    "date": "2026-04-07",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48413159/usmnt-patrick-agyemang-stretchered-set-scans",
-    "summary": "USMNT's Agyemang stretchered off, set for scan",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-07T08:34:39.728Z"
   }
 ];
