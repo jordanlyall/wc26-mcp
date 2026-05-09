@@ -2,6 +2,84 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "4a88314ade6d",
+    "title": "Messi: Neymar one of best, has to be at WCup",
+    "date": "2026-05-09",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48712889/lionel-messi-brazil-neymar-one-best-world-cup",
+    "summary": "Messi: Neymar one of best, has to be at WCup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-09T08:39:39.200Z"
+  },
+  {
+    "id": "acc2ea5933ff",
+    "title": "Uruguay's Suarez 'would never say no' to return",
+    "date": "2026-05-09",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c0m29je332wo?at_medium=RSS&at_campaign=rss",
+    "summary": "Uruguay's Suarez 'would never say no' to return",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-09T08:39:39.200Z"
+  },
+  {
+    "id": "edf934a4f9b1",
+    "title": "Real hold talks over Mourinho return - Saturday's gossip",
+    "date": "2026-05-08",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cvgzpprdqvko?at_medium=RSS&at_campaign=rss",
+    "summary": "Real hold talks over Mourinho return - Saturday's gossip",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-09T08:39:39.200Z"
+  },
+  {
+    "id": "770a7581dfe1",
+    "title": "Brighton’s Fran Kirby: ‘Instead of running around like a headless chicken, I stand and assess’",
+    "date": "2026-05-08",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/08/brighton-fran-kirby-fa-cup-semi-final-liverpool",
+    "summary": "Brighton’s Fran Kirby: ‘Instead of running around like a headless chicken, I stand and assess’",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-09T08:39:39.200Z"
+  },
+  {
+    "id": "220170cdd7e9",
+    "title": "Fifa triples price of top World Cup final ticket to $32,970 as US politicians voice concerns",
+    "date": "2026-05-08",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/08/world-cup-final-ticket-prices-tripled-fifa",
+    "summary": "Fifa triples price of top World Cup final ticket to $32,970 as US politicians voice concerns",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-09T08:39:39.200Z"
+  },
+  {
+    "id": "b5b8cbb6ff73",
+    "title": "Canada’s Alphonso Davies out several weeks with hamstring injury as World Cup nears",
+    "date": "2026-05-08",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/08/alphonso-davies-injury-canada-world-cup",
+    "summary": "Canada’s Alphonso Davies out several weeks with hamstring injury as World Cup nears",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-09T08:39:39.200Z"
+  },
+  {
     "id": "8e231d89c83f",
     "title": "Alexander-Arnold omission 'mind-boggling' to Rooney",
     "date": "2026-05-08",
@@ -3068,122 +3146,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-04-09T08:39:25.554Z"
-  },
-  {
-    "id": "19d89d5021c1",
-    "title": "Scotland & England fans in Boston face World Cup train fare hike",
-    "date": "2026-04-08",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cly797p1399o?at_medium=RSS&at_campaign=rss",
-    "summary": "Scotland & England fans in Boston face World Cup train fare hike",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-09T08:39:25.554Z"
-  },
-  {
-    "id": "19d89d5021c1",
-    "title": "Scotland & England fans in Boston face train fare hike",
-    "date": "2026-04-08",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cly797p1399o?at_medium=RSS&at_campaign=rss",
-    "summary": "Scotland & England fans in Boston face train fare hike",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-09T08:39:25.554Z"
-  },
-  {
-    "id": "cb83dec0de94",
-    "title": "Nike’s high-tech 2026 World Cup jerseys have a shoulder problem",
-    "date": "2026-04-08",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/08/nike-world-cup-jerseys-shoulder-problem",
-    "summary": "Nike’s high-tech 2026 World Cup jerseys have a shoulder problem",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-09T08:39:25.554Z"
-  },
-  {
-    "id": "4a0a657c130e",
-    "title": "Football Daily | Madrid and Bayern burn rubber in fast and furious show at Bernabéu",
-    "date": "2026-04-08",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/08/real-madrid-bayern-munich-football-daily-newsletter",
-    "summary": "Football Daily | Madrid and Bayern burn rubber in fast and furious show at Bernabéu",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-09T08:39:25.554Z"
-  },
-  {
-    "id": "5f2792340b4b",
-    "title": "Players with the most FIFA World Cup appearances in history",
-    "date": "2026-04-08",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/world-cup/2026/04/08/69d6c716ca474104088b4572.html",
-    "summary": "Players with the most FIFA World Cup appearances in history",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-09T08:39:25.554Z"
-  },
-  {
-    "id": "c4238ba9ba1f",
-    "title": "Manuel Neuer's performance against Real Madrid has reignited the debate in Germany ahead of the 2026 World Cup",
-    "date": "2026-04-08",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/world-cup/2026/04/08/69d67c7be2704ea3328b45a0.html",
-    "summary": "Manuel Neuer's performance against Real Madrid has reignited the debate in Germany ahead of the 2026 World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-09T08:39:25.554Z"
-  },
-  {
-    "id": "682035f5bad3",
-    "title": "Brazil: when and where they will play the group stage",
-    "date": "2026-04-08",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/world-cup/2026/04/08/69d5b5c346163fd80f8b456c.html",
-    "summary": "Brazil: when and where they will play the group stage",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-09T08:39:25.554Z"
-  },
-  {
-    "id": "f1b0884ae527",
-    "title": "USMNT's Agyemang (Achilles tendon) out of WC",
-    "date": "2026-04-08",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48419832/usa-patrick-agyemang-world-cup-achilles-tendon-injury",
-    "summary": "USMNT's Agyemang (Achilles tendon) out of WC",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-08T08:33:26.302Z"
-  },
-  {
-    "id": "e041d3d83e3d",
-    "title": "Pochettino's to-do list: What the USMNT must figure out before World Cup",
-    "date": "2026-04-08",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48412597/mauricio-pochettino-do-list-usmnt-figure-2026-fifa-world-cup",
-    "summary": "Pochettino's to-do list: What the USMNT must figure out before World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-08T08:33:26.302Z"
   }
 ];
