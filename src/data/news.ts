@@ -2,6 +2,45 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "ace747392ea6",
+    "title": "How could extreme weather affect World Cup 2026?",
+    "date": "2026-05-10",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/weather/articles/ce9p8m9xz13o?at_medium=RSS&at_campaign=rss",
+    "summary": "How could extreme weather affect World Cup 2026?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-10T08:43:37.221Z"
+  },
+  {
+    "id": "8f518216cba1",
+    "title": "Is the Premier League starting to gobble up Uefa’s lower-tier competitions? | Nick Ames",
+    "date": "2026-05-10",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/10/is-premier-league-gobble-up-uefa-lower-tier-competitions",
+    "summary": "Is the Premier League starting to gobble up Uefa’s lower-tier competitions? | Nick Ames",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-10T08:43:37.221Z"
+  },
+  {
+    "id": "d45767ca498f",
+    "title": "‘Keep fighting for the badge’: Arbeloa makes passionate defence of Real Madrid fight duo",
+    "date": "2026-05-09",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/09/keep-fighting-for-the-badge-arbeloa-makes-passionate-defence-of-real-madrid-fight-duo",
+    "summary": "‘Keep fighting for the badge’: Arbeloa makes passionate defence of Real Madrid fight duo",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-10T08:43:37.221Z"
+  },
+  {
     "id": "4a88314ade6d",
     "title": "Messi: Neymar one of best, has to be at WCup",
     "date": "2026-05-09",
@@ -2964,187 +3003,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-04-11T08:18:47.338Z"
-  },
-  {
-    "id": "228f09b53601",
-    "title": "'Hungry' Watkins is man on mission - but will Tuchel take notice?",
-    "date": "2026-04-09",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cx2rdd3pv7eo?at_medium=RSS&at_campaign=rss",
-    "summary": "'Hungry' Watkins is man on mission - but will Tuchel take notice?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-10T08:38:57.114Z"
-  },
-  {
-    "id": "ae6895998528",
-    "title": "Estevao could be Brazil's World Cup's surprise - Davide Ancelotti",
-    "date": "2026-04-09",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cjd8r27e48mo?at_medium=RSS&at_campaign=rss",
-    "summary": "Estevao could be Brazil's World Cup's surprise - Davide Ancelotti",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-10T08:38:57.114Z"
-  },
-  {
-    "id": "00e01bc3f12b",
-    "title": "Football Daily",
-    "date": "2026-04-09",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sounds/play/p0nckjkm?at_medium=RSS&at_campaign=rss",
-    "summary": "Football Daily",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-10T08:38:57.114Z"
-  },
-  {
-    "id": "b2a612d6ebe6",
-    "title": "Scotland confirm final World Cup warm-up against Bolivia - live on BBC",
-    "date": "2026-04-09",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cm25yp3k8vlo?at_medium=RSS&at_campaign=rss",
-    "summary": "Scotland confirm final World Cup warm-up against Bolivia - live on BBC",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-10T08:38:57.114Z"
-  },
-  {
-    "id": "7aae7d85a045",
-    "title": "Bedford on 'full circle' moment in England career",
-    "date": "2026-04-09",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c8x7dgvwww1o?at_medium=RSS&at_campaign=rss",
-    "summary": "Bedford on 'full circle' moment in England career",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-10T08:38:57.114Z"
-  },
-  {
-    "id": "b2a612d6ebe6",
-    "title": "Scotland confirm final World Cup warm-up against Bolivia - live on BBC",
-    "date": "2026-04-09",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cm25yp3k8vlo?at_medium=RSS&at_campaign=rss",
-    "summary": "Scotland confirm final World Cup warm-up against Bolivia - live on BBC",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-10T08:38:57.114Z"
-  },
-  {
-    "id": "7aae7d85a045",
-    "title": "Bedford on 'full circle' moment in England career",
-    "date": "2026-04-09",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c8x7dgvwww1o?at_medium=RSS&at_campaign=rss",
-    "summary": "Bedford on 'full circle' moment in England career",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-10T08:38:57.114Z"
-  },
-  {
-    "id": "4727e3dc0905",
-    "title": "Liverpool announce Andy Robertson will leave at the end of the season",
-    "date": "2026-04-09",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/09/andy-robertson-to-leave-liverpool-at-end-of-season",
-    "summary": "Liverpool announce Andy Robertson will leave at the end of the season",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-10T08:38:57.114Z"
-  },
-  {
-    "id": "89bfb8b4dd0f",
-    "title": "Julián Alvarez is proving that he’s more than second fiddle | Jeff Rueter",
-    "date": "2026-04-09",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/09/julian-alvarez-is-proving-that-hes-more-than-second-fiddle",
-    "summary": "Julián Alvarez is proving that he’s more than second fiddle | Jeff Rueter",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-10T08:38:57.114Z"
-  },
-  {
-    "id": "adfe8c354b2f",
-    "title": "American Samoa’s Women’s World Cup fairytale takes them from ‘underdog to dark horse’",
-    "date": "2026-04-09",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/09/american-samoa-womens-world-cup-fairytale-moving-the-goalposts",
-    "summary": "American Samoa’s Women’s World Cup fairytale takes them from ‘underdog to dark horse’",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-10T08:38:57.114Z"
-  },
-  {
-    "id": "683ddb3cdd71",
-    "title": "Champions League review: a brilliant Georgian, Bayern’s regret and Arsenal refind their faith",
-    "date": "2026-04-09",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/09/champions-league-review-arsenal-bayern-liverpool-psg-real-madrid",
-    "summary": "Champions League review: a brilliant Georgian, Bayern’s regret and Arsenal refind their faith",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-10T08:38:57.114Z"
-  },
-  {
-    "id": "28cfc4e389b2",
-    "title": "Football Daily | Liverpool get ripped apart again in an 'anti-football' beatdown",
-    "date": "2026-04-09",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/09/football-daily-email-liverpool-psg",
-    "summary": "Football Daily | Liverpool get ripped apart again in an 'anti-football' beatdown",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-10T08:38:57.114Z"
-  },
-  {
-    "id": "e5361d01d084",
-    "title": "Suárez, 39, open to Uruguay return for World Cup",
-    "date": "2026-04-09",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48431580/luis-suarez-uruguay-inter-miami-2026-world-cup-retire",
-    "summary": "Suárez, 39, open to Uruguay return for World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-09T08:39:25.554Z"
-  },
-  {
-    "id": "1f9ffd187867",
-    "title": "Drones, hype videos and data: The number crunchers behind the USMNT's World Cup prep",
-    "date": "2026-04-09",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48412954/drones-hype-videos-data-number-crunchers-usmnt-fifa-world-cup-preparations",
-    "summary": "Drones, hype videos and data: The number crunchers behind the USMNT's World Cup prep",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-09T08:39:25.554Z"
   }
 ];
