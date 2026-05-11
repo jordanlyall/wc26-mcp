@@ -2,6 +2,58 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "221471df7695",
+    "title": "The summer a golden generation lost its shine",
+    "date": "2026-05-11",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/extra/60s97qhdbf/the-golden-generation?at_medium=RSS&at_campaign=rss",
+    "summary": "The summer a golden generation lost its shine",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-11T09:20:16.701Z"
+  },
+  {
+    "id": "2a2b6e33c3aa",
+    "title": "How the 'WAGs' came to define England's 2006 World Cup campaign",
+    "date": "2026-05-11",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/videos/cdrpx2k233do?at_medium=RSS&at_campaign=rss",
+    "summary": "How the 'WAGs' came to define England's 2006 World Cup campaign",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-11T09:20:16.701Z"
+  },
+  {
+    "id": "20fb978cc74e",
+    "title": "World Cup debutants to wear collectable patches on shirts",
+    "date": "2026-05-10",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cqjp7enez4yo?at_medium=RSS&at_campaign=rss",
+    "summary": "World Cup debutants to wear collectable patches on shirts",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-11T09:20:16.701Z"
+  },
+  {
+    "id": "a027a19dde3e",
+    "title": "Fifa World Cup matches face heightened terror risk in US amid Iran conflict",
+    "date": "2026-05-10",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/10/fifa-world-cup-terrorism-risk-iran-war",
+    "summary": "Fifa World Cup matches face heightened terror risk in US amid Iran conflict",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-11T09:20:16.701Z"
+  },
+  {
     "id": "ace747392ea6",
     "title": "How could extreme weather affect World Cup 2026?",
     "date": "2026-05-10",
@@ -2907,97 +2959,6 @@ export const news: NewsItem[] = [
     "source": "The Guardian",
     "url": "https://www.theguardian.com/football/2026/apr/11/elliot-anderson-nottingham-forest-england",
     "summary": "‘His car stunk of fish for weeks’: Elliot Anderson on practical jokes and his World Cup dream",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-11T08:18:47.338Z"
-  },
-  {
-    "id": "f56848911138",
-    "title": "Liverpool to sign Germany forward Endemann in July",
-    "date": "2026-04-10",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c4gd4nj0nkno?at_medium=RSS&at_campaign=rss",
-    "summary": "Liverpool to sign Germany forward Endemann in July",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-11T08:18:47.338Z"
-  },
-  {
-    "id": "4e3522ad2244",
-    "title": "Wales' Ingle back to best after injury woe",
-    "date": "2026-04-10",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cpwjkq4exxko?at_medium=RSS&at_campaign=rss",
-    "summary": "Wales' Ingle back to best after injury woe",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-11T08:18:47.338Z"
-  },
-  {
-    "id": "4e3522ad2244",
-    "title": "Wales' Ingle back to best after injury woe",
-    "date": "2026-04-10",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cpwjkq4exxko?at_medium=RSS&at_campaign=rss",
-    "summary": "Wales' Ingle back to best after injury woe",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-11T08:18:47.338Z"
-  },
-  {
-    "id": "f56848911138",
-    "title": "Liverpool to sign Germany forward Endemann in July",
-    "date": "2026-04-10",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c4gd4nj0nkno?at_medium=RSS&at_campaign=rss",
-    "summary": "Liverpool to sign Germany forward Endemann in July",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-11T08:18:47.338Z"
-  },
-  {
-    "id": "751eee5a5854",
-    "title": "Goodbye and thanks to Aaron Ramsey, a shoo-in for all-time Wales XI | Elis James",
-    "date": "2026-04-10",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/10/goodbye-to-the-rare-talent-aaron-ramsey-aka-the-biggest-what-if-in-history-of-wales-football",
-    "summary": "Goodbye and thanks to Aaron Ramsey, a shoo-in for all-time Wales XI | Elis James",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-11T08:18:47.338Z"
-  },
-  {
-    "id": "24c17ac3d866",
-    "title": "Women’s football in England at risk without WSL academy teams in third tier, FA claims",
-    "date": "2026-04-10",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/10/womens-football-england-risk-wsl-academy-teams-third-tier-fa",
-    "summary": "Women’s football in England at risk without WSL academy teams in third tier, FA claims",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-11T08:18:47.338Z"
-  },
-  {
-    "id": "acc3eb0e8fdb",
-    "title": "Football Daily | Enzo Fernández and Chelsea’s very English approach to playing happy families",
-    "date": "2026-04-10",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/10/enzo-fernandez-chelsea-football-daily-newsletter",
-    "summary": "Football Daily | Enzo Fernández and Chelsea’s very English approach to playing happy families",
     "categories": [
       "general"
     ],
