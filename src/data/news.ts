@@ -2,6 +2,71 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "2d5b5e5ee1b3",
+    "title": "‘As good as any feeling I had in football’: Nigel Martyn on swapping goalkeeping for a red England cricket cap",
+    "date": "2026-05-11",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/sport/2026/may/11/nigel-martyn-former-england-goalkeeper-leeds-everton-crystal-palace-seniors-cricket",
+    "summary": "‘As good as any feeling I had in football’: Nigel Martyn on swapping goalkeeping for a red England cricket cap",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-12T09:06:20.270Z"
+  },
+  {
+    "id": "62dd953203ac",
+    "title": "Soaring World Cup ticket prices for players’ families and guests leave several FAs stunned",
+    "date": "2026-05-11",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/11/world-cup-2026-ticket-prices-fifa-sport-politics",
+    "summary": "Soaring World Cup ticket prices for players’ families and guests leave several FAs stunned",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-12T09:06:20.270Z"
+  },
+  {
+    "id": "e4b3821eea04",
+    "title": "West Ham to lodge complaint with referee chiefs over disallowed goal against Arsenal",
+    "date": "2026-05-11",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/11/west-ham-complain-referee-disallowed-goal-arsenal-pgmo",
+    "summary": "West Ham to lodge complaint with referee chiefs over disallowed goal against Arsenal",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-12T09:06:20.270Z"
+  },
+  {
+    "id": "41ca45d05afe",
+    "title": "Arsenal edge closer to title and ‘spygate’ overshadows playoffs | Football Weekly video",
+    "date": "2026-05-11",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/video/2026/may/11/arsenal-edge-closer-to-title-and-spygate-overshadows-playoffs-football-weekly-video",
+    "summary": "Arsenal edge closer to title and ‘spygate’ overshadows playoffs | Football Weekly video",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-12T09:06:20.270Z"
+  },
+  {
+    "id": "9f351c2cf236",
+    "title": "New England’s Revolution are a surprise contender: MLS weekend wrap",
+    "date": "2026-05-11",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/11/mls-weekend-wrap-new-england-revolution-james-rodriguez-minnesota-united",
+    "summary": "New England’s Revolution are a surprise contender: MLS weekend wrap",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-12T09:06:20.270Z"
+  },
+  {
     "id": "221471df7695",
     "title": "The summer a golden generation lost its shine",
     "date": "2026-05-11",
@@ -2873,96 +2938,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-04-12T08:23:12.420Z"
-  },
-  {
-    "id": "92f485f017f7",
-    "title": "New faces pushing Wales - and why game in Wrexham is so important",
-    "date": "2026-04-11",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/ckgekdxnzndo?at_medium=RSS&at_campaign=rss",
-    "summary": "New faces pushing Wales - and why game in Wrexham is so important",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-12T08:23:12.420Z"
-  },
-  {
-    "id": "e4ee442ca631",
-    "title": "Uncapped Chambers deserves NI chance - Bell",
-    "date": "2026-04-11",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cpd567l25j2o?at_medium=RSS&at_campaign=rss",
-    "summary": "Uncapped Chambers deserves NI chance - Bell",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-12T08:23:12.420Z"
-  },
-  {
-    "id": "ec098df2a886",
-    "title": "Lotte Wubben-Moy finds ‘perfect storm’ to show she is more than England stand-in",
-    "date": "2026-04-11",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/11/lotte-wubben-moy-england-arsenal-tao-geoghegan-hart",
-    "summary": "Lotte Wubben-Moy finds ‘perfect storm’ to show she is more than England stand-in",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-12T08:23:12.420Z"
-  },
-  {
-    "id": "2f1105aa160e",
-    "title": "Hayes: Wilson ready for U.S.-Japan triple-header",
-    "date": "2026-04-11",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48449649/sophia-wilson-uswnt-comeback-japan-emma-hayes",
-    "summary": "Hayes: Wilson ready for U.S.-Japan triple-header",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-11T08:18:47.338Z"
-  },
-  {
-    "id": "897a757d1c9c",
-    "title": "Lyon coach 'not satisfied' with Brazil teen Endrick",
-    "date": "2026-04-11",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48448378/lyon-coach-fonseca-not-satisfied-brazil-teen-endrick",
-    "summary": "Lyon coach 'not satisfied' with Brazil teen Endrick",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-11T08:18:47.338Z"
-  },
-  {
-    "id": "aa9ed71d77ba",
-    "title": "This season my toughest moment - Watkins",
-    "date": "2026-04-11",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/videos/cge054lj31yo?at_medium=RSS&at_campaign=rss",
-    "summary": "This season my toughest moment - Watkins",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-11T08:18:47.338Z"
-  },
-  {
-    "id": "d898ed6d5222",
-    "title": "‘His car stunk of fish for weeks’: Elliot Anderson on practical jokes and his World Cup dream",
-    "date": "2026-04-11",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/11/elliot-anderson-nottingham-forest-england",
-    "summary": "‘His car stunk of fish for weeks’: Elliot Anderson on practical jokes and his World Cup dream",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-11T08:18:47.338Z"
   }
 ];
