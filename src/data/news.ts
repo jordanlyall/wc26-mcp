@@ -2,6 +2,175 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "44368611ddd7",
+    "title": "Carlo Ancelotti: ‘Neymar’s call-up depends only on him and what he shows on the pitch’",
+    "date": "2026-05-13",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/13/carlo-ancelotti-brazil-world-cup-vinicius-junior-neymar-interview",
+    "summary": "Carlo Ancelotti: ‘Neymar’s call-up depends only on him and what he shows on the pitch’",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-13T09:11:07.148Z"
+  },
+  {
+    "id": "b7b254bc925e",
+    "title": "Personalised chopsticks and underwater treadmills: Manchester City Women find new ways to win",
+    "date": "2026-05-13",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/13/manchester-city-women-new-training-facility",
+    "summary": "Personalised chopsticks and underwater treadmills: Manchester City Women find new ways to win",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-13T09:11:07.148Z"
+  },
+  {
+    "id": "42a1d44e0e3e",
+    "title": "Ted Lasso actor Cristo Fernández signs contract with professional US club",
+    "date": "2026-05-13",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/13/ted-lasso-cristo-fernandez-contract-professional-us-soccer-club",
+    "summary": "Ted Lasso actor Cristo Fernández signs contract with professional US club",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-13T09:11:07.148Z"
+  },
+  {
+    "id": "5b5dd5fd0c14",
+    "title": "Tuchel submits 55-man provisional World Cup squad",
+    "date": "2026-05-12",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c0e2p7l2w0no?at_medium=RSS&at_campaign=rss",
+    "summary": "Tuchel submits 55-man provisional World Cup squad",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-13T09:11:07.148Z"
+  },
+  {
+    "id": "3c17cf8b1075",
+    "title": "White out for season and set to miss World Cup",
+    "date": "2026-05-12",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c0m28g07m39o?at_medium=RSS&at_campaign=rss",
+    "summary": "White out for season and set to miss World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-13T09:11:07.148Z"
+  },
+  {
+    "id": "97364169f1a8",
+    "title": "Isak and Gyokeres named in Sweden World Cup squad",
+    "date": "2026-05-12",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c3r29z5yz79o?at_medium=RSS&at_campaign=rss",
+    "summary": "Isak and Gyokeres named in Sweden World Cup squad",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-13T09:11:07.148Z"
+  },
+  {
+    "id": "85164d2acd2f",
+    "title": "Scotland to play Israel behind closed doors in Hungary ",
+    "date": "2026-05-12",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c1j2w09rlwxo?at_medium=RSS&at_campaign=rss",
+    "summary": "Scotland to play Israel behind closed doors in Hungary ",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-13T09:11:07.148Z"
+  },
+  {
+    "id": "632edc682a93",
+    "title": "Guardiola wants City players to raise their game rather than trust ‘flip of a coin’ officials",
+    "date": "2026-05-12",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/12/guardiola-wants-city-players-to-raise-their-game-rather-than-trust-flip-of-a-coin-officials",
+    "summary": "Guardiola wants City players to raise their game rather than trust ‘flip of a coin’ officials",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-13T09:11:07.148Z"
+  },
+  {
+    "id": "df6db2326630",
+    "title": "Frank and Postecoglou going head to head as BBC and ITV pundits for World Cup",
+    "date": "2026-05-12",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/12/world-cup-2026-pundits-bbc-itv-thomas-frank-ange-postecoglou",
+    "summary": "Frank and Postecoglou going head to head as BBC and ITV pundits for World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-13T09:11:07.148Z"
+  },
+  {
+    "id": "30133291d51a",
+    "title": "Dick Advocaat returns to Curaçao job in time for World Cup 2026 adventure",
+    "date": "2026-05-12",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/12/dick-advocaat-returns-curacao-world-cup-2026-adventure",
+    "summary": "Dick Advocaat returns to Curaçao job in time for World Cup 2026 adventure",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-13T09:11:07.148Z"
+  },
+  {
+    "id": "243476ed1f7e",
+    "title": "Arsenal’s Ben White ruled out for rest of season and facing World Cup woe",
+    "date": "2026-05-12",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/12/arsenal-ben-white-to-miss-remainder-of-season-and-world-cup-with-knee-injury",
+    "summary": "Arsenal’s Ben White ruled out for rest of season and facing World Cup woe",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-13T09:11:07.148Z"
+  },
+  {
+    "id": "d5ed3dd71cd6",
+    "title": "World Cup 2026: is it possible to walk to MetLife Stadium from New York City? – video",
+    "date": "2026-05-12",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/video/2026/may/12/world-cup-2026-is-it-possible-to-walk-to-metlife-stadium-from-new-york-city-video",
+    "summary": "World Cup 2026: is it possible to walk to MetLife Stadium from New York City? – video",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-13T09:11:07.148Z"
+  },
+  {
+    "id": "8eafd2ad99c0",
+    "title": "I wrote a book about the last 40 years of US men’s soccer. Here is what I learned | Leander Schaerlaeckens",
+    "date": "2026-05-12",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/12/usmnt-history-book",
+    "summary": "I wrote a book about the last 40 years of US men’s soccer. Here is what I learned | Leander Schaerlaeckens",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-13T09:11:07.148Z"
+  },
+  {
     "id": "2d5b5e5ee1b3",
     "title": "‘As good as any feeling I had in football’: Nigel Martyn on swapping goalkeeping for a red England cricket cap",
     "date": "2026-05-11",
@@ -2860,83 +3029,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-04-13T08:50:43.818Z"
-  },
-  {
-    "id": "832d0e339f1a",
-    "title": "Luton break Stockport hearts in Vertu Trophy final to give Wilshere first silverware as manager",
-    "date": "2026-04-12",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/12/luton-win-vertu-trophy-as-nahki-wells-double-breaks-stockport-hearts",
-    "summary": "Luton break Stockport hearts in Vertu Trophy final to give Wilshere first silverware as manager",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-13T08:50:43.818Z"
-  },
-  {
-    "id": "234405d53ad4",
-    "title": "Cristian Romero could suffer serious injury after dirty push: Argentina on edge over center-back ahead of the World Cup",
-    "date": "2026-04-12",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/world-cup/2026/04/12/69dbc491e2704edd618b457d.html",
-    "summary": "Cristian Romero could suffer serious injury after dirty push: Argentina on edge over center-back ahead of the World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-13T08:50:43.818Z"
-  },
-  {
-    "id": "70a520acef56",
-    "title": "Hulk isn't helping Neymar make Brazil World Cup squad with a response that'll leave Ancelotti with even more doubts",
-    "date": "2026-04-12",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/world-cup/2026/04/12/69db5967e2704ee06e8b4585.html",
-    "summary": "Hulk isn't helping Neymar make Brazil World Cup squad with a response that'll leave Ancelotti with even more doubts",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-13T08:50:43.818Z"
-  },
-  {
-    "id": "5d45aef051fb",
-    "title": "Wales told to show up in Albania qualifiers",
-    "date": "2026-04-12",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/ce35kw0d89lo?at_medium=RSS&at_campaign=rss",
-    "summary": "Wales told to show up in Albania qualifiers",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-12T08:23:12.420Z"
-  },
-  {
-    "id": "5d45aef051fb",
-    "title": "Wales told to show up in Albania qualifiers",
-    "date": "2026-04-12",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/ce35kw0d89lo?at_medium=RSS&at_campaign=rss",
-    "summary": "Wales told to show up in Albania qualifiers",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-12T08:23:12.420Z"
-  },
-  {
-    "id": "ae67867101f8",
-    "title": "Wasted weekend takes wind out of WSL’s sails … and get ready for more",
-    "date": "2026-04-12",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/12/wasted-weekend-international-break-womens-super-league-football",
-    "summary": "Wasted weekend takes wind out of WSL’s sails … and get ready for more",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-12T08:23:12.420Z"
   }
 ];
