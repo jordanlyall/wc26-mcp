@@ -2,6 +2,58 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "39bb8da8a265",
+    "title": "US drops $15,000 visa deposit for foreign fans with World Cup tickets",
+    "date": "2026-05-14",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/news/articles/c392dj4xwy4o?at_medium=RSS&at_campaign=rss",
+    "summary": "US drops $15,000 visa deposit for foreign fans with World Cup tickets",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-14T09:04:42.251Z"
+  },
+  {
+    "id": "bafc5e1bf83b",
+    "title": "How hot will it be at the 2026 World Cup and is it dangerous for players and fans?",
+    "date": "2026-05-14",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/news/datablog/ng-interactive/2026/may/14/world-cup-us-canada-mexico-how-hot-will-it-be-dangerous-for-players-fans-temperature",
+    "summary": "How hot will it be at the 2026 World Cup and is it dangerous for players and fans?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-14T09:04:42.251Z"
+  },
+  {
+    "id": "70ddd4e2ff82",
+    "title": "World Cup transport prices cut after fan backlash",
+    "date": "2026-05-13",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c3w2nqz9nn3o?at_medium=RSS&at_campaign=rss",
+    "summary": "World Cup transport prices cut after fan backlash",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-14T09:04:42.251Z"
+  },
+  {
+    "id": "c4c16147bb36",
+    "title": "Scotland await Conway news before Tuesday squad announcement",
+    "date": "2026-05-13",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c9q3ylqxep2o?at_medium=RSS&at_campaign=rss",
+    "summary": "Scotland await Conway news before Tuesday squad announcement",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-14T09:04:42.251Z"
+  },
+  {
     "id": "44368611ddd7",
     "title": "Carlo Ancelotti: ‘Neymar’s call-up depends only on him and what he shows on the pitch’",
     "date": "2026-05-13",
@@ -2847,187 +2899,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-04-14T08:41:41.963Z"
-  },
-  {
-    "id": "3693948c6d28",
-    "title": "How crucial is 99-cap Walsh to the Lionesses?",
-    "date": "2026-04-13",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cj40qw1ennwo?at_medium=RSS&at_campaign=rss",
-    "summary": "How crucial is 99-cap Walsh to the Lionesses?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-14T08:41:41.963Z"
-  },
-  {
-    "id": "755c017e0b14",
-    "title": "Ghana appoint ex-Man Utd assistant Queiroz as coach",
-    "date": "2026-04-13",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cwyw6z2vw33o?at_medium=RSS&at_campaign=rss",
-    "summary": "Ghana appoint ex-Man Utd assistant Queiroz as coach",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-14T08:41:41.963Z"
-  },
-  {
-    "id": "9086ac922447",
-    "title": "Andreatta '500% sure' Scotland will reach major finals",
-    "date": "2026-04-13",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c248dm5l0g8o?at_medium=RSS&at_campaign=rss",
-    "summary": "Andreatta '500% sure' Scotland will reach major finals",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-14T08:41:41.963Z"
-  },
-  {
-    "id": "99c1ed21d7f7",
-    "title": "Wilkinson challenges Wales to fill Holland void ",
-    "date": "2026-04-13",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cq8wg4w4xqxo?at_medium=RSS&at_campaign=rss",
-    "summary": "Wilkinson challenges Wales to fill Holland void ",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-14T08:41:41.963Z"
-  },
-  {
-    "id": "9086ac922447",
-    "title": "Andreatta '500% sure' Scotland will reach major finals",
-    "date": "2026-04-13",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c248dm5l0g8o?at_medium=RSS&at_campaign=rss",
-    "summary": "Andreatta '500% sure' Scotland will reach major finals",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-14T08:41:41.963Z"
-  },
-  {
-    "id": "99c1ed21d7f7",
-    "title": "Wilkinson challenges Wales to fill Holland void ",
-    "date": "2026-04-13",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cq8wg4w4xqxo?at_medium=RSS&at_campaign=rss",
-    "summary": "Wilkinson challenges Wales to fill Holland void ",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-14T08:41:41.963Z"
-  },
-  {
-    "id": "3693948c6d28",
-    "title": "How crucial is 99-cap Walsh to the Lionesses?",
-    "date": "2026-04-13",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cj40qw1ennwo?at_medium=RSS&at_campaign=rss",
-    "summary": "How crucial is 99-cap Walsh to the Lionesses?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-14T08:41:41.963Z"
-  },
-  {
-    "id": "16fc87fbfd64",
-    "title": "Much-changed Spain will still test England in first meeting since Euro 2025 final",
-    "date": "2026-04-13",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/13/spain-much-changed-but-dna-will-test-england-in-first-clash-since-euro-2025-final",
-    "summary": "Much-changed Spain will still test England in first meeting since Euro 2025 final",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-14T08:41:41.963Z"
-  },
-  {
-    "id": "599b7e17d003",
-    "title": "Not over, but done: Lamine Yamal all smiles as he guides Barcelona to verge of title | Sid Lowe",
-    "date": "2026-04-13",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/13/lamine-yamal-all-smiles-as-he-guides-barcelona-to-verge-of-title-la-liga",
-    "summary": "Not over, but done: Lamine Yamal all smiles as he guides Barcelona to verge of title | Sid Lowe",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-14T08:41:41.963Z"
-  },
-  {
-    "id": "2447e49605cb",
-    "title": "Messi and Scaloni now know the extent of Cuti Romero's injury: World Cup on the line",
-    "date": "2026-04-13",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/world-cup/2026/04/13/69dd0b31268e3e897a8b458b.html",
-    "summary": "Messi and Scaloni now know the extent of Cuti Romero's injury: World Cup on the line",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-14T08:41:41.963Z"
-  },
-  {
-    "id": "654b2f4a1105",
-    "title": "Argentina's Romero limps off Spurs' loss in tears",
-    "date": "2026-04-13",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48467778/argentina-defender-cristian-romero-injured-tottenham-loss",
-    "summary": "Argentina's Romero limps off Spurs' loss in tears",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-13T08:50:43.818Z"
-  },
-  {
-    "id": "8076ca5f88e6",
-    "title": "Weir on World Cup dreams, coaching kids in Fife & Empire Biscuits",
-    "date": "2026-04-13",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c2evpjz3m19o?at_medium=RSS&at_campaign=rss",
-    "summary": "Weir on World Cup dreams, coaching kids in Fife & Empire Biscuits",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-13T08:50:43.818Z"
-  },
-  {
-    "id": "8076ca5f88e6",
-    "title": "Weir on World Cup dreams, coaching kids in Fife & Empire Biscuits",
-    "date": "2026-04-13",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c2evpjz3m19o?at_medium=RSS&at_campaign=rss",
-    "summary": "Weir on World Cup dreams, coaching kids in Fife & Empire Biscuits",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-13T08:50:43.818Z"
-  },
-  {
-    "id": "8076ca5f88e6",
-    "title": "Weir on World Cup dreams, coaching kids in Fife & Empire Biscuits",
-    "date": "2026-04-13",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c2evpjz3m19o?at_medium=RSS&at_campaign=rss",
-    "summary": "Weir on World Cup dreams, coaching kids in Fife & Empire Biscuits",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-13T08:50:43.818Z"
   }
 ];
