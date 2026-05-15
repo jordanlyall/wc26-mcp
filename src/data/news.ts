@@ -2,6 +2,84 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "0b51d3554d89",
+    "title": "Injured Mitoma left out of Japan World Cup squad",
+    "date": "2026-05-15",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/ckgpez39k50o?at_medium=RSS&at_campaign=rss",
+    "summary": "Injured Mitoma left out of Japan World Cup squad",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-15T09:13:28.929Z"
+  },
+  {
+    "id": "4b5f26db6790",
+    "title": "Ancelotti extends Brazil contract until 2030",
+    "date": "2026-05-14",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/ce8p7ejjdvvo?at_medium=RSS&at_campaign=rss",
+    "summary": "Ancelotti extends Brazil contract until 2030",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-15T09:13:28.929Z"
+  },
+  {
+    "id": "7e846ce2a7a3",
+    "title": "Mbappe and Dembele lead France World Cup squad",
+    "date": "2026-05-14",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c9d307x3q54o?at_medium=RSS&at_campaign=rss",
+    "summary": "Mbappe and Dembele lead France World Cup squad",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-15T09:13:28.929Z"
+  },
+  {
+    "id": "623a91cec3d5",
+    "title": "How Tuchel wowed the FA during secret meeting at Munich airport",
+    "date": "2026-05-14",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/14/thomas-tuchel-england-fa-rob-draper-book-extract",
+    "summary": "How Tuchel wowed the FA during secret meeting at Munich airport",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-15T09:13:28.929Z"
+  },
+  {
+    "id": "9bc184266517",
+    "title": "Arteta hoping Timber will win fitness race for Champions League final",
+    "date": "2026-05-14",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/14/mikel-arteta-arsenal-jurrien-timber-champions-league-final",
+    "summary": "Arteta hoping Timber will win fitness race for Champions League final",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-15T09:13:28.929Z"
+  },
+  {
+    "id": "a7d3e6ee7df9",
+    "title": "How the Kinetic Foundation helped launch McFarlane’s rise at Chelsea",
+    "date": "2026-05-14",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/14/how-the-kinetic-foundation-helped-launch-mcfarlanes-meteoric-rise",
+    "summary": "How the Kinetic Foundation helped launch McFarlane’s rise at Chelsea",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-15T09:13:28.929Z"
+  },
+  {
     "id": "39bb8da8a265",
     "title": "US drops $15,000 visa deposit for foreign fans with World Cup tickets",
     "date": "2026-05-14",
@@ -2717,187 +2795,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-04-15T08:42:01.489Z"
-  },
-  {
-    "id": "36cc9f06e87f",
-    "title": "Slot fears Ekitike injury is 'really bad'",
-    "date": "2026-04-14",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cx2dd3z9lddo?at_medium=RSS&at_campaign=rss",
-    "summary": "Slot fears Ekitike injury is 'really bad'",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-15T08:42:01.489Z"
-  },
-  {
-    "id": "899e87f19612",
-    "title": "McArdle praises NI's 'intent' in big win over Malta",
-    "date": "2026-04-14",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/articles/ce9mmrjy17ko?at_medium=RSS&at_campaign=rss",
-    "summary": "McArdle praises NI's 'intent' in big win over Malta",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-15T08:42:01.489Z"
-  },
-  {
-    "id": "edd625ffff5c",
-    "title": "Shelvey to quit playing and manage UAE minnows",
-    "date": "2026-04-14",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/clyjj2pjdypo?at_medium=RSS&at_campaign=rss",
-    "summary": "Shelvey to quit playing and manage UAE minnows",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-15T08:42:01.489Z"
-  },
-  {
-    "id": "cfac10e2da48",
-    "title": "Wales must take care of own business - Wilkinson ",
-    "date": "2026-04-14",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cedee5evy93o?at_medium=RSS&at_campaign=rss",
-    "summary": "Wales must take care of own business - Wilkinson ",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-15T08:42:01.489Z"
-  },
-  {
-    "id": "6abae4977d77",
-    "title": "Walsh hits century - but who has most England Women caps?",
-    "date": "2026-04-14",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c705n7kz725o?at_medium=RSS&at_campaign=rss",
-    "summary": "Walsh hits century - but who has most England Women caps?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-15T08:42:01.489Z"
-  },
-  {
-    "id": "34cbe613b8dc",
-    "title": "Irish deserve praise for victory in Poland - Ward",
-    "date": "2026-04-14",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cjd88zypjm9o?at_medium=RSS&at_campaign=rss",
-    "summary": "Irish deserve praise for victory in Poland - Ward",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-15T08:42:01.489Z"
-  },
-  {
-    "id": "cfac10e2da48",
-    "title": "Wales must take care of own business - Wilkinson ",
-    "date": "2026-04-14",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cedee5evy93o?at_medium=RSS&at_campaign=rss",
-    "summary": "Wales must take care of own business - Wilkinson ",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-15T08:42:01.489Z"
-  },
-  {
-    "id": "6abae4977d77",
-    "title": "Walsh hits century - but who has most England Women caps?",
-    "date": "2026-04-14",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c705n7kz725o?at_medium=RSS&at_campaign=rss",
-    "summary": "Walsh hits century - but who has most England Women caps?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-15T08:42:01.489Z"
-  },
-  {
-    "id": "5c8fa868f779",
-    "title": "Return trip from NYC to World Cup final stadium could cost $100 during tournament",
-    "date": "2026-04-14",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/14/nj-transit-train-tickets-prices-new-york-world-cup",
-    "summary": "Return trip from NYC to World Cup final stadium could cost $100 during tournament",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-15T08:42:01.489Z"
-  },
-  {
-    "id": "1f07fe223285",
-    "title": "Hemp leads England past Spain to boost Women’s World Cup qualifying hopes",
-    "date": "2026-04-14",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/14/england-spain-womens-world-cup-2027-qualifying-match-report",
-    "summary": "Hemp leads England past Spain to boost Women’s World Cup qualifying hopes",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-15T08:42:01.489Z"
-  },
-  {
-    "id": "92c9a1f5350d",
-    "title": "Lionel Messi's injury relief arrives as Argentina receives unexpected boost before World Cup 2026",
-    "date": "2026-04-14",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/world-cup/2026/04/14/69dea9c2e2704e0b778b4573.html",
-    "summary": "Lionel Messi's injury relief arrives as Argentina receives unexpected boost before World Cup 2026",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-15T08:42:01.489Z"
-  },
-  {
-    "id": "58f7586dd3d2",
-    "title": "Sources: Spurs' Romero out for rest of season",
-    "date": "2026-04-14",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48474970/tottenham-defender-cristian-romero-remainder-season-sources",
-    "summary": "Sources: Spurs' Romero out for rest of season",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-14T08:41:41.963Z"
-  },
-  {
-    "id": "4862f2c63bbb",
-    "title": "Ghana hires Queiroz ahead of World Cup campaign",
-    "date": "2026-04-14",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48477241/ghana-hires-carlos-queiroz-world-cup-campaign",
-    "summary": "Ghana hires Queiroz ahead of World Cup campaign",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-14T08:41:41.963Z"
-  },
-  {
-    "id": "70c34186f097",
-    "title": "Iran releases assets of women’s football team captain in Australia asylum drama",
-    "date": "2026-04-14",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/14/iran-releases-assets-of-womens-football-team-captain-in-australia-asylum-drama",
-    "summary": "Iran releases assets of women’s football team captain in Australia asylum drama",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-14T08:41:41.963Z"
   }
 ];
