@@ -2,6 +2,97 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "8db81d324d02",
+    "title": "South Korea captain Son picked for fourth World Cup",
+    "date": "2026-05-16",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cwy29rxjg47o?at_medium=RSS&at_campaign=rss",
+    "summary": "South Korea captain Son picked for fourth World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-16T08:41:28.140Z"
+  },
+  {
+    "id": "4a5e7ef27698",
+    "title": "In better form than Kane - why Watkins is no longer being 'written off'",
+    "date": "2026-05-15",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cq5pjqn4v0go?at_medium=RSS&at_campaign=rss",
+    "summary": "In better form than Kane - why Watkins is no longer being 'written off'",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-16T08:41:28.140Z"
+  },
+  {
+    "id": "e34d7529d09c",
+    "title": "'Out of shape' Lukaku in Belgium World Cup squad",
+    "date": "2026-05-15",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cpwp17pxvxdo?at_medium=RSS&at_campaign=rss",
+    "summary": "'Out of shape' Lukaku in Belgium World Cup squad",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-16T08:41:28.140Z"
+  },
+  {
+    "id": "364c2f01ea75",
+    "title": "Lamouchi leaves Sassi out of Tunisia World Cup squad",
+    "date": "2026-05-15",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cy42jjj4gg4o?at_medium=RSS&at_campaign=rss",
+    "summary": "Lamouchi leaves Sassi out of Tunisia World Cup squad",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-16T08:41:28.140Z"
+  },
+  {
+    "id": "47f43f10631c",
+    "title": "Zaha omitted from Ivory Coast World Cup squad",
+    "date": "2026-05-15",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c9360dwzl2lo?at_medium=RSS&at_campaign=rss",
+    "summary": "Zaha omitted from Ivory Coast World Cup squad",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-16T08:41:28.140Z"
+  },
+  {
+    "id": "c98445b0f6ce",
+    "title": "Isidor and Bellegarde in Haiti World Cup squad",
+    "date": "2026-05-15",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c242rl3yjp8o?at_medium=RSS&at_campaign=rss",
+    "summary": "Isidor and Bellegarde in Haiti World Cup squad",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-16T08:41:28.140Z"
+  },
+  {
+    "id": "c3bd67f4512c",
+    "title": "Beckham becomes UK's first billionaire sportsman",
+    "date": "2026-05-15",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/articles/clypx829gwyo?at_medium=RSS&at_campaign=rss",
+    "summary": "Beckham becomes UK's first billionaire sportsman",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-16T08:41:28.140Z"
+  },
+  {
     "id": "0b51d3554d89",
     "title": "Injured Mitoma left out of Japan World Cup squad",
     "date": "2026-05-15",
@@ -2652,148 +2743,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-04-16T08:42:30.332Z"
-  },
-  {
-    "id": "7e1aada020de",
-    "title": "Ekitike to miss rest of season and World Cup - Deschamps",
-    "date": "2026-04-15",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c4g443g0l76o?at_medium=RSS&at_campaign=rss",
-    "summary": "Ekitike to miss rest of season and World Cup - Deschamps",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-16T08:42:30.332Z"
-  },
-  {
-    "id": "7803016cb9ea",
-    "title": "Scotland score in stoppage time to salvage draw with Belgium",
-    "date": "2026-04-15",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c4g55ywqnlgo?at_medium=RSS&at_campaign=rss",
-    "summary": "Scotland score in stoppage time to salvage draw with Belgium",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-16T08:42:30.332Z"
-  },
-  {
-    "id": "7803016cb9ea",
-    "title": "Scotland score in stoppage time to salvage draw with Belgium",
-    "date": "2026-04-15",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c4g55ywqnlgo?at_medium=RSS&at_campaign=rss",
-    "summary": "Scotland score in stoppage time to salvage draw with Belgium",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-16T08:42:30.332Z"
-  },
-  {
-    "id": "45dd3dd7b22c",
-    "title": "Liverpool’s Hugo Ekitiké ruled out for rest of season and World Cup with France",
-    "date": "2026-04-15",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/15/liverpools-hugo-ekitike-ruled-out-for-rest-of-season-and-world-cup-with-france",
-    "summary": "Liverpool’s Hugo Ekitiké ruled out for rest of season and World Cup with France",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-16T08:42:30.332Z"
-  },
-  {
-    "id": "b1a470bf6ea3",
-    "title": "Caitlin Foord baffled by lost goal as Kerr lifts Matildas to Fifa Series final win over Kenya",
-    "date": "2026-04-15",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/16/australia-matildas-kenya-fifa-series-final-kerr-foord-report",
-    "summary": "Caitlin Foord baffled by lost goal as Kerr lifts Matildas to Fifa Series final win over Kenya",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-16T08:42:30.332Z"
-  },
-  {
-    "id": "4c3a19e592d1",
-    "title": "MLS will have fewer US World Cup players than ever. Its impact is being felt anyway",
-    "date": "2026-04-15",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/sport/2026/apr/15/mls-world-cup-usmnt-players",
-    "summary": "MLS will have fewer US World Cup players than ever. Its impact is being felt anyway",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-16T08:42:30.332Z"
-  },
-  {
-    "id": "b56003b8280a",
-    "title": "A long-term plan with mixed results: how Matt Crocker’s US Soccer tenure stacked up",
-    "date": "2026-04-15",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/15/matt-crocker-us-soccer-legacy-mauricio-pochettino-emma-hayes",
-    "summary": "A long-term plan with mixed results: how Matt Crocker’s US Soccer tenure stacked up",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-16T08:42:30.332Z"
-  },
-  {
-    "id": "4cbdd13c3c61",
-    "title": "The severe suspension Raphinha faces for claiming that referees robbed Barcelona in the Champions League",
-    "date": "2026-04-15",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/football/champions-league/2026/04/15/69dffbdfe2704e290b8b45c2.html",
-    "summary": "The severe suspension Raphinha faces for claiming that referees robbed Barcelona in the Champions League",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-16T08:42:30.332Z"
-  },
-  {
-    "id": "1fb15fe73b2b",
-    "title": "Liverpool fear for 'very-bad' looking Ekitike injury",
-    "date": "2026-04-15",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48486502/hugo-ekitike-liverpool-psg-injury",
-    "summary": "Liverpool fear for 'very-bad' looking Ekitike injury",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-15T08:42:01.489Z"
-  },
-  {
-    "id": "e609a5814783",
-    "title": "Have Halliday's heroics started a new chapter for NI?",
-    "date": "2026-04-15",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c9955gzyy1go?at_medium=RSS&at_campaign=rss",
-    "summary": "Have Halliday's heroics started a new chapter for NI?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-15T08:42:01.489Z"
-  },
-  {
-    "id": "e609a5814783",
-    "title": "Have Halliday's heroics started a new chapter for NI?",
-    "date": "2026-04-15",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c9955gzyy1go?at_medium=RSS&at_campaign=rss",
-    "summary": "Have Halliday's heroics started a new chapter for NI?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-15T08:42:01.489Z"
   }
 ];
