@@ -2,6 +2,58 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "450d539b69a9",
+    "title": "‘Got!’: Panini 1970 World Cup sticker book completed after 56 years",
+    "date": "2026-05-17",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/17/got-panini-1970-world-cup-sticker-book-completed-after-56-years",
+    "summary": "‘Got!’: Panini 1970 World Cup sticker book completed after 56 years",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-17T08:49:30.993Z"
+  },
+  {
+    "id": "887457d08cfb",
+    "title": "Kane nets hat-trick as Bayern thrash Cologne",
+    "date": "2026-05-16",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/videos/c7v986y8p4yo?at_medium=RSS&at_campaign=rss",
+    "summary": "Kane nets hat-trick as Bayern thrash Cologne",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-17T08:49:30.993Z"
+  },
+  {
+    "id": "339ba7fcfbf7",
+    "title": "Mohamed Salah criticises ‘crumbling’ Liverpool and demands return to ‘heavy metal’ football",
+    "date": "2026-05-16",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/16/mohamed-salah-criticises-crumbling-liverpools-season-and-demands-return-to-heavy-metal-football",
+    "summary": "Mohamed Salah criticises ‘crumbling’ Liverpool and demands return to ‘heavy metal’ football",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-17T08:49:30.993Z"
+  },
+  {
+    "id": "6fba469c9fcb",
+    "title": "European football: Kane uncorks title party with hat-trick; Lewandowski to leave Barça",
+    "date": "2026-05-16",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/16/robert-lewandowski-barcelona-real-madrid-bundesliga-european-roundup",
+    "summary": "European football: Kane uncorks title party with hat-trick; Lewandowski to leave Barça",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-17T08:49:30.993Z"
+  },
+  {
     "id": "8db81d324d02",
     "title": "South Korea captain Son picked for fourth World Cup",
     "date": "2026-05-16",
@@ -2639,109 +2691,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-04-17T08:41:58.535Z"
-  },
-  {
-    "id": "ec624205e2ee",
-    "title": "Michael Bradley’s Red Bulls are impressing in MLS – what could come next?",
-    "date": "2026-04-16",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/16/michael-bradley-red-bulls-mls-usmnt",
-    "summary": "Michael Bradley’s Red Bulls are impressing in MLS – what could come next?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-20T08:53:52.977Z"
-  },
-  {
-    "id": "bb882be697d9",
-    "title": "Italy made me a manager when England 'discouraged' me - Cole",
-    "date": "2026-04-16",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c6244xp5lvno?at_medium=RSS&at_campaign=rss",
-    "summary": "Italy made me a manager when England 'discouraged' me - Cole",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-17T08:41:58.535Z"
-  },
-  {
-    "id": "d0df13607740",
-    "title": "Watkins breaks record as Aston Villa cruise past Bologna into all-English semi-final",
-    "date": "2026-04-16",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/16/aston-villa-bologna-europa-league-match-report",
-    "summary": "Watkins breaks record as Aston Villa cruise past Bologna into all-English semi-final",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-17T08:41:58.535Z"
-  },
-  {
-    "id": "28892866ae42",
-    "title": "New Jersey governor hits out at Fifa over reported $100 World Cup train tickets: ‘They should pay’",
-    "date": "2026-04-16",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/16/mike-sherrill-train-tickets-new-jersey-world-cup",
-    "summary": "New Jersey governor hits out at Fifa over reported $100 World Cup train tickets: ‘They should pay’",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-17T08:41:58.535Z"
-  },
-  {
-    "id": "7af2899d4c3b",
-    "title": "Lionel Messi practically admits he's the GOAT in hype video before 2026 FIFA World Cup",
-    "date": "2026-04-16",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/football/mls/2026/04/16/69e1017f22601da3168b4582.html",
-    "summary": "Lionel Messi practically admits he's the GOAT in hype video before 2026 FIFA World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-17T08:41:58.535Z"
-  },
-  {
-    "id": "64f48e2e1564",
-    "title": "France confirm Ekitike (Achilles) to miss World Cup",
-    "date": "2026-04-16",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48492214/hugo-ekitike-ruptures-achilles-miss-world-cup-nine-months-sources",
-    "summary": "France confirm Ekitike (Achilles) to miss World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-16T08:42:30.332Z"
-  },
-  {
-    "id": "caeea1220439",
-    "title": "Messi sued for missing $7M Argentina friendly",
-    "date": "2026-04-16",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48496977/messi-argentina-federation-sued-missed-exhibition-match",
-    "summary": "Messi sued for missing $7M Argentina friendly",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-16T08:42:30.332Z"
-  },
-  {
-    "id": "0eec065d9db6",
-    "title": "The 24-year-old manager who has won a top-flight promotion",
-    "date": "2026-04-16",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c4gl59wkdzpo?at_medium=RSS&at_campaign=rss",
-    "summary": "The 24-year-old manager who has won a top-flight promotion",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-16T08:42:30.332Z"
   }
 ];
