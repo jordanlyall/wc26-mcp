@@ -2,6 +2,253 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "6c7409cbd23a",
+    "title": "USA boss Pochettino holds talks with AC Milan",
+    "date": "2026-05-29",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c794gn7n955o?at_medium=RSS&at_campaign=rss",
+    "summary": "USA boss Pochettino holds talks with AC Milan",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-29T09:20:38.141Z"
+  },
+  {
+    "id": "802b7b193e8f",
+    "title": "Champions League final buildup, World Cup latest, transfer news, and more: football – live",
+    "date": "2026-05-29",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/live/2026/may/29/champions-league-final-buildup-world-cup-latest-transfer-news-and-more-football-live",
+    "summary": "Champions League final buildup, World Cup latest, transfer news, and more: football – live",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-29T09:20:38.141Z"
+  },
+  {
+    "id": "30dd4fc4d666",
+    "title": "Qatar World Cup 2026 team guide",
+    "date": "2026-05-29",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/29/qatar-world-cup-2026-team-guide",
+    "summary": "Qatar World Cup 2026 team guide",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-29T09:20:38.141Z"
+  },
+  {
+    "id": "f6d1c158e124",
+    "title": "NZ and Iran in World Cup limbo with LA story about more than football",
+    "date": "2026-05-29",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/29/fifa-world-cup-football-group-stage-new-zealand-iran",
+    "summary": "NZ and Iran in World Cup limbo with LA story about more than football",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-29T09:20:38.141Z"
+  },
+  {
+    "id": "49bae5b47619",
+    "title": "McGrath expects Israel fixtures controversy to 'heat up' after tennis balls protest",
+    "date": "2026-05-28",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cvgz9n103zvo?at_medium=RSS&at_campaign=rss",
+    "summary": "McGrath expects Israel fixtures controversy to 'heat up' after tennis balls protest",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-29T09:20:38.141Z"
+  },
+  {
+    "id": "ce6eb496d4ab",
+    "title": "Messi to represent Argentina at sixth World Cup",
+    "date": "2026-05-28",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cr5p96l270ro?at_medium=RSS&at_campaign=rss",
+    "summary": "Messi to represent Argentina at sixth World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-29T09:20:38.141Z"
+  },
+  {
+    "id": "b163759a28b7",
+    "title": "Clarke signs on until 2030 World Cup - a gamble SFA had to take?",
+    "date": "2026-05-28",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c4gvy1lg5glo?at_medium=RSS&at_campaign=rss",
+    "summary": "Clarke signs on until 2030 World Cup - a gamble SFA had to take?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-29T09:20:38.141Z"
+  },
+  {
+    "id": "b629d60bd7ff",
+    "title": "Why Gordon for Barcelona & what does it mean for Rashford?",
+    "date": "2026-05-28",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cn8pqnq3w7no?at_medium=RSS&at_campaign=rss",
+    "summary": "Why Gordon for Barcelona & what does it mean for Rashford?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-29T09:20:38.141Z"
+  },
+  {
+    "id": "a71cbf192085",
+    "title": "Injured Neymar could miss Brazil's World Cup opener",
+    "date": "2026-05-28",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cdrp41erye0o?at_medium=RSS&at_campaign=rss",
+    "summary": "Injured Neymar could miss Brazil's World Cup opener",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-29T09:20:38.141Z"
+  },
+  {
+    "id": "78aa07cf7d16",
+    "title": "Burnley striker Foster named in South Africa squad",
+    "date": "2026-05-28",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cj3p65j542lo?at_medium=RSS&at_campaign=rss",
+    "summary": "Burnley striker Foster named in South Africa squad",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-29T09:20:38.141Z"
+  },
+  {
+    "id": "b163759a28b7",
+    "title": "Clarke's new Scotland deal - easy decision or gamble SFA had to take?",
+    "date": "2026-05-28",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c4gvy1lg5glo?at_medium=RSS&at_campaign=rss",
+    "summary": "Clarke's new Scotland deal - easy decision or gamble SFA had to take?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-29T09:20:38.141Z"
+  },
+  {
+    "id": "49bae5b47619",
+    "title": "McGrath expects Israel fixtures controversy to 'heat up'",
+    "date": "2026-05-28",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cvgz9n103zvo?at_medium=RSS&at_campaign=rss",
+    "summary": "McGrath expects Israel fixtures controversy to 'heat up'",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-29T09:20:38.141Z"
+  },
+  {
+    "id": "e11088ea231e",
+    "title": "Bonmati in Spain squad for crucial England qualifier",
+    "date": "2026-05-28",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cx21j3lkyx0o?at_medium=RSS&at_campaign=rss",
+    "summary": "Bonmati in Spain squad for crucial England qualifier",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-29T09:20:38.141Z"
+  },
+  {
+    "id": "b2a762d344b6",
+    "title": "Ibrahima Konaté poised to leave Liverpool after failing to agree new contract",
+    "date": "2026-05-28",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/28/ibrahima-konate-set-to-leave-liverpool-after-failing-to-agree-new-contract",
+    "summary": "Ibrahima Konaté poised to leave Liverpool after failing to agree new contract",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-29T09:20:38.141Z"
+  },
+  {
+    "id": "0c45fc1be68b",
+    "title": "Direct, intense … selfish? What are Barcelona getting in Anthony Gordon?",
+    "date": "2026-05-28",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/28/direct-intense-selfish-what-are-barcelona-getting-in-anthony-gordon",
+    "summary": "Direct, intense … selfish? What are Barcelona getting in Anthony Gordon?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-29T09:20:38.141Z"
+  },
+  {
+    "id": "e5680556ab6a",
+    "title": "Switzerland World Cup 2026 team guide",
+    "date": "2026-05-28",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/29/switzerland-world-cup-2026-team-guide",
+    "summary": "Switzerland World Cup 2026 team guide",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-29T09:20:38.141Z"
+  },
+  {
+    "id": "88ac48b40484",
+    "title": "Canada World Cup 2026 team guide",
+    "date": "2026-05-28",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/28/canada-world-cup-2026-team-guide",
+    "summary": "Canada World Cup 2026 team guide",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-29T09:20:38.141Z"
+  },
+  {
+    "id": "270d21ec2874",
+    "title": "Mauricio Pochettino in talks with Milan over head coach’s role as US open World Cup camp",
+    "date": "2026-05-28",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/28/mauricio-pochettino-in-talks-with-milan-amid-broader-interest-as-us-opens-world-cup-camp",
+    "summary": "Mauricio Pochettino in talks with Milan over head coach’s role as US open World Cup camp",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-29T09:20:38.141Z"
+  },
+  {
+    "id": "7ddbf5f9c03a",
+    "title": "Steve Clarke ‘proud to continue’ after signing new Scotland contract to 2030",
+    "date": "2026-05-28",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/28/steve-clarke-scotland-coach-new-contract-2030",
+    "summary": "Steve Clarke ‘proud to continue’ after signing new Scotland contract to 2030",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-29T09:20:38.141Z"
+  },
+  {
     "id": "5ee8ff4a8837",
     "title": "FIFA subpoenaed over World Cup ticket practices",
     "date": "2026-05-28",
@@ -3198,83 +3445,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-04-29T08:54:10.863Z"
-  },
-  {
-    "id": "b426ce1c6bd7",
-    "title": "World Cup 2026 players who cover mouths or leave pitch in protest may be red carded",
-    "date": "2026-04-28",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/28/world-cup-cover-mouths-red-card-rule-ifab",
-    "summary": "World Cup 2026 players who cover mouths or leave pitch in protest may be red carded",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-29T08:54:10.863Z"
-  },
-  {
-    "id": "8a8e82d8b1fc",
-    "title": "Afghanistan women’s refugee players allowed to compete as official national team",
-    "date": "2026-04-28",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/28/afghanistan-womens-football-team-fifa-recognition",
-    "summary": "Afghanistan women’s refugee players allowed to compete as official national team",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-29T08:54:10.863Z"
-  },
-  {
-    "id": "8047d2f7848f",
-    "title": "FIFA greenlights tailgating at World Cup venues",
-    "date": "2026-04-28",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48612186/boston-world-cup-hosts-tailgating-world-cup-games",
-    "summary": "FIFA greenlights tailgating at World Cup venues",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-28T08:57:48.389Z"
-  },
-  {
-    "id": "dc9a2f83c65f",
-    "title": "Croatia confident of Modric recovery for World Cup",
-    "date": "2026-04-28",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cqjpl4zj0ezo?at_medium=RSS&at_campaign=rss",
-    "summary": "Croatia confident of Modric recovery for World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-28T08:57:48.389Z"
-  },
-  {
-    "id": "d61467e3d382",
-    "title": "Maloney targets Celtic director of football role - gossip",
-    "date": "2026-04-28",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cjep2w023y9o?at_medium=RSS&at_campaign=rss",
-    "summary": "Maloney targets Celtic director of football role - gossip",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-28T08:57:48.389Z"
-  },
-  {
-    "id": "b2d4fcb8cefa",
-    "title": "What, Howe and why: big questions Saudi owners may ask under-fire Newcastle manager | Louise Taylor",
-    "date": "2026-04-28",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/28/eddie-howe-big-questions-saudi-owners-may-ask-newcastle-manager",
-    "summary": "What, Howe and why: big questions Saudi owners may ask under-fire Newcastle manager | Louise Taylor",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-28T08:57:48.389Z"
   }
 ];
