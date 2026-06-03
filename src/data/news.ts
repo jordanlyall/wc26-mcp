@@ -2,6 +2,253 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "b974a5db35f7",
+    "title": "World Cup quiz: Do you remember these mascots?",
+    "date": "2026-06-03",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c042220g45lo?at_medium=RSS&at_campaign=rss",
+    "summary": "World Cup quiz: Do you remember these mascots?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-03T09:46:13.521Z"
+  },
+  {
+    "id": "39c6c63f6bfe",
+    "title": "Who needs what in World Cup qualifying?",
+    "date": "2026-06-03",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cr5p01m5ne9o?at_medium=RSS&at_campaign=rss",
+    "summary": "Who needs what in World Cup qualifying?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-03T09:46:13.521Z"
+  },
+  {
+    "id": "0fe9f9cc06cf",
+    "title": "What's at stake for NI in their World Cup qualifiers?",
+    "date": "2026-06-03",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c4g47xr33y0o?at_medium=RSS&at_campaign=rss",
+    "summary": "What's at stake for NI in their World Cup qualifiers?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-03T09:46:13.521Z"
+  },
+  {
+    "id": "39c6c63f6bfe",
+    "title": "Who needs what in World Cup qualifying?",
+    "date": "2026-06-03",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cr5p01m5ne9o?at_medium=RSS&at_campaign=rss",
+    "summary": "Who needs what in World Cup qualifying?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-03T09:46:13.521Z"
+  },
+  {
+    "id": "0fe9f9cc06cf",
+    "title": "What's at stake for NI in their World Cup qualifiers?",
+    "date": "2026-06-03",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c4g47xr33y0o?at_medium=RSS&at_campaign=rss",
+    "summary": "What's at stake for NI in their World Cup qualifiers?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-03T09:46:13.521Z"
+  },
+  {
+    "id": "696ef911f889",
+    "title": "Sweden World Cup 2026 team guide",
+    "date": "2026-06-03",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jun/03/sweden-world-cup-2026-team-guide",
+    "summary": "Sweden World Cup 2026 team guide",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-03T09:46:13.521Z"
+  },
+  {
+    "id": "8c34c54bf4a8",
+    "title": "Bellamy sees Koumas future at centre-forward",
+    "date": "2026-06-02",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c1724lqy2jgo?at_medium=RSS&at_campaign=rss",
+    "summary": "Bellamy sees Koumas future at centre-forward",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-03T09:46:13.521Z"
+  },
+  {
+    "id": "e23814e24749",
+    "title": "Bellingham is No 10 in England World Cup squad",
+    "date": "2026-06-02",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c5y8nn7gx83o?at_medium=RSS&at_campaign=rss",
+    "summary": "Bellingham is No 10 in England World Cup squad",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-03T09:46:13.521Z"
+  },
+  {
+    "id": "141a53b32e52",
+    "title": "Scotland players have not discussed Israel boycott",
+    "date": "2026-06-02",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c98rzzlk4jgo?at_medium=RSS&at_campaign=rss",
+    "summary": "Scotland players have not discussed Israel boycott",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-03T09:46:13.521Z"
+  },
+  {
+    "id": "8c8acd310129",
+    "title": "Hinds withdraws from England squad with ankle injury ",
+    "date": "2026-06-02",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/clyp33n48p4o?at_medium=RSS&at_campaign=rss",
+    "summary": "Hinds withdraws from England squad with ankle injury ",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-03T09:46:13.521Z"
+  },
+  {
+    "id": "85bfe2469041",
+    "title": "Download your World Cup 2026 wallchart",
+    "date": "2026-06-02",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c4g51wd9px6o?at_medium=RSS&at_campaign=rss",
+    "summary": "Download your World Cup 2026 wallchart",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-03T09:46:13.521Z"
+  },
+  {
+    "id": "5abeb4c2faeb",
+    "title": "Spanish mayor cancels DR Congo friendly over Ebola concern",
+    "date": "2026-06-02",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cm2pd28jnyxo?at_medium=RSS&at_campaign=rss",
+    "summary": "Spanish mayor cancels DR Congo friendly over Ebola concern",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-03T09:46:13.521Z"
+  },
+  {
+    "id": "141a53b32e52",
+    "title": "Scotland players have not discussed Israel boycott",
+    "date": "2026-06-02",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c98rzzlk4jgo?at_medium=RSS&at_campaign=rss",
+    "summary": "Scotland players have not discussed Israel boycott",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-03T09:46:13.521Z"
+  },
+  {
+    "id": "141a53b32e52",
+    "title": "Scotland players have not discussed Israel boycott",
+    "date": "2026-06-02",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c98rzzlk4jgo?at_medium=RSS&at_campaign=rss",
+    "summary": "Scotland players have not discussed Israel boycott",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-03T09:46:13.521Z"
+  },
+  {
+    "id": "8c8acd310129",
+    "title": "Hinds withdraws from England squad with ankle injury ",
+    "date": "2026-06-02",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/clyp33n48p4o?at_medium=RSS&at_campaign=rss",
+    "summary": "Hinds withdraws from England squad with ankle injury ",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-03T09:46:13.521Z"
+  },
+  {
+    "id": "6f26a465b5f4",
+    "title": "Jude Bellingham handed World Cup boost for England after being given No 10 shirt",
+    "date": "2026-06-02",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jun/02/jude-bellingham-england-world-cup-2026-shirt-no-10",
+    "summary": "Jude Bellingham handed World Cup boost for England after being given No 10 shirt",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-03T09:46:13.521Z"
+  },
+  {
+    "id": "3e69012393e9",
+    "title": "Netherlands World Cup 2026 team guide",
+    "date": "2026-06-02",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jun/03/netherlands-world-cup-2026-team-guide",
+    "summary": "Netherlands World Cup 2026 team guide",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-03T09:46:13.521Z"
+  },
+  {
+    "id": "f3032ccaf380",
+    "title": "Lewis Koumas snatches Wales draw to ruin Ghana’s World Cup sendoff",
+    "date": "2026-06-02",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jun/02/wales-ghana-international-friendly-match-report",
+    "summary": "Lewis Koumas snatches Wales draw to ruin Ghana’s World Cup sendoff",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-03T09:46:13.521Z"
+  },
+  {
+    "id": "d97492a2cbda",
+    "title": "Ella Toone weighs up Manchester United future after tough campaign",
+    "date": "2026-06-02",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jun/02/ella-toone-weighs-up-manchester-united-future-after-tough-campaign",
+    "summary": "Ella Toone weighs up Manchester United future after tough campaign",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-03T09:46:13.521Z"
+  },
+  {
     "id": "e87531e19660",
     "title": "Gilmour admits struggle as World Cup dream taken away",
     "date": "2026-06-02",
@@ -3744,44 +3991,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-05-04T08:57:40.309Z"
-  },
-  {
-    "id": "2cf9a151cd1b",
-    "title": "Howe set to stay in charge of Newcastle after summit",
-    "date": "2026-05-03",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c362exz0p98o?at_medium=RSS&at_campaign=rss",
-    "summary": "Howe set to stay in charge of Newcastle after summit",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-04T08:57:40.309Z"
-  },
-  {
-    "id": "f2a8de0d8e70",
-    "title": "Fit and firing Bukayo Saka injects fresh belief into Arsenal’s title challenge",
-    "date": "2026-05-03",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/may/03/fit-and-firing-bukayo-saka-injects-fresh-belief-into-arsenals-title-challenge",
-    "summary": "Fit and firing Bukayo Saka injects fresh belief into Arsenal’s title challenge",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-04T08:57:40.309Z"
-  },
-  {
-    "id": "c22ebed206bb",
-    "title": "Villas-Boas tops Mourinho as Porto clinch title",
-    "date": "2026-05-03",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48660417/porto-portuguese-title-benfica-andre-villas-boas-jose-mourinho",
-    "summary": "Villas-Boas tops Mourinho as Porto clinch title",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-03T08:41:02.123Z"
   }
 ];
