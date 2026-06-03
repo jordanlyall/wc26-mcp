@@ -80,45 +80,6 @@ export const news: NewsItem[] = [
     "fetched_at": "2026-06-02T09:36:30.125Z"
   },
   {
-    "id": "e87531e19660",
-    "title": "Gilmour admits struggle as World Cup dream taken away",
-    "date": "2026-06-02",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cgqpwj0n49qo?at_medium=RSS&at_campaign=rss",
-    "summary": "Gilmour admits struggle as World Cup dream taken away",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-02T09:36:30.125Z"
-  },
-  {
-    "id": "f7ce6fee18ce",
-    "title": "World Cup 2026: How to follow on the BBC",
-    "date": "2026-06-02",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c62dy77g8e8o?at_medium=RSS&at_campaign=rss",
-    "summary": "World Cup 2026: How to follow on the BBC",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-02T09:36:30.125Z"
-  },
-  {
-    "id": "82124ef6df97",
-    "title": "Wales' Cain leaves Leicester after WSL relegation",
-    "date": "2026-06-02",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c4g81e274qzo?at_medium=RSS&at_campaign=rss",
-    "summary": "Wales' Cain leaves Leicester after WSL relegation",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-02T09:36:30.125Z"
-  },
-  {
     "id": "eeaa45d1462b",
     "title": "Germany World Cup 2026 team guide",
     "date": "2026-06-02",
@@ -138,19 +99,6 @@ export const news: NewsItem[] = [
     "source": "BBC Sport",
     "url": "https://www.bbc.com/sport/football/articles/cx21zjnjd2go?at_medium=RSS&at_campaign=rss",
     "summary": "Keegan reveals stage four cancer diagnosis",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-02T09:36:30.125Z"
-  },
-  {
-    "id": "432d36797b1d",
-    "title": "Williamson to miss World Cup qualifier against Spain",
-    "date": "2026-06-01",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cq6pngp7g53o?at_medium=RSS&at_campaign=rss",
-    "summary": "Williamson to miss World Cup qualifier against Spain",
     "categories": [
       "general"
     ],
@@ -379,19 +327,6 @@ export const news: NewsItem[] = [
     "fetched_at": "2026-06-01T09:58:27.947Z"
   },
   {
-    "id": "74ab1f224816",
-    "title": "'Unacceptable' gap costing Wales young talent claim",
-    "date": "2026-06-01",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cj3ppd5r5xro?at_medium=RSS&at_campaign=rss",
-    "summary": "'Unacceptable' gap costing Wales young talent claim",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-01T09:58:27.947Z"
-  },
-  {
     "id": "cf210ae3eb49",
     "title": "World Cup 2026: a visual guide to the stadiums across the trio of host nations",
     "date": "2026-06-01",
@@ -574,32 +509,6 @@ export const news: NewsItem[] = [
     "fetched_at": "2026-05-31T09:09:57.142Z"
   },
   {
-    "id": "bbb7a81023a2",
-    "title": "Gilmour ruled out of World Cup - could Man Utd's Fletcher replace him?",
-    "date": "2026-05-30",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cn9pwg12z0lo?at_medium=RSS&at_campaign=rss",
-    "summary": "Gilmour ruled out of World Cup - could Man Utd's Fletcher replace him?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-31T09:09:57.142Z"
-  },
-  {
-    "id": "6e9fe71184bf",
-    "title": "Shankland and Curtis make World Cup move - but will Clarke respond?",
-    "date": "2026-05-30",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c142d08m5neo?at_medium=RSS&at_campaign=rss",
-    "summary": "Shankland and Curtis make World Cup move - but will Clarke respond?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-31T09:09:57.142Z"
-  },
-  {
     "id": "237bfcd6d198",
     "title": "USA World Cup 2026 team guide",
     "date": "2026-05-30",
@@ -723,19 +632,6 @@ export const news: NewsItem[] = [
     "source": "BBC Sport",
     "url": "https://www.bbc.com/sport/football/articles/cq8p9e0xgdpo?at_medium=RSS&at_campaign=rss",
     "summary": "Volpato makes Italy to Australia switch before World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-30T08:55:15.557Z"
-  },
-  {
-    "id": "b1c40608b8f4",
-    "title": "Clarke sure he's best man for Scotland after agreeing new deal",
-    "date": "2026-05-29",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c1k210y13kmo?at_medium=RSS&at_campaign=rss",
-    "summary": "Clarke sure he's best man for Scotland after agreeing new deal",
     "categories": [
       "general"
     ],
@@ -957,32 +853,6 @@ export const news: NewsItem[] = [
     "source": "BBC Sport",
     "url": "https://www.bbc.com/sport/football/articles/cj3p65j542lo?at_medium=RSS&at_campaign=rss",
     "summary": "Burnley striker Foster named in South Africa squad",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-29T09:20:38.141Z"
-  },
-  {
-    "id": "b163759a28b7",
-    "title": "Clarke's new Scotland deal - easy decision or gamble SFA had to take?",
-    "date": "2026-05-28",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c4gvy1lg5glo?at_medium=RSS&at_campaign=rss",
-    "summary": "Clarke's new Scotland deal - easy decision or gamble SFA had to take?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-29T09:20:38.141Z"
-  },
-  {
-    "id": "49bae5b47619",
-    "title": "McGrath expects Israel fixtures controversy to 'heat up'",
-    "date": "2026-05-28",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cvgz9n103zvo?at_medium=RSS&at_campaign=rss",
-    "summary": "McGrath expects Israel fixtures controversy to 'heat up'",
     "categories": [
       "general"
     ],
@@ -1315,19 +1185,6 @@ export const news: NewsItem[] = [
     "fetched_at": "2026-05-27T09:18:53.548Z"
   },
   {
-    "id": "881d8f026b5b",
-    "title": "Schmeichel retires because of serious shoulder injury",
-    "date": "2026-05-27",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cx21jgp2wdeo?at_medium=RSS&at_campaign=rss",
-    "summary": "Schmeichel retires because of serious shoulder injury",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-27T09:18:53.548Z"
-  },
-  {
     "id": "87e99f372aa5",
     "title": "Mexico World Cup 2026 team guide",
     "date": "2026-05-27",
@@ -1456,19 +1313,6 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-05-27T09:18:53.548Z"
-  },
-  {
-    "id": "25b6a7454349",
-    "title": "McTominay backs 'great man' Clarke for Scotland stay",
-    "date": "2026-05-26",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/ce9ppnj9zv7o?at_medium=RSS&at_campaign=rss",
-    "summary": "McTominay backs 'great man' Clarke for Scotland stay",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-26T09:21:22.696Z"
   },
   {
     "id": "25b6a7454349",
@@ -2225,32 +2069,6 @@ export const news: NewsItem[] = [
     "fetched_at": "2026-05-21T09:17:31.063Z"
   },
   {
-    "id": "b88e1d8d35cf",
-    "title": "Scotland call up young quartet for pre-World Cup training",
-    "date": "2026-05-20",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cgepznz1xe8o?at_medium=RSS&at_campaign=rss",
-    "summary": "Scotland call up young quartet for pre-World Cup training",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-21T09:17:31.063Z"
-  },
-  {
-    "id": "fc6041c33944",
-    "title": "Emslie recalled by Scotland five months after giving birth",
-    "date": "2026-05-20",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cg5pm9j2ppgo?at_medium=RSS&at_campaign=rss",
-    "summary": "Emslie recalled by Scotland five months after giving birth",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-21T09:17:31.063Z"
-  },
-  {
     "id": "62054e2bcee6",
     "title": "This week’s soccer questions: Manchester City’s next steps, and is Messi peaking at the perfect time?",
     "date": "2026-05-20",
@@ -2407,64 +2225,12 @@ export const news: NewsItem[] = [
     "fetched_at": "2026-05-20T09:17:55.629Z"
   },
   {
-    "id": "090b6f1d0bd5",
-    "title": "No theatre or curveballs as loyal Clarke puts trust in chosen ones",
-    "date": "2026-05-19",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cq5pq9vg3xgo?at_medium=RSS&at_campaign=rss",
-    "summary": "No theatre or curveballs as loyal Clarke puts trust in chosen ones",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-20T09:17:55.629Z"
-  },
-  {
-    "id": "02120faa425f",
-    "title": "Clarke sticks to plan over future and McBurnie omission",
-    "date": "2026-05-19",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c70vryz891yo?at_medium=RSS&at_campaign=rss",
-    "summary": "Clarke sticks to plan over future and McBurnie omission",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-20T09:17:55.629Z"
-  },
-  {
-    "id": "de184e8df7fb",
-    "title": "'Big game scorer' Stewart and Curtis make Scotland World Cup squad",
-    "date": "2026-05-19",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c4g94rpvx73o?at_medium=RSS&at_campaign=rss",
-    "summary": "'Big game scorer' Stewart and Curtis make Scotland World Cup squad",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-20T09:17:55.629Z"
-  },
-  {
     "id": "9c9e42256bc1",
     "title": "Stewart's 'deserved' recall & World Cup disappointment for Miller",
     "date": "2026-05-19",
     "source": "BBC Sport",
     "url": "https://www.bbc.co.uk/sounds/play/p0nm3bj6?at_medium=RSS&at_campaign=rss",
     "summary": "Stewart's 'deserved' recall & World Cup disappointment for Miller",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-20T09:17:55.629Z"
-  },
-  {
-    "id": "97708a7dffb1",
-    "title": "Man Utd midfielder Toone returns to England squad",
-    "date": "2026-05-19",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c4g8kk1vrdzo?at_medium=RSS&at_campaign=rss",
-    "summary": "Man Utd midfielder Toone returns to England squad",
     "categories": [
       "general"
     ],
@@ -2595,32 +2361,6 @@ export const news: NewsItem[] = [
     "source": "BBC Sport",
     "url": "https://www.bbc.com/sport/football/articles/c0l29glg6e0o?at_medium=RSS&at_campaign=rss",
     "summary": "Austria include Arnautovic in World Cup squad",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-19T09:20:16.101Z"
-  },
-  {
-    "id": "95505d46cc3c",
-    "title": "Clarke's key questions for Scotland World Cup squad",
-    "date": "2026-05-18",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/crmpx8py3y7o?at_medium=RSS&at_campaign=rss",
-    "summary": "Clarke's key questions for Scotland World Cup squad",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-19T09:20:16.101Z"
-  },
-  {
-    "id": "8c53bed83a82",
-    "title": "Neymar included in Scotland opponents Brazil's 26-man World Cup squad",
-    "date": "2026-05-18",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c759vdlyr2wo?at_medium=RSS&at_campaign=rss",
-    "summary": "Neymar included in Scotland opponents Brazil's 26-man World Cup squad",
     "categories": [
       "general"
     ],
@@ -3603,19 +3343,6 @@ export const news: NewsItem[] = [
     "fetched_at": "2026-05-07T09:02:01.592Z"
   },
   {
-    "id": "8b010b7c596a",
-    "title": "Haiti's record scorer on Paisley, stunning Scotland & escaping Iran",
-    "date": "2026-05-06",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c936y13v7vzo?at_medium=RSS&at_campaign=rss",
-    "summary": "Haiti's record scorer on Paisley, stunning Scotland & escaping Iran",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-07T09:02:01.592Z"
-  },
-  {
     "id": "29fedb720510",
     "title": "Manchester City’s WSL title winners 2025-26: player-by-player ratings",
     "date": "2026-05-06",
@@ -3687,19 +3414,6 @@ export const news: NewsItem[] = [
     "source": "BBC Sport",
     "url": "https://www.bbc.com/sport/football/articles/clyp3y9lwjdo?at_medium=RSS&at_campaign=rss",
     "summary": "How I see the game - Davide Ancelotti's tactics deep dive",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-04T08:57:40.309Z"
-  },
-  {
-    "id": "9a3f5e069ef1",
-    "title": "Hearts trio pick up PFA Scotland prizes",
-    "date": "2026-05-04",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/crmpn0vn8ymo?at_medium=RSS&at_campaign=rss",
-    "summary": "Hearts trio pick up PFA Scotland prizes",
     "categories": [
       "general"
     ],
