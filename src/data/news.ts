@@ -2,6 +2,253 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "ac41952352ff",
+    "title": "A higher ceiling than Messi? What next for Lamine Yamal?",
+    "date": "2026-06-04",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cy82mpzg3n4o?at_medium=RSS&at_campaign=rss",
+    "summary": "A higher ceiling than Messi? What next for Lamine Yamal?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-04T09:27:45.969Z"
+  },
+  {
+    "id": "03be22522829",
+    "title": "Toone learned 'massive lesson' from hip injury setback",
+    "date": "2026-06-04",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c4g8113ngyno?at_medium=RSS&at_campaign=rss",
+    "summary": "Toone learned 'massive lesson' from hip injury setback",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-04T09:27:45.969Z"
+  },
+  {
+    "id": "a7637d78fe0e",
+    "title": "Wales boss Wilkinson sleeps in airport amid travel chaos",
+    "date": "2026-06-04",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cj3pk2erknno?at_medium=RSS&at_campaign=rss",
+    "summary": "Wales boss Wilkinson sleeps in airport amid travel chaos",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-04T09:27:45.969Z"
+  },
+  {
+    "id": "03be22522829",
+    "title": "Toone learned 'massive lesson' from hip injury setback",
+    "date": "2026-06-04",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c4g8113ngyno?at_medium=RSS&at_campaign=rss",
+    "summary": "Toone learned 'massive lesson' from hip injury setback",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-04T09:27:45.969Z"
+  },
+  {
+    "id": "a7637d78fe0e",
+    "title": "Wilkinson sleeps in airport amid Wales travel chaos",
+    "date": "2026-06-04",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cj3pk2erknno?at_medium=RSS&at_campaign=rss",
+    "summary": "Wilkinson sleeps in airport amid Wales travel chaos",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-04T09:27:45.969Z"
+  },
+  {
+    "id": "a1f200437818",
+    "title": "World Cup 2026: guide to all 1,248 players",
+    "date": "2026-06-04",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/ng-interactive/2026/jun/04/world-cup-2026-complete-player-guide",
+    "summary": "World Cup 2026: guide to all 1,248 players",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-04T09:27:45.969Z"
+  },
+  {
+    "id": "60c5590fbd02",
+    "title": "Fifa bans fans from taking reusable water bottles into World Cup stadiums after U-turn",
+    "date": "2026-06-04",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jun/04/fifa-bans-reusable-water-bottles-world-cup-stadiums",
+    "summary": "Fifa bans fans from taking reusable water bottles into World Cup stadiums after U-turn",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-04T09:27:45.969Z"
+  },
+  {
+    "id": "ca164a8d4781",
+    "title": "La Liga 2025-26 awards: the best players, team … and smelliest shirt of the season",
+    "date": "2026-06-04",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jun/04/la-liga-2025-26-awards-best-players-team-sid-lowe",
+    "summary": "La Liga 2025-26 awards: the best players, team … and smelliest shirt of the season",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-04T09:27:45.969Z"
+  },
+  {
+    "id": "eec8e1f06a0f",
+    "title": "Most experience? Youngest? Best leagues? World Cup squads in numbers",
+    "date": "2026-06-03",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c89348x0x14o?at_medium=RSS&at_campaign=rss",
+    "summary": "Most experience? Youngest? Best leagues? World Cup squads in numbers",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-04T09:27:45.969Z"
+  },
+  {
+    "id": "0b540729c3d1",
+    "title": "Back shaving & biggest posers - the Scotland squad in their own words",
+    "date": "2026-06-03",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cvgz2e8g4e8o?at_medium=RSS&at_campaign=rss",
+    "summary": "Back shaving & biggest posers - the Scotland squad in their own words",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-04T09:27:45.969Z"
+  },
+  {
+    "id": "c9a8f82106ed",
+    "title": "Friendlies 'a chance to further develop' - O'Neill",
+    "date": "2026-06-03",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c8r87pp2lxdo?at_medium=RSS&at_campaign=rss",
+    "summary": "Friendlies 'a chance to further develop' - O'Neill",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-04T09:27:45.969Z"
+  },
+  {
+    "id": "ed1444578583",
+    "title": "Seven African players to watch at World Cup 2026",
+    "date": "2026-06-03",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c1w29qgdn7xo?at_medium=RSS&at_campaign=rss",
+    "summary": "Seven African players to watch at World Cup 2026",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-04T09:27:45.969Z"
+  },
+  {
+    "id": "0b540729c3d1",
+    "title": "Back shaving & biggest posers - the Scotland squad in their own words",
+    "date": "2026-06-03",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cvgz2e8g4e8o?at_medium=RSS&at_campaign=rss",
+    "summary": "Back shaving & biggest posers - the Scotland squad in their own words",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-04T09:27:45.969Z"
+  },
+  {
+    "id": "f8ede005d852",
+    "title": "Big games keep coming as Hughes eyes World Cup",
+    "date": "2026-06-03",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cvgzdm200v5o?at_medium=RSS&at_campaign=rss",
+    "summary": "Big games keep coming as Hughes eyes World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-04T09:27:45.969Z"
+  },
+  {
+    "id": "2cf0e748b008",
+    "title": "Underdog victories at the World Cup: what were the biggest and best upsets?",
+    "date": "2026-06-03",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jun/03/world-cup-underdog-victories-upsets",
+    "summary": "Underdog victories at the World Cup: what were the biggest and best upsets?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-04T09:27:45.969Z"
+  },
+  {
+    "id": "70bb77b716d8",
+    "title": "Belgium World Cup 2026 team guide",
+    "date": "2026-06-03",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jun/04/belgium-world-cup-2026-team-guide",
+    "summary": "Belgium World Cup 2026 team guide",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-04T09:27:45.969Z"
+  },
+  {
+    "id": "0ad71e0b6e53",
+    "title": "Marcus Rashford heads to World Cup in limbo despite proving his value to Barcelona",
+    "date": "2026-06-03",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jun/03/marcus-rashford-heads-to-world-cup-in-limbo-despite-proving-his-value-to-barcelona",
+    "summary": "Marcus Rashford heads to World Cup in limbo despite proving his value to Barcelona",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-04T09:27:45.969Z"
+  },
+  {
+    "id": "288d669944a6",
+    "title": "‘Part machine’: World Cup success lies in the details for Socceroos coach Tony Popovic",
+    "date": "2026-06-03",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jun/04/australia-world-cup-team-socceroos-success-coach-tony-popovic",
+    "summary": "‘Part machine’: World Cup success lies in the details for Socceroos coach Tony Popovic",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-04T09:27:45.969Z"
+  },
+  {
+    "id": "2e35a3e6bfa0",
+    "title": "Tunisia World Cup 2026 team guide",
+    "date": "2026-06-03",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jun/03/tunisia-world-cup-2026-team-guide",
+    "summary": "Tunisia World Cup 2026 team guide",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-04T09:27:45.969Z"
+  },
+  {
     "id": "b974a5db35f7",
     "title": "World Cup quiz: Do you remember these mascots?",
     "date": "2026-06-03",
@@ -3913,83 +4160,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-05-06T08:57:24.293Z"
-  },
-  {
-    "id": "68694ba70fe3",
-    "title": "Ronaldo nears first major trophy at Al-Nassr but rivals find it a little too convenient",
-    "date": "2026-05-04",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/may/04/cristiano-ronaldo-nears-first-major-trophy-al-nassr-saudi-pro-league",
-    "summary": "Ronaldo nears first major trophy at Al-Nassr but rivals find it a little too convenient",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-05T08:53:31.668Z"
-  },
-  {
-    "id": "0cbecf3e9161",
-    "title": "How I see the game - Davide Ancelotti's tactics deep dive",
-    "date": "2026-05-04",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/clyp3y9lwjdo?at_medium=RSS&at_campaign=rss",
-    "summary": "How I see the game - Davide Ancelotti's tactics deep dive",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-04T08:57:40.309Z"
-  },
-  {
-    "id": "9a3f5e069ef1",
-    "title": "Hearts trio pick up PFA Scotland prizes",
-    "date": "2026-05-04",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/crmpn0vn8ymo?at_medium=RSS&at_campaign=rss",
-    "summary": "Hearts trio pick up PFA Scotland prizes",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-04T08:57:40.309Z"
-  },
-  {
-    "id": "9a3f5e069ef1",
-    "title": "Hearts trio pick up PFA Scotland prizes",
-    "date": "2026-05-04",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/crmpn0vn8ymo?at_medium=RSS&at_campaign=rss",
-    "summary": "Hearts trio pick up PFA Scotland prizes",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-04T08:57:40.309Z"
-  },
-  {
-    "id": "47fda500a854",
-    "title": "North Korean women’s football club headed to Seoul in rare trip across the border",
-    "date": "2026-05-04",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/may/04/north-korea-womens-football-team-south-seoul-match",
-    "summary": "North Korean women’s football club headed to Seoul in rare trip across the border",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-04T08:57:40.309Z"
-  },
-  {
-    "id": "0f15da1d436c",
-    "title": "Socceroos eager to disprove World Cup underdog tag, says coach Tony Popovic",
-    "date": "2026-05-04",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/may/04/socceroos-australia-football-world-cup-underdog",
-    "summary": "Socceroos eager to disprove World Cup underdog tag, says coach Tony Popovic",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-04T08:57:40.309Z"
   }
 ];
