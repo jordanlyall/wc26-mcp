@@ -2,6 +2,253 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "265c26d51923",
+    "title": "Iran's football team granted visas to enter US for World Cup, officials say",
+    "date": "2026-06-06",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/news/articles/cy8286nqz87o?at_medium=RSS&at_campaign=rss",
+    "summary": "Iran's football team granted visas to enter US for World Cup, officials say",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-06T09:00:10.279Z"
+  },
+  {
+    "id": "a9c87fc03136",
+    "title": "Power and glory: World Cup promises a spectacle impossible to ignore",
+    "date": "2026-06-06",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/ng-interactive/2026/jun/06/power-and-glory-world-cup-promises-a-spectacle-impossible-to-ignore",
+    "summary": "Power and glory: World Cup promises a spectacle impossible to ignore",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-06T09:00:10.279Z"
+  },
+  {
+    "id": "e9731b2998d5",
+    "title": "Uruguay World Cup 2026 team guide",
+    "date": "2026-06-06",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jun/06/uruguay-world-cup-2026-team-guide",
+    "summary": "Uruguay World Cup 2026 team guide",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-06T09:00:10.279Z"
+  },
+  {
+    "id": "c02ea0e579eb",
+    "title": "Tuchel will not let Tampa pitch affect selection",
+    "date": "2026-06-05",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c87q7q45gp2o?at_medium=RSS&at_campaign=rss",
+    "summary": "Tuchel will not let Tampa pitch affect selection",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-06T09:00:10.279Z"
+  },
+  {
+    "id": "4e631cf592f6",
+    "title": "Advantage Scotland as they await Cuthbert injury news",
+    "date": "2026-06-05",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c3929el74pzo?at_medium=RSS&at_campaign=rss",
+    "summary": "Advantage Scotland as they await Cuthbert injury news",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-06T09:00:10.279Z"
+  },
+  {
+    "id": "2669a47f9870",
+    "title": "Will transfers be a distraction for England at World Cup?",
+    "date": "2026-06-05",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/crlpglx66z9o?at_medium=RSS&at_campaign=rss",
+    "summary": "Will transfers be a distraction for England at World Cup?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-06T09:00:10.279Z"
+  },
+  {
+    "id": "d66419d98e14",
+    "title": "Watch: Weir hat-trick as Scotland thump Israel",
+    "date": "2026-06-05",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/videos/c74d4gw755go?at_medium=RSS&at_campaign=rss",
+    "summary": "Watch: Weir hat-trick as Scotland thump Israel",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-06T09:00:10.279Z"
+  },
+  {
+    "id": "3e701ff44057",
+    "title": "Highlights: Wales held to draw in Montenegro ",
+    "date": "2026-06-05",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/videos/cd9p9pvqenjo?at_medium=RSS&at_campaign=rss",
+    "summary": "Highlights: Wales held to draw in Montenegro ",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-06T09:00:10.279Z"
+  },
+  {
+    "id": "fd02b08ab371",
+    "title": "Bellamy urges Wales to dominate Romania",
+    "date": "2026-06-05",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/videos/cp8p867dme2o?at_medium=RSS&at_campaign=rss",
+    "summary": "Bellamy urges Wales to dominate Romania",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-06T09:00:10.279Z"
+  },
+  {
+    "id": "6c9c1f728833",
+    "title": "Germany forward Karl ruled out of World Cup",
+    "date": "2026-06-05",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cz020zdklmmo?at_medium=RSS&at_campaign=rss",
+    "summary": "Germany forward Karl ruled out of World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-06T09:00:10.279Z"
+  },
+  {
+    "id": "f199d0e1ecb7",
+    "title": "Tottenham sign Robertson after Liverpool exit",
+    "date": "2026-06-05",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c1l2lzzg2nyo?at_medium=RSS&at_campaign=rss",
+    "summary": "Tottenham sign Robertson after Liverpool exit",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-06T09:00:10.279Z"
+  },
+  {
+    "id": "8c95a7f74cf5",
+    "title": "Football regulator faces 'defining test' over potential Derby investment",
+    "date": "2026-06-05",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c20257p2dyyo?at_medium=RSS&at_campaign=rss",
+    "summary": "Football regulator faces 'defining test' over potential Derby investment",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-06T09:00:10.279Z"
+  },
+  {
+    "id": "4e631cf592f6",
+    "title": "Advantage Scotland as they await Cuthbert injury news",
+    "date": "2026-06-05",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c3929el74pzo?at_medium=RSS&at_campaign=rss",
+    "summary": "Advantage Scotland as they await Cuthbert injury news",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-06T09:00:10.279Z"
+  },
+  {
+    "id": "f199d0e1ecb7",
+    "title": "Tottenham sign Robertson after Liverpool exit",
+    "date": "2026-06-05",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c1l2lzzg2nyo?at_medium=RSS&at_campaign=rss",
+    "summary": "Tottenham sign Robertson after Liverpool exit",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-06T09:00:10.279Z"
+  },
+  {
+    "id": "fb0418235d12",
+    "title": "Tuchel confident ‘sharp’ Kane is in perfect form to lead England at World Cup",
+    "date": "2026-06-05",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jun/05/tuchel-confident-sharp-kane-is-in-perfect-form-to-lead-england-at-world-cup",
+    "summary": "Tuchel confident ‘sharp’ Kane is in perfect form to lead England at World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-06T09:00:10.279Z"
+  },
+  {
+    "id": "e14bb068b0a8",
+    "title": "Spain World Cup 2026 team guide",
+    "date": "2026-06-05",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jun/06/spain-world-cup-2026-team-guide",
+    "summary": "Spain World Cup 2026 team guide",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-06T09:00:10.279Z"
+  },
+  {
+    "id": "89875f57708d",
+    "title": "‘It hurts. I expected a different game’: Wiegman’s shock at Spain humbling",
+    "date": "2026-06-05",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jun/05/sarina-wiegman-lionesses-spain-womens-world-cup-qualifier",
+    "summary": "‘It hurts. I expected a different game’: Wiegman’s shock at Spain humbling",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-06T09:00:10.279Z"
+  },
+  {
+    "id": "bf6a4686a8b3",
+    "title": "Steve Clarke warns Scotland not to underestimate Haiti after New Zealand rout",
+    "date": "2026-06-05",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jun/05/steve-clarke-scotland-haiti-world-cup-new-zealand",
+    "summary": "Steve Clarke warns Scotland not to underestimate Haiti after New Zealand rout",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-06T09:00:10.279Z"
+  },
+  {
+    "id": "a766f5fda730",
+    "title": "Saudi Arabia World Cup 2026 team guide",
+    "date": "2026-06-05",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jun/05/saudi-arabia-world-cup-2026-team-guide",
+    "summary": "Saudi Arabia World Cup 2026 team guide",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-06T09:00:10.279Z"
+  },
+  {
     "id": "9a6d5920ba4b",
     "title": "Fifa demands fans pay after ticketing error offered free World Cup tickets",
     "date": "2026-06-05",
@@ -4259,110 +4506,6 @@ export const news: NewsItem[] = [
     "source": "The Guardian",
     "url": "https://www.theguardian.com/football/2026/may/07/michael-carrick-has-the-light-touch-manchester-united-need-for-next-chapter",
     "summary": "Michael Carrick has the light touch Manchester United need for next chapter | Jonathan Liew",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-07T09:02:01.592Z"
-  },
-  {
-    "id": "f14ffa0c0127",
-    "title": "Mexico players given World Cup training ultimatum",
-    "date": "2026-05-06",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cvgzww4zzv7o?at_medium=RSS&at_campaign=rss",
-    "summary": "Mexico players given World Cup training ultimatum",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-07T09:02:01.592Z"
-  },
-  {
-    "id": "8b010b7c596a",
-    "title": "Haiti's record scorer on Paisley, stunning Scotland & escaping Iran",
-    "date": "2026-05-06",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c936y13v7vzo?at_medium=RSS&at_campaign=rss",
-    "summary": "Haiti's record scorer on Paisley, stunning Scotland & escaping Iran",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-07T09:02:01.592Z"
-  },
-  {
-    "id": "ad0f9647bc6f",
-    "title": "Our World Cup host 'is Fifa, not Trump or America' - Iran",
-    "date": "2026-05-06",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cq6pge92093o?at_medium=RSS&at_campaign=rss",
-    "summary": "Our World Cup host 'is Fifa, not Trump or America' - Iran",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-07T09:02:01.592Z"
-  },
-  {
-    "id": "2e23c8a30a34",
-    "title": "Former Everton defender Naysmith to become Ayr boss",
-    "date": "2026-05-06",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cnvpzdqpn21o?at_medium=RSS&at_campaign=rss",
-    "summary": "Former Everton defender Naysmith to become Ayr boss",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-07T09:02:01.592Z"
-  },
-  {
-    "id": "8b010b7c596a",
-    "title": "Haiti's record scorer on Paisley, stunning Scotland & escaping Iran",
-    "date": "2026-05-06",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c936y13v7vzo?at_medium=RSS&at_campaign=rss",
-    "summary": "Haiti's record scorer on Paisley, stunning Scotland & escaping Iran",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-07T09:02:01.592Z"
-  },
-  {
-    "id": "29fedb720510",
-    "title": "Manchester City’s WSL title winners 2025-26: player-by-player ratings",
-    "date": "2026-05-06",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/may/06/manchester-city-wsl-title-winners-2025-26-player-ratings",
-    "summary": "Manchester City’s WSL title winners 2025-26: player-by-player ratings",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-07T09:02:01.592Z"
-  },
-  {
-    "id": "5100ebc84d78",
-    "title": "Fifa extends Gianluca Prestianni ban, ruling him out for World Cup games",
-    "date": "2026-05-06",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/may/06/fifa-gianluca-prestianni-ban-racism-benfica-argentina",
-    "summary": "Fifa extends Gianluca Prestianni ban, ruling him out for World Cup games",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-07T09:02:01.592Z"
-  },
-  {
-    "id": "7a4c0bade12e",
-    "title": "From Boreham Wood FC’s bus to the world of Mugabe, Yeltsin, Bush and Trump",
-    "date": "2026-05-06",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/may/06/from-boreham-wood-fc-bus-to-world-of-mugabe-yeltsin-bush-and-trump",
-    "summary": "From Boreham Wood FC’s bus to the world of Mugabe, Yeltsin, Bush and Trump",
     "categories": [
       "general"
     ],
