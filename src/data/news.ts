@@ -2,6 +2,253 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "34938a46959a",
+    "title": "Predicting how all 48 men's World Cup teams will d...",
+    "date": "2026-06-08",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48962628/world-cup-predictions-picking-winner-every-game-entire-tournament",
+    "summary": "Predicting how all 48 men's World Cup teams will d...",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-08T09:45:21.006Z"
+  },
+  {
+    "id": "9394d90637ab",
+    "title": "Denmark: Eriksen 'conscious' after on-pitch collap...",
+    "date": "2026-06-08",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48993108/christian-eriksen-collapses-pitch-denmark-ukraine",
+    "summary": "Denmark: Eriksen 'conscious' after on-pitch collap...",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-08T09:45:21.006Z"
+  },
+  {
+    "id": "94cacc616034",
+    "title": "Utd target Éderson called up to Brazil WC squad",
+    "date": "2026-06-08",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48992759/man-united-transfer-target-ederson-brazil-world-cup-squad",
+    "summary": "Utd target Éderson called up to Brazil WC squad",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-08T09:45:21.006Z"
+  },
+  {
+    "id": "55538955b71e",
+    "title": "Dembélé: France to end Deschamps' reign on top",
+    "date": "2026-06-08",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48988194/dembele-france-end-deschamps-reign-trophy",
+    "summary": "Dembélé: France to end Deschamps' reign on top",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-08T09:45:21.006Z"
+  },
+  {
+    "id": "498b30fe6384",
+    "title": "Kane: Heat 'won't be a factor' at World Cup",
+    "date": "2026-06-08",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48991196/summer-heat-factor-england-world-cup-harry-kane",
+    "summary": "Kane: Heat 'won't be a factor' at World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-08T09:45:21.006Z"
+  },
+  {
+    "id": "c8eced7dc0a0",
+    "title": "Inside the fairytale journey of Scotland captain Robertson",
+    "date": "2026-06-08",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cdep137k1z5o?at_medium=RSS&at_campaign=rss",
+    "summary": "Inside the fairytale journey of Scotland captain Robertson",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-08T09:45:21.006Z"
+  },
+  {
+    "id": "b7cb37363227",
+    "title": "Eriksen 'in good spirits' after collapse",
+    "date": "2026-06-08",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c9w2kpyx58no?at_medium=RSS&at_campaign=rss",
+    "summary": "Eriksen 'in good spirits' after collapse",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-08T09:45:21.006Z"
+  },
+  {
+    "id": "f875beb588bc",
+    "title": "Bellingham has fight to start for England - Tuchel",
+    "date": "2026-06-08",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/clyel3mxryvo?at_medium=RSS&at_campaign=rss",
+    "summary": "Bellingham has fight to start for England - Tuchel",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-08T09:45:21.006Z"
+  },
+  {
+    "id": "bde5fbca0042",
+    "title": "Why Olise can be one of France's very best - Clichy",
+    "date": "2026-06-08",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c2020jylzk1o?at_medium=RSS&at_campaign=rss",
+    "summary": "Why Olise can be one of France's very best - Clichy",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-08T09:45:21.006Z"
+  },
+  {
+    "id": "e1dc6d0933b5",
+    "title": "Emotion and celebration for Deschamps' home farewell",
+    "date": "2026-06-08",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cdr4l7gy57lo?at_medium=RSS&at_campaign=rss",
+    "summary": "Emotion and celebration for Deschamps' home farewell",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-08T09:45:21.006Z"
+  },
+  {
+    "id": "5c27f9abdd56",
+    "title": "'Draining' year out makes Roberts appreciate career",
+    "date": "2026-06-08",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/articles/c4gyd157qyvo?at_medium=RSS&at_campaign=rss",
+    "summary": "'Draining' year out makes Roberts appreciate career",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-08T09:45:21.006Z"
+  },
+  {
+    "id": "c8eced7dc0a0",
+    "title": "Inside the fairytale journey of Scotland captain Robertson",
+    "date": "2026-06-08",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cdep137k1z5o?at_medium=RSS&at_campaign=rss",
+    "summary": "Inside the fairytale journey of Scotland captain Robertson",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-08T09:45:21.006Z"
+  },
+  {
+    "id": "1a7d9fe5dfa6",
+    "title": "World Cup 2026: England prepare for Costa Rica friendly, Iran visa row, Lamine Yamal latest: football news – live",
+    "date": "2026-06-08",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/live/2026/jun/08/world-cup-2026-countdown-news-england-iran-usa-mexico-canada-football-live",
+    "summary": "World Cup 2026: England prepare for Costa Rica friendly, Iran visa row, Lamine Yamal latest: football news – live",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-08T09:45:21.006Z"
+  },
+  {
+    "id": "d1f0b59c344b",
+    "title": "The USWNT wanted a fight in Brazil and its World C...",
+    "date": "2026-06-07",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48990324/the-uswnt-wanted-fight-brazil-world-cup-prep-better-it",
+    "summary": "The USWNT wanted a fight in Brazil and its World C...",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-08T09:45:21.006Z"
+  },
+  {
+    "id": "d53b26c03012",
+    "title": "Can South America maintain its 100% record at Nort...",
+    "date": "2026-06-07",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48951119/can-south-america-maintain-100-record-north-american-world-cups",
+    "summary": "Can South America maintain its 100% record at Nort...",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-08T09:45:21.006Z"
+  },
+  {
+    "id": "9a279e31cf85",
+    "title": "Rice to be England's vice-captain at World Cup",
+    "date": "2026-06-07",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cn4r74yjpxvo?at_medium=RSS&at_campaign=rss",
+    "summary": "Rice to be England's vice-captain at World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-08T09:45:21.006Z"
+  },
+  {
+    "id": "65514b94eb4c",
+    "title": "Man Utd-bound Ederson replaces Wesley in Brazil squad",
+    "date": "2026-06-07",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c0ey82g18xjo?at_medium=RSS&at_campaign=rss",
+    "summary": "Man Utd-bound Ederson replaces Wesley in Brazil squad",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-08T09:45:21.006Z"
+  },
+  {
+    "id": "761818838891",
+    "title": "France's Camavinga attends Harvard after World Cup omission ",
+    "date": "2026-06-07",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cgk6y208pm2o?at_medium=RSS&at_campaign=rss",
+    "summary": "France's Camavinga attends Harvard after World Cup omission ",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-08T09:45:21.006Z"
+  },
+  {
+    "id": "65514b94eb4c",
+    "title": "Man Utd-bound Ederson replaces injured Wesley in Brazil squad",
+    "date": "2026-06-07",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c0ey82g18xjo?at_medium=RSS&at_campaign=rss",
+    "summary": "Man Utd-bound Ederson replaces injured Wesley in Brazil squad",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-08T09:45:21.006Z"
+  },
+  {
     "id": "96a6cbc2deea",
     "title": "Shankland, Gunn and a midfield conundrum - Clarke's big decisions",
     "date": "2026-06-07",
@@ -4589,70 +4836,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-05-09T08:39:39.200Z"
-  },
-  {
-    "id": "edf934a4f9b1",
-    "title": "Real hold talks over Mourinho return - Saturday's gossip",
-    "date": "2026-05-08",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cvgzpprdqvko?at_medium=RSS&at_campaign=rss",
-    "summary": "Real hold talks over Mourinho return - Saturday's gossip",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-09T08:39:39.200Z"
-  },
-  {
-    "id": "770a7581dfe1",
-    "title": "Brighton’s Fran Kirby: ‘Instead of running around like a headless chicken, I stand and assess’",
-    "date": "2026-05-08",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/may/08/brighton-fran-kirby-fa-cup-semi-final-liverpool",
-    "summary": "Brighton’s Fran Kirby: ‘Instead of running around like a headless chicken, I stand and assess’",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-09T08:39:39.200Z"
-  },
-  {
-    "id": "220170cdd7e9",
-    "title": "Fifa triples price of top World Cup final ticket to $32,970 as US politicians voice concerns",
-    "date": "2026-05-08",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/may/08/world-cup-final-ticket-prices-tripled-fifa",
-    "summary": "Fifa triples price of top World Cup final ticket to $32,970 as US politicians voice concerns",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-09T08:39:39.200Z"
-  },
-  {
-    "id": "b5b8cbb6ff73",
-    "title": "Canada’s Alphonso Davies out several weeks with hamstring injury as World Cup nears",
-    "date": "2026-05-08",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/may/08/alphonso-davies-injury-canada-world-cup",
-    "summary": "Canada’s Alphonso Davies out several weeks with hamstring injury as World Cup nears",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-09T08:39:39.200Z"
-  },
-  {
-    "id": "8e231d89c83f",
-    "title": "Alexander-Arnold omission 'mind-boggling' to Rooney",
-    "date": "2026-05-08",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cn7pv5nrvglo?at_medium=RSS&at_campaign=rss",
-    "summary": "Alexander-Arnold omission 'mind-boggling' to Rooney",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-08T08:40:24.197Z"
   }
 ];
