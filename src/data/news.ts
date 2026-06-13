@@ -2,6 +2,240 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "2c0b9c2b916e",
+    "title": "Ancelotti: 'Beautiful moment' to lead Brazil at WC...",
+    "date": "2026-06-13",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/49043516/carlo-ancelotti-ready-beautiful-moment-brazil-prepare-hunt-sixth-world-cup",
+    "summary": "Ancelotti: 'Beautiful moment' to lead Brazil at WC...",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-13T09:11:54.244Z"
+  },
+  {
+    "id": "16f8d1afbbc1",
+    "title": "Balogun makes this USMNT side better, including it...",
+    "date": "2026-06-13",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/49048048/balogun-makes-usmnt-better-including-star-pulisic",
+    "summary": "Balogun makes this USMNT side better, including it...",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-13T09:11:54.244Z"
+  },
+  {
+    "id": "90dfa9542268",
+    "title": "Copy of Inside England's World Cup prep: Tuchel's squad su...",
+    "date": "2026-06-13",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/49029911/inside-england-world-cup-prep-thomas-tuchel-squad-survive-storms-heat-florida",
+    "summary": "Copy of Inside England's World Cup prep: Tuchel's squad su...",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-13T09:11:54.244Z"
+  },
+  {
+    "id": "a4698c597e41",
+    "title": "South Korea produce stirring revival to get off to...",
+    "date": "2026-06-13",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/49037890/fifa-world-cup-south-korea-produce-stirring-revival-get-winning-start-vs-czechia",
+    "summary": "South Korea produce stirring revival to get off to...",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-13T09:11:54.244Z"
+  },
+  {
+    "id": "19fa95763c54",
+    "title": "USA start World Cup in style - but will they finally join the elite?",
+    "date": "2026-06-13",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c621z2k51rdo?at_medium=RSS&at_campaign=rss",
+    "summary": "USA start World Cup in style - but will they finally join the elite?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-13T09:11:54.244Z"
+  },
+  {
+    "id": "958299f2fdaa",
+    "title": "Balogun stars in impressive USA win over Paraguay",
+    "date": "2026-06-13",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/videos/cwydp9463wko?at_medium=RSS&at_campaign=rss",
+    "summary": "Balogun stars in impressive USA win over Paraguay",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-13T09:11:54.244Z"
+  },
+  {
+    "id": "51ae21288691",
+    "title": "VAR makes 'mistaken identity' history as strange booking confuses fans",
+    "date": "2026-06-13",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c5yze890365o?at_medium=RSS&at_campaign=rss",
+    "summary": "VAR makes 'mistaken identity' history as strange booking confuses fans",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-13T09:11:54.244Z"
+  },
+  {
+    "id": "a95e3e5308ba",
+    "title": "Katy Perry, Tyla & Future among performers at USA's opening ceremony",
+    "date": "2026-06-13",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/videos/ce8me8qrlrmo?at_medium=RSS&at_campaign=rss",
+    "summary": "Katy Perry, Tyla & Future among performers at USA's opening ceremony",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-13T09:11:54.244Z"
+  },
+  {
+    "id": "27985223caed",
+    "title": "Injured referee Oliver to miss World Cup match",
+    "date": "2026-06-13",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cx265n1dy58o?at_medium=RSS&at_campaign=rss",
+    "summary": "Injured referee Oliver to miss World Cup match",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-13T09:11:54.244Z"
+  },
+  {
+    "id": "66fa79227262",
+    "title": "World Cup 2026: USA light up LA; England’s boots stolen; Scotland’s big return – live",
+    "date": "2026-06-13",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/live/2026/jun/13/world-cup-2026-usa-light-up-la-englands-boots-stolen-scotlands-big-return-live",
+    "summary": "World Cup 2026: USA light up LA; England’s boots stolen; Scotland’s big return – live",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-13T09:11:54.244Z"
+  },
+  {
+    "id": "5cb72517ebb0",
+    "title": "Six Lionesses made MBEs in King's Birthday Honours",
+    "date": "2026-06-12",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/articles/c07ygxxj0g3o?at_medium=RSS&at_campaign=rss",
+    "summary": "Six Lionesses made MBEs in King's Birthday Honours",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-13T09:11:54.244Z"
+  },
+  {
+    "id": "997dbe923975",
+    "title": "Richards 'understands' but disagrees with Tuchel's England squad selection",
+    "date": "2026-06-12",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/videos/cn07xjyyzwjo?at_medium=RSS&at_campaign=rss",
+    "summary": "Richards 'understands' but disagrees with Tuchel's England squad selection",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-13T09:11:54.244Z"
+  },
+  {
+    "id": "32b4d119fcb4",
+    "title": "Watford great Jackett dies aged 64",
+    "date": "2026-06-12",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cqj1z2wqkw2o?at_medium=RSS&at_campaign=rss",
+    "summary": "Watford great Jackett dies aged 64",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-13T09:11:54.244Z"
+  },
+  {
+    "id": "3d70629ae9ee",
+    "title": "Critics of Mbappe have gone 'too far', says Dembele",
+    "date": "2026-06-12",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c4gyzyq0p7lo?at_medium=RSS&at_campaign=rss",
+    "summary": "Critics of Mbappe have gone 'too far', says Dembele",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-13T09:11:54.244Z"
+  },
+  {
+    "id": "62b3c8e8ebac",
+    "title": "When do England play and how can you follow it?",
+    "date": "2026-06-12",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c79y1jp5zeno?at_medium=RSS&at_campaign=rss",
+    "summary": "When do England play and how can you follow it?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-13T09:11:54.244Z"
+  },
+  {
+    "id": "2ac6cfe3adc6",
+    "title": "World Cup quiz: Can you identify these 2026 host cities?",
+    "date": "2026-06-12",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c24yp7yl864o?at_medium=RSS&at_campaign=rss",
+    "summary": "World Cup quiz: Can you identify these 2026 host cities?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-13T09:11:54.244Z"
+  },
+  {
+    "id": "b1655e3e066a",
+    "title": "Will three points guarantee a spot in World Cup knockouts?",
+    "date": "2026-06-12",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cd95xgl23y7o?at_medium=RSS&at_campaign=rss",
+    "summary": "Will three points guarantee a spot in World Cup knockouts?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-13T09:11:54.244Z"
+  },
+  {
+    "id": "5cb72517ebb0",
+    "title": "Six Lionesses made MBEs in King's Birthday Honours",
+    "date": "2026-06-12",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/articles/c07ygxxj0g3o?at_medium=RSS&at_campaign=rss",
+    "summary": "Six Lionesses made MBEs in King's Birthday Honours",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-13T09:11:54.244Z"
+  },
+  {
     "id": "e38f5702a754",
     "title": "Could one win get Scotland out of World Cup group?",
     "date": "2026-06-12",
@@ -78,6 +312,19 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-06-12T09:33:09.663Z"
+  },
+  {
+    "id": "a4ac0e03cbd8",
+    "title": "Six complaints about 2026 World Cup, and why it mi...",
+    "date": "2026-06-11",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/49021099/world-cup-2026-six-reasons-concern-six-counterarguments-gabriele-marcotti",
+    "summary": "Six complaints about 2026 World Cup, and why it mi...",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-13T09:11:54.244Z"
   },
   {
     "id": "801cda9698dc",
@@ -5395,70 +5642,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-05-14T09:04:42.251Z"
-  },
-  {
-    "id": "70ddd4e2ff82",
-    "title": "World Cup transport prices cut after fan backlash",
-    "date": "2026-05-13",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c3w2nqz9nn3o?at_medium=RSS&at_campaign=rss",
-    "summary": "World Cup transport prices cut after fan backlash",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-14T09:04:42.251Z"
-  },
-  {
-    "id": "c4c16147bb36",
-    "title": "Scotland await Conway news before Tuesday squad announcement",
-    "date": "2026-05-13",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c9q3ylqxep2o?at_medium=RSS&at_campaign=rss",
-    "summary": "Scotland await Conway news before Tuesday squad announcement",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-14T09:04:42.251Z"
-  },
-  {
-    "id": "44368611ddd7",
-    "title": "Carlo Ancelotti: ‘Neymar’s call-up depends only on him and what he shows on the pitch’",
-    "date": "2026-05-13",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/may/13/carlo-ancelotti-brazil-world-cup-vinicius-junior-neymar-interview",
-    "summary": "Carlo Ancelotti: ‘Neymar’s call-up depends only on him and what he shows on the pitch’",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-13T09:11:07.148Z"
-  },
-  {
-    "id": "b7b254bc925e",
-    "title": "Personalised chopsticks and underwater treadmills: Manchester City Women find new ways to win",
-    "date": "2026-05-13",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/may/13/manchester-city-women-new-training-facility",
-    "summary": "Personalised chopsticks and underwater treadmills: Manchester City Women find new ways to win",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-13T09:11:07.148Z"
-  },
-  {
-    "id": "42a1d44e0e3e",
-    "title": "Ted Lasso actor Cristo Fernández signs contract with professional US club",
-    "date": "2026-05-13",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/may/13/ted-lasso-cristo-fernandez-contract-professional-us-soccer-club",
-    "summary": "Ted Lasso actor Cristo Fernández signs contract with professional US club",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-13T09:11:07.148Z"
   }
 ];
