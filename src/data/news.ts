@@ -2,6 +2,266 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "e731dcdbeaaf",
+    "title": "Spain won't panic yet about Cape Verde draw, but t...",
+    "date": "2026-06-16",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/49074414/spain-world-cup-shock-draw-cape-verde-lamine-yamal",
+    "summary": "Spain won't panic yet about Cape Verde draw, but t...",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-16T09:53:56.210Z"
+  },
+  {
+    "id": "9b24ac4789d7",
+    "title": "Sources: Tunisia hire Renard with Lamouchi out",
+    "date": "2026-06-16",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/49079184/tunisia-hire-renard-lamouchi-exit-world-cup",
+    "summary": "Sources: Tunisia hire Renard with Lamouchi out",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-16T09:53:56.210Z"
+  },
+  {
+    "id": "117388727395",
+    "title": "'Repressed' Iran forced to leave U.S. after game",
+    "date": "2026-06-16",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/49078938/iran-forced-leave-us-new-zealand-draw",
+    "summary": "'Repressed' Iran forced to leave U.S. after game",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-16T09:53:56.210Z"
+  },
+  {
+    "id": "903776137f85",
+    "title": "Senegal coach calls on NYC diaspora to show out",
+    "date": "2026-06-16",
+    "source": "ESPN",
+    "url": "https://www.espn.com/espn/story/_/id/49075921/senegal-coach-calls-ny-nj-show-team-home-fans-due-visa-policies",
+    "summary": "Senegal coach calls on NYC diaspora to show out",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-16T09:53:56.210Z"
+  },
+  {
+    "id": "64ece4baeea0",
+    "title": "Argentina 'calm' with Emi, Álvarez, Messi ready",
+    "date": "2026-06-16",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/49075716/argentina-calm-lionel-messi-emiliano-martinez-julian-alvarez-fit-ahead-algeria",
+    "summary": "Argentina 'calm' with Emi, Álvarez, Messi ready",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-16T09:53:56.210Z"
+  },
+  {
+    "id": "3329bb84be0a",
+    "title": "Canada's Davies not in full training pre Qatar",
+    "date": "2026-06-16",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/49076456/alphonso-davies-injury-canada-world-cup-qatar",
+    "summary": "Canada's Davies not in full training pre Qatar",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-16T09:53:56.210Z"
+  },
+  {
+    "id": "37164488ba74",
+    "title": "Iran's entertaining draw with New Zealand offers r...",
+    "date": "2026-06-16",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/49079481/irans-entertaining-draw-new-zealand-offers-brief-respite",
+    "summary": "Iran's entertaining draw with New Zealand offers r...",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-16T09:53:56.210Z"
+  },
+  {
+    "id": "3cd5f350510a",
+    "title": "Tunisia sack Lamouchi just one game into World Cup",
+    "date": "2026-06-16",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cp8rldpky7wo?at_medium=RSS&at_campaign=rss",
+    "summary": "Tunisia sack Lamouchi just one game into World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-16T09:53:56.210Z"
+  },
+  {
+    "id": "777c1b68675e",
+    "title": "'Not a model' - Bielsa refuses to engage with World Cup photoshoot",
+    "date": "2026-06-16",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cd6e58eq72eo?at_medium=RSS&at_campaign=rss",
+    "summary": "'Not a model' - Bielsa refuses to engage with World Cup photoshoot",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-16T09:53:56.210Z"
+  },
+  {
+    "id": "d03447a0022d",
+    "title": "Why Kante is still crucial for France  - Giroud",
+    "date": "2026-06-16",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c3vypg424glo?at_medium=RSS&at_campaign=rss",
+    "summary": "Why Kante is still crucial for France  - Giroud",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-16T09:53:56.210Z"
+  },
+  {
+    "id": "90a68fa02cf5",
+    "title": "Are billions flooding into Saudi Pro League helping national team?",
+    "date": "2026-06-16",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c892y35lnq8o?at_medium=RSS&at_campaign=rss",
+    "summary": "Are billions flooding into Saudi Pro League helping national team?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-16T09:53:56.210Z"
+  },
+  {
+    "id": "20874950e790",
+    "title": "Iran 'most oppressed' team at World Cup - Ghalenoei",
+    "date": "2026-06-16",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/ckg48wvv0v2o?at_medium=RSS&at_campaign=rss",
+    "summary": "Iran 'most oppressed' team at World Cup - Ghalenoei",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-16T09:53:56.210Z"
+  },
+  {
+    "id": "c8b817843ddc",
+    "title": "Football Daily",
+    "date": "2026-06-16",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sounds/play/p0ns6ylk?at_medium=RSS&at_campaign=rss",
+    "summary": "Football Daily",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-16T09:53:56.210Z"
+  },
+  {
+    "id": "1c5ed6259e29",
+    "title": "The 40-year-old keeper who inspired Cape Verde's historic debut against Spain",
+    "date": "2026-06-15",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c0ryz4n2v0qo?at_medium=RSS&at_campaign=rss",
+    "summary": "The 40-year-old keeper who inspired Cape Verde's historic debut against Spain",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-16T09:53:56.210Z"
+  },
+  {
+    "id": "2fcde63ccbe0",
+    "title": "Vozinha heroics help Cape Verde hold Spain to goalless draw ",
+    "date": "2026-06-15",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/videos/c621kr6q2rro?at_medium=RSS&at_campaign=rss",
+    "summary": "Vozinha heroics help Cape Verde hold Spain to goalless draw ",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-16T09:53:56.210Z"
+  },
+  {
+    "id": "064d2405342f",
+    "title": "'Cartwheels at breakfast' & kicking about Boston - the culture shift in Scotland camp",
+    "date": "2026-06-15",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cj3gnz8kvevo?at_medium=RSS&at_campaign=rss",
+    "summary": "'Cartwheels at breakfast' & kicking about Boston - the culture shift in Scotland camp",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-16T09:53:56.210Z"
+  },
+  {
+    "id": "3b5cfbf6daa8",
+    "title": "'He's the story' - Vozinha's epic goalkeeping display thwarts Spain",
+    "date": "2026-06-15",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/videos/c75y6gp1qyyo?at_medium=RSS&at_campaign=rss",
+    "summary": "'He's the story' - Vozinha's epic goalkeeping display thwarts Spain",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-16T09:53:56.210Z"
+  },
+  {
+    "id": "77272f40cb3d",
+    "title": "Emotional full-time scenes as Cape Verde celebrate 0-0 draw against Spain",
+    "date": "2026-06-15",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/videos/cpv34dv4rmgo?at_medium=RSS&at_campaign=rss",
+    "summary": "Emotional full-time scenes as Cape Verde celebrate 0-0 draw against Spain",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-16T09:53:56.210Z"
+  },
+  {
+    "id": "5acdc24bf4e8",
+    "title": "2,500 passes since Spain's last World Cup goal - key stats as Cape Verde earn point",
+    "date": "2026-06-15",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/czj8egd29y0o?at_medium=RSS&at_campaign=rss",
+    "summary": "2,500 passes since Spain's last World Cup goal - key stats as Cape Verde earn point",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-16T09:53:56.210Z"
+  },
+  {
+    "id": "62292aa04c38",
+    "title": "'Greatest feeling ever': Cape Verdeans tell BBC of joy at holding Spain to draw",
+    "date": "2026-06-15",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/news/articles/clyer09rd1ro?at_medium=RSS&at_campaign=rss",
+    "summary": "'Greatest feeling ever': Cape Verdeans tell BBC of joy at holding Spain to draw",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-16T09:53:56.210Z"
+  },
+  {
     "id": "86a0d2689c9b",
     "title": "Gyokeres & Isak score as Sweden put five past Tunisia",
     "date": "2026-06-15",
@@ -5824,57 +6084,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-05-17T08:49:30.993Z"
-  },
-  {
-    "id": "887457d08cfb",
-    "title": "Kane nets hat-trick as Bayern thrash Cologne",
-    "date": "2026-05-16",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/videos/c7v986y8p4yo?at_medium=RSS&at_campaign=rss",
-    "summary": "Kane nets hat-trick as Bayern thrash Cologne",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-17T08:49:30.993Z"
-  },
-  {
-    "id": "339ba7fcfbf7",
-    "title": "Mohamed Salah criticises ‘crumbling’ Liverpool and demands return to ‘heavy metal’ football",
-    "date": "2026-05-16",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/may/16/mohamed-salah-criticises-crumbling-liverpools-season-and-demands-return-to-heavy-metal-football",
-    "summary": "Mohamed Salah criticises ‘crumbling’ Liverpool and demands return to ‘heavy metal’ football",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-17T08:49:30.993Z"
-  },
-  {
-    "id": "6fba469c9fcb",
-    "title": "European football: Kane uncorks title party with hat-trick; Lewandowski to leave Barça",
-    "date": "2026-05-16",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/may/16/robert-lewandowski-barcelona-real-madrid-bundesliga-european-roundup",
-    "summary": "European football: Kane uncorks title party with hat-trick; Lewandowski to leave Barça",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-17T08:49:30.993Z"
-  },
-  {
-    "id": "8db81d324d02",
-    "title": "South Korea captain Son picked for fourth World Cup",
-    "date": "2026-05-16",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cwy29rxjg47o?at_medium=RSS&at_campaign=rss",
-    "summary": "South Korea captain Son picked for fourth World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-16T08:41:28.140Z"
   }
 ];
