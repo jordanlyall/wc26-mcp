@@ -2,6 +2,253 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "b2cb3c6ce7ad",
+    "title": "One of World Cup's great stories - can Cape Verde become legends?",
+    "date": "2026-06-22",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c0qylwk421eo?at_medium=RSS&at_campaign=rss",
+    "summary": "One of World Cup's great stories - can Cape Verde become legends?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-22T10:09:09.328Z"
+  },
+  {
+    "id": "7944943f0e33",
+    "title": "Iran leave note asking for peace after Belgium draw",
+    "date": "2026-06-22",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cwy0ppqx1p9o?at_medium=RSS&at_campaign=rss",
+    "summary": "Iran leave note asking for peace after Belgium draw",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-22T10:09:09.328Z"
+  },
+  {
+    "id": "5f6fd197018e",
+    "title": "Saka trains with England squad before Ghana match",
+    "date": "2026-06-22",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c8e21d5w0pjo?at_medium=RSS&at_campaign=rss",
+    "summary": "Saka trains with England squad before Ghana match",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-22T10:09:09.328Z"
+  },
+  {
+    "id": "485ba31d057b",
+    "title": "Cape Verde continue to surprise with entertaining Uruguay draw",
+    "date": "2026-06-22",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/videos/c4gy5rkg0ddo?at_medium=RSS&at_campaign=rss",
+    "summary": "Cape Verde continue to surprise with entertaining Uruguay draw",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-22T10:09:09.328Z"
+  },
+  {
+    "id": "b3eb2b1110b0",
+    "title": "Unbeaten Iran will go down in history - Ghalenoei",
+    "date": "2026-06-22",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cx237pe074go?at_medium=RSS&at_campaign=rss",
+    "summary": "Unbeaten Iran will go down in history - Ghalenoei",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-22T10:09:09.328Z"
+  },
+  {
+    "id": "1a2958d1b5b4",
+    "title": "Name the seven Scotland survivors from Clarke's first squad",
+    "date": "2026-06-22",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c05yze49v71o?at_medium=RSS&at_campaign=rss",
+    "summary": "Name the seven Scotland survivors from Clarke's first squad",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-22T10:09:09.328Z"
+  },
+  {
+    "id": "730c5d8fb230",
+    "title": "Football Daily",
+    "date": "2026-06-22",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sounds/play/p0ns7xdt?at_medium=RSS&at_campaign=rss",
+    "summary": "Football Daily",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-22T10:09:09.328Z"
+  },
+  {
+    "id": "1af269357f77",
+    "title": "Ask pundits McCann & Crichton your World Cup questions",
+    "date": "2026-06-22",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c8j2pm834xeo?at_medium=RSS&at_campaign=rss",
+    "summary": "Ask pundits McCann & Crichton your World Cup questions",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-22T10:09:09.328Z"
+  },
+  {
+    "id": "1a2958d1b5b4",
+    "title": "Name the seven Scotland survivors from Clarke's first squad",
+    "date": "2026-06-22",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c05yze49v71o?at_medium=RSS&at_campaign=rss",
+    "summary": "Name the seven Scotland survivors from Clarke's first squad",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-22T10:09:09.328Z"
+  },
+  {
+    "id": "a07d86c327fa",
+    "title": "World Cup 2026: Cape Verde continue remarkable story; Messi, Mbappé and Haaland return – live",
+    "date": "2026-06-22",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/live/2026/jun/22/world-cup-2026-cape-verde-continue-remarkable-story-messi-mbappe-and-haaland-return-live",
+    "summary": "World Cup 2026: Cape Verde continue remarkable story; Messi, Mbappé and Haaland return – live",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-22T10:09:09.328Z"
+  },
+  {
+    "id": "5d816c8a25a7",
+    "title": "Who are ya? Behind the scenes of the official World Cup portrait photographs",
+    "date": "2026-06-22",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jun/22/behind-the-scenes-official-world-cup-portrait-photographs",
+    "summary": "Who are ya? Behind the scenes of the official World Cup portrait photographs",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-22T10:09:09.328Z"
+  },
+  {
+    "id": "1cc268431fe7",
+    "title": "Egypt claim their first World Cup win after roaring from behind to beat New Zealand",
+    "date": "2026-06-22",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jun/22/new-zealand-egypt-world-cup-group-g-match-report",
+    "summary": "Egypt claim their first World Cup win after roaring from behind to beat New Zealand",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-22T10:09:09.328Z"
+  },
+  {
+    "id": "eb0db60b84b3",
+    "title": "Cristiano Ronaldo risks ruining his legacy if he continues to stymie Portugal by starting | Miguel Dantas",
+    "date": "2026-06-22",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jun/22/cristiano-ronaldo-portugal-world-cup",
+    "summary": "Cristiano Ronaldo risks ruining his legacy if he continues to stymie Portugal by starting | Miguel Dantas",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-22T10:09:09.328Z"
+  },
+  {
+    "id": "7cddf77ead99",
+    "title": "Past and present World Cups collide as Beiranvand first gives Iran inspiration, then hope | Alexander Abnos",
+    "date": "2026-06-22",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jun/22/world-cup-iran-goalkeeper-alireza-beiranvand",
+    "summary": "Past and present World Cups collide as Beiranvand first gives Iran inspiration, then hope | Alexander Abnos",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-22T10:09:09.328Z"
+  },
+  {
+    "id": "3e1467229360",
+    "title": "Cape Verde fan goes wild live on BBC News as his country scores",
+    "date": "2026-06-21",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/videos/cyv0n4g6p77o?at_medium=RSS&at_campaign=rss",
+    "summary": "Cape Verde fan goes wild live on BBC News as his country scores",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-22T10:09:09.328Z"
+  },
+  {
+    "id": "6c1fd44d52bf",
+    "title": "'Oh my word!' - Cape Verde take shock lead against Uruguay",
+    "date": "2026-06-21",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/videos/cjwg6le7193o?at_medium=RSS&at_campaign=rss",
+    "summary": "'Oh my word!' - Cape Verde take shock lead against Uruguay",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-22T10:09:09.328Z"
+  },
+  {
+    "id": "c80296305d2e",
+    "title": "Tuchel not afraid to shout at England players - Watkins",
+    "date": "2026-06-21",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cjegy048847o?at_medium=RSS&at_campaign=rss",
+    "summary": "Tuchel not afraid to shout at England players - Watkins",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-22T10:09:09.328Z"
+  },
+  {
+    "id": "03143533fa78",
+    "title": "Kylian Mbappé hungry for Golden Boot battle with Messi as he sings Les Bleus",
+    "date": "2026-06-21",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jun/21/kylian-mbappe-hungry-for-golden-boot-battle-with-messi-as-he-sings-les-bleus",
+    "summary": "Kylian Mbappé hungry for Golden Boot battle with Messi as he sings Les Bleus",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-22T10:09:09.328Z"
+  },
+  {
+    "id": "e53d9a692198",
+    "title": "Thomas Partey in spotlight as he faces England and former Arsenal teammates after rape charges",
+    "date": "2026-06-21",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jun/21/thomas-partey-england-ghana-handshake",
+    "summary": "Thomas Partey in spotlight as he faces England and former Arsenal teammates after rape charges",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-22T10:09:09.328Z"
+  },
+  {
     "id": "0fdbc4a653b9",
     "title": "Copy of How close is this? Japan denied a goal by millimet...",
     "date": "2026-06-21",
@@ -6201,291 +6448,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-05-23T08:48:40.031Z"
-  },
-  {
-    "id": "3e59689664f5",
-    "title": "Pep Guardiola’s perpetual revolutions have changed face of English football | Jonathan Wilson",
-    "date": "2026-05-22",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/may/22/pep-guardiola-manchester-city-changed-face-of-english-football",
-    "summary": "Pep Guardiola’s perpetual revolutions have changed face of English football | Jonathan Wilson",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-24T08:58:49.424Z"
-  },
-  {
-    "id": "112eb6ce7df8",
-    "title": "Locks, likelies and long shots: who will make the Socceroos’ World Cup squad? | Jack Snape",
-    "date": "2026-05-22",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/blog/2026/may/23/who-will-make-the-socceroos-australia-world-cup-squad",
-    "summary": "Locks, likelies and long shots: who will make the Socceroos’ World Cup squad? | Jack Snape",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-24T08:58:49.424Z"
-  },
-  {
-    "id": "77774d4b4c9d",
-    "title": "Football Daily | England’s World Cup squad, leaks and comical takes from the hard-to-please",
-    "date": "2026-05-22",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/may/22/england-world-cup-squad-football-daily-newsletter",
-    "summary": "Football Daily | England’s World Cup squad, leaks and comical takes from the hard-to-please",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-24T08:58:49.424Z"
-  },
-  {
-    "id": "b815d9fbbc9a",
-    "title": "'Unselfish' over 'ego' - what do leaks say about Tuchel's England?",
-    "date": "2026-05-22",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cg4pgve33kyo?at_medium=RSS&at_campaign=rss",
-    "summary": "'Unselfish' over 'ego' - what do leaks say about Tuchel's England?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-23T08:48:40.031Z"
-  },
-  {
-    "id": "36cab5db9405",
-    "title": "Romero set to be in Argentina as Spurs battle to avoid drop on final day",
-    "date": "2026-05-22",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cgrpzxnz1e2o?at_medium=RSS&at_campaign=rss",
-    "summary": "Romero set to be in Argentina as Spurs battle to avoid drop on final day",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-23T08:48:40.031Z"
-  },
-  {
-    "id": "dd063bbf365b",
-    "title": "Why Tuchel wanted Toney back in England picture",
-    "date": "2026-05-22",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cy527w4e7yzo?at_medium=RSS&at_campaign=rss",
-    "summary": "Why Tuchel wanted Toney back in England picture",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-23T08:48:40.031Z"
-  },
-  {
-    "id": "d2da51d7d9c1",
-    "title": "Maguire 'very unlucky' to miss World Cup - Rooney",
-    "date": "2026-05-22",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c4g02kdwp4go?at_medium=RSS&at_campaign=rss",
-    "summary": "Maguire 'very unlucky' to miss World Cup - Rooney",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-23T08:48:40.031Z"
-  },
-  {
-    "id": "086505279278",
-    "title": "'Tuchel's gambles and iron conviction position him as the anti-Southgate'",
-    "date": "2026-05-22",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/ce9p4v50pkko?at_medium=RSS&at_campaign=rss",
-    "summary": "'Tuchel's gambles and iron conviction position him as the anti-Southgate'",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-23T08:48:40.031Z"
-  },
-  {
-    "id": "48727899dcde",
-    "title": "Maguire's England posts 'not necessary' - Tuchel",
-    "date": "2026-05-22",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/videos/c2e24m1124do?at_medium=RSS&at_campaign=rss",
-    "summary": "Maguire's England posts 'not necessary' - Tuchel",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-23T08:48:40.031Z"
-  },
-  {
-    "id": "66ef33642deb",
-    "title": "Tuchel explains England World Cup squad selections",
-    "date": "2026-05-22",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/videos/cm2p1l4vxrxo?at_medium=RSS&at_campaign=rss",
-    "summary": "Tuchel explains England World Cup squad selections",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-23T08:48:40.031Z"
-  },
-  {
-    "id": "34b058a728a1",
-    "title": "Pick your England starting line-up for the World Cup",
-    "date": "2026-05-22",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cp8p20n2355o?at_medium=RSS&at_campaign=rss",
-    "summary": "Pick your England starting line-up for the World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-23T08:48:40.031Z"
-  },
-  {
-    "id": "623dbd6bad4e",
-    "title": "Rooney disagrees with England squad omissions - but backs Toney call",
-    "date": "2026-05-22",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sounds/play/p0nh9bt5?at_medium=RSS&at_campaign=rss",
-    "summary": "Rooney disagrees with England squad omissions - but backs Toney call",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-23T08:48:40.031Z"
-  },
-  {
-    "id": "79fd4019193b",
-    "title": "Football Daily",
-    "date": "2026-05-22",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sounds/play/m002wxpc?at_medium=RSS&at_campaign=rss",
-    "summary": "Football Daily",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-23T08:48:40.031Z"
-  },
-  {
-    "id": "4e9fdf9f0ae7",
-    "title": "'Strong leader' Wilkinson backed to grow after new deal",
-    "date": "2026-05-22",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cp8p5937ynlo?at_medium=RSS&at_campaign=rss",
-    "summary": "'Strong leader' Wilkinson backed to grow after new deal",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-23T08:48:40.031Z"
-  },
-  {
-    "id": "1081277d3122",
-    "title": "Stapleton and Nolan return for crucial qualifiers",
-    "date": "2026-05-22",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cdxpgvee3lyo?at_medium=RSS&at_campaign=rss",
-    "summary": "Stapleton and Nolan return for crucial qualifiers",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-23T08:48:40.031Z"
-  },
-  {
-    "id": "dc2a9ded488b",
-    "title": "Wales boss Wilkinson signs contract extension",
-    "date": "2026-05-22",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c9d3vwpzg15o?at_medium=RSS&at_campaign=rss",
-    "summary": "Wales boss Wilkinson signs contract extension",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-23T08:48:40.031Z"
-  },
-  {
-    "id": "626b9e2cfbce",
-    "title": "Tuchel has picked a good England squad and doesn’t care about the wider shout-verse | Barney Ronay",
-    "date": "2026-05-22",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/may/22/tuchel-practical-england-squad-wider-shout-verse",
-    "summary": "Tuchel has picked a good England squad and doesn’t care about the wider shout-verse | Barney Ronay",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-23T08:48:40.031Z"
-  },
-  {
-    "id": "f98c90cee391",
-    "title": "De Zerbi defends absent Spurs captain Romero after Hoddle’s ‘selfishness’ jibe",
-    "date": "2026-05-22",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/may/22/de-zerbi-spurs-captain-cristian-romero-glenn-hoddle-selfishness",
-    "summary": "De Zerbi defends absent Spurs captain Romero after Hoddle’s ‘selfishness’ jibe",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-23T08:48:40.031Z"
-  },
-  {
-    "id": "61dfe33c90da",
-    "title": "England’s World Cup squad talking points: from Toney’s return to clarity for Bellingham",
-    "date": "2026-05-22",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/may/22/englands-world-cup-squad-talking-points-from-toneys-return-to-clarity-for-bellingham",
-    "summary": "England’s World Cup squad talking points: from Toney’s return to clarity for Bellingham",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-23T08:48:40.031Z"
-  },
-  {
-    "id": "f6bf8448a76a",
-    "title": "Foden, Palmer, Alexander-Arnold set to miss World Cup",
-    "date": "2026-05-22",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c78ke277pmdo?at_medium=RSS&at_campaign=rss",
-    "summary": "Foden, Palmer, Alexander-Arnold set to miss World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-22T09:15:20.262Z"
-  },
-  {
-    "id": "663dfa63f716",
-    "title": "McTominay likely to sign new Napoli deal - gossip",
-    "date": "2026-05-22",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c4g4q20evkgo?at_medium=RSS&at_campaign=rss",
-    "summary": "McTominay likely to sign new Napoli deal - gossip",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-22T09:15:20.262Z"
-  },
-  {
-    "id": "4a412651a1ca",
-    "title": "England’s World Cup 2026 squad revealed by Thomas Tuchel: football – live",
-    "date": "2026-05-22",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/live/2026/may/22/england-world-cup-2026-squad-revealed-thomas-tuchel-football-news-live",
-    "summary": "England’s World Cup 2026 squad revealed by Thomas Tuchel: football – live",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-22T09:15:20.262Z"
   }
 ];
