@@ -2,6 +2,175 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "00541f397dde",
+    "title": "England boss Tuchel not a fan of hydration breaks",
+    "date": "2026-06-23",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c4gyzknng1jo?at_medium=RSS&at_campaign=rss",
+    "summary": "England boss Tuchel not a fan of hydration breaks",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-23T09:17:28.639Z"
+  },
+  {
+    "id": "853b4f45e6e5",
+    "title": "France weather storm to beat Iraq and sail into knockouts",
+    "date": "2026-06-23",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/videos/cdr4jg87z71o?at_medium=RSS&at_campaign=rss",
+    "summary": "France weather storm to beat Iraq and sail into knockouts",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-23T09:17:28.639Z"
+  },
+  {
+    "id": "d113a55e55a8",
+    "title": "World Cup 2026: Messi makes history; Mbappé and Haaland double up; England face Ghana – live",
+    "date": "2026-06-23",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/live/2026/jun/23/world-cup-2026-news-live-messi-mbappe-haaland-england-ghana-portugal-uzbekistan-panama-croatia-colombia-dr-congo",
+    "summary": "World Cup 2026: Messi makes history; Mbappé and Haaland double up; England face Ghana – live",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-23T09:17:28.639Z"
+  },
+  {
+    "id": "dafad9439cd5",
+    "title": "From retirement to records - another immortal Messi moment",
+    "date": "2026-06-22",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c74y1vypn2wo?at_medium=RSS&at_campaign=rss",
+    "summary": "From retirement to records - another immortal Messi moment",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-23T09:17:28.639Z"
+  },
+  {
+    "id": "10c61fb12f95",
+    "title": "Iran leave note asking for peace after Belgium draw",
+    "date": "2026-06-22",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cwy0ppqx1p9o?at_medium=RSS&at_campaign=rss",
+    "summary": "Iran leave note asking for peace after Belgium draw",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-23T09:17:28.639Z"
+  },
+  {
+    "id": "c25c8dbc38a3",
+    "title": "Cape Verde continue to surprise with entertaining Uruguay draw",
+    "date": "2026-06-22",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/videos/c4gy5rkg0ddo?at_medium=RSS&at_campaign=rss",
+    "summary": "Cape Verde continue to surprise with entertaining Uruguay draw",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-23T09:17:28.639Z"
+  },
+  {
+    "id": "46b85992c655",
+    "title": "One of World Cup's great stories - can Cape Verde become legends?",
+    "date": "2026-06-22",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c0qylwk421eo?at_medium=RSS&at_campaign=rss",
+    "summary": "One of World Cup's great stories - can Cape Verde become legends?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-23T09:17:28.639Z"
+  },
+  {
+    "id": "9fe028c666f1",
+    "title": "'You always have regrets' - Rooney on managerial career",
+    "date": "2026-06-22",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c5yzl305ldyo?at_medium=RSS&at_campaign=rss",
+    "summary": "'You always have regrets' - Rooney on managerial career",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-23T09:17:28.639Z"
+  },
+  {
+    "id": "49d43a8ca062",
+    "title": "Germany defender Schlotterbeck out of World Cup",
+    "date": "2026-06-22",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cgk6rzd5g58o?at_medium=RSS&at_campaign=rss",
+    "summary": "Germany defender Schlotterbeck out of World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-23T09:17:28.639Z"
+  },
+  {
+    "id": "c274595d0cf4",
+    "title": "Saka trains with England squad before Ghana match",
+    "date": "2026-06-22",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c8e21d5w0pjo?at_medium=RSS&at_campaign=rss",
+    "summary": "Saka trains with England squad before Ghana match",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-23T09:17:28.639Z"
+  },
+  {
+    "id": "df666c0e40c6",
+    "title": "Name the seven Scotland survivors from Clarke's first squad",
+    "date": "2026-06-22",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c05yze49v71o?at_medium=RSS&at_campaign=rss",
+    "summary": "Name the seven Scotland survivors from Clarke's first squad",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-23T09:17:28.639Z"
+  },
+  {
+    "id": "df666c0e40c6",
+    "title": "Name the seven Scotland survivors from Clarke's first squad",
+    "date": "2026-06-22",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c05yze49v71o?at_medium=RSS&at_campaign=rss",
+    "summary": "Name the seven Scotland survivors from Clarke's first squad",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-23T09:17:28.639Z"
+  },
+  {
+    "id": "68972d1c4478",
+    "title": "Thomas Tuchel urges England to improve defence against Ghana after ‘wake-up call’",
+    "date": "2026-06-22",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jun/23/thomas-tuchel-england-ghana-world-cup-defence-improve",
+    "summary": "Thomas Tuchel urges England to improve defence against Ghana after ‘wake-up call’",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-23T09:17:28.639Z"
+  },
+  {
     "id": "b2cb3c6ce7ad",
     "title": "One of World Cup's great stories - can Cape Verde become legends?",
     "date": "2026-06-22",
@@ -182,6 +351,19 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-06-22T10:09:09.328Z"
+  },
+  {
+    "id": "9c3438e90c80",
+    "title": "Cape Verde fan goes wild live on BBC News as his country scores",
+    "date": "2026-06-21",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/videos/cyv0n4g6p77o?at_medium=RSS&at_campaign=rss",
+    "summary": "Cape Verde fan goes wild live on BBC News as his country scores",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-23T09:17:28.639Z"
   },
   {
     "id": "3e1467229360",
@@ -377,6 +559,19 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-06-21T09:23:23.898Z"
+  },
+  {
+    "id": "0b6dd0c0cceb",
+    "title": "Why Kane is different at this World Cup - Shearer",
+    "date": "2026-06-20",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/crr87vwrwwlo?at_medium=RSS&at_campaign=rss",
+    "summary": "Why Kane is different at this World Cup - Shearer",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-23T09:17:28.639Z"
   },
   {
     "id": "bc799632587c",
@@ -871,6 +1066,19 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-06-19T09:41:47.835Z"
+  },
+  {
+    "id": "69e82a97b697",
+    "title": "Beever-Jones set to sign new deal at Chelsea",
+    "date": "2026-06-18",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/czrx8vd2yvdo?at_medium=RSS&at_campaign=rss",
+    "summary": "Beever-Jones set to sign new deal at Chelsea",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-23T09:17:28.639Z"
   },
   {
     "id": "2de869ff2c6e",
@@ -2121,6 +2329,19 @@ export const news: NewsItem[] = [
     "fetched_at": "2026-06-13T09:11:54.244Z"
   },
   {
+    "id": "8666dbada477",
+    "title": "Will three points guarantee a spot in World Cup knockouts?",
+    "date": "2026-06-12",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cd95xgl23y7o?at_medium=RSS&at_campaign=rss",
+    "summary": "Will three points guarantee a spot in World Cup knockouts?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-23T09:17:28.639Z"
+  },
+  {
     "id": "b7023feba2e8",
     "title": "Kenny Jackett, former Wales and Watford player and successful manager, dies aged 64",
     "date": "2026-06-12",
@@ -2340,6 +2561,19 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-06-12T09:33:09.663Z"
+  },
+  {
+    "id": "7b9c3d748903",
+    "title": "How to watch highlights of World Cup matches",
+    "date": "2026-06-11",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c992xx351d0o?at_medium=RSS&at_campaign=rss",
+    "summary": "How to watch highlights of World Cup matches",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-23T09:17:28.639Z"
   },
   {
     "id": "a4ac0e03cbd8",
@@ -3562,6 +3796,19 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-06-07T09:10:27.069Z"
+  },
+  {
+    "id": "3921b01789a1",
+    "title": "Where to watch the World Cup on the BBC and ITV",
+    "date": "2026-06-06",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c20y4ppqy94o?at_medium=RSS&at_campaign=rss",
+    "summary": "Where to watch the World Cup on the BBC and ITV",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-23T09:17:28.639Z"
   },
   {
     "id": "72cf1fd7cde8",
@@ -6331,122 +6578,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-05-24T08:58:49.424Z"
-  },
-  {
-    "id": "f3eda53a2612",
-    "title": "North Korean women cap historic journey with Asian Champions League crown",
-    "date": "2026-05-23",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/may/23/north-korea-naegohyang-asian-womens-champions-league-final-report",
-    "summary": "North Korean women cap historic journey with Asian Champions League crown",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-26T09:21:22.696Z"
-  },
-  {
-    "id": "7f654ede8598",
-    "title": "USMNT 2026 World Cup Big Board 7.0: Who will make ...",
-    "date": "2026-05-23",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48816477/usmnt-2026-world-cup-big-board-7-make-mauricio-pochettino-squad",
-    "summary": "USMNT 2026 World Cup Big Board 7.0: Who will make ...",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-24T08:58:49.424Z"
-  },
-  {
-    "id": "fb68fca09a2f",
-    "title": "Pep Guardiola will not rule out possibility of managing England",
-    "date": "2026-05-23",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/may/23/pep-guardiola-managing-england-manchester-city",
-    "summary": "Pep Guardiola will not rule out possibility of managing England",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-24T08:58:49.424Z"
-  },
-  {
-    "id": "be8fa643af39",
-    "title": "Ancelotti’s World Cup gamble on Neymar shows Brazil still desperate for own Messi | Jonathan Wilson",
-    "date": "2026-05-23",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/may/23/neymar-brazil-world-cup-carlo-ancelotti-lionel-messi",
-    "summary": "Ancelotti’s World Cup gamble on Neymar shows Brazil still desperate for own Messi | Jonathan Wilson",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-24T08:58:49.424Z"
-  },
-  {
-    "id": "c311d6f052cd",
-    "title": "USMNT World Cup full roster: Alejandro Zendejas is in, Tanner Tessmann misses out",
-    "date": "2026-05-23",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/may/23/usmnt-world-cup-roster-alejandro-zendejas-tanner-tessmann-gio-reyna-diego-luna",
-    "summary": "USMNT World Cup full roster: Alejandro Zendejas is in, Tanner Tessmann misses out",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-24T08:58:49.424Z"
-  },
-  {
-    "id": "1a8272f9be69",
-    "title": "DRC World Cup squad ordered to isolate before entry to US due to Ebola outbreak",
-    "date": "2026-05-23",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/may/23/dcr-world-cup-squad-isolate-ebola-outbreak-congo-united-states",
-    "summary": "DRC World Cup squad ordered to isolate before entry to US due to Ebola outbreak",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-24T08:58:49.424Z"
-  },
-  {
-    "id": "ad934432c89b",
-    "title": "Can ‘slow progress’ lead the United States to produce a top-20 player in the world?",
-    "date": "2026-05-23",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/may/23/usmnt-player-development-youth",
-    "summary": "Can ‘slow progress’ lead the United States to produce a top-20 player in the world?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-24T08:58:49.424Z"
-  },
-  {
-    "id": "b02cebc5b527",
-    "title": "Robertson, Dalglish and a special connection between Liverpool and Scotland",
-    "date": "2026-05-23",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cy023w5n0dwo?at_medium=RSS&at_campaign=rss",
-    "summary": "Robertson, Dalglish and a special connection between Liverpool and Scotland",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-23T08:48:40.031Z"
-  },
-  {
-    "id": "b2224961dcd7",
-    "title": "DR Congo players told to isolate before World Cup",
-    "date": "2026-05-23",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cpdp8geyqxeo?at_medium=RSS&at_campaign=rss",
-    "summary": "DR Congo players told to isolate before World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-23T08:48:40.031Z"
   }
 ];
