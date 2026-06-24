@@ -2,6 +2,253 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "870f2554464f",
+    "title": "Ghana: 'VAR went for coffee' to aid 'lucky' Englan...",
+    "date": "2026-06-24",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/49159828/ghana-england-2026-world-cup-penalty-carlos-queiroz",
+    "summary": "Ghana: 'VAR went for coffee' to aid 'lucky' Englan...",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-24T09:15:44.865Z"
+  },
+  {
+    "id": "2bc5fc525503",
+    "title": "Pochettino: USMNT complacency was a 'big punch'",
+    "date": "2026-06-24",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/49162699/pochettino-admits-naive-usmnt-culture-2024-arrival-world-cup-2026",
+    "summary": "Pochettino: USMNT complacency was a 'big punch'",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-24T09:15:44.865Z"
+  },
+  {
+    "id": "834f54e71726",
+    "title": "Mexico players want Ochoa for historic WC start",
+    "date": "2026-06-24",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/49156230/mexico-players-back-memo-ochoa-historic-world-cup-start-czechia",
+    "summary": "Mexico players want Ochoa for historic WC start",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-24T09:15:44.865Z"
+  },
+  {
+    "id": "0298fc1d02c1",
+    "title": "World Cup Daily: England draw with Ghana; Ronaldo ...",
+    "date": "2026-06-24",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/49150583/messi-100-year-old-super-fan-sees-make-history-portugal-england-action",
+    "summary": "World Cup Daily: England draw with Ghana; Ronaldo ...",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-24T09:15:44.865Z"
+  },
+  {
+    "id": "495ec558db3a",
+    "title": "France star Kylian Mbappé is fast becoming 'Mr. Wo...",
+    "date": "2026-06-24",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/49148833/france-star-kylian-mbappe-fast-becoming-mr-world-cup",
+    "summary": "France star Kylian Mbappé is fast becoming 'Mr. Wo...",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-24T09:15:44.865Z"
+  },
+  {
+    "id": "8dc138cbf35c",
+    "title": "Silly tackle, bad reaction - Tuchel defends Bellingham after Queiroz row",
+    "date": "2026-06-24",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/ce8k4zr6l2no?at_medium=RSS&at_campaign=rss",
+    "summary": "Silly tackle, bad reaction - Tuchel defends Bellingham after Queiroz row",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-24T09:15:44.865Z"
+  },
+  {
+    "id": "fa971f2cfc4b",
+    "title": "World Cup 2026: England frustrated; Scotland face Brazil; Infantino defends hydration breaks – live",
+    "date": "2026-06-24",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/live/2026/jun/24/world-cup-2026-final-group-games-bosnia-and-herzegovina-qatar-switzerland-canada-scotland-brazil-morocco-haiti-czechia-mexico-south-africa-south-korea-live",
+    "summary": "World Cup 2026: England frustrated; Scotland face Brazil; Infantino defends hydration breaks – live",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-24T09:15:44.865Z"
+  },
+  {
+    "id": "72c97000ebff",
+    "title": "World Cup 2026: third-place table, who has qualified and who needs what?",
+    "date": "2026-06-24",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jun/24/world-cup-groups-permutations-round-of-32-usa-mexico-canada",
+    "summary": "World Cup 2026: third-place table, who has qualified and who needs what?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-24T09:15:44.865Z"
+  },
+  {
+    "id": "077a3c45106a",
+    "title": "Daniel Muñoz breaks DR Congo resistance to send Colombia into World Cup knockouts",
+    "date": "2026-06-24",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jun/24/colombia-dr-congo-world-cup-group-k-match-report",
+    "summary": "Daniel Muñoz breaks DR Congo resistance to send Colombia into World Cup knockouts",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-24T09:15:44.865Z"
+  },
+  {
+    "id": "3f3d3badfd9f",
+    "title": "Which footballers have refused to celebrate a goal against another country? | The Knowledge",
+    "date": "2026-06-24",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jun/24/international-players-refused-to-celebrate-goal-the-knowledge",
+    "summary": "Which footballers have refused to celebrate a goal against another country? | The Knowledge",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-24T09:15:44.865Z"
+  },
+  {
+    "id": "d166a5d03307",
+    "title": "Spence appears not to shake hands with Partey",
+    "date": "2026-06-23",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cg4w21g45zyo?at_medium=RSS&at_campaign=rss",
+    "summary": "Spence appears not to shake hands with Partey",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-24T09:15:44.865Z"
+  },
+  {
+    "id": "b95295259fc2",
+    "title": "'Anxious moment for England' - should this have been Ghana penalty?",
+    "date": "2026-06-23",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/videos/cq61l08mj32o?at_medium=RSS&at_campaign=rss",
+    "summary": "'Anxious moment for England' - should this have been Ghana penalty?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-24T09:15:44.865Z"
+  },
+  {
+    "id": "4e3b302946af",
+    "title": "Tuchel credits 'committed' Ghana defending after England draw ",
+    "date": "2026-06-23",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/videos/c982ewd5pn5o?at_medium=RSS&at_campaign=rss",
+    "summary": "Tuchel credits 'committed' Ghana defending after England draw ",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-24T09:15:44.865Z"
+  },
+  {
+    "id": "7b3b3a5287c1",
+    "title": "Deschamps returns to France after death of his mother",
+    "date": "2026-06-23",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cp36q1yxgvko?at_medium=RSS&at_campaign=rss",
+    "summary": "Deschamps returns to France after death of his mother",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-24T09:15:44.865Z"
+  },
+  {
+    "id": "a9261340ed51",
+    "title": "Rice remains positive after England draw with Ghana",
+    "date": "2026-06-23",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/videos/cvg5vd1z2xko?at_medium=RSS&at_campaign=rss",
+    "summary": "Rice remains positive after England draw with Ghana",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-24T09:15:44.865Z"
+  },
+  {
+    "id": "2302ff57869a",
+    "title": "The trial that saved Antoine Semenyo's career",
+    "date": "2026-06-23",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/videos/c621qjnvrrzo?at_medium=RSS&at_campaign=rss",
+    "summary": "The trial that saved Antoine Semenyo's career",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-24T09:15:44.865Z"
+  },
+  {
+    "id": "b743d850360c",
+    "title": "Iran's US entry terms changed for final group game",
+    "date": "2026-06-23",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/ce8k4y0kz56o?at_medium=RSS&at_campaign=rss",
+    "summary": "Iran's US entry terms changed for final group game",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-24T09:15:44.865Z"
+  },
+  {
+    "id": "568d852cc838",
+    "title": "Ramsey appointed Oxford United head coach",
+    "date": "2026-06-23",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cvg43gnlyzxo?at_medium=RSS&at_campaign=rss",
+    "summary": "Ramsey appointed Oxford United head coach",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-24T09:15:44.865Z"
+  },
+  {
+    "id": "12ae2097baea",
+    "title": "Scotland have coping strategy for weather delays",
+    "date": "2026-06-23",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cp36q1w0yg6o?at_medium=RSS&at_campaign=rss",
+    "summary": "Scotland have coping strategy for weather delays",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-24T09:15:44.865Z"
+  },
+  {
     "id": "00541f397dde",
     "title": "England boss Tuchel not a fan of hydration breaks",
     "date": "2026-06-23",
@@ -6526,57 +6773,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-05-25T09:30:17.536Z"
-  },
-  {
-    "id": "ca649648ba77",
-    "title": "How 'electric' Watkins forced his way back into Tuchel's England",
-    "date": "2026-05-24",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/videos/cx21dzymzd2o?at_medium=RSS&at_campaign=rss",
-    "summary": "How 'electric' Watkins forced his way back into Tuchel's England",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-25T09:30:17.536Z"
-  },
-  {
-    "id": "5ae2a98bd486",
-    "title": "Liverpool held by Brentford as Anfield bids Salah and Robertson farewell",
-    "date": "2026-05-24",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/may/24/liverpool-brentford-premier-league-match-report",
-    "summary": "Liverpool held by Brentford as Anfield bids Salah and Robertson farewell",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-25T09:30:17.536Z"
-  },
-  {
-    "id": "02b33d557ee9",
-    "title": "Sources: Reyna in as U.S. picks World Cup roster",
-    "date": "2026-05-24",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48854192/usa-2026-world-cup-roster-gio-reyna-diego-luna-zendejas",
-    "summary": "Sources: Reyna in as U.S. picks World Cup roster",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-24T08:58:49.424Z"
-  },
-  {
-    "id": "80d6d6bd18b2",
-    "title": "Premier League finale with survival on line for Spurs and West Ham – matchday live",
-    "date": "2026-05-24",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/live/2026/may/24/premier-league-finale-with-survival-on-line-for-spurs-and-west-ham-matchday-live",
-    "summary": "Premier League finale with survival on line for Spurs and West Ham – matchday live",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-24T08:58:49.424Z"
   }
 ];
