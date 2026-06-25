@@ -2,6 +2,240 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "772b4a081684",
+    "title": "'Think we're going home' - Clarke & McGinn rue Scotland mistakes",
+    "date": "2026-06-25",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cd7w27eg5jro?at_medium=RSS&at_campaign=rss",
+    "summary": "'Think we're going home' - Clarke & McGinn rue Scotland mistakes",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-25T09:14:48.203Z"
+  },
+  {
+    "id": "6253f69c5f5d",
+    "title": "World Cup 2026: Scotland on brink after Brazil defeat, South Africa advance, and more – live",
+    "date": "2026-06-25",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/live/2026/jun/25/world-cup-2026-scotland-agony-as-brazil-hit-hopes-of-progress-south-africa-advance-and-more-live",
+    "summary": "World Cup 2026: Scotland on brink after Brazil defeat, South Africa advance, and more – live",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-25T09:14:48.203Z"
+  },
+  {
+    "id": "206509225c5c",
+    "title": "Vinícius Júnior leads Brazil’s star cast in blockbuster show against sorry Scotland | Paul MacInnes",
+    "date": "2026-06-25",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jun/25/vinicius-junior-leads-brazil-star-cast-in-blockbuster-show-against-sorry-scotland",
+    "summary": "Vinícius Júnior leads Brazil’s star cast in blockbuster show against sorry Scotland | Paul MacInnes",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-25T09:14:48.203Z"
+  },
+  {
+    "id": "ca87fa0d0590",
+    "title": "Fidalgo caps Mexico rout as co-hosts maintain 100% record and send Czechia out",
+    "date": "2026-06-25",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jun/25/mexico-czechia-world-cup-2026-match-report",
+    "summary": "Fidalgo caps Mexico rout as co-hosts maintain 100% record and send Czechia out",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-25T09:14:48.203Z"
+  },
+  {
+    "id": "a3889ef4fd2a",
+    "title": "Socceroos look to Paraguay ‘challenge’ with World Cup fate in their own hands",
+    "date": "2026-06-25",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jun/25/socceroos-australia-paraguay-game-permutations-last-32-world-cup",
+    "summary": "Socceroos look to Paraguay ‘challenge’ with World Cup fate in their own hands",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-25T09:14:48.203Z"
+  },
+  {
+    "id": "806a0ab41215",
+    "title": "How a ‘naive’ Mauricio Pochettino’s lowest moments turned the USMNT into World Cup darlings",
+    "date": "2026-06-25",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jun/25/mauricio-pochettino-usa-turkey-world-cup-preview",
+    "summary": "How a ‘naive’ Mauricio Pochettino’s lowest moments turned the USMNT into World Cup darlings",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-25T09:14:48.203Z"
+  },
+  {
+    "id": "c4557daed571",
+    "title": "Bosnia and Herzegovina book place in knockout stage after seeing off Qatar",
+    "date": "2026-06-25",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jun/24/bosnia-herzegovina-qatar-group-b-world-cup-2026-match-report",
+    "summary": "Bosnia and Herzegovina book place in knockout stage after seeing off Qatar",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-25T09:14:48.203Z"
+  },
+  {
+    "id": "792045bc8139",
+    "title": "Vinicius Jr pounces on Scotland mistake to give Brazil early lead",
+    "date": "2026-06-24",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/videos/c77yd2r6pj4o?at_medium=RSS&at_campaign=rss",
+    "summary": "Vinicius Jr pounces on Scotland mistake to give Brazil early lead",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-25T09:14:48.203Z"
+  },
+  {
+    "id": "25906938989c",
+    "title": "England's James and Rice to have fitness assessed",
+    "date": "2026-06-24",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cg4w2wk5vryo?at_medium=RSS&at_campaign=rss",
+    "summary": "England's James and Rice to have fitness assessed",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-25T09:14:48.203Z"
+  },
+  {
+    "id": "8f0527523dea",
+    "title": "Belgium going out? Sutton's World Cup 2026 score predictions - final group games",
+    "date": "2026-06-24",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cg74z733xmko?at_medium=RSS&at_campaign=rss",
+    "summary": "Belgium going out? Sutton's World Cup 2026 score predictions - final group games",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-25T09:14:48.203Z"
+  },
+  {
+    "id": "9747a2bece84",
+    "title": "Scotland keeper Gunn on Man Utd radar - Thursday's gossip",
+    "date": "2026-06-24",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c9v273npglmo?at_medium=RSS&at_campaign=rss",
+    "summary": "Scotland keeper Gunn on Man Utd radar - Thursday's gossip",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-25T09:14:48.203Z"
+  },
+  {
+    "id": "c91bed8b0038",
+    "title": "'What a moment!' Alajbegovic scores stunning opener for Bosnia",
+    "date": "2026-06-24",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/videos/cpwe1ljdykno?at_medium=RSS&at_campaign=rss",
+    "summary": "'What a moment!' Alajbegovic scores stunning opener for Bosnia",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-25T09:14:48.203Z"
+  },
+  {
+    "id": "3b8ec3be4afb",
+    "title": "BBC extends deal for Scotland, Wales and NI games",
+    "date": "2026-06-24",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cq81ep9v1x5o?at_medium=RSS&at_campaign=rss",
+    "summary": "BBC extends deal for Scotland, Wales and NI games",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-25T09:14:48.203Z"
+  },
+  {
+    "id": "1e38b66dd6fe",
+    "title": "What we learned from McInnes' Rangers unveiling",
+    "date": "2026-06-24",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cly79pv5d6do?at_medium=RSS&at_campaign=rss",
+    "summary": "What we learned from McInnes' Rangers unveiling",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-25T09:14:48.203Z"
+  },
+  {
+    "id": "1e38b66dd6fe",
+    "title": "What we learned from McInnes' Rangers unveiling",
+    "date": "2026-06-24",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cly79pv5d6do?at_medium=RSS&at_campaign=rss",
+    "summary": "What we learned from McInnes' Rangers unveiling",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-25T09:14:48.203Z"
+  },
+  {
+    "id": "c85630d7c290",
+    "title": "Canada lose home advantage for last 32 after Switzerland win to take top spot",
+    "date": "2026-06-24",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jun/24/canada-switzerland-group-b-2026-world-cup-match-report",
+    "summary": "Canada lose home advantage for last 32 after Switzerland win to take top spot",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-25T09:14:48.203Z"
+  },
+  {
+    "id": "ee1ccc9ad5fb",
+    "title": "Germany’s Kai Havertz: ‘I make runs that look pointless but I’m creating space’",
+    "date": "2026-06-24",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jun/24/kai-havertz-germany-world-cup-2026-interview",
+    "summary": "Germany’s Kai Havertz: ‘I make runs that look pointless but I’m creating space’",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-25T09:14:48.203Z"
+  },
+  {
+    "id": "ab3aec2ce8d2",
+    "title": "Budimir rescues Croatia with winner against Panama on Modric’s landmark day",
+    "date": "2026-06-24",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jun/24/croatia-panama-world-cup-2026-match-report",
+    "summary": "Budimir rescues Croatia with winner against Panama on Modric’s landmark day",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-25T09:14:48.203Z"
+  },
+  {
     "id": "870f2554464f",
     "title": "Ghana: 'VAR went for coffee' to aid 'lucky' Englan...",
     "date": "2026-06-24",
@@ -130,6 +364,19 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-06-24T09:15:44.865Z"
+  },
+  {
+    "id": "756d5857395c",
+    "title": "Who is Hearts target Wouter Vrancken?",
+    "date": "2026-06-23",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c9320p3rlgzo?at_medium=RSS&at_campaign=rss",
+    "summary": "Who is Hearts target Wouter Vrancken?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-25T09:14:48.203Z"
   },
   {
     "id": "d166a5d03307",
@@ -6708,70 +6955,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-05-26T09:21:22.696Z"
-  },
-  {
-    "id": "5b2add5e4927",
-    "title": "Lamine Yamal in Spain squad but no Real players",
-    "date": "2026-05-25",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/crlpp3dw14lo?at_medium=RSS&at_campaign=rss",
-    "summary": "Lamine Yamal in Spain squad but no Real players",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-26T09:21:22.696Z"
-  },
-  {
-    "id": "f3b1aecfa2e8",
-    "title": "Rodriguez in Colombia World Cup squad after illness",
-    "date": "2026-05-25",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/clyppvlpl44o?at_medium=RSS&at_campaign=rss",
-    "summary": "Rodriguez in Colombia World Cup squad after illness",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-26T09:21:22.696Z"
-  },
-  {
-    "id": "39c77e571dcc",
-    "title": "Zero Real Madrid players in Spain World Cup squad as injured Lamine Yamal makes cut",
-    "date": "2026-05-25",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/may/25/spain-world-cup-squad-2026-lamine-yamal-injury",
-    "summary": "Zero Real Madrid players in Spain World Cup squad as injured Lamine Yamal makes cut",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-26T09:21:22.696Z"
-  },
-  {
-    "id": "a15cc135043a",
-    "title": "Messi suffers injury scare before World Cup",
-    "date": "2026-05-25",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cx211e5890lo?at_medium=RSS&at_campaign=rss",
-    "summary": "Messi suffers injury scare before World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-25T09:30:17.536Z"
-  },
-  {
-    "id": "035da1f54c69",
-    "title": "Lionel Messi exits final Miami game before World Cup with possible injury",
-    "date": "2026-05-25",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/may/24/lionel-messi-injury-inter-miami-argentina-world-cup-2026",
-    "summary": "Lionel Messi exits final Miami game before World Cup with possible injury",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-25T09:30:17.536Z"
   }
 ];
