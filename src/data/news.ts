@@ -2,6 +2,253 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "a323b0515bbb",
+    "title": "Turkey end World Cup on high with last-gasp win over USA",
+    "date": "2026-06-26",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/videos/c8j2rxn00d4o?at_medium=RSS&at_campaign=rss",
+    "summary": "Turkey end World Cup on high with last-gasp win over USA",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-26T09:14:42.175Z"
+  },
+  {
+    "id": "88e2432bbbd2",
+    "title": "Beccacece goes from brink to World Cup history with Ecuador ",
+    "date": "2026-06-26",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cqx133qlve2o?at_medium=RSS&at_campaign=rss",
+    "summary": "Beccacece goes from brink to World Cup history with Ecuador ",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-26T09:14:42.175Z"
+  },
+  {
+    "id": "294f208a6ee2",
+    "title": "'Oh my word!' - Elanga 'stunner' draws Sweden level",
+    "date": "2026-06-26",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/videos/c7vy8mg3mr0o?at_medium=RSS&at_campaign=rss",
+    "summary": "'Oh my word!' - Elanga 'stunner' draws Sweden level",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-26T09:14:42.175Z"
+  },
+  {
+    "id": "6cb493857c9f",
+    "title": "Hearts' Braga plays down transfer talk - gossip",
+    "date": "2026-06-26",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/articles/c78yzk95npxo?at_medium=RSS&at_campaign=rss",
+    "summary": "Hearts' Braga plays down transfer talk - gossip",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-26T09:14:42.175Z"
+  },
+  {
+    "id": "7ed2990e0be6",
+    "title": "World Cup 2026: Haaland and Mbappé face off; Ecuador’s national holiday; Scotland still in limbo – live",
+    "date": "2026-06-26",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/live/2026/jun/26/world-cup-2026-norway-france-senegal-iraq-cape-verde-saudi-arabia-uruguay-spain-egypt-iran-new-zealand-belgium-live",
+    "summary": "World Cup 2026: Haaland and Mbappé face off; Ecuador’s national holiday; Scotland still in limbo – live",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-26T09:14:42.175Z"
+  },
+  {
+    "id": "044247a4a7fc",
+    "title": "USA suffer late defeat to Turkey but eye Bosnia and Herzegovina in World Cup knockout stage",
+    "date": "2026-06-26",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jun/26/turkey-usa-world-cup-2026-match-report",
+    "summary": "USA suffer late defeat to Turkey but eye Bosnia and Herzegovina in World Cup knockout stage",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-26T09:14:42.175Z"
+  },
+  {
+    "id": "12a9ae58ff80",
+    "title": "Fifa unites the world – in anger at hydration breaks (AKA ad breaks) | Barney Ronay",
+    "date": "2026-06-26",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jun/26/fifa-unites-the-world-in-anger-at-hydration-breaks-aka-ad-breaks",
+    "summary": "Fifa unites the world – in anger at hydration breaks (AKA ad breaks) | Barney Ronay",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-26T09:14:42.175Z"
+  },
+  {
+    "id": "26b4b91d351d",
+    "title": "Ivory Coast defeat Curacao to progress to knockout stages for first time",
+    "date": "2026-06-25",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/videos/c2dyp5znl85o?at_medium=RSS&at_campaign=rss",
+    "summary": "Ivory Coast defeat Curacao to progress to knockout stages for first time",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-26T09:14:42.175Z"
+  },
+  {
+    "id": "201c31f394b2",
+    "title": "James doubtful for Panama but England hopeful on Rice",
+    "date": "2026-06-25",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cp8rywj8rnpo?at_medium=RSS&at_campaign=rss",
+    "summary": "James doubtful for Panama but England hopeful on Rice",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-26T09:14:42.175Z"
+  },
+  {
+    "id": "4160de35be5e",
+    "title": "Why it's time for Saka and Rashford - Shearer",
+    "date": "2026-06-25",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cwyl7dpnx1no?at_medium=RSS&at_campaign=rss",
+    "summary": "Why it's time for Saka and Rashford - Shearer",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-26T09:14:42.175Z"
+  },
+  {
+    "id": "7a350e1bbb57",
+    "title": "Plata's 'touch of gold' gives Ecuador lead against Germany",
+    "date": "2026-06-25",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/videos/cpd322zzv90o?at_medium=RSS&at_campaign=rss",
+    "summary": "Plata's 'touch of gold' gives Ecuador lead against Germany",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-26T09:14:42.175Z"
+  },
+  {
+    "id": "92249d827793",
+    "title": "Germany goal should have been ruled out for 'endangering opponent'",
+    "date": "2026-06-25",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/videos/cqx1wqx9n27o?at_medium=RSS&at_campaign=rss",
+    "summary": "Germany goal should have been ruled out for 'endangering opponent'",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-26T09:14:42.175Z"
+  },
+  {
+    "id": "47452a8e4e77",
+    "title": "Sane fires Germany ahead as Ecuador calls for foul waived away",
+    "date": "2026-06-25",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/videos/c1dypzd45dvo?at_medium=RSS&at_campaign=rss",
+    "summary": "Sane fires Germany ahead as Ecuador calls for foul waived away",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-26T09:14:42.175Z"
+  },
+  {
+    "id": "1d5785182660",
+    "title": "Bellamy to stay with Wales as Burnley move off",
+    "date": "2026-06-25",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cnv9e5pq142o?at_medium=RSS&at_campaign=rss",
+    "summary": "Bellamy to stay with Wales as Burnley move off",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-26T09:14:42.175Z"
+  },
+  {
+    "id": "7f7b09a54632",
+    "title": "Pochettino has US believing they can be World Cup winners",
+    "date": "2026-06-25",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cvgm9jvemlno?at_medium=RSS&at_campaign=rss",
+    "summary": "Pochettino has US believing they can be World Cup winners",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-26T09:14:42.175Z"
+  },
+  {
+    "id": "fd7f7c7e24de",
+    "title": "Godfrey signs new three-year deal with London City",
+    "date": "2026-06-25",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cly89qv587xo?at_medium=RSS&at_campaign=rss",
+    "summary": "Godfrey signs new three-year deal with London City",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-26T09:14:42.175Z"
+  },
+  {
+    "id": "afbcb1dbc7e8",
+    "title": "Plata’s golden touch against Germany sends Ecuador into World Cup last 32",
+    "date": "2026-06-25",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jun/25/ecuador-germany-world-cup-match-report",
+    "summary": "Plata’s golden touch against Germany sends Ecuador into World Cup last 32",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-26T09:14:42.175Z"
+  },
+  {
+    "id": "48cad61136a2",
+    "title": "Côte d’Ivoire into World Cup knockouts for first time as Pépé finishes off Curaçao",
+    "date": "2026-06-25",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jun/25/pepe-at-the-double-as-cote-divoire-beat-curacao-and-claim-place-in-last-32",
+    "summary": "Côte d’Ivoire into World Cup knockouts for first time as Pépé finishes off Curaçao",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-26T09:14:42.175Z"
+  },
+  {
+    "id": "a5b10d8a14b5",
+    "title": "Erling Haaland v Kylian Mbappé: how the Norway and France hitmen match up",
+    "date": "2026-06-25",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jun/25/erling-haaland-v-kylian-mbappe-how-the-norway-and-france-hitmen-match-up",
+    "summary": "Erling Haaland v Kylian Mbappé: how the Norway and France hitmen match up",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-26T09:14:42.175Z"
+  },
+  {
     "id": "772b4a081684",
     "title": "'Think we're going home' - Clarke & McGinn rue Scotland mistakes",
     "date": "2026-06-25",
@@ -6812,148 +7059,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-05-27T09:18:53.548Z"
-  },
-  {
-    "id": "d89e36c61e3d",
-    "title": "Foden a 'victim' of football's packed schedule",
-    "date": "2026-05-26",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c1l223ymrrvo?at_medium=RSS&at_campaign=rss",
-    "summary": "Foden a 'victim' of football's packed schedule",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-27T09:18:53.548Z"
-  },
-  {
-    "id": "ca564354039e",
-    "title": "Adams & Robinson in US squad for World Cup",
-    "date": "2026-05-26",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c77552k60jno?at_medium=RSS&at_campaign=rss",
-    "summary": "Adams & Robinson in US squad for World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-27T09:18:53.548Z"
-  },
-  {
-    "id": "24624441e8dc",
-    "title": "PSG's Hakimi in Morocco squad despite injury",
-    "date": "2026-05-26",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c5yrr1k6nxyo?at_medium=RSS&at_campaign=rss",
-    "summary": "PSG's Hakimi in Morocco squad despite injury",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-27T09:18:53.548Z"
-  },
-  {
-    "id": "5e72c8f6c3e0",
-    "title": "Partey in preliminary Ghana squad for World Cup",
-    "date": "2026-05-26",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cp9ppezl4v1o?at_medium=RSS&at_campaign=rss",
-    "summary": "Partey in preliminary Ghana squad for World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-27T09:18:53.548Z"
-  },
-  {
-    "id": "68e27d596cec",
-    "title": "DR Congo seek World Cup ticket refunds after Ebola outbreak",
-    "date": "2026-05-26",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c0j2220jn9lo?at_medium=RSS&at_campaign=rss",
-    "summary": "DR Congo seek World Cup ticket refunds after Ebola outbreak",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-27T09:18:53.548Z"
-  },
-  {
-    "id": "e465523dec67",
-    "title": "Missing a World Cup, over email? Pochettino defends communication style with tough decisions behind him",
-    "date": "2026-05-26",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/may/26/usmnt-world-cup-squad-mauricio-pochettino-email-players",
-    "summary": "Missing a World Cup, over email? Pochettino defends communication style with tough decisions behind him",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-27T09:18:53.548Z"
-  },
-  {
-    "id": "788224b8136f",
-    "title": "Czechia World Cup 2026 team guide",
-    "date": "2026-05-26",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/may/27/czechia-world-cup-2026-team-guide",
-    "summary": "Czechia World Cup 2026 team guide",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-27T09:18:53.548Z"
-  },
-  {
-    "id": "8eed699d0281",
-    "title": "‘I had loser stamped on my head’: how Porto’s Francesco Farioli bounced back",
-    "date": "2026-05-26",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/may/26/francesco-farioli-porto-champions",
-    "summary": "‘I had loser stamped on my head’: how Porto’s Francesco Farioli bounced back",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-27T09:18:53.548Z"
-  },
-  {
-    "id": "25b6a7454349",
-    "title": "McTominay backs 'great man' Clarke for Scotland stay",
-    "date": "2026-05-26",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/ce9ppnj9zv7o?at_medium=RSS&at_campaign=rss",
-    "summary": "McTominay backs 'great man' Clarke for Scotland stay",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-26T09:21:22.696Z"
-  },
-  {
-    "id": "25b6a7454349",
-    "title": "McTominay backs 'great man' Clarke for Scotland stay",
-    "date": "2026-05-26",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/ce9ppnj9zv7o?at_medium=RSS&at_campaign=rss",
-    "summary": "McTominay backs 'great man' Clarke for Scotland stay",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-26T09:21:22.696Z"
-  },
-  {
-    "id": "d76f0684f281",
-    "title": "Sardar Azmoun’s World Cup absence for political reasons divides opinion in Iran",
-    "date": "2026-05-26",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/may/26/sardar-azmoun-iran-world-cup-protests-social-media",
-    "summary": "Sardar Azmoun’s World Cup absence for political reasons divides opinion in Iran",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-26T09:21:22.696Z"
   }
 ];
