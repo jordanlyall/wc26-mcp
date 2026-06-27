@@ -2,6 +2,253 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "d648ed5f7da1",
+    "title": "Uruguay yank keeper at HT after howler vs. Spain",
+    "date": "2026-06-27",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/49192407/uruguay-yank-keeper-muslera-howler-spain",
+    "summary": "Uruguay yank keeper at HT after howler vs. Spain",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-27T09:02:19.502Z"
+  },
+  {
+    "id": "033e3440e307",
+    "title": "Spain win group but could lose Pino for rest of WC...",
+    "date": "2026-06-27",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/49193963/spain-2026-world-cup-injury-yeremy-pino-nico-williams",
+    "summary": "Spain win group but could lose Pino for rest of WC...",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-27T09:02:19.502Z"
+  },
+  {
+    "id": "1c79bb88ae76",
+    "title": "Norway coach: No Haaland vs. France a 'no-brainer'...",
+    "date": "2026-06-27",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/49190980/norway-stale-solbakken-world-cup-erling-haaland-benched-no-brainer",
+    "summary": "Norway coach: No Haaland vs. France a 'no-brainer'...",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-27T09:02:19.502Z"
+  },
+  {
+    "id": "b675001f549a",
+    "title": "Messi to start on bench for Argentina group finale...",
+    "date": "2026-06-27",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/49191791/lionel-messi-argentina-bench-jordan-fifa-2026-world-cup",
+    "summary": "Messi to start on bench for Argentina group finale...",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-27T09:02:19.502Z"
+  },
+  {
+    "id": "cddc9fcb44a3",
+    "title": "Ancelotti says Brazil are finally on the right tra...",
+    "date": "2026-06-27",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/49192698/brazil-improved-world-cup-enough",
+    "summary": "Ancelotti says Brazil are finally on the right tra...",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-27T09:02:19.502Z"
+  },
+  {
+    "id": "ed37337cfb7e",
+    "title": "'Nothing is impossible' - Cape Verde make history to set up Argentina tie",
+    "date": "2026-06-27",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c0mypzl7v2xo?at_medium=RSS&at_campaign=rss",
+    "summary": "'Nothing is impossible' - Cape Verde make history to set up Argentina tie",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-27T09:02:19.502Z"
+  },
+  {
+    "id": "354308d4014a",
+    "title": "'I leave nothing' - the end of 'toxic' Bielsa's Uruguay reign",
+    "date": "2026-06-27",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/ce95d89x5meo?at_medium=RSS&at_campaign=rss",
+    "summary": "'I leave nothing' - the end of 'toxic' Bielsa's Uruguay reign",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-27T09:02:19.502Z"
+  },
+  {
+    "id": "fe4c666686bd",
+    "title": "VAR rules out late winner to deny Iran guaranteed last-32 spot",
+    "date": "2026-06-27",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/videos/c2lyvj54k7ro?at_medium=RSS&at_campaign=rss",
+    "summary": "VAR rules out late winner to deny Iran guaranteed last-32 spot",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-27T09:02:19.502Z"
+  },
+  {
+    "id": "e2dbf9032b56",
+    "title": "Messi to start final Argentina group match on bench",
+    "date": "2026-06-27",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cd95zlv7jz7o?at_medium=RSS&at_campaign=rss",
+    "summary": "Messi to start final Argentina group match on bench",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-27T09:02:19.502Z"
+  },
+  {
+    "id": "c30e1833cbd5",
+    "title": "Egypt through but late drama denies Iran guaranteed last 32 spot",
+    "date": "2026-06-27",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/videos/cx2vlxjnxrro?at_medium=RSS&at_campaign=rss",
+    "summary": "Egypt through but late drama denies Iran guaranteed last 32 spot",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-27T09:02:19.502Z"
+  },
+  {
+    "id": "2b1291ac56d4",
+    "title": "Cape Verde's incredible World Cup journey continues after Saudi draw",
+    "date": "2026-06-27",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/videos/cql1v2p7949o?at_medium=RSS&at_campaign=rss",
+    "summary": "Cape Verde's incredible World Cup journey continues after Saudi draw",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-27T09:02:19.502Z"
+  },
+  {
+    "id": "1a6ba5ef2fca",
+    "title": "'The fairytale continues!' Emotional scenes as Cape Verde qualify for last 32",
+    "date": "2026-06-27",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/videos/cx2d8gvdlr0o?at_medium=RSS&at_campaign=rss",
+    "summary": "'The fairytale continues!' Emotional scenes as Cape Verde qualify for last 32",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-27T09:02:19.502Z"
+  },
+  {
+    "id": "1827141ca628",
+    "title": "From supermarket to World Cup - the forgotten England team",
+    "date": "2026-06-27",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cn4rlm9834no?at_medium=RSS&at_campaign=rss",
+    "summary": "From supermarket to World Cup - the forgotten England team",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-27T09:02:19.502Z"
+  },
+  {
+    "id": "e4ac42e8de54",
+    "title": "World Cup 2026: England through, Scotland wait goes on and joy for Cape Verde – live",
+    "date": "2026-06-27",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/live/2026/jun/27/world-cup-2026-news-live-england-panama-croatia-ghana-colombia-portugal-dr-congo-uzbekistan-live",
+    "summary": "World Cup 2026: England through, Scotland wait goes on and joy for Cape Verde – live",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-27T09:02:19.502Z"
+  },
+  {
+    "id": "d3e9443deac2",
+    "title": "‘This must never happen again’: Iran coach hits out at the US and tells Infantino to stand up against hosts",
+    "date": "2026-06-27",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jun/27/this-must-never-happen-again-iran-coach-hits-out-at-the-us-and-tells-infantino-to-stand-up-against-hosts",
+    "summary": "‘This must never happen again’: Iran coach hits out at the US and tells Infantino to stand up against hosts",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-27T09:02:19.502Z"
+  },
+  {
+    "id": "aaeb2731da50",
+    "title": "Wales boss Bellamy has 'burnt bridges' - Roberts",
+    "date": "2026-06-26",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c4gywygqlgdo?at_medium=RSS&at_campaign=rss",
+    "summary": "Wales boss Bellamy has 'burnt bridges' - Roberts",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-27T09:02:19.502Z"
+  },
+  {
+    "id": "fe629d9070b3",
+    "title": "17 passes, all 11 players - Dembele scores 'magic' goal for France",
+    "date": "2026-06-26",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/videos/cr47dxpkxnzo?at_medium=RSS&at_campaign=rss",
+    "summary": "17 passes, all 11 players - Dembele scores 'magic' goal for France",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-27T09:02:19.502Z"
+  },
+  {
+    "id": "71ee486e057b",
+    "title": "Why there's more to Spain than Lamine Yamal - Azpilicueta",
+    "date": "2026-06-26",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cg531yd0ddpo?at_medium=RSS&at_campaign=rss",
+    "summary": "Why there's more to Spain than Lamine Yamal - Azpilicueta",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-27T09:02:19.502Z"
+  },
+  {
+    "id": "dc1d8ab51665",
+    "title": "Start Rashford? Bring O'Reilly back? Pick your England XI to face Panama",
+    "date": "2026-06-26",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/crm0xrg8j4ro?at_medium=RSS&at_campaign=rss",
+    "summary": "Start Rashford? Bring O'Reilly back? Pick your England XI to face Panama",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-27T09:02:19.502Z"
+  },
+  {
     "id": "a323b0515bbb",
     "title": "Turkey end World Cup on high with last-gasp win over USA",
     "date": "2026-06-26",
@@ -6890,174 +7137,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-05-28T09:25:35.350Z"
-  },
-  {
-    "id": "1bd64b4e100c",
-    "title": "Fifa ordered to explain World Cup ticket pricing",
-    "date": "2026-05-27",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c5yrzl46d4ro?at_medium=RSS&at_campaign=rss",
-    "summary": "Fifa ordered to explain World Cup ticket pricing",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-28T09:25:35.350Z"
-  },
-  {
-    "id": "c45991dcbf68",
-    "title": "Liverpool's Frimpong left out of Dutch World Cup squad",
-    "date": "2026-05-27",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cgqpj3xk9e0o?at_medium=RSS&at_campaign=rss",
-    "summary": "Liverpool's Frimpong left out of Dutch World Cup squad",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-28T09:25:35.350Z"
-  },
-  {
-    "id": "fc3f593d686f",
-    "title": "Missed putts & hot yoga - Hirst on thrill of Scotland call",
-    "date": "2026-05-27",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c78qyjj1pp0o?at_medium=RSS&at_campaign=rss",
-    "summary": "Missed putts & hot yoga - Hirst on thrill of Scotland call",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-28T09:25:35.350Z"
-  },
-  {
-    "id": "d1e3721b67bd",
-    "title": "Football Daily | To all USMNT rejects, Mauricio Pochettino hopes this email finds you well",
-    "date": "2026-05-27",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/may/27/usmnt-rejects-mauricio-pochettino-world-cup-football-daily",
-    "summary": "Football Daily | To all USMNT rejects, Mauricio Pochettino hopes this email finds you well",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-28T09:25:35.350Z"
-  },
-  {
-    "id": "bbcfb27ac524",
-    "title": "New York and New Jersey subpoena Fifa over ‘manipulated’ World Cup ticketing",
-    "date": "2026-05-27",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/may/27/new-york-new-jersey-investigation-fifa-ticketing",
-    "summary": "New York and New Jersey subpoena Fifa over ‘manipulated’ World Cup ticketing",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-28T09:25:35.350Z"
-  },
-  {
-    "id": "2aae2edb6c9c",
-    "title": "Cristiano Ronaldo steps up again but Martínez will be wary over World Cup role | John Duerden",
-    "date": "2026-05-27",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/may/27/cristiano-ronaldo-saudi-pro-league-champion-world-cup",
-    "summary": "Cristiano Ronaldo steps up again but Martínez will be wary over World Cup role | John Duerden",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-28T09:25:35.350Z"
-  },
-  {
-    "id": "c2537b37e991",
-    "title": "South Korea World Cup 2026 team guide",
-    "date": "2026-05-27",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/may/28/south-korea-world-cup-2026-team-guide-soccer",
-    "summary": "South Korea World Cup 2026 team guide",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-28T09:25:35.350Z"
-  },
-  {
-    "id": "e73335b80e12",
-    "title": "South Africa World Cup 2026 team guide",
-    "date": "2026-05-27",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/may/27/south-africa-world-cup-2026-team-guide-soccer",
-    "summary": "South Africa World Cup 2026 team guide",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-28T09:25:35.350Z"
-  },
-  {
-    "id": "881d8f026b5b",
-    "title": "Schmeichel retires because of serious shoulder injury",
-    "date": "2026-05-27",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cx21jgp2wdeo?at_medium=RSS&at_campaign=rss",
-    "summary": "Schmeichel retires because of serious shoulder injury",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-27T09:18:53.548Z"
-  },
-  {
-    "id": "6d297cd45f3c",
-    "title": "What are the deadlines for World Cup squads?",
-    "date": "2026-05-27",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/ckgp482v49xo?at_medium=RSS&at_campaign=rss",
-    "summary": "What are the deadlines for World Cup squads?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-27T09:18:53.548Z"
-  },
-  {
-    "id": "881d8f026b5b",
-    "title": "Schmeichel retires because of serious shoulder injury",
-    "date": "2026-05-27",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cx21jgp2wdeo?at_medium=RSS&at_campaign=rss",
-    "summary": "Schmeichel retires because of serious shoulder injury",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-27T09:18:53.548Z"
-  },
-  {
-    "id": "87e99f372aa5",
-    "title": "Mexico World Cup 2026 team guide",
-    "date": "2026-05-27",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/may/27/mexico-world-cup-2026-team-guide-soccer",
-    "summary": "Mexico World Cup 2026 team guide",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-27T09:18:53.548Z"
-  },
-  {
-    "id": "f47eed751221",
-    "title": "Which football club has had the fewest sponsor logos on their shirt? | The Knowledge",
-    "date": "2026-05-27",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/may/27/club-with-fewest-sponsor-logos-on-shirt-the-knowledge",
-    "summary": "Which football club has had the fewest sponsor logos on their shirt? | The Knowledge",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-27T09:18:53.548Z"
   }
 ];
