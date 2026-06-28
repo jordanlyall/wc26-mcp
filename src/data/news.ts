@@ -2,6 +2,253 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "8be832e8124d",
+    "title": "Best team, moments, matches and players of World Cup group stage",
+    "date": "2026-06-28",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/ce3e256752qo?at_medium=RSS&at_campaign=rss",
+    "summary": "Best team, moments, matches and players of World Cup group stage",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-28T09:10:27.729Z"
+  },
+  {
+    "id": "5c7b345025d3",
+    "title": "New deal, new beginnings & a sudden exit - Clarke's Scotland timeline",
+    "date": "2026-06-28",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/ce8mqmg327vo?at_medium=RSS&at_campaign=rss",
+    "summary": "New deal, new beginnings & a sudden exit - Clarke's Scotland timeline",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-28T09:10:27.729Z"
+  },
+  {
+    "id": "83bbcb5a4cab",
+    "title": "Austria score dramatic late equaliser against Algeria as both progress",
+    "date": "2026-06-28",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/videos/czxqdylvv16o?at_medium=RSS&at_campaign=rss",
+    "summary": "Austria score dramatic late equaliser against Algeria as both progress",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-28T09:10:27.729Z"
+  },
+  {
+    "id": "0d2c472c54ca",
+    "title": "Algeria and Austria both qualify for last 32 after dramatic injury-time goals",
+    "date": "2026-06-28",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/videos/ce8jne01mn2o?at_medium=RSS&at_campaign=rss",
+    "summary": "Algeria and Austria both qualify for last 32 after dramatic injury-time goals",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-28T09:10:27.729Z"
+  },
+  {
+    "id": "143931647706",
+    "title": "Messi comes off the bench to score as Argentina beat Jordan",
+    "date": "2026-06-28",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/videos/cy49de3rp12o?at_medium=RSS&at_campaign=rss",
+    "summary": "Messi comes off the bench to score as Argentina beat Jordan",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-28T09:10:27.729Z"
+  },
+  {
+    "id": "2493043f195d",
+    "title": "'Bye-bye, Scotland!' - Clarke's leaving letter to the Tartan Army",
+    "date": "2026-06-28",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c74yxdq1ky0o?at_medium=RSS&at_campaign=rss",
+    "summary": "'Bye-bye, Scotland!' - Clarke's leaving letter to the Tartan Army",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-28T09:10:27.729Z"
+  },
+  {
+    "id": "73f47e52dc5d",
+    "title": "Tuchel worried about right-back situation",
+    "date": "2026-06-28",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cj9gyp71ge4o?at_medium=RSS&at_campaign=rss",
+    "summary": "Tuchel worried about right-back situation",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-28T09:10:27.729Z"
+  },
+  {
+    "id": "a0c004b5f939",
+    "title": "Salah an injury doubt for Egypt's last-32 tie",
+    "date": "2026-06-28",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c0mypyw1130o?at_medium=RSS&at_campaign=rss",
+    "summary": "Salah an injury doubt for Egypt's last-32 tie",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-28T09:10:27.729Z"
+  },
+  {
+    "id": "6e6b7d5ea2b5",
+    "title": "'Get rid of VAR!' Rooney unhappy Sanchez goal ruled out",
+    "date": "2026-06-28",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/videos/c20ygyddl5no?at_medium=RSS&at_campaign=rss",
+    "summary": "'Get rid of VAR!' Rooney unhappy Sanchez goal ruled out",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-28T09:10:27.729Z"
+  },
+  {
+    "id": "2f19b825a0ca",
+    "title": "World Cup 2026: England win, Clarke quits Scotland and Iran denied at the last – live",
+    "date": "2026-06-28",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/live/2026/jun/28/world-cup-2026-england-win-clarke-quits-scotland-and-iran-denied-at-the-last-live",
+    "summary": "World Cup 2026: England win, Clarke quits Scotland and Iran denied at the last – live",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-28T09:10:27.729Z"
+  },
+  {
+    "id": "ac1fe020c1f1",
+    "title": "Late drama sends Austria and Algeria into World Cup knockouts to break Iran hearts",
+    "date": "2026-06-28",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jun/28/algeria-austria-world-cup-group-j-match-report",
+    "summary": "Late drama sends Austria and Algeria into World Cup knockouts to break Iran hearts",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-28T09:10:27.729Z"
+  },
+  {
+    "id": "47e3bee86609",
+    "title": "Lionel Messi steps off bench and scores to cap Argentina’s World Cup win over Jordan",
+    "date": "2026-06-28",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jun/28/argentian-jordan-world-cup-group-j-match-report",
+    "summary": "Lionel Messi steps off bench and scores to cap Argentina’s World Cup win over Jordan",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-28T09:10:27.729Z"
+  },
+  {
+    "id": "de9c5fbfac3d",
+    "title": "World Cup 2026 power rankings: France still kings but who has climbed 26 places?",
+    "date": "2026-06-28",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jun/28/world-cup-2026-power-rankings-france-argentina-england-scotland",
+    "summary": "World Cup 2026 power rankings: France still kings but who has climbed 26 places?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-28T09:10:27.729Z"
+  },
+  {
+    "id": "3c9041853094",
+    "title": "Alphonso Davies returns as Canada approach World Cup moment of destiny",
+    "date": "2026-06-28",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jun/28/alphonso-davies-returns-canada-world-cup-moment-of-destiny",
+    "summary": "Alphonso Davies returns as Canada approach World Cup moment of destiny",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-28T09:10:27.729Z"
+  },
+  {
+    "id": "4adc86797aec",
+    "title": "Clarke steps down as Scotland boss after World Cup exit",
+    "date": "2026-06-27",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c5yzq73x1p7o?at_medium=RSS&at_campaign=rss",
+    "summary": "Clarke steps down as Scotland boss after World Cup exit",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-28T09:10:27.729Z"
+  },
+  {
+    "id": "a5d9724a1450",
+    "title": "Man Utd waiting on Ugarte injury after he leaves pitch on stretcher",
+    "date": "2026-06-27",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c5yz923kk3po?at_medium=RSS&at_campaign=rss",
+    "summary": "Man Utd waiting on Ugarte injury after he leaves pitch on stretcher",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-28T09:10:27.729Z"
+  },
+  {
+    "id": "daf328480054",
+    "title": "Gunter's journey to mentor as Wales host U19 Euros",
+    "date": "2026-06-27",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cr47q77g93yo?at_medium=RSS&at_campaign=rss",
+    "summary": "Gunter's journey to mentor as Wales host U19 Euros",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-28T09:10:27.729Z"
+  },
+  {
+    "id": "a681f2341a38",
+    "title": "Spain’s Nico Williams hits out at ‘completely unnecessary’ Uruguay tackle that injured him",
+    "date": "2026-06-27",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jun/27/spain-injuries-yeremy-pino-miss-world-cup-nico-williams",
+    "summary": "Spain’s Nico Williams hits out at ‘completely unnecessary’ Uruguay tackle that injured him",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-28T09:10:27.729Z"
+  },
+  {
+    "id": "7e2ef06ae746",
+    "title": "Hugo Broos rises above South Africa’s problems to break new World Cup ground",
+    "date": "2026-06-27",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jun/27/hugo-broos-rose-above-south-africas-problems-to-reach-world-cup-last-32",
+    "summary": "Hugo Broos rises above South Africa’s problems to break new World Cup ground",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-28T09:10:27.729Z"
+  },
+  {
     "id": "d648ed5f7da1",
     "title": "Uruguay yank keeper at HT after howler vs. Spain",
     "date": "2026-06-27",
@@ -6825,317 +7072,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-05-29T09:20:38.141Z"
-  },
-  {
-    "id": "7950bb36434a",
-    "title": "‘Our unity defined our team’: how tiny Torreense made the Women’s Champions League",
-    "date": "2026-05-28",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/may/28/torreense-womens-champions-league-portugal-womens-football",
-    "summary": "‘Our unity defined our team’: how tiny Torreense made the Women’s Champions League",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-30T08:55:15.557Z"
-  },
-  {
-    "id": "49bae5b47619",
-    "title": "McGrath expects Israel fixtures controversy to 'heat up' after tennis balls protest",
-    "date": "2026-05-28",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cvgz9n103zvo?at_medium=RSS&at_campaign=rss",
-    "summary": "McGrath expects Israel fixtures controversy to 'heat up' after tennis balls protest",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-29T09:20:38.141Z"
-  },
-  {
-    "id": "ce6eb496d4ab",
-    "title": "Messi to represent Argentina at sixth World Cup",
-    "date": "2026-05-28",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cr5p96l270ro?at_medium=RSS&at_campaign=rss",
-    "summary": "Messi to represent Argentina at sixth World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-29T09:20:38.141Z"
-  },
-  {
-    "id": "b163759a28b7",
-    "title": "Clarke signs on until 2030 World Cup - a gamble SFA had to take?",
-    "date": "2026-05-28",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c4gvy1lg5glo?at_medium=RSS&at_campaign=rss",
-    "summary": "Clarke signs on until 2030 World Cup - a gamble SFA had to take?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-29T09:20:38.141Z"
-  },
-  {
-    "id": "b629d60bd7ff",
-    "title": "Why Gordon for Barcelona & what does it mean for Rashford?",
-    "date": "2026-05-28",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cn8pqnq3w7no?at_medium=RSS&at_campaign=rss",
-    "summary": "Why Gordon for Barcelona & what does it mean for Rashford?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-29T09:20:38.141Z"
-  },
-  {
-    "id": "a71cbf192085",
-    "title": "Injured Neymar could miss Brazil's World Cup opener",
-    "date": "2026-05-28",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cdrp41erye0o?at_medium=RSS&at_campaign=rss",
-    "summary": "Injured Neymar could miss Brazil's World Cup opener",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-29T09:20:38.141Z"
-  },
-  {
-    "id": "78aa07cf7d16",
-    "title": "Burnley striker Foster named in South Africa squad",
-    "date": "2026-05-28",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cj3p65j542lo?at_medium=RSS&at_campaign=rss",
-    "summary": "Burnley striker Foster named in South Africa squad",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-29T09:20:38.141Z"
-  },
-  {
-    "id": "b163759a28b7",
-    "title": "Clarke's new Scotland deal - easy decision or gamble SFA had to take?",
-    "date": "2026-05-28",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c4gvy1lg5glo?at_medium=RSS&at_campaign=rss",
-    "summary": "Clarke's new Scotland deal - easy decision or gamble SFA had to take?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-29T09:20:38.141Z"
-  },
-  {
-    "id": "49bae5b47619",
-    "title": "McGrath expects Israel fixtures controversy to 'heat up'",
-    "date": "2026-05-28",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cvgz9n103zvo?at_medium=RSS&at_campaign=rss",
-    "summary": "McGrath expects Israel fixtures controversy to 'heat up'",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-29T09:20:38.141Z"
-  },
-  {
-    "id": "e11088ea231e",
-    "title": "Bonmati in Spain squad for crucial England qualifier",
-    "date": "2026-05-28",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cx21j3lkyx0o?at_medium=RSS&at_campaign=rss",
-    "summary": "Bonmati in Spain squad for crucial England qualifier",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-29T09:20:38.141Z"
-  },
-  {
-    "id": "b2a762d344b6",
-    "title": "Ibrahima Konaté poised to leave Liverpool after failing to agree new contract",
-    "date": "2026-05-28",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/may/28/ibrahima-konate-set-to-leave-liverpool-after-failing-to-agree-new-contract",
-    "summary": "Ibrahima Konaté poised to leave Liverpool after failing to agree new contract",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-29T09:20:38.141Z"
-  },
-  {
-    "id": "0c45fc1be68b",
-    "title": "Direct, intense … selfish? What are Barcelona getting in Anthony Gordon?",
-    "date": "2026-05-28",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/may/28/direct-intense-selfish-what-are-barcelona-getting-in-anthony-gordon",
-    "summary": "Direct, intense … selfish? What are Barcelona getting in Anthony Gordon?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-29T09:20:38.141Z"
-  },
-  {
-    "id": "e5680556ab6a",
-    "title": "Switzerland World Cup 2026 team guide",
-    "date": "2026-05-28",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/may/29/switzerland-world-cup-2026-team-guide",
-    "summary": "Switzerland World Cup 2026 team guide",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-29T09:20:38.141Z"
-  },
-  {
-    "id": "88ac48b40484",
-    "title": "Canada World Cup 2026 team guide",
-    "date": "2026-05-28",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/may/28/canada-world-cup-2026-team-guide",
-    "summary": "Canada World Cup 2026 team guide",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-29T09:20:38.141Z"
-  },
-  {
-    "id": "270d21ec2874",
-    "title": "Mauricio Pochettino in talks with Milan over head coach’s role as US open World Cup camp",
-    "date": "2026-05-28",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/may/28/mauricio-pochettino-in-talks-with-milan-amid-broader-interest-as-us-opens-world-cup-camp",
-    "summary": "Mauricio Pochettino in talks with Milan over head coach’s role as US open World Cup camp",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-29T09:20:38.141Z"
-  },
-  {
-    "id": "7ddbf5f9c03a",
-    "title": "Steve Clarke ‘proud to continue’ after signing new Scotland contract to 2030",
-    "date": "2026-05-28",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/may/28/steve-clarke-scotland-coach-new-contract-2030",
-    "summary": "Steve Clarke ‘proud to continue’ after signing new Scotland contract to 2030",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-29T09:20:38.141Z"
-  },
-  {
-    "id": "5ee8ff4a8837",
-    "title": "FIFA subpoenaed over World Cup ticket practices",
-    "date": "2026-05-28",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48885837/new-jersey-new-york-subpoena-20926-fifa-world-cup-tickets",
-    "summary": "FIFA subpoenaed over World Cup ticket practices",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-28T09:25:35.350Z"
-  },
-  {
-    "id": "8ded84a770e4",
-    "title": "Messi, MLS has Herrington primed for World Cup",
-    "date": "2026-05-28",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48888696/messi-mls-colorado-rapids-herrington-primed-world-cup",
-    "summary": "Messi, MLS has Herrington primed for World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-28T09:25:35.350Z"
-  },
-  {
-    "id": "e76c0d75cfa9",
-    "title": "Frimpong left out of Netherlands World Cup squad",
-    "date": "2026-05-28",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48890354/netherlands-confirm-world-cup-2026-squad-jeremie-frimpong-crysencio-summerville-picked",
-    "summary": "Frimpong left out of Netherlands World Cup squad",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-28T09:25:35.350Z"
-  },
-  {
-    "id": "6ea60d96ec0a",
-    "title": "USMNT's final World Cup roster is classic Pochetti...",
-    "date": "2026-05-28",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48882849/usmnt-final-world-cup-roster-pochettino-taking-risks",
-    "summary": "USMNT's final World Cup roster is classic Pochetti...",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-28T09:25:35.350Z"
-  },
-  {
-    "id": "b68fa10401d8",
-    "title": "Yamal named for Spain: All World Cup squads announ...",
-    "date": "2026-05-28",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48757621/2026-world-cup-squad-lists-players-announced-all-48-teams",
-    "summary": "Yamal named for Spain: All World Cup squads announ...",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-28T09:25:35.350Z"
-  },
-  {
-    "id": "bc4810e91423",
-    "title": "Rangers offer Scotland winger Curtis new deal - gossip",
-    "date": "2026-05-28",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/crmp0d1wpxvo?at_medium=RSS&at_campaign=rss",
-    "summary": "Rangers offer Scotland winger Curtis new deal - gossip",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-28T09:25:35.350Z"
-  },
-  {
-    "id": "7ebbc3ffd23a",
-    "title": "Sol Campbell: ‘PSG are favourites but sometimes you need a little luck’",
-    "date": "2026-05-28",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/may/28/sol-campbell-psg-favourites-luck-arsenal-champions-league-interview",
-    "summary": "Sol Campbell: ‘PSG are favourites but sometimes you need a little luck’",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-28T09:25:35.350Z"
-  },
-  {
-    "id": "6af77bcd5e81",
-    "title": "Bosnia and Herzegovina  World Cup 2026 team guide",
-    "date": "2026-05-28",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/may/28/bosnia-and-herzegovina-world-cup-2026-team-guide",
-    "summary": "Bosnia and Herzegovina  World Cup 2026 team guide",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-28T09:25:35.350Z"
   }
 ];
