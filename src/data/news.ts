@@ -2,6 +2,240 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "bf9fd0395285",
+    "title": "Great stories, little jeopardy - does the new World Cup format work?",
+    "date": "2026-06-29",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/clyr1rwp5e3o?at_medium=RSS&at_campaign=rss",
+    "summary": "Great stories, little jeopardy - does the new World Cup format work?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-29T09:44:20.042Z"
+  },
+  {
+    "id": "577ceb716b97",
+    "title": "South Korea football coach quits as president calls for probe into World Cup loss",
+    "date": "2026-06-29",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/news/articles/cdx7jk0kq4vo?at_medium=RSS&at_campaign=rss",
+    "summary": "South Korea football coach quits as president calls for probe into World Cup loss",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-29T09:44:20.042Z"
+  },
+  {
+    "id": "aeb7474b8202",
+    "title": "World Cup 2026: Reaction to Canada’s win plus buildup to Brazil v Japan – live",
+    "date": "2026-06-29",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/live/2026/jun/29/world-cup-2026-reaction-canada-brazil-japan-germany-paraguay-live",
+    "summary": "World Cup 2026: Reaction to Canada’s win plus buildup to Brazil v Japan – live",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-29T09:44:20.042Z"
+  },
+  {
+    "id": "91d2f846af7a",
+    "title": "How link between Bellingham and Kane has unlocked England’s stodgy attack",
+    "date": "2026-06-29",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jun/29/jude-bellingham-harry-kane-england-attack-world-cup-2026",
+    "summary": "How link between Bellingham and Kane has unlocked England’s stodgy attack",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-29T09:44:20.042Z"
+  },
+  {
+    "id": "746f7d566737",
+    "title": "Morocco and the Netherlands look to move mountains in Monterrey matchup",
+    "date": "2026-06-29",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jun/28/morocco-netherlands-world-cup-2026-preview",
+    "summary": "Morocco and the Netherlands look to move mountains in Monterrey matchup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-29T09:44:20.042Z"
+  },
+  {
+    "id": "2edb18a24d58",
+    "title": "Brazil fans were waiting for Vinícius Júnior to be their hero. He’s arrived",
+    "date": "2026-06-29",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jun/29/brazil-fans-vinicius-junior-hero-real-madrid-world-cup",
+    "summary": "Brazil fans were waiting for Vinícius Júnior to be their hero. He’s arrived",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-29T09:44:20.042Z"
+  },
+  {
+    "id": "23543769ca59",
+    "title": "Canada into last 16 with late winner against South Africa",
+    "date": "2026-06-28",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/videos/clyx5432r8do?at_medium=RSS&at_campaign=rss",
+    "summary": "Canada into last 16 with late winner against South Africa",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-29T09:44:20.042Z"
+  },
+  {
+    "id": "6d92159d0a4f",
+    "title": "How Bellingham became Tuchel's most important player",
+    "date": "2026-06-28",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c4gy5vj7npqo?at_medium=RSS&at_campaign=rss",
+    "summary": "How Bellingham became Tuchel's most important player",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-29T09:44:20.042Z"
+  },
+  {
+    "id": "17a7d814bf71",
+    "title": "Eustaquio scores in injury-time to take Canada through to the last 16",
+    "date": "2026-06-28",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/videos/c79yr8npv9go?at_medium=RSS&at_campaign=rss",
+    "summary": "Eustaquio scores in injury-time to take Canada through to the last 16",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-29T09:44:20.042Z"
+  },
+  {
+    "id": "f94a93f06228",
+    "title": "Ugarte has 'most serious injury footballer can face'",
+    "date": "2026-06-28",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c5yzx3de02jo?at_medium=RSS&at_campaign=rss",
+    "summary": "Ugarte has 'most serious injury footballer can face'",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-29T09:44:20.042Z"
+  },
+  {
+    "id": "1a4bc72fd670",
+    "title": "Who do Scotland fans want as the next head coach?",
+    "date": "2026-06-28",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cn4rdnv0p3wo?at_medium=RSS&at_campaign=rss",
+    "summary": "Who do Scotland fans want as the next head coach?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-29T09:44:20.042Z"
+  },
+  {
+    "id": "24aae6ac2074",
+    "title": "Small-minded SFA must ditch parochial mentality if Scotland are to thrive | Ewan Murray",
+    "date": "2026-06-28",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jun/28/scotland-search-new-coach-replace-steve-clarke",
+    "summary": "Small-minded SFA must ditch parochial mentality if Scotland are to thrive | Ewan Murray",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-29T09:44:20.042Z"
+  },
+  {
+    "id": "82e322cf0afc",
+    "title": "Father figure Carlo Ancelotti will have a plan for Brazil. He always has a plan | Rodrygo",
+    "date": "2026-06-28",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jun/28/carlo-ancelotti-brazil-japan-world-cup",
+    "summary": "Father figure Carlo Ancelotti will have a plan for Brazil. He always has a plan | Rodrygo",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-29T09:44:20.042Z"
+  },
+  {
+    "id": "45bbc20b99c2",
+    "title": "Manchester United’s Manuel Ugarte set for spell on sidelines with knee injury",
+    "date": "2026-06-28",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jun/28/manchester-united-knee-ligament-manuel-ugarte-uruguay-world-cup",
+    "summary": "Manchester United’s Manuel Ugarte set for spell on sidelines with knee injury",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-29T09:44:20.042Z"
+  },
+  {
+    "id": "f8de7d342781",
+    "title": "South Korea coach resigns after president condemns ‘incompetent people’ in World Cup exit",
+    "date": "2026-06-28",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jun/28/south-korea-coach-resigns-president-condemns-world-cup-exit",
+    "summary": "South Korea coach resigns after president condemns ‘incompetent people’ in World Cup exit",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-29T09:44:20.042Z"
+  },
+  {
+    "id": "d6c028b083cc",
+    "title": "World Cup 2026 colour chart: fans of all 48 teams join the party – in pictures",
+    "date": "2026-06-28",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jun/28/world-cup-2026-colour-chart-fans-all-teams-gallery",
+    "summary": "World Cup 2026 colour chart: fans of all 48 teams join the party – in pictures",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-29T09:44:20.042Z"
+  },
+  {
+    "id": "8296f78dddb8",
+    "title": "‘Street football on world stage’: Morocco and Netherlands face off in last-32 tie with a backstory",
+    "date": "2026-06-28",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jun/28/street-football-on-world-stage-morocco-and-netherlands-face-off-in-last-32-game-with-a-backstory",
+    "summary": "‘Street football on world stage’: Morocco and Netherlands face off in last-32 tie with a backstory",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-29T09:44:20.042Z"
+  },
+  {
+    "id": "7a70b38a3284",
+    "title": "Iran needed help to save their ‘disaster’ World Cup. Instead they got more heartbreak",
+    "date": "2026-06-28",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jun/28/iran-world-cup-exit-heartbreak",
+    "summary": "Iran needed help to save their ‘disaster’ World Cup. Instead they got more heartbreak",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-29T09:44:20.042Z"
+  },
+  {
     "id": "8be832e8124d",
     "title": "Best team, moments, matches and players of World Cup group stage",
     "date": "2026-06-28",
@@ -6877,200 +7111,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-05-30T08:55:15.557Z"
-  },
-  {
-    "id": "c716783503c1",
-    "title": "Cristian Volpato to switch allegiance from Italy to Australia in time for World Cup",
-    "date": "2026-05-29",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/may/29/cristian-volpato-switches-allegiance-italy-australia-world-cup-football",
-    "summary": "Cristian Volpato to switch allegiance from Italy to Australia in time for World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-31T09:09:57.142Z"
-  },
-  {
-    "id": "b1c40608b8f4",
-    "title": "Clarke sure he's best man for Scots after new deal",
-    "date": "2026-05-29",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c1k210y13kmo?at_medium=RSS&at_campaign=rss",
-    "summary": "Clarke sure he's best man for Scots after new deal",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-30T08:55:15.557Z"
-  },
-  {
-    "id": "697bfe011108",
-    "title": "Trippier verbally agrees to Wolves move after Newcastle exit",
-    "date": "2026-05-29",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cewpr4yv0y5o?at_medium=RSS&at_campaign=rss",
-    "summary": "Trippier verbally agrees to Wolves move after Newcastle exit",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-30T08:55:15.557Z"
-  },
-  {
-    "id": "e7addbfd2cbe",
-    "title": "Volpato makes Italy to Australia switch before World Cup",
-    "date": "2026-05-29",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cq8p9e0xgdpo?at_medium=RSS&at_campaign=rss",
-    "summary": "Volpato makes Italy to Australia switch before World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-30T08:55:15.557Z"
-  },
-  {
-    "id": "b1c40608b8f4",
-    "title": "Clarke sure he's best man for Scotland after agreeing new deal",
-    "date": "2026-05-29",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c1k210y13kmo?at_medium=RSS&at_campaign=rss",
-    "summary": "Clarke sure he's best man for Scotland after agreeing new deal",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-30T08:55:15.557Z"
-  },
-  {
-    "id": "d91a50e0239e",
-    "title": "Arteta insists Arsenal’s ‘ambition is bigger’ for Champions League glory after title win",
-    "date": "2026-05-29",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/may/29/arsenal-champions-league-final-mikel-arteta-paris-saint-germain",
-    "summary": "Arteta insists Arsenal’s ‘ambition is bigger’ for Champions League glory after title win",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-30T08:55:15.557Z"
-  },
-  {
-    "id": "7c2f8df23211",
-    "title": "Scotland World Cup 2026 team guide",
-    "date": "2026-05-29",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/may/30/scotland-world-cup-2026-team-guide",
-    "summary": "Scotland World Cup 2026 team guide",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-30T08:55:15.557Z"
-  },
-  {
-    "id": "50d4f95efe0c",
-    "title": "Brazil World Cup 2026 team guide",
-    "date": "2026-05-29",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/may/29/brazil-world-cup-2026-team-guide",
-    "summary": "Brazil World Cup 2026 team guide",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-30T08:55:15.557Z"
-  },
-  {
-    "id": "02ccef02e2f7",
-    "title": "Dick Advocaat returns to Scotland with Curaçao before historic World Cup appearance",
-    "date": "2026-05-29",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/may/29/dick-advocaat-curacao-scotland-world-cup",
-    "summary": "Dick Advocaat returns to Scotland with Curaçao before historic World Cup appearance",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-30T08:55:15.557Z"
-  },
-  {
-    "id": "79e895f01bc4",
-    "title": "Socceroos enter last chance saloon with Mexico friendly to shape World Cup dreams | Jack Snape",
-    "date": "2026-05-29",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/may/30/socceroos-mexico-world-cup-friendly-football",
-    "summary": "Socceroos enter last chance saloon with Mexico friendly to shape World Cup dreams | Jack Snape",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-30T08:55:15.557Z"
-  },
-  {
-    "id": "e635b260cf87",
-    "title": "Football Daily | Formidables v Expendables? PSG v Arsenal could be a classic",
-    "date": "2026-05-29",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/may/29/psg-arsenal-champions-league-final-preview-football-daily-newsletter",
-    "summary": "Football Daily | Formidables v Expendables? PSG v Arsenal could be a classic",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-30T08:55:15.557Z"
-  },
-  {
-    "id": "6c7409cbd23a",
-    "title": "USA boss Pochettino holds talks with AC Milan",
-    "date": "2026-05-29",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c794gn7n955o?at_medium=RSS&at_campaign=rss",
-    "summary": "USA boss Pochettino holds talks with AC Milan",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-29T09:20:38.141Z"
-  },
-  {
-    "id": "802b7b193e8f",
-    "title": "Champions League final buildup, World Cup latest, transfer news, and more: football – live",
-    "date": "2026-05-29",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/live/2026/may/29/champions-league-final-buildup-world-cup-latest-transfer-news-and-more-football-live",
-    "summary": "Champions League final buildup, World Cup latest, transfer news, and more: football – live",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-29T09:20:38.141Z"
-  },
-  {
-    "id": "30dd4fc4d666",
-    "title": "Qatar World Cup 2026 team guide",
-    "date": "2026-05-29",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/may/29/qatar-world-cup-2026-team-guide",
-    "summary": "Qatar World Cup 2026 team guide",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-29T09:20:38.141Z"
-  },
-  {
-    "id": "f6d1c158e124",
-    "title": "NZ and Iran in World Cup limbo with LA story about more than football",
-    "date": "2026-05-29",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/may/29/fifa-world-cup-football-group-stage-new-zealand-iran",
-    "summary": "NZ and Iran in World Cup limbo with LA story about more than football",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-29T09:20:38.141Z"
   }
 ];
