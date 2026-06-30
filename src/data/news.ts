@@ -2,6 +2,240 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "12cbc418676a",
+    "title": "Nagelsmann: Germany no longer 'first-class team'",
+    "date": "2026-06-30",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/49220370/nagelsmann-germany-not-first-class-team-wc-exit",
+    "summary": "Nagelsmann: Germany no longer 'first-class team'",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-30T09:15:54.684Z"
+  },
+  {
+    "id": "84f60535bc64",
+    "title": "Aguirre: Azteca fans can get Mexico past Ecuador",
+    "date": "2026-06-30",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/49221547/mexico-fans-make-difference-azteca-vs-ecuador-aguirre",
+    "summary": "Aguirre: Azteca fans can get Mexico past Ecuador",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-30T09:15:54.684Z"
+  },
+  {
+    "id": "7f8e48639de2",
+    "title": "Cáceres: Leaks about Uruguay's Bielsa 'twisted'",
+    "date": "2026-06-30",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/49221045/caceres-leaks-uruguay-bielsa-twisted",
+    "summary": "Cáceres: Leaks about Uruguay's Bielsa 'twisted'",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-30T09:15:54.684Z"
+  },
+  {
+    "id": "1314988774d6",
+    "title": "France have been waiting for Dembele to show up. N...",
+    "date": "2026-06-30",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/49214672/france-ousmane-dembele-kylian-mbappe-michael-olise-world-cup-norway-sweden",
+    "summary": "France have been waiting for Dembele to show up. N...",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-30T09:15:54.684Z"
+  },
+  {
+    "id": "290cab1f10da",
+    "title": "Why outsiders believe the USMNT can make a deep Wo...",
+    "date": "2026-06-30",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/49213271/why-outsiders-believe-usmnt-make-deep-world-cup-run",
+    "summary": "Why outsiders believe the USMNT can make a deep Wo...",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-30T09:15:54.684Z"
+  },
+  {
+    "id": "50afd2e5a669",
+    "title": "Pick Mainoo over Anderson against DR Congo - Rooney",
+    "date": "2026-06-30",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cp8l7p0n2kvo?at_medium=RSS&at_campaign=rss",
+    "summary": "Pick Mainoo over Anderson against DR Congo - Rooney",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-30T09:15:54.684Z"
+  },
+  {
+    "id": "7b71fc01ed29",
+    "title": "World Cup 2026: Netherlands and Germany crash out, plus Côte d’Ivoire v Norway buildup – live",
+    "date": "2026-06-30",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/live/2026/jun/30/world-cup-2026-netherlands-and-germany-crash-out-plus-cote-divoire-v-norway-buildup-live",
+    "summary": "World Cup 2026: Netherlands and Germany crash out, plus Côte d’Ivoire v Norway buildup – live",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-30T09:15:54.684Z"
+  },
+  {
+    "id": "51260a13545e",
+    "title": "Morocco edge wild last-32 penalty shootout as Netherlands pay heavy price for misses",
+    "date": "2026-06-30",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jun/30/netherlands-morocco-world-cup-2026-last-32-match-report",
+    "summary": "Morocco edge wild last-32 penalty shootout as Netherlands pay heavy price for misses",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-30T09:15:54.684Z"
+  },
+  {
+    "id": "51fc9863967d",
+    "title": "Bill Nuttall on saving Pelé’s penalty and building a US team from scratch",
+    "date": "2026-06-30",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jun/30/bill-nuttall-world-cup-pele-gerd-muller-gordon-banks-chattanooga",
+    "summary": "Bill Nuttall on saving Pelé’s penalty and building a US team from scratch",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-30T09:15:54.684Z"
+  },
+  {
+    "id": "0533c3c13db5",
+    "title": "From developing photos in a toilet to a viral Messi shot: 40 years shooting the World Cup – video",
+    "date": "2026-06-30",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/artanddesign/video/2026/jun/30/from-developing-photos-in-a-toilet-to-a-viral-messi-shot-40-years-shooting-the-world-cup-video",
+    "summary": "From developing photos in a toilet to a viral Messi shot: 40 years shooting the World Cup – video",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-30T09:15:54.684Z"
+  },
+  {
+    "id": "cd564f12671e",
+    "title": "Every World Cup needs a cult hero: 2026 has given us touchline dreamboat Sebastián Beccacece",
+    "date": "2026-06-30",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jun/30/sebastian-beccacece-ecuador-coach-world-cup",
+    "summary": "Every World Cup needs a cult hero: 2026 has given us touchline dreamboat Sebastián Beccacece",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-30T09:15:54.684Z"
+  },
+  {
+    "id": "94f508482c43",
+    "title": "How Tuchel is still searching for solutions out wide - Shearer",
+    "date": "2026-06-29",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cqj1g9egd80o?at_medium=RSS&at_campaign=rss",
+    "summary": "How Tuchel is still searching for solutions out wide - Shearer",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-30T09:15:54.684Z"
+  },
+  {
+    "id": "d9865d7c5b66",
+    "title": "Kerr joins NWSL side Gotham FC",
+    "date": "2026-06-29",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/ckg5n027vrgo?at_medium=RSS&at_campaign=rss",
+    "summary": "Kerr joins NWSL side Gotham FC",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-30T09:15:54.684Z"
+  },
+  {
+    "id": "e362eea29f10",
+    "title": "'Brilliant finish' - but should Sano have been on the pitch?",
+    "date": "2026-06-29",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/videos/c30y12v9g0qo?at_medium=RSS&at_campaign=rss",
+    "summary": "'Brilliant finish' - but should Sano have been on the pitch?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-30T09:15:54.684Z"
+  },
+  {
+    "id": "d9865d7c5b66",
+    "title": "Kerr joins NWSL side Gotham FC",
+    "date": "2026-06-29",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/ckg5n027vrgo?at_medium=RSS&at_campaign=rss",
+    "summary": "Kerr joins NWSL side Gotham FC",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-30T09:15:54.684Z"
+  },
+  {
+    "id": "a55113309d25",
+    "title": "Deschamps hopes France’s ‘capacity for danger’ continues in Sweden World Cup test",
+    "date": "2026-06-29",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jun/29/didier-deschamps-france-sweden-world-cup-2026-round-of-32",
+    "summary": "Deschamps hopes France’s ‘capacity for danger’ continues in Sweden World Cup test",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-30T09:15:54.684Z"
+  },
+  {
+    "id": "9b2d95fa02d6",
+    "title": "Maddy Cusack’s father tells inquest she was dismayed at Sheffield United manager’s return",
+    "date": "2026-06-29",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jun/29/maddy-cusack-inquest-sheffield-united",
+    "summary": "Maddy Cusack’s father tells inquest she was dismayed at Sheffield United manager’s return",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-30T09:15:54.684Z"
+  },
+  {
+    "id": "87c33180663c",
+    "title": "Fluency the key for Noni Madueke before England’s ‘difficult’ DR Congo test",
+    "date": "2026-06-29",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jun/29/noni-madueke-england-democratic-republic-congo-world-cup-2026",
+    "summary": "Fluency the key for Noni Madueke before England’s ‘difficult’ DR Congo test",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-30T09:15:54.684Z"
+  },
+  {
     "id": "bf9fd0395285",
     "title": "Great stories, little jeopardy - does the new World Cup format work?",
     "date": "2026-06-29",
@@ -78,6 +312,19 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-06-29T09:44:20.042Z"
+  },
+  {
+    "id": "118f648e7312",
+    "title": "Canada first into last 16 as Stephen Eustáquio scores in stoppage time against South Africa",
+    "date": "2026-06-28",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jun/28/south-africa-canada-world-cup-last-32-match-report",
+    "summary": "Canada first into last 16 as Stephen Eustáquio scores in stoppage time against South Africa",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-30T09:15:54.684Z"
   },
   {
     "id": "23543769ca59",
@@ -6955,161 +7202,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-05-31T09:09:57.142Z"
-  },
-  {
-    "id": "bbb7a81023a2",
-    "title": "Gilmour ruled out of World Cup - could Man Utd's Fletcher replace him?",
-    "date": "2026-05-30",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cn9pwg12z0lo?at_medium=RSS&at_campaign=rss",
-    "summary": "Gilmour ruled out of World Cup - could Man Utd's Fletcher replace him?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-31T09:09:57.142Z"
-  },
-  {
-    "id": "6e9fe71184bf",
-    "title": "Shankland and Curtis make World Cup move - but will Clarke respond?",
-    "date": "2026-05-30",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c142d08m5neo?at_medium=RSS&at_campaign=rss",
-    "summary": "Shankland and Curtis make World Cup move - but will Clarke respond?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-31T09:09:57.142Z"
-  },
-  {
-    "id": "26eb5e095784",
-    "title": "O'Dwyer, 16, added to Republic of Ireland squad as training player",
-    "date": "2026-05-30",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c62ekrlzye4o?at_medium=RSS&at_campaign=rss",
-    "summary": "O'Dwyer, 16, added to Republic of Ireland squad as training player",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-31T09:09:57.142Z"
-  },
-  {
-    "id": "e336de1cf48f",
-    "title": "I feared people would leak my addiction - Shilton",
-    "date": "2026-05-30",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/news/articles/c242yjy8zm5o?at_medium=RSS&at_campaign=rss",
-    "summary": "I feared people would leak my addiction - Shilton",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-31T09:09:57.142Z"
-  },
-  {
-    "id": "bbb7a81023a2",
-    "title": "Gilmour ruled out of World Cup - could Man Utd's Fletcher replace him?",
-    "date": "2026-05-30",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cn9pwg12z0lo?at_medium=RSS&at_campaign=rss",
-    "summary": "Gilmour ruled out of World Cup - could Man Utd's Fletcher replace him?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-31T09:09:57.142Z"
-  },
-  {
-    "id": "6e9fe71184bf",
-    "title": "Shankland and Curtis make World Cup move - but will Clarke respond?",
-    "date": "2026-05-30",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c142d08m5neo?at_medium=RSS&at_campaign=rss",
-    "summary": "Shankland and Curtis make World Cup move - but will Clarke respond?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-31T09:09:57.142Z"
-  },
-  {
-    "id": "237bfcd6d198",
-    "title": "USA World Cup 2026 team guide",
-    "date": "2026-05-30",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/may/31/usa-world-cup-2026-team-guide",
-    "summary": "USA World Cup 2026 team guide",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-31T09:09:57.142Z"
-  },
-  {
-    "id": "9f2d27f9ed22",
-    "title": "Scotland beat 10-man Curaçao but injury puts Billy Gilmour out of World Cup",
-    "date": "2026-05-30",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/may/30/scotland-curacao-world-cup-warm-up-match-report",
-    "summary": "Scotland beat 10-man Curaçao but injury puts Billy Gilmour out of World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-31T09:09:57.142Z"
-  },
-  {
-    "id": "00fe84c8ff0a",
-    "title": "A season from hell: how Arne Slot’s Liverpool fell apart after death of Jota",
-    "date": "2026-05-30",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/may/30/a-season-from-hell-how-arne-slots-liverpool-fell-apart-after-death-of-jota",
-    "summary": "A season from hell: how Arne Slot’s Liverpool fell apart after death of Jota",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-31T09:09:57.142Z"
-  },
-  {
-    "id": "1cc11691b58e",
-    "title": "Morocco World Cup 2026 team guide",
-    "date": "2026-05-30",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/may/30/morocco-world-cup-2026-team-guide",
-    "summary": "Morocco World Cup 2026 team guide",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-31T09:09:57.142Z"
-  },
-  {
-    "id": "74602cc001a8",
-    "title": "Davies in 'best ever' Canada squad for World Cup",
-    "date": "2026-05-30",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c4g4j119xdqo?at_medium=RSS&at_campaign=rss",
-    "summary": "Davies in 'best ever' Canada squad for World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-30T08:55:15.557Z"
-  },
-  {
-    "id": "43fc62a5840d",
-    "title": "Haiti World Cup 2026 team guide",
-    "date": "2026-05-30",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/may/30/haiti-world-cup-2026-team-guide",
-    "summary": "Haiti World Cup 2026 team guide",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-30T08:55:15.557Z"
   }
 ];
