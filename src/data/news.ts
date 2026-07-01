@@ -2,6 +2,253 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "90ebc7c8de2e",
+    "title": "Time for Tuchel to show hand as England enter World Cup danger zone",
+    "date": "2026-07-01",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c17y8r90082o?at_medium=RSS&at_campaign=rss",
+    "summary": "Time for Tuchel to show hand as England enter World Cup danger zone",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-01T09:16:58.474Z"
+  },
+  {
+    "id": "6662f59667aa",
+    "title": "Mexico rampant at fortress Azteca - and England could be next",
+    "date": "2026-07-01",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cy9rg5n3380o?at_medium=RSS&at_campaign=rss",
+    "summary": "Mexico rampant at fortress Azteca - and England could be next",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-01T09:16:58.474Z"
+  },
+  {
+    "id": "78a09e773dd1",
+    "title": "Mexico set up potential England tie with win over 10-man Ecuador",
+    "date": "2026-07-01",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/videos/c2ky840z4wqo?at_medium=RSS&at_campaign=rss",
+    "summary": "Mexico set up potential England tie with win over 10-man Ecuador",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-01T09:16:58.474Z"
+  },
+  {
+    "id": "fe654c268637",
+    "title": "Hincapie becomes second player sent off for covering mouth ",
+    "date": "2026-07-01",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cvg45jg6qyno?at_medium=RSS&at_campaign=rss",
+    "summary": "Hincapie becomes second player sent off for covering mouth ",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-01T09:16:58.474Z"
+  },
+  {
+    "id": "55b2405bd004",
+    "title": "Tuchel will stick to Southgate's penalty plan",
+    "date": "2026-07-01",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cz9lq5y9pj2o?at_medium=RSS&at_campaign=rss",
+    "summary": "Tuchel will stick to Southgate's penalty plan",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-01T09:16:58.474Z"
+  },
+  {
+    "id": "74b3dafecba3",
+    "title": "Fifa explains decision to rule out Germany goal",
+    "date": "2026-07-01",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c862yvvd2qdo?at_medium=RSS&at_campaign=rss",
+    "summary": "Fifa explains decision to rule out Germany goal",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-01T09:16:58.474Z"
+  },
+  {
+    "id": "a8ac583172cf",
+    "title": "Hincapie second player to be sent off for covering mouth",
+    "date": "2026-07-01",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/videos/c7vyj0rel71o?at_medium=RSS&at_campaign=rss",
+    "summary": "Hincapie second player to be sent off for covering mouth",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-01T09:16:58.474Z"
+  },
+  {
+    "id": "50edf6ee1d4d",
+    "title": "'The Azteca erupts!' Quinones fires Mexico into lead",
+    "date": "2026-07-01",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/videos/c8j2xwlgxzeo?at_medium=RSS&at_campaign=rss",
+    "summary": "'The Azteca erupts!' Quinones fires Mexico into lead",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-01T09:16:58.474Z"
+  },
+  {
+    "id": "f9e93f6532ac",
+    "title": "England right-backs Quansah and James out of DR Congo game",
+    "date": "2026-07-01",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c23yz02rrkgo?at_medium=RSS&at_campaign=rss",
+    "summary": "England right-backs Quansah and James out of DR Congo game",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-01T09:16:58.474Z"
+  },
+  {
+    "id": "452cc3b67b47",
+    "title": "World Cup 2026: France dazzle, Mexico swagger through, England v DR Congo buildup, and more – live",
+    "date": "2026-07-01",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/live/2026/jul/01/world-cup-2026-france-dazzle-mexico-swagger-through-england-v-dr-congo-buildup-and-more-live",
+    "summary": "World Cup 2026: France dazzle, Mexico swagger through, England v DR Congo buildup, and more – live",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-01T09:16:58.474Z"
+  },
+  {
+    "id": "8707b53d0faf",
+    "title": "Mexico end World Cup knockout drought with last-32 win over Ecuador in Azteca cauldron",
+    "date": "2026-07-01",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/01/mexico-ecuador-world-cup-2026-last-32-match-report",
+    "summary": "Mexico end World Cup knockout drought with last-32 win over Ecuador in Azteca cauldron",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-01T09:16:58.474Z"
+  },
+  {
+    "id": "a3fccefdd510",
+    "title": "Koeman resigns, while Netherlands report racist abuse",
+    "date": "2026-06-30",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cly0g1y3v00o?at_medium=RSS&at_campaign=rss",
+    "summary": "Koeman resigns, while Netherlands report racist abuse",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-01T09:16:58.474Z"
+  },
+  {
+    "id": "d77e23236fed",
+    "title": "Coach played mind games with Cusack before death, inquest told",
+    "date": "2026-06-30",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/news/articles/c4gy529xwdro?at_medium=RSS&at_campaign=rss",
+    "summary": "Coach played mind games with Cusack before death, inquest told",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-01T09:16:58.474Z"
+  },
+  {
+    "id": "cf683ea520db",
+    "title": "Why new Scotland head coach has tricky task",
+    "date": "2026-06-30",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c5yzqrq0e9do?at_medium=RSS&at_campaign=rss",
+    "summary": "Why new Scotland head coach has tricky task",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-01T09:16:58.474Z"
+  },
+  {
+    "id": "22c7b3c621c7",
+    "title": "Could set-piece coach be Celtic's key signing?",
+    "date": "2026-06-30",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c3wyl157323o?at_medium=RSS&at_campaign=rss",
+    "summary": "Could set-piece coach be Celtic's key signing?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-01T09:16:58.474Z"
+  },
+  {
+    "id": "22c7b3c621c7",
+    "title": "Could set-piece coach lured from Hearts be Celtic's key signing?",
+    "date": "2026-06-30",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c3wyl157323o?at_medium=RSS&at_campaign=rss",
+    "summary": "Could set-piece coach lured from Hearts be Celtic's key signing?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-01T09:16:58.474Z"
+  },
+  {
+    "id": "d77e23236fed",
+    "title": "Coach called Cusack a 'psycho', inquest told",
+    "date": "2026-06-30",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/news/articles/c4gy529xwdro?at_medium=RSS&at_campaign=rss",
+    "summary": "Coach called Cusack a 'psycho', inquest told",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-01T09:16:58.474Z"
+  },
+  {
+    "id": "b3802e29c93d",
+    "title": "Tottenham win race to sign West Ham’s Mateus Fernandes for club record £85m",
+    "date": "2026-06-30",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jun/30/tottenham-west-ham-mateus-fernandes-club-record-85m-manchester-united-transfers",
+    "summary": "Tottenham win race to sign West Ham’s Mateus Fernandes for club record £85m",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-01T09:16:58.474Z"
+  },
+  {
+    "id": "f51f7f88b3b4",
+    "title": "Maddy Cusack’s eating habits changed after manager’s comment, girlfriend tells inquest",
+    "date": "2026-06-30",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jun/30/maddy-cusack-inquest-jonathan-morgan",
+    "summary": "Maddy Cusack’s eating habits changed after manager’s comment, girlfriend tells inquest",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-01T09:16:58.474Z"
+  },
+  {
     "id": "12cbc418676a",
     "title": "Nagelsmann: Germany no longer 'first-class team'",
     "date": "2026-06-30",
@@ -7111,96 +7358,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-06-01T09:58:27.947Z"
-  },
-  {
-    "id": "e5b0b562624f",
-    "title": "Uruguay pick Man Utd's Ugarte but Suarez left out",
-    "date": "2026-05-31",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cgmprpekej2o?at_medium=RSS&at_campaign=rss",
-    "summary": "Uruguay pick Man Utd's Ugarte but Suarez left out",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-01T09:58:27.947Z"
-  },
-  {
-    "id": "2737e4cdb114",
-    "title": "Uncapped Yengi and Volpato in Australia World Cup squad",
-    "date": "2026-05-31",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cdxp53k7qv1o?at_medium=RSS&at_campaign=rss",
-    "summary": "Uncapped Yengi and Volpato in Australia World Cup squad",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-01T09:58:27.947Z"
-  },
-  {
-    "id": "5e2cbb93b7e6",
-    "title": "England players advised to holiday in US pre-World Cup",
-    "date": "2026-05-31",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c7590xxlq7po?at_medium=RSS&at_campaign=rss",
-    "summary": "England players advised to holiday in US pre-World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-01T09:58:27.947Z"
-  },
-  {
-    "id": "736cad615670",
-    "title": "Scotland set off for World Cup - in pictures",
-    "date": "2026-05-31",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cvgzyvd994mo?at_medium=RSS&at_campaign=rss",
-    "summary": "Scotland set off for World Cup - in pictures",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-01T09:58:27.947Z"
-  },
-  {
-    "id": "6bf35a966b74",
-    "title": "Paraguay World Cup 2026 team guide",
-    "date": "2026-05-31",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/may/31/paraguay-world-cup-2026-team-guide",
-    "summary": "Paraguay World Cup 2026 team guide",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-31T09:09:57.142Z"
-  },
-  {
-    "id": "bbc1282fa8b9",
-    "title": "Canada bet on health, speed and belief as Marsch names World Cup squad",
-    "date": "2026-05-31",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/may/30/canada-world-cup-roster-analysis-jesse-marsch-davies",
-    "summary": "Canada bet on health, speed and belief as Marsch names World Cup squad",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-31T09:09:57.142Z"
-  },
-  {
-    "id": "9da9aecfd257",
-    "title": "Socceroos show resilience and spark but miss chances against Mexico in final audition for World Cup",
-    "date": "2026-05-31",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/may/31/mexico-v-australia-socceroos-football-friendly-report",
-    "summary": "Socceroos show resilience and spark but miss chances against Mexico in final audition for World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-31T09:09:57.142Z"
   }
 ];
