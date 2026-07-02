@@ -2,6 +2,253 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "5128bb77077a",
+    "title": "Bayern sign Morocco WCup goalscorer Saibari",
+    "date": "2026-07-02",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/49238268/morocco-world-cup-goalscorer-ismael-saibari-joins-bayern-munich",
+    "summary": "Bayern sign Morocco WCup goalscorer Saibari",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-02T09:11:08.533Z"
+  },
+  {
+    "id": "0fc1892bfd46",
+    "title": "World Cup daily: Balogun celly in USMNT win gets L...",
+    "date": "2026-07-02",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/49244994/world-cup-daily-spain-portugal-action-round-32-continues",
+    "summary": "World Cup daily: Balogun celly in USMNT win gets L...",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-02T09:11:08.533Z"
+  },
+  {
+    "id": "1676ca192c87",
+    "title": "Kane delivers for England at vital moment in drama...",
+    "date": "2026-07-02",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/49239386/england-harry-kane-delivers-dramatic-world-cup-win-vs-congo-dr",
+    "summary": "Kane delivers for England at vital moment in drama...",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-02T09:11:08.533Z"
+  },
+  {
+    "id": "1ecbd9878536",
+    "title": "Unfit stars, wasting chances: Are Spain still amon...",
+    "date": "2026-07-02",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/49227164/are-european-champions-spain-world-cup-favorites",
+    "summary": "Unfit stars, wasting chances: Are Spain still amon...",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-02T09:11:08.533Z"
+  },
+  {
+    "id": "3170b21b55cd",
+    "title": "How a bad loss to France help reshape Colombia's W...",
+    "date": "2026-07-02",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/49245153/how-bad-loss-france-help-reshape-colombias-world-cup-campaign",
+    "summary": "How a bad loss to France help reshape Colombia's W...",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-02T09:11:08.533Z"
+  },
+  {
+    "id": "c91a6e629601",
+    "title": "'You can't catch your breath' - how will Azteca altitude impact England?",
+    "date": "2026-07-02",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c4gy0v05qyro?at_medium=RSS&at_campaign=rss",
+    "summary": "'You can't catch your breath' - how will Azteca altitude impact England?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-02T09:11:08.533Z"
+  },
+  {
+    "id": "2aa71af53691",
+    "title": "World Cup dreams shattered as StubHub tickets cancelled at last minute",
+    "date": "2026-07-02",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/news/articles/crkvlekgy07o?at_medium=RSS&at_campaign=rss",
+    "summary": "World Cup dreams shattered as StubHub tickets cancelled at last minute",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-02T09:11:08.533Z"
+  },
+  {
+    "id": "b8cd7ed49637",
+    "title": "Gueye quits Senegal until coaching staff replaced",
+    "date": "2026-07-02",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cqj18d7q2vwo?at_medium=RSS&at_campaign=rss",
+    "summary": "Gueye quits Senegal until coaching staff replaced",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-02T09:11:08.533Z"
+  },
+  {
+    "id": "b800671910d0",
+    "title": "Football Daily",
+    "date": "2026-07-02",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sounds/play/p0ns844v?at_medium=RSS&at_campaign=rss",
+    "summary": "Football Daily",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-02T09:11:08.533Z"
+  },
+  {
+    "id": "afd9bde885d2",
+    "title": "Copy of Mexico send a World Cup message from 'Fortress Azt...",
+    "date": "2026-07-01",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/49232997/mexico-send-world-cup-message-fortress-azteca-fans-aid-win-ecuador",
+    "summary": "Copy of Mexico send a World Cup message from 'Fortress Azt...",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-02T09:11:08.533Z"
+  },
+  {
+    "id": "7d1976f6ae5d",
+    "title": "Tuchel urges parents to let kids stay up for England game",
+    "date": "2026-07-01",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cd95g9y8k24o?at_medium=RSS&at_campaign=rss",
+    "summary": "Tuchel urges parents to let kids stay up for England game",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-02T09:11:08.533Z"
+  },
+  {
+    "id": "27d533086f5a",
+    "title": "Win over DR Congo 'our best game of the tournament' - Kane",
+    "date": "2026-07-01",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/videos/c802jzd528eo?at_medium=RSS&at_campaign=rss",
+    "summary": "Win over DR Congo 'our best game of the tournament' - Kane",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-02T09:11:08.533Z"
+  },
+  {
+    "id": "2ef4a550601f",
+    "title": "Energy and team spirit at highest level - Tuchel",
+    "date": "2026-07-01",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/videos/cg53njjvnljo?at_medium=RSS&at_campaign=rss",
+    "summary": "Energy and team spirit at highest level - Tuchel",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-02T09:11:08.533Z"
+  },
+  {
+    "id": "92036196592e",
+    "title": "'He is ridiculous' - Rice praise for match-winner Kane",
+    "date": "2026-07-01",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/videos/cgmdlrrgezjo?at_medium=RSS&at_campaign=rss",
+    "summary": "'He is ridiculous' - Rice praise for match-winner Kane",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-02T09:11:08.533Z"
+  },
+  {
+    "id": "9227d80529fc",
+    "title": "Four die in Mexico City World Cup celebrations",
+    "date": "2026-07-01",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/news/articles/cx2xjwj8p39o?at_medium=RSS&at_campaign=rss",
+    "summary": "Four die in Mexico City World Cup celebrations",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-02T09:11:08.533Z"
+  },
+  {
+    "id": "47be063a1860",
+    "title": "Could Rangers make Ferguson marquee signing?",
+    "date": "2026-07-01",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c3vy70r52wko?at_medium=RSS&at_campaign=rss",
+    "summary": "Could Rangers make Ferguson marquee signing?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-02T09:11:08.533Z"
+  },
+  {
+    "id": "2ae9a25e0d65",
+    "title": "World Cup: Kane rescues England - 5 Live reaction",
+    "date": "2026-07-01",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sounds/play/p0nw81yr?at_medium=RSS&at_campaign=rss",
+    "summary": "World Cup: Kane rescues England - 5 Live reaction",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-02T09:11:08.533Z"
+  },
+  {
+    "id": "47be063a1860",
+    "title": "Could Rangers make Scotland standout Ferguson marquee signing?",
+    "date": "2026-07-01",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c3vy70r52wko?at_medium=RSS&at_campaign=rss",
+    "summary": "Could Rangers make Scotland standout Ferguson marquee signing?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-02T09:11:08.533Z"
+  },
+  {
+    "id": "501e7adf903a",
+    "title": "Cusack 'struggled with girlfriend move'",
+    "date": "2026-07-01",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/news/articles/cze90zzxl2eo?at_medium=RSS&at_campaign=rss",
+    "summary": "Cusack 'struggled with girlfriend move'",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-02T09:11:08.533Z"
+  },
+  {
     "id": "90ebc7c8de2e",
     "title": "Time for Tuchel to show hand as England enter World Cup danger zone",
     "date": "2026-07-01",
@@ -390,6 +637,19 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-06-30T09:15:54.684Z"
+  },
+  {
+    "id": "281e4facb4f9",
+    "title": "Clarke says standing down 'easy' decision after World Cup exit",
+    "date": "2026-06-29",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c3ry1jyzpejo?at_medium=RSS&at_campaign=rss",
+    "summary": "Clarke says standing down 'easy' decision after World Cup exit",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-02T09:11:08.533Z"
   },
   {
     "id": "94f508482c43",
@@ -7059,304 +7319,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-06-02T09:36:30.125Z"
-  },
-  {
-    "id": "0661c5fa9c01",
-    "title": "Keegan reveals stage four cancer diagnosis",
-    "date": "2026-06-01",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cx21zjnjd2go?at_medium=RSS&at_campaign=rss",
-    "summary": "Keegan reveals stage four cancer diagnosis",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-02T09:36:30.125Z"
-  },
-  {
-    "id": "432d36797b1d",
-    "title": "Williamson to miss World Cup qualifier against Spain",
-    "date": "2026-06-01",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cq6pngp7g53o?at_medium=RSS&at_campaign=rss",
-    "summary": "Williamson to miss World Cup qualifier against Spain",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-02T09:36:30.125Z"
-  },
-  {
-    "id": "432d36797b1d",
-    "title": "Williamson to miss World Cup qualifier against Spain",
-    "date": "2026-06-01",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cq6pngp7g53o?at_medium=RSS&at_campaign=rss",
-    "summary": "Williamson to miss World Cup qualifier against Spain",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-02T09:36:30.125Z"
-  },
-  {
-    "id": "5e027ca7d5b7",
-    "title": "Rangers' Berry and McAulay earn late Scotland call",
-    "date": "2026-06-01",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c3r25we4275o?at_medium=RSS&at_campaign=rss",
-    "summary": "Rangers' Berry and McAulay earn late Scotland call",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-02T09:36:30.125Z"
-  },
-  {
-    "id": "68c559964d6d",
-    "title": "Kevin Keegan, former England and Newcastle manager, reveals stage four cancer diagnosis",
-    "date": "2026-06-01",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/01/kevin-keegan-former-england-newcastle-manager-stage-four-cancer-diagnosis",
-    "summary": "Kevin Keegan, former England and Newcastle manager, reveals stage four cancer diagnosis",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-02T09:36:30.125Z"
-  },
-  {
-    "id": "78f9c5c17eb0",
-    "title": "Ecuador World Cup 2026 team guide",
-    "date": "2026-06-01",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/02/ecuador-world-cup-2026-team-guide",
-    "summary": "Ecuador World Cup 2026 team guide",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-02T09:36:30.125Z"
-  },
-  {
-    "id": "b57bcab62806",
-    "title": "Tuchel reveals Team GB have been helping England get ready for World Cup heat",
-    "date": "2026-06-01",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/01/tuchel-reveals-team-gb-have-been-helping-england-get-ready-for-world-cup-heat",
-    "summary": "Tuchel reveals Team GB have been helping England get ready for World Cup heat",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-02T09:36:30.125Z"
-  },
-  {
-    "id": "bc00b4ea8f99",
-    "title": "James Milner, Premier League’s appearance record holder, retires aged 40",
-    "date": "2026-06-01",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/01/james-milner-retires-premier-league-record-appearance-holder",
-    "summary": "James Milner, Premier League’s appearance record holder, retires aged 40",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-02T09:36:30.125Z"
-  },
-  {
-    "id": "f4ab9d822797",
-    "title": "Pulisic breaks drought, hopes people stop 'talking...",
-    "date": "2026-06-01",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48933034/usmnt-pulisic-breaks-goal-drought-people-stop-talking",
-    "summary": "Pulisic breaks drought, hopes people stop 'talking...",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-01T09:58:27.947Z"
-  },
-  {
-    "id": "0945d963f209",
-    "title": "Mexico's Ochoa named to record 6th WC squad",
-    "date": "2026-06-01",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48924377/mexico-2026-world-cup-squad-guillermo-ochoa",
-    "summary": "Mexico's Ochoa named to record 6th WC squad",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-01T09:58:27.947Z"
-  },
-  {
-    "id": "0536eb9e49d5",
-    "title": "Bielsa omits Suarez from Uruguay WC squad",
-    "date": "2026-06-01",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48929677/marcelo-bielsa-omits-luis-suarez-uruguay-world-cup-squad",
-    "summary": "Bielsa omits Suarez from Uruguay WC squad",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-01T09:58:27.947Z"
-  },
-  {
-    "id": "6ff282a2c349",
-    "title": "Hamstring injury had Yamal scared of missing WC",
-    "date": "2026-06-01",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48930567/lamine-yamal-spain-fifa-world-cup-barcelona",
-    "summary": "Hamstring injury had Yamal scared of missing WC",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-01T09:58:27.947Z"
-  },
-  {
-    "id": "61bd3e0ba6ce",
-    "title": "6 different players scores as Brazil rout Panama",
-    "date": "2026-06-01",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/report/_/gameId/401864003",
-    "summary": "6 different players scores as Brazil rout Panama",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-01T09:58:27.947Z"
-  },
-  {
-    "id": "d3731a61cd87",
-    "title": "Messi leads an experienced Argentina World Cup squ...",
-    "date": "2026-06-01",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48907909/messi-leads-experienced-argentina-world-cup-squad-scaloni-opts-continuity",
-    "summary": "Messi leads an experienced Argentina World Cup squ...",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-01T09:58:27.947Z"
-  },
-  {
-    "id": "3d64eb51ff43",
-    "title": "Record-holder Milner retires after 24-year career",
-    "date": "2026-06-01",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/clyp4jmyym0o?at_medium=RSS&at_campaign=rss",
-    "summary": "Record-holder Milner retires after 24-year career",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-01T09:58:27.947Z"
-  },
-  {
-    "id": "c6e4f1c2fb02",
-    "title": "Sunderland's Angulo in Ecuador's World Cup squad",
-    "date": "2026-06-01",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cp8pgxjdk41o?at_medium=RSS&at_campaign=rss",
-    "summary": "Sunderland's Angulo in Ecuador's World Cup squad",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-01T09:58:27.947Z"
-  },
-  {
-    "id": "d1e29ba0abde",
-    "title": "Mexico select Ochoa for sixth World Cup",
-    "date": "2026-06-01",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cy02rl63py3o?at_medium=RSS&at_campaign=rss",
-    "summary": "Mexico select Ochoa for sixth World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-01T09:58:27.947Z"
-  },
-  {
-    "id": "dcff48953cc5",
-    "title": "Abdulhamid only overseas player in Saudi Arabia squad",
-    "date": "2026-06-01",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cx21q7q83y0o?at_medium=RSS&at_campaign=rss",
-    "summary": "Abdulhamid only overseas player in Saudi Arabia squad",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-01T09:58:27.947Z"
-  },
-  {
-    "id": "74ab1f224816",
-    "title": "'Unacceptable' gap costing Wales young talent claim",
-    "date": "2026-06-01",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cj3ppd5r5xro?at_medium=RSS&at_campaign=rss",
-    "summary": "'Unacceptable' gap costing Wales young talent claim",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-01T09:58:27.947Z"
-  },
-  {
-    "id": "74ab1f224816",
-    "title": "'Unacceptable' gap costing Wales young talent claim",
-    "date": "2026-06-01",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cj3ppd5r5xro?at_medium=RSS&at_campaign=rss",
-    "summary": "'Unacceptable' gap costing Wales young talent claim",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-01T09:58:27.947Z"
-  },
-  {
-    "id": "cf210ae3eb49",
-    "title": "World Cup 2026: a visual guide to the stadiums across the trio of host nations",
-    "date": "2026-06-01",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/01/world-cup-2026-stadium-guide",
-    "summary": "World Cup 2026: a visual guide to the stadiums across the trio of host nations",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-01T09:58:27.947Z"
-  },
-  {
-    "id": "3e0a634f491b",
-    "title": "Côte d’Ivoire World Cup 2026 team guide",
-    "date": "2026-06-01",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/01/cote-divoire-world-cup-2026-team-guide",
-    "summary": "Côte d’Ivoire World Cup 2026 team guide",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-01T09:58:27.947Z"
-  },
-  {
-    "id": "d4b203c83d68",
-    "title": "Christian Pulisic wanted to talk about something else. Now he can",
-    "date": "2026-06-01",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/may/31/christian-pulisic-usmnt-senegal-world-cup",
-    "summary": "Christian Pulisic wanted to talk about something else. Now he can",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-01T09:58:27.947Z"
   }
 ];
