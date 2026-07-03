@@ -2,6 +2,253 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "9dce57a0ee9f",
+    "title": "After Spain win, Yamal says 'World Cup starts now'...",
+    "date": "2026-07-03",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/49252369/after-spain-beat-austria-yamal-world-cup-starts-now",
+    "summary": "After Spain win, Yamal says 'World Cup starts now'...",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-03T10:41:05.825Z"
+  },
+  {
+    "id": "31f3a18ec1b1",
+    "title": "World Cup Daily live: Travel chaos sees Speed miss...",
+    "date": "2026-07-03",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/49255647/world-cup-daily-live-travel-chaos-sees-speed-miss-cristiano-ronaldo-game-messi-action",
+    "summary": "World Cup Daily live: Travel chaos sees Speed miss...",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-03T10:41:05.825Z"
+  },
+  {
+    "id": "c0fbf897eda6",
+    "title": "Messi, Balogun and why two tackles have sparked Wo...",
+    "date": "2026-07-03",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/49252206/messi-balogun-why-two-tackles-sparked-world-cup-outrage",
+    "summary": "Messi, Balogun and why two tackles have sparked Wo...",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-03T10:41:05.825Z"
+  },
+  {
+    "id": "e75f87f2dedc",
+    "title": "Germany want Klopp talks as Nagelsmann resigns",
+    "date": "2026-07-03",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c8x272kyp4wo?at_medium=RSS&at_campaign=rss",
+    "summary": "Germany want Klopp talks as Nagelsmann resigns",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-03T10:41:05.825Z"
+  },
+  {
+    "id": "6b0ee5954a4d",
+    "title": "Mahrez retires from Algeria duty after World Cup exit",
+    "date": "2026-07-03",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cn0vwn78n8do?at_medium=RSS&at_campaign=rss",
+    "summary": "Mahrez retires from Algeria duty after World Cup exit",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-03T10:41:05.825Z"
+  },
+  {
+    "id": "3a388dea3a4a",
+    "title": "Late VAR drama as Croatia denied equaliser",
+    "date": "2026-07-03",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/videos/ckg7eerdx6go?at_medium=RSS&at_campaign=rss",
+    "summary": "Late VAR drama as Croatia denied equaliser",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-03T10:41:05.825Z"
+  },
+  {
+    "id": "b4fd5f3b8a09",
+    "title": "Ronaldo levels from penalty spot for Portugal",
+    "date": "2026-07-03",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/videos/cdx7ddr5n7qo?at_medium=RSS&at_campaign=rss",
+    "summary": "Ronaldo levels from penalty spot for Portugal",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-03T10:41:05.825Z"
+  },
+  {
+    "id": "948e8fab80a3",
+    "title": "Ronaldo has equaliser ruled out for offside",
+    "date": "2026-07-03",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/videos/ce3edkv33kvo?at_medium=RSS&at_campaign=rss",
+    "summary": "Ronaldo has equaliser ruled out for offside",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-03T10:41:05.825Z"
+  },
+  {
+    "id": "e2040675b503",
+    "title": "Cremers leaves Wales role as key Bellamy assistant",
+    "date": "2026-07-03",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cz0jezy9mmmo?at_medium=RSS&at_campaign=rss",
+    "summary": "Cremers leaves Wales role as key Bellamy assistant",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-03T10:41:05.825Z"
+  },
+  {
+    "id": "d5ad05cb0e05",
+    "title": "Tuchel wants young England fans to stay up for 1am World Cup clash - but should they?",
+    "date": "2026-07-03",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/news/articles/ckg40qedq57o?at_medium=RSS&at_campaign=rss",
+    "summary": "Tuchel wants young England fans to stay up for 1am World Cup clash - but should they?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-03T10:41:05.825Z"
+  },
+  {
+    "id": "52bf9854a22e",
+    "title": "World Cup 2026: Nagelsmann quits Germany job; Portugal to face Spain after VAR drama – live",
+    "date": "2026-07-03",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/live/2026/jul/03/world-cup-2026-portugal-spain-switzerland-australia-egypt-argentina-cape-verde-colombia-ghana-live",
+    "summary": "World Cup 2026: Nagelsmann quits Germany job; Portugal to face Spain after VAR drama – live",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-03T10:41:05.825Z"
+  },
+  {
+    "id": "2b4a03abc118",
+    "title": "England must go low against Mexico to hit heights with Total Arsenalball",
+    "date": "2026-07-03",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/03/total-arsenalball-england-low-block-mexico-azteca",
+    "summary": "England must go low against Mexico to hit heights with Total Arsenalball",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-03T10:41:05.825Z"
+  },
+  {
+    "id": "cf5a94d07a1a",
+    "title": "Manzambi dazzles as Switzerland stroll into last 16 with win over Algeria",
+    "date": "2026-07-03",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/03/manzambi-switzerland-world-cup-algeria-match-report",
+    "summary": "Manzambi dazzles as Switzerland stroll into last 16 with win over Algeria",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-03T10:41:05.825Z"
+  },
+  {
+    "id": "21aa0415972a",
+    "title": "The one club man who is Spain's under-the-radar hero",
+    "date": "2026-07-02",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cvgd0jz1xq7o?at_medium=RSS&at_campaign=rss",
+    "summary": "The one club man who is Spain's under-the-radar hero",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-03T10:41:05.825Z"
+  },
+  {
+    "id": "259f5166c98a",
+    "title": "'Spain are furious' - Cucurella has goal ruled out",
+    "date": "2026-07-02",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/videos/c5yzx952jy3o?at_medium=RSS&at_campaign=rss",
+    "summary": "'Spain are furious' - Cucurella has goal ruled out",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-03T10:41:05.825Z"
+  },
+  {
+    "id": "0378bb721b7d",
+    "title": "Maddy Cusack's coach her 'nemesis', mum tells inquest",
+    "date": "2026-07-02",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/news/articles/cpwej79vnkgo?at_medium=RSS&at_campaign=rss",
+    "summary": "Maddy Cusack's coach her 'nemesis', mum tells inquest",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-03T10:41:05.825Z"
+  },
+  {
+    "id": "f888ffee175f",
+    "title": "McInnes biggest factor in McCrorie's Rangers return",
+    "date": "2026-07-02",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cdjk7xdzyevo?at_medium=RSS&at_campaign=rss",
+    "summary": "McInnes biggest factor in McCrorie's Rangers return",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-03T10:41:05.825Z"
+  },
+  {
+    "id": "b6aef831d53e",
+    "title": "Bronze renews contract with Chelsea until 2027 ",
+    "date": "2026-07-02",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c17yvrgllk1o?at_medium=RSS&at_campaign=rss",
+    "summary": "Bronze renews contract with Chelsea until 2027 ",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-03T10:41:05.825Z"
+  },
+  {
+    "id": "021505bbdd65",
+    "title": "Mikel Oyarzabal at the double as Spain beat Austria and cruise into last 16",
+    "date": "2026-07-02",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/02/spain-austria-world-cup-2026-last-32-match-report",
+    "summary": "Mikel Oyarzabal at the double as Spain beat Austria and cruise into last 16",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-03T10:41:05.825Z"
+  },
+  {
     "id": "5128bb77077a",
     "title": "Bayern sign Morocco WCup goalscorer Saibari",
     "date": "2026-07-02",
@@ -7020,304 +7267,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-06-03T09:46:13.521Z"
-  },
-  {
-    "id": "8c34c54bf4a8",
-    "title": "Bellamy sees Koumas future at centre-forward",
-    "date": "2026-06-02",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c1724lqy2jgo?at_medium=RSS&at_campaign=rss",
-    "summary": "Bellamy sees Koumas future at centre-forward",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-03T09:46:13.521Z"
-  },
-  {
-    "id": "e23814e24749",
-    "title": "Bellingham is No 10 in England World Cup squad",
-    "date": "2026-06-02",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c5y8nn7gx83o?at_medium=RSS&at_campaign=rss",
-    "summary": "Bellingham is No 10 in England World Cup squad",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-03T09:46:13.521Z"
-  },
-  {
-    "id": "141a53b32e52",
-    "title": "Scotland players have not discussed Israel boycott",
-    "date": "2026-06-02",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c98rzzlk4jgo?at_medium=RSS&at_campaign=rss",
-    "summary": "Scotland players have not discussed Israel boycott",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-03T09:46:13.521Z"
-  },
-  {
-    "id": "8c8acd310129",
-    "title": "Hinds withdraws from England squad with ankle injury ",
-    "date": "2026-06-02",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/clyp33n48p4o?at_medium=RSS&at_campaign=rss",
-    "summary": "Hinds withdraws from England squad with ankle injury ",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-03T09:46:13.521Z"
-  },
-  {
-    "id": "85bfe2469041",
-    "title": "Download your World Cup 2026 wallchart",
-    "date": "2026-06-02",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c4g51wd9px6o?at_medium=RSS&at_campaign=rss",
-    "summary": "Download your World Cup 2026 wallchart",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-03T09:46:13.521Z"
-  },
-  {
-    "id": "5abeb4c2faeb",
-    "title": "Spanish mayor cancels DR Congo friendly over Ebola concern",
-    "date": "2026-06-02",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cm2pd28jnyxo?at_medium=RSS&at_campaign=rss",
-    "summary": "Spanish mayor cancels DR Congo friendly over Ebola concern",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-03T09:46:13.521Z"
-  },
-  {
-    "id": "141a53b32e52",
-    "title": "Scotland players have not discussed Israel boycott",
-    "date": "2026-06-02",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c98rzzlk4jgo?at_medium=RSS&at_campaign=rss",
-    "summary": "Scotland players have not discussed Israel boycott",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-03T09:46:13.521Z"
-  },
-  {
-    "id": "141a53b32e52",
-    "title": "Scotland players have not discussed Israel boycott",
-    "date": "2026-06-02",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c98rzzlk4jgo?at_medium=RSS&at_campaign=rss",
-    "summary": "Scotland players have not discussed Israel boycott",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-03T09:46:13.521Z"
-  },
-  {
-    "id": "8c8acd310129",
-    "title": "Hinds withdraws from England squad with ankle injury ",
-    "date": "2026-06-02",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/clyp33n48p4o?at_medium=RSS&at_campaign=rss",
-    "summary": "Hinds withdraws from England squad with ankle injury ",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-03T09:46:13.521Z"
-  },
-  {
-    "id": "6f26a465b5f4",
-    "title": "Jude Bellingham handed World Cup boost for England after being given No 10 shirt",
-    "date": "2026-06-02",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/02/jude-bellingham-england-world-cup-2026-shirt-no-10",
-    "summary": "Jude Bellingham handed World Cup boost for England after being given No 10 shirt",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-03T09:46:13.521Z"
-  },
-  {
-    "id": "3e69012393e9",
-    "title": "Netherlands World Cup 2026 team guide",
-    "date": "2026-06-02",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/03/netherlands-world-cup-2026-team-guide",
-    "summary": "Netherlands World Cup 2026 team guide",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-03T09:46:13.521Z"
-  },
-  {
-    "id": "f3032ccaf380",
-    "title": "Lewis Koumas snatches Wales draw to ruin Ghana’s World Cup sendoff",
-    "date": "2026-06-02",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/02/wales-ghana-international-friendly-match-report",
-    "summary": "Lewis Koumas snatches Wales draw to ruin Ghana’s World Cup sendoff",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-03T09:46:13.521Z"
-  },
-  {
-    "id": "d97492a2cbda",
-    "title": "Ella Toone weighs up Manchester United future after tough campaign",
-    "date": "2026-06-02",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/02/ella-toone-weighs-up-manchester-united-future-after-tough-campaign",
-    "summary": "Ella Toone weighs up Manchester United future after tough campaign",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-03T09:46:13.521Z"
-  },
-  {
-    "id": "e87531e19660",
-    "title": "Gilmour admits struggle as World Cup dream taken away",
-    "date": "2026-06-02",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cgqpwj0n49qo?at_medium=RSS&at_campaign=rss",
-    "summary": "Gilmour admits struggle as World Cup dream taken away",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-02T09:36:30.125Z"
-  },
-  {
-    "id": "f7ce6fee18ce",
-    "title": "World Cup 2026: How to follow on the BBC",
-    "date": "2026-06-02",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c62dy77g8e8o?at_medium=RSS&at_campaign=rss",
-    "summary": "World Cup 2026: How to follow on the BBC",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-02T09:36:30.125Z"
-  },
-  {
-    "id": "2ff22e349f2e",
-    "title": "Quiz: Name every city hosting a World Cup 2026 match",
-    "date": "2026-06-02",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cd7pylr09x8o?at_medium=RSS&at_campaign=rss",
-    "summary": "Quiz: Name every city hosting a World Cup 2026 match",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-02T09:36:30.125Z"
-  },
-  {
-    "id": "582552fcd4a7",
-    "title": "Humble, powerful, ready - Semenyo returns to where World Cup rise began",
-    "date": "2026-06-02",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cddp82r2lrgo?at_medium=RSS&at_campaign=rss",
-    "summary": "Humble, powerful, ready - Semenyo returns to where World Cup rise began",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-02T09:36:30.125Z"
-  },
-  {
-    "id": "2b17c9f9febc",
-    "title": "Tuchel tackles questions from team of under-11s",
-    "date": "2026-06-02",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/videos/c707pjg3wk8o?at_medium=RSS&at_campaign=rss",
-    "summary": "Tuchel tackles questions from team of under-11s",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-02T09:36:30.125Z"
-  },
-  {
-    "id": "82124ef6df97",
-    "title": "Wales' Cain leaves Leicester after WSL relegation",
-    "date": "2026-06-02",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c4g81e274qzo?at_medium=RSS&at_campaign=rss",
-    "summary": "Wales' Cain leaves Leicester after WSL relegation",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-02T09:36:30.125Z"
-  },
-  {
-    "id": "e87531e19660",
-    "title": "Gilmour admits struggle as World Cup dream taken away",
-    "date": "2026-06-02",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cgqpwj0n49qo?at_medium=RSS&at_campaign=rss",
-    "summary": "Gilmour admits struggle as World Cup dream taken away",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-02T09:36:30.125Z"
-  },
-  {
-    "id": "f7ce6fee18ce",
-    "title": "World Cup 2026: How to follow on the BBC",
-    "date": "2026-06-02",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c62dy77g8e8o?at_medium=RSS&at_campaign=rss",
-    "summary": "World Cup 2026: How to follow on the BBC",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-02T09:36:30.125Z"
-  },
-  {
-    "id": "82124ef6df97",
-    "title": "Wales' Cain leaves Leicester after WSL relegation",
-    "date": "2026-06-02",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c4g81e274qzo?at_medium=RSS&at_campaign=rss",
-    "summary": "Wales' Cain leaves Leicester after WSL relegation",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-02T09:36:30.125Z"
-  },
-  {
-    "id": "eeaa45d1462b",
-    "title": "Germany World Cup 2026 team guide",
-    "date": "2026-06-02",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/02/germany-world-cup-2026-team-guide",
-    "summary": "Germany World Cup 2026 team guide",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-02T09:36:30.125Z"
   }
 ];
