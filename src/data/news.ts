@@ -2,6 +2,266 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "ca837a09acee",
+    "title": "How Messi, Argentina saved themselves from humilia...",
+    "date": "2026-07-04",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/49262637/messi-argentina-nearly-suffered-historic-world-cup-upset-cape-verde",
+    "summary": "How Messi, Argentina saved themselves from humilia...",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-04T10:14:36.777Z"
+  },
+  {
+    "id": "02cb262ea5d7",
+    "title": "Argentina break Cape Verde hearts in extra-time",
+    "date": "2026-07-04",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/49263170/argentina-break-cape-verde-hearts-extra-world-cup-lionel-messi-scores",
+    "summary": "Argentina break Cape Verde hearts in extra-time",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-04T10:14:36.777Z"
+  },
+  {
+    "id": "9035023fa9cc",
+    "title": "Messi: Argentina have 'many' things to correct",
+    "date": "2026-07-04",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/49263953/lionel-messi-argentina-many-bad-things-correct",
+    "summary": "Messi: Argentina have 'many' things to correct",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-04T10:14:36.777Z"
+  },
+  {
+    "id": "55c375760175",
+    "title": "Colombia see off Ghana to set up clash with Swiss",
+    "date": "2026-07-04",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/49264513/colombia-ghana-fifa-world-cup-2026-round-32",
+    "summary": "Colombia see off Ghana to set up clash with Swiss",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-04T10:14:36.777Z"
+  },
+  {
+    "id": "8a0e3667d88a",
+    "title": "Nagelsmann out as Germany boss, Klopp lined up",
+    "date": "2026-07-04",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/49225220/julian-nagelsmann-germany-world-cup-2026",
+    "summary": "Nagelsmann out as Germany boss, Klopp lined up",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-04T10:14:36.777Z"
+  },
+  {
+    "id": "f5d447e2bc2b",
+    "title": "Ancelotti: SAF is only manager more qualified",
+    "date": "2026-07-04",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/49260431/brazil-carlo-ancelotti-sir-alex-ferguson-only-manager-more-qualified",
+    "summary": "Ancelotti: SAF is only manager more qualified",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-04T10:14:36.777Z"
+  },
+  {
+    "id": "8b6676a04e8e",
+    "title": "Salah leads Egypt to World Cup history with impude...",
+    "date": "2026-07-04",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/49261423/world-cup-history-mohamed-salah-egypt-penalty-shootout-australia",
+    "summary": "Salah leads Egypt to World Cup history with impude...",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-04T10:14:36.777Z"
+  },
+  {
+    "id": "016e0a559cbc",
+    "title": "Can England handle Mexico's altitude? Why caffeine...",
+    "date": "2026-07-04",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/49260461/how-england-overcome-mexico-altitude-world-cup-round-16",
+    "summary": "Can England handle Mexico's altitude? Why caffeine...",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-04T10:14:36.777Z"
+  },
+  {
+    "id": "f0299eab2b27",
+    "title": "Farewell Cape Verde - the underdogs the World Cup will never forget",
+    "date": "2026-07-04",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cqj1pd8lqw9o?at_medium=RSS&at_campaign=rss",
+    "summary": "Farewell Cape Verde - the underdogs the World Cup will never forget",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-04T10:14:36.777Z"
+  },
+  {
+    "id": "375ef5dec769",
+    "title": "Murals, flags and beef dishes - Messi mania takes hold in Miami",
+    "date": "2026-07-04",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cm2jpkkdld4o?at_medium=RSS&at_campaign=rss",
+    "summary": "Murals, flags and beef dishes - Messi mania takes hold in Miami",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-04T10:14:36.777Z"
+  },
+  {
+    "id": "678a56dd6c08",
+    "title": "Argentina overcome Cape Verde in extra-time thriller",
+    "date": "2026-07-04",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/videos/cj6gp70g967o?at_medium=RSS&at_campaign=rss",
+    "summary": "Argentina overcome Cape Verde in extra-time thriller",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-04T10:14:36.777Z"
+  },
+  {
+    "id": "e6b2a0f2f16f",
+    "title": "'Sensational' Messi finish gives Argentina the lead",
+    "date": "2026-07-04",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/videos/c5yz02je4n9o?at_medium=RSS&at_campaign=rss",
+    "summary": "'Sensational' Messi finish gives Argentina the lead",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-04T10:14:36.777Z"
+  },
+  {
+    "id": "df9fd38f9aaa",
+    "title": "'What a strike!' - Cabral hits brilliant goal to draw Cape Verde level in extra time",
+    "date": "2026-07-04",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/videos/c9q23jpee23o?at_medium=RSS&at_campaign=rss",
+    "summary": "'What a strike!' - Cabral hits brilliant goal to draw Cape Verde level in extra time",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-04T10:14:36.777Z"
+  },
+  {
+    "id": "18672691b330",
+    "title": "Argentina stunned as Duarte equalises for Cape Verde",
+    "date": "2026-07-04",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/videos/cly8p49l2vwo?at_medium=RSS&at_campaign=rss",
+    "summary": "Argentina stunned as Duarte equalises for Cape Verde",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-04T10:14:36.777Z"
+  },
+  {
+    "id": "d6fc927b1cd0",
+    "title": "Martinez restores Argentina's lead against Cape Verde",
+    "date": "2026-07-04",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/videos/c4gy8exgyd3o?at_medium=RSS&at_campaign=rss",
+    "summary": "Martinez restores Argentina's lead against Cape Verde",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-04T10:14:36.777Z"
+  },
+  {
+    "id": "dc9b7314f63b",
+    "title": "Egypt into last 16 after shootout victory against Australia",
+    "date": "2026-07-03",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/videos/czde25nmq6no?at_medium=RSS&at_campaign=rss",
+    "summary": "Egypt into last 16 after shootout victory against Australia",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-04T10:14:36.777Z"
+  },
+  {
+    "id": "60faf4409d5a",
+    "title": "Rice likely to be available for England v Mexico",
+    "date": "2026-07-03",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/crm0pnnldeyo?at_medium=RSS&at_campaign=rss",
+    "summary": "Rice likely to be available for England v Mexico",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-04T10:14:36.777Z"
+  },
+  {
+    "id": "ffb56a8ecc9f",
+    "title": "'You can't breathe' - what is it like playing at altitude?",
+    "date": "2026-07-03",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/videos/cvgle8rgj3vo?at_medium=RSS&at_campaign=rss",
+    "summary": "'You can't breathe' - what is it like playing at altitude?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-04T10:14:36.777Z"
+  },
+  {
+    "id": "a133121fc475",
+    "title": "Chelsea sign Japan midfielder Matsukubo",
+    "date": "2026-07-03",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c0ry2g0d579o?at_medium=RSS&at_campaign=rss",
+    "summary": "Chelsea sign Japan midfielder Matsukubo",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-04T10:14:36.777Z"
+  },
+  {
+    "id": "e44aeb2514c6",
+    "title": "What might Robinson's Aberdeen look like this season?",
+    "date": "2026-07-03",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c4gyv1k597do?at_medium=RSS&at_campaign=rss",
+    "summary": "What might Robinson's Aberdeen look like this season?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-04T10:14:36.777Z"
+  },
+  {
     "id": "9dce57a0ee9f",
     "title": "After Spain win, Yamal says 'World Cup starts now'...",
     "date": "2026-07-03",
@@ -7033,239 +7293,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-06-04T09:27:45.969Z"
-  },
-  {
-    "id": "d94042311a8e",
-    "title": "‘There are low points’: Ibrahima Konaté reveals struggles in year of personal tragedy",
-    "date": "2026-06-03",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/03/ibrahima-konate-reveals-struggles-in-year-of-personal-tragedy",
-    "summary": "‘There are low points’: Ibrahima Konaté reveals struggles in year of personal tragedy",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-05T09:18:03.032Z"
-  },
-  {
-    "id": "eec8e1f06a0f",
-    "title": "Most experience? Youngest? Best leagues? World Cup squads in numbers",
-    "date": "2026-06-03",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c89348x0x14o?at_medium=RSS&at_campaign=rss",
-    "summary": "Most experience? Youngest? Best leagues? World Cup squads in numbers",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-04T09:27:45.969Z"
-  },
-  {
-    "id": "0b540729c3d1",
-    "title": "Back shaving & biggest posers - the Scotland squad in their own words",
-    "date": "2026-06-03",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cvgz2e8g4e8o?at_medium=RSS&at_campaign=rss",
-    "summary": "Back shaving & biggest posers - the Scotland squad in their own words",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-04T09:27:45.969Z"
-  },
-  {
-    "id": "c9a8f82106ed",
-    "title": "Friendlies 'a chance to further develop' - O'Neill",
-    "date": "2026-06-03",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c8r87pp2lxdo?at_medium=RSS&at_campaign=rss",
-    "summary": "Friendlies 'a chance to further develop' - O'Neill",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-04T09:27:45.969Z"
-  },
-  {
-    "id": "ed1444578583",
-    "title": "Seven African players to watch at World Cup 2026",
-    "date": "2026-06-03",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c1w29qgdn7xo?at_medium=RSS&at_campaign=rss",
-    "summary": "Seven African players to watch at World Cup 2026",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-04T09:27:45.969Z"
-  },
-  {
-    "id": "0b540729c3d1",
-    "title": "Back shaving & biggest posers - the Scotland squad in their own words",
-    "date": "2026-06-03",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cvgz2e8g4e8o?at_medium=RSS&at_campaign=rss",
-    "summary": "Back shaving & biggest posers - the Scotland squad in their own words",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-04T09:27:45.969Z"
-  },
-  {
-    "id": "f8ede005d852",
-    "title": "Big games keep coming as Hughes eyes World Cup",
-    "date": "2026-06-03",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cvgzdm200v5o?at_medium=RSS&at_campaign=rss",
-    "summary": "Big games keep coming as Hughes eyes World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-04T09:27:45.969Z"
-  },
-  {
-    "id": "2cf0e748b008",
-    "title": "Underdog victories at the World Cup: what were the biggest and best upsets?",
-    "date": "2026-06-03",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/03/world-cup-underdog-victories-upsets",
-    "summary": "Underdog victories at the World Cup: what were the biggest and best upsets?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-04T09:27:45.969Z"
-  },
-  {
-    "id": "70bb77b716d8",
-    "title": "Belgium World Cup 2026 team guide",
-    "date": "2026-06-03",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/04/belgium-world-cup-2026-team-guide",
-    "summary": "Belgium World Cup 2026 team guide",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-04T09:27:45.969Z"
-  },
-  {
-    "id": "0ad71e0b6e53",
-    "title": "Marcus Rashford heads to World Cup in limbo despite proving his value to Barcelona",
-    "date": "2026-06-03",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/03/marcus-rashford-heads-to-world-cup-in-limbo-despite-proving-his-value-to-barcelona",
-    "summary": "Marcus Rashford heads to World Cup in limbo despite proving his value to Barcelona",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-04T09:27:45.969Z"
-  },
-  {
-    "id": "288d669944a6",
-    "title": "‘Part machine’: World Cup success lies in the details for Socceroos coach Tony Popovic",
-    "date": "2026-06-03",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/04/australia-world-cup-team-socceroos-success-coach-tony-popovic",
-    "summary": "‘Part machine’: World Cup success lies in the details for Socceroos coach Tony Popovic",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-04T09:27:45.969Z"
-  },
-  {
-    "id": "2e35a3e6bfa0",
-    "title": "Tunisia World Cup 2026 team guide",
-    "date": "2026-06-03",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/03/tunisia-world-cup-2026-team-guide",
-    "summary": "Tunisia World Cup 2026 team guide",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-04T09:27:45.969Z"
-  },
-  {
-    "id": "b974a5db35f7",
-    "title": "World Cup quiz: Do you remember these mascots?",
-    "date": "2026-06-03",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c042220g45lo?at_medium=RSS&at_campaign=rss",
-    "summary": "World Cup quiz: Do you remember these mascots?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-03T09:46:13.521Z"
-  },
-  {
-    "id": "39c6c63f6bfe",
-    "title": "Who needs what in World Cup qualifying?",
-    "date": "2026-06-03",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cr5p01m5ne9o?at_medium=RSS&at_campaign=rss",
-    "summary": "Who needs what in World Cup qualifying?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-03T09:46:13.521Z"
-  },
-  {
-    "id": "0fe9f9cc06cf",
-    "title": "What's at stake for NI in their World Cup qualifiers?",
-    "date": "2026-06-03",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c4g47xr33y0o?at_medium=RSS&at_campaign=rss",
-    "summary": "What's at stake for NI in their World Cup qualifiers?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-03T09:46:13.521Z"
-  },
-  {
-    "id": "39c6c63f6bfe",
-    "title": "Who needs what in World Cup qualifying?",
-    "date": "2026-06-03",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cr5p01m5ne9o?at_medium=RSS&at_campaign=rss",
-    "summary": "Who needs what in World Cup qualifying?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-03T09:46:13.521Z"
-  },
-  {
-    "id": "0fe9f9cc06cf",
-    "title": "What's at stake for NI in their World Cup qualifiers?",
-    "date": "2026-06-03",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c4g47xr33y0o?at_medium=RSS&at_campaign=rss",
-    "summary": "What's at stake for NI in their World Cup qualifiers?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-03T09:46:13.521Z"
-  },
-  {
-    "id": "696ef911f889",
-    "title": "Sweden World Cup 2026 team guide",
-    "date": "2026-06-03",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/03/sweden-world-cup-2026-team-guide",
-    "summary": "Sweden World Cup 2026 team guide",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-03T09:46:13.521Z"
   }
 ];
