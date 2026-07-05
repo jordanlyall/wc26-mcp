@@ -2,6 +2,240 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "b90f19c3d4e5",
+    "title": "England enter the Azteca - where football kings are crowned",
+    "date": "2026-07-05",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cg74e324835o?at_medium=RSS&at_campaign=rss",
+    "summary": "England enter the Azteca - where football kings are crowned",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-05T10:19:54.669Z"
+  },
+  {
+    "id": "55172fcbb006",
+    "title": "Tuchel praises respectful Mexico fans amid increased security",
+    "date": "2026-07-05",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c8r2827pyxlo?at_medium=RSS&at_campaign=rss",
+    "summary": "Tuchel praises respectful Mexico fans amid increased security",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-05T10:19:54.669Z"
+  },
+  {
+    "id": "dacdf1d187cf",
+    "title": "World Cup 2026: Mexico v England buildup, France battle past Paraguay, Morocco march on – live",
+    "date": "2026-07-05",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/live/2026/jul/05/world-cup-2026-live-last-16-concludes-morocco-france-paraguay",
+    "summary": "World Cup 2026: Mexico v England buildup, France battle past Paraguay, Morocco march on – live",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-05T10:19:54.669Z"
+  },
+  {
+    "id": "f355f0e489c3",
+    "title": "‘Here to write our own chapters’: England not daunted by unique occasion of Mexico game, says Tuchel",
+    "date": "2026-07-05",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/05/world-cup-last-16-england-thomas-tuchel-mexico-city-azteca",
+    "summary": "‘Here to write our own chapters’: England not daunted by unique occasion of Mexico game, says Tuchel",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-05T10:19:54.669Z"
+  },
+  {
+    "id": "899996108ac3",
+    "title": "Luis de la Fuente: ‘I say this with the greatest respect: we have the best midfield in the world’",
+    "date": "2026-07-05",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/05/luis-de-la-fuente-spain-world-cup-2026-lamine-yamal",
+    "summary": "Luis de la Fuente: ‘I say this with the greatest respect: we have the best midfield in the world’",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-05T10:19:54.669Z"
+  },
+  {
+    "id": "142cbcc4270a",
+    "title": "Manchester United target Andrey Santos but Chelsea value midfielder at £50m",
+    "date": "2026-07-05",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/05/andrey-santos-manchester-united-chelsea-transfer",
+    "summary": "Manchester United target Andrey Santos but Chelsea value midfielder at £50m",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-05T10:19:54.669Z"
+  },
+  {
+    "id": "1244d4954dd9",
+    "title": "Lionel Messi and football’s ageless wonders can excel into their 40s | Emma Hayes",
+    "date": "2026-07-05",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/05/lionel-messi-ageless-wonders-world-cup",
+    "summary": "Lionel Messi and football’s ageless wonders can excel into their 40s | Emma Hayes",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-05T10:19:54.669Z"
+  },
+  {
+    "id": "fb5e3c73a4d1",
+    "title": "England at the Azteca Stadium: a potted history – in pictures",
+    "date": "2026-07-05",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/gallery/2026/jul/05/england-azteca-stadium-mexico-potted-history-in-pictures",
+    "summary": "England at the Azteca Stadium: a potted history – in pictures",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-05T10:19:54.669Z"
+  },
+  {
+    "id": "a7b05cd212c7",
+    "title": "Football is at the centre of the universe in Brazil in a way it is not in the US | Rodrygo",
+    "date": "2026-07-05",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/05/football-centre-of-universe-brazil-not-in-us",
+    "summary": "Football is at the centre of the universe in Brazil in a way it is not in the US | Rodrygo",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-05T10:19:54.669Z"
+  },
+  {
+    "id": "01d1e3677ecd",
+    "title": "England braced for a Mexican whirlwind as Tuchel strives for calm amid the chaos",
+    "date": "2026-07-05",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/05/england-mexico-world-cup-last-16-azteca-preview",
+    "summary": "England braced for a Mexican whirlwind as Tuchel strives for calm amid the chaos",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-05T10:19:54.669Z"
+  },
+  {
+    "id": "6c7faea3efba",
+    "title": "French football chief condemns Chilavert’s remarks that Les Bleus are ‘a squad from Africa’",
+    "date": "2026-07-05",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/04/french-football-chief-condemns-chilaverts-remarks-that-les-bleus-are-a-squad-from-africa",
+    "summary": "French football chief condemns Chilavert’s remarks that Les Bleus are ‘a squad from Africa’",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-05T10:19:54.669Z"
+  },
+  {
+    "id": "6431b2754a3b",
+    "title": "Why England won't fear Mexico or the Azteca - Shearer",
+    "date": "2026-07-04",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c4gy0l7x25wo?at_medium=RSS&at_campaign=rss",
+    "summary": "Why England won't fear Mexico or the Azteca - Shearer",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-05T10:19:54.669Z"
+  },
+  {
+    "id": "a3132753f55e",
+    "title": "Unbeaten in 34 matches - why Morocco are World Cup contenders",
+    "date": "2026-07-04",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cy4e22gqe50o?at_medium=RSS&at_campaign=rss",
+    "summary": "Unbeaten in 34 matches - why Morocco are World Cup contenders",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-05T10:19:54.669Z"
+  },
+  {
+    "id": "4064c5362738",
+    "title": "Oxlade-Chamberlain signs new one-year Celtic deal",
+    "date": "2026-07-04",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c77y5zvjd8zo?at_medium=RSS&at_campaign=rss",
+    "summary": "Oxlade-Chamberlain signs new one-year Celtic deal",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-05T10:19:54.669Z"
+  },
+  {
+    "id": "580eb90ace38",
+    "title": "Williamson eyes Scotland job with McCoist on staff",
+    "date": "2026-07-04",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cvg7zj78eklo?at_medium=RSS&at_campaign=rss",
+    "summary": "Williamson eyes Scotland job with McCoist on staff",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-05T10:19:54.669Z"
+  },
+  {
+    "id": "4064c5362738",
+    "title": "Oxlade-Chamberlain signs new one-year Celtic deal",
+    "date": "2026-07-04",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c77y5zvjd8zo?at_medium=RSS&at_campaign=rss",
+    "summary": "Oxlade-Chamberlain signs new one-year Celtic deal",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-05T10:19:54.669Z"
+  },
+  {
+    "id": "580eb90ace38",
+    "title": "Williamson eyes Scotland job with McCoist on staff",
+    "date": "2026-07-04",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cvg7zj78eklo?at_medium=RSS&at_campaign=rss",
+    "summary": "Williamson eyes Scotland job with McCoist on staff",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-05T10:19:54.669Z"
+  },
+  {
+    "id": "7c578d6a963e",
+    "title": "‘We were better than them’: Marsch bullish despite Canada’s World Cup exit to Morocco",
+    "date": "2026-07-04",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/04/jesse-marsch-canada-morocco-world-cup",
+    "summary": "‘We were better than them’: Marsch bullish despite Canada’s World Cup exit to Morocco",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-05T10:19:54.669Z"
+  },
+  {
     "id": "ca837a09acee",
     "title": "How Messi, Argentina saved themselves from humilia...",
     "date": "2026-07-04",
@@ -195,6 +429,19 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-07-04T10:14:36.777Z"
+  },
+  {
+    "id": "ef05d001a9a2",
+    "title": "Denmark defender Thomsen signs two-year London City deal",
+    "date": "2026-07-03",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c77ym71vn50o?at_medium=RSS&at_campaign=rss",
+    "summary": "Denmark defender Thomsen signs two-year London City deal",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-05T10:19:54.669Z"
   },
   {
     "id": "dc9b7314f63b",
@@ -7085,213 +7332,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-06-05T09:18:03.032Z"
-  },
-  {
-    "id": "9fe8f4996410",
-    "title": "What is happening with World Cup ticket prices?",
-    "date": "2026-06-04",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/ckgpv7v4p9lo?at_medium=RSS&at_campaign=rss",
-    "summary": "What is happening with World Cup ticket prices?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-05T09:18:03.032Z"
-  },
-  {
-    "id": "0f214400e38f",
-    "title": "NI's record side show grit beyond their years",
-    "date": "2026-06-04",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c7v9ve8415mo?at_medium=RSS&at_campaign=rss",
-    "summary": "NI's record side show grit beyond their years",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-05T09:18:03.032Z"
-  },
-  {
-    "id": "0cbc62886f92",
-    "title": "Like father like son - international goals run in the family",
-    "date": "2026-06-04",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cwy20rjkn3ko?at_medium=RSS&at_campaign=rss",
-    "summary": "Like father like son - international goals run in the family",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-05T09:18:03.032Z"
-  },
-  {
-    "id": "6dc9d395726f",
-    "title": "Wilkinson spends night in airport but says Wales will be ready",
-    "date": "2026-06-04",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c332ggpx76po?at_medium=RSS&at_campaign=rss",
-    "summary": "Wilkinson spends night in airport but says Wales will be ready",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-05T09:18:03.032Z"
-  },
-  {
-    "id": "650e249ed818",
-    "title": "New Zealand World Cup 2026 team guide",
-    "date": "2026-06-04",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/05/new-zealand-world-cup-2026-team-guide",
-    "summary": "New Zealand World Cup 2026 team guide",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-05T09:18:03.032Z"
-  },
-  {
-    "id": "149d4a98f3b2",
-    "title": "Lionesses seek to tame Spain again and show they are ready to conquer the world",
-    "date": "2026-06-04",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/04/lionesses-seek-to-tame-spain-again-and-show-they-are-ready-to-conquer-the-world",
-    "summary": "Lionesses seek to tame Spain again and show they are ready to conquer the world",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-05T09:18:03.032Z"
-  },
-  {
-    "id": "c84d447a6fe0",
-    "title": "Iran World Cup 2026 team guide",
-    "date": "2026-06-04",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/04/iran-world-cup-2026-team-guide",
-    "summary": "Iran World Cup 2026 team guide",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-05T09:18:03.032Z"
-  },
-  {
-    "id": "3c14eba743b0",
-    "title": "Football Daily | World Cup Omitted XI: the star players watching from the sofa this summer",
-    "date": "2026-06-04",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/04/football-daily-omitted-xi-geopolitics-world-cup",
-    "summary": "Football Daily | World Cup Omitted XI: the star players watching from the sofa this summer",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-05T09:18:03.032Z"
-  },
-  {
-    "id": "ac41952352ff",
-    "title": "A higher ceiling than Messi? What next for Lamine Yamal?",
-    "date": "2026-06-04",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cy82mpzg3n4o?at_medium=RSS&at_campaign=rss",
-    "summary": "A higher ceiling than Messi? What next for Lamine Yamal?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-04T09:27:45.969Z"
-  },
-  {
-    "id": "03be22522829",
-    "title": "Toone learned 'massive lesson' from hip injury setback",
-    "date": "2026-06-04",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c4g8113ngyno?at_medium=RSS&at_campaign=rss",
-    "summary": "Toone learned 'massive lesson' from hip injury setback",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-04T09:27:45.969Z"
-  },
-  {
-    "id": "a7637d78fe0e",
-    "title": "Wales boss Wilkinson sleeps in airport amid travel chaos",
-    "date": "2026-06-04",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cj3pk2erknno?at_medium=RSS&at_campaign=rss",
-    "summary": "Wales boss Wilkinson sleeps in airport amid travel chaos",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-04T09:27:45.969Z"
-  },
-  {
-    "id": "03be22522829",
-    "title": "Toone learned 'massive lesson' from hip injury setback",
-    "date": "2026-06-04",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c4g8113ngyno?at_medium=RSS&at_campaign=rss",
-    "summary": "Toone learned 'massive lesson' from hip injury setback",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-04T09:27:45.969Z"
-  },
-  {
-    "id": "a7637d78fe0e",
-    "title": "Wilkinson sleeps in airport amid Wales travel chaos",
-    "date": "2026-06-04",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cj3pk2erknno?at_medium=RSS&at_campaign=rss",
-    "summary": "Wilkinson sleeps in airport amid Wales travel chaos",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-04T09:27:45.969Z"
-  },
-  {
-    "id": "a1f200437818",
-    "title": "World Cup 2026: guide to all 1,248 players",
-    "date": "2026-06-04",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/ng-interactive/2026/jun/04/world-cup-2026-complete-player-guide",
-    "summary": "World Cup 2026: guide to all 1,248 players",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-04T09:27:45.969Z"
-  },
-  {
-    "id": "60c5590fbd02",
-    "title": "Fifa bans fans from taking reusable water bottles into World Cup stadiums after U-turn",
-    "date": "2026-06-04",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/04/fifa-bans-reusable-water-bottles-world-cup-stadiums",
-    "summary": "Fifa bans fans from taking reusable water bottles into World Cup stadiums after U-turn",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-04T09:27:45.969Z"
-  },
-  {
-    "id": "ca164a8d4781",
-    "title": "La Liga 2025-26 awards: the best players, team … and smelliest shirt of the season",
-    "date": "2026-06-04",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/04/la-liga-2025-26-awards-best-players-team-sid-lowe",
-    "summary": "La Liga 2025-26 awards: the best players, team … and smelliest shirt of the season",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-04T09:27:45.969Z"
   }
 ];
