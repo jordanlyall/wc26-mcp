@@ -2,6 +2,201 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "1d1e33136fe4",
+    "title": "Henderson injures wrist in England celebrations",
+    "date": "2026-07-06",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c9822ez0zdwo?at_medium=RSS&at_campaign=rss",
+    "summary": "Henderson injures wrist in England celebrations",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-06T12:07:40.279Z"
+  },
+  {
+    "id": "e4f8de6de6af",
+    "title": "How England's epic night at the Azteca unfolded",
+    "date": "2026-07-06",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/videos/c9q225nn0dqo?at_medium=RSS&at_campaign=rss",
+    "summary": "How England's epic night at the Azteca unfolded",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-06T12:07:40.279Z"
+  },
+  {
+    "id": "ed92d40b68e5",
+    "title": "Bellingham scores two in 98 seconds to silence the Azteca",
+    "date": "2026-07-06",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/videos/ce3ee5dkvpro?at_medium=RSS&at_campaign=rss",
+    "summary": "Bellingham scores two in 98 seconds to silence the Azteca",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-06T12:07:40.279Z"
+  },
+  {
+    "id": "d34a6acdf418",
+    "title": "'I'm speechless' - Kane reacts to England's victory over Mexico",
+    "date": "2026-07-06",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/videos/cvg55vne49do?at_medium=RSS&at_campaign=rss",
+    "summary": "'I'm speechless' - Kane reacts to England's victory over Mexico",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-06T12:07:40.279Z"
+  },
+  {
+    "id": "6717b7ad8eeb",
+    "title": "Where does Mexico win rank among England's best results?",
+    "date": "2026-07-06",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cgevv1r30w1o?at_medium=RSS&at_campaign=rss",
+    "summary": "Where does Mexico win rank among England's best results?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-06T12:07:40.279Z"
+  },
+  {
+    "id": "30a3fcc2d1bb",
+    "title": "Neymar says Brazil career over after Norway defeat",
+    "date": "2026-07-06",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/clyww4w1rl8o?at_medium=RSS&at_campaign=rss",
+    "summary": "Neymar says Brazil career over after Norway defeat",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-06T12:07:40.279Z"
+  },
+  {
+    "id": "9f744b355f36",
+    "title": "World Cup referees are just not good enough - Tuchel",
+    "date": "2026-07-06",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cq6115rj9ymo?at_medium=RSS&at_campaign=rss",
+    "summary": "World Cup referees are just not good enough - Tuchel",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-06T12:07:40.279Z"
+  },
+  {
+    "id": "f606f6b041e6",
+    "title": "World Cup 2026: England set up Norway quarter-final after Mexico thriller; Uefa says Fifa ‘crossed line’ over Balogun – live",
+    "date": "2026-07-06",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/live/2026/jul/06/world-cup-2026-england-set-up-norway-quarter-final-after-mexico-thriller-trump-lobbied-for-balogun-red-card-reversal-live",
+    "summary": "World Cup 2026: England set up Norway quarter-final after Mexico thriller; Uefa says Fifa ‘crossed line’ over Balogun – live",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-06T12:07:40.279Z"
+  },
+  {
+    "id": "7eaaae93c722",
+    "title": "England rise to Azteca occasion and see off ghosts, time and Mexico | Barney Ronay",
+    "date": "2026-07-06",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/06/england-azteca-mexico-world-cup",
+    "summary": "England rise to Azteca occasion and see off ghosts, time and Mexico | Barney Ronay",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-06T12:07:40.279Z"
+  },
+  {
+    "id": "a22bc23355ed",
+    "title": "Erling Haaland hails ‘one of the sickest days’ in Norway’s history after beating Brazil",
+    "date": "2026-07-06",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/06/erling-haaland-one-of-the-sickest-days-norway-history-beating-brazil-world-cup",
+    "summary": "Erling Haaland hails ‘one of the sickest days’ in Norway’s history after beating Brazil",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-06T12:07:40.279Z"
+  },
+  {
+    "id": "30f39a3936de",
+    "title": "Thousands welcome home Cape Verde players after stunning World Cup run",
+    "date": "2026-07-05",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/news/articles/c70yy4xkeexo?at_medium=RSS&at_campaign=rss",
+    "summary": "Thousands welcome home Cape Verde players after stunning World Cup run",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-06T12:07:40.279Z"
+  },
+  {
+    "id": "cf85c3a8a8f5",
+    "title": "Queiroz leaves Ghana following World Cup exit",
+    "date": "2026-07-05",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/clyxx288yr6o?at_medium=RSS&at_campaign=rss",
+    "summary": "Queiroz leaves Ghana following World Cup exit",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-06T12:07:40.279Z"
+  },
+  {
+    "id": "7df8da364964",
+    "title": "‘They’ve tried to kill me for 23 years’: Cristiano Ronaldo says this World Cup will be his last",
+    "date": "2026-07-05",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/05/kill-me-23-years-cristiano-ronaldo-world-cup-last-portugal-spain",
+    "summary": "‘They’ve tried to kill me for 23 years’: Cristiano Ronaldo says this World Cup will be his last",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-06T12:07:40.279Z"
+  },
+  {
+    "id": "968ec945dd2f",
+    "title": "Paraguay showed France can be stifled – Morocco will have taken note | Paul MacInnes",
+    "date": "2026-07-05",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/05/paraguay-france-morocco-world-cup-2026",
+    "summary": "Paraguay showed France can be stifled – Morocco will have taken note | Paul MacInnes",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-06T12:07:40.279Z"
+  },
+  {
+    "id": "3bcf72beee60",
+    "title": "‘A high ceiling’: Newcastle confirm £43m signing of Hoffenheim winger Touré",
+    "date": "2026-07-05",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/05/newcastle-confirm-43m-signing-of-hoffenheim-winger-toure",
+    "summary": "‘A high ceiling’: Newcastle confirm £43m signing of Hoffenheim winger Touré",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-06T12:07:40.279Z"
+  },
+  {
     "id": "b90f19c3d4e5",
     "title": "England enter the Azteca - where football kings are crowned",
     "date": "2026-07-05",
@@ -143,6 +338,32 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-07-05T10:19:54.669Z"
+  },
+  {
+    "id": "8a51027ae921",
+    "title": "Jhon Arias goal sends Colombia into last 16 as Ghana bow out of World Cup",
+    "date": "2026-07-04",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/04/colombia-ghana-world-cup-2026-last-32-match-report",
+    "summary": "Jhon Arias goal sends Colombia into last 16 as Ghana bow out of World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-06T12:07:40.279Z"
+  },
+  {
+    "id": "826201ac6d2d",
+    "title": "Cape Verde threaten shock for the ages before Argentina break hearts in World Cup classic",
+    "date": "2026-07-04",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/04/argentina-cape-verde-world-cup-2026-last-32-match-report",
+    "summary": "Cape Verde threaten shock for the ages before Argentina break hearts in World Cup classic",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-06T12:07:40.279Z"
   },
   {
     "id": "6431b2754a3b",
@@ -431,6 +652,19 @@ export const news: NewsItem[] = [
     "fetched_at": "2026-07-04T10:14:36.777Z"
   },
   {
+    "id": "b2ce5c657d6a",
+    "title": "Egypt reach World Cup last 16 in shootout as Australia’s goalkeeper gamble backfires",
+    "date": "2026-07-03",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/03/australia-egypt-world-cup-2026-last-32-match-report",
+    "summary": "Egypt reach World Cup last 16 in shootout as Australia’s goalkeeper gamble backfires",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-06T12:07:40.279Z"
+  },
+  {
     "id": "ef05d001a9a2",
     "title": "Denmark defender Thomsen signs two-year London City deal",
     "date": "2026-07-03",
@@ -676,6 +910,19 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-07-03T10:41:05.825Z"
+  },
+  {
+    "id": "a1f200437818",
+    "title": "World Cup 2026: guide to all 1,248 players",
+    "date": "2026-07-02",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/ng-interactive/2026/jun/04/world-cup-2026-complete-player-guide",
+    "summary": "World Cup 2026: guide to all 1,248 players",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-06T12:07:40.279Z"
   },
   {
     "id": "21aa0415972a",
@@ -7007,330 +7254,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-06-06T09:00:10.279Z"
-  },
-  {
-    "id": "9db14c945e13",
-    "title": "What you need to know about Spain's opponents Cape Verde",
-    "date": "2026-06-05",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cvgzlv1q453o?at_medium=RSS&at_campaign=rss",
-    "summary": "What you need to know about Spain's opponents Cape Verde",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-15T10:15:37.970Z"
-  },
-  {
-    "id": "c02ea0e579eb",
-    "title": "Tuchel will not let Tampa pitch affect selection",
-    "date": "2026-06-05",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c87q7q45gp2o?at_medium=RSS&at_campaign=rss",
-    "summary": "Tuchel will not let Tampa pitch affect selection",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-06T09:00:10.279Z"
-  },
-  {
-    "id": "4e631cf592f6",
-    "title": "Advantage Scotland as they await Cuthbert injury news",
-    "date": "2026-06-05",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c3929el74pzo?at_medium=RSS&at_campaign=rss",
-    "summary": "Advantage Scotland as they await Cuthbert injury news",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-06T09:00:10.279Z"
-  },
-  {
-    "id": "2669a47f9870",
-    "title": "Will transfers be a distraction for England at World Cup?",
-    "date": "2026-06-05",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/crlpglx66z9o?at_medium=RSS&at_campaign=rss",
-    "summary": "Will transfers be a distraction for England at World Cup?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-06T09:00:10.279Z"
-  },
-  {
-    "id": "d66419d98e14",
-    "title": "Watch: Weir hat-trick as Scotland thump Israel",
-    "date": "2026-06-05",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/videos/c74d4gw755go?at_medium=RSS&at_campaign=rss",
-    "summary": "Watch: Weir hat-trick as Scotland thump Israel",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-06T09:00:10.279Z"
-  },
-  {
-    "id": "3e701ff44057",
-    "title": "Highlights: Wales held to draw in Montenegro ",
-    "date": "2026-06-05",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/videos/cd9p9pvqenjo?at_medium=RSS&at_campaign=rss",
-    "summary": "Highlights: Wales held to draw in Montenegro ",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-06T09:00:10.279Z"
-  },
-  {
-    "id": "fd02b08ab371",
-    "title": "Bellamy urges Wales to dominate Romania",
-    "date": "2026-06-05",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/videos/cp8p867dme2o?at_medium=RSS&at_campaign=rss",
-    "summary": "Bellamy urges Wales to dominate Romania",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-06T09:00:10.279Z"
-  },
-  {
-    "id": "6c9c1f728833",
-    "title": "Germany forward Karl ruled out of World Cup",
-    "date": "2026-06-05",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cz020zdklmmo?at_medium=RSS&at_campaign=rss",
-    "summary": "Germany forward Karl ruled out of World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-06T09:00:10.279Z"
-  },
-  {
-    "id": "f199d0e1ecb7",
-    "title": "Tottenham sign Robertson after Liverpool exit",
-    "date": "2026-06-05",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c1l2lzzg2nyo?at_medium=RSS&at_campaign=rss",
-    "summary": "Tottenham sign Robertson after Liverpool exit",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-06T09:00:10.279Z"
-  },
-  {
-    "id": "8c95a7f74cf5",
-    "title": "Football regulator faces 'defining test' over potential Derby investment",
-    "date": "2026-06-05",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c20257p2dyyo?at_medium=RSS&at_campaign=rss",
-    "summary": "Football regulator faces 'defining test' over potential Derby investment",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-06T09:00:10.279Z"
-  },
-  {
-    "id": "4e631cf592f6",
-    "title": "Advantage Scotland as they await Cuthbert injury news",
-    "date": "2026-06-05",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c3929el74pzo?at_medium=RSS&at_campaign=rss",
-    "summary": "Advantage Scotland as they await Cuthbert injury news",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-06T09:00:10.279Z"
-  },
-  {
-    "id": "f199d0e1ecb7",
-    "title": "Tottenham sign Robertson after Liverpool exit",
-    "date": "2026-06-05",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c1l2lzzg2nyo?at_medium=RSS&at_campaign=rss",
-    "summary": "Tottenham sign Robertson after Liverpool exit",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-06T09:00:10.279Z"
-  },
-  {
-    "id": "fb0418235d12",
-    "title": "Tuchel confident ‘sharp’ Kane is in perfect form to lead England at World Cup",
-    "date": "2026-06-05",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/05/tuchel-confident-sharp-kane-is-in-perfect-form-to-lead-england-at-world-cup",
-    "summary": "Tuchel confident ‘sharp’ Kane is in perfect form to lead England at World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-06T09:00:10.279Z"
-  },
-  {
-    "id": "e14bb068b0a8",
-    "title": "Spain World Cup 2026 team guide",
-    "date": "2026-06-05",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/06/spain-world-cup-2026-team-guide",
-    "summary": "Spain World Cup 2026 team guide",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-06T09:00:10.279Z"
-  },
-  {
-    "id": "89875f57708d",
-    "title": "‘It hurts. I expected a different game’: Wiegman’s shock at Spain humbling",
-    "date": "2026-06-05",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/05/sarina-wiegman-lionesses-spain-womens-world-cup-qualifier",
-    "summary": "‘It hurts. I expected a different game’: Wiegman’s shock at Spain humbling",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-06T09:00:10.279Z"
-  },
-  {
-    "id": "bf6a4686a8b3",
-    "title": "Steve Clarke warns Scotland not to underestimate Haiti after New Zealand rout",
-    "date": "2026-06-05",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/05/steve-clarke-scotland-haiti-world-cup-new-zealand",
-    "summary": "Steve Clarke warns Scotland not to underestimate Haiti after New Zealand rout",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-06T09:00:10.279Z"
-  },
-  {
-    "id": "a766f5fda730",
-    "title": "Saudi Arabia World Cup 2026 team guide",
-    "date": "2026-06-05",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/05/saudi-arabia-world-cup-2026-team-guide",
-    "summary": "Saudi Arabia World Cup 2026 team guide",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-06T09:00:10.279Z"
-  },
-  {
-    "id": "9a6d5920ba4b",
-    "title": "Fifa demands fans pay after ticketing error offered free World Cup tickets",
-    "date": "2026-06-05",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cy828v7r5ydo?at_medium=RSS&at_campaign=rss",
-    "summary": "Fifa demands fans pay after ticketing error offered free World Cup tickets",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-05T09:18:03.032Z"
-  },
-  {
-    "id": "19a3ee6686f5",
-    "title": "World Cup quiz: Name every player in England's squad",
-    "date": "2026-06-05",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c202yprg4z2o?at_medium=RSS&at_campaign=rss",
-    "summary": "World Cup quiz: Name every player in England's squad",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-05T09:18:03.032Z"
-  },
-  {
-    "id": "73f60d136ae7",
-    "title": "How Hendry's Saudi Arabia experience can help him stay cool in US heat",
-    "date": "2026-06-05",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c62xpl0pgy4o?at_medium=RSS&at_campaign=rss",
-    "summary": "How Hendry's Saudi Arabia experience can help him stay cool in US heat",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-05T09:18:03.032Z"
-  },
-  {
-    "id": "48074cdded42",
-    "title": "We need to teach boys differently to girls - Southgate",
-    "date": "2026-06-05",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/news/articles/ckgp5g34kzpo?at_medium=RSS&at_campaign=rss",
-    "summary": "We need to teach boys differently to girls - Southgate",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-05T09:18:03.032Z"
-  },
-  {
-    "id": "73f60d136ae7",
-    "title": "How Hendry's Saudi experience can help him stay cool in US heat",
-    "date": "2026-06-05",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c62xpl0pgy4o?at_medium=RSS&at_campaign=rss",
-    "summary": "How Hendry's Saudi experience can help him stay cool in US heat",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-05T09:18:03.032Z"
-  },
-  {
-    "id": "74aa5ef60972",
-    "title": "World Cup 2026 buildup, transfer latest and Lionesses in Spain: football news – live",
-    "date": "2026-06-05",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/live/2026/jun/05/world-cup-2026-buildup-transfer-latest-and-lionesses-in-spain-football-news-live",
-    "summary": "World Cup 2026 buildup, transfer latest and Lionesses in Spain: football news – live",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-05T09:18:03.032Z"
-  },
-  {
-    "id": "f3fe1f9fee3b",
-    "title": "World Cup 2026 wallchart: print out your own here",
-    "date": "2026-06-05",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/picture/2026/jun/05/world-cup-2026-wallchart-print-out-your-own-here",
-    "summary": "World Cup 2026 wallchart: print out your own here",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-05T09:18:03.032Z"
-  },
-  {
-    "id": "989af76a2046",
-    "title": "Cape Verde World Cup 2026 team guide",
-    "date": "2026-06-05",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/05/cape-verde-world-cup-2026-team-guide",
-    "summary": "Cape Verde World Cup 2026 team guide",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-05T09:18:03.032Z"
   }
 ];
