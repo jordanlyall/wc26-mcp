@@ -2,6 +2,162 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "4dabc147f28c",
+    "title": "World Cup 2026: USA bounced out by Belgium after Balogun furore; backlash against Fifa builds – live",
+    "date": "2026-07-07",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/live/2026/jul/07/world-cup-2026-usa-bounced-out-by-belgium-after-balogun-furore-backlash-against-fifa-builds-argentina-egypt-colombia-switzerlandlive",
+    "summary": "World Cup 2026: USA bounced out by Belgium after Balogun furore; backlash against Fifa builds – live",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-07T11:12:07.905Z"
+  },
+  {
+    "id": "9a09ead39fdb",
+    "title": "Best fans at the World Cup? How Colombia’s support powered the team to success",
+    "date": "2026-07-07",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/07/best-fans-at-the-world-cup-how-colombias-support-powered-the-team-to-success",
+    "summary": "Best fans at the World Cup? How Colombia’s support powered the team to success",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-07T11:12:07.905Z"
+  },
+  {
+    "id": "5fb27a76f18f",
+    "title": "‘They have Messi, but we have Salah’: Egypt prepare to take on Argentina",
+    "date": "2026-07-07",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/07/lionel-messi-mo-salah-egypt-argentina-world-cup",
+    "summary": "‘They have Messi, but we have Salah’: Egypt prepare to take on Argentina",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-07T11:12:07.905Z"
+  },
+  {
+    "id": "d0b2dbc12b78",
+    "title": "James expected to return for Norway quarter-final",
+    "date": "2026-07-06",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cx2xxl6772no?at_medium=RSS&at_campaign=rss",
+    "summary": "James expected to return for Norway quarter-final",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-07T11:12:07.905Z"
+  },
+  {
+    "id": "9b977624263d",
+    "title": "Henderson expected to have surgery on injured wrist",
+    "date": "2026-07-06",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cvgmmm5923yo?at_medium=RSS&at_campaign=rss",
+    "summary": "Henderson expected to have surgery on injured wrist",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-07T11:12:07.905Z"
+  },
+  {
+    "id": "b6e8c505e150",
+    "title": "Coach told FA Maddy Cusack was a liar, inquest hears",
+    "date": "2026-07-06",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/news/articles/cj0ggn1214vo?at_medium=RSS&at_campaign=rss",
+    "summary": "Coach told FA Maddy Cusack was a liar, inquest hears",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-07T11:12:07.905Z"
+  },
+  {
+    "id": "2142851b4cc4",
+    "title": "‘I go with a clear conscience’: Cristiano Ronaldo confirms he has played his last World Cup game",
+    "date": "2026-07-06",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/07/cristiano-ronaldo-portugal-roberto-martinez-world-cup-2026-spain",
+    "summary": "‘I go with a clear conscience’: Cristiano Ronaldo confirms he has played his last World Cup game",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-07T11:12:07.905Z"
+  },
+  {
+    "id": "a69915c397e9",
+    "title": "Jonathan Morgan labelled Maddy Cusack ‘generally a liar’ in FA investigation, inquest hears",
+    "date": "2026-07-06",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/06/jonathan-morgan-labelled-maddy-cusack-generally-a-liar-in-fa-investigation-inquest-hears",
+    "summary": "Jonathan Morgan labelled Maddy Cusack ‘generally a liar’ in FA investigation, inquest hears",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-07T11:12:07.905Z"
+  },
+  {
+    "id": "4317d3398ece",
+    "title": "‘Best host in the world’: Mexico keep spirits up after England heartbreak",
+    "date": "2026-07-06",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/06/mexico-world-cup-exit-england-reaction-fans",
+    "summary": "‘Best host in the world’: Mexico keep spirits up after England heartbreak",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-07T11:12:07.905Z"
+  },
+  {
+    "id": "9e3f2031ef5f",
+    "title": "Mikel Merino comes full circle with Spain in touching tale of fathers and sons | Sid Lowe",
+    "date": "2026-07-06",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/06/mikel-merino-spain-world-cup-winner-portugal",
+    "summary": "Mikel Merino comes full circle with Spain in touching tale of fathers and sons | Sid Lowe",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-07T11:12:07.905Z"
+  },
+  {
+    "id": "06c571fe84cb",
+    "title": "Arsenal sign prolific Hoffenheim forward Selina Cerci; Kaneryd leaves Chelsea for Lyonnes",
+    "date": "2026-07-06",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/06/selina-cerci-signs-for-arsenal-womens-super-league",
+    "summary": "Arsenal sign prolific Hoffenheim forward Selina Cerci; Kaneryd leaves Chelsea for Lyonnes",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-07T11:12:07.905Z"
+  },
+  {
+    "id": "66e5c3253da4",
+    "title": "World Cup 2026: England beat Mexico in thriller at the Azteca – in pictures",
+    "date": "2026-07-06",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/gallery/2026/jul/06/world-cup-2026-mexico-v-england-at-the-azteca-in-pictures",
+    "summary": "World Cup 2026: England beat Mexico in thriller at the Azteca – in pictures",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-07T11:12:07.905Z"
+  },
+  {
     "id": "1d1e33136fe4",
     "title": "Henderson injures wrist in England celebrations",
     "date": "2026-07-06",
@@ -340,6 +496,19 @@ export const news: NewsItem[] = [
     "fetched_at": "2026-07-05T10:19:54.669Z"
   },
   {
+    "id": "630cffbc0bfe",
+    "title": "For all Cape Verde’s heroics, Africa’s World Cup could and perhaps should have been better | Jonathan Wilson",
+    "date": "2026-07-04",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/04/for-all-cape-verdes-heroics-africas-world-cup-could-and-perhaps-should-have-been-better",
+    "summary": "For all Cape Verde’s heroics, Africa’s World Cup could and perhaps should have been better | Jonathan Wilson",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-07T11:12:07.905Z"
+  },
+  {
     "id": "8a51027ae921",
     "title": "Jhon Arias goal sends Colombia into last 16 as Ghana bow out of World Cup",
     "date": "2026-07-04",
@@ -650,6 +819,32 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-07-04T10:14:36.777Z"
+  },
+  {
+    "id": "0f2fc99f130b",
+    "title": "How hard is it to cycle to New Jersey's MetLife stadium? – video",
+    "date": "2026-07-03",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/video/2026/jul/03/how-hard-is-it-to-cycle-to-metlife-stadium-video",
+    "summary": "How hard is it to cycle to New Jersey's MetLife stadium? – video",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-07T11:12:07.905Z"
+  },
+  {
+    "id": "f784c28637e3",
+    "title": "Ange Postecoglou to manage Cristiano Ronaldo after landing Al-Nassr job",
+    "date": "2026-07-03",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/03/ange-postecoglou-head-coach-al-nassr-cristiano-ronaldo",
+    "summary": "Ange Postecoglou to manage Cristiano Ronaldo after landing Al-Nassr job",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-07T11:12:07.905Z"
   },
   {
     "id": "b2ce5c657d6a",
@@ -1638,6 +1833,19 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-06-30T09:15:54.684Z"
+  },
+  {
+    "id": "a731297c1f8d",
+    "title": "Robert Lewandowski makes MLS move to Chicago Fire on deal till 2028",
+    "date": "2026-06-29",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jun/29/robert-lewandowski-mls-chicago-fire-2028",
+    "summary": "Robert Lewandowski makes MLS move to Chicago Fire on deal till 2028",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-07T11:12:07.905Z"
   },
   {
     "id": "281e4facb4f9",
@@ -7020,239 +7228,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-06-07T09:10:27.069Z"
-  },
-  {
-    "id": "3921b01789a1",
-    "title": "Where to watch the World Cup on the BBC and ITV",
-    "date": "2026-06-06",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c20y4ppqy94o?at_medium=RSS&at_campaign=rss",
-    "summary": "Where to watch the World Cup on the BBC and ITV",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-23T09:17:28.639Z"
-  },
-  {
-    "id": "72cf1fd7cde8",
-    "title": "This was a training game - England & Tuchel now need to get serious",
-    "date": "2026-06-06",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c3ryd490rz7o?at_medium=RSS&at_campaign=rss",
-    "summary": "This was a training game - England & Tuchel now need to get serious",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-07T09:10:27.069Z"
-  },
-  {
-    "id": "7d7e6eee8017",
-    "title": "Patient, precise, clinical - are Scotland ready to make World Cup mark?",
-    "date": "2026-06-06",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/clyrw74l269o?at_medium=RSS&at_campaign=rss",
-    "summary": "Patient, precise, clinical - are Scotland ready to make World Cup mark?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-07T09:10:27.069Z"
-  },
-  {
-    "id": "845e463c325b",
-    "title": "Wales must be better after Romania woe - Bellamy",
-    "date": "2026-06-06",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cy736ndkknno?at_medium=RSS&at_campaign=rss",
-    "summary": "Wales must be better after Romania woe - Bellamy",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-07T09:10:27.069Z"
-  },
-  {
-    "id": "b912eadfe884",
-    "title": "How to watch the World Cup on the BBC and ITV",
-    "date": "2026-06-06",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c20y4ppqy94o?at_medium=RSS&at_campaign=rss",
-    "summary": "How to watch the World Cup on the BBC and ITV",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-07T09:10:27.069Z"
-  },
-  {
-    "id": "6d7799647eb8",
-    "title": "Lightning halts pre-World Cup friendly in Texas for two hours",
-    "date": "2026-06-06",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c5yz3p6vjd1o?at_medium=RSS&at_campaign=rss",
-    "summary": "Lightning halts pre-World Cup friendly in Texas for two hours",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-07T09:10:27.069Z"
-  },
-  {
-    "id": "c1639de58c93",
-    "title": "Watch: When Hagi's Romania thrashed Wales",
-    "date": "2026-06-06",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/videos/cedp32xzxx5o?at_medium=RSS&at_campaign=rss",
-    "summary": "Watch: When Hagi's Romania thrashed Wales",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-07T09:10:27.069Z"
-  },
-  {
-    "id": "7d7e6eee8017",
-    "title": "Patient, precise, clinical - are Scotland ready to make World Cup mark?",
-    "date": "2026-06-06",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/clyrw74l269o?at_medium=RSS&at_campaign=rss",
-    "summary": "Patient, precise, clinical - are Scotland ready to make World Cup mark?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-07T09:10:27.069Z"
-  },
-  {
-    "id": "9a018948c5f4",
-    "title": "Thomas Tuchel criticises England’s ‘freestyle’ approach in win over New Zealand",
-    "date": "2026-06-06",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/07/thomas-tuchel-criticises-englands-freestyle-approach-in-win-over-new-zealand",
-    "summary": "Thomas Tuchel criticises England’s ‘freestyle’ approach in win over New Zealand",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-07T09:10:27.069Z"
-  },
-  {
-    "id": "b89aad4d9cd6",
-    "title": "Adams at the double as Scotland thrash Bolivia in perfect World Cup warm-up",
-    "date": "2026-06-06",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/06/scotland-bolivia-world-cup-warm-up-match-report",
-    "summary": "Adams at the double as Scotland thrash Bolivia in perfect World Cup warm-up",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-07T09:10:27.069Z"
-  },
-  {
-    "id": "2c885c6be6bf",
-    "title": "If this is Messi’s last World Cup, could he eclipse Maradona and win it twice?",
-    "date": "2026-06-06",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/06/if-this-is-messis-last-world-cup-could-he-eclipse-maradona-and-win-it-twice",
-    "summary": "If this is Messi’s last World Cup, could he eclipse Maradona and win it twice?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-07T09:10:27.069Z"
-  },
-  {
-    "id": "0d2cbbcba243",
-    "title": "Lionesses have no reason to panic despite the humiliation in Spain | Suzanne Wrack",
-    "date": "2026-06-06",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/06/lionesses-have-no-reason-to-panic-despite-the-humiliation-in-spain",
-    "summary": "Lionesses have no reason to panic despite the humiliation in Spain | Suzanne Wrack",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-07T09:10:27.069Z"
-  },
-  {
-    "id": "d4b1853213ae",
-    "title": "England 1-0 New Zealand: five talking points from the World Cup warm-up | Jacob Steinberg",
-    "date": "2026-06-06",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/06/england-1-0-new-zealand-five-talking-points-from-the-world-cup-warm-up",
-    "summary": "England 1-0 New Zealand: five talking points from the World Cup warm-up | Jacob Steinberg",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-07T09:10:27.069Z"
-  },
-  {
-    "id": "28d2907f3b0c",
-    "title": "Iraq World Cup 2026 team guide",
-    "date": "2026-06-06",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/07/iraq-world-cup-2026-team-guide",
-    "summary": "Iraq World Cup 2026 team guide",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-07T09:10:27.069Z"
-  },
-  {
-    "id": "f3c2b370d31a",
-    "title": "Shattered dreams: best XI from countries not at the World Cup",
-    "date": "2026-06-06",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/06/shattered-dreams-best-xi-from-countries-not-at-the-world-cup",
-    "summary": "Shattered dreams: best XI from countries not at the World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-07T09:10:27.069Z"
-  },
-  {
-    "id": "265c26d51923",
-    "title": "Iran's football team granted visas to enter US for World Cup, officials say",
-    "date": "2026-06-06",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/news/articles/cy8286nqz87o?at_medium=RSS&at_campaign=rss",
-    "summary": "Iran's football team granted visas to enter US for World Cup, officials say",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-06T09:00:10.279Z"
-  },
-  {
-    "id": "a9c87fc03136",
-    "title": "Power and glory: World Cup promises a spectacle impossible to ignore",
-    "date": "2026-06-06",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/ng-interactive/2026/jun/06/power-and-glory-world-cup-promises-a-spectacle-impossible-to-ignore",
-    "summary": "Power and glory: World Cup promises a spectacle impossible to ignore",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-06T09:00:10.279Z"
-  },
-  {
-    "id": "e9731b2998d5",
-    "title": "Uruguay World Cup 2026 team guide",
-    "date": "2026-06-06",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/06/uruguay-world-cup-2026-team-guide",
-    "summary": "Uruguay World Cup 2026 team guide",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-06T09:00:10.279Z"
   }
 ];
