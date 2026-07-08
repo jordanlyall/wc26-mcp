@@ -2,6 +2,201 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "fb2bac0addf1",
+    "title": "The World Cup stars who could have played for England",
+    "date": "2026-07-08",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c0lyj77w9z7o?at_medium=RSS&at_campaign=rss",
+    "summary": "The World Cup stars who could have played for England",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-08T10:22:36.586Z"
+  },
+  {
+    "id": "8aaf32270f36",
+    "title": "Benitez refuses to rule out Scotland interest - gossip",
+    "date": "2026-07-08",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c892nee7w9wo?at_medium=RSS&at_campaign=rss",
+    "summary": "Benitez refuses to rule out Scotland interest - gossip",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-08T10:22:36.586Z"
+  },
+  {
+    "id": "435138d274ce",
+    "title": "World Cup 2026: Egypt fury after Argentina win thriller, Switzerland triumph in shootout – live",
+    "date": "2026-07-08",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/live/2026/jul/08/world-cup-2026-egypt-fury-after-argentina-win-thriller-switzerland-triumph-in-shootout-live",
+    "summary": "World Cup 2026: Egypt fury after Argentina win thriller, Switzerland triumph in shootout – live",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-08T10:22:36.586Z"
+  },
+  {
+    "id": "abe9495e02c5",
+    "title": "World Cup 2026 team power rankings: England on the rise as last eight are set",
+    "date": "2026-07-08",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/08/world-cup-2026-team-rankings-last-16",
+    "summary": "World Cup 2026 team power rankings: England on the rise as last eight are set",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-08T10:22:36.586Z"
+  },
+  {
+    "id": "a7f5da28e970",
+    "title": "Is Neymar the first to bookend his international career with goals at the same venue? | The Knowledge",
+    "date": "2026-07-08",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/08/is-neymar-the-first-to-bookend-his-international-career-with-goals-at-the-same-venue",
+    "summary": "Is Neymar the first to bookend his international career with goals at the same venue? | The Knowledge",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-08T10:22:36.586Z"
+  },
+  {
+    "id": "2976c353c6d0",
+    "title": "USMNT World Cup player ratings: high marks for McKennie and Tillman, but Pulisic and Dest fall short",
+    "date": "2026-07-08",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/08/usmnt-world-cup-player-grades",
+    "summary": "USMNT World Cup player ratings: high marks for McKennie and Tillman, but Pulisic and Dest fall short",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-08T10:22:36.586Z"
+  },
+  {
+    "id": "a2ff1228ab85",
+    "title": "VAR controversially rules out Egypt goal",
+    "date": "2026-07-07",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/videos/cddlj37zej7o?at_medium=RSS&at_campaign=rss",
+    "summary": "VAR controversially rules out Egypt goal",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-08T10:22:36.586Z"
+  },
+  {
+    "id": "59ce8bf57bfb",
+    "title": "Fifa investigating alleged racist abuse of IShowSpeed",
+    "date": "2026-07-07",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c1my1pr18jmo?at_medium=RSS&at_campaign=rss",
+    "summary": "Fifa investigating alleged racist abuse of IShowSpeed",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-08T10:22:36.586Z"
+  },
+  {
+    "id": "c22bf2315a3b",
+    "title": "England players to get hoarding warning after freak Henderson injury",
+    "date": "2026-07-07",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/czx5qev7nqno?at_medium=RSS&at_campaign=rss",
+    "summary": "England players to get hoarding warning after freak Henderson injury",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-08T10:22:36.586Z"
+  },
+  {
+    "id": "54f78bb3e90e",
+    "title": "Qarabag's Duran poised for Celtic medical",
+    "date": "2026-07-07",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c5yzzxv8yw0o?at_medium=RSS&at_campaign=rss",
+    "summary": "Qarabag's Duran poised for Celtic medical",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-08T10:22:36.586Z"
+  },
+  {
+    "id": "e8b34ddf4762",
+    "title": "Coach was 'happy' to have Maddy Cusack on team",
+    "date": "2026-07-07",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/news/articles/cdx78912gx1o?at_medium=RSS&at_campaign=rss",
+    "summary": "Coach was 'happy' to have Maddy Cusack on team",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-08T10:22:36.586Z"
+  },
+  {
+    "id": "54f78bb3e90e",
+    "title": "Qarabag's Duran poised for Celtic medical",
+    "date": "2026-07-07",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c5yzzxv8yw0o?at_medium=RSS&at_campaign=rss",
+    "summary": "Qarabag's Duran poised for Celtic medical",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-08T10:22:36.586Z"
+  },
+  {
+    "id": "e8b34ddf4762",
+    "title": "Coach was 'happy' to have Maddy Cusack on team",
+    "date": "2026-07-07",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/news/articles/cdx78912gx1o?at_medium=RSS&at_campaign=rss",
+    "summary": "Coach was 'happy' to have Maddy Cusack on team",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-08T10:22:36.586Z"
+  },
+  {
+    "id": "37101879b408",
+    "title": "Why Jude Bellingham’s world is bigger than most of us can understand",
+    "date": "2026-07-07",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/07/genius-jude-bellingham-becoming-one-of-englands-leaders",
+    "summary": "Why Jude Bellingham’s world is bigger than most of us can understand",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-08T10:22:36.586Z"
+  },
+  {
+    "id": "04c6a9180075",
+    "title": "Maddy Cusack and players were let down by Sheffield United, inquest told",
+    "date": "2026-07-07",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/07/maddy-cusack-sheffield-united-inquest-jonathan-morgan-womens-football",
+    "summary": "Maddy Cusack and players were let down by Sheffield United, inquest told",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-08T10:22:36.586Z"
+  },
+  {
     "id": "4dabc147f28c",
     "title": "World Cup 2026: USA bounced out by Belgium after Balogun furore; backlash against Fifa builds – live",
     "date": "2026-07-07",
@@ -1833,6 +2028,19 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-06-30T09:15:54.684Z"
+  },
+  {
+    "id": "0d2b266b8171",
+    "title": "NWSL all-time record goalscorer Sam Kerr confirms league return by joining Gotham",
+    "date": "2026-06-29",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jun/29/nwsl-all-time-record-goalscorer-sam-kerr-confirms-league-return-by-joining-gotham",
+    "summary": "NWSL all-time record goalscorer Sam Kerr confirms league return by joining Gotham",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-08T10:22:36.586Z"
   },
   {
     "id": "a731297c1f8d",
@@ -7072,161 +7280,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-06-08T09:45:21.006Z"
-  },
-  {
-    "id": "6796d9d8c9eb",
-    "title": "Sophia Wilson’s return spoiled as USA women beaten by Brazil in friendly",
-    "date": "2026-06-07",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/06/usa-brazil-women-friendly-sophia-wilson-return",
-    "summary": "Sophia Wilson’s return spoiled as USA women beaten by Brazil in friendly",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-14T09:13:22.489Z"
-  },
-  {
-    "id": "d1f0b59c344b",
-    "title": "The USWNT wanted a fight in Brazil and its World C...",
-    "date": "2026-06-07",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48990324/the-uswnt-wanted-fight-brazil-world-cup-prep-better-it",
-    "summary": "The USWNT wanted a fight in Brazil and its World C...",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-08T09:45:21.006Z"
-  },
-  {
-    "id": "d53b26c03012",
-    "title": "Can South America maintain its 100% record at Nort...",
-    "date": "2026-06-07",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48951119/can-south-america-maintain-100-record-north-american-world-cups",
-    "summary": "Can South America maintain its 100% record at Nort...",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-08T09:45:21.006Z"
-  },
-  {
-    "id": "9a279e31cf85",
-    "title": "Rice to be England's vice-captain at World Cup",
-    "date": "2026-06-07",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cn4r74yjpxvo?at_medium=RSS&at_campaign=rss",
-    "summary": "Rice to be England's vice-captain at World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-08T09:45:21.006Z"
-  },
-  {
-    "id": "65514b94eb4c",
-    "title": "Man Utd-bound Ederson replaces Wesley in Brazil squad",
-    "date": "2026-06-07",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c0ey82g18xjo?at_medium=RSS&at_campaign=rss",
-    "summary": "Man Utd-bound Ederson replaces Wesley in Brazil squad",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-08T09:45:21.006Z"
-  },
-  {
-    "id": "761818838891",
-    "title": "France's Camavinga attends Harvard after World Cup omission ",
-    "date": "2026-06-07",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cgk6y208pm2o?at_medium=RSS&at_campaign=rss",
-    "summary": "France's Camavinga attends Harvard after World Cup omission ",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-08T09:45:21.006Z"
-  },
-  {
-    "id": "65514b94eb4c",
-    "title": "Man Utd-bound Ederson replaces injured Wesley in Brazil squad",
-    "date": "2026-06-07",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c0ey82g18xjo?at_medium=RSS&at_campaign=rss",
-    "summary": "Man Utd-bound Ederson replaces injured Wesley in Brazil squad",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-08T09:45:21.006Z"
-  },
-  {
-    "id": "96a6cbc2deea",
-    "title": "Shankland, Gunn and a midfield conundrum - Clarke's big decisions",
-    "date": "2026-06-07",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/czrxg1306lro?at_medium=RSS&at_campaign=rss",
-    "summary": "Shankland, Gunn and a midfield conundrum - Clarke's big decisions",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-07T09:10:27.069Z"
-  },
-  {
-    "id": "96a6cbc2deea",
-    "title": "Clarke's 'got some decisions to make' - but what are they?",
-    "date": "2026-06-07",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/czrxg1306lro?at_medium=RSS&at_campaign=rss",
-    "summary": "Clarke's 'got some decisions to make' - but what are they?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-07T09:10:27.069Z"
-  },
-  {
-    "id": "9226045182d5",
-    "title": "Luis de la Fuente: ‘The appreciation for Spanish coaches should have happened ages ago’",
-    "date": "2026-06-07",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/07/luis-de-la-fuente-the-appreciation-for-spain-should-have-happened-ages-ago",
-    "summary": "Luis de la Fuente: ‘The appreciation for Spanish coaches should have happened ages ago’",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-07T09:10:27.069Z"
-  },
-  {
-    "id": "1ddfda692eba",
-    "title": "Norway World Cup 2026 team guide",
-    "date": "2026-06-07",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/07/norway-world-cup-2026-team-guide",
-    "summary": "Norway World Cup 2026 team guide",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-07T09:10:27.069Z"
-  },
-  {
-    "id": "05d2b6d05b80",
-    "title": "‘We looked quite good for 20 minutes’: Tony Popovic content after Socceroos draw with Switzerland",
-    "date": "2026-06-07",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/07/we-looked-quite-good-for-20-minutes-tony-popovic-content-after-socceroos-draw-with-switzerland",
-    "summary": "‘We looked quite good for 20 minutes’: Tony Popovic content after Socceroos draw with Switzerland",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-07T09:10:27.069Z"
   }
 ];
