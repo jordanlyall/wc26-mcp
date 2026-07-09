@@ -2,6 +2,201 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "6a011aefa895",
+    "title": "'It was good vibes in there' - Stones on viral prank",
+    "date": "2026-07-09",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cdej0znl156o?at_medium=RSS&at_campaign=rss",
+    "summary": "'It was good vibes in there' - Stones on viral prank",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-09T11:07:31.193Z"
+  },
+  {
+    "id": "d850e780dcbd",
+    "title": "Wilson delighted boss Bellamy staying with Wales",
+    "date": "2026-07-09",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c39ymj3kwydo?at_medium=RSS&at_campaign=rss",
+    "summary": "Wilson delighted boss Bellamy staying with Wales",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-09T11:07:31.193Z"
+  },
+  {
+    "id": "1357023b527c",
+    "title": "Benitez open to Scotland job - what would he bring and is he affordable?",
+    "date": "2026-07-09",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cx2dzkjnye3o?at_medium=RSS&at_campaign=rss",
+    "summary": "Benitez open to Scotland job - what would he bring and is he affordable?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-09T11:07:31.193Z"
+  },
+  {
+    "id": "0e31bdc6a708",
+    "title": "World Cup 2026: France v Morocco quarter-final buildup, Collina defends refereeing – live",
+    "date": "2026-07-09",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/live/2026/jul/09/world-cup-2026-france-v-morocco-quarter-final-news-live",
+    "summary": "World Cup 2026: France v Morocco quarter-final buildup, Collina defends refereeing – live",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-09T11:07:31.193Z"
+  },
+  {
+    "id": "c4da6724f86c",
+    "title": "Inquest into Maddy Cusack’s death adjourned again after new documents lodged",
+    "date": "2026-07-09",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/09/inquest-into-maddy-cusack-death-adjourned-again-new-documents",
+    "summary": "Inquest into Maddy Cusack’s death adjourned again after new documents lodged",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-09T11:07:31.193Z"
+  },
+  {
+    "id": "be954428c569",
+    "title": "‘Is he a nice guy? No. He’s a good guy’: how Harry Kane became an England great",
+    "date": "2026-07-09",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/09/is-he-a-nice-guy-no-hes-a-good-guy-how-harry-kane-became-an-england-great",
+    "summary": "‘Is he a nice guy? No. He’s a good guy’: how Harry Kane became an England great",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-09T11:07:31.193Z"
+  },
+  {
+    "id": "c73e2fce3bfb",
+    "title": "‘Best player England has developed’: Olise’s rise from Hayes to the World Cup",
+    "date": "2026-07-09",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/09/best-player-england-developed-michael-olise-2026-world-cup-france",
+    "summary": "‘Best player England has developed’: Olise’s rise from Hayes to the World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-09T11:07:31.193Z"
+  },
+  {
+    "id": "6872493d593b",
+    "title": "France’s match with Morocco sums up this diverse, multicultural World Cup",
+    "date": "2026-07-09",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/09/france-morocco-diverse-multicultural-world-cup-tournament-quarter-final",
+    "summary": "France’s match with Morocco sums up this diverse, multicultural World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-09T11:07:31.193Z"
+  },
+  {
+    "id": "fe36855311d4",
+    "title": "Henderson not ruled out of World Cup despite breaking arm ",
+    "date": "2026-07-08",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c70ygpg95vlo?at_medium=RSS&at_campaign=rss",
+    "summary": "Henderson not ruled out of World Cup despite breaking arm ",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-09T11:07:31.193Z"
+  },
+  {
+    "id": "84b0294791a3",
+    "title": "Portugal confirm departure of coach Martinez ",
+    "date": "2026-07-08",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c78ygpede52o?at_medium=RSS&at_campaign=rss",
+    "summary": "Portugal confirm departure of coach Martinez ",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-09T11:07:31.193Z"
+  },
+  {
+    "id": "bb18a4cc7b7e",
+    "title": "England players granted day off after Mexico win",
+    "date": "2026-07-08",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cx24re32r4lo?at_medium=RSS&at_campaign=rss",
+    "summary": "England players granted day off after Mexico win",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-09T11:07:31.193Z"
+  },
+  {
+    "id": "4b1381f12de5",
+    "title": "Dalic leaves as Croatia coach after nine years",
+    "date": "2026-07-08",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cly7eeyl5evo?at_medium=RSS&at_campaign=rss",
+    "summary": "Dalic leaves as Croatia coach after nine years",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-09T11:07:31.193Z"
+  },
+  {
+    "id": "4a47fa180ca9",
+    "title": "England to get bank holiday if team win World Cup, Starmer expected to announce",
+    "date": "2026-07-08",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/08/england-to-get-bank-holiday-if-team-win-world-cup-starmer-expected-to-announce",
+    "summary": "England to get bank holiday if team win World Cup, Starmer expected to announce",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-09T11:07:31.193Z"
+  },
+  {
+    "id": "5dfc39a675c5",
+    "title": "A World Cup free agent XI: summer bargains and top targets among clubless players",
+    "date": "2026-07-08",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/08/world-cup-free-agent-xi-vozinha-salah-clubless-players",
+    "summary": "A World Cup free agent XI: summer bargains and top targets among clubless players",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-09T11:07:31.193Z"
+  },
+  {
+    "id": "93b43b83675b",
+    "title": "What does Sam Kerr’s return to the NWSL mean for the league, Gotham FC and the player herself?",
+    "date": "2026-07-08",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/08/what-does-sam-kerr-return-to-nwsl-mean-for-league-gotham-fc-player-moving-the-goalposts",
+    "summary": "What does Sam Kerr’s return to the NWSL mean for the league, Gotham FC and the player herself?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-09T11:07:31.193Z"
+  },
+  {
     "id": "fb2bac0addf1",
     "title": "The World Cup stars who could have played for England",
     "date": "2026-07-08",
@@ -78,6 +273,19 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-07-08T10:22:36.586Z"
+  },
+  {
+    "id": "001bf6b2ebdf",
+    "title": "The US had the biggest opportunity in the history of American soccer. They wasted it | Alexander Abnos",
+    "date": "2026-07-07",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/07/usmnt-world-cup-belgium",
+    "summary": "The US had the biggest opportunity in the history of American soccer. They wasted it | Alexander Abnos",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-09T11:07:31.193Z"
   },
   {
     "id": "a2ff1228ab85",
@@ -7007,278 +7215,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-06-09T09:18:13.582Z"
-  },
-  {
-    "id": "94db6068dac0",
-    "title": "The Hotspot | ‘This may be our last chance’: rising sea levels threaten Kiribati’s World Cup dream",
-    "date": "2026-06-08",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/sport/2026/jun/08/this-may-be-our-last-chance-rising-sea-levels-threaten-kiribatis-world-cup-dream",
-    "summary": "The Hotspot | ‘This may be our last chance’: rising sea levels threaten Kiribati’s World Cup dream",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-15T10:15:37.970Z"
-  },
-  {
-    "id": "a15e8047f936",
-    "title": "Netherlands' Timber out of World Cup with injury",
-    "date": "2026-06-08",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c4gyrpve234o?at_medium=RSS&at_campaign=rss",
-    "summary": "Netherlands' Timber out of World Cup with injury",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-09T09:18:13.582Z"
-  },
-  {
-    "id": "1100b1f8faf5",
-    "title": "Norway boss brands Scotland's Clarke 'unprofessional'",
-    "date": "2026-06-08",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c17ylw8vz05o?at_medium=RSS&at_campaign=rss",
-    "summary": "Norway boss brands Scotland's Clarke 'unprofessional'",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-09T09:18:13.582Z"
-  },
-  {
-    "id": "241dbceaf8f6",
-    "title": "Ex-England midfielder Dyer named new Southend boss",
-    "date": "2026-06-08",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c9d33n2dexyo?at_medium=RSS&at_campaign=rss",
-    "summary": "Ex-England midfielder Dyer named new Southend boss",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-09T09:18:13.582Z"
-  },
-  {
-    "id": "4b7f65758d3e",
-    "title": "Rowing boats & regrets - Scotland's undefeated 1974 World Cup campaign",
-    "date": "2026-06-08",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cpdp7lyx432o?at_medium=RSS&at_campaign=rss",
-    "summary": "Rowing boats & regrets - Scotland's undefeated 1974 World Cup campaign",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-09T09:18:13.582Z"
-  },
-  {
-    "id": "2d30767e86c4",
-    "title": "How Emslie went from giving birth to World Cup qualifiers inside six months",
-    "date": "2026-06-08",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cx23kj5814po?at_medium=RSS&at_campaign=rss",
-    "summary": "How Emslie went from giving birth to World Cup qualifiers inside six months",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-09T09:18:13.582Z"
-  },
-  {
-    "id": "9562874b1693",
-    "title": "Wilkinson reveals Wales plane was hit by lightning",
-    "date": "2026-06-08",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cly9v1r2077o?at_medium=RSS&at_campaign=rss",
-    "summary": "Wilkinson reveals Wales plane was hit by lightning",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-09T09:18:13.582Z"
-  },
-  {
-    "id": "d9c324ac6f1e",
-    "title": "Walcott & Defoe’s 2006 World Cup fallout",
-    "date": "2026-06-08",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sounds/play/p0nh9btw?at_medium=RSS&at_campaign=rss",
-    "summary": "Walcott & Defoe’s 2006 World Cup fallout",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-09T09:18:13.582Z"
-  },
-  {
-    "id": "34938a46959a",
-    "title": "Predicting how all 48 men's World Cup teams will d...",
-    "date": "2026-06-08",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48962628/world-cup-predictions-picking-winner-every-game-entire-tournament",
-    "summary": "Predicting how all 48 men's World Cup teams will d...",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-08T09:45:21.006Z"
-  },
-  {
-    "id": "9394d90637ab",
-    "title": "Denmark: Eriksen 'conscious' after on-pitch collap...",
-    "date": "2026-06-08",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48993108/christian-eriksen-collapses-pitch-denmark-ukraine",
-    "summary": "Denmark: Eriksen 'conscious' after on-pitch collap...",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-08T09:45:21.006Z"
-  },
-  {
-    "id": "94cacc616034",
-    "title": "Utd target Éderson called up to Brazil WC squad",
-    "date": "2026-06-08",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48992759/man-united-transfer-target-ederson-brazil-world-cup-squad",
-    "summary": "Utd target Éderson called up to Brazil WC squad",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-08T09:45:21.006Z"
-  },
-  {
-    "id": "55538955b71e",
-    "title": "Dembélé: France to end Deschamps' reign on top",
-    "date": "2026-06-08",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48988194/dembele-france-end-deschamps-reign-trophy",
-    "summary": "Dembélé: France to end Deschamps' reign on top",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-08T09:45:21.006Z"
-  },
-  {
-    "id": "498b30fe6384",
-    "title": "Kane: Heat 'won't be a factor' at World Cup",
-    "date": "2026-06-08",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48991196/summer-heat-factor-england-world-cup-harry-kane",
-    "summary": "Kane: Heat 'won't be a factor' at World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-08T09:45:21.006Z"
-  },
-  {
-    "id": "c8eced7dc0a0",
-    "title": "Inside the fairytale journey of Scotland captain Robertson",
-    "date": "2026-06-08",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cdep137k1z5o?at_medium=RSS&at_campaign=rss",
-    "summary": "Inside the fairytale journey of Scotland captain Robertson",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-08T09:45:21.006Z"
-  },
-  {
-    "id": "b7cb37363227",
-    "title": "Eriksen 'in good spirits' after collapse",
-    "date": "2026-06-08",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c9w2kpyx58no?at_medium=RSS&at_campaign=rss",
-    "summary": "Eriksen 'in good spirits' after collapse",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-08T09:45:21.006Z"
-  },
-  {
-    "id": "f875beb588bc",
-    "title": "Bellingham has fight to start for England - Tuchel",
-    "date": "2026-06-08",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/clyel3mxryvo?at_medium=RSS&at_campaign=rss",
-    "summary": "Bellingham has fight to start for England - Tuchel",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-08T09:45:21.006Z"
-  },
-  {
-    "id": "bde5fbca0042",
-    "title": "Why Olise can be one of France's very best - Clichy",
-    "date": "2026-06-08",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c2020jylzk1o?at_medium=RSS&at_campaign=rss",
-    "summary": "Why Olise can be one of France's very best - Clichy",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-08T09:45:21.006Z"
-  },
-  {
-    "id": "e1dc6d0933b5",
-    "title": "Emotion and celebration for Deschamps' home farewell",
-    "date": "2026-06-08",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cdr4l7gy57lo?at_medium=RSS&at_campaign=rss",
-    "summary": "Emotion and celebration for Deschamps' home farewell",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-08T09:45:21.006Z"
-  },
-  {
-    "id": "5c27f9abdd56",
-    "title": "'Draining' year out makes Roberts appreciate career",
-    "date": "2026-06-08",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/articles/c4gyd157qyvo?at_medium=RSS&at_campaign=rss",
-    "summary": "'Draining' year out makes Roberts appreciate career",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-08T09:45:21.006Z"
-  },
-  {
-    "id": "c8eced7dc0a0",
-    "title": "Inside the fairytale journey of Scotland captain Robertson",
-    "date": "2026-06-08",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cdep137k1z5o?at_medium=RSS&at_campaign=rss",
-    "summary": "Inside the fairytale journey of Scotland captain Robertson",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-08T09:45:21.006Z"
-  },
-  {
-    "id": "1a7d9fe5dfa6",
-    "title": "World Cup 2026: England prepare for Costa Rica friendly, Iran visa row, Lamine Yamal latest: football news – live",
-    "date": "2026-06-08",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/live/2026/jun/08/world-cup-2026-countdown-news-england-iran-usa-mexico-canada-football-live",
-    "summary": "World Cup 2026: England prepare for Costa Rica friendly, Iran visa row, Lamine Yamal latest: football news – live",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-08T09:45:21.006Z"
   }
 ];
