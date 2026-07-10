@@ -2,6 +2,227 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "22bacf21f168",
+    "title": "Arsenal sign Spain defender Batlle on free transfer",
+    "date": "2026-07-10",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cqx1v5d12gjo?at_medium=RSS&at_campaign=rss",
+    "summary": "Arsenal sign Spain defender Batlle on free transfer",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-10T11:08:10.137Z"
+  },
+  {
+    "id": "2dffc8d4893c",
+    "title": "Football Daily",
+    "date": "2026-07-10",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sounds/play/p0ny0bzw?at_medium=RSS&at_campaign=rss",
+    "summary": "Football Daily",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-10T11:08:10.137Z"
+  },
+  {
+    "id": "22bacf21f168",
+    "title": "Arsenal sign Spain defender Batlle on free transfer",
+    "date": "2026-07-10",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cqx1v5d12gjo?at_medium=RSS&at_campaign=rss",
+    "summary": "Arsenal sign Spain defender Batlle on free transfer",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-10T11:08:10.137Z"
+  },
+  {
+    "id": "4f5f0192dece",
+    "title": "World Cup 2026: ‘violent disorder’ in London after France’s win over Morocco, Spain v Belgium buildup – live",
+    "date": "2026-07-10",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/live/2026/jul/10/world-cup-2026-france-power-on-quansah-ban-fallout-spain-v-belgium-buildup-live",
+    "summary": "World Cup 2026: ‘violent disorder’ in London after France’s win over Morocco, Spain v Belgium buildup – live",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-10T11:08:10.137Z"
+  },
+  {
+    "id": "1dcd980a3c19",
+    "title": "France’s attacking evolution under Didier Deschamps passes latest Morocco test | Raphaël Jucobin",
+    "date": "2026-07-10",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/10/france-morocco-world-cup-attacking-evolution-didier-deschamps-analysis",
+    "summary": "France’s attacking evolution under Didier Deschamps passes latest Morocco test | Raphaël Jucobin",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-10T11:08:10.137Z"
+  },
+  {
+    "id": "8aad40158a5f",
+    "title": "‘Give me another medal!’: meet the hair stylist who has taken over the World Cup",
+    "date": "2026-07-10",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/10/give-me-another-medal-hair-stylist-world-cup-jayema-lamine-yamal-raphinha",
+    "summary": "‘Give me another medal!’: meet the hair stylist who has taken over the World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-10T11:08:10.137Z"
+  },
+  {
+    "id": "2166ddc60897",
+    "title": "London to Lisbon and back every game: England rack up the World Cup miles",
+    "date": "2026-07-10",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/10/london-to-lisbon-and-back-every-game-england-rack-up-the-world-cup-miles",
+    "summary": "London to Lisbon and back every game: England rack up the World Cup miles",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-10T11:08:10.137Z"
+  },
+  {
+    "id": "14f99f374433",
+    "title": "Haaland and Bellingham: Dortmund friends taking centre stage in Norway v England battle",
+    "date": "2026-07-10",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/10/haaland-bellingham-dortmund-friends-centre-stage-norway-v-england-battle-world-cup-2026",
+    "summary": "Haaland and Bellingham: Dortmund friends taking centre stage in Norway v England battle",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-10T11:08:10.137Z"
+  },
+  {
+    "id": "8b74ea904c96",
+    "title": "Guehi a doubt for Norway game and Rice ill with bug",
+    "date": "2026-07-09",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c3eyqdwq392o?at_medium=RSS&at_campaign=rss",
+    "summary": "Guehi a doubt for Norway game and Rice ill with bug",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-10T11:08:10.137Z"
+  },
+  {
+    "id": "8368ca08a517",
+    "title": "Palace sign Spain defender Mingueza on free transfer",
+    "date": "2026-07-09",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cdxd5rd7kqwo?at_medium=RSS&at_campaign=rss",
+    "summary": "Palace sign Spain defender Mingueza on free transfer",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-10T11:08:10.137Z"
+  },
+  {
+    "id": "37127db18821",
+    "title": "Eriksen to begin rehab in Denmark after collapse",
+    "date": "2026-07-09",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c78y01090xqo?at_medium=RSS&at_campaign=rss",
+    "summary": "Eriksen to begin rehab in Denmark after collapse",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-10T11:08:10.137Z"
+  },
+  {
+    "id": "07306f131919",
+    "title": "Newcastle face sliding doors moment over Bruno Guimarães in summer of upheaval",
+    "date": "2026-07-09",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/09/newcastle-face-sliding-doors-moment-over-bruno-guimaraes-in-summer-of-upheaval",
+    "summary": "Newcastle face sliding doors moment over Bruno Guimarães in summer of upheaval",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-10T11:08:10.137Z"
+  },
+  {
+    "id": "7e68724a5964",
+    "title": "Jarell Quansah handed two-match ban by Fifa for sending off against Mexico",
+    "date": "2026-07-09",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/09/jarell-quansah-handed-two-match-ban-by-fifa-for-sending-off-against-mexico",
+    "summary": "Jarell Quansah handed two-match ban by Fifa for sending off against Mexico",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-10T11:08:10.137Z"
+  },
+  {
+    "id": "619ad45d56c0",
+    "title": "‘Maggie Thatcher, can you hear me?’ The story behind the iconic Norway v England commentary",
+    "date": "2026-07-09",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/09/the-story-behind-iconic-norway-v-england-commentary-bjorge-lillelien-maggie-thatcher",
+    "summary": "‘Maggie Thatcher, can you hear me?’ The story behind the iconic Norway v England commentary",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-10T11:08:10.137Z"
+  },
+  {
+    "id": "6e494432fc7e",
+    "title": "Christian Pulisic suffered leg fracture in US loss to Belgium, out for several weeks",
+    "date": "2026-07-09",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/09/christian-pulisic-injury-world-cup-usmnt",
+    "summary": "Christian Pulisic suffered leg fracture in US loss to Belgium, out for several weeks",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-10T11:08:10.137Z"
+  },
+  {
+    "id": "42a4283055ce",
+    "title": "Newcastle agree £51.5m Johan Manzambi deal and insist Bruno Guimarães not for sale",
+    "date": "2026-07-09",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/09/newcastle-agree-johan-manzambi-deal-and-insist-bruno-guimaraes-not-for-sale-transfer-window",
+    "summary": "Newcastle agree £51.5m Johan Manzambi deal and insist Bruno Guimarães not for sale",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-10T11:08:10.137Z"
+  },
+  {
+    "id": "a840817ae9dd",
+    "title": "France national team uses ICE deportation planes for World Cup travel",
+    "date": "2026-07-09",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/us-news/2026/jul/09/french-national-team-ice-deportation-planes-world-cup",
+    "summary": "France national team uses ICE deportation planes for World Cup travel",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-10T11:08:10.137Z"
+  },
+  {
     "id": "6a011aefa895",
     "title": "'It was good vibes in there' - Stones on viral prank",
     "date": "2026-07-09",
@@ -6890,330 +7111,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-06-10T09:23:50.519Z"
-  },
-  {
-    "id": "cbc509e4c224",
-    "title": "Get your predictions in before the second round of World Cup group games",
-    "date": "2026-06-09",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cn0plqlkl51o?at_medium=RSS&at_campaign=rss",
-    "summary": "Get your predictions in before the second round of World Cup group games",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-18T09:38:38.447Z"
-  },
-  {
-    "id": "3b4ca61c9ccb",
-    "title": "Didier Deschamps: ‘Mbappé knows that when he speaks, he speaks for all the players’",
-    "date": "2026-06-09",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/09/didier-deschamps-france-world-cup-kylian-mbappe",
-    "summary": "Didier Deschamps: ‘Mbappé knows that when he speaks, he speaks for all the players’",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-12T09:33:09.663Z"
-  },
-  {
-    "id": "679f045f61d1",
-    "title": "Follow World Cup 2026 with live lock screen updates on the BBC Sport app",
-    "date": "2026-06-09",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cvgz23p2q2jo?at_medium=RSS&at_campaign=rss",
-    "summary": "Follow World Cup 2026 with live lock screen updates on the BBC Sport app",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-11T09:39:09.110Z"
-  },
-  {
-    "id": "e6dd431992a2",
-    "title": "Set up BBC Sport website and app to show you more Scotland this World Cup",
-    "date": "2026-06-09",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cdxp35lp7n5o?at_medium=RSS&at_campaign=rss",
-    "summary": "Set up BBC Sport website and app to show you more Scotland this World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-11T09:39:09.110Z"
-  },
-  {
-    "id": "823669678aea",
-    "title": "England miss out on automatic World Cup spot - so what happens now?",
-    "date": "2026-06-09",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cvg70dzg3ngo?at_medium=RSS&at_campaign=rss",
-    "summary": "England miss out on automatic World Cup spot - so what happens now?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-10T09:23:50.519Z"
-  },
-  {
-    "id": "d4f72b562255",
-    "title": "Caution over Saka as Tuchel says England must dare to dream",
-    "date": "2026-06-09",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cq61ll2p5pzo?at_medium=RSS&at_campaign=rss",
-    "summary": "Caution over Saka as Tuchel says England must dare to dream",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-10T09:23:50.519Z"
-  },
-  {
-    "id": "579c5a3924e9",
-    "title": "Watch: Weir scores four as Scotland beat Israel to win group",
-    "date": "2026-06-09",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/videos/c0ky8873nr5o?at_medium=RSS&at_campaign=rss",
-    "summary": "Watch: Weir scores four as Scotland beat Israel to win group",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-10T09:23:50.519Z"
-  },
-  {
-    "id": "1c1d99618ecf",
-    "title": "Highlights: Wales beat Czech Republic 3-1 to top group",
-    "date": "2026-06-09",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/videos/cm2r0828xleo?at_medium=RSS&at_campaign=rss",
-    "summary": "Highlights: Wales beat Czech Republic 3-1 to top group",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-10T09:23:50.519Z"
-  },
-  {
-    "id": "986d41354752",
-    "title": "Highlights: Switzerland sweep aside Northern Ireland",
-    "date": "2026-06-09",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/videos/cp8lxx2ly5do?at_medium=RSS&at_campaign=rss",
-    "summary": "Highlights: Switzerland sweep aside Northern Ireland",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-10T09:23:50.519Z"
-  },
-  {
-    "id": "bc452321628c",
-    "title": "Pain in Grenoble but hope for Irish as play-offs loom",
-    "date": "2026-06-09",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c62144y5yz4o?at_medium=RSS&at_campaign=rss",
-    "summary": "Pain in Grenoble but hope for Irish as play-offs loom",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-10T09:23:50.519Z"
-  },
-  {
-    "id": "6b19d8d82b2b",
-    "title": "Fifa working to resolve revoked Iran tickets",
-    "date": "2026-06-09",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c9q2vrdx0ewo?at_medium=RSS&at_campaign=rss",
-    "summary": "Fifa working to resolve revoked Iran tickets",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-10T09:23:50.519Z"
-  },
-  {
-    "id": "699861d838b6",
-    "title": "Ngumoha to leave England squad having made mark",
-    "date": "2026-06-09",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cddl48g7d94o?at_medium=RSS&at_campaign=rss",
-    "summary": "Ngumoha to leave England squad having made mark",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-10T09:23:50.519Z"
-  },
-  {
-    "id": "ef8e4f2fad96",
-    "title": "World Cup Rank: The 50 best players in the 2026 to...",
-    "date": "2026-06-09",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48991846/world-cup-rank-50-best-players-2026-tournament",
-    "summary": "World Cup Rank: The 50 best players in the 2026 to...",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-09T09:18:13.582Z"
-  },
-  {
-    "id": "94c51c41f318",
-    "title": "U.S. defender Richards full participant on Monday",
-    "date": "2026-06-09",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/49002362/united-states-defender-richards-full-participant-monday",
-    "summary": "U.S. defender Richards full participant on Monday",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-09T09:18:13.582Z"
-  },
-  {
-    "id": "dcb0434da9cf",
-    "title": "Eriksen: 'My recovery has started'",
-    "date": "2026-06-09",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/49001056/christian-eriksen-collapse-heart-condition-denmark-recovery",
-    "summary": "Eriksen: 'My recovery has started'",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-09T09:18:13.582Z"
-  },
-  {
-    "id": "57cbd31a1c8f",
-    "title": "Argentina to avoid 'risks' with Messi set to play",
-    "date": "2026-06-09",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/49004047/argentina-avoid-risks-messi-play-friendly",
-    "summary": "Argentina to avoid 'risks' with Messi set to play",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-09T09:18:13.582Z"
-  },
-  {
-    "id": "08285f37ca21",
-    "title": "Brazil: MRI shows Neymar making 'good progress'",
-    "date": "2026-06-09",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/49002184/brazil-mri-neymar-good-progress-injury",
-    "summary": "Brazil: MRI shows Neymar making 'good progress'",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-09T09:18:13.582Z"
-  },
-  {
-    "id": "5de029a97da2",
-    "title": "Leão defends red-card punch to 'protect teammate'",
-    "date": "2026-06-09",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48999003/portugal-rafael-leao-defends-punching-ivan-roman-protecting-teammate",
-    "summary": "Leão defends red-card punch to 'protect teammate'",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-09T09:18:13.582Z"
-  },
-  {
-    "id": "27118842d650",
-    "title": "👀All you need to know about 48 World Cup teams",
-    "date": "2026-06-09",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48871263/world-cup-2026-key-players-facts-expectations-fixtures-odds-all-48-teams",
-    "summary": "👀All you need to know about 48 World Cup teams",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-09T09:18:13.582Z"
-  },
-  {
-    "id": "88828b097bbb",
-    "title": "The World Cup record that will be broken three tim...",
-    "date": "2026-06-09",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48948700/the-world-cup-record-broken-three-s-first-week-curacao-dick-advocaat-south-africa-hugo-broos-czechia-miroslav-koubek",
-    "summary": "The World Cup record that will be broken three tim...",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-09T09:18:13.582Z"
-  },
-  {
-    "id": "81a67e94f680",
-    "title": "Why France's Olise is moving into Ballon d'Or picture",
-    "date": "2026-06-09",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/articles/cx2k50v9zyxo?at_medium=RSS&at_campaign=rss",
-    "summary": "Why France's Olise is moving into Ballon d'Or picture",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-09T09:18:13.582Z"
-  },
-  {
-    "id": "4c95859e17aa",
-    "title": "'Diogo will be with you' - Jota's widow writes to Robertson ",
-    "date": "2026-06-09",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c3dyvyy8g5vo?at_medium=RSS&at_campaign=rss",
-    "summary": "'Diogo will be with you' - Jota's widow writes to Robertson ",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-09T09:18:13.582Z"
-  },
-  {
-    "id": "d44a5e6d5dc2",
-    "title": "Scotland's fateful 1978 World Cup campaign still resonates",
-    "date": "2026-06-09",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c626v3y3jz4o?at_medium=RSS&at_campaign=rss",
-    "summary": "Scotland's fateful 1978 World Cup campaign still resonates",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-09T09:18:13.582Z"
-  },
-  {
-    "id": "2506054dab89",
-    "title": "Crespo on Messi, returning to England and life as a manager",
-    "date": "2026-06-09",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cp369y3z7ddo?at_medium=RSS&at_campaign=rss",
-    "summary": "Crespo on Messi, returning to England and life as a manager",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-09T09:18:13.582Z"
-  },
-  {
-    "id": "cf474d8c95d4",
-    "title": "'You're paid to make that decision' – Eriksson's midfield dilemma",
-    "date": "2026-06-09",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/videos/clypzx6kvgpo?at_medium=RSS&at_campaign=rss",
-    "summary": "'You're paid to make that decision' – Eriksson's midfield dilemma",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-09T09:18:13.582Z"
   }
 ];
