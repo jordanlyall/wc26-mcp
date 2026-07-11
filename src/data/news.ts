@@ -2,6 +2,188 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "664e457b9656",
+    "title": "All the goals from England's 2026 World Cup campaign so far",
+    "date": "2026-07-11",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/videos/cewqex0vl85o?at_medium=RSS&at_campaign=rss",
+    "summary": "All the goals from England's 2026 World Cup campaign so far",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-11T09:41:23.018Z"
+  },
+  {
+    "id": "9d15a4d54880",
+    "title": "Football Daily",
+    "date": "2026-07-11",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sounds/play/p0ny6vsk?at_medium=RSS&at_campaign=rss",
+    "summary": "Football Daily",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-11T09:41:23.018Z"
+  },
+  {
+    "id": "3fed738becf2",
+    "title": "World Cup 2026: Spain v Belgium reaction, Kane confirms playing golf with Trump, Norway v England buildup – live",
+    "date": "2026-07-11",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/live/2026/jul/11/world-cup-2026-spain-v-belgium-reaction-norway-v-england-quarter-final-buildup-and-more-live",
+    "summary": "World Cup 2026: Spain v Belgium reaction, Kane confirms playing golf with Trump, Norway v England buildup – live",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-11T09:41:23.018Z"
+  },
+  {
+    "id": "8a128ed7423d",
+    "title": "The ad machine: how David Beckham conquered America",
+    "date": "2026-07-11",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/11/the-ad-machine-how-david-beckham-conquered-america",
+    "summary": "The ad machine: how David Beckham conquered America",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-11T09:41:23.018Z"
+  },
+  {
+    "id": "9841034d74f5",
+    "title": "‘What’s the point of working if you can’t do stuff like this?’ England fans descend on Miami",
+    "date": "2026-07-11",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/11/whats-the-point-of-working-if-you-cant-do-stuff-like-this-england-fans-descend-on-miami",
+    "summary": "‘What’s the point of working if you can’t do stuff like this?’ England fans descend on Miami",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-11T09:41:23.018Z"
+  },
+  {
+    "id": "030bbf229776",
+    "title": "Cold War Steve on … Erling Haaland’s high-street invasion for Norway v England",
+    "date": "2026-07-11",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/picture/2026/jul/11/cold-war-steve-erling-haaland-high-street-invasion-norway-v-england",
+    "summary": "Cold War Steve on … Erling Haaland’s high-street invasion for Norway v England",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-11T09:41:23.018Z"
+  },
+  {
+    "id": "f9ce93773b3c",
+    "title": "Tuchel fears more Haaland heroics as England seek identity against Norway",
+    "date": "2026-07-11",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/11/thomas-tuchel-erling-haaland-england-norway-2026-world-cup-quarter-final",
+    "summary": "Tuchel fears more Haaland heroics as England seek identity against Norway",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-11T09:41:23.018Z"
+  },
+  {
+    "id": "7e01f4c60659",
+    "title": "Lammens' error spells end for Belgium's golden generation",
+    "date": "2026-07-10",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c4gy107g38eo?at_medium=RSS&at_campaign=rss",
+    "summary": "Lammens' error spells end for Belgium's golden generation",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-11T09:41:23.018Z"
+  },
+  {
+    "id": "b904db7d8e86",
+    "title": "Jesus reunites with Ronaldo as new Portugal head coach",
+    "date": "2026-07-10",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c3eyl9pvxj1o?at_medium=RSS&at_campaign=rss",
+    "summary": "Jesus reunites with Ronaldo as new Portugal head coach",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-11T09:41:23.018Z"
+  },
+  {
+    "id": "4bce9973f7a2",
+    "title": "New species named after Cape Verde keeper Vozinha",
+    "date": "2026-07-10",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cn8kdxgxlkeo?at_medium=RSS&at_campaign=rss",
+    "summary": "New species named after Cape Verde keeper Vozinha",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-11T09:41:23.018Z"
+  },
+  {
+    "id": "a44bd3ad64f5",
+    "title": "England defender Charles joins Man City from Chelsea",
+    "date": "2026-07-10",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c4gyed2g8vro?at_medium=RSS&at_campaign=rss",
+    "summary": "England defender Charles joins Man City from Chelsea",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-11T09:41:23.018Z"
+  },
+  {
+    "id": "a44bd3ad64f5",
+    "title": "England defender Charles joins Man City from Chelsea",
+    "date": "2026-07-10",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c4gyed2g8vro?at_medium=RSS&at_campaign=rss",
+    "summary": "England defender Charles joins Man City from Chelsea",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-11T09:41:23.018Z"
+  },
+  {
+    "id": "9fdfb438505d",
+    "title": "Kylian Mbappé embraces leadership role for France to urge team humility",
+    "date": "2026-07-10",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/10/kylian-mbappe-france-world-cup-2026-semi-final",
+    "summary": "Kylian Mbappé embraces leadership role for France to urge team humility",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-11T09:41:23.018Z"
+  },
+  {
+    "id": "1a546815fac2",
+    "title": "Argentina continue to show ‘heart’ but flaws are apparent before Switzerland clash",
+    "date": "2026-07-10",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/10/argentina-show-heart-flaws-apparent-swizerland-world-cup-quarter-final",
+    "summary": "Argentina continue to show ‘heart’ but flaws are apparent before Switzerland clash",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-11T09:41:23.018Z"
+  },
+  {
     "id": "22bacf21f168",
     "title": "Arsenal sign Spain defender Batlle on free transfer",
     "date": "2026-07-10",
@@ -1118,6 +1300,19 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-07-05T10:19:54.669Z"
+  },
+  {
+    "id": "f3c73fe22617",
+    "title": "FIFA World Cup 2026",
+    "date": "2026-07-04",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/iplayer/episode/m002z090?at_medium=RSS&at_campaign=rss",
+    "summary": "FIFA World Cup 2026",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-11T09:41:23.018Z"
   },
   {
     "id": "630cffbc0bfe",
@@ -6851,265 +7046,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-06-11T09:39:09.110Z"
-  },
-  {
-    "id": "59d356739e17",
-    "title": "Any early shocks? Sutton's World Cup 2026 score predictions - opening group games",
-    "date": "2026-06-10",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cvgdxg2v5d7o?at_medium=RSS&at_campaign=rss",
-    "summary": "Any early shocks? Sutton's World Cup 2026 score predictions - opening group games",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-11T09:39:09.110Z"
-  },
-  {
-    "id": "1cc96d86cbfd",
-    "title": "Rashford future uncertain as Barca deal deadline looms",
-    "date": "2026-06-10",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c3ryx74peyeo?at_medium=RSS&at_campaign=rss",
-    "summary": "Rashford future uncertain as Barca deal deadline looms",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-11T09:39:09.110Z"
-  },
-  {
-    "id": "cd551db4021c",
-    "title": "Brother's memory inspires Williams for World Cup opener",
-    "date": "2026-06-10",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cx21lpdl4r6o?at_medium=RSS&at_campaign=rss",
-    "summary": "Brother's memory inspires Williams for World Cup opener",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-11T09:39:09.110Z"
-  },
-  {
-    "id": "59d356739e17",
-    "title": "Any early shocks? Sutton's World Cup 2026 score predictions - opening group games",
-    "date": "2026-06-10",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cvgdxg2v5d7o?at_medium=RSS&at_campaign=rss",
-    "summary": "Any early shocks? Sutton's World Cup 2026 score predictions - opening group games",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-11T09:39:09.110Z"
-  },
-  {
-    "id": "597418dc1d93",
-    "title": "Why are so few women reaching the top in coaching?",
-    "date": "2026-06-10",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cx212lz420wo?at_medium=RSS&at_campaign=rss",
-    "summary": "Why are so few women reaching the top in coaching?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-11T09:39:09.110Z"
-  },
-  {
-    "id": "ea83d6d5a593",
-    "title": "Mauricio Pochettino: ‘No one sees the USA as a contender – but why not?’",
-    "date": "2026-06-10",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/10/mauricio-pochettino-no-one-sees-the-usa-as-a-contender-but-why-not",
-    "summary": "Mauricio Pochettino: ‘No one sees the USA as a contender – but why not?’",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-11T09:39:09.110Z"
-  },
-  {
-    "id": "e4c238fbbcaa",
-    "title": "Hayes describes ‘experience I will never forget’ as Brazil given eight red cards in loss to USWNT",
-    "date": "2026-06-10",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/09/uswnt-brazil-friendly-fortaleza-sophia-wilson-own-goal",
-    "summary": "Hayes describes ‘experience I will never forget’ as Brazil given eight red cards in loss to USWNT",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-11T09:39:09.110Z"
-  },
-  {
-    "id": "231c5a309afe",
-    "title": "World Cup 2026 preview: Groups I-L – Football Weekly",
-    "date": "2026-06-10",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/audio/2026/jun/10/world-cup-2026-preview-groups-i-l-football-weekly",
-    "summary": "World Cup 2026 preview: Groups I-L – Football Weekly",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-11T09:39:09.110Z"
-  },
-  {
-    "id": "8125227f570c",
-    "title": "Messi scores in cameo in front of 88K in Alabama",
-    "date": "2026-06-10",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/report/_/gameId/401867950",
-    "summary": "Messi scores in cameo in front of 88K in Alabama",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-10T09:23:50.519Z"
-  },
-  {
-    "id": "fbdc3441900e",
-    "title": "Texas AG probes FIFA over WC ticket practices",
-    "date": "2026-06-10",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/49012713/texas-joins-ny-nj-california-probes-fifa-world-cup-ticket-prices",
-    "summary": "Texas AG probes FIFA over WC ticket practices",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-10T09:23:50.519Z"
-  },
-  {
-    "id": "b632f00d069c",
-    "title": "The wild hip-hop parties that started Tuchel's journey to England boss",
-    "date": "2026-06-10",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cvgqevklyx1o?at_medium=RSS&at_campaign=rss",
-    "summary": "The wild hip-hop parties that started Tuchel's journey to England boss",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-10T09:23:50.519Z"
-  },
-  {
-    "id": "b4258499c138",
-    "title": "Why this World Cup will showcase 'different Steve Clarke'",
-    "date": "2026-06-10",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cy5vy5w52wxo?at_medium=RSS&at_campaign=rss",
-    "summary": "Why this World Cup will showcase 'different Steve Clarke'",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-10T09:23:50.519Z"
-  },
-  {
-    "id": "7e958feb4f36",
-    "title": "Scotland 'living dream' thanks to 'humble' superstar Weir",
-    "date": "2026-06-10",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/crr899ke177o?at_medium=RSS&at_campaign=rss",
-    "summary": "Scotland 'living dream' thanks to 'humble' superstar Weir",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-10T09:23:50.519Z"
-  },
-  {
-    "id": "5b8da1753944",
-    "title": "World Cup 1982: Stein, Narey, Brazil & being a cartoon character",
-    "date": "2026-06-10",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c0l25wp3zdpo?at_medium=RSS&at_campaign=rss",
-    "summary": "World Cup 1982: Stein, Narey, Brazil & being a cartoon character",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-10T09:23:50.519Z"
-  },
-  {
-    "id": "b4258499c138",
-    "title": "Why this World Cup will showcase 'different Steve Clarke'",
-    "date": "2026-06-10",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cy5vy5w52wxo?at_medium=RSS&at_campaign=rss",
-    "summary": "Why this World Cup will showcase 'different Steve Clarke'",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-10T09:23:50.519Z"
-  },
-  {
-    "id": "7e958feb4f36",
-    "title": "Scotland 'living dream' thanks to 'humble' superstar Weir",
-    "date": "2026-06-10",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/crr899ke177o?at_medium=RSS&at_campaign=rss",
-    "summary": "Scotland 'living dream' thanks to 'humble' superstar Weir",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-10T09:23:50.519Z"
-  },
-  {
-    "id": "3b598445d165",
-    "title": "Podcast: Why this Scotland squad feels different",
-    "date": "2026-06-10",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sounds/play/p0nr357v?at_medium=RSS&at_campaign=rss",
-    "summary": "Podcast: Why this Scotland squad feels different",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-10T09:23:50.519Z"
-  },
-  {
-    "id": "5b8da1753944",
-    "title": "World Cup 1982: Stein, Narey, Brazil & being a cartoon character",
-    "date": "2026-06-10",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c0l25wp3zdpo?at_medium=RSS&at_campaign=rss",
-    "summary": "World Cup 1982: Stein, Narey, Brazil & being a cartoon character",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-10T09:23:50.519Z"
-  },
-  {
-    "id": "7e958feb4f36",
-    "title": "Scotland 'living dream' thanks to 'humble' superstar Weir",
-    "date": "2026-06-10",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/crr899ke177o?at_medium=RSS&at_campaign=rss",
-    "summary": "Scotland 'living dream' thanks to 'humble' superstar Weir",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-10T09:23:50.519Z"
-  },
-  {
-    "id": "45fb9f33c2ec",
-    "title": "Fresh faces to managerial mayhem - NI's qualifying campaign",
-    "date": "2026-06-10",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cpv32vznj21o?at_medium=RSS&at_campaign=rss",
-    "summary": "Fresh faces to managerial mayhem - NI's qualifying campaign",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-10T09:23:50.519Z"
   }
 ];
