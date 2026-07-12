@@ -2,6 +2,162 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "f8ae81152f40",
+    "title": "Tuchel angry at 'lucky' England - but Bellingham defends players",
+    "date": "2026-07-12",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/ckg474ekv58o?at_medium=RSS&at_campaign=rss",
+    "summary": "Tuchel angry at 'lucky' England - but Bellingham defends players",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-12T09:54:03.698Z"
+  },
+  {
+    "id": "63551d3db655",
+    "title": "Did ball hit spidercam before England goal? Snicko says not - Norway unsure",
+    "date": "2026-07-12",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cd95335dp10o?at_medium=RSS&at_campaign=rss",
+    "summary": "Did ball hit spidercam before England goal? Snicko says not - Norway unsure",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-12T09:54:03.698Z"
+  },
+  {
+    "id": "487a807663ef",
+    "title": "Senegal sack manager Thiaw in wake of World Cup exit",
+    "date": "2026-07-12",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cq81l29lj2zo?at_medium=RSS&at_campaign=rss",
+    "summary": "Senegal sack manager Thiaw in wake of World Cup exit",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-12T09:54:03.698Z"
+  },
+  {
+    "id": "426ad64fa577",
+    "title": "England 'got lucky' with disallowed goal",
+    "date": "2026-07-12",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/videos/c5yznny63pko?at_medium=RSS&at_campaign=rss",
+    "summary": "England 'got lucky' with disallowed goal",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-12T09:54:03.698Z"
+  },
+  {
+    "id": "b70b178f8712",
+    "title": "World Cup 2026: England set up Argentina semi, Norway and Switzerland fume, Senegal sack Thiaw – live",
+    "date": "2026-07-12",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/live/2026/jul/12/world-cup-2026-reaction-england-norway-argentina-switzerland-live",
+    "summary": "World Cup 2026: England set up Argentina semi, Norway and Switzerland fume, Senegal sack Thiaw – live",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-12T09:54:03.698Z"
+  },
+  {
+    "id": "920b1cc373a4",
+    "title": "Jude Bellingham unimpressed after Tuchel criticises ‘lucky’ England’s performance",
+    "date": "2026-07-12",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/12/jude-bellingham-thomas-tuchel-criticises-lucky-england-performance",
+    "summary": "Jude Bellingham unimpressed after Tuchel criticises ‘lucky’ England’s performance",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-12T09:54:03.698Z"
+  },
+  {
+    "id": "26fa74416cbd",
+    "title": "England wobble but Djed Spence and John Stones make case for the defence",
+    "date": "2026-07-12",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/12/england-djed-spence-john-stones-defence-world-cup-norway",
+    "summary": "England wobble but Djed Spence and John Stones make case for the defence",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-12T09:54:03.698Z"
+  },
+  {
+    "id": "00b18e543d9e",
+    "title": "Klopp agrees to replace Nagelsmann as Germany coach",
+    "date": "2026-07-11",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/ced44061g8qo?at_medium=RSS&at_campaign=rss",
+    "summary": "Klopp agrees to replace Nagelsmann as Germany coach",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-12T09:54:03.698Z"
+  },
+  {
+    "id": "a1a59d7484c8",
+    "title": "South Africa World Cup midfielder Jayden Adams dies aged 25",
+    "date": "2026-07-11",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/11/south-africa-world-cup-midfielder-jayden-adams-dies-aged-25",
+    "summary": "South Africa World Cup midfielder Jayden Adams dies aged 25",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-12T09:54:03.698Z"
+  },
+  {
+    "id": "7cc403c13eb6",
+    "title": "Jürgen Klopp reaches agreement to take over as Germany head coach",
+    "date": "2026-07-11",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/11/jurgen-klopp-reaches-agreement-germany-head-coach",
+    "summary": "Jürgen Klopp reaches agreement to take over as Germany head coach",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-12T09:54:03.698Z"
+  },
+  {
+    "id": "871dfb223a04",
+    "title": "World Cup 2026: England edge Norway in quarter-final – in pictures",
+    "date": "2026-07-11",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/gallery/2026/jul/11/world-cup-2026-norway-v-england-in-pictures",
+    "summary": "World Cup 2026: England edge Norway in quarter-final – in pictures",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-12T09:54:03.698Z"
+  },
+  {
+    "id": "677b6879a44a",
+    "title": "Football Daily | Belgium and the End Of The Golden Generation Klaxon",
+    "date": "2026-07-11",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/11/belgium-golden-generation-football-daily-newsletter",
+    "summary": "Football Daily | Belgium and the End Of The Golden Generation Klaxon",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-12T09:54:03.698Z"
+  },
+  {
     "id": "664e457b9656",
     "title": "All the goals from England's 2026 World Cup campaign so far",
     "date": "2026-07-11",
@@ -286,6 +442,19 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-07-10T11:08:10.137Z"
+  },
+  {
+    "id": "b6c1484840a9",
+    "title": "The US delivered their best modern World Cup performance – and also let themselves down",
+    "date": "2026-07-09",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/09/the-us-delivered-their-best-modern-world-cup-performance-and-also-let-themselves-down",
+    "summary": "The US delivered their best modern World Cup performance – and also let themselves down",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-12T09:54:03.698Z"
   },
   {
     "id": "8b74ea904c96",
@@ -2132,6 +2301,19 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-07-02T09:11:08.533Z"
+  },
+  {
+    "id": "765751baf188",
+    "title": "‘Would you say it to someone’s face?’ Ellen White on going from player to pundit",
+    "date": "2026-07-01",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/01/ellen-white-england-lionesses-player-to-pundit",
+    "summary": "‘Would you say it to someone’s face?’ Ellen White on going from player to pundit",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-12T09:54:03.698Z"
   },
   {
     "id": "afd9bde885d2",
@@ -4303,6 +4485,19 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-06-23T09:17:28.639Z"
+  },
+  {
+    "id": "7ae21d4ff3ba",
+    "title": "The Hotspot | Aramco’s petrodollar backing of World Cup leaves stain of sportswashing",
+    "date": "2026-06-22",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/sport/2026/jun/22/aramco-petrodollar-world-cup-football-sportswashing-the-hotspot",
+    "summary": "The Hotspot | Aramco’s petrodollar backing of World Cup leaves stain of sportswashing",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-12T09:54:03.698Z"
   },
   {
     "id": "dafad9439cd5",
@@ -6825,226 +7020,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-06-12T09:33:09.663Z"
-  },
-  {
-    "id": "7b9c3d748903",
-    "title": "How to watch highlights of World Cup matches",
-    "date": "2026-06-11",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c992xx351d0o?at_medium=RSS&at_campaign=rss",
-    "summary": "How to watch highlights of World Cup matches",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-23T09:17:28.639Z"
-  },
-  {
-    "id": "a4ac0e03cbd8",
-    "title": "Six complaints about 2026 World Cup, and why it mi...",
-    "date": "2026-06-11",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/49021099/world-cup-2026-six-reasons-concern-six-counterarguments-gabriele-marcotti",
-    "summary": "Six complaints about 2026 World Cup, and why it mi...",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-13T09:11:54.244Z"
-  },
-  {
-    "id": "801cda9698dc",
-    "title": "Three red cards shown as Mexico beat South Africa in World Cup opener",
-    "date": "2026-06-11",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/videos/cx2dyr3e1zro?at_medium=RSS&at_campaign=rss",
-    "summary": "Three red cards shown as Mexico beat South Africa in World Cup opener",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-12T09:33:09.663Z"
-  },
-  {
-    "id": "58d8a0ce4d48",
-    "title": "World Cup kicks off in Mexico with Shakira, dancing, and protests",
-    "date": "2026-06-11",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/news/articles/c2ly928xz8go?at_medium=RSS&at_campaign=rss",
-    "summary": "World Cup kicks off in Mexico with Shakira, dancing, and protests",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-12T09:33:09.663Z"
-  },
-  {
-    "id": "c4af920874ed",
-    "title": "The World Cup is bigger than ever - and BBC Sport has an app to match",
-    "date": "2026-06-11",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/clypy5p44l9o?at_medium=RSS&at_campaign=rss",
-    "summary": "The World Cup is bigger than ever - and BBC Sport has an app to match",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-12T09:33:09.663Z"
-  },
-  {
-    "id": "8beebbd83f22",
-    "title": "Three key issues Celtic and O'Neill must tackle",
-    "date": "2026-06-11",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cm209rdy8eko?at_medium=RSS&at_campaign=rss",
-    "summary": "Three key issues Celtic and O'Neill must tackle",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-12T09:33:09.663Z"
-  },
-  {
-    "id": "b83a5073ecaf",
-    "title": "How to watch highlights of World Cup matches?",
-    "date": "2026-06-11",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c992xx351d0o?at_medium=RSS&at_campaign=rss",
-    "summary": "How to watch highlights of World Cup matches?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-12T09:33:09.663Z"
-  },
-  {
-    "id": "8adaf3ce8fe7",
-    "title": "Dalglish, Souness & Rod Stewart - Scotland's World Cup '86 remembered",
-    "date": "2026-06-11",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c62xqg7l6w9o?at_medium=RSS&at_campaign=rss",
-    "summary": "Dalglish, Souness & Rod Stewart - Scotland's World Cup '86 remembered",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-12T09:33:09.663Z"
-  },
-  {
-    "id": "a4cf27c771e8",
-    "title": "Elliot Anderson on the rise as face of England amid Manchester City transfer talk",
-    "date": "2026-06-11",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/11/elliot-anderson-england-2026-world-cup-thomas-tuchel-nottingham-forest-manchester-city-transfer",
-    "summary": "Elliot Anderson on the rise as face of England amid Manchester City transfer talk",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-12T09:33:09.663Z"
-  },
-  {
-    "id": "7915f34433fd",
-    "title": "Welcome to Trump’s World Cup, a depressingly angry version of football uniting the planet | Barney Ronay",
-    "date": "2026-06-11",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/11/donald-trump-world-cup-ted-lasso-usa",
-    "summary": "Welcome to Trump’s World Cup, a depressingly angry version of football uniting the planet | Barney Ronay",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-12T09:33:09.663Z"
-  },
-  {
-    "id": "35dff6d8ca62",
-    "title": "Bellingham at number 10? Will Saka start? It's decision time for Tuchel",
-    "date": "2026-06-11",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cz9lxld1892o?at_medium=RSS&at_campaign=rss",
-    "summary": "Bellingham at number 10? Will Saka start? It's decision time for Tuchel",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-11T09:39:09.110Z"
-  },
-  {
-    "id": "0e7e2c829036",
-    "title": "Germany players will pay for 600 fans to travel to game",
-    "date": "2026-06-11",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c9v2nvm02llo?at_medium=RSS&at_campaign=rss",
-    "summary": "Germany players will pay for 600 fans to travel to game",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-11T09:39:09.110Z"
-  },
-  {
-    "id": "d5988864afc5",
-    "title": "World Cup 2026: countdown to opener, Tuchel savours England win, Infantino tells fans to ‘chill’ – live",
-    "date": "2026-06-11",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/live/2026/jun/11/world-cup-2026-countdown-opener-mexico-south-africa-south-korea-czechialive",
-    "summary": "World Cup 2026: countdown to opener, Tuchel savours England win, Infantino tells fans to ‘chill’ – live",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-11T09:39:09.110Z"
-  },
-  {
-    "id": "2a7cc8cb7827",
-    "title": "Jude Bellingham clicks alongside Kane at last. He should start in England’s World Cup opener | Jacob Steinberg",
-    "date": "2026-06-11",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/11/jude-bellingham-england-world-cup-opener-kane-tuchel-costa-rica-analysis",
-    "summary": "Jude Bellingham clicks alongside Kane at last. He should start in England’s World Cup opener | Jacob Steinberg",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-11T09:39:09.110Z"
-  },
-  {
-    "id": "11ea9a09988d",
-    "title": "Don’t have time to watch 72 World Cup group games? Here are 10 not to miss",
-    "date": "2026-06-11",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/11/world-cup-group-games-10-not-miss-scotland-brazil-netherlands-japan-france-senegal",
-    "summary": "Don’t have time to watch 72 World Cup group games? Here are 10 not to miss",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-11T09:39:09.110Z"
-  },
-  {
-    "id": "5179f649795b",
-    "title": "Panama World Cup 2026 team guide",
-    "date": "2026-06-11",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/11/panama-world-cup-2026-team-guide",
-    "summary": "Panama World Cup 2026 team guide",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-11T09:39:09.110Z"
-  },
-  {
-    "id": "29b804f6ba46",
-    "title": "Striker Mo Touré sends injury scare through Socceroos camp on eve of World Cup",
-    "date": "2026-06-11",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/11/mo-toure-injury-scare-world-cup-socceroos-striker",
-    "summary": "Striker Mo Touré sends injury scare through Socceroos camp on eve of World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-11T09:39:09.110Z"
   }
 ];
