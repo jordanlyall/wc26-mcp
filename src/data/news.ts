@@ -2,6 +2,136 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "11e34e2d5040",
+    "title": "These are unprecedented times - England should enjoy them",
+    "date": "2026-07-13",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c932rqverkvo?at_medium=RSS&at_campaign=rss",
+    "summary": "These are unprecedented times - England should enjoy them",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-13T11:16:47.614Z"
+  },
+  {
+    "id": "9fdcc9cb3d07",
+    "title": "England top air miles among semi-finalists - does it matter?",
+    "date": "2026-07-13",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cj4g7v9e51jo?at_medium=RSS&at_campaign=rss",
+    "summary": "England top air miles among semi-finalists - does it matter?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-13T11:16:47.614Z"
+  },
+  {
+    "id": "3559302cb169",
+    "title": "Bombs, blood, ambushes - football coaching with the army",
+    "date": "2026-07-13",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cd7we8we4xgo?at_medium=RSS&at_campaign=rss",
+    "summary": "Bombs, blood, ambushes - football coaching with the army",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-13T11:16:47.614Z"
+  },
+  {
+    "id": "c954c80993fe",
+    "title": "World Cup 2026: England’s James ready for semi-final, Infantino hints at 64-team expansion – live",
+    "date": "2026-07-13",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/live/2026/jul/13/world-cup-2026-buildup-to-blockbuster-semi-finals-infantino-hints-at-64-team-expansion-live",
+    "summary": "World Cup 2026: England’s James ready for semi-final, Infantino hints at 64-team expansion – live",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-13T11:16:47.614Z"
+  },
+  {
+    "id": "4faafa43169c",
+    "title": "'We have another level we can reach' - Kane defends frustrated Tuchel",
+    "date": "2026-07-12",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cy04xjlg5p4o?at_medium=RSS&at_campaign=rss",
+    "summary": "'We have another level we can reach' - Kane defends frustrated Tuchel",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-13T11:16:47.614Z"
+  },
+  {
+    "id": "4e45e90ec81a",
+    "title": "Tuchel and Bellingham need to cool tension with England so close to history | Jacob Steinberg",
+    "date": "2026-07-12",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/12/thomas-tuchel-jude-bellingham-tension-england-argentina-norway-world-cup-2026",
+    "summary": "Tuchel and Bellingham need to cool tension with England so close to history | Jacob Steinberg",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-13T11:16:47.614Z"
+  },
+  {
+    "id": "0944a74edd49",
+    "title": "World Cup 2026 power rankings: who leads the pack as semi-finals loom?",
+    "date": "2026-07-12",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/12/world-cup-2026-power-rankings-france-spain-england-argentina",
+    "summary": "World Cup 2026 power rankings: who leads the pack as semi-finals loom?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-13T11:16:47.614Z"
+  },
+  {
+    "id": "f65fda032794",
+    "title": "England on collision course with Messi and Argentina in World Cup semi-final grudge match",
+    "date": "2026-07-12",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/12/england-lionel-messi-argentina-world-cup-2026-semi-final-norway",
+    "summary": "England on collision course with Messi and Argentina in World Cup semi-final grudge match",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-13T11:16:47.614Z"
+  },
+  {
+    "id": "bac1d77b314d",
+    "title": "Argentina’s World Cup built on ‘suffering’ faces its biggest test in England | Pablo Iglesias Maurer",
+    "date": "2026-07-12",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/12/argentina-switzerland-england-world-cup-semi-final",
+    "summary": "Argentina’s World Cup built on ‘suffering’ faces its biggest test in England | Pablo Iglesias Maurer",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-13T11:16:47.614Z"
+  },
+  {
+    "id": "f7905e7d10bb",
+    "title": "Former Spanish PM accused of racism in remarks about French football team",
+    "date": "2026-07-12",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/world/2026/jul/12/spain-mariano-rajoy-accused-of-racism-french-football-team-world-cup",
+    "summary": "Former Spanish PM accused of racism in remarks about French football team",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-13T11:16:47.614Z"
+  },
+  {
     "id": "f8ae81152f40",
     "title": "Tuchel angry at 'lucky' England - but Bellingham defends players",
     "date": "2026-07-12",
@@ -247,6 +377,19 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-07-11T09:41:23.018Z"
+  },
+  {
+    "id": "2db9635ea1c6",
+    "title": "Merino puts Spain into World Cup semi-finals as Belgium rue costly Courtois injury",
+    "date": "2026-07-10",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/10/spain-belgium-world-cup-2026-quarter-final-match-report",
+    "summary": "Merino puts Spain into World Cup semi-finals as Belgium rue costly Courtois injury",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-13T11:16:47.614Z"
   },
   {
     "id": "7e01f4c60659",
@@ -6786,239 +6929,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-06-13T09:11:54.244Z"
-  },
-  {
-    "id": "8666dbada477",
-    "title": "Will three points guarantee a spot in World Cup knockouts?",
-    "date": "2026-06-12",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cd95xgl23y7o?at_medium=RSS&at_campaign=rss",
-    "summary": "Will three points guarantee a spot in World Cup knockouts?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-23T09:17:28.639Z"
-  },
-  {
-    "id": "b7023feba2e8",
-    "title": "Kenny Jackett, former Wales and Watford player and successful manager, dies aged 64",
-    "date": "2026-06-12",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/12/kenny-jackett-dies-watford-wales-millwall-wolves",
-    "summary": "Kenny Jackett, former Wales and Watford player and successful manager, dies aged 64",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-14T09:13:22.489Z"
-  },
-  {
-    "id": "0e9bce3fd150",
-    "title": "Nobody should underestimate what Thomas Tuchel can do with England | Emma Hayes",
-    "date": "2026-06-12",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/12/thomas-tuchel-england-world-cup",
-    "summary": "Nobody should underestimate what Thomas Tuchel can do with England | Emma Hayes",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-14T09:13:22.489Z"
-  },
-  {
-    "id": "7c90b88db2e9",
-    "title": "Football Daily | The ‘Azteca’ delivers as hosts and ghosts give us that World Cup feeling",
-    "date": "2026-06-12",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/12/football-daily-newsletter-mexico-azteca-world-cup-2026-opener",
-    "summary": "Football Daily | The ‘Azteca’ delivers as hosts and ghosts give us that World Cup feeling",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-14T09:13:22.489Z"
-  },
-  {
-    "id": "5cb72517ebb0",
-    "title": "Six Lionesses made MBEs in King's Birthday Honours",
-    "date": "2026-06-12",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/articles/c07ygxxj0g3o?at_medium=RSS&at_campaign=rss",
-    "summary": "Six Lionesses made MBEs in King's Birthday Honours",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-13T09:11:54.244Z"
-  },
-  {
-    "id": "997dbe923975",
-    "title": "Richards 'understands' but disagrees with Tuchel's England squad selection",
-    "date": "2026-06-12",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/videos/cn07xjyyzwjo?at_medium=RSS&at_campaign=rss",
-    "summary": "Richards 'understands' but disagrees with Tuchel's England squad selection",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-13T09:11:54.244Z"
-  },
-  {
-    "id": "32b4d119fcb4",
-    "title": "Watford great Jackett dies aged 64",
-    "date": "2026-06-12",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cqj1z2wqkw2o?at_medium=RSS&at_campaign=rss",
-    "summary": "Watford great Jackett dies aged 64",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-13T09:11:54.244Z"
-  },
-  {
-    "id": "3d70629ae9ee",
-    "title": "Critics of Mbappe have gone 'too far', says Dembele",
-    "date": "2026-06-12",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c4gyzyq0p7lo?at_medium=RSS&at_campaign=rss",
-    "summary": "Critics of Mbappe have gone 'too far', says Dembele",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-13T09:11:54.244Z"
-  },
-  {
-    "id": "62b3c8e8ebac",
-    "title": "When do England play and how can you follow it?",
-    "date": "2026-06-12",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c79y1jp5zeno?at_medium=RSS&at_campaign=rss",
-    "summary": "When do England play and how can you follow it?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-13T09:11:54.244Z"
-  },
-  {
-    "id": "2ac6cfe3adc6",
-    "title": "World Cup quiz: Can you identify these 2026 host cities?",
-    "date": "2026-06-12",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c24yp7yl864o?at_medium=RSS&at_campaign=rss",
-    "summary": "World Cup quiz: Can you identify these 2026 host cities?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-13T09:11:54.244Z"
-  },
-  {
-    "id": "b1655e3e066a",
-    "title": "Will three points guarantee a spot in World Cup knockouts?",
-    "date": "2026-06-12",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cd95xgl23y7o?at_medium=RSS&at_campaign=rss",
-    "summary": "Will three points guarantee a spot in World Cup knockouts?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-13T09:11:54.244Z"
-  },
-  {
-    "id": "5cb72517ebb0",
-    "title": "Six Lionesses made MBEs in King's Birthday Honours",
-    "date": "2026-06-12",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/articles/c07ygxxj0g3o?at_medium=RSS&at_campaign=rss",
-    "summary": "Six Lionesses made MBEs in King's Birthday Honours",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-13T09:11:54.244Z"
-  },
-  {
-    "id": "e38f5702a754",
-    "title": "Could one win get Scotland out of World Cup group?",
-    "date": "2026-06-12",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c0r9v911g9zo?at_medium=RSS&at_campaign=rss",
-    "summary": "Could one win get Scotland out of World Cup group?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-12T09:33:09.663Z"
-  },
-  {
-    "id": "8b010b7c596a",
-    "title": "Haiti's record scorer on Scotland link & escaping Iran",
-    "date": "2026-06-12",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c936y13v7vzo?at_medium=RSS&at_campaign=rss",
-    "summary": "Haiti's record scorer on Scotland link & escaping Iran",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-12T09:33:09.663Z"
-  },
-  {
-    "id": "241ed032ccc5",
-    "title": "World Cup 2026: Mexico off to winning start; empty seats in Guadalajara; USA and Canada enter fray – live",
-    "date": "2026-06-12",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/live/2026/jun/12/world-cup-2026-news-updates-live-usa-canada-paraguay-bosnia-herzegovina",
-    "summary": "World Cup 2026: Mexico off to winning start; empty seats in Guadalajara; USA and Canada enter fray – live",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-12T09:33:09.663Z"
-  },
-  {
-    "id": "1d75d2a1d2e3",
-    "title": "Triumph at the Azteca offers respite from strife on Mexico City’s streets  | Pablo Iglesias Maurer",
-    "date": "2026-06-12",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/11/mexico-south-africa-world-cup-2026",
-    "summary": "Triumph at the Azteca offers respite from strife on Mexico City’s streets  | Pablo Iglesias Maurer",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-12T09:33:09.663Z"
-  },
-  {
-    "id": "7de17b79ce84",
-    "title": "South Korea get off to winning start after rallying from goal down to beat Czechia",
-    "date": "2026-06-12",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/12/south-korea-czechia-world-cup-2026-group-a-match-report",
-    "summary": "South Korea get off to winning start after rallying from goal down to beat Czechia",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-12T09:33:09.663Z"
-  },
-  {
-    "id": "f7dd1aa417d2",
-    "title": "Julen Lopetegui: ‘Going to the World Cup just for the sake of going is stupid’",
-    "date": "2026-06-12",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/12/julen-lopetegui-going-to-the-world-cup-just-for-the-sake-of-going-is-stupid",
-    "summary": "Julen Lopetegui: ‘Going to the World Cup just for the sake of going is stupid’",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-12T09:33:09.663Z"
   }
 ];
