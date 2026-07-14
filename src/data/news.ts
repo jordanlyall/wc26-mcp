@@ -2,6 +2,149 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "7bbfa91683ce",
+    "title": "World Cup 2026: France v Spain semi-final buildup; Atlanta police step up security for England v Argentina – live",
+    "date": "2026-07-14",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/live/2026/jul/14/world-cup-2026-france-spain-buildup-england-argentina-news-live",
+    "summary": "World Cup 2026: France v Spain semi-final buildup; Atlanta police step up security for England v Argentina – live",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-14T10:01:52.034Z"
+  },
+  {
+    "id": "c47c7a1bdb2d",
+    "title": "‘Spain’s superstar fan’: Lamine Yamal’s little brother takes World Cup by storm",
+    "date": "2026-07-14",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/14/spain-superstar-fan-lamine-yamal-little-brother-takes-world-cup-by-storm",
+    "summary": "‘Spain’s superstar fan’: Lamine Yamal’s little brother takes World Cup by storm",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-14T10:01:52.034Z"
+  },
+  {
+    "id": "38c1a9641063",
+    "title": "Norway turn World Cup heartbreak into celebration as huge crowds pack Oslo",
+    "date": "2026-07-14",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/14/norway-world-cup-heartbreak-celebration-fans-oslo",
+    "summary": "Norway turn World Cup heartbreak into celebration as huge crowds pack Oslo",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-14T10:01:52.034Z"
+  },
+  {
+    "id": "2dea758bc4a0",
+    "title": "The other Lionel: how Scaloni went from accidental manager to World Cup hero",
+    "date": "2026-07-14",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/14/lionel-scaloni-messi-argentina-england-world-cup-hero",
+    "summary": "The other Lionel: how Scaloni went from accidental manager to World Cup hero",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-14T10:01:52.034Z"
+  },
+  {
+    "id": "226b7a7a93f7",
+    "title": "'Easy to create divisions' - Kane says England are 'completely together'",
+    "date": "2026-07-13",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c8924433kjyo?at_medium=RSS&at_campaign=rss",
+    "summary": "'Easy to create divisions' - Kane says England are 'completely together'",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-14T10:01:52.034Z"
+  },
+  {
+    "id": "0d52899a0b89",
+    "title": "Bilic reappointed as Croatia manager",
+    "date": "2026-07-13",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c1dyvyx39rvo?at_medium=RSS&at_campaign=rss",
+    "summary": "Bilic reappointed as Croatia manager",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-14T10:01:52.034Z"
+  },
+  {
+    "id": "ee923892d645",
+    "title": "Alonso ‘optimistic’ he can thrive at Chelsea and avoid coaching carousel",
+    "date": "2026-07-13",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/13/xabi-alonso-chelsea-premier-league",
+    "summary": "Alonso ‘optimistic’ he can thrive at Chelsea and avoid coaching carousel",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-14T10:01:52.034Z"
+  },
+  {
+    "id": "d2556c03d0bd",
+    "title": "Manchester United in advanced talks to sign Youri Tielemans from Aston Villa",
+    "date": "2026-07-13",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/13/manchester-united-in-advanced-talks-to-sign-youri-tielemans-from-aston-villa",
+    "summary": "Manchester United in advanced talks to sign Youri Tielemans from Aston Villa",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-14T10:01:52.034Z"
+  },
+  {
+    "id": "17e00fbb19c7",
+    "title": "Diego Forlán succeeds Marcelo Bielsa as Uruguay manager on temporary basis",
+    "date": "2026-07-13",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/13/diego-forlan-succeeds-marcelo-bielsa-uruguay-world-cup",
+    "summary": "Diego Forlán succeeds Marcelo Bielsa as Uruguay manager on temporary basis",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-14T10:01:52.034Z"
+  },
+  {
+    "id": "c514288febe3",
+    "title": "‘Gift from the sky’ Elliot Anderson keeps England running as Rogers makes case",
+    "date": "2026-07-13",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/13/elliot-anderson-gift-from-the-sky-keeps-on-giving-morgan-rogers-england-world-cup",
+    "summary": "‘Gift from the sky’ Elliot Anderson keeps England running as Rogers makes case",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-14T10:01:52.034Z"
+  },
+  {
+    "id": "02200e1f0d1f",
+    "title": "France unleashed: reinvention could earn Deschamps all-time great status",
+    "date": "2026-07-13",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/13/france-didier-deschamps-kylian-mbappe-michael-olise-spain-world-cup-semi-final",
+    "summary": "France unleashed: reinvention could earn Deschamps all-time great status",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-14T10:01:52.034Z"
+  },
+  {
     "id": "11e34e2d5040",
     "title": "These are unprecedented times - England should enjoy them",
     "date": "2026-07-13",
@@ -6734,200 +6877,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-06-14T09:13:22.489Z"
-  },
-  {
-    "id": "7465c3ecc14e",
-    "title": "Free agent Wales players put themselves in shop window",
-    "date": "2026-06-13",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cze9nx02llko?at_medium=RSS&at_campaign=rss",
-    "summary": "Free agent Wales players put themselves in shop window",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-14T09:13:22.489Z"
-  },
-  {
-    "id": "677b28920987",
-    "title": "Muheim’s late own goal gives Qatar dramatic World Cup draw against Switzerland",
-    "date": "2026-06-13",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/13/qatar-switzerland-world-cup-match-report",
-    "summary": "Muheim’s late own goal gives Qatar dramatic World Cup draw against Switzerland",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-14T09:13:22.489Z"
-  },
-  {
-    "id": "728e5bffad70",
-    "title": "‘I thought – gosh, he’s going to be some player’: the making of England’s Declan Rice",
-    "date": "2026-06-13",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/13/making-england-declan-rice-world-cup-west-ham-arsenal",
-    "summary": "‘I thought – gosh, he’s going to be some player’: the making of England’s Declan Rice",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-14T09:13:22.489Z"
-  },
-  {
-    "id": "c91f3c00e5ed",
-    "title": "Injury deprived me of chance to play so I am going to the World Cup to support Brazil | Rodrygo",
-    "date": "2026-06-13",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/13/rodrygo-world-cup-injury-support-brazil",
-    "summary": "Injury deprived me of chance to play so I am going to the World Cup to support Brazil | Rodrygo",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-14T09:13:22.489Z"
-  },
-  {
-    "id": "4fc6f56e8a48",
-    "title": "Why football does not remember the name of its greatest ever Jewish player",
-    "date": "2026-06-13",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/13/why-football-does-not-remember-the-name-of-its-greatest-ever-jewish-player",
-    "summary": "Why football does not remember the name of its greatest ever Jewish player",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-14T09:13:22.489Z"
-  },
-  {
-    "id": "2c0b9c2b916e",
-    "title": "Ancelotti: 'Beautiful moment' to lead Brazil at WC...",
-    "date": "2026-06-13",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/49043516/carlo-ancelotti-ready-beautiful-moment-brazil-prepare-hunt-sixth-world-cup",
-    "summary": "Ancelotti: 'Beautiful moment' to lead Brazil at WC...",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-13T09:11:54.244Z"
-  },
-  {
-    "id": "16f8d1afbbc1",
-    "title": "Balogun makes this USMNT side better, including it...",
-    "date": "2026-06-13",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/49048048/balogun-makes-usmnt-better-including-star-pulisic",
-    "summary": "Balogun makes this USMNT side better, including it...",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-13T09:11:54.244Z"
-  },
-  {
-    "id": "90dfa9542268",
-    "title": "Copy of Inside England's World Cup prep: Tuchel's squad su...",
-    "date": "2026-06-13",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/49029911/inside-england-world-cup-prep-thomas-tuchel-squad-survive-storms-heat-florida",
-    "summary": "Copy of Inside England's World Cup prep: Tuchel's squad su...",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-13T09:11:54.244Z"
-  },
-  {
-    "id": "a4698c597e41",
-    "title": "South Korea produce stirring revival to get off to...",
-    "date": "2026-06-13",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/49037890/fifa-world-cup-south-korea-produce-stirring-revival-get-winning-start-vs-czechia",
-    "summary": "South Korea produce stirring revival to get off to...",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-13T09:11:54.244Z"
-  },
-  {
-    "id": "19fa95763c54",
-    "title": "USA start World Cup in style - but will they finally join the elite?",
-    "date": "2026-06-13",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c621z2k51rdo?at_medium=RSS&at_campaign=rss",
-    "summary": "USA start World Cup in style - but will they finally join the elite?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-13T09:11:54.244Z"
-  },
-  {
-    "id": "958299f2fdaa",
-    "title": "Balogun stars in impressive USA win over Paraguay",
-    "date": "2026-06-13",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/videos/cwydp9463wko?at_medium=RSS&at_campaign=rss",
-    "summary": "Balogun stars in impressive USA win over Paraguay",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-13T09:11:54.244Z"
-  },
-  {
-    "id": "51ae21288691",
-    "title": "VAR makes 'mistaken identity' history as strange booking confuses fans",
-    "date": "2026-06-13",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c5yze890365o?at_medium=RSS&at_campaign=rss",
-    "summary": "VAR makes 'mistaken identity' history as strange booking confuses fans",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-13T09:11:54.244Z"
-  },
-  {
-    "id": "a95e3e5308ba",
-    "title": "Katy Perry, Tyla & Future among performers at USA's opening ceremony",
-    "date": "2026-06-13",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/videos/ce8me8qrlrmo?at_medium=RSS&at_campaign=rss",
-    "summary": "Katy Perry, Tyla & Future among performers at USA's opening ceremony",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-13T09:11:54.244Z"
-  },
-  {
-    "id": "27985223caed",
-    "title": "Injured referee Oliver to miss World Cup match",
-    "date": "2026-06-13",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cx265n1dy58o?at_medium=RSS&at_campaign=rss",
-    "summary": "Injured referee Oliver to miss World Cup match",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-13T09:11:54.244Z"
-  },
-  {
-    "id": "66fa79227262",
-    "title": "World Cup 2026: USA light up LA; England’s boots stolen; Scotland’s big return – live",
-    "date": "2026-06-13",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/live/2026/jun/13/world-cup-2026-usa-light-up-la-englands-boots-stolen-scotlands-big-return-live",
-    "summary": "World Cup 2026: USA light up LA; England’s boots stolen; Scotland’s big return – live",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-13T09:11:54.244Z"
   }
 ];
