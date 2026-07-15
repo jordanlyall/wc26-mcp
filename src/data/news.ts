@@ -2,6 +2,110 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "b16cdbd47cb8",
+    "title": "Mates, mate and freedom - how Argentina got the best out of Messi",
+    "date": "2026-07-15",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cx2j24y9jzyo?at_medium=RSS&at_campaign=rss",
+    "summary": "Mates, mate and freedom - how Argentina got the best out of Messi",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-15T10:06:04.158Z"
+  },
+  {
+    "id": "ef10c141947b",
+    "title": "'We shouldn't confuse politics and football' - Scaloni on England-Argentina rivalry",
+    "date": "2026-07-15",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cn8q8n6973xo?at_medium=RSS&at_campaign=rss",
+    "summary": "'We shouldn't confuse politics and football' - Scaloni on England-Argentina rivalry",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-15T10:06:04.158Z"
+  },
+  {
+    "id": "2edce172b02f",
+    "title": "All of Argentina's goals from the World Cup so far",
+    "date": "2026-07-15",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/videos/cevlr32zzrno?at_medium=RSS&at_campaign=rss",
+    "summary": "All of Argentina's goals from the World Cup so far",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-15T10:06:04.158Z"
+  },
+  {
+    "id": "68690d7dcacc",
+    "title": "World Cup 2026: Spain stun listless France to reach final; England v Argentina buildup – live",
+    "date": "2026-07-15",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/live/2026/jul/15/world-cup-2026-spain-stun-listless-france-to-reach-final-england-v-argentina-buildup-live",
+    "summary": "World Cup 2026: Spain stun listless France to reach final; England v Argentina buildup – live",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-15T10:06:04.158Z"
+  },
+  {
+    "id": "6252024518e8",
+    "title": "Even at 39, Lionel Messi can still hurt England with his sprinting ability",
+    "date": "2026-07-15",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/15/lionel-messi-england-world-cup-2026-semi-final",
+    "summary": "Even at 39, Lionel Messi can still hurt England with his sprinting ability",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-15T10:06:04.158Z"
+  },
+  {
+    "id": "e4b4fc29fc38",
+    "title": "Thomas Tuchel: ‘Argentina will be fuelled by history – but we are ready’",
+    "date": "2026-07-14",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/15/thomas-tuchel-argentina-fuelled-history-england-world-cup",
+    "summary": "Thomas Tuchel: ‘Argentina will be fuelled by history – but we are ready’",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-15T10:06:04.158Z"
+  },
+  {
+    "id": "59551ea93c3b",
+    "title": "Didier Deschamps pays price for breaking free from the shackles that led him to glory | Jonathan Wilson",
+    "date": "2026-07-14",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/14/didier-deschamps-france-spain-2026-world-cup-semi-final-dallas",
+    "summary": "Didier Deschamps pays price for breaking free from the shackles that led him to glory | Jonathan Wilson",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-15T10:06:04.158Z"
+  },
+  {
+    "id": "bd2068598d61",
+    "title": "War, antics and vitriol – the England v Argentina rivalry is real but now it is only about football",
+    "date": "2026-07-14",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/14/england-argentina-world-cup-2026-rivalry",
+    "summary": "War, antics and vitriol – the England v Argentina rivalry is real but now it is only about football",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-15T10:06:04.158Z"
+  },
+  {
     "id": "7bbfa91683ce",
     "title": "World Cup 2026: France v Spain semi-final buildup; Atlanta police step up security for England v Argentina – live",
     "date": "2026-07-14",
@@ -6682,200 +6786,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-06-15T10:15:37.970Z"
-  },
-  {
-    "id": "654a5c983eac",
-    "title": "'I'll be staying out of the way' - Southgate on World Cup punditry",
-    "date": "2026-06-14",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cp8lv1png5no?at_medium=RSS&at_campaign=rss",
-    "summary": "'I'll be staying out of the way' - Southgate on World Cup punditry",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-15T10:15:37.970Z"
-  },
-  {
-    "id": "7c63bc6bd326",
-    "title": "England-Croatia referee was called Grade E by Tuchel",
-    "date": "2026-06-14",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/ckg8z2k2yplo?at_medium=RSS&at_campaign=rss",
-    "summary": "England-Croatia referee was called Grade E by Tuchel",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-15T10:15:37.970Z"
-  },
-  {
-    "id": "fead76f0eea8",
-    "title": "Fortune favours Kamada as Japan rescue World Cup draw with Netherlands",
-    "date": "2026-06-14",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/14/netherlands-japan-world-cup-match-report",
-    "summary": "Fortune favours Kamada as Japan rescue World Cup draw with Netherlands",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-15T10:15:37.970Z"
-  },
-  {
-    "id": "50ff71addafa",
-    "title": "‘We’re the same as we were then’: bullish Spain confident of repeating Euros success",
-    "date": "2026-06-14",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/14/were-the-same-as-we-were-then-spain-confident-of-repeating-euros-success",
-    "summary": "‘We’re the same as we were then’: bullish Spain confident of repeating Euros success",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-15T10:15:37.970Z"
-  },
-  {
-    "id": "bdcfa2c240d9",
-    "title": "Vinícius Júnior rescues lacklustre Brazil as Morocco earn deserved World Cup draw",
-    "date": "2026-06-14",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/14/brazil-morocco-world-cup-match-report",
-    "summary": "Vinícius Júnior rescues lacklustre Brazil as Morocco earn deserved World Cup draw",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-15T10:15:37.970Z"
-  },
-  {
-    "id": "60240341ad0a",
-    "title": "Steve Clarke says pressure on Scotland has eased after victory in ‘must-win game’",
-    "date": "2026-06-14",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/14/world-cup-scotland-haiti-steve-clarke",
-    "summary": "Steve Clarke says pressure on Scotland has eased after victory in ‘must-win game’",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-15T10:15:37.970Z"
-  },
-  {
-    "id": "00e6f01bdbd0",
-    "title": "Brilliant teenager Bouaddi glides on to big stage with effortless grace for Morocco",
-    "date": "2026-06-14",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/14/ayyoub-bouaddi-morocco-brazil-world-cup-football-vinicius-junior",
-    "summary": "Brilliant teenager Bouaddi glides on to big stage with effortless grace for Morocco",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-15T10:15:37.970Z"
-  },
-  {
-    "id": "953e8f0d8e89",
-    "title": "Young Socceroos offer something new and tantalising: the hope of an adventure like in 2006",
-    "date": "2026-06-14",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/blog/2026/jun/14/young-socceroos-inspiring-australians-world-cup",
-    "summary": "Young Socceroos offer something new and tantalising: the hope of an adventure like in 2006",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-15T10:15:37.970Z"
-  },
-  {
-    "id": "a66ae4710b47",
-    "title": "Was this offside? Technology fault leaves questions over VAR images",
-    "date": "2026-06-14",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/ckg80k1yn89o?at_medium=RSS&at_campaign=rss",
-    "summary": "Was this offside? Technology fault leaves questions over VAR images",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-14T09:13:22.489Z"
-  },
-  {
-    "id": "ac721b8634cb",
-    "title": "Spectacular Vinicius Jr goal earns Brazil draw against Morocco",
-    "date": "2026-06-14",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/videos/c3wy87ly2w3o?at_medium=RSS&at_campaign=rss",
-    "summary": "Spectacular Vinicius Jr goal earns Brazil draw against Morocco",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-14T09:13:22.489Z"
-  },
-  {
-    "id": "0070a2a31b11",
-    "title": "'A must win game and we won' - Clarke ",
-    "date": "2026-06-14",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/videos/cwyljn95e4jo?at_medium=RSS&at_campaign=rss",
-    "summary": "'A must win game and we won' - Clarke ",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-14T09:13:22.489Z"
-  },
-  {
-    "id": "d53bc873aa5f",
-    "title": "World Cup 2026: Scotland react to first victory in 36 years as Australia beat Turkey – live",
-    "date": "2026-06-14",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/live/2026/jun/14/world-cup-2026-news-scotland-react-to-first-world-cup-victory-in-36-years-as-australia-beat-turkey",
-    "summary": "World Cup 2026: Scotland react to first victory in 36 years as Australia beat Turkey – live",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-14T09:13:22.489Z"
-  },
-  {
-    "id": "6c9c04664adc",
-    "title": "Brazil find that everything good flows through Viní of New Jersey",
-    "date": "2026-06-14",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/14/vinicius-junior-brazil-world-cup-2026",
-    "summary": "Brazil find that everything good flows through Viní of New Jersey",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-14T09:13:22.489Z"
-  },
-  {
-    "id": "283e6a922e21",
-    "title": "England get rapturous welcome as they settle in to sprawling Kansas City home",
-    "date": "2026-06-14",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/14/england-world-cup-training-base-kansas-city-swope",
-    "summary": "England get rapturous welcome as they settle in to sprawling Kansas City home",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-14T09:13:22.489Z"
-  },
-  {
-    "id": "adf491500232",
-    "title": "DR Congo bring style and pride to the World Cup after wholesome welcome",
-    "date": "2026-06-14",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/14/dr-congo-world-cup-houston",
-    "summary": "DR Congo bring style and pride to the World Cup after wholesome welcome",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-14T09:13:22.489Z"
   }
 ];
