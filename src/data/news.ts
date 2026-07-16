@@ -2,6 +2,188 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "e577acbe7074",
+    "title": "World Cup 2026: Tuchel takes blame amid speculation over England future; Argentina players criticised for banner – live",
+    "date": "2026-07-16",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/live/2026/jul/16/world-cup-2026-argentina-break-england-hearts-and-head-for-final-with-spain-live",
+    "summary": "World Cup 2026: Tuchel takes blame amid speculation over England future; Argentina players criticised for banner – live",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-16T10:13:37.983Z"
+  },
+  {
+    "id": "574d6815eef9",
+    "title": "'Gutted' Harry Kane on Messi, Argentina and devastation of World Cup exit – video",
+    "date": "2026-07-16",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/video/2026/jul/16/gutted-harry-kane-on-messi-argentina-and-devastation-of-world-cup-semi-final-exit-video",
+    "summary": "'Gutted' Harry Kane on Messi, Argentina and devastation of World Cup exit – video",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-16T10:13:37.983Z"
+  },
+  {
+    "id": "f1907f56effa",
+    "title": "'No regrets' - Tuchel on England's defeat by Argentina",
+    "date": "2026-07-15",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/videos/c62v3q3qp99o?at_medium=RSS&at_campaign=rss",
+    "summary": "'No regrets' - Tuchel on England's defeat by Argentina",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-16T10:13:37.983Z"
+  },
+  {
+    "id": "af4fd6a6713a",
+    "title": "'Gutted' - Kane disappointed over World Cup exit",
+    "date": "2026-07-15",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/videos/czrjg3j4jx1o?at_medium=RSS&at_campaign=rss",
+    "summary": "'Gutted' - Kane disappointed over World Cup exit",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-16T10:13:37.983Z"
+  },
+  {
+    "id": "7f1cfc70b4b9",
+    "title": "Lionel Messi’s inevitable gravity bends another occasion in Argentina’s favour | Barney Ronay",
+    "date": "2026-07-15",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/16/lionel-messi-england-argentina-world-cup",
+    "summary": "Lionel Messi’s inevitable gravity bends another occasion in Argentina’s favour | Barney Ronay",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-16T10:13:37.983Z"
+  },
+  {
+    "id": "cb5d91fa68f8",
+    "title": "Thomas Tuchel accepts responsibility after substitutions backfire in England defeat",
+    "date": "2026-07-15",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/16/thomas-tuchel-accepts-responsibility-substitutions-england-argentina",
+    "summary": "Thomas Tuchel accepts responsibility after substitutions backfire in England defeat",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-16T10:13:37.983Z"
+  },
+  {
+    "id": "774a7a03108a",
+    "title": "Fifa hit by injunction in Germany over World Cup ticket resale prices",
+    "date": "2026-07-15",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/15/fifa-injunction-germany-world-cup-ticket-resale-prices",
+    "summary": "Fifa hit by injunction in Germany over World Cup ticket resale prices",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-16T10:13:37.983Z"
+  },
+  {
+    "id": "80f1e58798cd",
+    "title": "In this star-powered World Cup, Spain show value of collective and control | Sid Lowe",
+    "date": "2026-07-15",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/15/in-this-star-powered-world-cup-spain-show-the-value-of-the-collective-and-control",
+    "summary": "In this star-powered World Cup, Spain show value of collective and control | Sid Lowe",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-16T10:13:37.983Z"
+  },
+  {
+    "id": "2d37d66b68f3",
+    "title": "It was supposed to be different but Argentina showed intent, Tuchel showed fear | Jacob Steinberg",
+    "date": "2026-07-15",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/15/thomas-tuchel-england-argentina-semi-final-world-cup",
+    "summary": "It was supposed to be different but Argentina showed intent, Tuchel showed fear | Jacob Steinberg",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-16T10:13:37.983Z"
+  },
+  {
+    "id": "d3dd8630bf42",
+    "title": "Kylian Mbappé feels sands of time shifting as France suffer fresh World Cup angst",
+    "date": "2026-07-15",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/15/kylian-mbappe-next-chapter-world-cup-angst",
+    "summary": "Kylian Mbappé feels sands of time shifting as France suffer fresh World Cup angst",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-16T10:13:37.983Z"
+  },
+  {
+    "id": "e12d3fae9bbf",
+    "title": "Aston Villa sign Emily Ramsey as Bethany England joins Crystal Palace",
+    "date": "2026-07-15",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/15/aston-villa-sign-emily-ramsey-millie-turner-birmingham",
+    "summary": "Aston Villa sign Emily Ramsey as Bethany England joins Crystal Palace",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-16T10:13:37.983Z"
+  },
+  {
+    "id": "4a948e8dc4dd",
+    "title": "Manchester United to target £30m Crysencio Summerville should Marcus Rashford leave",
+    "date": "2026-07-15",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/15/manchester-united-crysencio-summerville-marcus-rashford",
+    "summary": "Manchester United to target £30m Crysencio Summerville should Marcus Rashford leave",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-16T10:13:37.983Z"
+  },
+  {
+    "id": "03bda679f4a5",
+    "title": "Lethal Spain execute plan to perfection against France on way to World Cup final | Jeff Rueter",
+    "date": "2026-07-15",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/15/spain-game-plan-france-fifa-world-cup-semi-final",
+    "summary": "Lethal Spain execute plan to perfection against France on way to World Cup final | Jeff Rueter",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-16T10:13:37.983Z"
+  },
+  {
+    "id": "cec11b3cdcdf",
+    "title": "How are London City Lionesses able to embark on such a transfer spree?",
+    "date": "2026-07-15",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/15/london-city-lionesses-transfers-wsl-michele-kang",
+    "summary": "How are London City Lionesses able to embark on such a transfer spree?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-16T10:13:37.983Z"
+  },
+  {
     "id": "b16cdbd47cb8",
     "title": "Mates, mate and freedom - how Argentina got the best out of Messi",
     "date": "2026-07-15",
@@ -65,6 +247,19 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-07-15T10:06:04.158Z"
+  },
+  {
+    "id": "9bbe0974b276",
+    "title": "Of all England’s great Black footballers, none has been the defining national figure. Until Jude Bellingham | Calum Jacobs",
+    "date": "2026-07-14",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/commentisfree/2026/jul/14/england-great-black-footballers-national-figure-jude-bellingham",
+    "summary": "Of all England’s great Black footballers, none has been the defining national figure. Until Jude Bellingham | Calum Jacobs",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-16T10:13:37.983Z"
   },
   {
     "id": "e4b4fc29fc38",
@@ -6604,187 +6799,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-06-16T09:53:56.210Z"
-  },
-  {
-    "id": "423520abe1b0",
-    "title": "Crystal Palace confirm Pierre Sage as head coach and plan to back him on transfers",
-    "date": "2026-06-15",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/15/crystal-palace-confirm-pierre-sage-head-coach",
-    "summary": "Crystal Palace confirm Pierre Sage as head coach and plan to back him on transfers",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-18T09:38:38.447Z"
-  },
-  {
-    "id": "1c5ed6259e29",
-    "title": "The 40-year-old keeper who inspired Cape Verde's historic debut against Spain",
-    "date": "2026-06-15",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c0ryz4n2v0qo?at_medium=RSS&at_campaign=rss",
-    "summary": "The 40-year-old keeper who inspired Cape Verde's historic debut against Spain",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-16T09:53:56.210Z"
-  },
-  {
-    "id": "2fcde63ccbe0",
-    "title": "Vozinha heroics help Cape Verde hold Spain to goalless draw ",
-    "date": "2026-06-15",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/videos/c621kr6q2rro?at_medium=RSS&at_campaign=rss",
-    "summary": "Vozinha heroics help Cape Verde hold Spain to goalless draw ",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-16T09:53:56.210Z"
-  },
-  {
-    "id": "064d2405342f",
-    "title": "'Cartwheels at breakfast' & kicking about Boston - the culture shift in Scotland camp",
-    "date": "2026-06-15",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cj3gnz8kvevo?at_medium=RSS&at_campaign=rss",
-    "summary": "'Cartwheels at breakfast' & kicking about Boston - the culture shift in Scotland camp",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-16T09:53:56.210Z"
-  },
-  {
-    "id": "3b5cfbf6daa8",
-    "title": "'He's the story' - Vozinha's epic goalkeeping display thwarts Spain",
-    "date": "2026-06-15",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/videos/c75y6gp1qyyo?at_medium=RSS&at_campaign=rss",
-    "summary": "'He's the story' - Vozinha's epic goalkeeping display thwarts Spain",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-16T09:53:56.210Z"
-  },
-  {
-    "id": "77272f40cb3d",
-    "title": "Emotional full-time scenes as Cape Verde celebrate 0-0 draw against Spain",
-    "date": "2026-06-15",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/videos/cpv34dv4rmgo?at_medium=RSS&at_campaign=rss",
-    "summary": "Emotional full-time scenes as Cape Verde celebrate 0-0 draw against Spain",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-16T09:53:56.210Z"
-  },
-  {
-    "id": "5acdc24bf4e8",
-    "title": "2,500 passes since Spain's last World Cup goal - key stats as Cape Verde earn point",
-    "date": "2026-06-15",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/czj8egd29y0o?at_medium=RSS&at_campaign=rss",
-    "summary": "2,500 passes since Spain's last World Cup goal - key stats as Cape Verde earn point",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-16T09:53:56.210Z"
-  },
-  {
-    "id": "62292aa04c38",
-    "title": "'Greatest feeling ever': Cape Verdeans tell BBC of joy at holding Spain to draw",
-    "date": "2026-06-15",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/news/articles/clyer09rd1ro?at_medium=RSS&at_campaign=rss",
-    "summary": "'Greatest feeling ever': Cape Verdeans tell BBC of joy at holding Spain to draw",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-16T09:53:56.210Z"
-  },
-  {
-    "id": "86a0d2689c9b",
-    "title": "Gyokeres & Isak score as Sweden put five past Tunisia",
-    "date": "2026-06-15",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/videos/c20ymjjl8yko?at_medium=RSS&at_campaign=rss",
-    "summary": "Gyokeres & Isak score as Sweden put five past Tunisia",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-15T10:15:37.970Z"
-  },
-  {
-    "id": "d4d08e12dcc7",
-    "title": "Recruited on LinkedIn, set to face Spain - the Dublin-born Cape Verde star",
-    "date": "2026-06-15",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c7590ln3l06o?at_medium=RSS&at_campaign=rss",
-    "summary": "Recruited on LinkedIn, set to face Spain - the Dublin-born Cape Verde star",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-15T10:15:37.970Z"
-  },
-  {
-    "id": "91d5a72557d9",
-    "title": "World Cup 2026: Fifa urged to remove official over hand gesture; teams hit back at Ceferin; Iran arrive in US – live",
-    "date": "2026-06-15",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/live/2026/jun/15/world-cup-2026-news-iran-arrive-in-us-amid-protests-spain-belgium-egypt-enter-tournament-live",
-    "summary": "World Cup 2026: Fifa urged to remove official over hand gesture; teams hit back at Ceferin; Iran arrive in US – live",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-15T10:15:37.970Z"
-  },
-  {
-    "id": "25cb2a60e741",
-    "title": "Two-goal Yasin Ayari combines with Sweden stars to sweep aside error-prone Tunisia",
-    "date": "2026-06-15",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/15/sweden-tunisia-world-cup-match-report",
-    "summary": "Two-goal Yasin Ayari combines with Sweden stars to sweep aside error-prone Tunisia",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-15T10:15:37.970Z"
-  },
-  {
-    "id": "0d0cf3f384a3",
-    "title": "Iraq head coach Graham Arnold: ‘We’re capable of doing something that will shock the world’",
-    "date": "2026-06-15",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/15/iraq-head-coach-graham-arnold-world-cup-2026",
-    "summary": "Iraq head coach Graham Arnold: ‘We’re capable of doing something that will shock the world’",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-15T10:15:37.970Z"
-  },
-  {
-    "id": "97fe1765d947",
-    "title": "Uruguay delayed by plane paperwork as World Cup travel challenges continue",
-    "date": "2026-06-15",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/15/uruguay-delayed-by-plane-paperwork-as-world-cup-travel-challenges-continue",
-    "summary": "Uruguay delayed by plane paperwork as World Cup travel challenges continue",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-15T10:15:37.970Z"
   }
 ];
