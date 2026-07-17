@@ -2,6 +2,162 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "c63f0f03f4eb",
+    "title": "England missing final piece of jigsaw - Kane",
+    "date": "2026-07-17",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cvgv52dne1mo?at_medium=RSS&at_campaign=rss",
+    "summary": "England missing final piece of jigsaw - Kane",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-17T10:02:01.330Z"
+  },
+  {
+    "id": "07c1dd64f622",
+    "title": "Defender Cascarino joins West Ham in permanent deal",
+    "date": "2026-07-17",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c5yzye502vko?at_medium=RSS&at_campaign=rss",
+    "summary": "Defender Cascarino joins West Ham in permanent deal",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-17T10:02:01.330Z"
+  },
+  {
+    "id": "07c1dd64f622",
+    "title": "Defender Cascarino joins West Ham in permanent deal",
+    "date": "2026-07-17",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c5yzye502vko?at_medium=RSS&at_campaign=rss",
+    "summary": "Defender Cascarino joins West Ham in permanent deal",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-17T10:02:01.330Z"
+  },
+  {
+    "id": "b1bed442154e",
+    "title": "World Cup 2026: Spain v Argentina countdown, Trump to attend final, England news – live",
+    "date": "2026-07-17",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/live/2026/jul/17/world-cup-2026-spain-v-argentina-countdown-trump-to-attend-final-england-news-live",
+    "summary": "World Cup 2026: Spain v Argentina countdown, Trump to attend final, England news – live",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-17T10:02:01.330Z"
+  },
+  {
+    "id": "3fe4af74ceca",
+    "title": "Canberra United’s A-League Women future secured as date set for Men’s team entry",
+    "date": "2026-07-17",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/17/canberra-united-a-league-women-club-football-new-owner",
+    "summary": "Canberra United’s A-League Women future secured as date set for Men’s team entry",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-17T10:02:01.330Z"
+  },
+  {
+    "id": "d649911bc21b",
+    "title": "Some England players disappointed by tactics as Tuchel questions team's DNA",
+    "date": "2026-07-16",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cqjxl90x27ro?at_medium=RSS&at_campaign=rss",
+    "summary": "Some England players disappointed by tactics as Tuchel questions team's DNA",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-17T10:02:01.330Z"
+  },
+  {
+    "id": "2059245cd8a0",
+    "title": "All 11 last-minute winners at the World Cup",
+    "date": "2026-07-16",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/videos/cp8xn9y46xdo?at_medium=RSS&at_campaign=rss",
+    "summary": "All 11 last-minute winners at the World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-17T10:02:01.330Z"
+  },
+  {
+    "id": "251683867a31",
+    "title": "How coach-on-pitch Messi undid England's tactics on the fly",
+    "date": "2026-07-16",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cly5lq03l7do?at_medium=RSS&at_campaign=rss",
+    "summary": "How coach-on-pitch Messi undid England's tactics on the fly",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-17T10:02:01.330Z"
+  },
+  {
+    "id": "e627dde59c80",
+    "title": "Tuchel ‘100%’ invested in leading England at Euro 2028 despite semi-final failure",
+    "date": "2026-07-16",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/16/thomas-tuchel-england-2026-world-cup-semi-final-argentina-euro-2028",
+    "summary": "Tuchel ‘100%’ invested in leading England at Euro 2028 despite semi-final failure",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-17T10:02:01.330Z"
+  },
+  {
+    "id": "2bbe90cc2f0e",
+    "title": "Players ‘puzzled’ by tactics but Tuchel left himself no other option with his squad picks | Jacob Steinberg",
+    "date": "2026-07-16",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/16/players-puzzled-tactics-tuchel-no-option-england-squad-picks",
+    "summary": "Players ‘puzzled’ by tactics but Tuchel left himself no other option with his squad picks | Jacob Steinberg",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-17T10:02:01.330Z"
+  },
+  {
+    "id": "f487e6c5309f",
+    "title": "England had Lionel Messi under control … until one decisive and subtle shift",
+    "date": "2026-07-16",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/16/england-appeared-to-have-lionel-messi-under-control-until-the-crucial-moments",
+    "summary": "England had Lionel Messi under control … until one decisive and subtle shift",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-17T10:02:01.330Z"
+  },
+  {
+    "id": "b38f44c02679",
+    "title": "Romero’s World Cup heroics for Argentina make him one of Messi’s most trusted",
+    "date": "2026-07-16",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/16/argentina-world-cup-romero-semi-final",
+    "summary": "Romero’s World Cup heroics for Argentina make him one of Messi’s most trusted",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-17T10:02:01.330Z"
+  },
+  {
     "id": "e577acbe7074",
     "title": "World Cup 2026: Tuchel takes blame amid speculation over England future; Argentina players criticised for banner – live",
     "date": "2026-07-16",
@@ -6526,278 +6682,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-06-17T09:46:06.334Z"
-  },
-  {
-    "id": "0be9f5f1df42",
-    "title": "‘Our team is the most oppressed’: Iran coach hits out at Fifa and US over treatment",
-    "date": "2026-06-16",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/16/amir-ghalenoei-iran-coach-mehdi-taremi-fifa-us-world-cup",
-    "summary": "‘Our team is the most oppressed’: Iran coach hits out at Fifa and US over treatment",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-18T09:38:38.447Z"
-  },
-  {
-    "id": "11fa66dab73a",
-    "title": "Up to 15,000 England fans head to Dallas for World Cup opener",
-    "date": "2026-06-16",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c5yzr1nj1ppo?at_medium=RSS&at_campaign=rss",
-    "summary": "Up to 15,000 England fans head to Dallas for World Cup opener",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-17T09:46:06.334Z"
-  },
-  {
-    "id": "11907ec134da",
-    "title": "Highlights: Mbappe stars as France beat Senegal",
-    "date": "2026-06-16",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/videos/ced40y0xj1eo?at_medium=RSS&at_campaign=rss",
-    "summary": "Highlights: Mbappe stars as France beat Senegal",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-17T09:46:06.334Z"
-  },
-  {
-    "id": "3b9e31ba3fa1",
-    "title": "Tuchel's defensive gambles and what do they say about Alexander-Arnold?",
-    "date": "2026-06-16",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cy4ev318qd2o?at_medium=RSS&at_campaign=rss",
-    "summary": "Tuchel's defensive gambles and what do they say about Alexander-Arnold?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-17T09:46:06.334Z"
-  },
-  {
-    "id": "f89e578da5c1",
-    "title": "Chalobah replaces injured Livramento for World Cup",
-    "date": "2026-06-16",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c992n95lgrmo?at_medium=RSS&at_campaign=rss",
-    "summary": "Chalobah replaces injured Livramento for World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-17T09:46:06.334Z"
-  },
-  {
-    "id": "3691438c3015",
-    "title": "What could Scotland learn from Cape Verde as Morocco loom?",
-    "date": "2026-06-16",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c982g3m5e5lo?at_medium=RSS&at_campaign=rss",
-    "summary": "What could Scotland learn from Cape Verde as Morocco loom?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-17T09:46:06.334Z"
-  },
-  {
-    "id": "3691438c3015",
-    "title": "What could Scotland learn from Cape Verde as Morocco loom?",
-    "date": "2026-06-16",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c982g3m5e5lo?at_medium=RSS&at_campaign=rss",
-    "summary": "What could Scotland learn from Cape Verde as Morocco loom?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-17T09:46:06.334Z"
-  },
-  {
-    "id": "cadaec39a141",
-    "title": "Weir signs for Champions League runners-up Lyon",
-    "date": "2026-06-16",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cq61ye3g59yo?at_medium=RSS&at_campaign=rss",
-    "summary": "Weir signs for Champions League runners-up Lyon",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-17T09:46:06.334Z"
-  },
-  {
-    "id": "e731dcdbeaaf",
-    "title": "Spain won't panic yet about Cape Verde draw, but t...",
-    "date": "2026-06-16",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/49074414/spain-world-cup-shock-draw-cape-verde-lamine-yamal",
-    "summary": "Spain won't panic yet about Cape Verde draw, but t...",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-16T09:53:56.210Z"
-  },
-  {
-    "id": "9b24ac4789d7",
-    "title": "Sources: Tunisia hire Renard with Lamouchi out",
-    "date": "2026-06-16",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/49079184/tunisia-hire-renard-lamouchi-exit-world-cup",
-    "summary": "Sources: Tunisia hire Renard with Lamouchi out",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-16T09:53:56.210Z"
-  },
-  {
-    "id": "117388727395",
-    "title": "'Repressed' Iran forced to leave U.S. after game",
-    "date": "2026-06-16",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/49078938/iran-forced-leave-us-new-zealand-draw",
-    "summary": "'Repressed' Iran forced to leave U.S. after game",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-16T09:53:56.210Z"
-  },
-  {
-    "id": "903776137f85",
-    "title": "Senegal coach calls on NYC diaspora to show out",
-    "date": "2026-06-16",
-    "source": "ESPN",
-    "url": "https://www.espn.com/espn/story/_/id/49075921/senegal-coach-calls-ny-nj-show-team-home-fans-due-visa-policies",
-    "summary": "Senegal coach calls on NYC diaspora to show out",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-16T09:53:56.210Z"
-  },
-  {
-    "id": "64ece4baeea0",
-    "title": "Argentina 'calm' with Emi, Álvarez, Messi ready",
-    "date": "2026-06-16",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/49075716/argentina-calm-lionel-messi-emiliano-martinez-julian-alvarez-fit-ahead-algeria",
-    "summary": "Argentina 'calm' with Emi, Álvarez, Messi ready",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-16T09:53:56.210Z"
-  },
-  {
-    "id": "3329bb84be0a",
-    "title": "Canada's Davies not in full training pre Qatar",
-    "date": "2026-06-16",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/49076456/alphonso-davies-injury-canada-world-cup-qatar",
-    "summary": "Canada's Davies not in full training pre Qatar",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-16T09:53:56.210Z"
-  },
-  {
-    "id": "37164488ba74",
-    "title": "Iran's entertaining draw with New Zealand offers r...",
-    "date": "2026-06-16",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/49079481/irans-entertaining-draw-new-zealand-offers-brief-respite",
-    "summary": "Iran's entertaining draw with New Zealand offers r...",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-16T09:53:56.210Z"
-  },
-  {
-    "id": "3cd5f350510a",
-    "title": "Tunisia sack Lamouchi just one game into World Cup",
-    "date": "2026-06-16",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cp8rldpky7wo?at_medium=RSS&at_campaign=rss",
-    "summary": "Tunisia sack Lamouchi just one game into World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-16T09:53:56.210Z"
-  },
-  {
-    "id": "777c1b68675e",
-    "title": "'Not a model' - Bielsa refuses to engage with World Cup photoshoot",
-    "date": "2026-06-16",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cd6e58eq72eo?at_medium=RSS&at_campaign=rss",
-    "summary": "'Not a model' - Bielsa refuses to engage with World Cup photoshoot",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-16T09:53:56.210Z"
-  },
-  {
-    "id": "d03447a0022d",
-    "title": "Why Kante is still crucial for France  - Giroud",
-    "date": "2026-06-16",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c3vypg424glo?at_medium=RSS&at_campaign=rss",
-    "summary": "Why Kante is still crucial for France  - Giroud",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-16T09:53:56.210Z"
-  },
-  {
-    "id": "90a68fa02cf5",
-    "title": "Are billions flooding into Saudi Pro League helping national team?",
-    "date": "2026-06-16",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c892y35lnq8o?at_medium=RSS&at_campaign=rss",
-    "summary": "Are billions flooding into Saudi Pro League helping national team?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-16T09:53:56.210Z"
-  },
-  {
-    "id": "20874950e790",
-    "title": "Iran 'most oppressed' team at World Cup - Ghalenoei",
-    "date": "2026-06-16",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/ckg48wvv0v2o?at_medium=RSS&at_campaign=rss",
-    "summary": "Iran 'most oppressed' team at World Cup - Ghalenoei",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-16T09:53:56.210Z"
-  },
-  {
-    "id": "c8b817843ddc",
-    "title": "Football Daily",
-    "date": "2026-06-16",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sounds/play/p0ns6ylk?at_medium=RSS&at_campaign=rss",
-    "summary": "Football Daily",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-16T09:53:56.210Z"
   }
 ];
