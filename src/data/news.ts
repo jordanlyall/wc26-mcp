@@ -2,6 +2,201 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "788ac9452abb",
+    "title": "Defiant Tuchel defends decisions and says loss is 'scar we carry now'",
+    "date": "2026-07-18",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c3r0l4zn9jpo?at_medium=RSS&at_campaign=rss",
+    "summary": "Defiant Tuchel defends decisions and says loss is 'scar we carry now'",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-18T09:37:16.581Z"
+  },
+  {
+    "id": "f88f1d59d36d",
+    "title": "World Cup 2026 latest: buildup to France v England third-place playoff and Spain v Argentina final",
+    "date": "2026-07-18",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/live/2026/jul/18/world-cup-latest-buildup-france-england-third-place-spain-argentina",
+    "summary": "World Cup 2026 latest: buildup to France v England third-place playoff and Spain v Argentina final",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-18T09:37:16.581Z"
+  },
+  {
+    "id": "9c2ab9f966ad",
+    "title": "Tuchel would rather put down the English game than admit to his own cowardice | Jonathan Liew",
+    "date": "2026-07-18",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/18/thomas-tuchel-england-dna-world-cup-football",
+    "summary": "Tuchel would rather put down the English game than admit to his own cowardice | Jonathan Liew",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-18T09:37:16.581Z"
+  },
+  {
+    "id": "f707eb003265",
+    "title": "Cold War Steve on … Don Quixote and Sancho Panza coming to save the World Cup",
+    "date": "2026-07-18",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/picture/2026/jul/18/cold-war-steve-on-don-quixote-and-sancho-panza-coming-to-save-the-world-cup",
+    "summary": "Cold War Steve on … Don Quixote and Sancho Panza coming to save the World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-18T09:37:16.581Z"
+  },
+  {
+    "id": "058cdf174118",
+    "title": "Stick with Tuchel unless Guardiola is available - Rooney",
+    "date": "2026-07-17",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c304ldrmmero?at_medium=RSS&at_campaign=rss",
+    "summary": "Stick with Tuchel unless Guardiola is available - Rooney",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-18T09:37:16.581Z"
+  },
+  {
+    "id": "0b6a5e1bfdbf",
+    "title": "Tuchel did not deliver, but his time with England is not up - Shearer",
+    "date": "2026-07-17",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c8xnl908y28o?at_medium=RSS&at_campaign=rss",
+    "summary": "Tuchel did not deliver, but his time with England is not up - Shearer",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-18T09:37:16.581Z"
+  },
+  {
+    "id": "f2f39828dcf6",
+    "title": "Keep calm and carry on - Spain trust team identity to deliver World Cup",
+    "date": "2026-07-17",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/czxedvre7ryo?at_medium=RSS&at_campaign=rss",
+    "summary": "Keep calm and carry on - Spain trust team identity to deliver World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-18T09:37:16.581Z"
+  },
+  {
+    "id": "aa96dc0a6679",
+    "title": "Pele at the Azteca? England in '66? Ranking the best World Cup finals",
+    "date": "2026-07-17",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cgjx946py51o?at_medium=RSS&at_campaign=rss",
+    "summary": "Pele at the Azteca? England in '66? Ranking the best World Cup finals",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-18T09:37:16.581Z"
+  },
+  {
+    "id": "05ce0f4f8d7b",
+    "title": "Who could follow as Gordon leaves Scotland as a legend?",
+    "date": "2026-07-17",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cly5vvl87v0o?at_medium=RSS&at_campaign=rss",
+    "summary": "Who could follow as Gordon leaves Scotland as a legend?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-18T09:37:16.581Z"
+  },
+  {
+    "id": "9b4fa523a2d4",
+    "title": "Tuchel urges England to finish strongly in emotional address",
+    "date": "2026-07-17",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c62ergl0py2o?at_medium=RSS&at_campaign=rss",
+    "summary": "Tuchel urges England to finish strongly in emotional address",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-18T09:37:16.581Z"
+  },
+  {
+    "id": "05ce0f4f8d7b",
+    "title": "Who could follow as Gordon leaves Scotland as a legend?",
+    "date": "2026-07-17",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cly5vvl87v0o?at_medium=RSS&at_campaign=rss",
+    "summary": "Who could follow as Gordon leaves Scotland as a legend?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-18T09:37:16.581Z"
+  },
+  {
+    "id": "85b14d8ccf71",
+    "title": "Birmingham City sign Canada defender Levasseur",
+    "date": "2026-07-17",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cx2d5l4q8jpo?at_medium=RSS&at_campaign=rss",
+    "summary": "Birmingham City sign Canada defender Levasseur",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-18T09:37:16.581Z"
+  },
+  {
+    "id": "c06f936236a1",
+    "title": "God’s will? Destiny? Lionel Messi, Lamine Yamal, that photo and the World Cup final",
+    "date": "2026-07-17",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/17/gods-will-destiny-lionel-messi-lamine-yamal-that-photo-and-the-world-cup-final",
+    "summary": "God’s will? Destiny? Lionel Messi, Lamine Yamal, that photo and the World Cup final",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-18T09:37:16.581Z"
+  },
+  {
+    "id": "c2fa3c02d432",
+    "title": "Smoke, travel and Trump threaten New York’s grand World Cup finale",
+    "date": "2026-07-17",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/17/smoke-travel-trump-new-york-world-cup-final",
+    "summary": "Smoke, travel and Trump threaten New York’s grand World Cup finale",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-18T09:37:16.581Z"
+  },
+  {
+    "id": "445d35bcc44e",
+    "title": "BBC v ITV: who won the UK’s battle of the World Cup 2026 broadcasters?",
+    "date": "2026-07-17",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/17/world-cup-bbc-itv-broadcast-battle",
+    "summary": "BBC v ITV: who won the UK’s battle of the World Cup 2026 broadcasters?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-18T09:37:16.581Z"
+  },
+  {
     "id": "c63f0f03f4eb",
     "title": "England missing final piece of jigsaw - Kane",
     "date": "2026-07-17",
@@ -6409,278 +6604,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-06-18T09:38:38.447Z"
-  },
-  {
-    "id": "3b03dec23e18",
-    "title": "England hit four in World Cup opener against Croatia ",
-    "date": "2026-06-17",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/videos/c4gy52zj5peo?at_medium=RSS&at_campaign=rss",
-    "summary": "England hit four in World Cup opener against Croatia ",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-18T09:38:38.447Z"
-  },
-  {
-    "id": "ea3934b8a155",
-    "title": "Cape Verde goalkeeper set to be reunited with his mum",
-    "date": "2026-06-17",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cgjxlpxxp6wo?at_medium=RSS&at_campaign=rss",
-    "summary": "Cape Verde goalkeeper set to be reunited with his mum",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-18T09:38:38.447Z"
-  },
-  {
-    "id": "a444c6193e5f",
-    "title": "Substitute Rashford guides home England's fourth against Croatia",
-    "date": "2026-06-17",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/videos/c3wyxj6lnvxo?at_medium=RSS&at_campaign=rss",
-    "summary": "Substitute Rashford guides home England's fourth against Croatia",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-18T09:38:38.447Z"
-  },
-  {
-    "id": "b5f9d52f588e",
-    "title": "Bellingham scores early in second half to put England 3-2 up",
-    "date": "2026-06-17",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/videos/c20y9dqpz0zo?at_medium=RSS&at_campaign=rss",
-    "summary": "Bellingham scores early in second half to put England 3-2 up",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-18T09:38:38.447Z"
-  },
-  {
-    "id": "8dc897079dd5",
-    "title": "Baturina fires Croatia level against England",
-    "date": "2026-06-17",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/videos/cx2305j7j4po?at_medium=RSS&at_campaign=rss",
-    "summary": "Baturina fires Croatia level against England",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-18T09:38:38.447Z"
-  },
-  {
-    "id": "e760a1b586e2",
-    "title": "DR Congo earn World Cup point against Portugal",
-    "date": "2026-06-17",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/videos/c8j2e2rj0klo?at_medium=RSS&at_campaign=rss",
-    "summary": "DR Congo earn World Cup point against Portugal",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-18T09:38:38.447Z"
-  },
-  {
-    "id": "5853de630890",
-    "title": "Harry Kane reveals half-time Tuchel pep-talk inspired England to victory over Croatia",
-    "date": "2026-06-17",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/18/harry-kane-england-croatia-inspired-thomas-tuchel-speech",
-    "summary": "Harry Kane reveals half-time Tuchel pep-talk inspired England to victory over Croatia",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-18T09:38:38.447Z"
-  },
-  {
-    "id": "0b3b08f54cb4",
-    "title": "All-time greatest: who is the highest goalscorer in World Cup history?",
-    "date": "2026-06-17",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/ng-interactive/2026/jun/17/who-is-highest-goalscorer-world-cup-history-messi-mbappe",
-    "summary": "All-time greatest: who is the highest goalscorer in World Cup history?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-18T09:38:38.447Z"
-  },
-  {
-    "id": "7775be8e797e",
-    "title": "Messi dazzles to equal World Cup scoring record as Argentina breeze past Algeria",
-    "date": "2026-06-17",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/16/argentina-algeria-world-cup-group-j-match-report",
-    "summary": "Messi dazzles to equal World Cup scoring record as Argentina breeze past Algeria",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-18T09:38:38.447Z"
-  },
-  {
-    "id": "c3410579b906",
-    "title": "Scaloni at 'loss for words' on record-setting Mess...",
-    "date": "2026-06-17",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/49090349/argentina-scaloni-loss-words-record-setting-messi",
-    "summary": "Scaloni at 'loss for words' on record-setting Mess...",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-17T09:46:06.334Z"
-  },
-  {
-    "id": "09df3b230085",
-    "title": "World Cup Daily: NFL star Winston dresses goat as ...",
-    "date": "2026-06-17",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/49090581/world-cup-daily-nfl-star-winston-dresses-goat-messi-tribute-goat",
-    "summary": "World Cup Daily: NFL star Winston dresses goat as ...",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-17T09:46:06.334Z"
-  },
-  {
-    "id": "ed6fb2b745da",
-    "title": "Mahomes, Jay Z top celebrities at 2026 World Cup",
-    "date": "2026-06-17",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/49089105/2026-fifa-world-cup-usa-mexico-canada-celebrities",
-    "summary": "Mahomes, Jay Z top celebrities at 2026 World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-17T09:46:06.334Z"
-  },
-  {
-    "id": "1f7fd09b30cf",
-    "title": "Cape Verde GK Vozinha stopped favorites Spain ... ...",
-    "date": "2026-06-17",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/49074487/cape-verde-gk-vozinha-stopped-world-cup-favourites-spain-gained-8m-followers",
-    "summary": "Cape Verde GK Vozinha stopped favorites Spain ... ...",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-17T09:46:06.334Z"
-  },
-  {
-    "id": "e90974f5f330",
-    "title": "Tottenham sign Scotland forward Hanson from Villa",
-    "date": "2026-06-17",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cvgqrr8wknxo?at_medium=RSS&at_campaign=rss",
-    "summary": "Tottenham sign Scotland forward Hanson from Villa",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-17T09:46:06.334Z"
-  },
-  {
-    "id": "388f40fc946b",
-    "title": "Highlights: Haaland scores twice in Norway win over Iraq  ",
-    "date": "2026-06-17",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/videos/cql1v6vlg1qo?at_medium=RSS&at_campaign=rss",
-    "summary": "Highlights: Haaland scores twice in Norway win over Iraq  ",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-17T09:46:06.334Z"
-  },
-  {
-    "id": "b486e26e628e",
-    "title": "'It's very Bond': Fashion experts on the England squad's off-pitch look",
-    "date": "2026-06-17",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/news/articles/c9v2e8llnkwo?at_medium=RSS&at_campaign=rss",
-    "summary": "'It's very Bond': Fashion experts on the England squad's off-pitch look",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-17T09:46:06.334Z"
-  },
-  {
-    "id": "e90974f5f330",
-    "title": "Tottenham sign Scotland forward Hanson from Villa",
-    "date": "2026-06-17",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cvgqrr8wknxo?at_medium=RSS&at_campaign=rss",
-    "summary": "Tottenham sign Scotland forward Hanson from Villa",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-17T09:46:06.334Z"
-  },
-  {
-    "id": "4436e1749818",
-    "title": "World Cup 2026: England kick off in Dallas after big-hitting trio make mark – live",
-    "date": "2026-06-17",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/live/2026/jun/17/world-cup-2026-news-live-england-croatia-portugal-dr-congo-ghana-panama-uzbekistan-colombia",
-    "summary": "World Cup 2026: England kick off in Dallas after big-hitting trio make mark – live",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-17T09:46:06.334Z"
-  },
-  {
-    "id": "b03d789b9026",
-    "title": "What happened on a historic night for Argentina? ‘Messi things’ | Pablo Iglesias Maurer",
-    "date": "2026-06-17",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/17/lionel-messi-hat-trick-algeria-argentina-world-cup",
-    "summary": "What happened on a historic night for Argentina? ‘Messi things’ | Pablo Iglesias Maurer",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-17T09:46:06.334Z"
-  },
-  {
-    "id": "1a8f71476cb7",
-    "title": "Harry Kane’s American dream begins: ‘I’m coming into this in the best way possible’",
-    "date": "2026-06-17",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/17/harry-kane-american-dream-dallas-world-cup-england",
-    "summary": "Harry Kane’s American dream begins: ‘I’m coming into this in the best way possible’",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-17T09:46:06.334Z"
-  },
-  {
-    "id": "c820956d582b",
-    "title": "Norway’s Erling Haaland punishes Iraq with double on World Cup debut",
-    "date": "2026-06-17",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/17/iraq-norway-world-cup-group-i-match-report",
-    "summary": "Norway’s Erling Haaland punishes Iraq with double on World Cup debut",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-17T09:46:06.334Z"
   }
 ];
