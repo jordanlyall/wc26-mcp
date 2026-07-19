@@ -2,6 +2,175 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "a4f0d875f9c2",
+    "title": "Brilliant first half, turbulent second - Tuchel",
+    "date": "2026-07-19",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/videos/c1j1djgkg98o?at_medium=RSS&at_campaign=rss",
+    "summary": "Brilliant first half, turbulent second - Tuchel",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-19T09:54:45.296Z"
+  },
+  {
+    "id": "ab233eb6c695",
+    "title": "World Cup 2026: Spain v Argentina final buildup; England win 10-goal thriller – live",
+    "date": "2026-07-19",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/live/2026/jul/19/world-cup-2026-spain-v-argentina-final-buildup-england-win-10-goal-thriller-live",
+    "summary": "World Cup 2026: Spain v Argentina final buildup; England win 10-goal thriller – live",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-19T09:54:45.296Z"
+  },
+  {
+    "id": "1710aff92701",
+    "title": "‘Something very special’: Tuchel reflects on World Cup after England claim third",
+    "date": "2026-07-19",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/19/thomas-tuchel-world-cup-england-third-france",
+    "summary": "‘Something very special’: Tuchel reflects on World Cup after England claim third",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-19T09:54:45.296Z"
+  },
+  {
+    "id": "6cdd378a2708",
+    "title": "World Cup final data pointers: Spain’s defensive record and Argentina’s attack",
+    "date": "2026-07-19",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/19/world-cup-final-spain-argentina-goals-defensive-record",
+    "summary": "World Cup final data pointers: Spain’s defensive record and Argentina’s attack",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-19T09:54:45.296Z"
+  },
+  {
+    "id": "b37e4788c92d",
+    "title": "Spain v Argentina in the World Cup final: the referee, the stats and the omens",
+    "date": "2026-07-19",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/19/spain-v-argentina-world-cup-final-referee-stats-omens",
+    "summary": "Spain v Argentina in the World Cup final: the referee, the stats and the omens",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-19T09:54:45.296Z"
+  },
+  {
+    "id": "02693328d5ce",
+    "title": "Chelsea agree record £117m deal for Villa's Rogers",
+    "date": "2026-07-18",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c0ej1jyy8yyo?at_medium=RSS&at_campaign=rss",
+    "summary": "Chelsea agree record £117m deal for Villa's Rogers",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-19T09:54:45.296Z"
+  },
+  {
+    "id": "f49308b6fa9e",
+    "title": "Rice fires England into early lead against France",
+    "date": "2026-07-18",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/videos/c0qvzk59jn0o?at_medium=RSS&at_campaign=rss",
+    "summary": "Rice fires England into early lead against France",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-19T09:54:45.296Z"
+  },
+  {
+    "id": "a5206445f1d4",
+    "title": "The classroom moment that bonds finalists De la Fuente & Scaloni forever",
+    "date": "2026-07-18",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c98v13rgyrmo?at_medium=RSS&at_campaign=rss",
+    "summary": "The classroom moment that bonds finalists De la Fuente & Scaloni forever",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-19T09:54:45.296Z"
+  },
+  {
+    "id": "e1e261e4fa2e",
+    "title": "A bit 'blah' or a worthy host? Is MetLife  right World Cup final choice?",
+    "date": "2026-07-18",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cvgj5dlr45zo?at_medium=RSS&at_campaign=rss",
+    "summary": "A bit 'blah' or a worthy host? Is MetLife  right World Cup final choice?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-19T09:54:45.296Z"
+  },
+  {
+    "id": "87c144209cfd",
+    "title": "World Cup winner Capdevila appeals to Trump after US travel permit denied ",
+    "date": "2026-07-18",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cx2l5jn17yjo?at_medium=RSS&at_campaign=rss",
+    "summary": "World Cup winner Capdevila appeals to Trump after US travel permit denied ",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-19T09:54:45.296Z"
+  },
+  {
+    "id": "17f8b4a01ff6",
+    "title": "Gemmill leaves Scotland U21 role after 13 years",
+    "date": "2026-07-18",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c3ek9weyyv4o?at_medium=RSS&at_campaign=rss",
+    "summary": "Gemmill leaves Scotland U21 role after 13 years",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-19T09:54:45.296Z"
+  },
+  {
+    "id": "17f8b4a01ff6",
+    "title": "Gemmill leaves Scotland U21 role after 13 years",
+    "date": "2026-07-18",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c3ek9weyyv4o?at_medium=RSS&at_campaign=rss",
+    "summary": "Gemmill leaves Scotland U21 role after 13 years",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-19T09:54:45.296Z"
+  },
+  {
+    "id": "64d04cdee771",
+    "title": "Manchester United start new signing Andrey Santos in pre-season loss to Wrexham",
+    "date": "2026-07-18",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/18/manchester-united-start-new-signing-andrey-santos-in-pre-season-loss-to-wrexham",
+    "summary": "Manchester United start new signing Andrey Santos in pre-season loss to Wrexham",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-19T09:54:45.296Z"
+  },
+  {
     "id": "788ac9452abb",
     "title": "Defiant Tuchel defends decisions and says loss is 'scar we carry now'",
     "date": "2026-07-18",
@@ -6461,148 +6630,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-06-19T09:41:47.835Z"
-  },
-  {
-    "id": "69e82a97b697",
-    "title": "Beever-Jones set to sign new deal at Chelsea",
-    "date": "2026-06-18",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/czrx8vd2yvdo?at_medium=RSS&at_campaign=rss",
-    "summary": "Beever-Jones set to sign new deal at Chelsea",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-23T09:17:28.639Z"
-  },
-  {
-    "id": "2de869ff2c6e",
-    "title": "Golden Boot: World Cup 2026 top goalscorers",
-    "date": "2026-06-18",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/ng-interactive/2026/jun/04/golden-boot-world-cup-2026-top-goalscorers-winner",
-    "summary": "Golden Boot: World Cup 2026 top goalscorers",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-20T09:11:20.970Z"
-  },
-  {
-    "id": "c09cbf90e46f",
-    "title": "Tuchel's complaints lead to Fifa moving photographers",
-    "date": "2026-06-18",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cdejd2p65k3o?at_medium=RSS&at_campaign=rss",
-    "summary": "Tuchel's complaints lead to Fifa moving photographers",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-19T09:41:47.835Z"
-  },
-  {
-    "id": "b59d1780852e",
-    "title": "Kane is England's greatest striker, says Lineker",
-    "date": "2026-06-18",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cvg5de1dyn2o?at_medium=RSS&at_campaign=rss",
-    "summary": "Kane is England's greatest striker, says Lineker",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-19T09:41:47.835Z"
-  },
-  {
-    "id": "8d31073ace07",
-    "title": "Beever-Jones set to sign new deal at Chelsea",
-    "date": "2026-06-18",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/czrx8vd2yvdo?at_medium=RSS&at_campaign=rss",
-    "summary": "Beever-Jones set to sign new deal at Chelsea",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-19T09:41:47.835Z"
-  },
-  {
-    "id": "9f33f4b60b95",
-    "title": "'If we lose, we lose in our way' - how Tuchel inspired 'fearful' England",
-    "date": "2026-06-18",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cx2k7zvxee8o?at_medium=RSS&at_campaign=rss",
-    "summary": "'If we lose, we lose in our way' - how Tuchel inspired 'fearful' England",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-18T09:38:38.447Z"
-  },
-  {
-    "id": "a11a3f73bfba",
-    "title": "What are the patches on some shirts at the World Cup?",
-    "date": "2026-06-18",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cr5jdy59m69o?at_medium=RSS&at_campaign=rss",
-    "summary": "What are the patches on some shirts at the World Cup?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-18T09:38:38.447Z"
-  },
-  {
-    "id": "0433e6f332c5",
-    "title": "World Cup 2026: England turn on the style; Fifa denies ticketless fans breached security – live",
-    "date": "2026-06-18",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/live/2026/jun/18/world-cup-2026-england-croatia-fans-czechia-south-africa-switzerland-bosnia-and-herzegovina-canada-qatar-mexico-south-korea-live",
-    "summary": "World Cup 2026: England turn on the style; Fifa denies ticketless fans breached security – live",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-18T09:38:38.447Z"
-  },
-  {
-    "id": "d6e9ba60d048",
-    "title": "Liverpool beat Newcastle to sign Víctor Muñoz in first signing of Andoni Iraola era",
-    "date": "2026-06-18",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/18/victor-munoz-liverpool-newcastle-andoni-iraola-transfer-news",
-    "summary": "Liverpool beat Newcastle to sign Víctor Muñoz in first signing of Andoni Iraola era",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-18T09:38:38.447Z"
-  },
-  {
-    "id": "20301ed722a4",
-    "title": "Colombia squeeze past dogged Uzbekistan to open World Cup campaign with victory",
-    "date": "2026-06-18",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/18/uzbekistan-colombia-world-cup-2026-group-k-match-report",
-    "summary": "Colombia squeeze past dogged Uzbekistan to open World Cup campaign with victory",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-18T09:38:38.447Z"
-  },
-  {
-    "id": "f42923f57e1a",
-    "title": "From frustration to party time: Mexico ready for lift-off after steady start",
-    "date": "2026-06-18",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/18/ceremony-to-celebration-mexico-south-korea-world-cup",
-    "summary": "From frustration to party time: Mexico ready for lift-off after steady start",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-18T09:38:38.447Z"
   }
 ];
