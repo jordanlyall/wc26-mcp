@@ -2,6 +2,97 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "fc46929a8567",
+    "title": "Villa sign Wolves midfielder Gomes in £38m deal",
+    "date": "2026-07-20",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cnvndy7pej9o?at_medium=RSS&at_campaign=rss",
+    "summary": "Villa sign Wolves midfielder Gomes in £38m deal",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-20T10:56:09.822Z"
+  },
+  {
+    "id": "29a33b749400",
+    "title": "Argentina boss Scaloni leaves news conference in tears talking about his future",
+    "date": "2026-07-20",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cdew76g9d1zo?at_medium=RSS&at_campaign=rss",
+    "summary": "Argentina boss Scaloni leaves news conference in tears talking about his future",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-20T10:56:09.822Z"
+  },
+  {
+    "id": "15984128e470",
+    "title": "World Cup 2026: Spain’s champions head home to Madrid welcome after beating Argentina – live",
+    "date": "2026-07-20",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/live/2026/jul/20/world-cup-2026-final-reaction-news-spain-argentina",
+    "summary": "World Cup 2026: Spain’s champions head home to Madrid welcome after beating Argentina – live",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-20T10:56:09.822Z"
+  },
+  {
+    "id": "fcbf516e360d",
+    "title": "Top 30: from half a million World Cup photos, why I love these the most",
+    "date": "2026-07-20",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/ng-interactive/2026/jul/20/world-cup-2026-best-30-photographs-gallery",
+    "summary": "Top 30: from half a million World Cup photos, why I love these the most",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-20T10:56:09.822Z"
+  },
+  {
+    "id": "1fff31329b40",
+    "title": "Dominant Spain beat Argentina to win World Cup after extra time",
+    "date": "2026-07-19",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/videos/clyvgx9e00do?at_medium=RSS&at_campaign=rss",
+    "summary": "Dominant Spain beat Argentina to win World Cup after extra time",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-20T10:56:09.822Z"
+  },
+  {
+    "id": "09e10243ed3d",
+    "title": "Kane says Tuchel will ‘learn a lot’ from England pressures after exit to Argentina",
+    "date": "2026-07-19",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/19/harry-kane-thomas-tuchel-england-football-world-cup-2026-euro-2028",
+    "summary": "Kane says Tuchel will ‘learn a lot’ from England pressures after exit to Argentina",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-20T10:56:09.822Z"
+  },
+  {
+    "id": "9e1b4d4e9a30",
+    "title": "England 2026 World Cup squad: player-by-player ratings",
+    "date": "2026-07-19",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/19/england-2026-world-cup-squad-player-by-player-ratings",
+    "summary": "England 2026 World Cup squad: player-by-player ratings",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-20T10:56:09.822Z"
+  },
+  {
     "id": "a4f0d875f9c2",
     "title": "Brilliant first half, turbulent second - Tuchel",
     "date": "2026-07-19",
@@ -6305,330 +6396,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-06-20T09:11:20.970Z"
-  },
-  {
-    "id": "4164cc34f0f3",
-    "title": "Where has Infantino been? FIFA president has alrea...",
-    "date": "2026-06-19",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/49116383/infantino-fifa-presidents-epic-world-cup-tour",
-    "summary": "Where has Infantino been? FIFA president has alrea...",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-21T09:23:23.898Z"
-  },
-  {
-    "id": "e744844c6edd",
-    "title": "'Nightmare start for Scotland' - Morocco score after 71 seconds",
-    "date": "2026-06-19",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/videos/cd7wg71r38no?at_medium=RSS&at_campaign=rss",
-    "summary": "'Nightmare start for Scotland' - Morocco score after 71 seconds",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-20T09:11:20.970Z"
-  },
-  {
-    "id": "80c65a7205ab",
-    "title": "England winger Saka unlikely to start against Ghana",
-    "date": "2026-06-19",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/crm0kg22m9jo?at_medium=RSS&at_campaign=rss",
-    "summary": "England winger Saka unlikely to start against Ghana",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-20T09:11:20.970Z"
-  },
-  {
-    "id": "a8fb54d69b7e",
-    "title": "Ipswich close in on O'Neil as new head coach",
-    "date": "2026-06-19",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c3vy5g610yno?at_medium=RSS&at_campaign=rss",
-    "summary": "Ipswich close in on O'Neil as new head coach",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-20T09:11:20.970Z"
-  },
-  {
-    "id": "b7b51c142755",
-    "title": "England's Barry to continue with half-time interviews",
-    "date": "2026-06-19",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cm2034enndpo?at_medium=RSS&at_campaign=rss",
-    "summary": "England's Barry to continue with half-time interviews",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-20T09:11:20.970Z"
-  },
-  {
-    "id": "0cbe7b085eba",
-    "title": "USA qualify for last 32 after comfortable win over Australia",
-    "date": "2026-06-19",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/videos/c30ylqjmpgyo?at_medium=RSS&at_campaign=rss",
-    "summary": "USA qualify for last 32 after comfortable win over Australia",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-20T09:11:20.970Z"
-  },
-  {
-    "id": "2753ab01c568",
-    "title": "Did key decisions go against Scotland in Morocco match?",
-    "date": "2026-06-19",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/videos/c2lye1qkz91o?at_medium=RSS&at_campaign=rss",
-    "summary": "Did key decisions go against Scotland in Morocco match?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-20T09:11:20.970Z"
-  },
-  {
-    "id": "129bdae30e1e",
-    "title": "Who's the Bos? - meet 2026 World Cup's fastest player",
-    "date": "2026-06-19",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cyv0m91942do?at_medium=RSS&at_campaign=rss",
-    "summary": "Who's the Bos? - meet 2026 World Cup's fastest player",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-20T09:11:20.970Z"
-  },
-  {
-    "id": "73e02be0a88c",
-    "title": "Morocco captain Hakimi to stand trial for rape ",
-    "date": "2026-06-19",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c20y18z7le1o?at_medium=RSS&at_campaign=rss",
-    "summary": "Morocco captain Hakimi to stand trial for rape ",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-20T09:11:20.970Z"
-  },
-  {
-    "id": "27eee6c2e31e",
-    "title": "Korea GK gaffe helps Mexico clinch 1st in Group A",
-    "date": "2026-06-19",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/49113839/mexico-beats-south-korea-clinch-first-place-group-a",
-    "summary": "Korea GK gaffe helps Mexico clinch 1st in Group A",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-19T09:41:47.835Z"
-  },
-  {
-    "id": "d9ee1baeefe5",
-    "title": "Canada's Koné stretchered off after hard tackle",
-    "date": "2026-06-19",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/49112391/canada-ismael-kone-stretchered-hard-tackle",
-    "summary": "Canada's Koné stretchered off after hard tackle",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-19T09:41:47.835Z"
-  },
-  {
-    "id": "2363ff9790af",
-    "title": "Aguirre relishes Azteca return after Group A win",
-    "date": "2026-06-19",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/49114368/aguirre-relishes-azteca-knockout-matches-mexico-win-group-a",
-    "summary": "Aguirre relishes Azteca return after Group A win",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-19T09:41:47.835Z"
-  },
-  {
-    "id": "331c5cdaaab7",
-    "title": "Pulisic still training solo a day before U.S. game...",
-    "date": "2026-06-19",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/49109849/usmnt-christian-pulisic-trains-apart-team-again-pochettino-due-address-status",
-    "summary": "Pulisic still training solo a day before U.S. game...",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-19T09:41:47.835Z"
-  },
-  {
-    "id": "a60f89558478",
-    "title": "David hat trick leads Canada to historic WC rout",
-    "date": "2026-06-19",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/49112625/canada-qatar-first-world-cup-win-2026-jonathan-david",
-    "summary": "David hat trick leads Canada to historic WC rout",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-19T09:41:47.835Z"
-  },
-  {
-    "id": "b1da30c85353",
-    "title": "World Cup 2026 Power Rankings after one game: U.S....",
-    "date": "2026-06-19",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/49094186/fifa-world-cup-power-rankings-spain-brazil-germany-usa-mexico-england-argentina",
-    "summary": "World Cup 2026 Power Rankings after one game: U.S....",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-19T09:41:47.835Z"
-  },
-  {
-    "id": "a1f8c6bfa7b8",
-    "title": "Portugal have a Ronaldo problem (again)",
-    "date": "2026-06-19",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/49098603/portugal-cristiano-ronaldo-problem-congo-dr-roberto-martinez-fifa-world-cup-analysis",
-    "summary": "Portugal have a Ronaldo problem (again)",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-19T09:41:47.835Z"
-  },
-  {
-    "id": "32ff3a3d3c5d",
-    "title": "A day of tears, scuffles & history as injury mars Canada's moment",
-    "date": "2026-06-19",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cly7r1zjmmlo?at_medium=RSS&at_campaign=rss",
-    "summary": "A day of tears, scuffles & history as injury mars Canada's moment",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-19T09:41:47.835Z"
-  },
-  {
-    "id": "c1b8204740b7",
-    "title": "Canada score six but historic win marred by Kone injury",
-    "date": "2026-06-19",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/videos/ckg7nx6kg51o?at_medium=RSS&at_campaign=rss",
-    "summary": "Canada score six but historic win marred by Kone injury",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-19T09:41:47.835Z"
-  },
-  {
-    "id": "c8d1a0ef0bf8",
-    "title": "Kone injury is a 'huge loss' - Marsch ",
-    "date": "2026-06-19",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/videos/ckg0r24xk5wo?at_medium=RSS&at_campaign=rss",
-    "summary": "Kone injury is a 'huge loss' - Marsch ",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-19T09:41:47.835Z"
-  },
-  {
-    "id": "558945e94bb3",
-    "title": "Tuchel throws first pitch as England enjoy downtime",
-    "date": "2026-06-19",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cgrk5qrkw5po?at_medium=RSS&at_campaign=rss",
-    "summary": "Tuchel throws first pitch as England enjoy downtime",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-19T09:41:47.835Z"
-  },
-  {
-    "id": "e58456a84fa2",
-    "title": "World Cup 2026: Koné injury mars Canada rout; Scotland’s ‘big challenge’; USA v Australia buildup – live",
-    "date": "2026-06-19",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/live/2026/jun/19/world-cup-2026-news-kone-injury-canada-rout-scotland-big-challenge-morocco-usa-australia-buildup-live",
-    "summary": "World Cup 2026: Koné injury mars Canada rout; Scotland’s ‘big challenge’; USA v Australia buildup – live",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-19T09:41:47.835Z"
-  },
-  {
-    "id": "05e251b822fd",
-    "title": "‘The cops bought me an egg and cheese muffin’: Boston’s love affair with Tartan Army goes on",
-    "date": "2026-06-19",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/19/the-cops-bought-me-an-egg-and-cheese-muffin-bostons-love-affair-with-tartan-army-goes-on",
-    "summary": "‘The cops bought me an egg and cheese muffin’: Boston’s love affair with Tartan Army goes on",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-19T09:41:47.835Z"
-  },
-  {
-    "id": "b99ed3c36d87",
-    "title": "South Korea howler gifts Mexico victory as World Cup co-hosts reach knockout phase",
-    "date": "2026-06-19",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/19/mexico-south-korea-world-cup-2026-group-a-match-report",
-    "summary": "South Korea howler gifts Mexico victory as World Cup co-hosts reach knockout phase",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-19T09:41:47.835Z"
-  },
-  {
-    "id": "9fd5fa0c76d9",
-    "title": "Players are human beings and social media comments reach us. But the focus has to be on the pitch | Rodrygo",
-    "date": "2026-06-19",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/19/players-are-human-beings-and-social-media-comments-reach-us-but-the-focus-has-to-be-on-the-pitch",
-    "summary": "Players are human beings and social media comments reach us. But the focus has to be on the pitch | Rodrygo",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-19T09:41:47.835Z"
-  },
-  {
-    "id": "a02a46f2fe6b",
-    "title": "Iran to lodge complaint with Fifa over ‘restrictions imposed’ on team at World Cup",
-    "date": "2026-06-19",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/19/iran-lodge-complaint-fifa-restrictions-world-cup",
-    "summary": "Iran to lodge complaint with Fifa over ‘restrictions imposed’ on team at World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-19T09:41:47.835Z"
   }
 ];
