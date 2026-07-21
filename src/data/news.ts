@@ -2,6 +2,253 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "04f14dd2e967",
+    "title": "Bournemouth midfielder Scott rejects new contract",
+    "date": "2026-07-21",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c0rdn1p2z45o?at_medium=RSS&at_campaign=rss",
+    "summary": "Bournemouth midfielder Scott rejects new contract",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-21T10:27:36.366Z"
+  },
+  {
+    "id": "6acdf63423b4",
+    "title": "Why England teenager Parkinson has a mindset coach",
+    "date": "2026-07-21",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c775dvm2gn0o?at_medium=RSS&at_campaign=rss",
+    "summary": "Why England teenager Parkinson has a mindset coach",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-21T10:27:36.366Z"
+  },
+  {
+    "id": "b674e1a9f9f2",
+    "title": "Tottenham sign France defender Sombath from Lyon",
+    "date": "2026-07-21",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cj03r94g62eo?at_medium=RSS&at_campaign=rss",
+    "summary": "Tottenham sign France defender Sombath from Lyon",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-21T10:27:36.366Z"
+  },
+  {
+    "id": "6acdf63423b4",
+    "title": "Why England teenager Parkinson has a mindset coach",
+    "date": "2026-07-21",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c775dvm2gn0o?at_medium=RSS&at_campaign=rss",
+    "summary": "Why England teenager Parkinson has a mindset coach",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-21T10:27:36.366Z"
+  },
+  {
+    "id": "b674e1a9f9f2",
+    "title": "Tottenham sign France defender Sombath from Lyon",
+    "date": "2026-07-21",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cj03r94g62eo?at_medium=RSS&at_campaign=rss",
+    "summary": "Tottenham sign France defender Sombath from Lyon",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-21T10:27:36.366Z"
+  },
+  {
+    "id": "4536951e44b0",
+    "title": "World Cup 2026 in 90 seconds: a photo animation with audio",
+    "date": "2026-07-21",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/video/2026/jul/21/world-cup-2026-in-90-seconds-a-photo-animation",
+    "summary": "World Cup 2026 in 90 seconds: a photo animation with audio",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-21T10:27:36.366Z"
+  },
+  {
+    "id": "b0c8b4054d08",
+    "title": "Neuer to Neymar: 11 World Cup players who retired from international football",
+    "date": "2026-07-21",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/21/neuer-to-neymar-11-world-cup-players-who-retired-from-international-football",
+    "summary": "Neuer to Neymar: 11 World Cup players who retired from international football",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-21T10:27:36.366Z"
+  },
+  {
+    "id": "1d4a125c4204",
+    "title": "Spurs break their women’s transfer record to sign Alice Sombath from Lyonnes",
+    "date": "2026-07-21",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/21/spurs-sign-alice-sombath-from-lyonnes-transfer-record",
+    "summary": "Spurs break their women’s transfer record to sign Alice Sombath from Lyonnes",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-21T10:27:36.366Z"
+  },
+  {
+    "id": "7557be0c516a",
+    "title": "Guardiola in reported talks with Italy - would England come calling?",
+    "date": "2026-07-20",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c20dn5j0lj0o?at_medium=RSS&at_campaign=rss",
+    "summary": "Guardiola in reported talks with Italy - would England come calling?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-21T10:27:36.366Z"
+  },
+  {
+    "id": "5c0fbfa8483d",
+    "title": "Watch the BBC's closing World Cup montage",
+    "date": "2026-07-20",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/videos/c5y4r79prw4o?at_medium=RSS&at_campaign=rss",
+    "summary": "Watch the BBC's closing World Cup montage",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-21T10:27:36.366Z"
+  },
+  {
+    "id": "53b5e7d954d4",
+    "title": "Argentina boss Scaloni leaves press conference in tears",
+    "date": "2026-07-20",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/videos/cvglel7g7v2o?at_medium=RSS&at_campaign=rss",
+    "summary": "Argentina boss Scaloni leaves press conference in tears",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-21T10:27:36.366Z"
+  },
+  {
+    "id": "5043c6d7d3fd",
+    "title": "'A date with history and we got there first' - Spain react to World Cup win",
+    "date": "2026-07-20",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/videos/c1k1n1g4m8po?at_medium=RSS&at_campaign=rss",
+    "summary": "'A date with history and we got there first' - Spain react to World Cup win",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-21T10:27:36.366Z"
+  },
+  {
+    "id": "1ca6c8118c5e",
+    "title": "Newcastle, Liverpool and England legend Keegan dies",
+    "date": "2026-07-20",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c2lyl82n2e2o?at_medium=RSS&at_campaign=rss",
+    "summary": "Newcastle, Liverpool and England legend Keegan dies",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-21T10:27:36.366Z"
+  },
+  {
+    "id": "c9268341a462",
+    "title": "Gallery: Spain celebrate World Cup triumph in Madrid",
+    "date": "2026-07-20",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cgje79d6q64o?at_medium=RSS&at_campaign=rss",
+    "summary": "Gallery: Spain celebrate World Cup triumph in Madrid",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-21T10:27:36.366Z"
+  },
+  {
+    "id": "fa9c24875c97",
+    "title": "Chelsea sign Man Utd striker Malard for £850,000",
+    "date": "2026-07-20",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c62120n7y8jo?at_medium=RSS&at_campaign=rss",
+    "summary": "Chelsea sign Man Utd striker Malard for £850,000",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-21T10:27:36.366Z"
+  },
+  {
+    "id": "2062a19e8261",
+    "title": "Everton sign defender Blundell on permament deal",
+    "date": "2026-07-20",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c0qyxqw901wo?at_medium=RSS&at_campaign=rss",
+    "summary": "Everton sign defender Blundell on permament deal",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-21T10:27:36.366Z"
+  },
+  {
+    "id": "0e75c62c54c1",
+    "title": "A pioneer and a superstar, Kevin Keegan’s achievements were extraordinary",
+    "date": "2026-07-20",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/20/kevin-keegan-tribute-pioneer-superstar-liverpool-newcastle-hamburg-england",
+    "summary": "A pioneer and a superstar, Kevin Keegan’s achievements were extraordinary",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-21T10:27:36.366Z"
+  },
+  {
+    "id": "ed9087d42385",
+    "title": "Argentina players face bans as Fifa opens investigation into World Cup final brawls",
+    "date": "2026-07-20",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/20/argentina-players-face-bans-as-fifa-opens-investigation-into-world-cup-final-brawls",
+    "summary": "Argentina players face bans as Fifa opens investigation into World Cup final brawls",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-21T10:27:36.366Z"
+  },
+  {
+    "id": "598488ba184d",
+    "title": "Nearly two million people join Spain’s World Cup celebrations in Madrid",
+    "date": "2026-07-20",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/20/spain-world-cup-celebration-madrid",
+    "summary": "Nearly two million people join Spain’s World Cup celebrations in Madrid",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-21T10:27:36.366Z"
+  },
+  {
     "id": "fc46929a8567",
     "title": "Villa sign Wolves midfielder Gomes in £38m deal",
     "date": "2026-07-20",
@@ -6214,187 +6461,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-06-21T09:23:23.898Z"
-  },
-  {
-    "id": "0b6dd0c0cceb",
-    "title": "Why Kane is different at this World Cup - Shearer",
-    "date": "2026-06-20",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/crr87vwrwwlo?at_medium=RSS&at_campaign=rss",
-    "summary": "Why Kane is different at this World Cup - Shearer",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-23T09:17:28.639Z"
-  },
-  {
-    "id": "bc799632587c",
-    "title": "Are Brazil back in business after World Cup win vs...",
-    "date": "2026-06-20",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/49125986/are-brazil-back-business-world-cup-win-vs-haiti-not-quite",
-    "summary": "Are Brazil back in business after World Cup win vs...",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-21T09:23:23.898Z"
-  },
-  {
-    "id": "a88b536e27f6",
-    "title": "Doku criticised over plan to return home for birth",
-    "date": "2026-06-20",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c74ywv08ylpo?at_medium=RSS&at_campaign=rss",
-    "summary": "Doku criticised over plan to return home for birth",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-21T09:23:23.898Z"
-  },
-  {
-    "id": "241c94717246",
-    "title": "Why Kane is different at this World Cup - Shearer",
-    "date": "2026-06-20",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/crr87vwrwwlo?at_medium=RSS&at_campaign=rss",
-    "summary": "Why Kane is different at this World Cup - Shearer",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-21T09:23:23.898Z"
-  },
-  {
-    "id": "44f3473cb098",
-    "title": "Cooling hoodies help England staff combat World Cup heat",
-    "date": "2026-06-20",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cwy0gn19zqlo?at_medium=RSS&at_campaign=rss",
-    "summary": "Cooling hoodies help England staff combat World Cup heat",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-21T09:23:23.898Z"
-  },
-  {
-    "id": "260b9eb61c46",
-    "title": "Why are so many World Cup goals being scored late?",
-    "date": "2026-06-20",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cly9q9nrgdxo?at_medium=RSS&at_campaign=rss",
-    "summary": "Why are so many World Cup goals being scored late?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-21T09:23:23.898Z"
-  },
-  {
-    "id": "7bfe6422c52c",
-    "title": "Brobbey and Gakpo at the double as five-star Netherlands crush sorry Sweden",
-    "date": "2026-06-20",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/20/netherlands-sweden-world-cup-group-f-match-report",
-    "summary": "Brobbey and Gakpo at the double as five-star Netherlands crush sorry Sweden",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-21T09:23:23.898Z"
-  },
-  {
-    "id": "a0de948db954",
-    "title": "Flawed but relentless Scotland show themselves as men of substance",
-    "date": "2026-06-20",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c33y5v4mer3o?at_medium=RSS&at_campaign=rss",
-    "summary": "Flawed but relentless Scotland show themselves as men of substance",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-20T09:11:20.970Z"
-  },
-  {
-    "id": "71dac6c4c7e7",
-    "title": "'Big decisions went against Scotland'",
-    "date": "2026-06-20",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/videos/c1myz9xye7xo?at_medium=RSS&at_campaign=rss",
-    "summary": "'Big decisions went against Scotland'",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-20T09:11:20.970Z"
-  },
-  {
-    "id": "989103fde3f0",
-    "title": "World Cup groups separated by head-to-head records for first time",
-    "date": "2026-06-20",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cn94jrj8d5go?at_medium=RSS&at_campaign=rss",
-    "summary": "World Cup groups separated by head-to-head records for first time",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-20T09:11:20.970Z"
-  },
-  {
-    "id": "7d9b8ea618df",
-    "title": "Morocco 'got away with one' - McGinn",
-    "date": "2026-06-20",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/videos/c5yzl0jxkd3o?at_medium=RSS&at_campaign=rss",
-    "summary": "Morocco 'got away with one' - McGinn",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-20T09:11:20.970Z"
-  },
-  {
-    "id": "f4ad15cf950c",
-    "title": "World Cup 2026: Scotland fall flat; USA into knockouts; Turkey’s tears and Almíron’s red for covering mouth – live",
-    "date": "2026-06-20",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/live/2026/jun/20/world-cup-2026-scotland-morocco-usa-australia-netherlands-sweden-germany-cote-d-ivoire-ecuador-curacao-tunisia-japan",
-    "summary": "World Cup 2026: Scotland fall flat; USA into knockouts; Turkey’s tears and Almíron’s red for covering mouth – live",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-20T09:11:20.970Z"
-  },
-  {
-    "id": "ed32a295e91a",
-    "title": "Spaceship stadiums and Ronaldo-mania: Guardian writers’ first impressions of the World Cup",
-    "date": "2026-06-20",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/20/spaceship-stadiums-and-ronaldo-mania-guardian-writers-first-impressions-of-the-world-cup",
-    "summary": "Spaceship stadiums and Ronaldo-mania: Guardian writers’ first impressions of the World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-20T09:11:20.970Z"
-  },
-  {
-    "id": "633aaf2ffde9",
-    "title": "Cold War Steve on … the arrival of the World Cup superheroes",
-    "date": "2026-06-20",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/picture/2026/jun/20/cold-war-steve-on-the-arrival-of-the-world-cup-superheroes",
-    "summary": "Cold War Steve on … the arrival of the World Cup superheroes",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-20T09:11:20.970Z"
   }
 ];
