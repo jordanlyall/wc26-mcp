@@ -2,6 +2,97 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "6b8178bce390",
+    "title": "World Cup 2026 awards: the Guardian team give their final tournament verdicts",
+    "date": "2026-07-22",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/22/world-cup-awards-guardian-team-2026-tournament-verdicts",
+    "summary": "World Cup 2026 awards: the Guardian team give their final tournament verdicts",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-22T10:28:50.592Z"
+  },
+  {
+    "id": "bfbedc3bc186",
+    "title": "Arsenal continue squad revamp with signing of Spain keeper Misa Rodríguez",
+    "date": "2026-07-22",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/22/arsenal-sign-spain-goalkeeper-misa-rodriguez",
+    "summary": "Arsenal continue squad revamp with signing of Spain keeper Misa Rodríguez",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-22T10:28:50.592Z"
+  },
+  {
+    "id": "49b68ec2c603",
+    "title": "The quirky side of World Cup 2026 – in pictures",
+    "date": "2026-07-22",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/gallery/2026/jul/22/the-quirky-side-of-world-cup-2026-in-pictures",
+    "summary": "The quirky side of World Cup 2026 – in pictures",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-22T10:28:50.592Z"
+  },
+  {
+    "id": "9466a96b445c",
+    "title": "World Cup 2030 (very early) power rankings: who will challenge Spain at top?",
+    "date": "2026-07-22",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/22/world-cup-2030-very-early-power-rankings",
+    "summary": "World Cup 2030 (very early) power rankings: who will challenge Spain at top?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-22T10:28:50.592Z"
+  },
+  {
+    "id": "15664e24f8a5",
+    "title": "The defining moments of the 2026 World Cup",
+    "date": "2026-07-21",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/videos/cdrv06y1pdlo?at_medium=RSS&at_campaign=rss",
+    "summary": "The defining moments of the 2026 World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-22T10:28:50.592Z"
+  },
+  {
+    "id": "a1bb2ac4c74a",
+    "title": "Keeper Martinez may 'step aside' from Argentina",
+    "date": "2026-07-21",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c62xzle86n4o?at_medium=RSS&at_campaign=rss",
+    "summary": "Keeper Martinez may 'step aside' from Argentina",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-22T10:28:50.592Z"
+  },
+  {
+    "id": "4ad161141494",
+    "title": "Morgan Rogers ‘excited to join biggest club in London’ after making £117m Chelsea move",
+    "date": "2026-07-21",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/21/morgan-rogers-biggest-club-london-117m-chelsea-deal",
+    "summary": "Morgan Rogers ‘excited to join biggest club in London’ after making £117m Chelsea move",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-22T10:28:50.592Z"
+  },
+  {
     "id": "04f14dd2e967",
     "title": "Bournemouth midfielder Scott rejects new contract",
     "date": "2026-07-21",
@@ -104,6 +195,32 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-07-21T10:27:36.366Z"
+  },
+  {
+    "id": "4503243033dd",
+    "title": "João Gomes seals £38m Aston Villa move, Hall and Robinson on Manchester United list",
+    "date": "2026-07-20",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/20/joao-gomes-signs-aston-villa-lewis-hall-antonee-robinson-manchester-united-transfer-latest",
+    "summary": "João Gomes seals £38m Aston Villa move, Hall and Robinson on Manchester United list",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-22T10:28:50.592Z"
+  },
+  {
+    "id": "2a9da907d8e6",
+    "title": "Football Daily | A desperate grab for attention. This is the way the World Cup ends",
+    "date": "2026-07-20",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/20/this-is-the-way-the-world-cup-ends-football-daily-newsletter",
+    "summary": "Football Daily | A desperate grab for attention. This is the way the World Cup ends",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-22T10:28:50.592Z"
   },
   {
     "id": "7557be0c516a",
@@ -6253,213 +6370,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-06-22T10:09:09.328Z"
-  },
-  {
-    "id": "9c3438e90c80",
-    "title": "Cape Verde fan goes wild live on BBC News as his country scores",
-    "date": "2026-06-21",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/videos/cyv0n4g6p77o?at_medium=RSS&at_campaign=rss",
-    "summary": "Cape Verde fan goes wild live on BBC News as his country scores",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-23T09:17:28.639Z"
-  },
-  {
-    "id": "3e1467229360",
-    "title": "Cape Verde fan goes wild live on BBC News as his country scores",
-    "date": "2026-06-21",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/videos/cyv0n4g6p77o?at_medium=RSS&at_campaign=rss",
-    "summary": "Cape Verde fan goes wild live on BBC News as his country scores",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-22T10:09:09.328Z"
-  },
-  {
-    "id": "6c1fd44d52bf",
-    "title": "'Oh my word!' - Cape Verde take shock lead against Uruguay",
-    "date": "2026-06-21",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/videos/cjwg6le7193o?at_medium=RSS&at_campaign=rss",
-    "summary": "'Oh my word!' - Cape Verde take shock lead against Uruguay",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-22T10:09:09.328Z"
-  },
-  {
-    "id": "c80296305d2e",
-    "title": "Tuchel not afraid to shout at England players - Watkins",
-    "date": "2026-06-21",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cjegy048847o?at_medium=RSS&at_campaign=rss",
-    "summary": "Tuchel not afraid to shout at England players - Watkins",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-22T10:09:09.328Z"
-  },
-  {
-    "id": "03143533fa78",
-    "title": "Kylian Mbappé hungry for Golden Boot battle with Messi as he sings Les Bleus",
-    "date": "2026-06-21",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/21/kylian-mbappe-hungry-for-golden-boot-battle-with-messi-as-he-sings-les-bleus",
-    "summary": "Kylian Mbappé hungry for Golden Boot battle with Messi as he sings Les Bleus",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-22T10:09:09.328Z"
-  },
-  {
-    "id": "e53d9a692198",
-    "title": "Thomas Partey in spotlight as he faces England and former Arsenal teammates after rape charges",
-    "date": "2026-06-21",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/21/thomas-partey-england-ghana-handshake",
-    "summary": "Thomas Partey in spotlight as he faces England and former Arsenal teammates after rape charges",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-22T10:09:09.328Z"
-  },
-  {
-    "id": "0fdbc4a653b9",
-    "title": "Copy of How close is this? Japan denied a goal by millimet...",
-    "date": "2026-06-21",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/49132412/japan-denied-goal-millimeters-remember-2022-vs-spain",
-    "summary": "Copy of How close is this? Japan denied a goal by millimet...",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-21T09:23:23.898Z"
-  },
-  {
-    "id": "6deecec550c8",
-    "title": "Netherlands break WC record with Sweden thumping",
-    "date": "2026-06-21",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/49129008/netherlands-shatter-world-cup-unbeaten-record-streak-crushing-sweden",
-    "summary": "Netherlands break WC record with Sweden thumping",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-21T09:23:23.898Z"
-  },
-  {
-    "id": "498afef9b5fa",
-    "title": "Spain coach: A mistake to compare Yamal to Messi",
-    "date": "2026-06-21",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/49130119/spain-coach-luis-de-la-fuente-urges-caution-yamal-comparisons-messi-maradona",
-    "summary": "Spain coach: A mistake to compare Yamal to Messi",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-21T09:23:23.898Z"
-  },
-  {
-    "id": "da3fa9ff61c5",
-    "title": "World Cup Daily: Ecuador, Curaçao look for first p...",
-    "date": "2026-06-21",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/49122322/world-cup-daily-norway-fans-take-s-square-viking-row-germany-netherlands-action",
-    "summary": "World Cup Daily: Ecuador, Curaçao look for first p...",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-21T09:23:23.898Z"
-  },
-  {
-    "id": "542a1f02bb23",
-    "title": "Dargahi's path to Iran team is another example of ...",
-    "date": "2026-06-21",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/49117443/iran-world-cup-dennis-dargahi-diaspora-citizenship",
-    "summary": "Dargahi's path to Iran team is another example of ...",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-21T09:23:23.898Z"
-  },
-  {
-    "id": "a94dcb3d5339",
-    "title": "From factory floor to World Cup star - Germany's super-sub Undav",
-    "date": "2026-06-21",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c8r2pm4xrxro?at_medium=RSS&at_campaign=rss",
-    "summary": "From factory floor to World Cup star - Germany's super-sub Undav",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-21T09:23:23.898Z"
-  },
-  {
-    "id": "039076669258",
-    "title": "World Cup 2026: Curaçao claim historic point; Iran unhappy at lack of support from teams – live",
-    "date": "2026-06-21",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/live/2026/jun/21/world-cup-news-live-curacao-iran-spain-saudi-arabia-belgium-cape-verde-uruguay-new-zealand-egypt",
-    "summary": "World Cup 2026: Curaçao claim historic point; Iran unhappy at lack of support from teams – live",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-21T09:23:23.898Z"
-  },
-  {
-    "id": "602caa7c7d20",
-    "title": "Ueda inspires Japan to eliminate Tunisia in landmark 1,000th World Cup match",
-    "date": "2026-06-21",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/21/japan-tunisia-world-cup-group-f-match-report",
-    "summary": "Ueda inspires Japan to eliminate Tunisia in landmark 1,000th World Cup match",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-21T09:23:23.898Z"
-  },
-  {
-    "id": "23939958e9b1",
-    "title": "‘Stung’ Spain have digested shock start but know repeat is not an option",
-    "date": "2026-06-21",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/21/stung-spain-have-digested-shock-start-but-know-repeat-is-not-an-option",
-    "summary": "‘Stung’ Spain have digested shock start but know repeat is not an option",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-21T09:23:23.898Z"
-  },
-  {
-    "id": "5f7a72154769",
-    "title": "England offer rare peek behind the curtain with no place to hide under Tuchel",
-    "date": "2026-06-21",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/21/england-world-cup-training-intensity-peek-behind-curtain-thomas-tuchel",
-    "summary": "England offer rare peek behind the curtain with no place to hide under Tuchel",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-21T09:23:23.898Z"
   }
 ];
