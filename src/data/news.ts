@@ -2,6 +2,84 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "067480051666",
+    "title": "Blow for Manchester City with Rodri out for extended period due to back injury",
+    "date": "2026-07-23",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/23/blow-for-manchester-city-with-rodri-out-for-extended-period-due-to-back-injury",
+    "summary": "Blow for Manchester City with Rodri out for extended period due to back injury",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-23T10:26:27.801Z"
+  },
+  {
+    "id": "2ad325bc26b0",
+    "title": "Saliba to miss extended period with back injury",
+    "date": "2026-07-22",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c5yveezg9q3o?at_medium=RSS&at_campaign=rss",
+    "summary": "Saliba to miss extended period with back injury",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-23T10:26:27.801Z"
+  },
+  {
+    "id": "96a33499f6fc",
+    "title": "Arsenal reveal William Saliba out for ‘extended period’ with back injury",
+    "date": "2026-07-22",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/22/arsenal-william-saliba-back-injury-france-world-cup",
+    "summary": "Arsenal reveal William Saliba out for ‘extended period’ with back injury",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-23T10:26:27.801Z"
+  },
+  {
+    "id": "14134cb61419",
+    "title": "England cannot afford trip to amputee World Cup – and the FA will not help",
+    "date": "2026-07-22",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/22/england-cannot-afford-trip-to-amputee-world-cup-and-the-fa-will-not-help",
+    "summary": "England cannot afford trip to amputee World Cup – and the FA will not help",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-23T10:26:27.801Z"
+  },
+  {
+    "id": "78809976e64b",
+    "title": "A tournament that crossed borders: crunching the numbers on the diaspora World Cup",
+    "date": "2026-07-22",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/22/a-tournament-that-crossed-borders-crunching-the-numbers-on-the-diaspora-world-cup",
+    "summary": "A tournament that crossed borders: crunching the numbers on the diaspora World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-23T10:26:27.801Z"
+  },
+  {
+    "id": "8c734b131e99",
+    "title": "Football Daily | Chelsea’s financial shrug and Liverpool leaking players – what you may have missed",
+    "date": "2026-07-22",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/22/football-daily-email-liverpool-chelsea-manchester-city-what-you-may-have-missed",
+    "summary": "Football Daily | Chelsea’s financial shrug and Liverpool leaking players – what you may have missed",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-23T10:26:27.801Z"
+  },
+  {
     "id": "6b8178bce390",
     "title": "World Cup 2026 awards: the Guardian team give their final tournament verdicts",
     "date": "2026-07-22",
@@ -6045,330 +6123,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-06-23T09:17:28.639Z"
-  },
-  {
-    "id": "7ae21d4ff3ba",
-    "title": "The Hotspot | Aramco’s petrodollar backing of World Cup leaves stain of sportswashing",
-    "date": "2026-06-22",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/sport/2026/jun/22/aramco-petrodollar-world-cup-football-sportswashing-the-hotspot",
-    "summary": "The Hotspot | Aramco’s petrodollar backing of World Cup leaves stain of sportswashing",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-12T09:54:03.698Z"
-  },
-  {
-    "id": "dafad9439cd5",
-    "title": "From retirement to records - another immortal Messi moment",
-    "date": "2026-06-22",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c74y1vypn2wo?at_medium=RSS&at_campaign=rss",
-    "summary": "From retirement to records - another immortal Messi moment",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-23T09:17:28.639Z"
-  },
-  {
-    "id": "10c61fb12f95",
-    "title": "Iran leave note asking for peace after Belgium draw",
-    "date": "2026-06-22",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cwy0ppqx1p9o?at_medium=RSS&at_campaign=rss",
-    "summary": "Iran leave note asking for peace after Belgium draw",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-23T09:17:28.639Z"
-  },
-  {
-    "id": "c25c8dbc38a3",
-    "title": "Cape Verde continue to surprise with entertaining Uruguay draw",
-    "date": "2026-06-22",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/videos/c4gy5rkg0ddo?at_medium=RSS&at_campaign=rss",
-    "summary": "Cape Verde continue to surprise with entertaining Uruguay draw",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-23T09:17:28.639Z"
-  },
-  {
-    "id": "46b85992c655",
-    "title": "One of World Cup's great stories - can Cape Verde become legends?",
-    "date": "2026-06-22",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c0qylwk421eo?at_medium=RSS&at_campaign=rss",
-    "summary": "One of World Cup's great stories - can Cape Verde become legends?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-23T09:17:28.639Z"
-  },
-  {
-    "id": "9fe028c666f1",
-    "title": "'You always have regrets' - Rooney on managerial career",
-    "date": "2026-06-22",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c5yzl305ldyo?at_medium=RSS&at_campaign=rss",
-    "summary": "'You always have regrets' - Rooney on managerial career",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-23T09:17:28.639Z"
-  },
-  {
-    "id": "49d43a8ca062",
-    "title": "Germany defender Schlotterbeck out of World Cup",
-    "date": "2026-06-22",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cgk6rzd5g58o?at_medium=RSS&at_campaign=rss",
-    "summary": "Germany defender Schlotterbeck out of World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-23T09:17:28.639Z"
-  },
-  {
-    "id": "c274595d0cf4",
-    "title": "Saka trains with England squad before Ghana match",
-    "date": "2026-06-22",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c8e21d5w0pjo?at_medium=RSS&at_campaign=rss",
-    "summary": "Saka trains with England squad before Ghana match",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-23T09:17:28.639Z"
-  },
-  {
-    "id": "df666c0e40c6",
-    "title": "Name the seven Scotland survivors from Clarke's first squad",
-    "date": "2026-06-22",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c05yze49v71o?at_medium=RSS&at_campaign=rss",
-    "summary": "Name the seven Scotland survivors from Clarke's first squad",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-23T09:17:28.639Z"
-  },
-  {
-    "id": "df666c0e40c6",
-    "title": "Name the seven Scotland survivors from Clarke's first squad",
-    "date": "2026-06-22",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c05yze49v71o?at_medium=RSS&at_campaign=rss",
-    "summary": "Name the seven Scotland survivors from Clarke's first squad",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-23T09:17:28.639Z"
-  },
-  {
-    "id": "68972d1c4478",
-    "title": "Thomas Tuchel urges England to improve defence against Ghana after ‘wake-up call’",
-    "date": "2026-06-22",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/23/thomas-tuchel-england-ghana-world-cup-defence-improve",
-    "summary": "Thomas Tuchel urges England to improve defence against Ghana after ‘wake-up call’",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-23T09:17:28.639Z"
-  },
-  {
-    "id": "b2cb3c6ce7ad",
-    "title": "One of World Cup's great stories - can Cape Verde become legends?",
-    "date": "2026-06-22",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c0qylwk421eo?at_medium=RSS&at_campaign=rss",
-    "summary": "One of World Cup's great stories - can Cape Verde become legends?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-22T10:09:09.328Z"
-  },
-  {
-    "id": "7944943f0e33",
-    "title": "Iran leave note asking for peace after Belgium draw",
-    "date": "2026-06-22",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cwy0ppqx1p9o?at_medium=RSS&at_campaign=rss",
-    "summary": "Iran leave note asking for peace after Belgium draw",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-22T10:09:09.328Z"
-  },
-  {
-    "id": "5f6fd197018e",
-    "title": "Saka trains with England squad before Ghana match",
-    "date": "2026-06-22",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c8e21d5w0pjo?at_medium=RSS&at_campaign=rss",
-    "summary": "Saka trains with England squad before Ghana match",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-22T10:09:09.328Z"
-  },
-  {
-    "id": "485ba31d057b",
-    "title": "Cape Verde continue to surprise with entertaining Uruguay draw",
-    "date": "2026-06-22",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/videos/c4gy5rkg0ddo?at_medium=RSS&at_campaign=rss",
-    "summary": "Cape Verde continue to surprise with entertaining Uruguay draw",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-22T10:09:09.328Z"
-  },
-  {
-    "id": "b3eb2b1110b0",
-    "title": "Unbeaten Iran will go down in history - Ghalenoei",
-    "date": "2026-06-22",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cx237pe074go?at_medium=RSS&at_campaign=rss",
-    "summary": "Unbeaten Iran will go down in history - Ghalenoei",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-22T10:09:09.328Z"
-  },
-  {
-    "id": "1a2958d1b5b4",
-    "title": "Name the seven Scotland survivors from Clarke's first squad",
-    "date": "2026-06-22",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c05yze49v71o?at_medium=RSS&at_campaign=rss",
-    "summary": "Name the seven Scotland survivors from Clarke's first squad",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-22T10:09:09.328Z"
-  },
-  {
-    "id": "730c5d8fb230",
-    "title": "Football Daily",
-    "date": "2026-06-22",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sounds/play/p0ns7xdt?at_medium=RSS&at_campaign=rss",
-    "summary": "Football Daily",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-22T10:09:09.328Z"
-  },
-  {
-    "id": "1af269357f77",
-    "title": "Ask pundits McCann & Crichton your World Cup questions",
-    "date": "2026-06-22",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c8j2pm834xeo?at_medium=RSS&at_campaign=rss",
-    "summary": "Ask pundits McCann & Crichton your World Cup questions",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-22T10:09:09.328Z"
-  },
-  {
-    "id": "1a2958d1b5b4",
-    "title": "Name the seven Scotland survivors from Clarke's first squad",
-    "date": "2026-06-22",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c05yze49v71o?at_medium=RSS&at_campaign=rss",
-    "summary": "Name the seven Scotland survivors from Clarke's first squad",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-22T10:09:09.328Z"
-  },
-  {
-    "id": "a07d86c327fa",
-    "title": "World Cup 2026: Cape Verde continue remarkable story; Messi, Mbappé and Haaland return – live",
-    "date": "2026-06-22",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/live/2026/jun/22/world-cup-2026-cape-verde-continue-remarkable-story-messi-mbappe-and-haaland-return-live",
-    "summary": "World Cup 2026: Cape Verde continue remarkable story; Messi, Mbappé and Haaland return – live",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-22T10:09:09.328Z"
-  },
-  {
-    "id": "5d816c8a25a7",
-    "title": "Who are ya? Behind the scenes of the official World Cup portrait photographs",
-    "date": "2026-06-22",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/22/behind-the-scenes-official-world-cup-portrait-photographs",
-    "summary": "Who are ya? Behind the scenes of the official World Cup portrait photographs",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-22T10:09:09.328Z"
-  },
-  {
-    "id": "1cc268431fe7",
-    "title": "Egypt claim their first World Cup win after roaring from behind to beat New Zealand",
-    "date": "2026-06-22",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/22/new-zealand-egypt-world-cup-group-g-match-report",
-    "summary": "Egypt claim their first World Cup win after roaring from behind to beat New Zealand",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-22T10:09:09.328Z"
-  },
-  {
-    "id": "eb0db60b84b3",
-    "title": "Cristiano Ronaldo risks ruining his legacy if he continues to stymie Portugal by starting | Miguel Dantas",
-    "date": "2026-06-22",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/22/cristiano-ronaldo-portugal-world-cup",
-    "summary": "Cristiano Ronaldo risks ruining his legacy if he continues to stymie Portugal by starting | Miguel Dantas",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-22T10:09:09.328Z"
-  },
-  {
-    "id": "7cddf77ead99",
-    "title": "Past and present World Cups collide as Beiranvand first gives Iran inspiration, then hope | Alexander Abnos",
-    "date": "2026-06-22",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/22/world-cup-iran-goalkeeper-alireza-beiranvand",
-    "summary": "Past and present World Cups collide as Beiranvand first gives Iran inspiration, then hope | Alexander Abnos",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-22T10:09:09.328Z"
   }
 ];
