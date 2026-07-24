@@ -2,6 +2,110 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "2c9188a00747",
+    "title": "Messiah or papering over cracks? Klopp must sway doubters in Germany rebuild",
+    "date": "2026-07-24",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cn8k8llpz2mo?at_medium=RSS&at_campaign=rss",
+    "summary": "Messiah or papering over cracks? Klopp must sway doubters in Germany rebuild",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-24T10:22:49.423Z"
+  },
+  {
+    "id": "eda4c68163c0",
+    "title": "Kane set for talks with Bayern Munich over new deal",
+    "date": "2026-07-24",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cly5d2n2879o?at_medium=RSS&at_campaign=rss",
+    "summary": "Kane set for talks with Bayern Munich over new deal",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-24T10:22:49.423Z"
+  },
+  {
+    "id": "d93e07a072a0",
+    "title": "England amputee team's World Cup dream on hold",
+    "date": "2026-07-24",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c62x54zedp1o?at_medium=RSS&at_campaign=rss",
+    "summary": "England amputee team's World Cup dream on hold",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-24T10:22:49.423Z"
+  },
+  {
+    "id": "59e76888b883",
+    "title": "Jürgen Klopp confirmed as Germany head coach for Euro 2028 and 2030 World Cup",
+    "date": "2026-07-24",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/24/germany-confirm-jurgen-klopp-new-head-coach",
+    "summary": "Jürgen Klopp confirmed as Germany head coach for Euro 2028 and 2030 World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-24T10:22:49.423Z"
+  },
+  {
+    "id": "84f7ec3c800b",
+    "title": "Defoe leaves Woking after 'eye-opening' first managerial role",
+    "date": "2026-07-23",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c304d47ql6jo?at_medium=RSS&at_campaign=rss",
+    "summary": "Defoe leaves Woking after 'eye-opening' first managerial role",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-24T10:22:49.423Z"
+  },
+  {
+    "id": "042ca8a7d9a5",
+    "title": "From Popp to Diani: 10 women’s transfers you may have missed during the men’s World Cup",
+    "date": "2026-07-23",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/23/from-popp-to-diani-10-womens-transfers-you-may-have-missed-during-the-mens-world-cup",
+    "summary": "From Popp to Diani: 10 women’s transfers you may have missed during the men’s World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-24T10:22:49.423Z"
+  },
+  {
+    "id": "8630942fbd71",
+    "title": "‘Don’t become the protagonist’: Andoni Iraola on the secret of Spain’s success and his role at Liverpool",
+    "date": "2026-07-23",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/23/andoni-iraola-liverpool-interview-spain",
+    "summary": "‘Don’t become the protagonist’: Andoni Iraola on the secret of Spain’s success and his role at Liverpool",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-24T10:22:49.423Z"
+  },
+  {
+    "id": "cd81cae838a3",
+    "title": "Transfer roundup: Barcelona sign Adeyemi, Monaco’s Bamba set for Newcastle",
+    "date": "2026-07-23",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/23/transfer-roundup-barcelona-sign-karim-adeyemi-newcastle-aladji-bamba-monaco",
+    "summary": "Transfer roundup: Barcelona sign Adeyemi, Monaco’s Bamba set for Newcastle",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-24T10:22:49.423Z"
+  },
+  {
     "id": "067480051666",
     "title": "Blow for Manchester City with Rodri out for extended period due to back injury",
     "date": "2026-07-23",
@@ -5954,174 +6058,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-06-24T09:15:44.865Z"
-  },
-  {
-    "id": "756d5857395c",
-    "title": "Who is Hearts target Wouter Vrancken?",
-    "date": "2026-06-23",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c9320p3rlgzo?at_medium=RSS&at_campaign=rss",
-    "summary": "Who is Hearts target Wouter Vrancken?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-25T09:14:48.203Z"
-  },
-  {
-    "id": "d166a5d03307",
-    "title": "Spence appears not to shake hands with Partey",
-    "date": "2026-06-23",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cg4w21g45zyo?at_medium=RSS&at_campaign=rss",
-    "summary": "Spence appears not to shake hands with Partey",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-24T09:15:44.865Z"
-  },
-  {
-    "id": "b95295259fc2",
-    "title": "'Anxious moment for England' - should this have been Ghana penalty?",
-    "date": "2026-06-23",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/videos/cq61l08mj32o?at_medium=RSS&at_campaign=rss",
-    "summary": "'Anxious moment for England' - should this have been Ghana penalty?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-24T09:15:44.865Z"
-  },
-  {
-    "id": "4e3b302946af",
-    "title": "Tuchel credits 'committed' Ghana defending after England draw ",
-    "date": "2026-06-23",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/videos/c982ewd5pn5o?at_medium=RSS&at_campaign=rss",
-    "summary": "Tuchel credits 'committed' Ghana defending after England draw ",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-24T09:15:44.865Z"
-  },
-  {
-    "id": "7b3b3a5287c1",
-    "title": "Deschamps returns to France after death of his mother",
-    "date": "2026-06-23",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cp36q1yxgvko?at_medium=RSS&at_campaign=rss",
-    "summary": "Deschamps returns to France after death of his mother",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-24T09:15:44.865Z"
-  },
-  {
-    "id": "a9261340ed51",
-    "title": "Rice remains positive after England draw with Ghana",
-    "date": "2026-06-23",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/videos/cvg5vd1z2xko?at_medium=RSS&at_campaign=rss",
-    "summary": "Rice remains positive after England draw with Ghana",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-24T09:15:44.865Z"
-  },
-  {
-    "id": "2302ff57869a",
-    "title": "The trial that saved Antoine Semenyo's career",
-    "date": "2026-06-23",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/videos/c621qjnvrrzo?at_medium=RSS&at_campaign=rss",
-    "summary": "The trial that saved Antoine Semenyo's career",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-24T09:15:44.865Z"
-  },
-  {
-    "id": "b743d850360c",
-    "title": "Iran's US entry terms changed for final group game",
-    "date": "2026-06-23",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/ce8k4y0kz56o?at_medium=RSS&at_campaign=rss",
-    "summary": "Iran's US entry terms changed for final group game",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-24T09:15:44.865Z"
-  },
-  {
-    "id": "568d852cc838",
-    "title": "Ramsey appointed Oxford United head coach",
-    "date": "2026-06-23",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cvg43gnlyzxo?at_medium=RSS&at_campaign=rss",
-    "summary": "Ramsey appointed Oxford United head coach",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-24T09:15:44.865Z"
-  },
-  {
-    "id": "12ae2097baea",
-    "title": "Scotland have coping strategy for weather delays",
-    "date": "2026-06-23",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cp36q1w0yg6o?at_medium=RSS&at_campaign=rss",
-    "summary": "Scotland have coping strategy for weather delays",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-24T09:15:44.865Z"
-  },
-  {
-    "id": "00541f397dde",
-    "title": "England boss Tuchel not a fan of hydration breaks",
-    "date": "2026-06-23",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c4gyzknng1jo?at_medium=RSS&at_campaign=rss",
-    "summary": "England boss Tuchel not a fan of hydration breaks",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-23T09:17:28.639Z"
-  },
-  {
-    "id": "853b4f45e6e5",
-    "title": "France weather storm to beat Iraq and sail into knockouts",
-    "date": "2026-06-23",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/videos/cdr4jg87z71o?at_medium=RSS&at_campaign=rss",
-    "summary": "France weather storm to beat Iraq and sail into knockouts",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-23T09:17:28.639Z"
-  },
-  {
-    "id": "d113a55e55a8",
-    "title": "World Cup 2026: Messi makes history; Mbappé and Haaland double up; England face Ghana – live",
-    "date": "2026-06-23",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/live/2026/jun/23/world-cup-2026-news-live-messi-mbappe-haaland-england-ghana-portugal-uzbekistan-panama-croatia-colombia-dr-congo",
-    "summary": "World Cup 2026: Messi makes history; Mbappé and Haaland double up; England face Ghana – live",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-23T09:17:28.639Z"
   }
 ];
