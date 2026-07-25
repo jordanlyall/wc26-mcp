@@ -2,6 +2,58 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "665e697d3347",
+    "title": "Klopp starts Germany reign by threatening to quit",
+    "date": "2026-07-24",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cqjxd0n4gd2o?at_medium=RSS&at_campaign=rss",
+    "summary": "Klopp starts Germany reign by threatening to quit",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-25T09:52:48.116Z"
+  },
+  {
+    "id": "2fa5cc6e776d",
+    "title": "Van Bommel appointed Belgium head coach",
+    "date": "2026-07-24",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/czjle30y29xo?at_medium=RSS&at_campaign=rss",
+    "summary": "Van Bommel appointed Belgium head coach",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-25T09:52:48.116Z"
+  },
+  {
+    "id": "4050e8e76c27",
+    "title": "Argentina behaviour after World Cup final was ‘intolerable’, says De la Fuente",
+    "date": "2026-07-24",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/24/argentina-behaviour-world-cup-final-intolerable-de-la-fuente",
+    "summary": "Argentina behaviour after World Cup final was ‘intolerable’, says De la Fuente",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-25T09:52:48.116Z"
+  },
+  {
+    "id": "a3137a7b52cf",
+    "title": "David Squires on … the notable people and big moments from World Cup 2026",
+    "date": "2026-07-24",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/picture/2026/jul/24/david-squires-on-the-notable-people-and-big-moments-from-world-cup-2026",
+    "summary": "David Squires on … the notable people and big moments from World Cup 2026",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-25T09:52:48.116Z"
+  },
+  {
     "id": "2c9188a00747",
     "title": "Messiah or papering over cracks? Klopp must sway doubters in Germany rebuild",
     "date": "2026-07-24",
@@ -52,6 +104,19 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-07-24T10:22:49.423Z"
+  },
+  {
+    "id": "a5235a3f6e95",
+    "title": "Maldini confirms crisis-hit Italy have held talks with Guardiola and Ancelotti",
+    "date": "2026-07-23",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/23/paolo-maldini-italy-pep-guardiola-carlo-ancelotti-world-cup-new-manager",
+    "summary": "Maldini confirms crisis-hit Italy have held talks with Guardiola and Ancelotti",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-25T09:52:48.116Z"
   },
   {
     "id": "84f7ec3c800b",
@@ -5785,278 +5850,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-06-25T09:14:48.203Z"
-  },
-  {
-    "id": "792045bc8139",
-    "title": "Vinicius Jr pounces on Scotland mistake to give Brazil early lead",
-    "date": "2026-06-24",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/videos/c77yd2r6pj4o?at_medium=RSS&at_campaign=rss",
-    "summary": "Vinicius Jr pounces on Scotland mistake to give Brazil early lead",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-25T09:14:48.203Z"
-  },
-  {
-    "id": "25906938989c",
-    "title": "England's James and Rice to have fitness assessed",
-    "date": "2026-06-24",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cg4w2wk5vryo?at_medium=RSS&at_campaign=rss",
-    "summary": "England's James and Rice to have fitness assessed",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-25T09:14:48.203Z"
-  },
-  {
-    "id": "8f0527523dea",
-    "title": "Belgium going out? Sutton's World Cup 2026 score predictions - final group games",
-    "date": "2026-06-24",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cg74z733xmko?at_medium=RSS&at_campaign=rss",
-    "summary": "Belgium going out? Sutton's World Cup 2026 score predictions - final group games",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-25T09:14:48.203Z"
-  },
-  {
-    "id": "9747a2bece84",
-    "title": "Scotland keeper Gunn on Man Utd radar - Thursday's gossip",
-    "date": "2026-06-24",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c9v273npglmo?at_medium=RSS&at_campaign=rss",
-    "summary": "Scotland keeper Gunn on Man Utd radar - Thursday's gossip",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-25T09:14:48.203Z"
-  },
-  {
-    "id": "c91bed8b0038",
-    "title": "'What a moment!' Alajbegovic scores stunning opener for Bosnia",
-    "date": "2026-06-24",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/videos/cpwe1ljdykno?at_medium=RSS&at_campaign=rss",
-    "summary": "'What a moment!' Alajbegovic scores stunning opener for Bosnia",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-25T09:14:48.203Z"
-  },
-  {
-    "id": "3b8ec3be4afb",
-    "title": "BBC extends deal for Scotland, Wales and NI games",
-    "date": "2026-06-24",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cq81ep9v1x5o?at_medium=RSS&at_campaign=rss",
-    "summary": "BBC extends deal for Scotland, Wales and NI games",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-25T09:14:48.203Z"
-  },
-  {
-    "id": "1e38b66dd6fe",
-    "title": "What we learned from McInnes' Rangers unveiling",
-    "date": "2026-06-24",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cly79pv5d6do?at_medium=RSS&at_campaign=rss",
-    "summary": "What we learned from McInnes' Rangers unveiling",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-25T09:14:48.203Z"
-  },
-  {
-    "id": "1e38b66dd6fe",
-    "title": "What we learned from McInnes' Rangers unveiling",
-    "date": "2026-06-24",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cly79pv5d6do?at_medium=RSS&at_campaign=rss",
-    "summary": "What we learned from McInnes' Rangers unveiling",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-25T09:14:48.203Z"
-  },
-  {
-    "id": "c85630d7c290",
-    "title": "Canada lose home advantage for last 32 after Switzerland win to take top spot",
-    "date": "2026-06-24",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/24/canada-switzerland-group-b-2026-world-cup-match-report",
-    "summary": "Canada lose home advantage for last 32 after Switzerland win to take top spot",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-25T09:14:48.203Z"
-  },
-  {
-    "id": "ee1ccc9ad5fb",
-    "title": "Germany’s Kai Havertz: ‘I make runs that look pointless but I’m creating space’",
-    "date": "2026-06-24",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/24/kai-havertz-germany-world-cup-2026-interview",
-    "summary": "Germany’s Kai Havertz: ‘I make runs that look pointless but I’m creating space’",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-25T09:14:48.203Z"
-  },
-  {
-    "id": "ab3aec2ce8d2",
-    "title": "Budimir rescues Croatia with winner against Panama on Modric’s landmark day",
-    "date": "2026-06-24",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/24/croatia-panama-world-cup-2026-match-report",
-    "summary": "Budimir rescues Croatia with winner against Panama on Modric’s landmark day",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-25T09:14:48.203Z"
-  },
-  {
-    "id": "870f2554464f",
-    "title": "Ghana: 'VAR went for coffee' to aid 'lucky' Englan...",
-    "date": "2026-06-24",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/49159828/ghana-england-2026-world-cup-penalty-carlos-queiroz",
-    "summary": "Ghana: 'VAR went for coffee' to aid 'lucky' Englan...",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-24T09:15:44.865Z"
-  },
-  {
-    "id": "2bc5fc525503",
-    "title": "Pochettino: USMNT complacency was a 'big punch'",
-    "date": "2026-06-24",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/49162699/pochettino-admits-naive-usmnt-culture-2024-arrival-world-cup-2026",
-    "summary": "Pochettino: USMNT complacency was a 'big punch'",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-24T09:15:44.865Z"
-  },
-  {
-    "id": "834f54e71726",
-    "title": "Mexico players want Ochoa for historic WC start",
-    "date": "2026-06-24",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/49156230/mexico-players-back-memo-ochoa-historic-world-cup-start-czechia",
-    "summary": "Mexico players want Ochoa for historic WC start",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-24T09:15:44.865Z"
-  },
-  {
-    "id": "0298fc1d02c1",
-    "title": "World Cup Daily: England draw with Ghana; Ronaldo ...",
-    "date": "2026-06-24",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/49150583/messi-100-year-old-super-fan-sees-make-history-portugal-england-action",
-    "summary": "World Cup Daily: England draw with Ghana; Ronaldo ...",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-24T09:15:44.865Z"
-  },
-  {
-    "id": "495ec558db3a",
-    "title": "France star Kylian Mbappé is fast becoming 'Mr. Wo...",
-    "date": "2026-06-24",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/49148833/france-star-kylian-mbappe-fast-becoming-mr-world-cup",
-    "summary": "France star Kylian Mbappé is fast becoming 'Mr. Wo...",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-24T09:15:44.865Z"
-  },
-  {
-    "id": "8dc138cbf35c",
-    "title": "Silly tackle, bad reaction - Tuchel defends Bellingham after Queiroz row",
-    "date": "2026-06-24",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/ce8k4zr6l2no?at_medium=RSS&at_campaign=rss",
-    "summary": "Silly tackle, bad reaction - Tuchel defends Bellingham after Queiroz row",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-24T09:15:44.865Z"
-  },
-  {
-    "id": "fa971f2cfc4b",
-    "title": "World Cup 2026: England frustrated; Scotland face Brazil; Infantino defends hydration breaks – live",
-    "date": "2026-06-24",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/live/2026/jun/24/world-cup-2026-final-group-games-bosnia-and-herzegovina-qatar-switzerland-canada-scotland-brazil-morocco-haiti-czechia-mexico-south-africa-south-korea-live",
-    "summary": "World Cup 2026: England frustrated; Scotland face Brazil; Infantino defends hydration breaks – live",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-24T09:15:44.865Z"
-  },
-  {
-    "id": "72c97000ebff",
-    "title": "World Cup 2026: third-place table, who has qualified and who needs what?",
-    "date": "2026-06-24",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/24/world-cup-groups-permutations-round-of-32-usa-mexico-canada",
-    "summary": "World Cup 2026: third-place table, who has qualified and who needs what?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-24T09:15:44.865Z"
-  },
-  {
-    "id": "077a3c45106a",
-    "title": "Daniel Muñoz breaks DR Congo resistance to send Colombia into World Cup knockouts",
-    "date": "2026-06-24",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/24/colombia-dr-congo-world-cup-group-k-match-report",
-    "summary": "Daniel Muñoz breaks DR Congo resistance to send Colombia into World Cup knockouts",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-24T09:15:44.865Z"
-  },
-  {
-    "id": "3f3d3badfd9f",
-    "title": "Which footballers have refused to celebrate a goal against another country? | The Knowledge",
-    "date": "2026-06-24",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/24/international-players-refused-to-celebrate-goal-the-knowledge",
-    "summary": "Which footballers have refused to celebrate a goal against another country? | The Knowledge",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-24T09:15:44.865Z"
   }
 ];
