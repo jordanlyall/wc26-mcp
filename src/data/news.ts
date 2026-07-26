@@ -2,6 +2,71 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "e5e09b06e266",
+    "title": "Japan football great ‘King Kazu’ Miura, 59, scores first competitive goal in four years",
+    "date": "2026-07-26",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/26/japan-football-great-king-kazuyoshi-miura-59-scores-first-competitive-goal-for-four-years",
+    "summary": "Japan football great ‘King Kazu’ Miura, 59, scores first competitive goal in four years",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-26T10:03:49.914Z"
+  },
+  {
+    "id": "6a23aad4fd33",
+    "title": "Growing concerns before Defoe exit - Woking director",
+    "date": "2026-07-25",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c9v4y3dr9w0o?at_medium=RSS&at_campaign=rss",
+    "summary": "Growing concerns before Defoe exit - Woking director",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-26T10:03:49.914Z"
+  },
+  {
+    "id": "6372f4f380bf",
+    "title": "Arsenal make shock approach to sign Vinícius Júnior from Real Madrid",
+    "date": "2026-07-25",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/25/arsenal-inquiry-transfer-vinicius-junior-real-madrid",
+    "summary": "Arsenal make shock approach to sign Vinícius Júnior from Real Madrid",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-26T10:03:49.914Z"
+  },
+  {
+    "id": "c3a33605b877",
+    "title": "Defoe’s shock Woking exit came after ‘growing concerns’, says club",
+    "date": "2026-07-25",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/25/jermain-defoe-woking-exit",
+    "summary": "Defoe’s shock Woking exit came after ‘growing concerns’, says club",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-26T10:03:49.914Z"
+  },
+  {
+    "id": "087ca4ad243a",
+    "title": "Missing a major football tournament? Fear not, Wafcon 2026 is about to start",
+    "date": "2026-07-25",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/25/wafcon-2026-womens-africa-cup-nations-guide",
+    "summary": "Missing a major football tournament? Fear not, Wafcon 2026 is about to start",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-26T10:03:49.914Z"
+  },
+  {
     "id": "665e697d3347",
     "title": "Klopp starts Germany reign by threatening to quit",
     "date": "2026-07-24",
@@ -5603,252 +5668,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-06-26T09:14:42.175Z"
-  },
-  {
-    "id": "26b4b91d351d",
-    "title": "Ivory Coast defeat Curacao to progress to knockout stages for first time",
-    "date": "2026-06-25",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/videos/c2dyp5znl85o?at_medium=RSS&at_campaign=rss",
-    "summary": "Ivory Coast defeat Curacao to progress to knockout stages for first time",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-26T09:14:42.175Z"
-  },
-  {
-    "id": "201c31f394b2",
-    "title": "James doubtful for Panama but England hopeful on Rice",
-    "date": "2026-06-25",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cp8rywj8rnpo?at_medium=RSS&at_campaign=rss",
-    "summary": "James doubtful for Panama but England hopeful on Rice",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-26T09:14:42.175Z"
-  },
-  {
-    "id": "4160de35be5e",
-    "title": "Why it's time for Saka and Rashford - Shearer",
-    "date": "2026-06-25",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cwyl7dpnx1no?at_medium=RSS&at_campaign=rss",
-    "summary": "Why it's time for Saka and Rashford - Shearer",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-26T09:14:42.175Z"
-  },
-  {
-    "id": "7a350e1bbb57",
-    "title": "Plata's 'touch of gold' gives Ecuador lead against Germany",
-    "date": "2026-06-25",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/videos/cpd322zzv90o?at_medium=RSS&at_campaign=rss",
-    "summary": "Plata's 'touch of gold' gives Ecuador lead against Germany",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-26T09:14:42.175Z"
-  },
-  {
-    "id": "92249d827793",
-    "title": "Germany goal should have been ruled out for 'endangering opponent'",
-    "date": "2026-06-25",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/videos/cqx1wqx9n27o?at_medium=RSS&at_campaign=rss",
-    "summary": "Germany goal should have been ruled out for 'endangering opponent'",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-26T09:14:42.175Z"
-  },
-  {
-    "id": "47452a8e4e77",
-    "title": "Sane fires Germany ahead as Ecuador calls for foul waived away",
-    "date": "2026-06-25",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/videos/c1dypzd45dvo?at_medium=RSS&at_campaign=rss",
-    "summary": "Sane fires Germany ahead as Ecuador calls for foul waived away",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-26T09:14:42.175Z"
-  },
-  {
-    "id": "1d5785182660",
-    "title": "Bellamy to stay with Wales as Burnley move off",
-    "date": "2026-06-25",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cnv9e5pq142o?at_medium=RSS&at_campaign=rss",
-    "summary": "Bellamy to stay with Wales as Burnley move off",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-26T09:14:42.175Z"
-  },
-  {
-    "id": "7f7b09a54632",
-    "title": "Pochettino has US believing they can be World Cup winners",
-    "date": "2026-06-25",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cvgm9jvemlno?at_medium=RSS&at_campaign=rss",
-    "summary": "Pochettino has US believing they can be World Cup winners",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-26T09:14:42.175Z"
-  },
-  {
-    "id": "fd7f7c7e24de",
-    "title": "Godfrey signs new three-year deal with London City",
-    "date": "2026-06-25",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cly89qv587xo?at_medium=RSS&at_campaign=rss",
-    "summary": "Godfrey signs new three-year deal with London City",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-26T09:14:42.175Z"
-  },
-  {
-    "id": "afbcb1dbc7e8",
-    "title": "Plata’s golden touch against Germany sends Ecuador into World Cup last 32",
-    "date": "2026-06-25",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/25/ecuador-germany-world-cup-match-report",
-    "summary": "Plata’s golden touch against Germany sends Ecuador into World Cup last 32",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-26T09:14:42.175Z"
-  },
-  {
-    "id": "48cad61136a2",
-    "title": "Côte d’Ivoire into World Cup knockouts for first time as Pépé finishes off Curaçao",
-    "date": "2026-06-25",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/25/pepe-at-the-double-as-cote-divoire-beat-curacao-and-claim-place-in-last-32",
-    "summary": "Côte d’Ivoire into World Cup knockouts for first time as Pépé finishes off Curaçao",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-26T09:14:42.175Z"
-  },
-  {
-    "id": "a5b10d8a14b5",
-    "title": "Erling Haaland v Kylian Mbappé: how the Norway and France hitmen match up",
-    "date": "2026-06-25",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/25/erling-haaland-v-kylian-mbappe-how-the-norway-and-france-hitmen-match-up",
-    "summary": "Erling Haaland v Kylian Mbappé: how the Norway and France hitmen match up",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-26T09:14:42.175Z"
-  },
-  {
-    "id": "772b4a081684",
-    "title": "'Think we're going home' - Clarke & McGinn rue Scotland mistakes",
-    "date": "2026-06-25",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cd7w27eg5jro?at_medium=RSS&at_campaign=rss",
-    "summary": "'Think we're going home' - Clarke & McGinn rue Scotland mistakes",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-25T09:14:48.203Z"
-  },
-  {
-    "id": "6253f69c5f5d",
-    "title": "World Cup 2026: Scotland on brink after Brazil defeat, South Africa advance, and more – live",
-    "date": "2026-06-25",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/live/2026/jun/25/world-cup-2026-scotland-agony-as-brazil-hit-hopes-of-progress-south-africa-advance-and-more-live",
-    "summary": "World Cup 2026: Scotland on brink after Brazil defeat, South Africa advance, and more – live",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-25T09:14:48.203Z"
-  },
-  {
-    "id": "206509225c5c",
-    "title": "Vinícius Júnior leads Brazil’s star cast in blockbuster show against sorry Scotland | Paul MacInnes",
-    "date": "2026-06-25",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/25/vinicius-junior-leads-brazil-star-cast-in-blockbuster-show-against-sorry-scotland",
-    "summary": "Vinícius Júnior leads Brazil’s star cast in blockbuster show against sorry Scotland | Paul MacInnes",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-25T09:14:48.203Z"
-  },
-  {
-    "id": "ca87fa0d0590",
-    "title": "Fidalgo caps Mexico rout as co-hosts maintain 100% record and send Czechia out",
-    "date": "2026-06-25",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/25/mexico-czechia-world-cup-2026-match-report",
-    "summary": "Fidalgo caps Mexico rout as co-hosts maintain 100% record and send Czechia out",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-25T09:14:48.203Z"
-  },
-  {
-    "id": "a3889ef4fd2a",
-    "title": "Socceroos look to Paraguay ‘challenge’ with World Cup fate in their own hands",
-    "date": "2026-06-25",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/25/socceroos-australia-paraguay-game-permutations-last-32-world-cup",
-    "summary": "Socceroos look to Paraguay ‘challenge’ with World Cup fate in their own hands",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-25T09:14:48.203Z"
-  },
-  {
-    "id": "806a0ab41215",
-    "title": "How a ‘naive’ Mauricio Pochettino’s lowest moments turned the USMNT into World Cup darlings",
-    "date": "2026-06-25",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/25/mauricio-pochettino-usa-turkey-world-cup-preview",
-    "summary": "How a ‘naive’ Mauricio Pochettino’s lowest moments turned the USMNT into World Cup darlings",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-25T09:14:48.203Z"
-  },
-  {
-    "id": "c4557daed571",
-    "title": "Bosnia and Herzegovina book place in knockout stage after seeing off Qatar",
-    "date": "2026-06-25",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/24/bosnia-herzegovina-qatar-group-b-world-cup-2026-match-report",
-    "summary": "Bosnia and Herzegovina book place in knockout stage after seeing off Qatar",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-25T09:14:48.203Z"
   }
 ];
