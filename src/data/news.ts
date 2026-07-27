@@ -2,6 +2,58 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "6e5c22d31e26",
+    "title": "Football Weekly’s summer mailbag: World Cup 2026, the off-season and more, part one – video",
+    "date": "2026-07-27",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/video/2026/jul/27/football-weeklys-summer-mailbag-world-cup-2026-the-off-season-and-more-part-one-video",
+    "summary": "Football Weekly’s summer mailbag: World Cup 2026, the off-season and more, part one – video",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-27T11:28:48.319Z"
+  },
+  {
+    "id": "96658b74e89c",
+    "title": "Real Madrid ready to seal deal for Yan Diomande after PSG pull out of move",
+    "date": "2026-07-26",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/26/real-madrid-ready-to-seal-deal-for-yan-diomande-after-psg-pull-out-of-move",
+    "summary": "Real Madrid ready to seal deal for Yan Diomande after PSG pull out of move",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-27T11:28:48.319Z"
+  },
+  {
+    "id": "5c51bfc889d0",
+    "title": "Inter enter talks with Tottenham over signing captain Cristian Romero",
+    "date": "2026-07-26",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/26/inter-enter-talks-with-tottenham-over-signing-captain-cristian-romero-transfer-window",
+    "summary": "Inter enter talks with Tottenham over signing captain Cristian Romero",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-27T11:28:48.319Z"
+  },
+  {
+    "id": "d7c451269b1b",
+    "title": "Tottenham begin tour with victory over Auckland FC in front of record crowd",
+    "date": "2026-07-26",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/26/tottenham-begin-tour-with-victory-over-auckland-fc-in-front-of-record-crowd",
+    "summary": "Tottenham begin tour with victory over Auckland FC in front of record crowd",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-27T11:28:48.319Z"
+  },
+  {
     "id": "e5e09b06e266",
     "title": "Japan football great ‘King Kazu’ Miura, 59, scores first competitive goal in four years",
     "date": "2026-07-26",
@@ -5525,148 +5577,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-06-27T09:02:19.502Z"
-  },
-  {
-    "id": "aaeb2731da50",
-    "title": "Wales boss Bellamy has 'burnt bridges' - Roberts",
-    "date": "2026-06-26",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c4gywygqlgdo?at_medium=RSS&at_campaign=rss",
-    "summary": "Wales boss Bellamy has 'burnt bridges' - Roberts",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-27T09:02:19.502Z"
-  },
-  {
-    "id": "fe629d9070b3",
-    "title": "17 passes, all 11 players - Dembele scores 'magic' goal for France",
-    "date": "2026-06-26",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/videos/cr47dxpkxnzo?at_medium=RSS&at_campaign=rss",
-    "summary": "17 passes, all 11 players - Dembele scores 'magic' goal for France",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-27T09:02:19.502Z"
-  },
-  {
-    "id": "71ee486e057b",
-    "title": "Why there's more to Spain than Lamine Yamal - Azpilicueta",
-    "date": "2026-06-26",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cg531yd0ddpo?at_medium=RSS&at_campaign=rss",
-    "summary": "Why there's more to Spain than Lamine Yamal - Azpilicueta",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-27T09:02:19.502Z"
-  },
-  {
-    "id": "dc1d8ab51665",
-    "title": "Start Rashford? Bring O'Reilly back? Pick your England XI to face Panama",
-    "date": "2026-06-26",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/crm0xrg8j4ro?at_medium=RSS&at_campaign=rss",
-    "summary": "Start Rashford? Bring O'Reilly back? Pick your England XI to face Panama",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-27T09:02:19.502Z"
-  },
-  {
-    "id": "a323b0515bbb",
-    "title": "Turkey end World Cup on high with last-gasp win over USA",
-    "date": "2026-06-26",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/videos/c8j2rxn00d4o?at_medium=RSS&at_campaign=rss",
-    "summary": "Turkey end World Cup on high with last-gasp win over USA",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-26T09:14:42.175Z"
-  },
-  {
-    "id": "88e2432bbbd2",
-    "title": "Beccacece goes from brink to World Cup history with Ecuador ",
-    "date": "2026-06-26",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cqx133qlve2o?at_medium=RSS&at_campaign=rss",
-    "summary": "Beccacece goes from brink to World Cup history with Ecuador ",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-26T09:14:42.175Z"
-  },
-  {
-    "id": "294f208a6ee2",
-    "title": "'Oh my word!' - Elanga 'stunner' draws Sweden level",
-    "date": "2026-06-26",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/videos/c7vy8mg3mr0o?at_medium=RSS&at_campaign=rss",
-    "summary": "'Oh my word!' - Elanga 'stunner' draws Sweden level",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-26T09:14:42.175Z"
-  },
-  {
-    "id": "6cb493857c9f",
-    "title": "Hearts' Braga plays down transfer talk - gossip",
-    "date": "2026-06-26",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/articles/c78yzk95npxo?at_medium=RSS&at_campaign=rss",
-    "summary": "Hearts' Braga plays down transfer talk - gossip",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-26T09:14:42.175Z"
-  },
-  {
-    "id": "7ed2990e0be6",
-    "title": "World Cup 2026: Haaland and Mbappé face off; Ecuador’s national holiday; Scotland still in limbo – live",
-    "date": "2026-06-26",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/live/2026/jun/26/world-cup-2026-norway-france-senegal-iraq-cape-verde-saudi-arabia-uruguay-spain-egypt-iran-new-zealand-belgium-live",
-    "summary": "World Cup 2026: Haaland and Mbappé face off; Ecuador’s national holiday; Scotland still in limbo – live",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-26T09:14:42.175Z"
-  },
-  {
-    "id": "044247a4a7fc",
-    "title": "USA suffer late defeat to Turkey but eye Bosnia and Herzegovina in World Cup knockout stage",
-    "date": "2026-06-26",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/26/turkey-usa-world-cup-2026-match-report",
-    "summary": "USA suffer late defeat to Turkey but eye Bosnia and Herzegovina in World Cup knockout stage",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-26T09:14:42.175Z"
-  },
-  {
-    "id": "12a9ae58ff80",
-    "title": "Fifa unites the world – in anger at hydration breaks (AKA ad breaks) | Barney Ronay",
-    "date": "2026-06-26",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/26/fifa-unites-the-world-in-anger-at-hydration-breaks-aka-ad-breaks",
-    "summary": "Fifa unites the world – in anger at hydration breaks (AKA ad breaks) | Barney Ronay",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-26T09:14:42.175Z"
   }
 ];
