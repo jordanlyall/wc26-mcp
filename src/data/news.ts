@@ -2,6 +2,58 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "5387a9bae091",
+    "title": "Zidane confirmed as France head coach",
+    "date": "2026-07-28",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cpd741qn2y9o?at_medium=RSS&at_campaign=rss",
+    "summary": "Zidane confirmed as France head coach",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-28T10:38:58.468Z"
+  },
+  {
+    "id": "8a2d843f3b1c",
+    "title": "France turn to ‘legend’ Zinedine Zidane as head coach in long-awaited homecoming",
+    "date": "2026-07-28",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/28/france-zinedine-zidane-head-coach-long-awaited-homecoming",
+    "summary": "France turn to ‘legend’ Zinedine Zidane as head coach in long-awaited homecoming",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-28T10:38:58.468Z"
+  },
+  {
+    "id": "f3c483a02e86",
+    "title": "Maldini and Leonardo resign from Italian FA after Pirlo appointment falls through",
+    "date": "2026-07-27",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/27/andrea-pirlo-out-of-running-for-italy-job-but-defends-deal-with-russian-betting-firm",
+    "summary": "Maldini and Leonardo resign from Italian FA after Pirlo appointment falls through",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-28T10:38:58.468Z"
+  },
+  {
+    "id": "978009d996cf",
+    "title": "Football Daily | Vinícius to Arsenal? Club football’s military industrial complex kicks back into gear",
+    "date": "2026-07-27",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/27/football-daily-email-transfer-season",
+    "summary": "Football Daily | Vinícius to Arsenal? Club football’s military industrial complex kicks back into gear",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-28T10:38:58.468Z"
+  },
+  {
     "id": "6e5c22d31e26",
     "title": "Football Weekly’s summer mailbag: World Cup 2026, the off-season and more, part one – video",
     "date": "2026-07-27",
@@ -5317,265 +5369,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-06-28T09:10:27.729Z"
-  },
-  {
-    "id": "4adc86797aec",
-    "title": "Clarke steps down as Scotland boss after World Cup exit",
-    "date": "2026-06-27",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c5yzq73x1p7o?at_medium=RSS&at_campaign=rss",
-    "summary": "Clarke steps down as Scotland boss after World Cup exit",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-28T09:10:27.729Z"
-  },
-  {
-    "id": "a5d9724a1450",
-    "title": "Man Utd waiting on Ugarte injury after he leaves pitch on stretcher",
-    "date": "2026-06-27",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c5yz923kk3po?at_medium=RSS&at_campaign=rss",
-    "summary": "Man Utd waiting on Ugarte injury after he leaves pitch on stretcher",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-28T09:10:27.729Z"
-  },
-  {
-    "id": "daf328480054",
-    "title": "Gunter's journey to mentor as Wales host U19 Euros",
-    "date": "2026-06-27",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cr47q77g93yo?at_medium=RSS&at_campaign=rss",
-    "summary": "Gunter's journey to mentor as Wales host U19 Euros",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-28T09:10:27.729Z"
-  },
-  {
-    "id": "a681f2341a38",
-    "title": "Spain’s Nico Williams hits out at ‘completely unnecessary’ Uruguay tackle that injured him",
-    "date": "2026-06-27",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/27/spain-injuries-yeremy-pino-miss-world-cup-nico-williams",
-    "summary": "Spain’s Nico Williams hits out at ‘completely unnecessary’ Uruguay tackle that injured him",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-28T09:10:27.729Z"
-  },
-  {
-    "id": "7e2ef06ae746",
-    "title": "Hugo Broos rises above South Africa’s problems to break new World Cup ground",
-    "date": "2026-06-27",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/27/hugo-broos-rose-above-south-africas-problems-to-reach-world-cup-last-32",
-    "summary": "Hugo Broos rises above South Africa’s problems to break new World Cup ground",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-28T09:10:27.729Z"
-  },
-  {
-    "id": "d648ed5f7da1",
-    "title": "Uruguay yank keeper at HT after howler vs. Spain",
-    "date": "2026-06-27",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/49192407/uruguay-yank-keeper-muslera-howler-spain",
-    "summary": "Uruguay yank keeper at HT after howler vs. Spain",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-27T09:02:19.502Z"
-  },
-  {
-    "id": "033e3440e307",
-    "title": "Spain win group but could lose Pino for rest of WC...",
-    "date": "2026-06-27",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/49193963/spain-2026-world-cup-injury-yeremy-pino-nico-williams",
-    "summary": "Spain win group but could lose Pino for rest of WC...",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-27T09:02:19.502Z"
-  },
-  {
-    "id": "1c79bb88ae76",
-    "title": "Norway coach: No Haaland vs. France a 'no-brainer'...",
-    "date": "2026-06-27",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/49190980/norway-stale-solbakken-world-cup-erling-haaland-benched-no-brainer",
-    "summary": "Norway coach: No Haaland vs. France a 'no-brainer'...",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-27T09:02:19.502Z"
-  },
-  {
-    "id": "b675001f549a",
-    "title": "Messi to start on bench for Argentina group finale...",
-    "date": "2026-06-27",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/49191791/lionel-messi-argentina-bench-jordan-fifa-2026-world-cup",
-    "summary": "Messi to start on bench for Argentina group finale...",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-27T09:02:19.502Z"
-  },
-  {
-    "id": "cddc9fcb44a3",
-    "title": "Ancelotti says Brazil are finally on the right tra...",
-    "date": "2026-06-27",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/49192698/brazil-improved-world-cup-enough",
-    "summary": "Ancelotti says Brazil are finally on the right tra...",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-27T09:02:19.502Z"
-  },
-  {
-    "id": "ed37337cfb7e",
-    "title": "'Nothing is impossible' - Cape Verde make history to set up Argentina tie",
-    "date": "2026-06-27",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c0mypzl7v2xo?at_medium=RSS&at_campaign=rss",
-    "summary": "'Nothing is impossible' - Cape Verde make history to set up Argentina tie",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-27T09:02:19.502Z"
-  },
-  {
-    "id": "354308d4014a",
-    "title": "'I leave nothing' - the end of 'toxic' Bielsa's Uruguay reign",
-    "date": "2026-06-27",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/ce95d89x5meo?at_medium=RSS&at_campaign=rss",
-    "summary": "'I leave nothing' - the end of 'toxic' Bielsa's Uruguay reign",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-27T09:02:19.502Z"
-  },
-  {
-    "id": "fe4c666686bd",
-    "title": "VAR rules out late winner to deny Iran guaranteed last-32 spot",
-    "date": "2026-06-27",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/videos/c2lyvj54k7ro?at_medium=RSS&at_campaign=rss",
-    "summary": "VAR rules out late winner to deny Iran guaranteed last-32 spot",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-27T09:02:19.502Z"
-  },
-  {
-    "id": "e2dbf9032b56",
-    "title": "Messi to start final Argentina group match on bench",
-    "date": "2026-06-27",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cd95zlv7jz7o?at_medium=RSS&at_campaign=rss",
-    "summary": "Messi to start final Argentina group match on bench",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-27T09:02:19.502Z"
-  },
-  {
-    "id": "c30e1833cbd5",
-    "title": "Egypt through but late drama denies Iran guaranteed last 32 spot",
-    "date": "2026-06-27",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/videos/cx2vlxjnxrro?at_medium=RSS&at_campaign=rss",
-    "summary": "Egypt through but late drama denies Iran guaranteed last 32 spot",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-27T09:02:19.502Z"
-  },
-  {
-    "id": "2b1291ac56d4",
-    "title": "Cape Verde's incredible World Cup journey continues after Saudi draw",
-    "date": "2026-06-27",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/videos/cql1v2p7949o?at_medium=RSS&at_campaign=rss",
-    "summary": "Cape Verde's incredible World Cup journey continues after Saudi draw",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-27T09:02:19.502Z"
-  },
-  {
-    "id": "1a6ba5ef2fca",
-    "title": "'The fairytale continues!' Emotional scenes as Cape Verde qualify for last 32",
-    "date": "2026-06-27",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/videos/cx2d8gvdlr0o?at_medium=RSS&at_campaign=rss",
-    "summary": "'The fairytale continues!' Emotional scenes as Cape Verde qualify for last 32",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-27T09:02:19.502Z"
-  },
-  {
-    "id": "1827141ca628",
-    "title": "From supermarket to World Cup - the forgotten England team",
-    "date": "2026-06-27",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cn4rlm9834no?at_medium=RSS&at_campaign=rss",
-    "summary": "From supermarket to World Cup - the forgotten England team",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-27T09:02:19.502Z"
-  },
-  {
-    "id": "e4ac42e8de54",
-    "title": "World Cup 2026: England through, Scotland wait goes on and joy for Cape Verde – live",
-    "date": "2026-06-27",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/live/2026/jun/27/world-cup-2026-news-live-england-panama-croatia-ghana-colombia-portugal-dr-congo-uzbekistan-live",
-    "summary": "World Cup 2026: England through, Scotland wait goes on and joy for Cape Verde – live",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-27T09:02:19.502Z"
-  },
-  {
-    "id": "d3e9443deac2",
-    "title": "‘This must never happen again’: Iran coach hits out at the US and tells Infantino to stand up against hosts",
-    "date": "2026-06-27",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/27/this-must-never-happen-again-iran-coach-hits-out-at-the-us-and-tells-infantino-to-stand-up-against-hosts",
-    "summary": "‘This must never happen again’: Iran coach hits out at the US and tells Infantino to stand up against hosts",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-27T09:02:19.502Z"
   }
 ];
