@@ -2,6 +2,123 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "20d81cfd43c5",
+    "title": "Cucurella gets tattoo of Spain coach De la Fuente",
+    "date": "2026-07-29",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cdewdedl44go?at_medium=RSS&at_campaign=rss",
+    "summary": "Cucurella gets tattoo of Spain coach De la Fuente",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-29T10:42:24.497Z"
+  },
+  {
+    "id": "a8a406e86816",
+    "title": "Palace hold talks with ex-Arsenal defender Tomiyasu",
+    "date": "2026-07-29",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c0qv8e7e0l0o?at_medium=RSS&at_campaign=rss",
+    "summary": "Palace hold talks with ex-Arsenal defender Tomiyasu",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-29T10:42:24.497Z"
+  },
+  {
+    "id": "3c95272949b5",
+    "title": "Middlesbrough sign USA midfielder Berhalter",
+    "date": "2026-07-29",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c4g36ggy415o?at_medium=RSS&at_campaign=rss",
+    "summary": "Middlesbrough sign USA midfielder Berhalter",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-29T10:42:24.497Z"
+  },
+  {
+    "id": "3e35e5d29da7",
+    "title": "Relive Zidane's World Cup masterclass as he's named France head coach",
+    "date": "2026-07-28",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/videos/cpvwkdnpgkpo?at_medium=RSS&at_campaign=rss",
+    "summary": "Relive Zidane's World Cup masterclass as he's named France head coach",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-29T10:42:24.497Z"
+  },
+  {
+    "id": "fd68ae619e85",
+    "title": "England keeper Hampton extends deal at Chelsea",
+    "date": "2026-07-28",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c4gvew81dd0o?at_medium=RSS&at_campaign=rss",
+    "summary": "England keeper Hampton extends deal at Chelsea",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-29T10:42:24.497Z"
+  },
+  {
+    "id": "23e4644c3a5d",
+    "title": "Leicester close in on Swansea's Wales forward Cullen",
+    "date": "2026-07-28",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c3v0565x0v2o?at_medium=RSS&at_campaign=rss",
+    "summary": "Leicester close in on Swansea's Wales forward Cullen",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-29T10:42:24.497Z"
+  },
+  {
+    "id": "fd68ae619e85",
+    "title": "England keeper Hampton extends deal at Chelsea",
+    "date": "2026-07-28",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c4gvew81dd0o?at_medium=RSS&at_campaign=rss",
+    "summary": "England keeper Hampton extends deal at Chelsea",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-29T10:42:24.497Z"
+  },
+  {
+    "id": "aab9d391efcc",
+    "title": "Milos Kerkez: ‘I’m delighted – Andoni Iraola is the perfect fit for Liverpool’",
+    "date": "2026-07-28",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/28/milos-kerkez-andoni-iraola-liverpool",
+    "summary": "Milos Kerkez: ‘I’m delighted – Andoni Iraola is the perfect fit for Liverpool’",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-29T10:42:24.497Z"
+  },
+  {
+    "id": "5443a678de85",
+    "title": "Roberto Mancini returns as Italy head coach with Claudio Ranieri named technical director",
+    "date": "2026-07-28",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/28/roberto-mancini-returns-italy-head-coach-claudio-ranieri-technical-director",
+    "summary": "Roberto Mancini returns as Italy head coach with Claudio Ranieri named technical director",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-29T10:42:24.497Z"
+  },
+  {
     "id": "5387a9bae091",
     "title": "Zidane confirmed as France head coach",
     "date": "2026-07-28",
@@ -5018,356 +5135,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-06-29T09:44:20.042Z"
-  },
-  {
-    "id": "118f648e7312",
-    "title": "Canada first into last 16 as Stephen Eustáquio scores in stoppage time against South Africa",
-    "date": "2026-06-28",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/28/south-africa-canada-world-cup-last-32-match-report",
-    "summary": "Canada first into last 16 as Stephen Eustáquio scores in stoppage time against South Africa",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-30T09:15:54.684Z"
-  },
-  {
-    "id": "23543769ca59",
-    "title": "Canada into last 16 with late winner against South Africa",
-    "date": "2026-06-28",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/videos/clyx5432r8do?at_medium=RSS&at_campaign=rss",
-    "summary": "Canada into last 16 with late winner against South Africa",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-29T09:44:20.042Z"
-  },
-  {
-    "id": "6d92159d0a4f",
-    "title": "How Bellingham became Tuchel's most important player",
-    "date": "2026-06-28",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c4gy5vj7npqo?at_medium=RSS&at_campaign=rss",
-    "summary": "How Bellingham became Tuchel's most important player",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-29T09:44:20.042Z"
-  },
-  {
-    "id": "17a7d814bf71",
-    "title": "Eustaquio scores in injury-time to take Canada through to the last 16",
-    "date": "2026-06-28",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/videos/c79yr8npv9go?at_medium=RSS&at_campaign=rss",
-    "summary": "Eustaquio scores in injury-time to take Canada through to the last 16",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-29T09:44:20.042Z"
-  },
-  {
-    "id": "f94a93f06228",
-    "title": "Ugarte has 'most serious injury footballer can face'",
-    "date": "2026-06-28",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c5yzx3de02jo?at_medium=RSS&at_campaign=rss",
-    "summary": "Ugarte has 'most serious injury footballer can face'",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-29T09:44:20.042Z"
-  },
-  {
-    "id": "1a4bc72fd670",
-    "title": "Who do Scotland fans want as the next head coach?",
-    "date": "2026-06-28",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cn4rdnv0p3wo?at_medium=RSS&at_campaign=rss",
-    "summary": "Who do Scotland fans want as the next head coach?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-29T09:44:20.042Z"
-  },
-  {
-    "id": "24aae6ac2074",
-    "title": "Small-minded SFA must ditch parochial mentality if Scotland are to thrive | Ewan Murray",
-    "date": "2026-06-28",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/28/scotland-search-new-coach-replace-steve-clarke",
-    "summary": "Small-minded SFA must ditch parochial mentality if Scotland are to thrive | Ewan Murray",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-29T09:44:20.042Z"
-  },
-  {
-    "id": "82e322cf0afc",
-    "title": "Father figure Carlo Ancelotti will have a plan for Brazil. He always has a plan | Rodrygo",
-    "date": "2026-06-28",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/28/carlo-ancelotti-brazil-japan-world-cup",
-    "summary": "Father figure Carlo Ancelotti will have a plan for Brazil. He always has a plan | Rodrygo",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-29T09:44:20.042Z"
-  },
-  {
-    "id": "45bbc20b99c2",
-    "title": "Manchester United’s Manuel Ugarte set for spell on sidelines with knee injury",
-    "date": "2026-06-28",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/28/manchester-united-knee-ligament-manuel-ugarte-uruguay-world-cup",
-    "summary": "Manchester United’s Manuel Ugarte set for spell on sidelines with knee injury",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-29T09:44:20.042Z"
-  },
-  {
-    "id": "f8de7d342781",
-    "title": "South Korea coach resigns after president condemns ‘incompetent people’ in World Cup exit",
-    "date": "2026-06-28",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/28/south-korea-coach-resigns-president-condemns-world-cup-exit",
-    "summary": "South Korea coach resigns after president condemns ‘incompetent people’ in World Cup exit",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-29T09:44:20.042Z"
-  },
-  {
-    "id": "d6c028b083cc",
-    "title": "World Cup 2026 colour chart: fans of all 48 teams join the party – in pictures",
-    "date": "2026-06-28",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/28/world-cup-2026-colour-chart-fans-all-teams-gallery",
-    "summary": "World Cup 2026 colour chart: fans of all 48 teams join the party – in pictures",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-29T09:44:20.042Z"
-  },
-  {
-    "id": "8296f78dddb8",
-    "title": "‘Street football on world stage’: Morocco and Netherlands face off in last-32 tie with a backstory",
-    "date": "2026-06-28",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/28/street-football-on-world-stage-morocco-and-netherlands-face-off-in-last-32-game-with-a-backstory",
-    "summary": "‘Street football on world stage’: Morocco and Netherlands face off in last-32 tie with a backstory",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-29T09:44:20.042Z"
-  },
-  {
-    "id": "7a70b38a3284",
-    "title": "Iran needed help to save their ‘disaster’ World Cup. Instead they got more heartbreak",
-    "date": "2026-06-28",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/28/iran-world-cup-exit-heartbreak",
-    "summary": "Iran needed help to save their ‘disaster’ World Cup. Instead they got more heartbreak",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-29T09:44:20.042Z"
-  },
-  {
-    "id": "8be832e8124d",
-    "title": "Best team, moments, matches and players of World Cup group stage",
-    "date": "2026-06-28",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/ce3e256752qo?at_medium=RSS&at_campaign=rss",
-    "summary": "Best team, moments, matches and players of World Cup group stage",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-28T09:10:27.729Z"
-  },
-  {
-    "id": "5c7b345025d3",
-    "title": "New deal, new beginnings & a sudden exit - Clarke's Scotland timeline",
-    "date": "2026-06-28",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/ce8mqmg327vo?at_medium=RSS&at_campaign=rss",
-    "summary": "New deal, new beginnings & a sudden exit - Clarke's Scotland timeline",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-28T09:10:27.729Z"
-  },
-  {
-    "id": "83bbcb5a4cab",
-    "title": "Austria score dramatic late equaliser against Algeria as both progress",
-    "date": "2026-06-28",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/videos/czxqdylvv16o?at_medium=RSS&at_campaign=rss",
-    "summary": "Austria score dramatic late equaliser against Algeria as both progress",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-28T09:10:27.729Z"
-  },
-  {
-    "id": "0d2c472c54ca",
-    "title": "Algeria and Austria both qualify for last 32 after dramatic injury-time goals",
-    "date": "2026-06-28",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/videos/ce8jne01mn2o?at_medium=RSS&at_campaign=rss",
-    "summary": "Algeria and Austria both qualify for last 32 after dramatic injury-time goals",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-28T09:10:27.729Z"
-  },
-  {
-    "id": "143931647706",
-    "title": "Messi comes off the bench to score as Argentina beat Jordan",
-    "date": "2026-06-28",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/videos/cy49de3rp12o?at_medium=RSS&at_campaign=rss",
-    "summary": "Messi comes off the bench to score as Argentina beat Jordan",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-28T09:10:27.729Z"
-  },
-  {
-    "id": "2493043f195d",
-    "title": "'Bye-bye, Scotland!' - Clarke's leaving letter to the Tartan Army",
-    "date": "2026-06-28",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c74yxdq1ky0o?at_medium=RSS&at_campaign=rss",
-    "summary": "'Bye-bye, Scotland!' - Clarke's leaving letter to the Tartan Army",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-28T09:10:27.729Z"
-  },
-  {
-    "id": "73f47e52dc5d",
-    "title": "Tuchel worried about right-back situation",
-    "date": "2026-06-28",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cj9gyp71ge4o?at_medium=RSS&at_campaign=rss",
-    "summary": "Tuchel worried about right-back situation",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-28T09:10:27.729Z"
-  },
-  {
-    "id": "a0c004b5f939",
-    "title": "Salah an injury doubt for Egypt's last-32 tie",
-    "date": "2026-06-28",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c0mypyw1130o?at_medium=RSS&at_campaign=rss",
-    "summary": "Salah an injury doubt for Egypt's last-32 tie",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-28T09:10:27.729Z"
-  },
-  {
-    "id": "6e6b7d5ea2b5",
-    "title": "'Get rid of VAR!' Rooney unhappy Sanchez goal ruled out",
-    "date": "2026-06-28",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/videos/c20ygyddl5no?at_medium=RSS&at_campaign=rss",
-    "summary": "'Get rid of VAR!' Rooney unhappy Sanchez goal ruled out",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-28T09:10:27.729Z"
-  },
-  {
-    "id": "2f19b825a0ca",
-    "title": "World Cup 2026: England win, Clarke quits Scotland and Iran denied at the last – live",
-    "date": "2026-06-28",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/live/2026/jun/28/world-cup-2026-england-win-clarke-quits-scotland-and-iran-denied-at-the-last-live",
-    "summary": "World Cup 2026: England win, Clarke quits Scotland and Iran denied at the last – live",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-28T09:10:27.729Z"
-  },
-  {
-    "id": "ac1fe020c1f1",
-    "title": "Late drama sends Austria and Algeria into World Cup knockouts to break Iran hearts",
-    "date": "2026-06-28",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/28/algeria-austria-world-cup-group-j-match-report",
-    "summary": "Late drama sends Austria and Algeria into World Cup knockouts to break Iran hearts",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-28T09:10:27.729Z"
-  },
-  {
-    "id": "47e3bee86609",
-    "title": "Lionel Messi steps off bench and scores to cap Argentina’s World Cup win over Jordan",
-    "date": "2026-06-28",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/28/argentian-jordan-world-cup-group-j-match-report",
-    "summary": "Lionel Messi steps off bench and scores to cap Argentina’s World Cup win over Jordan",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-28T09:10:27.729Z"
-  },
-  {
-    "id": "de9c5fbfac3d",
-    "title": "World Cup 2026 power rankings: France still kings but who has climbed 26 places?",
-    "date": "2026-06-28",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/28/world-cup-2026-power-rankings-france-argentina-england-scotland",
-    "summary": "World Cup 2026 power rankings: France still kings but who has climbed 26 places?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-28T09:10:27.729Z"
-  },
-  {
-    "id": "3c9041853094",
-    "title": "Alphonso Davies returns as Canada approach World Cup moment of destiny",
-    "date": "2026-06-28",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/28/alphonso-davies-returns-canada-world-cup-moment-of-destiny",
-    "summary": "Alphonso Davies returns as Canada approach World Cup moment of destiny",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-28T09:10:27.729Z"
   }
 ];
