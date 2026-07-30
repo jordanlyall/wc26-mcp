@@ -2,6 +2,110 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "49cfa1cbf63f",
+    "title": "De Zerbi wants to convince Spence to stay at Spurs",
+    "date": "2026-07-30",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c0jl4e40vwdo?at_medium=RSS&at_campaign=rss",
+    "summary": "De Zerbi wants to convince Spence to stay at Spurs",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-30T10:28:40.443Z"
+  },
+  {
+    "id": "8b15660804c6",
+    "title": "Eddie Howe leaves Newcastle United with Matthias Jaissle set to replace him",
+    "date": "2026-07-30",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/30/eddie-howe-leaves-newcastle-united-premier-league",
+    "summary": "Eddie Howe leaves Newcastle United with Matthias Jaissle set to replace him",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-30T10:28:40.443Z"
+  },
+  {
+    "id": "ebeddeb03b9d",
+    "title": "Football transfer rumours: Jack Grealish to make Saudi switch to Al-Hilal?",
+    "date": "2026-07-30",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/30/football-transfer-rumours-jack-grealish-al-hilal-rayan-liverpool",
+    "summary": "Football transfer rumours: Jack Grealish to make Saudi switch to Al-Hilal?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-30T10:28:40.443Z"
+  },
+  {
+    "id": "7dee93dd06c1",
+    "title": "Timber leaves Arsenal camp for groin check",
+    "date": "2026-07-29",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cpq8ndn0g7go?at_medium=RSS&at_campaign=rss",
+    "summary": "Timber leaves Arsenal camp for groin check",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-30T10:28:40.443Z"
+  },
+  {
+    "id": "0f089e667fa4",
+    "title": "Spain U20s midfielder Arques joins London City",
+    "date": "2026-07-29",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cj03mr318r6o?at_medium=RSS&at_campaign=rss",
+    "summary": "Spain U20s midfielder Arques joins London City",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-30T10:28:40.443Z"
+  },
+  {
+    "id": "0f089e667fa4",
+    "title": "Spain U20s midfielder Arques joins London City",
+    "date": "2026-07-29",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cj03mr318r6o?at_medium=RSS&at_campaign=rss",
+    "summary": "Spain U20s midfielder Arques joins London City",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-30T10:28:40.443Z"
+  },
+  {
+    "id": "16d9867df518",
+    "title": "‘I’m very sorry’: Mancini apologises after being reappointed as Italy head coach",
+    "date": "2026-07-29",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/29/roberto-mancini-italy-head-coach-apology-saudi-arabia-world-cup-nations-league",
+    "summary": "‘I’m very sorry’: Mancini apologises after being reappointed as Italy head coach",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-30T10:28:40.443Z"
+  },
+  {
+    "id": "a88f49f02b6c",
+    "title": "USMNT coach Mauricio Pochettino, US Soccer in ‘final stages’ of agreeing on new contract",
+    "date": "2026-07-29",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/29/mauricio-pochettino-us-soccer-contract-status",
+    "summary": "USMNT coach Mauricio Pochettino, US Soccer in ‘final stages’ of agreeing on new contract",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-30T10:28:40.443Z"
+  },
+  {
     "id": "20d81cfd43c5",
     "title": "Cucurella gets tattoo of Spain coach De la Fuente",
     "date": "2026-07-29",
@@ -4927,213 +5031,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-06-30T09:15:54.684Z"
-  },
-  {
-    "id": "0d2b266b8171",
-    "title": "NWSL all-time record goalscorer Sam Kerr confirms league return by joining Gotham",
-    "date": "2026-06-29",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/29/nwsl-all-time-record-goalscorer-sam-kerr-confirms-league-return-by-joining-gotham",
-    "summary": "NWSL all-time record goalscorer Sam Kerr confirms league return by joining Gotham",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-08T10:22:36.586Z"
-  },
-  {
-    "id": "a731297c1f8d",
-    "title": "Robert Lewandowski makes MLS move to Chicago Fire on deal till 2028",
-    "date": "2026-06-29",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/29/robert-lewandowski-mls-chicago-fire-2028",
-    "summary": "Robert Lewandowski makes MLS move to Chicago Fire on deal till 2028",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-07T11:12:07.905Z"
-  },
-  {
-    "id": "281e4facb4f9",
-    "title": "Clarke says standing down 'easy' decision after World Cup exit",
-    "date": "2026-06-29",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c3ry1jyzpejo?at_medium=RSS&at_campaign=rss",
-    "summary": "Clarke says standing down 'easy' decision after World Cup exit",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-02T09:11:08.533Z"
-  },
-  {
-    "id": "94f508482c43",
-    "title": "How Tuchel is still searching for solutions out wide - Shearer",
-    "date": "2026-06-29",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cqj1g9egd80o?at_medium=RSS&at_campaign=rss",
-    "summary": "How Tuchel is still searching for solutions out wide - Shearer",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-30T09:15:54.684Z"
-  },
-  {
-    "id": "d9865d7c5b66",
-    "title": "Kerr joins NWSL side Gotham FC",
-    "date": "2026-06-29",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/ckg5n027vrgo?at_medium=RSS&at_campaign=rss",
-    "summary": "Kerr joins NWSL side Gotham FC",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-30T09:15:54.684Z"
-  },
-  {
-    "id": "e362eea29f10",
-    "title": "'Brilliant finish' - but should Sano have been on the pitch?",
-    "date": "2026-06-29",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/videos/c30y12v9g0qo?at_medium=RSS&at_campaign=rss",
-    "summary": "'Brilliant finish' - but should Sano have been on the pitch?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-30T09:15:54.684Z"
-  },
-  {
-    "id": "d9865d7c5b66",
-    "title": "Kerr joins NWSL side Gotham FC",
-    "date": "2026-06-29",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/ckg5n027vrgo?at_medium=RSS&at_campaign=rss",
-    "summary": "Kerr joins NWSL side Gotham FC",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-30T09:15:54.684Z"
-  },
-  {
-    "id": "a55113309d25",
-    "title": "Deschamps hopes France’s ‘capacity for danger’ continues in Sweden World Cup test",
-    "date": "2026-06-29",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/29/didier-deschamps-france-sweden-world-cup-2026-round-of-32",
-    "summary": "Deschamps hopes France’s ‘capacity for danger’ continues in Sweden World Cup test",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-30T09:15:54.684Z"
-  },
-  {
-    "id": "9b2d95fa02d6",
-    "title": "Maddy Cusack’s father tells inquest she was dismayed at Sheffield United manager’s return",
-    "date": "2026-06-29",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/29/maddy-cusack-inquest-sheffield-united",
-    "summary": "Maddy Cusack’s father tells inquest she was dismayed at Sheffield United manager’s return",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-30T09:15:54.684Z"
-  },
-  {
-    "id": "87c33180663c",
-    "title": "Fluency the key for Noni Madueke before England’s ‘difficult’ DR Congo test",
-    "date": "2026-06-29",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/29/noni-madueke-england-democratic-republic-congo-world-cup-2026",
-    "summary": "Fluency the key for Noni Madueke before England’s ‘difficult’ DR Congo test",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-30T09:15:54.684Z"
-  },
-  {
-    "id": "bf9fd0395285",
-    "title": "Great stories, little jeopardy - does the new World Cup format work?",
-    "date": "2026-06-29",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/clyr1rwp5e3o?at_medium=RSS&at_campaign=rss",
-    "summary": "Great stories, little jeopardy - does the new World Cup format work?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-29T09:44:20.042Z"
-  },
-  {
-    "id": "577ceb716b97",
-    "title": "South Korea football coach quits as president calls for probe into World Cup loss",
-    "date": "2026-06-29",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/news/articles/cdx7jk0kq4vo?at_medium=RSS&at_campaign=rss",
-    "summary": "South Korea football coach quits as president calls for probe into World Cup loss",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-29T09:44:20.042Z"
-  },
-  {
-    "id": "aeb7474b8202",
-    "title": "World Cup 2026: Reaction to Canada’s win plus buildup to Brazil v Japan – live",
-    "date": "2026-06-29",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/live/2026/jun/29/world-cup-2026-reaction-canada-brazil-japan-germany-paraguay-live",
-    "summary": "World Cup 2026: Reaction to Canada’s win plus buildup to Brazil v Japan – live",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-29T09:44:20.042Z"
-  },
-  {
-    "id": "91d2f846af7a",
-    "title": "How link between Bellingham and Kane has unlocked England’s stodgy attack",
-    "date": "2026-06-29",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/29/jude-bellingham-harry-kane-england-attack-world-cup-2026",
-    "summary": "How link between Bellingham and Kane has unlocked England’s stodgy attack",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-29T09:44:20.042Z"
-  },
-  {
-    "id": "746f7d566737",
-    "title": "Morocco and the Netherlands look to move mountains in Monterrey matchup",
-    "date": "2026-06-29",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/28/morocco-netherlands-world-cup-2026-preview",
-    "summary": "Morocco and the Netherlands look to move mountains in Monterrey matchup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-29T09:44:20.042Z"
-  },
-  {
-    "id": "2edb18a24d58",
-    "title": "Brazil fans were waiting for Vinícius Júnior to be their hero. He’s arrived",
-    "date": "2026-06-29",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/29/brazil-fans-vinicius-junior-hero-real-madrid-world-cup",
-    "summary": "Brazil fans were waiting for Vinícius Júnior to be their hero. He’s arrived",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-29T09:44:20.042Z"
   }
 ];
