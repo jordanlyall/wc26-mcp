@@ -2,6 +2,84 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "9e4d181fd581",
+    "title": "Beever-Jones ready to 'conquer' new season after injury troubles last term",
+    "date": "2026-07-31",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c235g2vngk9o?at_medium=RSS&at_campaign=rss",
+    "summary": "Beever-Jones ready to 'conquer' new season after injury troubles last term",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-31T10:42:53.338Z"
+  },
+  {
+    "id": "9e4d181fd581",
+    "title": "Beever-Jones ready to 'conquer' new season after injury troubles last term",
+    "date": "2026-07-31",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c235g2vngk9o?at_medium=RSS&at_campaign=rss",
+    "summary": "Beever-Jones ready to 'conquer' new season after injury troubles last term",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-31T10:42:53.338Z"
+  },
+  {
+    "id": "983b859fa6d7",
+    "title": "Jaissle heads for Newcastle after success in Saudi Arabia that has eluded so many",
+    "date": "2026-07-31",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/31/matthias-jaissle-newcastle-united-al-ahli-saudi-pro-league",
+    "summary": "Jaissle heads for Newcastle after success in Saudi Arabia that has eluded so many",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-31T10:42:53.338Z"
+  },
+  {
+    "id": "d7a4aa7e14d7",
+    "title": "Maxence Lacroix joins ‘beautiful club’ Chelsea as John Stones seals Inter deal",
+    "date": "2026-07-30",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/30/chelsea-crystal-palace-maxence-lacroix-transfer-roundup",
+    "summary": "Maxence Lacroix joins ‘beautiful club’ Chelsea as John Stones seals Inter deal",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-31T10:42:53.338Z"
+  },
+  {
+    "id": "e39e6e200241",
+    "title": "Not so black and white: how Eddie Howe lost control at Newcastle in one summer | Louise Taylor",
+    "date": "2026-07-30",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/30/not-so-black-and-white-how-one-summer-saw-eddie-howe-lose-control-at-newcastle",
+    "summary": "Not so black and white: how Eddie Howe lost control at Newcastle in one summer | Louise Taylor",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-31T10:42:53.338Z"
+  },
+  {
+    "id": "b7e3b5e57c60",
+    "title": "Football Daily | Thought leader Eddie Howe runs out of time and ideas at Newcastle",
+    "date": "2026-07-30",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/30/eddie-howe-newcastle-football-daily-newsletter",
+    "summary": "Football Daily | Thought leader Eddie Howe runs out of time and ideas at Newcastle",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-07-31T10:42:53.338Z"
+  },
+  {
     "id": "49cfa1cbf63f",
     "title": "De Zerbi wants to convince Spence to stay at Spurs",
     "date": "2026-07-30",
@@ -4784,252 +4862,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-07-01T09:16:58.474Z"
-  },
-  {
-    "id": "a3fccefdd510",
-    "title": "Koeman resigns, while Netherlands report racist abuse",
-    "date": "2026-06-30",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cly0g1y3v00o?at_medium=RSS&at_campaign=rss",
-    "summary": "Koeman resigns, while Netherlands report racist abuse",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-01T09:16:58.474Z"
-  },
-  {
-    "id": "d77e23236fed",
-    "title": "Coach played mind games with Cusack before death, inquest told",
-    "date": "2026-06-30",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/news/articles/c4gy529xwdro?at_medium=RSS&at_campaign=rss",
-    "summary": "Coach played mind games with Cusack before death, inquest told",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-01T09:16:58.474Z"
-  },
-  {
-    "id": "cf683ea520db",
-    "title": "Why new Scotland head coach has tricky task",
-    "date": "2026-06-30",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c5yzqrq0e9do?at_medium=RSS&at_campaign=rss",
-    "summary": "Why new Scotland head coach has tricky task",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-01T09:16:58.474Z"
-  },
-  {
-    "id": "22c7b3c621c7",
-    "title": "Could set-piece coach be Celtic's key signing?",
-    "date": "2026-06-30",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c3wyl157323o?at_medium=RSS&at_campaign=rss",
-    "summary": "Could set-piece coach be Celtic's key signing?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-01T09:16:58.474Z"
-  },
-  {
-    "id": "22c7b3c621c7",
-    "title": "Could set-piece coach lured from Hearts be Celtic's key signing?",
-    "date": "2026-06-30",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c3wyl157323o?at_medium=RSS&at_campaign=rss",
-    "summary": "Could set-piece coach lured from Hearts be Celtic's key signing?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-01T09:16:58.474Z"
-  },
-  {
-    "id": "d77e23236fed",
-    "title": "Coach called Cusack a 'psycho', inquest told",
-    "date": "2026-06-30",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/news/articles/c4gy529xwdro?at_medium=RSS&at_campaign=rss",
-    "summary": "Coach called Cusack a 'psycho', inquest told",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-01T09:16:58.474Z"
-  },
-  {
-    "id": "b3802e29c93d",
-    "title": "Tottenham win race to sign West Ham’s Mateus Fernandes for club record £85m",
-    "date": "2026-06-30",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/30/tottenham-west-ham-mateus-fernandes-club-record-85m-manchester-united-transfers",
-    "summary": "Tottenham win race to sign West Ham’s Mateus Fernandes for club record £85m",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-01T09:16:58.474Z"
-  },
-  {
-    "id": "f51f7f88b3b4",
-    "title": "Maddy Cusack’s eating habits changed after manager’s comment, girlfriend tells inquest",
-    "date": "2026-06-30",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/30/maddy-cusack-inquest-jonathan-morgan",
-    "summary": "Maddy Cusack’s eating habits changed after manager’s comment, girlfriend tells inquest",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-01T09:16:58.474Z"
-  },
-  {
-    "id": "12cbc418676a",
-    "title": "Nagelsmann: Germany no longer 'first-class team'",
-    "date": "2026-06-30",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/49220370/nagelsmann-germany-not-first-class-team-wc-exit",
-    "summary": "Nagelsmann: Germany no longer 'first-class team'",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-30T09:15:54.684Z"
-  },
-  {
-    "id": "84f60535bc64",
-    "title": "Aguirre: Azteca fans can get Mexico past Ecuador",
-    "date": "2026-06-30",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/49221547/mexico-fans-make-difference-azteca-vs-ecuador-aguirre",
-    "summary": "Aguirre: Azteca fans can get Mexico past Ecuador",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-30T09:15:54.684Z"
-  },
-  {
-    "id": "7f8e48639de2",
-    "title": "Cáceres: Leaks about Uruguay's Bielsa 'twisted'",
-    "date": "2026-06-30",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/49221045/caceres-leaks-uruguay-bielsa-twisted",
-    "summary": "Cáceres: Leaks about Uruguay's Bielsa 'twisted'",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-30T09:15:54.684Z"
-  },
-  {
-    "id": "1314988774d6",
-    "title": "France have been waiting for Dembele to show up. N...",
-    "date": "2026-06-30",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/49214672/france-ousmane-dembele-kylian-mbappe-michael-olise-world-cup-norway-sweden",
-    "summary": "France have been waiting for Dembele to show up. N...",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-30T09:15:54.684Z"
-  },
-  {
-    "id": "290cab1f10da",
-    "title": "Why outsiders believe the USMNT can make a deep Wo...",
-    "date": "2026-06-30",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/49213271/why-outsiders-believe-usmnt-make-deep-world-cup-run",
-    "summary": "Why outsiders believe the USMNT can make a deep Wo...",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-30T09:15:54.684Z"
-  },
-  {
-    "id": "50afd2e5a669",
-    "title": "Pick Mainoo over Anderson against DR Congo - Rooney",
-    "date": "2026-06-30",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cp8l7p0n2kvo?at_medium=RSS&at_campaign=rss",
-    "summary": "Pick Mainoo over Anderson against DR Congo - Rooney",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-30T09:15:54.684Z"
-  },
-  {
-    "id": "7b71fc01ed29",
-    "title": "World Cup 2026: Netherlands and Germany crash out, plus Côte d’Ivoire v Norway buildup – live",
-    "date": "2026-06-30",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/live/2026/jun/30/world-cup-2026-netherlands-and-germany-crash-out-plus-cote-divoire-v-norway-buildup-live",
-    "summary": "World Cup 2026: Netherlands and Germany crash out, plus Côte d’Ivoire v Norway buildup – live",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-30T09:15:54.684Z"
-  },
-  {
-    "id": "51260a13545e",
-    "title": "Morocco edge wild last-32 penalty shootout as Netherlands pay heavy price for misses",
-    "date": "2026-06-30",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/30/netherlands-morocco-world-cup-2026-last-32-match-report",
-    "summary": "Morocco edge wild last-32 penalty shootout as Netherlands pay heavy price for misses",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-30T09:15:54.684Z"
-  },
-  {
-    "id": "51fc9863967d",
-    "title": "Bill Nuttall on saving Pelé’s penalty and building a US team from scratch",
-    "date": "2026-06-30",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/30/bill-nuttall-world-cup-pele-gerd-muller-gordon-banks-chattanooga",
-    "summary": "Bill Nuttall on saving Pelé’s penalty and building a US team from scratch",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-30T09:15:54.684Z"
-  },
-  {
-    "id": "0533c3c13db5",
-    "title": "From developing photos in a toilet to a viral Messi shot: 40 years shooting the World Cup – video",
-    "date": "2026-06-30",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/artanddesign/video/2026/jun/30/from-developing-photos-in-a-toilet-to-a-viral-messi-shot-40-years-shooting-the-world-cup-video",
-    "summary": "From developing photos in a toilet to a viral Messi shot: 40 years shooting the World Cup – video",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-30T09:15:54.684Z"
-  },
-  {
-    "id": "cd564f12671e",
-    "title": "Every World Cup needs a cult hero: 2026 has given us touchline dreamboat Sebastián Beccacece",
-    "date": "2026-06-30",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jun/30/sebastian-beccacece-ecuador-coach-world-cup",
-    "summary": "Every World Cup needs a cult hero: 2026 has given us touchline dreamboat Sebastián Beccacece",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-06-30T09:15:54.684Z"
   }
 ];
