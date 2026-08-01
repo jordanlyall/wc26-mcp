@@ -2,6 +2,45 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "4d2c876d4aed",
+    "title": "Bowie makes loan switch to Serie A side Sassuolo",
+    "date": "2026-07-31",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cy8ejv6j5wwo?at_medium=RSS&at_campaign=rss",
+    "summary": "Bowie makes loan switch to Serie A side Sassuolo",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-01T10:02:27.814Z"
+  },
+  {
+    "id": "4ba979d1d9db",
+    "title": "Arsenal target Bruno Guimarães not on Newcastle’s flight to pre-season camp",
+    "date": "2026-07-31",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/31/newcastle-bruno-guimaraes-pre-season-camp",
+    "summary": "Arsenal target Bruno Guimarães not on Newcastle’s flight to pre-season camp",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-01T10:02:27.814Z"
+  },
+  {
+    "id": "7301546ab5de",
+    "title": "How does MLS pick up the World Cup mantle? Casemiro helps, but it’ll take much more",
+    "date": "2026-07-31",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jul/31/mls-casemiro-sebastian-berhalter-world-cup-young-american-players",
+    "summary": "How does MLS pick up the World Cup mantle? Casemiro helps, but it’ll take much more",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-01T10:02:27.814Z"
+  },
+  {
     "id": "9e4d181fd581",
     "title": "Beever-Jones ready to 'conquer' new season after injury troubles last term",
     "date": "2026-07-31",
@@ -4576,291 +4615,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-07-02T09:11:08.533Z"
-  },
-  {
-    "id": "765751baf188",
-    "title": "‘Would you say it to someone’s face?’ Ellen White on going from player to pundit",
-    "date": "2026-07-01",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/01/ellen-white-england-lionesses-player-to-pundit",
-    "summary": "‘Would you say it to someone’s face?’ Ellen White on going from player to pundit",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-12T09:54:03.698Z"
-  },
-  {
-    "id": "afd9bde885d2",
-    "title": "Copy of Mexico send a World Cup message from 'Fortress Azt...",
-    "date": "2026-07-01",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/49232997/mexico-send-world-cup-message-fortress-azteca-fans-aid-win-ecuador",
-    "summary": "Copy of Mexico send a World Cup message from 'Fortress Azt...",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-02T09:11:08.533Z"
-  },
-  {
-    "id": "7d1976f6ae5d",
-    "title": "Tuchel urges parents to let kids stay up for England game",
-    "date": "2026-07-01",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cd95g9y8k24o?at_medium=RSS&at_campaign=rss",
-    "summary": "Tuchel urges parents to let kids stay up for England game",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-02T09:11:08.533Z"
-  },
-  {
-    "id": "27d533086f5a",
-    "title": "Win over DR Congo 'our best game of the tournament' - Kane",
-    "date": "2026-07-01",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/videos/c802jzd528eo?at_medium=RSS&at_campaign=rss",
-    "summary": "Win over DR Congo 'our best game of the tournament' - Kane",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-02T09:11:08.533Z"
-  },
-  {
-    "id": "2ef4a550601f",
-    "title": "Energy and team spirit at highest level - Tuchel",
-    "date": "2026-07-01",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/videos/cg53njjvnljo?at_medium=RSS&at_campaign=rss",
-    "summary": "Energy and team spirit at highest level - Tuchel",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-02T09:11:08.533Z"
-  },
-  {
-    "id": "92036196592e",
-    "title": "'He is ridiculous' - Rice praise for match-winner Kane",
-    "date": "2026-07-01",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/videos/cgmdlrrgezjo?at_medium=RSS&at_campaign=rss",
-    "summary": "'He is ridiculous' - Rice praise for match-winner Kane",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-02T09:11:08.533Z"
-  },
-  {
-    "id": "9227d80529fc",
-    "title": "Four die in Mexico City World Cup celebrations",
-    "date": "2026-07-01",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/news/articles/cx2xjwj8p39o?at_medium=RSS&at_campaign=rss",
-    "summary": "Four die in Mexico City World Cup celebrations",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-02T09:11:08.533Z"
-  },
-  {
-    "id": "47be063a1860",
-    "title": "Could Rangers make Ferguson marquee signing?",
-    "date": "2026-07-01",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c3vy70r52wko?at_medium=RSS&at_campaign=rss",
-    "summary": "Could Rangers make Ferguson marquee signing?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-02T09:11:08.533Z"
-  },
-  {
-    "id": "2ae9a25e0d65",
-    "title": "World Cup: Kane rescues England - 5 Live reaction",
-    "date": "2026-07-01",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sounds/play/p0nw81yr?at_medium=RSS&at_campaign=rss",
-    "summary": "World Cup: Kane rescues England - 5 Live reaction",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-02T09:11:08.533Z"
-  },
-  {
-    "id": "47be063a1860",
-    "title": "Could Rangers make Scotland standout Ferguson marquee signing?",
-    "date": "2026-07-01",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c3vy70r52wko?at_medium=RSS&at_campaign=rss",
-    "summary": "Could Rangers make Scotland standout Ferguson marquee signing?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-02T09:11:08.533Z"
-  },
-  {
-    "id": "501e7adf903a",
-    "title": "Cusack 'struggled with girlfriend move'",
-    "date": "2026-07-01",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/news/articles/cze90zzxl2eo?at_medium=RSS&at_campaign=rss",
-    "summary": "Cusack 'struggled with girlfriend move'",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-02T09:11:08.533Z"
-  },
-  {
-    "id": "90ebc7c8de2e",
-    "title": "Time for Tuchel to show hand as England enter World Cup danger zone",
-    "date": "2026-07-01",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c17y8r90082o?at_medium=RSS&at_campaign=rss",
-    "summary": "Time for Tuchel to show hand as England enter World Cup danger zone",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-01T09:16:58.474Z"
-  },
-  {
-    "id": "6662f59667aa",
-    "title": "Mexico rampant at fortress Azteca - and England could be next",
-    "date": "2026-07-01",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cy9rg5n3380o?at_medium=RSS&at_campaign=rss",
-    "summary": "Mexico rampant at fortress Azteca - and England could be next",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-01T09:16:58.474Z"
-  },
-  {
-    "id": "78a09e773dd1",
-    "title": "Mexico set up potential England tie with win over 10-man Ecuador",
-    "date": "2026-07-01",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/videos/c2ky840z4wqo?at_medium=RSS&at_campaign=rss",
-    "summary": "Mexico set up potential England tie with win over 10-man Ecuador",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-01T09:16:58.474Z"
-  },
-  {
-    "id": "fe654c268637",
-    "title": "Hincapie becomes second player sent off for covering mouth ",
-    "date": "2026-07-01",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cvg45jg6qyno?at_medium=RSS&at_campaign=rss",
-    "summary": "Hincapie becomes second player sent off for covering mouth ",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-01T09:16:58.474Z"
-  },
-  {
-    "id": "55b2405bd004",
-    "title": "Tuchel will stick to Southgate's penalty plan",
-    "date": "2026-07-01",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cz9lq5y9pj2o?at_medium=RSS&at_campaign=rss",
-    "summary": "Tuchel will stick to Southgate's penalty plan",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-01T09:16:58.474Z"
-  },
-  {
-    "id": "74b3dafecba3",
-    "title": "Fifa explains decision to rule out Germany goal",
-    "date": "2026-07-01",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c862yvvd2qdo?at_medium=RSS&at_campaign=rss",
-    "summary": "Fifa explains decision to rule out Germany goal",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-01T09:16:58.474Z"
-  },
-  {
-    "id": "a8ac583172cf",
-    "title": "Hincapie second player to be sent off for covering mouth",
-    "date": "2026-07-01",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/videos/c7vyj0rel71o?at_medium=RSS&at_campaign=rss",
-    "summary": "Hincapie second player to be sent off for covering mouth",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-01T09:16:58.474Z"
-  },
-  {
-    "id": "50edf6ee1d4d",
-    "title": "'The Azteca erupts!' Quinones fires Mexico into lead",
-    "date": "2026-07-01",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/videos/c8j2xwlgxzeo?at_medium=RSS&at_campaign=rss",
-    "summary": "'The Azteca erupts!' Quinones fires Mexico into lead",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-01T09:16:58.474Z"
-  },
-  {
-    "id": "f9e93f6532ac",
-    "title": "England right-backs Quansah and James out of DR Congo game",
-    "date": "2026-07-01",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c23yz02rrkgo?at_medium=RSS&at_campaign=rss",
-    "summary": "England right-backs Quansah and James out of DR Congo game",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-01T09:16:58.474Z"
-  },
-  {
-    "id": "452cc3b67b47",
-    "title": "World Cup 2026: France dazzle, Mexico swagger through, England v DR Congo buildup, and more – live",
-    "date": "2026-07-01",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/live/2026/jul/01/world-cup-2026-france-dazzle-mexico-swagger-through-england-v-dr-congo-buildup-and-more-live",
-    "summary": "World Cup 2026: France dazzle, Mexico swagger through, England v DR Congo buildup, and more – live",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-01T09:16:58.474Z"
-  },
-  {
-    "id": "8707b53d0faf",
-    "title": "Mexico end World Cup knockout drought with last-32 win over Ecuador in Azteca cauldron",
-    "date": "2026-07-01",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/01/mexico-ecuador-world-cup-2026-last-32-match-report",
-    "summary": "Mexico end World Cup knockout drought with last-32 win over Ecuador in Azteca cauldron",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-01T09:16:58.474Z"
   }
 ];
