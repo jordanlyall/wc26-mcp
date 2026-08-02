@@ -2,6 +2,45 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "9540129affbb",
+    "title": "Oshoala revives Nigeria's Wafcon and World Cup bid",
+    "date": "2026-08-01",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/czxe062y199o?at_medium=RSS&at_campaign=rss",
+    "summary": "Oshoala revives Nigeria's Wafcon and World Cup bid",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-02T10:00:20.432Z"
+  },
+  {
+    "id": "9540129affbb",
+    "title": "Oshoala revives Nigeria's Wafcon and World Cup bid",
+    "date": "2026-08-01",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/czxe062y199o?at_medium=RSS&at_campaign=rss",
+    "summary": "Oshoala revives Nigeria's Wafcon and World Cup bid",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-02T10:00:20.432Z"
+  },
+  {
+    "id": "f7b2a5b248a7",
+    "title": "De Zerbi wants ‘lovely guy’ Richarlison to stay at Tottenham after winner sinks Chelsea",
+    "date": "2026-08-01",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/01/roberto-de-zerbi-richarlison-tottenham-chelsea-friendly",
+    "summary": "De Zerbi wants ‘lovely guy’ Richarlison to stay at Tottenham after winner sinks Chelsea",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-02T10:00:20.432Z"
+  },
+  {
     "id": "4d2c876d4aed",
     "title": "Bowie makes loan switch to Serie A side Sassuolo",
     "date": "2026-07-31",
@@ -4407,213 +4446,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-07-03T10:41:05.825Z"
-  },
-  {
-    "id": "a1f200437818",
-    "title": "World Cup 2026: guide to all 1,248 players",
-    "date": "2026-07-02",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/ng-interactive/2026/jun/04/world-cup-2026-complete-player-guide",
-    "summary": "World Cup 2026: guide to all 1,248 players",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-06T12:07:40.279Z"
-  },
-  {
-    "id": "21aa0415972a",
-    "title": "The one club man who is Spain's under-the-radar hero",
-    "date": "2026-07-02",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cvgd0jz1xq7o?at_medium=RSS&at_campaign=rss",
-    "summary": "The one club man who is Spain's under-the-radar hero",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-03T10:41:05.825Z"
-  },
-  {
-    "id": "259f5166c98a",
-    "title": "'Spain are furious' - Cucurella has goal ruled out",
-    "date": "2026-07-02",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/videos/c5yzx952jy3o?at_medium=RSS&at_campaign=rss",
-    "summary": "'Spain are furious' - Cucurella has goal ruled out",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-03T10:41:05.825Z"
-  },
-  {
-    "id": "0378bb721b7d",
-    "title": "Maddy Cusack's coach her 'nemesis', mum tells inquest",
-    "date": "2026-07-02",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/news/articles/cpwej79vnkgo?at_medium=RSS&at_campaign=rss",
-    "summary": "Maddy Cusack's coach her 'nemesis', mum tells inquest",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-03T10:41:05.825Z"
-  },
-  {
-    "id": "f888ffee175f",
-    "title": "McInnes biggest factor in McCrorie's Rangers return",
-    "date": "2026-07-02",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cdjk7xdzyevo?at_medium=RSS&at_campaign=rss",
-    "summary": "McInnes biggest factor in McCrorie's Rangers return",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-03T10:41:05.825Z"
-  },
-  {
-    "id": "b6aef831d53e",
-    "title": "Bronze renews contract with Chelsea until 2027 ",
-    "date": "2026-07-02",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c17yvrgllk1o?at_medium=RSS&at_campaign=rss",
-    "summary": "Bronze renews contract with Chelsea until 2027 ",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-03T10:41:05.825Z"
-  },
-  {
-    "id": "021505bbdd65",
-    "title": "Mikel Oyarzabal at the double as Spain beat Austria and cruise into last 16",
-    "date": "2026-07-02",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/02/spain-austria-world-cup-2026-last-32-match-report",
-    "summary": "Mikel Oyarzabal at the double as Spain beat Austria and cruise into last 16",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-03T10:41:05.825Z"
-  },
-  {
-    "id": "5128bb77077a",
-    "title": "Bayern sign Morocco WCup goalscorer Saibari",
-    "date": "2026-07-02",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/49238268/morocco-world-cup-goalscorer-ismael-saibari-joins-bayern-munich",
-    "summary": "Bayern sign Morocco WCup goalscorer Saibari",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-02T09:11:08.533Z"
-  },
-  {
-    "id": "0fc1892bfd46",
-    "title": "World Cup daily: Balogun celly in USMNT win gets L...",
-    "date": "2026-07-02",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/49244994/world-cup-daily-spain-portugal-action-round-32-continues",
-    "summary": "World Cup daily: Balogun celly in USMNT win gets L...",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-02T09:11:08.533Z"
-  },
-  {
-    "id": "1676ca192c87",
-    "title": "Kane delivers for England at vital moment in drama...",
-    "date": "2026-07-02",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/49239386/england-harry-kane-delivers-dramatic-world-cup-win-vs-congo-dr",
-    "summary": "Kane delivers for England at vital moment in drama...",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-02T09:11:08.533Z"
-  },
-  {
-    "id": "1ecbd9878536",
-    "title": "Unfit stars, wasting chances: Are Spain still amon...",
-    "date": "2026-07-02",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/49227164/are-european-champions-spain-world-cup-favorites",
-    "summary": "Unfit stars, wasting chances: Are Spain still amon...",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-02T09:11:08.533Z"
-  },
-  {
-    "id": "3170b21b55cd",
-    "title": "How a bad loss to France help reshape Colombia's W...",
-    "date": "2026-07-02",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/49245153/how-bad-loss-france-help-reshape-colombias-world-cup-campaign",
-    "summary": "How a bad loss to France help reshape Colombia's W...",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-02T09:11:08.533Z"
-  },
-  {
-    "id": "c91a6e629601",
-    "title": "'You can't catch your breath' - how will Azteca altitude impact England?",
-    "date": "2026-07-02",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c4gy0v05qyro?at_medium=RSS&at_campaign=rss",
-    "summary": "'You can't catch your breath' - how will Azteca altitude impact England?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-02T09:11:08.533Z"
-  },
-  {
-    "id": "2aa71af53691",
-    "title": "World Cup dreams shattered as StubHub tickets cancelled at last minute",
-    "date": "2026-07-02",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/news/articles/crkvlekgy07o?at_medium=RSS&at_campaign=rss",
-    "summary": "World Cup dreams shattered as StubHub tickets cancelled at last minute",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-02T09:11:08.533Z"
-  },
-  {
-    "id": "b8cd7ed49637",
-    "title": "Gueye quits Senegal until coaching staff replaced",
-    "date": "2026-07-02",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cqj18d7q2vwo?at_medium=RSS&at_campaign=rss",
-    "summary": "Gueye quits Senegal until coaching staff replaced",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-02T09:11:08.533Z"
-  },
-  {
-    "id": "b800671910d0",
-    "title": "Football Daily",
-    "date": "2026-07-02",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sounds/play/p0ns844v?at_medium=RSS&at_campaign=rss",
-    "summary": "Football Daily",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-02T09:11:08.533Z"
   }
 ];
