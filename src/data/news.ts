@@ -2,6 +2,71 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "7b56179568fb",
+    "title": "Worn in the USA: Liverpool’s pre-season tour had highs but exposed glaring gaps in the squad | Andy Hunter",
+    "date": "2026-08-03",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/03/liverpool-pre-season-usa-tour-exposed-squad-gaps",
+    "summary": "Worn in the USA: Liverpool’s pre-season tour had highs but exposed glaring gaps in the squad | Andy Hunter",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-03T11:29:21.482Z"
+  },
+  {
+    "id": "15978bbba645",
+    "title": "‘It’s my time’: Christos Tzolis fighting fit for Arsenal on return to England",
+    "date": "2026-08-03",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/03/christos-tzolis-arsenal-premier-league-club-brugge",
+    "summary": "‘It’s my time’: Christos Tzolis fighting fit for Arsenal on return to England",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-03T11:29:21.482Z"
+  },
+  {
+    "id": "3d6658d298c6",
+    "title": "Socceroos on the move: Herrington headlines post-World Cup transfers",
+    "date": "2026-08-03",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/blog/2026/aug/03/lucas-herrington-transfers-hull-premier-league-socceroos-transfer-news-fee-australian-players",
+    "summary": "Socceroos on the move: Herrington headlines post-World Cup transfers",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-03T11:29:21.482Z"
+  },
+  {
+    "id": "a232271446fe",
+    "title": "Chelsea sign Argentina international Valentín Barco from Strasbourg",
+    "date": "2026-08-02",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/02/chelsea-sign-argentina-international-valentin-barco-from-strasbourg",
+    "summary": "Chelsea sign Argentina international Valentín Barco from Strasbourg",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-03T11:29:21.482Z"
+  },
+  {
+    "id": "8b5bc06fc8ed",
+    "title": "Robert Lewandowski strikes twice for Chicago Fire in MLS win over Charlotte",
+    "date": "2026-08-02",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/02/mls-robert-lewandowski-chicago-fire-charlotte-messi-inter-miami-columbus",
+    "summary": "Robert Lewandowski strikes twice for Chicago Fire in MLS win over Charlotte",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-03T11:29:21.482Z"
+  },
+  {
     "id": "9540129affbb",
     "title": "Oshoala revives Nigeria's Wafcon and World Cup bid",
     "date": "2026-08-01",
@@ -4160,291 +4225,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-07-04T10:14:36.777Z"
-  },
-  {
-    "id": "0f2fc99f130b",
-    "title": "How hard is it to cycle to New Jersey's MetLife stadium? – video",
-    "date": "2026-07-03",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/video/2026/jul/03/how-hard-is-it-to-cycle-to-metlife-stadium-video",
-    "summary": "How hard is it to cycle to New Jersey's MetLife stadium? – video",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-07T11:12:07.905Z"
-  },
-  {
-    "id": "f784c28637e3",
-    "title": "Ange Postecoglou to manage Cristiano Ronaldo after landing Al-Nassr job",
-    "date": "2026-07-03",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/03/ange-postecoglou-head-coach-al-nassr-cristiano-ronaldo",
-    "summary": "Ange Postecoglou to manage Cristiano Ronaldo after landing Al-Nassr job",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-07T11:12:07.905Z"
-  },
-  {
-    "id": "b2ce5c657d6a",
-    "title": "Egypt reach World Cup last 16 in shootout as Australia’s goalkeeper gamble backfires",
-    "date": "2026-07-03",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/03/australia-egypt-world-cup-2026-last-32-match-report",
-    "summary": "Egypt reach World Cup last 16 in shootout as Australia’s goalkeeper gamble backfires",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-06T12:07:40.279Z"
-  },
-  {
-    "id": "ef05d001a9a2",
-    "title": "Denmark defender Thomsen signs two-year London City deal",
-    "date": "2026-07-03",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c77ym71vn50o?at_medium=RSS&at_campaign=rss",
-    "summary": "Denmark defender Thomsen signs two-year London City deal",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-05T10:19:54.669Z"
-  },
-  {
-    "id": "dc9b7314f63b",
-    "title": "Egypt into last 16 after shootout victory against Australia",
-    "date": "2026-07-03",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/videos/czde25nmq6no?at_medium=RSS&at_campaign=rss",
-    "summary": "Egypt into last 16 after shootout victory against Australia",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-04T10:14:36.777Z"
-  },
-  {
-    "id": "60faf4409d5a",
-    "title": "Rice likely to be available for England v Mexico",
-    "date": "2026-07-03",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/crm0pnnldeyo?at_medium=RSS&at_campaign=rss",
-    "summary": "Rice likely to be available for England v Mexico",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-04T10:14:36.777Z"
-  },
-  {
-    "id": "ffb56a8ecc9f",
-    "title": "'You can't breathe' - what is it like playing at altitude?",
-    "date": "2026-07-03",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/videos/cvgle8rgj3vo?at_medium=RSS&at_campaign=rss",
-    "summary": "'You can't breathe' - what is it like playing at altitude?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-04T10:14:36.777Z"
-  },
-  {
-    "id": "a133121fc475",
-    "title": "Chelsea sign Japan midfielder Matsukubo",
-    "date": "2026-07-03",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c0ry2g0d579o?at_medium=RSS&at_campaign=rss",
-    "summary": "Chelsea sign Japan midfielder Matsukubo",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-04T10:14:36.777Z"
-  },
-  {
-    "id": "e44aeb2514c6",
-    "title": "What might Robinson's Aberdeen look like this season?",
-    "date": "2026-07-03",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c4gyv1k597do?at_medium=RSS&at_campaign=rss",
-    "summary": "What might Robinson's Aberdeen look like this season?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-04T10:14:36.777Z"
-  },
-  {
-    "id": "9dce57a0ee9f",
-    "title": "After Spain win, Yamal says 'World Cup starts now'...",
-    "date": "2026-07-03",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/49252369/after-spain-beat-austria-yamal-world-cup-starts-now",
-    "summary": "After Spain win, Yamal says 'World Cup starts now'...",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-03T10:41:05.825Z"
-  },
-  {
-    "id": "31f3a18ec1b1",
-    "title": "World Cup Daily live: Travel chaos sees Speed miss...",
-    "date": "2026-07-03",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/49255647/world-cup-daily-live-travel-chaos-sees-speed-miss-cristiano-ronaldo-game-messi-action",
-    "summary": "World Cup Daily live: Travel chaos sees Speed miss...",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-03T10:41:05.825Z"
-  },
-  {
-    "id": "c0fbf897eda6",
-    "title": "Messi, Balogun and why two tackles have sparked Wo...",
-    "date": "2026-07-03",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/49252206/messi-balogun-why-two-tackles-sparked-world-cup-outrage",
-    "summary": "Messi, Balogun and why two tackles have sparked Wo...",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-03T10:41:05.825Z"
-  },
-  {
-    "id": "e75f87f2dedc",
-    "title": "Germany want Klopp talks as Nagelsmann resigns",
-    "date": "2026-07-03",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c8x272kyp4wo?at_medium=RSS&at_campaign=rss",
-    "summary": "Germany want Klopp talks as Nagelsmann resigns",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-03T10:41:05.825Z"
-  },
-  {
-    "id": "6b0ee5954a4d",
-    "title": "Mahrez retires from Algeria duty after World Cup exit",
-    "date": "2026-07-03",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cn0vwn78n8do?at_medium=RSS&at_campaign=rss",
-    "summary": "Mahrez retires from Algeria duty after World Cup exit",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-03T10:41:05.825Z"
-  },
-  {
-    "id": "3a388dea3a4a",
-    "title": "Late VAR drama as Croatia denied equaliser",
-    "date": "2026-07-03",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/videos/ckg7eerdx6go?at_medium=RSS&at_campaign=rss",
-    "summary": "Late VAR drama as Croatia denied equaliser",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-03T10:41:05.825Z"
-  },
-  {
-    "id": "b4fd5f3b8a09",
-    "title": "Ronaldo levels from penalty spot for Portugal",
-    "date": "2026-07-03",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/videos/cdx7ddr5n7qo?at_medium=RSS&at_campaign=rss",
-    "summary": "Ronaldo levels from penalty spot for Portugal",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-03T10:41:05.825Z"
-  },
-  {
-    "id": "948e8fab80a3",
-    "title": "Ronaldo has equaliser ruled out for offside",
-    "date": "2026-07-03",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/videos/ce3edkv33kvo?at_medium=RSS&at_campaign=rss",
-    "summary": "Ronaldo has equaliser ruled out for offside",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-03T10:41:05.825Z"
-  },
-  {
-    "id": "e2040675b503",
-    "title": "Cremers leaves Wales role as key Bellamy assistant",
-    "date": "2026-07-03",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cz0jezy9mmmo?at_medium=RSS&at_campaign=rss",
-    "summary": "Cremers leaves Wales role as key Bellamy assistant",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-03T10:41:05.825Z"
-  },
-  {
-    "id": "d5ad05cb0e05",
-    "title": "Tuchel wants young England fans to stay up for 1am World Cup clash - but should they?",
-    "date": "2026-07-03",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/news/articles/ckg40qedq57o?at_medium=RSS&at_campaign=rss",
-    "summary": "Tuchel wants young England fans to stay up for 1am World Cup clash - but should they?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-03T10:41:05.825Z"
-  },
-  {
-    "id": "52bf9854a22e",
-    "title": "World Cup 2026: Nagelsmann quits Germany job; Portugal to face Spain after VAR drama – live",
-    "date": "2026-07-03",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/live/2026/jul/03/world-cup-2026-portugal-spain-switzerland-australia-egypt-argentina-cape-verde-colombia-ghana-live",
-    "summary": "World Cup 2026: Nagelsmann quits Germany job; Portugal to face Spain after VAR drama – live",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-03T10:41:05.825Z"
-  },
-  {
-    "id": "2b4a03abc118",
-    "title": "England must go low against Mexico to hit heights with Total Arsenalball",
-    "date": "2026-07-03",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/03/total-arsenalball-england-low-block-mexico-azteca",
-    "summary": "England must go low against Mexico to hit heights with Total Arsenalball",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-03T10:41:05.825Z"
-  },
-  {
-    "id": "cf5a94d07a1a",
-    "title": "Manzambi dazzles as Switzerland stroll into last 16 with win over Algeria",
-    "date": "2026-07-03",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/03/manzambi-switzerland-world-cup-algeria-match-report",
-    "summary": "Manzambi dazzles as Switzerland stroll into last 16 with win over Algeria",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-03T10:41:05.825Z"
   }
 ];
