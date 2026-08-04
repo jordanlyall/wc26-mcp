@@ -2,6 +2,71 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "972c814004ad",
+    "title": "Newcastle reject first bid from Arsenal for captain Bruno Guimarães",
+    "date": "2026-08-03",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/03/premier-league-transfer-newcastle-reject-first-bid-arsenal-bruno-guimaraes",
+    "summary": "Newcastle reject first bid from Arsenal for captain Bruno Guimarães",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-04T10:42:55.081Z"
+  },
+  {
+    "id": "1aae135d4a94",
+    "title": "Transfer roundup: Chelsea sell Trevoh Chalobah and sign Jordan Henderson",
+    "date": "2026-08-03",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/03/transfer-roundup-chelsea-sell-trevoh-chalobah-sign-jordan-henderson",
+    "summary": "Transfer roundup: Chelsea sell Trevoh Chalobah and sign Jordan Henderson",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-04T10:42:55.081Z"
+  },
+  {
+    "id": "d839bfe7a71d",
+    "title": "MLS investigates reports of antisemitic chants toward New England’s Dor Turgeman in Montreal",
+    "date": "2026-08-03",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/03/mls-dor-turgeman-montreal-new-england-revolution-israel",
+    "summary": "MLS investigates reports of antisemitic chants toward New England’s Dor Turgeman in Montreal",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-04T10:42:55.081Z"
+  },
+  {
+    "id": "2721c9e6f906",
+    "title": "Mauricio Pochettino agrees deal to stay as US coach through World Cup 2030",
+    "date": "2026-08-03",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/03/mauricio-pochettino-new-contract-us-soccer-world-cup",
+    "summary": "Mauricio Pochettino agrees deal to stay as US coach through World Cup 2030",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-04T10:42:55.081Z"
+  },
+  {
+    "id": "594c2cd1e0cb",
+    "title": "Football Daily | Scrapped proposals, statement wars and the ongoing Infantino furore",
+    "date": "2026-08-03",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/03/football-daily-email-fifa-gianni-infantino-scrapped-proposals-statement-wars",
+    "summary": "Football Daily | Scrapped proposals, statement wars and the ongoing Infantino furore",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-04T10:42:55.081Z"
+  },
+  {
     "id": "7b56179568fb",
     "title": "Worn in the USA: Liverpool’s pre-season tour had highs but exposed glaring gaps in the squad | Andy Hunter",
     "date": "2026-08-03",
@@ -3887,343 +3952,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-07-05T10:19:54.669Z"
-  },
-  {
-    "id": "f3c73fe22617",
-    "title": "FIFA World Cup 2026",
-    "date": "2026-07-04",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/iplayer/episode/m002z090?at_medium=RSS&at_campaign=rss",
-    "summary": "FIFA World Cup 2026",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-11T09:41:23.018Z"
-  },
-  {
-    "id": "630cffbc0bfe",
-    "title": "For all Cape Verde’s heroics, Africa’s World Cup could and perhaps should have been better | Jonathan Wilson",
-    "date": "2026-07-04",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/04/for-all-cape-verdes-heroics-africas-world-cup-could-and-perhaps-should-have-been-better",
-    "summary": "For all Cape Verde’s heroics, Africa’s World Cup could and perhaps should have been better | Jonathan Wilson",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-07T11:12:07.905Z"
-  },
-  {
-    "id": "8a51027ae921",
-    "title": "Jhon Arias goal sends Colombia into last 16 as Ghana bow out of World Cup",
-    "date": "2026-07-04",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/04/colombia-ghana-world-cup-2026-last-32-match-report",
-    "summary": "Jhon Arias goal sends Colombia into last 16 as Ghana bow out of World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-06T12:07:40.279Z"
-  },
-  {
-    "id": "826201ac6d2d",
-    "title": "Cape Verde threaten shock for the ages before Argentina break hearts in World Cup classic",
-    "date": "2026-07-04",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/04/argentina-cape-verde-world-cup-2026-last-32-match-report",
-    "summary": "Cape Verde threaten shock for the ages before Argentina break hearts in World Cup classic",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-06T12:07:40.279Z"
-  },
-  {
-    "id": "6431b2754a3b",
-    "title": "Why England won't fear Mexico or the Azteca - Shearer",
-    "date": "2026-07-04",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c4gy0l7x25wo?at_medium=RSS&at_campaign=rss",
-    "summary": "Why England won't fear Mexico or the Azteca - Shearer",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-05T10:19:54.669Z"
-  },
-  {
-    "id": "a3132753f55e",
-    "title": "Unbeaten in 34 matches - why Morocco are World Cup contenders",
-    "date": "2026-07-04",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cy4e22gqe50o?at_medium=RSS&at_campaign=rss",
-    "summary": "Unbeaten in 34 matches - why Morocco are World Cup contenders",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-05T10:19:54.669Z"
-  },
-  {
-    "id": "4064c5362738",
-    "title": "Oxlade-Chamberlain signs new one-year Celtic deal",
-    "date": "2026-07-04",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c77y5zvjd8zo?at_medium=RSS&at_campaign=rss",
-    "summary": "Oxlade-Chamberlain signs new one-year Celtic deal",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-05T10:19:54.669Z"
-  },
-  {
-    "id": "580eb90ace38",
-    "title": "Williamson eyes Scotland job with McCoist on staff",
-    "date": "2026-07-04",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cvg7zj78eklo?at_medium=RSS&at_campaign=rss",
-    "summary": "Williamson eyes Scotland job with McCoist on staff",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-05T10:19:54.669Z"
-  },
-  {
-    "id": "4064c5362738",
-    "title": "Oxlade-Chamberlain signs new one-year Celtic deal",
-    "date": "2026-07-04",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c77y5zvjd8zo?at_medium=RSS&at_campaign=rss",
-    "summary": "Oxlade-Chamberlain signs new one-year Celtic deal",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-05T10:19:54.669Z"
-  },
-  {
-    "id": "580eb90ace38",
-    "title": "Williamson eyes Scotland job with McCoist on staff",
-    "date": "2026-07-04",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cvg7zj78eklo?at_medium=RSS&at_campaign=rss",
-    "summary": "Williamson eyes Scotland job with McCoist on staff",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-05T10:19:54.669Z"
-  },
-  {
-    "id": "7c578d6a963e",
-    "title": "‘We were better than them’: Marsch bullish despite Canada’s World Cup exit to Morocco",
-    "date": "2026-07-04",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/04/jesse-marsch-canada-morocco-world-cup",
-    "summary": "‘We were better than them’: Marsch bullish despite Canada’s World Cup exit to Morocco",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-05T10:19:54.669Z"
-  },
-  {
-    "id": "ca837a09acee",
-    "title": "How Messi, Argentina saved themselves from humilia...",
-    "date": "2026-07-04",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/49262637/messi-argentina-nearly-suffered-historic-world-cup-upset-cape-verde",
-    "summary": "How Messi, Argentina saved themselves from humilia...",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-04T10:14:36.777Z"
-  },
-  {
-    "id": "02cb262ea5d7",
-    "title": "Argentina break Cape Verde hearts in extra-time",
-    "date": "2026-07-04",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/49263170/argentina-break-cape-verde-hearts-extra-world-cup-lionel-messi-scores",
-    "summary": "Argentina break Cape Verde hearts in extra-time",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-04T10:14:36.777Z"
-  },
-  {
-    "id": "9035023fa9cc",
-    "title": "Messi: Argentina have 'many' things to correct",
-    "date": "2026-07-04",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/49263953/lionel-messi-argentina-many-bad-things-correct",
-    "summary": "Messi: Argentina have 'many' things to correct",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-04T10:14:36.777Z"
-  },
-  {
-    "id": "55c375760175",
-    "title": "Colombia see off Ghana to set up clash with Swiss",
-    "date": "2026-07-04",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/49264513/colombia-ghana-fifa-world-cup-2026-round-32",
-    "summary": "Colombia see off Ghana to set up clash with Swiss",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-04T10:14:36.777Z"
-  },
-  {
-    "id": "8a0e3667d88a",
-    "title": "Nagelsmann out as Germany boss, Klopp lined up",
-    "date": "2026-07-04",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/49225220/julian-nagelsmann-germany-world-cup-2026",
-    "summary": "Nagelsmann out as Germany boss, Klopp lined up",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-04T10:14:36.777Z"
-  },
-  {
-    "id": "f5d447e2bc2b",
-    "title": "Ancelotti: SAF is only manager more qualified",
-    "date": "2026-07-04",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/49260431/brazil-carlo-ancelotti-sir-alex-ferguson-only-manager-more-qualified",
-    "summary": "Ancelotti: SAF is only manager more qualified",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-04T10:14:36.777Z"
-  },
-  {
-    "id": "8b6676a04e8e",
-    "title": "Salah leads Egypt to World Cup history with impude...",
-    "date": "2026-07-04",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/49261423/world-cup-history-mohamed-salah-egypt-penalty-shootout-australia",
-    "summary": "Salah leads Egypt to World Cup history with impude...",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-04T10:14:36.777Z"
-  },
-  {
-    "id": "016e0a559cbc",
-    "title": "Can England handle Mexico's altitude? Why caffeine...",
-    "date": "2026-07-04",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/49260461/how-england-overcome-mexico-altitude-world-cup-round-16",
-    "summary": "Can England handle Mexico's altitude? Why caffeine...",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-04T10:14:36.777Z"
-  },
-  {
-    "id": "f0299eab2b27",
-    "title": "Farewell Cape Verde - the underdogs the World Cup will never forget",
-    "date": "2026-07-04",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cqj1pd8lqw9o?at_medium=RSS&at_campaign=rss",
-    "summary": "Farewell Cape Verde - the underdogs the World Cup will never forget",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-04T10:14:36.777Z"
-  },
-  {
-    "id": "375ef5dec769",
-    "title": "Murals, flags and beef dishes - Messi mania takes hold in Miami",
-    "date": "2026-07-04",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cm2jpkkdld4o?at_medium=RSS&at_campaign=rss",
-    "summary": "Murals, flags and beef dishes - Messi mania takes hold in Miami",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-04T10:14:36.777Z"
-  },
-  {
-    "id": "678a56dd6c08",
-    "title": "Argentina overcome Cape Verde in extra-time thriller",
-    "date": "2026-07-04",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/videos/cj6gp70g967o?at_medium=RSS&at_campaign=rss",
-    "summary": "Argentina overcome Cape Verde in extra-time thriller",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-04T10:14:36.777Z"
-  },
-  {
-    "id": "e6b2a0f2f16f",
-    "title": "'Sensational' Messi finish gives Argentina the lead",
-    "date": "2026-07-04",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/videos/c5yz02je4n9o?at_medium=RSS&at_campaign=rss",
-    "summary": "'Sensational' Messi finish gives Argentina the lead",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-04T10:14:36.777Z"
-  },
-  {
-    "id": "df9fd38f9aaa",
-    "title": "'What a strike!' - Cabral hits brilliant goal to draw Cape Verde level in extra time",
-    "date": "2026-07-04",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/videos/c9q23jpee23o?at_medium=RSS&at_campaign=rss",
-    "summary": "'What a strike!' - Cabral hits brilliant goal to draw Cape Verde level in extra time",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-04T10:14:36.777Z"
-  },
-  {
-    "id": "18672691b330",
-    "title": "Argentina stunned as Duarte equalises for Cape Verde",
-    "date": "2026-07-04",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/videos/cly8p49l2vwo?at_medium=RSS&at_campaign=rss",
-    "summary": "Argentina stunned as Duarte equalises for Cape Verde",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-04T10:14:36.777Z"
-  },
-  {
-    "id": "d6fc927b1cd0",
-    "title": "Martinez restores Argentina's lead against Cape Verde",
-    "date": "2026-07-04",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/videos/c4gy8exgyd3o?at_medium=RSS&at_campaign=rss",
-    "summary": "Martinez restores Argentina's lead against Cape Verde",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-04T10:14:36.777Z"
   }
 ];
