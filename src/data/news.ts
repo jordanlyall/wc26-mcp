@@ -2,6 +2,97 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "b228dcee0e98",
+    "title": "Arsenal agree £75m fee with Newcastle for Bruno Guimarães as clubs reach compromise",
+    "date": "2026-08-05",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/05/arsenal-agree-75m-fee-with-newcastle-for-bruno-guimaraes-as-clubs-reach-compromise",
+    "summary": "Arsenal agree £75m fee with Newcastle for Bruno Guimarães as clubs reach compromise",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-05T10:39:52.659Z"
+  },
+  {
+    "id": "b3dd0d4aab1f",
+    "title": "Football transfer rumours: Folarin Balogun to Spurs? Pedro Neto to Manchester City?",
+    "date": "2026-08-05",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/05/football-transfer-rumours-folarin-balogun-tottenham-hotspur-pedro-neto-manchester-city",
+    "summary": "Football transfer rumours: Folarin Balogun to Spurs? Pedro Neto to Manchester City?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-05T10:39:52.659Z"
+  },
+  {
+    "id": "970e6334fd6a",
+    "title": "Rico Lewis' sister Sacha turns pro with Man City",
+    "date": "2026-08-04",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c0jld6pwxg6o?at_medium=RSS&at_campaign=rss",
+    "summary": "Rico Lewis' sister Sacha turns pro with Man City",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-05T10:39:52.659Z"
+  },
+  {
+    "id": "970e6334fd6a",
+    "title": "Rico Lewis' sister Sacha turns pro with Man City",
+    "date": "2026-08-04",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c0jld6pwxg6o?at_medium=RSS&at_campaign=rss",
+    "summary": "Rico Lewis' sister Sacha turns pro with Man City",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-05T10:39:52.659Z"
+  },
+  {
+    "id": "1dcf47fef224",
+    "title": "Trabzonspor aim to sign Mohamed Salah this week after opening transfer talks",
+    "date": "2026-08-04",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/04/trabzonspor-transfer-mohamed-salah-turkish-super-lig",
+    "summary": "Trabzonspor aim to sign Mohamed Salah this week after opening transfer talks",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-05T10:39:52.659Z"
+  },
+  {
+    "id": "3e39b5d02b1c",
+    "title": "Arsenal target Vinícius says Mourinho ‘wants me to be happy’ at Real Madrid",
+    "date": "2026-08-04",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/04/arsenal-target-vinicius-junior-jose-mourinho-real-madrid",
+    "summary": "Arsenal target Vinícius says Mourinho ‘wants me to be happy’ at Real Madrid",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-05T10:39:52.659Z"
+  },
+  {
+    "id": "35424ae31522",
+    "title": "USMNT to face Mexico and Canada in friendlies to kick off 2030 World Cup cycle",
+    "date": "2026-08-04",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/04/usmnt-friendlies-mexico-canada",
+    "summary": "USMNT to face Mexico and Canada in friendlies to kick off 2030 World Cup cycle",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-05T10:39:52.659Z"
+  },
+  {
     "id": "972c814004ad",
     "title": "Newcastle reject first bid from Arsenal for captain Bruno Guimarães",
     "date": "2026-08-03",
@@ -3744,213 +3835,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-07-06T12:07:40.279Z"
-  },
-  {
-    "id": "30f39a3936de",
-    "title": "Thousands welcome home Cape Verde players after stunning World Cup run",
-    "date": "2026-07-05",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/news/articles/c70yy4xkeexo?at_medium=RSS&at_campaign=rss",
-    "summary": "Thousands welcome home Cape Verde players after stunning World Cup run",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-06T12:07:40.279Z"
-  },
-  {
-    "id": "cf85c3a8a8f5",
-    "title": "Queiroz leaves Ghana following World Cup exit",
-    "date": "2026-07-05",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/clyxx288yr6o?at_medium=RSS&at_campaign=rss",
-    "summary": "Queiroz leaves Ghana following World Cup exit",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-06T12:07:40.279Z"
-  },
-  {
-    "id": "7df8da364964",
-    "title": "‘They’ve tried to kill me for 23 years’: Cristiano Ronaldo says this World Cup will be his last",
-    "date": "2026-07-05",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/05/kill-me-23-years-cristiano-ronaldo-world-cup-last-portugal-spain",
-    "summary": "‘They’ve tried to kill me for 23 years’: Cristiano Ronaldo says this World Cup will be his last",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-06T12:07:40.279Z"
-  },
-  {
-    "id": "968ec945dd2f",
-    "title": "Paraguay showed France can be stifled – Morocco will have taken note | Paul MacInnes",
-    "date": "2026-07-05",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/05/paraguay-france-morocco-world-cup-2026",
-    "summary": "Paraguay showed France can be stifled – Morocco will have taken note | Paul MacInnes",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-06T12:07:40.279Z"
-  },
-  {
-    "id": "3bcf72beee60",
-    "title": "‘A high ceiling’: Newcastle confirm £43m signing of Hoffenheim winger Touré",
-    "date": "2026-07-05",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/05/newcastle-confirm-43m-signing-of-hoffenheim-winger-toure",
-    "summary": "‘A high ceiling’: Newcastle confirm £43m signing of Hoffenheim winger Touré",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-06T12:07:40.279Z"
-  },
-  {
-    "id": "b90f19c3d4e5",
-    "title": "England enter the Azteca - where football kings are crowned",
-    "date": "2026-07-05",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cg74e324835o?at_medium=RSS&at_campaign=rss",
-    "summary": "England enter the Azteca - where football kings are crowned",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-05T10:19:54.669Z"
-  },
-  {
-    "id": "55172fcbb006",
-    "title": "Tuchel praises respectful Mexico fans amid increased security",
-    "date": "2026-07-05",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c8r2827pyxlo?at_medium=RSS&at_campaign=rss",
-    "summary": "Tuchel praises respectful Mexico fans amid increased security",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-05T10:19:54.669Z"
-  },
-  {
-    "id": "dacdf1d187cf",
-    "title": "World Cup 2026: Mexico v England buildup, France battle past Paraguay, Morocco march on – live",
-    "date": "2026-07-05",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/live/2026/jul/05/world-cup-2026-live-last-16-concludes-morocco-france-paraguay",
-    "summary": "World Cup 2026: Mexico v England buildup, France battle past Paraguay, Morocco march on – live",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-05T10:19:54.669Z"
-  },
-  {
-    "id": "f355f0e489c3",
-    "title": "‘Here to write our own chapters’: England not daunted by unique occasion of Mexico game, says Tuchel",
-    "date": "2026-07-05",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/05/world-cup-last-16-england-thomas-tuchel-mexico-city-azteca",
-    "summary": "‘Here to write our own chapters’: England not daunted by unique occasion of Mexico game, says Tuchel",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-05T10:19:54.669Z"
-  },
-  {
-    "id": "899996108ac3",
-    "title": "Luis de la Fuente: ‘I say this with the greatest respect: we have the best midfield in the world’",
-    "date": "2026-07-05",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/05/luis-de-la-fuente-spain-world-cup-2026-lamine-yamal",
-    "summary": "Luis de la Fuente: ‘I say this with the greatest respect: we have the best midfield in the world’",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-05T10:19:54.669Z"
-  },
-  {
-    "id": "142cbcc4270a",
-    "title": "Manchester United target Andrey Santos but Chelsea value midfielder at £50m",
-    "date": "2026-07-05",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/05/andrey-santos-manchester-united-chelsea-transfer",
-    "summary": "Manchester United target Andrey Santos but Chelsea value midfielder at £50m",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-05T10:19:54.669Z"
-  },
-  {
-    "id": "1244d4954dd9",
-    "title": "Lionel Messi and football’s ageless wonders can excel into their 40s | Emma Hayes",
-    "date": "2026-07-05",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/05/lionel-messi-ageless-wonders-world-cup",
-    "summary": "Lionel Messi and football’s ageless wonders can excel into their 40s | Emma Hayes",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-05T10:19:54.669Z"
-  },
-  {
-    "id": "fb5e3c73a4d1",
-    "title": "England at the Azteca Stadium: a potted history – in pictures",
-    "date": "2026-07-05",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/gallery/2026/jul/05/england-azteca-stadium-mexico-potted-history-in-pictures",
-    "summary": "England at the Azteca Stadium: a potted history – in pictures",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-05T10:19:54.669Z"
-  },
-  {
-    "id": "a7b05cd212c7",
-    "title": "Football is at the centre of the universe in Brazil in a way it is not in the US | Rodrygo",
-    "date": "2026-07-05",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/05/football-centre-of-universe-brazil-not-in-us",
-    "summary": "Football is at the centre of the universe in Brazil in a way it is not in the US | Rodrygo",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-05T10:19:54.669Z"
-  },
-  {
-    "id": "01d1e3677ecd",
-    "title": "England braced for a Mexican whirlwind as Tuchel strives for calm amid the chaos",
-    "date": "2026-07-05",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/05/england-mexico-world-cup-last-16-azteca-preview",
-    "summary": "England braced for a Mexican whirlwind as Tuchel strives for calm amid the chaos",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-05T10:19:54.669Z"
-  },
-  {
-    "id": "6c7faea3efba",
-    "title": "French football chief condemns Chilavert’s remarks that Les Bleus are ‘a squad from Africa’",
-    "date": "2026-07-05",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/04/french-football-chief-condemns-chilaverts-remarks-that-les-bleus-are-a-squad-from-africa",
-    "summary": "French football chief condemns Chilavert’s remarks that Les Bleus are ‘a squad from Africa’",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-05T10:19:54.669Z"
   }
 ];
