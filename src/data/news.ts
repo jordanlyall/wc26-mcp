@@ -2,6 +2,97 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "dbd849908adf",
+    "title": "Salah given hero's welcome before Trabzonspor move",
+    "date": "2026-08-06",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cn8negllz1ko?at_medium=RSS&at_campaign=rss",
+    "summary": "Salah given hero's welcome before Trabzonspor move",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-06T10:42:47.187Z"
+  },
+  {
+    "id": "2e7d900ada02",
+    "title": "Defender Walker 'at ease' with England retirement",
+    "date": "2026-08-05",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/ce8kn37gj82o?at_medium=RSS&at_campaign=rss",
+    "summary": "Defender Walker 'at ease' with England retirement",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-06T10:42:47.187Z"
+  },
+  {
+    "id": "f3404de0a9bb",
+    "title": "Parkinson gets England-U20s call before World Cup",
+    "date": "2026-08-05",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cd0xk2n23ymo?at_medium=RSS&at_campaign=rss",
+    "summary": "Parkinson gets England-U20s call before World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-06T10:42:47.187Z"
+  },
+  {
+    "id": "f3404de0a9bb",
+    "title": "Parkinson gets England-U20s call before World Cup",
+    "date": "2026-08-05",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cd0xk2n23ymo?at_medium=RSS&at_campaign=rss",
+    "summary": "Parkinson gets England-U20s call before World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-06T10:42:47.187Z"
+  },
+  {
+    "id": "87b000a14833",
+    "title": "‘There is a clear vision’: Matthias Jaissle installed as Newcastle head coach",
+    "date": "2026-08-05",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/05/matthias-jaissle-installed-as-newcastle-united-head-coach",
+    "summary": "‘There is a clear vision’: Matthias Jaissle installed as Newcastle head coach",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-06T10:42:47.187Z"
+  },
+  {
+    "id": "4b2ec9f6b51e",
+    "title": "Infantino is getting his karmic kicking, but why did football take so long to rebel against Fifa? | Jonathan Liew",
+    "date": "2026-08-05",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/05/gianni-infantino-fifa-president-uefa-world-cup",
+    "summary": "Infantino is getting his karmic kicking, but why did football take so long to rebel against Fifa? | Jonathan Liew",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-06T10:42:47.187Z"
+  },
+  {
+    "id": "c9ef8cd45f3e",
+    "title": "Transfer roundup: Coventry to make Yirenkyi record signing, Palace swoop for Gozo",
+    "date": "2026-08-05",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/05/crystal-palace-ready-to-swoop-for-us-star-zavier-gozo-and-stand-firm-on-wharton",
+    "summary": "Transfer roundup: Coventry to make Yirenkyi record signing, Palace swoop for Gozo",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-06T10:42:47.187Z"
+  },
+  {
     "id": "b228dcee0e98",
     "title": "Arsenal agree £75m fee with Newcastle for Bruno Guimarães as clubs reach compromise",
     "date": "2026-08-05",
@@ -3588,252 +3679,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-07-07T11:12:07.905Z"
-  },
-  {
-    "id": "d0b2dbc12b78",
-    "title": "James expected to return for Norway quarter-final",
-    "date": "2026-07-06",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cx2xxl6772no?at_medium=RSS&at_campaign=rss",
-    "summary": "James expected to return for Norway quarter-final",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-07T11:12:07.905Z"
-  },
-  {
-    "id": "9b977624263d",
-    "title": "Henderson expected to have surgery on injured wrist",
-    "date": "2026-07-06",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cvgmmm5923yo?at_medium=RSS&at_campaign=rss",
-    "summary": "Henderson expected to have surgery on injured wrist",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-07T11:12:07.905Z"
-  },
-  {
-    "id": "b6e8c505e150",
-    "title": "Coach told FA Maddy Cusack was a liar, inquest hears",
-    "date": "2026-07-06",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/news/articles/cj0ggn1214vo?at_medium=RSS&at_campaign=rss",
-    "summary": "Coach told FA Maddy Cusack was a liar, inquest hears",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-07T11:12:07.905Z"
-  },
-  {
-    "id": "2142851b4cc4",
-    "title": "‘I go with a clear conscience’: Cristiano Ronaldo confirms he has played his last World Cup game",
-    "date": "2026-07-06",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/07/cristiano-ronaldo-portugal-roberto-martinez-world-cup-2026-spain",
-    "summary": "‘I go with a clear conscience’: Cristiano Ronaldo confirms he has played his last World Cup game",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-07T11:12:07.905Z"
-  },
-  {
-    "id": "a69915c397e9",
-    "title": "Jonathan Morgan labelled Maddy Cusack ‘generally a liar’ in FA investigation, inquest hears",
-    "date": "2026-07-06",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/06/jonathan-morgan-labelled-maddy-cusack-generally-a-liar-in-fa-investigation-inquest-hears",
-    "summary": "Jonathan Morgan labelled Maddy Cusack ‘generally a liar’ in FA investigation, inquest hears",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-07T11:12:07.905Z"
-  },
-  {
-    "id": "4317d3398ece",
-    "title": "‘Best host in the world’: Mexico keep spirits up after England heartbreak",
-    "date": "2026-07-06",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/06/mexico-world-cup-exit-england-reaction-fans",
-    "summary": "‘Best host in the world’: Mexico keep spirits up after England heartbreak",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-07T11:12:07.905Z"
-  },
-  {
-    "id": "9e3f2031ef5f",
-    "title": "Mikel Merino comes full circle with Spain in touching tale of fathers and sons | Sid Lowe",
-    "date": "2026-07-06",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/06/mikel-merino-spain-world-cup-winner-portugal",
-    "summary": "Mikel Merino comes full circle with Spain in touching tale of fathers and sons | Sid Lowe",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-07T11:12:07.905Z"
-  },
-  {
-    "id": "06c571fe84cb",
-    "title": "Arsenal sign prolific Hoffenheim forward Selina Cerci; Kaneryd leaves Chelsea for Lyonnes",
-    "date": "2026-07-06",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/06/selina-cerci-signs-for-arsenal-womens-super-league",
-    "summary": "Arsenal sign prolific Hoffenheim forward Selina Cerci; Kaneryd leaves Chelsea for Lyonnes",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-07T11:12:07.905Z"
-  },
-  {
-    "id": "66e5c3253da4",
-    "title": "World Cup 2026: England beat Mexico in thriller at the Azteca – in pictures",
-    "date": "2026-07-06",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/gallery/2026/jul/06/world-cup-2026-mexico-v-england-at-the-azteca-in-pictures",
-    "summary": "World Cup 2026: England beat Mexico in thriller at the Azteca – in pictures",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-07T11:12:07.905Z"
-  },
-  {
-    "id": "1d1e33136fe4",
-    "title": "Henderson injures wrist in England celebrations",
-    "date": "2026-07-06",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c9822ez0zdwo?at_medium=RSS&at_campaign=rss",
-    "summary": "Henderson injures wrist in England celebrations",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-06T12:07:40.279Z"
-  },
-  {
-    "id": "e4f8de6de6af",
-    "title": "How England's epic night at the Azteca unfolded",
-    "date": "2026-07-06",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/videos/c9q225nn0dqo?at_medium=RSS&at_campaign=rss",
-    "summary": "How England's epic night at the Azteca unfolded",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-06T12:07:40.279Z"
-  },
-  {
-    "id": "ed92d40b68e5",
-    "title": "Bellingham scores two in 98 seconds to silence the Azteca",
-    "date": "2026-07-06",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/videos/ce3ee5dkvpro?at_medium=RSS&at_campaign=rss",
-    "summary": "Bellingham scores two in 98 seconds to silence the Azteca",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-06T12:07:40.279Z"
-  },
-  {
-    "id": "d34a6acdf418",
-    "title": "'I'm speechless' - Kane reacts to England's victory over Mexico",
-    "date": "2026-07-06",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/videos/cvg55vne49do?at_medium=RSS&at_campaign=rss",
-    "summary": "'I'm speechless' - Kane reacts to England's victory over Mexico",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-06T12:07:40.279Z"
-  },
-  {
-    "id": "6717b7ad8eeb",
-    "title": "Where does Mexico win rank among England's best results?",
-    "date": "2026-07-06",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cgevv1r30w1o?at_medium=RSS&at_campaign=rss",
-    "summary": "Where does Mexico win rank among England's best results?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-06T12:07:40.279Z"
-  },
-  {
-    "id": "30a3fcc2d1bb",
-    "title": "Neymar says Brazil career over after Norway defeat",
-    "date": "2026-07-06",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/clyww4w1rl8o?at_medium=RSS&at_campaign=rss",
-    "summary": "Neymar says Brazil career over after Norway defeat",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-06T12:07:40.279Z"
-  },
-  {
-    "id": "9f744b355f36",
-    "title": "World Cup referees are just not good enough - Tuchel",
-    "date": "2026-07-06",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cq6115rj9ymo?at_medium=RSS&at_campaign=rss",
-    "summary": "World Cup referees are just not good enough - Tuchel",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-06T12:07:40.279Z"
-  },
-  {
-    "id": "f606f6b041e6",
-    "title": "World Cup 2026: England set up Norway quarter-final after Mexico thriller; Uefa says Fifa ‘crossed line’ over Balogun – live",
-    "date": "2026-07-06",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/live/2026/jul/06/world-cup-2026-england-set-up-norway-quarter-final-after-mexico-thriller-trump-lobbied-for-balogun-red-card-reversal-live",
-    "summary": "World Cup 2026: England set up Norway quarter-final after Mexico thriller; Uefa says Fifa ‘crossed line’ over Balogun – live",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-06T12:07:40.279Z"
-  },
-  {
-    "id": "7eaaae93c722",
-    "title": "England rise to Azteca occasion and see off ghosts, time and Mexico | Barney Ronay",
-    "date": "2026-07-06",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/06/england-azteca-mexico-world-cup",
-    "summary": "England rise to Azteca occasion and see off ghosts, time and Mexico | Barney Ronay",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-06T12:07:40.279Z"
-  },
-  {
-    "id": "a22bc23355ed",
-    "title": "Erling Haaland hails ‘one of the sickest days’ in Norway’s history after beating Brazil",
-    "date": "2026-07-06",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/06/erling-haaland-one-of-the-sickest-days-norway-history-beating-brazil-world-cup",
-    "summary": "Erling Haaland hails ‘one of the sickest days’ in Norway’s history after beating Brazil",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-06T12:07:40.279Z"
   }
 ];
