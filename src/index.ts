@@ -16,6 +16,7 @@ import { fanZones } from "./data/fan-zones.js";
 import { news } from "./data/news.js";
 import { injuries } from "./data/injuries.js";
 import { tournamentOdds } from "./data/odds.js";
+import { getLiveResults, lookupResult, computeGroupTable, liveSource, type LiveResult } from "./data/live.js";
 
 import type {
   Match,
@@ -102,7 +103,7 @@ function resolveTeam(input: string): Team | undefined {
   );
 }
 
-function enrichMatch(m: Match, timezone?: string) {
+function enrichMatch(m: Match, timezone?: string, live?: Map<string, LiveResult>) {
   const venue = venues.find((v) => v.id === m.venue_id);
   const venueTimezone = venue?.timezone ?? "UTC";
   const venueLocal = convertTime(m.date, m.time_utc, venueTimezone);
@@ -115,6 +116,18 @@ function enrichMatch(m: Match, timezone?: string) {
     time_venue: venueLocal.time,
     venue_timezone: venueTimezone,
   };
+
+  // Overlay the real result on top of the static schedule, if one exists.
+  if (live) {
+    const result = lookupResult(live, m.home_team_id, m.away_team_id);
+    if (result) {
+      enriched.home_score = result.home_score;
+      enriched.away_score = result.away_score;
+      if (result.ht_home !== undefined) enriched.halftime_score = `${result.ht_home}-${result.ht_away}`;
+      enriched.status = result.status;
+      enriched.result_source = "openfootball";
+    }
+  }
 
   if (timezone) {
     const local = convertTime(m.date, m.time_utc, timezone);
@@ -276,13 +289,22 @@ server.registerTool("get_matches", {
   if (args.round) {
     result = result.filter((m) => m.round === args.round);
   }
+
+  // Fetch real results once, then overlay onto each match. Status filter
+  // is applied AFTER the overlay so e.g. status="completed" reflects
+  // matches that have actually been played, not just the static schedule.
+  const live = await getLiveResults();
+  let enriched = result.map((m) => enrichMatch(m, args.timezone, live));
+
   if (args.status) {
-    result = result.filter((m) => m.status === args.status);
+    enriched = enriched.filter((m) => m.status === args.status);
   }
 
   return json({
-    count: result.length,
-    matches: result.map((m) => enrichMatch(m, args.timezone)),
+    count: enriched.length,
+    live_source: liveSource(),
+    results_available: live.size,
+    matches: enriched,
   });
 });
 
@@ -1699,6 +1721,10 @@ server.registerTool("get_standings", {
     }
   }
 
+  // Real results overlay (free, openfootball). Empty before kickoff →
+  // tables come back all-zeros and we lean on the power ranking.
+  const live = await getLiveResults();
+
   const result = targetGroups.map((g) => {
     const groupTeams = g.teams
       .map((tid) => teams.find((t) => t.id === tid))
@@ -1736,7 +1762,7 @@ server.registerTool("get_standings", {
     }).sort((a, b) => a._power_score - b._power_score);
 
     const groupPred = tournamentOdds.group_predictions.find((gp) => gp.group === g.id);
-    const confirmedTeams = ranked.filter((t) => !t.team_id.startsWith("tbd"));
+    const confirmedTeams = ranked.filter((t) => t.fifa_ranking != null);
     const avgRanking = confirmedTeams.length > 0
       ? Math.round(confirmedTeams.reduce((s, t) => s + (t.fifa_ranking ?? 100), 0) / confirmedTeams.length)
       : null;
@@ -1756,22 +1782,50 @@ server.registerTool("get_standings", {
       }
     }
 
+    // Real results table, computed from played matches (openfootball).
+    const groupStageMatches = matches.filter(
+      (m) => m.group === g.id && m.round === "Group Stage"
+    );
+    const table = computeGroupTable(g.teams, groupStageMatches, live).map((row, i) => ({
+      position: i + 1,
+      team: teamName(row.team_id),
+      team_id: row.team_id,
+      played: row.played,
+      won: row.won,
+      drawn: row.drawn,
+      lost: row.lost,
+      goals_for: row.goals_for,
+      goals_against: row.goals_against,
+      goal_difference: row.goal_difference,
+      points: row.points,
+    }));
+    const matchesPlayed = table.reduce((s, r) => s + r.played, 0) / 2;
+
     return {
       group: `Group ${g.id}`,
+      matches_played: matchesPlayed,
+      // Live, results-based standings — empty/zeroed until the group's
+      // first match is played, then updated as openfootball commits scores.
+      table,
       difficulty_rating: avgRanking,
       prediction: groupPred ? {
         favorites: groupPred.favorites.map((f) => teamName(f)),
         dark_horse: teamName(groupPred.dark_horse),
         narrative: groupPred.narrative,
       } : null,
-      teams: ranked.map(({ _power_score, ...rest }) => rest),
+      power_ranking: ranked.map(({ _power_score, ...rest }) => rest),
       head_to_head_history: groupH2H.length > 0 ? groupH2H : null,
     };
   });
 
+  const totalPlayed = result.reduce((s, g) => s + g.matches_played, 0);
+
   return json({
     count: result.length,
-    note: "Teams ranked by pre-tournament power rating (FIFA ranking + betting odds). Lower difficulty_rating = harder group.",
+    tournament_started: totalPlayed > 0,
+    note: totalPlayed > 0
+      ? "`table` = live standings computed from real results (points, then goal difference, then goals for). `power_ranking` = pre-tournament strength (FIFA ranking + odds)."
+      : "No group matches played yet — `table` is all zeros. `power_ranking` shows pre-tournament strength (FIFA ranking + odds). Lower difficulty_rating = harder group.",
     groups: result,
     related_tools: [
       "Use get_team_profile for a deep dive on any team",
