@@ -2,6 +2,84 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "a9ce981083dd",
+    "title": "Birmingham sign striker Effa Effa for £100K",
+    "date": "2026-08-06",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/ce971e8ny8mo?at_medium=RSS&at_campaign=rss",
+    "summary": "Birmingham sign striker Effa Effa for £100K",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-07T09:03:19.112Z"
+  },
+  {
+    "id": "987ccc0dd40f",
+    "title": "Forlan agrees to become interim Uruguay head coach",
+    "date": "2026-08-06",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/clyrddd2y2no?at_medium=RSS&at_campaign=rss",
+    "summary": "Forlan agrees to become interim Uruguay head coach",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-07T09:03:19.112Z"
+  },
+  {
+    "id": "a9ce981083dd",
+    "title": "Birmingham sign striker Effa Effa for £100K",
+    "date": "2026-08-06",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/ce971e8ny8mo?at_medium=RSS&at_campaign=rss",
+    "summary": "Birmingham sign striker Effa Effa for £100K",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-07T09:03:19.112Z"
+  },
+  {
+    "id": "dd4ec60d2a2f",
+    "title": "Arsenal hopes dashed after Vinícius Júnior extends Real Madrid contract to 2032",
+    "date": "2026-08-06",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/06/arsenal-hopes-dashed-after-vinicius-junior-extends-real-madrid-contract-to-2032",
+    "summary": "Arsenal hopes dashed after Vinícius Júnior extends Real Madrid contract to 2032",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-07T09:03:19.112Z"
+  },
+  {
+    "id": "fee263780f76",
+    "title": "Barcelona step up Rodri interest after Real Madrid talks with Manchester City star stall",
+    "date": "2026-08-06",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/06/barcelona-rodri-alvarez-manchester-city-real-madrid-transfers",
+    "summary": "Barcelona step up Rodri interest after Real Madrid talks with Manchester City star stall",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-07T09:03:19.112Z"
+  },
+  {
+    "id": "4083024c1752",
+    "title": "Argentina commemorate win against England at World Cup 2026 with special day",
+    "date": "2026-08-06",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/06/argentinas-fa-commemorate-world-cup-semi-final-win-england",
+    "summary": "Argentina commemorate win against England at World Cup 2026 with special day",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-07T09:03:19.112Z"
+  },
+  {
     "id": "dbd849908adf",
     "title": "Salah given hero's welcome before Trabzonspor move",
     "date": "2026-08-06",
@@ -3510,174 +3588,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-07-08T10:22:36.586Z"
-  },
-  {
-    "id": "001bf6b2ebdf",
-    "title": "The US had the biggest opportunity in the history of American soccer. They wasted it | Alexander Abnos",
-    "date": "2026-07-07",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/07/usmnt-world-cup-belgium",
-    "summary": "The US had the biggest opportunity in the history of American soccer. They wasted it | Alexander Abnos",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-09T11:07:31.193Z"
-  },
-  {
-    "id": "a2ff1228ab85",
-    "title": "VAR controversially rules out Egypt goal",
-    "date": "2026-07-07",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/videos/cddlj37zej7o?at_medium=RSS&at_campaign=rss",
-    "summary": "VAR controversially rules out Egypt goal",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-08T10:22:36.586Z"
-  },
-  {
-    "id": "59ce8bf57bfb",
-    "title": "Fifa investigating alleged racist abuse of IShowSpeed",
-    "date": "2026-07-07",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c1my1pr18jmo?at_medium=RSS&at_campaign=rss",
-    "summary": "Fifa investigating alleged racist abuse of IShowSpeed",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-08T10:22:36.586Z"
-  },
-  {
-    "id": "c22bf2315a3b",
-    "title": "England players to get hoarding warning after freak Henderson injury",
-    "date": "2026-07-07",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/czx5qev7nqno?at_medium=RSS&at_campaign=rss",
-    "summary": "England players to get hoarding warning after freak Henderson injury",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-08T10:22:36.586Z"
-  },
-  {
-    "id": "54f78bb3e90e",
-    "title": "Qarabag's Duran poised for Celtic medical",
-    "date": "2026-07-07",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c5yzzxv8yw0o?at_medium=RSS&at_campaign=rss",
-    "summary": "Qarabag's Duran poised for Celtic medical",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-08T10:22:36.586Z"
-  },
-  {
-    "id": "e8b34ddf4762",
-    "title": "Coach was 'happy' to have Maddy Cusack on team",
-    "date": "2026-07-07",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/news/articles/cdx78912gx1o?at_medium=RSS&at_campaign=rss",
-    "summary": "Coach was 'happy' to have Maddy Cusack on team",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-08T10:22:36.586Z"
-  },
-  {
-    "id": "54f78bb3e90e",
-    "title": "Qarabag's Duran poised for Celtic medical",
-    "date": "2026-07-07",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c5yzzxv8yw0o?at_medium=RSS&at_campaign=rss",
-    "summary": "Qarabag's Duran poised for Celtic medical",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-08T10:22:36.586Z"
-  },
-  {
-    "id": "e8b34ddf4762",
-    "title": "Coach was 'happy' to have Maddy Cusack on team",
-    "date": "2026-07-07",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/news/articles/cdx78912gx1o?at_medium=RSS&at_campaign=rss",
-    "summary": "Coach was 'happy' to have Maddy Cusack on team",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-08T10:22:36.586Z"
-  },
-  {
-    "id": "37101879b408",
-    "title": "Why Jude Bellingham’s world is bigger than most of us can understand",
-    "date": "2026-07-07",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/07/genius-jude-bellingham-becoming-one-of-englands-leaders",
-    "summary": "Why Jude Bellingham’s world is bigger than most of us can understand",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-08T10:22:36.586Z"
-  },
-  {
-    "id": "04c6a9180075",
-    "title": "Maddy Cusack and players were let down by Sheffield United, inquest told",
-    "date": "2026-07-07",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/07/maddy-cusack-sheffield-united-inquest-jonathan-morgan-womens-football",
-    "summary": "Maddy Cusack and players were let down by Sheffield United, inquest told",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-08T10:22:36.586Z"
-  },
-  {
-    "id": "4dabc147f28c",
-    "title": "World Cup 2026: USA bounced out by Belgium after Balogun furore; backlash against Fifa builds – live",
-    "date": "2026-07-07",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/live/2026/jul/07/world-cup-2026-usa-bounced-out-by-belgium-after-balogun-furore-backlash-against-fifa-builds-argentina-egypt-colombia-switzerlandlive",
-    "summary": "World Cup 2026: USA bounced out by Belgium after Balogun furore; backlash against Fifa builds – live",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-07T11:12:07.905Z"
-  },
-  {
-    "id": "9a09ead39fdb",
-    "title": "Best fans at the World Cup? How Colombia’s support powered the team to success",
-    "date": "2026-07-07",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/07/best-fans-at-the-world-cup-how-colombias-support-powered-the-team-to-success",
-    "summary": "Best fans at the World Cup? How Colombia’s support powered the team to success",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-07T11:12:07.905Z"
-  },
-  {
-    "id": "5fb27a76f18f",
-    "title": "‘They have Messi, but we have Salah’: Egypt prepare to take on Argentina",
-    "date": "2026-07-07",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/07/lionel-messi-mo-salah-egypt-argentina-world-cup",
-    "summary": "‘They have Messi, but we have Salah’: Egypt prepare to take on Argentina",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-07T11:12:07.905Z"
   }
 ];
