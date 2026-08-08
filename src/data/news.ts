@@ -2,6 +2,58 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "b44f15b5fd33",
+    "title": "Man City reject Barcelona's £38.5m bid for Rodri",
+    "date": "2026-08-07",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/articles/clyj1rgdnpxo?at_medium=RSS&at_campaign=rss",
+    "summary": "Man City reject Barcelona's £38.5m bid for Rodri",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-08T08:46:58.561Z"
+  },
+  {
+    "id": "4cc7e24c48f9",
+    "title": "Barca cancel friendly in Morocco after Ceuta border crisis",
+    "date": "2026-08-07",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cn0nyrdq1r1o?at_medium=RSS&at_campaign=rss",
+    "summary": "Barca cancel friendly in Morocco after Ceuta border crisis",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-08T08:46:58.561Z"
+  },
+  {
+    "id": "551bac8c6362",
+    "title": "Manchester City reject Barcelona’s opening £38.5m bid for Rodri as talks continue",
+    "date": "2026-08-07",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/07/manchester-city-reject-barcelonas-opening-385m-bid-for-rodri-as-talks-continue",
+    "summary": "Manchester City reject Barcelona’s opening £38.5m bid for Rodri as talks continue",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-08T08:46:58.561Z"
+  },
+  {
+    "id": "012a22239223",
+    "title": "Football Daily | Vinícius Júnior and a fantasy world of transfers in the football lull",
+    "date": "2026-08-07",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/07/football-daily-email-vinicius-junior",
+    "summary": "Football Daily | Vinícius Júnior and a fantasy world of transfers in the football lull",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-08T08:46:58.561Z"
+  },
+  {
     "id": "a9ce981083dd",
     "title": "Birmingham sign striker Effa Effa for £100K",
     "date": "2026-08-06",
@@ -3419,174 +3471,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-07-09T11:07:31.193Z"
-  },
-  {
-    "id": "fe36855311d4",
-    "title": "Henderson not ruled out of World Cup despite breaking arm ",
-    "date": "2026-07-08",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c70ygpg95vlo?at_medium=RSS&at_campaign=rss",
-    "summary": "Henderson not ruled out of World Cup despite breaking arm ",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-09T11:07:31.193Z"
-  },
-  {
-    "id": "84b0294791a3",
-    "title": "Portugal confirm departure of coach Martinez ",
-    "date": "2026-07-08",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c78ygpede52o?at_medium=RSS&at_campaign=rss",
-    "summary": "Portugal confirm departure of coach Martinez ",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-09T11:07:31.193Z"
-  },
-  {
-    "id": "bb18a4cc7b7e",
-    "title": "England players granted day off after Mexico win",
-    "date": "2026-07-08",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cx24re32r4lo?at_medium=RSS&at_campaign=rss",
-    "summary": "England players granted day off after Mexico win",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-09T11:07:31.193Z"
-  },
-  {
-    "id": "4b1381f12de5",
-    "title": "Dalic leaves as Croatia coach after nine years",
-    "date": "2026-07-08",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cly7eeyl5evo?at_medium=RSS&at_campaign=rss",
-    "summary": "Dalic leaves as Croatia coach after nine years",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-09T11:07:31.193Z"
-  },
-  {
-    "id": "4a47fa180ca9",
-    "title": "England to get bank holiday if team win World Cup, Starmer expected to announce",
-    "date": "2026-07-08",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/08/england-to-get-bank-holiday-if-team-win-world-cup-starmer-expected-to-announce",
-    "summary": "England to get bank holiday if team win World Cup, Starmer expected to announce",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-09T11:07:31.193Z"
-  },
-  {
-    "id": "5dfc39a675c5",
-    "title": "A World Cup free agent XI: summer bargains and top targets among clubless players",
-    "date": "2026-07-08",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/08/world-cup-free-agent-xi-vozinha-salah-clubless-players",
-    "summary": "A World Cup free agent XI: summer bargains and top targets among clubless players",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-09T11:07:31.193Z"
-  },
-  {
-    "id": "93b43b83675b",
-    "title": "What does Sam Kerr’s return to the NWSL mean for the league, Gotham FC and the player herself?",
-    "date": "2026-07-08",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/08/what-does-sam-kerr-return-to-nwsl-mean-for-league-gotham-fc-player-moving-the-goalposts",
-    "summary": "What does Sam Kerr’s return to the NWSL mean for the league, Gotham FC and the player herself?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-09T11:07:31.193Z"
-  },
-  {
-    "id": "fb2bac0addf1",
-    "title": "The World Cup stars who could have played for England",
-    "date": "2026-07-08",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c0lyj77w9z7o?at_medium=RSS&at_campaign=rss",
-    "summary": "The World Cup stars who could have played for England",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-08T10:22:36.586Z"
-  },
-  {
-    "id": "8aaf32270f36",
-    "title": "Benitez refuses to rule out Scotland interest - gossip",
-    "date": "2026-07-08",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c892nee7w9wo?at_medium=RSS&at_campaign=rss",
-    "summary": "Benitez refuses to rule out Scotland interest - gossip",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-08T10:22:36.586Z"
-  },
-  {
-    "id": "435138d274ce",
-    "title": "World Cup 2026: Egypt fury after Argentina win thriller, Switzerland triumph in shootout – live",
-    "date": "2026-07-08",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/live/2026/jul/08/world-cup-2026-egypt-fury-after-argentina-win-thriller-switzerland-triumph-in-shootout-live",
-    "summary": "World Cup 2026: Egypt fury after Argentina win thriller, Switzerland triumph in shootout – live",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-08T10:22:36.586Z"
-  },
-  {
-    "id": "abe9495e02c5",
-    "title": "World Cup 2026 team power rankings: England on the rise as last eight are set",
-    "date": "2026-07-08",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/08/world-cup-2026-team-rankings-last-16",
-    "summary": "World Cup 2026 team power rankings: England on the rise as last eight are set",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-08T10:22:36.586Z"
-  },
-  {
-    "id": "a7f5da28e970",
-    "title": "Is Neymar the first to bookend his international career with goals at the same venue? | The Knowledge",
-    "date": "2026-07-08",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/08/is-neymar-the-first-to-bookend-his-international-career-with-goals-at-the-same-venue",
-    "summary": "Is Neymar the first to bookend his international career with goals at the same venue? | The Knowledge",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-08T10:22:36.586Z"
-  },
-  {
-    "id": "2976c353c6d0",
-    "title": "USMNT World Cup player ratings: high marks for McKennie and Tillman, but Pulisic and Dest fall short",
-    "date": "2026-07-08",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/08/usmnt-world-cup-player-grades",
-    "summary": "USMNT World Cup player ratings: high marks for McKennie and Tillman, but Pulisic and Dest fall short",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-08T10:22:36.586Z"
   }
 ];
