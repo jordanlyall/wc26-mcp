@@ -2,6 +2,58 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "d9b49d945531",
+    "title": "How Trabzonspor shocked Turkish rivals to make Mohamed Salah their Black Sea saviour",
+    "date": "2026-08-09",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/09/mohamed-salah-trabzonspor-turkish-rivals-istanbul",
+    "summary": "How Trabzonspor shocked Turkish rivals to make Mohamed Salah their Black Sea saviour",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-09T08:48:22.140Z"
+  },
+  {
+    "id": "8db4cbe3add5",
+    "title": "Scotland closing in on head coach to replace Clarke",
+    "date": "2026-08-08",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c07rx4npmpxo?at_medium=RSS&at_campaign=rss",
+    "summary": "Scotland closing in on head coach to replace Clarke",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-09T08:48:22.140Z"
+  },
+  {
+    "id": "8db4cbe3add5",
+    "title": "Scotland closing in on head coach to replace Clarke",
+    "date": "2026-08-08",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c07rx4npmpxo?at_medium=RSS&at_campaign=rss",
+    "summary": "Scotland closing in on head coach to replace Clarke",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-09T08:48:22.140Z"
+  },
+  {
+    "id": "93bd84949da9",
+    "title": "Mason Mount injury overshadows Manchester United’s draw with PSG",
+    "date": "2026-08-08",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/08/mason-mount-injury-overshadows-manchester-uniteds-draw-with-psg",
+    "summary": "Mason Mount injury overshadows Manchester United’s draw with PSG",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-09T08:48:22.140Z"
+  },
+  {
     "id": "b44f15b5fd33",
     "title": "Man City reject Barcelona's £38.5m bid for Rodri",
     "date": "2026-08-07",
@@ -3237,239 +3289,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-07-10T11:08:10.137Z"
-  },
-  {
-    "id": "b6c1484840a9",
-    "title": "The US delivered their best modern World Cup performance – and also let themselves down",
-    "date": "2026-07-09",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/09/the-us-delivered-their-best-modern-world-cup-performance-and-also-let-themselves-down",
-    "summary": "The US delivered their best modern World Cup performance – and also let themselves down",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-12T09:54:03.698Z"
-  },
-  {
-    "id": "8b74ea904c96",
-    "title": "Guehi a doubt for Norway game and Rice ill with bug",
-    "date": "2026-07-09",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c3eyqdwq392o?at_medium=RSS&at_campaign=rss",
-    "summary": "Guehi a doubt for Norway game and Rice ill with bug",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-10T11:08:10.137Z"
-  },
-  {
-    "id": "8368ca08a517",
-    "title": "Palace sign Spain defender Mingueza on free transfer",
-    "date": "2026-07-09",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cdxd5rd7kqwo?at_medium=RSS&at_campaign=rss",
-    "summary": "Palace sign Spain defender Mingueza on free transfer",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-10T11:08:10.137Z"
-  },
-  {
-    "id": "37127db18821",
-    "title": "Eriksen to begin rehab in Denmark after collapse",
-    "date": "2026-07-09",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c78y01090xqo?at_medium=RSS&at_campaign=rss",
-    "summary": "Eriksen to begin rehab in Denmark after collapse",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-10T11:08:10.137Z"
-  },
-  {
-    "id": "07306f131919",
-    "title": "Newcastle face sliding doors moment over Bruno Guimarães in summer of upheaval",
-    "date": "2026-07-09",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/09/newcastle-face-sliding-doors-moment-over-bruno-guimaraes-in-summer-of-upheaval",
-    "summary": "Newcastle face sliding doors moment over Bruno Guimarães in summer of upheaval",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-10T11:08:10.137Z"
-  },
-  {
-    "id": "7e68724a5964",
-    "title": "Jarell Quansah handed two-match ban by Fifa for sending off against Mexico",
-    "date": "2026-07-09",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/09/jarell-quansah-handed-two-match-ban-by-fifa-for-sending-off-against-mexico",
-    "summary": "Jarell Quansah handed two-match ban by Fifa for sending off against Mexico",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-10T11:08:10.137Z"
-  },
-  {
-    "id": "619ad45d56c0",
-    "title": "‘Maggie Thatcher, can you hear me?’ The story behind the iconic Norway v England commentary",
-    "date": "2026-07-09",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/09/the-story-behind-iconic-norway-v-england-commentary-bjorge-lillelien-maggie-thatcher",
-    "summary": "‘Maggie Thatcher, can you hear me?’ The story behind the iconic Norway v England commentary",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-10T11:08:10.137Z"
-  },
-  {
-    "id": "6e494432fc7e",
-    "title": "Christian Pulisic suffered leg fracture in US loss to Belgium, out for several weeks",
-    "date": "2026-07-09",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/09/christian-pulisic-injury-world-cup-usmnt",
-    "summary": "Christian Pulisic suffered leg fracture in US loss to Belgium, out for several weeks",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-10T11:08:10.137Z"
-  },
-  {
-    "id": "42a4283055ce",
-    "title": "Newcastle agree £51.5m Johan Manzambi deal and insist Bruno Guimarães not for sale",
-    "date": "2026-07-09",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/09/newcastle-agree-johan-manzambi-deal-and-insist-bruno-guimaraes-not-for-sale-transfer-window",
-    "summary": "Newcastle agree £51.5m Johan Manzambi deal and insist Bruno Guimarães not for sale",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-10T11:08:10.137Z"
-  },
-  {
-    "id": "a840817ae9dd",
-    "title": "France national team uses ICE deportation planes for World Cup travel",
-    "date": "2026-07-09",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/us-news/2026/jul/09/french-national-team-ice-deportation-planes-world-cup",
-    "summary": "France national team uses ICE deportation planes for World Cup travel",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-10T11:08:10.137Z"
-  },
-  {
-    "id": "6a011aefa895",
-    "title": "'It was good vibes in there' - Stones on viral prank",
-    "date": "2026-07-09",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cdej0znl156o?at_medium=RSS&at_campaign=rss",
-    "summary": "'It was good vibes in there' - Stones on viral prank",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-09T11:07:31.193Z"
-  },
-  {
-    "id": "d850e780dcbd",
-    "title": "Wilson delighted boss Bellamy staying with Wales",
-    "date": "2026-07-09",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c39ymj3kwydo?at_medium=RSS&at_campaign=rss",
-    "summary": "Wilson delighted boss Bellamy staying with Wales",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-09T11:07:31.193Z"
-  },
-  {
-    "id": "1357023b527c",
-    "title": "Benitez open to Scotland job - what would he bring and is he affordable?",
-    "date": "2026-07-09",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cx2dzkjnye3o?at_medium=RSS&at_campaign=rss",
-    "summary": "Benitez open to Scotland job - what would he bring and is he affordable?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-09T11:07:31.193Z"
-  },
-  {
-    "id": "0e31bdc6a708",
-    "title": "World Cup 2026: France v Morocco quarter-final buildup, Collina defends refereeing – live",
-    "date": "2026-07-09",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/live/2026/jul/09/world-cup-2026-france-v-morocco-quarter-final-news-live",
-    "summary": "World Cup 2026: France v Morocco quarter-final buildup, Collina defends refereeing – live",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-09T11:07:31.193Z"
-  },
-  {
-    "id": "c4da6724f86c",
-    "title": "Inquest into Maddy Cusack’s death adjourned again after new documents lodged",
-    "date": "2026-07-09",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/09/inquest-into-maddy-cusack-death-adjourned-again-new-documents",
-    "summary": "Inquest into Maddy Cusack’s death adjourned again after new documents lodged",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-09T11:07:31.193Z"
-  },
-  {
-    "id": "be954428c569",
-    "title": "‘Is he a nice guy? No. He’s a good guy’: how Harry Kane became an England great",
-    "date": "2026-07-09",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/09/is-he-a-nice-guy-no-hes-a-good-guy-how-harry-kane-became-an-england-great",
-    "summary": "‘Is he a nice guy? No. He’s a good guy’: how Harry Kane became an England great",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-09T11:07:31.193Z"
-  },
-  {
-    "id": "c73e2fce3bfb",
-    "title": "‘Best player England has developed’: Olise’s rise from Hayes to the World Cup",
-    "date": "2026-07-09",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/09/best-player-england-developed-michael-olise-2026-world-cup-france",
-    "summary": "‘Best player England has developed’: Olise’s rise from Hayes to the World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-09T11:07:31.193Z"
-  },
-  {
-    "id": "6872493d593b",
-    "title": "France’s match with Morocco sums up this diverse, multicultural World Cup",
-    "date": "2026-07-09",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/09/france-morocco-diverse-multicultural-world-cup-tournament-quarter-final",
-    "summary": "France’s match with Morocco sums up this diverse, multicultural World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-09T11:07:31.193Z"
   }
 ];
