@@ -2,6 +2,45 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "01a7b653a6f5",
+    "title": "Swap agreed for Everton's McNeil and Palace's Johnson",
+    "date": "2026-08-10",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/ckg32lvxpvyo?at_medium=RSS&at_campaign=rss",
+    "summary": "Swap agreed for Everton's McNeil and Palace's Johnson",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-10T09:26:27.777Z"
+  },
+  {
+    "id": "53d53c451a62",
+    "title": "The Argentine who wishes he could play for Wales",
+    "date": "2026-08-10",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c5ywqxvgzl0o?at_medium=RSS&at_campaign=rss",
+    "summary": "The Argentine who wishes he could play for Wales",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-10T09:26:27.777Z"
+  },
+  {
+    "id": "9fd2ccd4df8d",
+    "title": "Digne completes move to PSG from Aston Villa",
+    "date": "2026-08-09",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/ce34v2eyn1qo?at_medium=RSS&at_campaign=rss",
+    "summary": "Digne completes move to PSG from Aston Villa",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-10T09:26:27.777Z"
+  },
+  {
     "id": "d9b49d945531",
     "title": "How Trabzonspor shocked Turkish rivals to make Mohamed Salah their Black Sea saviour",
     "date": "2026-08-09",
@@ -3081,213 +3120,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-07-11T09:41:23.018Z"
-  },
-  {
-    "id": "2db9635ea1c6",
-    "title": "Merino puts Spain into World Cup semi-finals as Belgium rue costly Courtois injury",
-    "date": "2026-07-10",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/10/spain-belgium-world-cup-2026-quarter-final-match-report",
-    "summary": "Merino puts Spain into World Cup semi-finals as Belgium rue costly Courtois injury",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-13T11:16:47.614Z"
-  },
-  {
-    "id": "7e01f4c60659",
-    "title": "Lammens' error spells end for Belgium's golden generation",
-    "date": "2026-07-10",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c4gy107g38eo?at_medium=RSS&at_campaign=rss",
-    "summary": "Lammens' error spells end for Belgium's golden generation",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-11T09:41:23.018Z"
-  },
-  {
-    "id": "b904db7d8e86",
-    "title": "Jesus reunites with Ronaldo as new Portugal head coach",
-    "date": "2026-07-10",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c3eyl9pvxj1o?at_medium=RSS&at_campaign=rss",
-    "summary": "Jesus reunites with Ronaldo as new Portugal head coach",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-11T09:41:23.018Z"
-  },
-  {
-    "id": "4bce9973f7a2",
-    "title": "New species named after Cape Verde keeper Vozinha",
-    "date": "2026-07-10",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cn8kdxgxlkeo?at_medium=RSS&at_campaign=rss",
-    "summary": "New species named after Cape Verde keeper Vozinha",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-11T09:41:23.018Z"
-  },
-  {
-    "id": "a44bd3ad64f5",
-    "title": "England defender Charles joins Man City from Chelsea",
-    "date": "2026-07-10",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c4gyed2g8vro?at_medium=RSS&at_campaign=rss",
-    "summary": "England defender Charles joins Man City from Chelsea",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-11T09:41:23.018Z"
-  },
-  {
-    "id": "a44bd3ad64f5",
-    "title": "England defender Charles joins Man City from Chelsea",
-    "date": "2026-07-10",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c4gyed2g8vro?at_medium=RSS&at_campaign=rss",
-    "summary": "England defender Charles joins Man City from Chelsea",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-11T09:41:23.018Z"
-  },
-  {
-    "id": "9fdfb438505d",
-    "title": "Kylian Mbappé embraces leadership role for France to urge team humility",
-    "date": "2026-07-10",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/10/kylian-mbappe-france-world-cup-2026-semi-final",
-    "summary": "Kylian Mbappé embraces leadership role for France to urge team humility",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-11T09:41:23.018Z"
-  },
-  {
-    "id": "1a546815fac2",
-    "title": "Argentina continue to show ‘heart’ but flaws are apparent before Switzerland clash",
-    "date": "2026-07-10",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/10/argentina-show-heart-flaws-apparent-swizerland-world-cup-quarter-final",
-    "summary": "Argentina continue to show ‘heart’ but flaws are apparent before Switzerland clash",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-11T09:41:23.018Z"
-  },
-  {
-    "id": "22bacf21f168",
-    "title": "Arsenal sign Spain defender Batlle on free transfer",
-    "date": "2026-07-10",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cqx1v5d12gjo?at_medium=RSS&at_campaign=rss",
-    "summary": "Arsenal sign Spain defender Batlle on free transfer",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-10T11:08:10.137Z"
-  },
-  {
-    "id": "2dffc8d4893c",
-    "title": "Football Daily",
-    "date": "2026-07-10",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sounds/play/p0ny0bzw?at_medium=RSS&at_campaign=rss",
-    "summary": "Football Daily",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-10T11:08:10.137Z"
-  },
-  {
-    "id": "22bacf21f168",
-    "title": "Arsenal sign Spain defender Batlle on free transfer",
-    "date": "2026-07-10",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cqx1v5d12gjo?at_medium=RSS&at_campaign=rss",
-    "summary": "Arsenal sign Spain defender Batlle on free transfer",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-10T11:08:10.137Z"
-  },
-  {
-    "id": "4f5f0192dece",
-    "title": "World Cup 2026: ‘violent disorder’ in London after France’s win over Morocco, Spain v Belgium buildup – live",
-    "date": "2026-07-10",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/live/2026/jul/10/world-cup-2026-france-power-on-quansah-ban-fallout-spain-v-belgium-buildup-live",
-    "summary": "World Cup 2026: ‘violent disorder’ in London after France’s win over Morocco, Spain v Belgium buildup – live",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-10T11:08:10.137Z"
-  },
-  {
-    "id": "1dcd980a3c19",
-    "title": "France’s attacking evolution under Didier Deschamps passes latest Morocco test | Raphaël Jucobin",
-    "date": "2026-07-10",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/10/france-morocco-world-cup-attacking-evolution-didier-deschamps-analysis",
-    "summary": "France’s attacking evolution under Didier Deschamps passes latest Morocco test | Raphaël Jucobin",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-10T11:08:10.137Z"
-  },
-  {
-    "id": "8aad40158a5f",
-    "title": "‘Give me another medal!’: meet the hair stylist who has taken over the World Cup",
-    "date": "2026-07-10",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/10/give-me-another-medal-hair-stylist-world-cup-jayema-lamine-yamal-raphinha",
-    "summary": "‘Give me another medal!’: meet the hair stylist who has taken over the World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-10T11:08:10.137Z"
-  },
-  {
-    "id": "2166ddc60897",
-    "title": "London to Lisbon and back every game: England rack up the World Cup miles",
-    "date": "2026-07-10",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/10/london-to-lisbon-and-back-every-game-england-rack-up-the-world-cup-miles",
-    "summary": "London to Lisbon and back every game: England rack up the World Cup miles",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-10T11:08:10.137Z"
-  },
-  {
-    "id": "14f99f374433",
-    "title": "Haaland and Bellingham: Dortmund friends taking centre stage in Norway v England battle",
-    "date": "2026-07-10",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/10/haaland-bellingham-dortmund-friends-centre-stage-norway-v-england-battle-world-cup-2026",
-    "summary": "Haaland and Bellingham: Dortmund friends taking centre stage in Norway v England battle",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-10T11:08:10.137Z"
   }
 ];
