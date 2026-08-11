@@ -2,6 +2,110 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "a3c87922e06e",
+    "title": "League Two 2026-27 preview: the contenders, hopefuls and strugglers",
+    "date": "2026-08-11",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/11/league-two-2026-27-preview-contenders-hopefuls-strugglers",
+    "summary": "League Two 2026-27 preview: the contenders, hopefuls and strugglers",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-11T09:01:47.847Z"
+  },
+  {
+    "id": "a1955504a78c",
+    "title": "Nigeria 'still have hope' for 2027 World Cup spot",
+    "date": "2026-08-10",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cg4d0qd33gwo?at_medium=RSS&at_campaign=rss",
+    "summary": "Nigeria 'still have hope' for 2027 World Cup spot",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-11T09:01:47.847Z"
+  },
+  {
+    "id": "a1955504a78c",
+    "title": "Nigeria 'still have hope' for 2027 World Cup spot",
+    "date": "2026-08-10",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cg4d0qd33gwo?at_medium=RSS&at_campaign=rss",
+    "summary": "Nigeria 'still have hope' for 2027 World Cup spot",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-11T09:01:47.847Z"
+  },
+  {
+    "id": "6adced30bf6a",
+    "title": "Manchester City closing in on £85m Bouaddi to soften blow of Rodri’s expected exit",
+    "date": "2026-08-10",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/10/manchester-city-85m-ayyoub-bouaddi-rodri-barcelona-transfer",
+    "summary": "Manchester City closing in on £85m Bouaddi to soften blow of Rodri’s expected exit",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-11T09:01:47.847Z"
+  },
+  {
+    "id": "a07cff32e7ae",
+    "title": "Jordan Nobbs ready to complete wishlist with Newcastle WSL dream",
+    "date": "2026-08-10",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/10/jordan-nobbs-newcastle-united-wsl2-sunderland-promotion-womens-football",
+    "summary": "Jordan Nobbs ready to complete wishlist with Newcastle WSL dream",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-11T09:01:47.847Z"
+  },
+  {
+    "id": "1707dbb20e1b",
+    "title": "Brazilian footballer falls down hole celebrating goal that was then disallowed",
+    "date": "2026-08-10",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/10/brazilian-footballer-falls-down-hole-celebrating-goal-that-was-then-disallowed",
+    "summary": "Brazilian footballer falls down hole celebrating goal that was then disallowed",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-11T09:01:47.847Z"
+  },
+  {
+    "id": "3b250bd02181",
+    "title": "Araújo joins Liverpool on loan and Van Dijk hopes for more arrivals before new season",
+    "date": "2026-08-10",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/10/virgil-van-dijk-ronald-araujo-liverpool",
+    "summary": "Araújo joins Liverpool on loan and Van Dijk hopes for more arrivals before new season",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-11T09:01:47.847Z"
+  },
+  {
+    "id": "ea9e432eb75d",
+    "title": "Arsenal step up push for defensive cover with Timber and Saliba sidelined",
+    "date": "2026-08-10",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/10/arsenal-defensive-backup-jurrien-timber-william-saliba-sidelined-transfer-window",
+    "summary": "Arsenal step up push for defensive cover with Timber and Saliba sidelined",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-11T09:01:47.847Z"
+  },
+  {
     "id": "01a7b653a6f5",
     "title": "Swap agreed for Everton's McNeil and Palace's Johnson",
     "date": "2026-08-10",
@@ -2964,161 +3068,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-07-12T09:54:03.698Z"
-  },
-  {
-    "id": "00b18e543d9e",
-    "title": "Klopp agrees to replace Nagelsmann as Germany coach",
-    "date": "2026-07-11",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/ced44061g8qo?at_medium=RSS&at_campaign=rss",
-    "summary": "Klopp agrees to replace Nagelsmann as Germany coach",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-12T09:54:03.698Z"
-  },
-  {
-    "id": "a1a59d7484c8",
-    "title": "South Africa World Cup midfielder Jayden Adams dies aged 25",
-    "date": "2026-07-11",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/11/south-africa-world-cup-midfielder-jayden-adams-dies-aged-25",
-    "summary": "South Africa World Cup midfielder Jayden Adams dies aged 25",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-12T09:54:03.698Z"
-  },
-  {
-    "id": "7cc403c13eb6",
-    "title": "Jürgen Klopp reaches agreement to take over as Germany head coach",
-    "date": "2026-07-11",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/11/jurgen-klopp-reaches-agreement-germany-head-coach",
-    "summary": "Jürgen Klopp reaches agreement to take over as Germany head coach",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-12T09:54:03.698Z"
-  },
-  {
-    "id": "871dfb223a04",
-    "title": "World Cup 2026: England edge Norway in quarter-final – in pictures",
-    "date": "2026-07-11",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/gallery/2026/jul/11/world-cup-2026-norway-v-england-in-pictures",
-    "summary": "World Cup 2026: England edge Norway in quarter-final – in pictures",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-12T09:54:03.698Z"
-  },
-  {
-    "id": "677b6879a44a",
-    "title": "Football Daily | Belgium and the End Of The Golden Generation Klaxon",
-    "date": "2026-07-11",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/11/belgium-golden-generation-football-daily-newsletter",
-    "summary": "Football Daily | Belgium and the End Of The Golden Generation Klaxon",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-12T09:54:03.698Z"
-  },
-  {
-    "id": "664e457b9656",
-    "title": "All the goals from England's 2026 World Cup campaign so far",
-    "date": "2026-07-11",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/videos/cewqex0vl85o?at_medium=RSS&at_campaign=rss",
-    "summary": "All the goals from England's 2026 World Cup campaign so far",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-11T09:41:23.018Z"
-  },
-  {
-    "id": "9d15a4d54880",
-    "title": "Football Daily",
-    "date": "2026-07-11",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sounds/play/p0ny6vsk?at_medium=RSS&at_campaign=rss",
-    "summary": "Football Daily",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-11T09:41:23.018Z"
-  },
-  {
-    "id": "3fed738becf2",
-    "title": "World Cup 2026: Spain v Belgium reaction, Kane confirms playing golf with Trump, Norway v England buildup – live",
-    "date": "2026-07-11",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/live/2026/jul/11/world-cup-2026-spain-v-belgium-reaction-norway-v-england-quarter-final-buildup-and-more-live",
-    "summary": "World Cup 2026: Spain v Belgium reaction, Kane confirms playing golf with Trump, Norway v England buildup – live",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-11T09:41:23.018Z"
-  },
-  {
-    "id": "8a128ed7423d",
-    "title": "The ad machine: how David Beckham conquered America",
-    "date": "2026-07-11",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/11/the-ad-machine-how-david-beckham-conquered-america",
-    "summary": "The ad machine: how David Beckham conquered America",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-11T09:41:23.018Z"
-  },
-  {
-    "id": "9841034d74f5",
-    "title": "‘What’s the point of working if you can’t do stuff like this?’ England fans descend on Miami",
-    "date": "2026-07-11",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/11/whats-the-point-of-working-if-you-cant-do-stuff-like-this-england-fans-descend-on-miami",
-    "summary": "‘What’s the point of working if you can’t do stuff like this?’ England fans descend on Miami",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-11T09:41:23.018Z"
-  },
-  {
-    "id": "030bbf229776",
-    "title": "Cold War Steve on … Erling Haaland’s high-street invasion for Norway v England",
-    "date": "2026-07-11",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/picture/2026/jul/11/cold-war-steve-erling-haaland-high-street-invasion-norway-v-england",
-    "summary": "Cold War Steve on … Erling Haaland’s high-street invasion for Norway v England",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-11T09:41:23.018Z"
-  },
-  {
-    "id": "f9ce93773b3c",
-    "title": "Tuchel fears more Haaland heroics as England seek identity against Norway",
-    "date": "2026-07-11",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/11/thomas-tuchel-erling-haaland-england-norway-2026-world-cup-quarter-final",
-    "summary": "Tuchel fears more Haaland heroics as England seek identity against Norway",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-11T09:41:23.018Z"
   }
 ];
