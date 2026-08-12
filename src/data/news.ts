@@ -2,6 +2,71 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "e469b91876dc",
+    "title": "Slot pulls out of Netherlands talks to focus on club football",
+    "date": "2026-08-12",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c980rd5njneo?at_medium=RSS&at_campaign=rss",
+    "summary": "Slot pulls out of Netherlands talks to focus on club football",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-12T09:14:33.636Z"
+  },
+  {
+    "id": "89cc4e1510d4",
+    "title": "Football transfer rumours: Folarin Balogun to Tottenham? Gabriel Jesus to Napoli?",
+    "date": "2026-08-12",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/12/football-transfer-rumours-folarin-balogun-to-tottenham-gabriel-jesus-to-napoli",
+    "summary": "Football transfer rumours: Folarin Balogun to Tottenham? Gabriel Jesus to Napoli?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-12T09:14:33.636Z"
+  },
+  {
+    "id": "d67180cbe80c",
+    "title": "Striker snubbed by Scotland for World Cup signs for Sevilla",
+    "date": "2026-08-11",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c7vgj826nnjo?at_medium=RSS&at_campaign=rss",
+    "summary": "Striker snubbed by Scotland for World Cup signs for Sevilla",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-12T09:14:33.636Z"
+  },
+  {
+    "id": "d67180cbe80c",
+    "title": "Scottish striker Ure makes £5.5m Sevilla move",
+    "date": "2026-08-11",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c7vgj826nnjo?at_medium=RSS&at_campaign=rss",
+    "summary": "Scottish striker Ure makes £5.5m Sevilla move",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-12T09:14:33.636Z"
+  },
+  {
+    "id": "9d0f7872bd4b",
+    "title": "Transfer roundup: Nottingham Forest seal £34m deal for Sporting’s Diomande",
+    "date": "2026-08-11",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/11/transfer-roundup-nottingham-forest-ousmane-diomande-fulham-shea-charles",
+    "summary": "Transfer roundup: Nottingham Forest seal £34m deal for Sporting’s Diomande",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-12T09:14:33.636Z"
+  },
+  {
     "id": "a3c87922e06e",
     "title": "League Two 2026-27 preview: the contenders, hopefuls and strugglers",
     "date": "2026-08-11",
@@ -2899,174 +2964,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-07-13T11:16:47.614Z"
-  },
-  {
-    "id": "4faafa43169c",
-    "title": "'We have another level we can reach' - Kane defends frustrated Tuchel",
-    "date": "2026-07-12",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cy04xjlg5p4o?at_medium=RSS&at_campaign=rss",
-    "summary": "'We have another level we can reach' - Kane defends frustrated Tuchel",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-13T11:16:47.614Z"
-  },
-  {
-    "id": "4e45e90ec81a",
-    "title": "Tuchel and Bellingham need to cool tension with England so close to history | Jacob Steinberg",
-    "date": "2026-07-12",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/12/thomas-tuchel-jude-bellingham-tension-england-argentina-norway-world-cup-2026",
-    "summary": "Tuchel and Bellingham need to cool tension with England so close to history | Jacob Steinberg",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-13T11:16:47.614Z"
-  },
-  {
-    "id": "0944a74edd49",
-    "title": "World Cup 2026 power rankings: who leads the pack as semi-finals loom?",
-    "date": "2026-07-12",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/12/world-cup-2026-power-rankings-france-spain-england-argentina",
-    "summary": "World Cup 2026 power rankings: who leads the pack as semi-finals loom?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-13T11:16:47.614Z"
-  },
-  {
-    "id": "f65fda032794",
-    "title": "England on collision course with Messi and Argentina in World Cup semi-final grudge match",
-    "date": "2026-07-12",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/12/england-lionel-messi-argentina-world-cup-2026-semi-final-norway",
-    "summary": "England on collision course with Messi and Argentina in World Cup semi-final grudge match",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-13T11:16:47.614Z"
-  },
-  {
-    "id": "bac1d77b314d",
-    "title": "Argentina’s World Cup built on ‘suffering’ faces its biggest test in England | Pablo Iglesias Maurer",
-    "date": "2026-07-12",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/12/argentina-switzerland-england-world-cup-semi-final",
-    "summary": "Argentina’s World Cup built on ‘suffering’ faces its biggest test in England | Pablo Iglesias Maurer",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-13T11:16:47.614Z"
-  },
-  {
-    "id": "f7905e7d10bb",
-    "title": "Former Spanish PM accused of racism in remarks about French football team",
-    "date": "2026-07-12",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/world/2026/jul/12/spain-mariano-rajoy-accused-of-racism-french-football-team-world-cup",
-    "summary": "Former Spanish PM accused of racism in remarks about French football team",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-13T11:16:47.614Z"
-  },
-  {
-    "id": "f8ae81152f40",
-    "title": "Tuchel angry at 'lucky' England - but Bellingham defends players",
-    "date": "2026-07-12",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/ckg474ekv58o?at_medium=RSS&at_campaign=rss",
-    "summary": "Tuchel angry at 'lucky' England - but Bellingham defends players",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-12T09:54:03.698Z"
-  },
-  {
-    "id": "63551d3db655",
-    "title": "Did ball hit spidercam before England goal? Snicko says not - Norway unsure",
-    "date": "2026-07-12",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cd95335dp10o?at_medium=RSS&at_campaign=rss",
-    "summary": "Did ball hit spidercam before England goal? Snicko says not - Norway unsure",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-12T09:54:03.698Z"
-  },
-  {
-    "id": "487a807663ef",
-    "title": "Senegal sack manager Thiaw in wake of World Cup exit",
-    "date": "2026-07-12",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cq81l29lj2zo?at_medium=RSS&at_campaign=rss",
-    "summary": "Senegal sack manager Thiaw in wake of World Cup exit",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-12T09:54:03.698Z"
-  },
-  {
-    "id": "426ad64fa577",
-    "title": "England 'got lucky' with disallowed goal",
-    "date": "2026-07-12",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/videos/c5yznny63pko?at_medium=RSS&at_campaign=rss",
-    "summary": "England 'got lucky' with disallowed goal",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-12T09:54:03.698Z"
-  },
-  {
-    "id": "b70b178f8712",
-    "title": "World Cup 2026: England set up Argentina semi, Norway and Switzerland fume, Senegal sack Thiaw – live",
-    "date": "2026-07-12",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/live/2026/jul/12/world-cup-2026-reaction-england-norway-argentina-switzerland-live",
-    "summary": "World Cup 2026: England set up Argentina semi, Norway and Switzerland fume, Senegal sack Thiaw – live",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-12T09:54:03.698Z"
-  },
-  {
-    "id": "920b1cc373a4",
-    "title": "Jude Bellingham unimpressed after Tuchel criticises ‘lucky’ England’s performance",
-    "date": "2026-07-12",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/12/jude-bellingham-thomas-tuchel-criticises-lucky-england-performance",
-    "summary": "Jude Bellingham unimpressed after Tuchel criticises ‘lucky’ England’s performance",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-12T09:54:03.698Z"
-  },
-  {
-    "id": "26fa74416cbd",
-    "title": "England wobble but Djed Spence and John Stones make case for the defence",
-    "date": "2026-07-12",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/12/england-djed-spence-john-stones-defence-world-cup-norway",
-    "summary": "England wobble but Djed Spence and John Stones make case for the defence",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-12T09:54:03.698Z"
   }
 ];
