@@ -2,6 +2,136 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "3124f6d96a52",
+    "title": "‘It was horrendous’: Durham captain relieved WSL2 club survived after fears of folding",
+    "date": "2026-08-13",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/13/durham-captain-sarah-wilson-relieved-wsl2-club-survived",
+    "summary": "‘It was horrendous’: Durham captain relieved WSL2 club survived after fears of folding",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-13T09:16:11.780Z"
+  },
+  {
+    "id": "38356b5fba94",
+    "title": "Failure not an option as Ange Postecoglou gears up for biggest challenge yet alongside Ronaldo | John Duerden",
+    "date": "2026-08-13",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/blog/2026/aug/13/australian-ange-postecoglou-football-coach-al-nassr-ronaldo",
+    "summary": "Failure not an option as Ange Postecoglou gears up for biggest challenge yet alongside Ronaldo | John Duerden",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-13T09:16:11.780Z"
+  },
+  {
+    "id": "fcec9a6b3ca7",
+    "title": "Xavi becomes first non-Dutch Netherlands coach since 1978",
+    "date": "2026-08-12",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c77g5dne45lo?at_medium=RSS&at_campaign=rss",
+    "summary": "Xavi becomes first non-Dutch Netherlands coach since 1978",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-13T09:16:11.780Z"
+  },
+  {
+    "id": "63ba31b7e637",
+    "title": "Atlético Madrid agree £34.1m deal for Tottenham’s Cristian Romero",
+    "date": "2026-08-12",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/12/atletico-madrid-agree-deal-tottenham-cristian-romero",
+    "summary": "Atlético Madrid agree £34.1m deal for Tottenham’s Cristian Romero",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-13T09:16:11.780Z"
+  },
+  {
+    "id": "1211f5ff6bc8",
+    "title": "Xavi Hernández appointed head coach of the Netherlands on four-year contract",
+    "date": "2026-08-12",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/12/xavi-hernandez-appointed-head-coach-of-the-netherlands-on-four-year-contract",
+    "summary": "Xavi Hernández appointed head coach of the Netherlands on four-year contract",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-13T09:16:11.780Z"
+  },
+  {
+    "id": "ce65465b9f2f",
+    "title": "Lionel Messi has ‘quite a few doubts’ about football future after death of his father",
+    "date": "2026-08-12",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/12/lionel-messi-doubts-football-future-death-of-his-father-jorge",
+    "summary": "Lionel Messi has ‘quite a few doubts’ about football future after death of his father",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-13T09:16:11.780Z"
+  },
+  {
+    "id": "02d6fb7fd413",
+    "title": "‘It’s a nice hobby’: Manchester United’s Janina Leitzig on goalkeeping and gardening",
+    "date": "2026-08-12",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/12/manchester-united-janina-leitzig-interview-on-goalkeeping-and-gardening",
+    "summary": "‘It’s a nice hobby’: Manchester United’s Janina Leitzig on goalkeeping and gardening",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-13T09:16:11.780Z"
+  },
+  {
+    "id": "7a856efbe533",
+    "title": "Saudi Pro League tries to move on from era of ageing megastar but big names still loom | John Duerden",
+    "date": "2026-08-12",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/12/saudi-pro-league-ageing-overseas-stars-local-talent-investment",
+    "summary": "Saudi Pro League tries to move on from era of ageing megastar but big names still loom | John Duerden",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-13T09:16:11.780Z"
+  },
+  {
+    "id": "2d6508f26084",
+    "title": "Australia’s brightest young talents are on the move and it bodes well for the Socceroos | Jack Snape",
+    "date": "2026-08-12",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/12/australia-football-talent-socceroos-lucas-herrington-nestory-irankunda-transfers-premier-league",
+    "summary": "Australia’s brightest young talents are on the move and it bodes well for the Socceroos | Jack Snape",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-13T09:16:11.780Z"
+  },
+  {
+    "id": "ede67be64c7b",
+    "title": "Football Daily | Newcastle’s ‘rock star’ plays the hits but will he find it hard to stay in Toon?",
+    "date": "2026-08-12",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/12/newcastle-matthias-jaissle-football-daily-newsletter",
+    "summary": "Football Daily | Newcastle’s ‘rock star’ plays the hits but will he find it hard to stay in Toon?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-13T09:16:11.780Z"
+  },
+  {
     "id": "e469b91876dc",
     "title": "Slot pulls out of Netherlands talks to focus on club football",
     "date": "2026-08-12",
@@ -2821,148 +2951,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-07-14T10:01:52.034Z"
-  },
-  {
-    "id": "226b7a7a93f7",
-    "title": "'Easy to create divisions' - Kane says England are 'completely together'",
-    "date": "2026-07-13",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c8924433kjyo?at_medium=RSS&at_campaign=rss",
-    "summary": "'Easy to create divisions' - Kane says England are 'completely together'",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-14T10:01:52.034Z"
-  },
-  {
-    "id": "0d52899a0b89",
-    "title": "Bilic reappointed as Croatia manager",
-    "date": "2026-07-13",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c1dyvyx39rvo?at_medium=RSS&at_campaign=rss",
-    "summary": "Bilic reappointed as Croatia manager",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-14T10:01:52.034Z"
-  },
-  {
-    "id": "ee923892d645",
-    "title": "Alonso ‘optimistic’ he can thrive at Chelsea and avoid coaching carousel",
-    "date": "2026-07-13",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/13/xabi-alonso-chelsea-premier-league",
-    "summary": "Alonso ‘optimistic’ he can thrive at Chelsea and avoid coaching carousel",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-14T10:01:52.034Z"
-  },
-  {
-    "id": "d2556c03d0bd",
-    "title": "Manchester United in advanced talks to sign Youri Tielemans from Aston Villa",
-    "date": "2026-07-13",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/13/manchester-united-in-advanced-talks-to-sign-youri-tielemans-from-aston-villa",
-    "summary": "Manchester United in advanced talks to sign Youri Tielemans from Aston Villa",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-14T10:01:52.034Z"
-  },
-  {
-    "id": "17e00fbb19c7",
-    "title": "Diego Forlán succeeds Marcelo Bielsa as Uruguay manager on temporary basis",
-    "date": "2026-07-13",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/13/diego-forlan-succeeds-marcelo-bielsa-uruguay-world-cup",
-    "summary": "Diego Forlán succeeds Marcelo Bielsa as Uruguay manager on temporary basis",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-14T10:01:52.034Z"
-  },
-  {
-    "id": "c514288febe3",
-    "title": "‘Gift from the sky’ Elliot Anderson keeps England running as Rogers makes case",
-    "date": "2026-07-13",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/13/elliot-anderson-gift-from-the-sky-keeps-on-giving-morgan-rogers-england-world-cup",
-    "summary": "‘Gift from the sky’ Elliot Anderson keeps England running as Rogers makes case",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-14T10:01:52.034Z"
-  },
-  {
-    "id": "02200e1f0d1f",
-    "title": "France unleashed: reinvention could earn Deschamps all-time great status",
-    "date": "2026-07-13",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/13/france-didier-deschamps-kylian-mbappe-michael-olise-spain-world-cup-semi-final",
-    "summary": "France unleashed: reinvention could earn Deschamps all-time great status",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-14T10:01:52.034Z"
-  },
-  {
-    "id": "11e34e2d5040",
-    "title": "These are unprecedented times - England should enjoy them",
-    "date": "2026-07-13",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c932rqverkvo?at_medium=RSS&at_campaign=rss",
-    "summary": "These are unprecedented times - England should enjoy them",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-13T11:16:47.614Z"
-  },
-  {
-    "id": "9fdcc9cb3d07",
-    "title": "England top air miles among semi-finalists - does it matter?",
-    "date": "2026-07-13",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cj4g7v9e51jo?at_medium=RSS&at_campaign=rss",
-    "summary": "England top air miles among semi-finalists - does it matter?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-13T11:16:47.614Z"
-  },
-  {
-    "id": "3559302cb169",
-    "title": "Bombs, blood, ambushes - football coaching with the army",
-    "date": "2026-07-13",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cd7we8we4xgo?at_medium=RSS&at_campaign=rss",
-    "summary": "Bombs, blood, ambushes - football coaching with the army",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-13T11:16:47.614Z"
-  },
-  {
-    "id": "c954c80993fe",
-    "title": "World Cup 2026: England’s James ready for semi-final, Infantino hints at 64-team expansion – live",
-    "date": "2026-07-13",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/live/2026/jul/13/world-cup-2026-buildup-to-blockbuster-semi-finals-infantino-hints-at-64-team-expansion-live",
-    "summary": "World Cup 2026: England’s James ready for semi-final, Infantino hints at 64-team expansion – live",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-13T11:16:47.614Z"
   }
 ];
