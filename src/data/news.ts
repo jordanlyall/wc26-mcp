@@ -2,6 +2,97 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "1cbcd7bbe657",
+    "title": "'Dad rang and I was like: What's happening?' - England U20s boss on Uefa threat",
+    "date": "2026-08-13",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c5ydz50jnz3o?at_medium=RSS&at_campaign=rss",
+    "summary": "'Dad rang and I was like: What's happening?' - England U20s boss on Uefa threat",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-14T09:10:40.335Z"
+  },
+  {
+    "id": "92fa41072e30",
+    "title": "Nigeria to miss Women's World Cup after South Africa and Ghana win play-offs",
+    "date": "2026-08-13",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cgk46yrk2pjo?at_medium=RSS&at_campaign=rss",
+    "summary": "Nigeria to miss Women's World Cup after South Africa and Ghana win play-offs",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-14T09:10:40.335Z"
+  },
+  {
+    "id": "1cbcd7bbe657",
+    "title": "'Dad rang and I was like: What's happening?' - England U20s boss on Uefa threat",
+    "date": "2026-08-13",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c5ydz50jnz3o?at_medium=RSS&at_campaign=rss",
+    "summary": "'Dad rang and I was like: What's happening?' - England U20s boss on Uefa threat",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-14T09:10:40.335Z"
+  },
+  {
+    "id": "92fa41072e30",
+    "title": "Nigeria to miss Women's World Cup after South Africa and Ghana win play-offs",
+    "date": "2026-08-13",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cgk46yrk2pjo?at_medium=RSS&at_campaign=rss",
+    "summary": "Nigeria to miss Women's World Cup after South Africa and Ghana win play-offs",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-14T09:10:40.335Z"
+  },
+  {
+    "id": "acb42349de72",
+    "title": "Rangers crash out of Europa League as Derek McInnes’s winless start goes on",
+    "date": "2026-08-13",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/13/rangers-crash-out-of-europa-league-as-derek-mcinness-winless-start-goes-on",
+    "summary": "Rangers crash out of Europa League as Derek McInnes’s winless start goes on",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-14T09:10:40.335Z"
+  },
+  {
+    "id": "83c24b7d9d48",
+    "title": "Chelsea set Friday deadline for Fernández suitors as City reject new £51m Barça bid for Rodri",
+    "date": "2026-08-13",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/13/manchester-city-barcelona-rodri-chelsea-enzo-fernandez",
+    "summary": "Chelsea set Friday deadline for Fernández suitors as City reject new £51m Barça bid for Rodri",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-14T09:10:40.335Z"
+  },
+  {
+    "id": "731b30f20bb2",
+    "title": "‘He has a very high ceiling’: Madjo makes instant mark on delayed Aston Villa bow",
+    "date": "2026-08-13",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/13/aston-villa-brian-madjo-makes-mark-psg",
+    "summary": "‘He has a very high ceiling’: Madjo makes instant mark on delayed Aston Villa bow",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-14T09:10:40.335Z"
+  },
+  {
     "id": "3124f6d96a52",
     "title": "‘It was horrendous’: Durham captain relieved WSL2 club survived after fears of folding",
     "date": "2026-08-13",
@@ -2847,109 +2938,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-07-15T10:06:04.158Z"
-  },
-  {
-    "id": "9bbe0974b276",
-    "title": "Of all England’s great Black footballers, none has been the defining national figure. Until Jude Bellingham | Calum Jacobs",
-    "date": "2026-07-14",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/commentisfree/2026/jul/14/england-great-black-footballers-national-figure-jude-bellingham",
-    "summary": "Of all England’s great Black footballers, none has been the defining national figure. Until Jude Bellingham | Calum Jacobs",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-16T10:13:37.983Z"
-  },
-  {
-    "id": "e4b4fc29fc38",
-    "title": "Thomas Tuchel: ‘Argentina will be fuelled by history – but we are ready’",
-    "date": "2026-07-14",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/15/thomas-tuchel-argentina-fuelled-history-england-world-cup",
-    "summary": "Thomas Tuchel: ‘Argentina will be fuelled by history – but we are ready’",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-15T10:06:04.158Z"
-  },
-  {
-    "id": "59551ea93c3b",
-    "title": "Didier Deschamps pays price for breaking free from the shackles that led him to glory | Jonathan Wilson",
-    "date": "2026-07-14",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/14/didier-deschamps-france-spain-2026-world-cup-semi-final-dallas",
-    "summary": "Didier Deschamps pays price for breaking free from the shackles that led him to glory | Jonathan Wilson",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-15T10:06:04.158Z"
-  },
-  {
-    "id": "bd2068598d61",
-    "title": "War, antics and vitriol – the England v Argentina rivalry is real but now it is only about football",
-    "date": "2026-07-14",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/14/england-argentina-world-cup-2026-rivalry",
-    "summary": "War, antics and vitriol – the England v Argentina rivalry is real but now it is only about football",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-15T10:06:04.158Z"
-  },
-  {
-    "id": "7bbfa91683ce",
-    "title": "World Cup 2026: France v Spain semi-final buildup; Atlanta police step up security for England v Argentina – live",
-    "date": "2026-07-14",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/live/2026/jul/14/world-cup-2026-france-spain-buildup-england-argentina-news-live",
-    "summary": "World Cup 2026: France v Spain semi-final buildup; Atlanta police step up security for England v Argentina – live",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-14T10:01:52.034Z"
-  },
-  {
-    "id": "c47c7a1bdb2d",
-    "title": "‘Spain’s superstar fan’: Lamine Yamal’s little brother takes World Cup by storm",
-    "date": "2026-07-14",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/14/spain-superstar-fan-lamine-yamal-little-brother-takes-world-cup-by-storm",
-    "summary": "‘Spain’s superstar fan’: Lamine Yamal’s little brother takes World Cup by storm",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-14T10:01:52.034Z"
-  },
-  {
-    "id": "38c1a9641063",
-    "title": "Norway turn World Cup heartbreak into celebration as huge crowds pack Oslo",
-    "date": "2026-07-14",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/14/norway-world-cup-heartbreak-celebration-fans-oslo",
-    "summary": "Norway turn World Cup heartbreak into celebration as huge crowds pack Oslo",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-14T10:01:52.034Z"
-  },
-  {
-    "id": "2dea758bc4a0",
-    "title": "The other Lionel: how Scaloni went from accidental manager to World Cup hero",
-    "date": "2026-07-14",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/14/lionel-scaloni-messi-argentina-england-world-cup-hero",
-    "summary": "The other Lionel: how Scaloni went from accidental manager to World Cup hero",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-14T10:01:52.034Z"
   }
 ];
