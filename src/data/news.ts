@@ -2,6 +2,84 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "bf3972559684",
+    "title": "La Liga 2026-27 preview: Madrid look to Mourinho in bid to dethrone Barcelona",
+    "date": "2026-08-15",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/15/2026-2027-la-liga-preview-real-madrid-jose-mourinho-barcelona",
+    "summary": "La Liga 2026-27 preview: Madrid look to Mourinho in bid to dethrone Barcelona",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-15T08:33:19.774Z"
+  },
+  {
+    "id": "13c68cc23b78",
+    "title": "Celtic's Engels poised for West Ham transfer",
+    "date": "2026-08-14",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cgjexdypjqyo?at_medium=RSS&at_campaign=rss",
+    "summary": "Celtic's Engels poised for West Ham transfer",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-15T08:33:19.774Z"
+  },
+  {
+    "id": "13c68cc23b78",
+    "title": "Celtic's Engels poised for West Ham transfer",
+    "date": "2026-08-14",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cgjexdypjqyo?at_medium=RSS&at_campaign=rss",
+    "summary": "Celtic's Engels poised for West Ham transfer",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-15T08:33:19.774Z"
+  },
+  {
+    "id": "2c0d15c5ae17",
+    "title": "Raúl Jiménez’s injury-time penalty salvages point for Wolves against Blackburn",
+    "date": "2026-08-14",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/14/wolves-blackburn-championship-match-report",
+    "summary": "Raúl Jiménez’s injury-time penalty salvages point for Wolves against Blackburn",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-15T08:33:19.774Z"
+  },
+  {
+    "id": "486ab07e328c",
+    "title": "Chelsea expect Enzo Fernández to stay after Manchester City opt not to meet deadline",
+    "date": "2026-08-14",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/14/enzo-maresca-manchester-city-chelsea-fernandez-rodri-transfer",
+    "summary": "Chelsea expect Enzo Fernández to stay after Manchester City opt not to meet deadline",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-15T08:33:19.774Z"
+  },
+  {
+    "id": "c92d805bd220",
+    "title": "Football Daily | Rangers and the paradox of a painful exit that boosts their trophy chances",
+    "date": "2026-08-14",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/14/rangers-football-daily-newsletter",
+    "summary": "Football Daily | Rangers and the paradox of a painful exit that boosts their trophy chances",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-15T08:33:19.774Z"
+  },
+  {
     "id": "1cbcd7bbe657",
     "title": "'Dad rang and I was like: What's happening?' - England U20s boss on Uefa threat",
     "date": "2026-08-13",
@@ -2717,226 +2795,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-07-16T10:13:37.983Z"
-  },
-  {
-    "id": "f1907f56effa",
-    "title": "'No regrets' - Tuchel on England's defeat by Argentina",
-    "date": "2026-07-15",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/videos/c62v3q3qp99o?at_medium=RSS&at_campaign=rss",
-    "summary": "'No regrets' - Tuchel on England's defeat by Argentina",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-16T10:13:37.983Z"
-  },
-  {
-    "id": "af4fd6a6713a",
-    "title": "'Gutted' - Kane disappointed over World Cup exit",
-    "date": "2026-07-15",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/videos/czrjg3j4jx1o?at_medium=RSS&at_campaign=rss",
-    "summary": "'Gutted' - Kane disappointed over World Cup exit",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-16T10:13:37.983Z"
-  },
-  {
-    "id": "7f1cfc70b4b9",
-    "title": "Lionel Messi’s inevitable gravity bends another occasion in Argentina’s favour | Barney Ronay",
-    "date": "2026-07-15",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/16/lionel-messi-england-argentina-world-cup",
-    "summary": "Lionel Messi’s inevitable gravity bends another occasion in Argentina’s favour | Barney Ronay",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-16T10:13:37.983Z"
-  },
-  {
-    "id": "cb5d91fa68f8",
-    "title": "Thomas Tuchel accepts responsibility after substitutions backfire in England defeat",
-    "date": "2026-07-15",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/16/thomas-tuchel-accepts-responsibility-substitutions-england-argentina",
-    "summary": "Thomas Tuchel accepts responsibility after substitutions backfire in England defeat",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-16T10:13:37.983Z"
-  },
-  {
-    "id": "774a7a03108a",
-    "title": "Fifa hit by injunction in Germany over World Cup ticket resale prices",
-    "date": "2026-07-15",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/15/fifa-injunction-germany-world-cup-ticket-resale-prices",
-    "summary": "Fifa hit by injunction in Germany over World Cup ticket resale prices",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-16T10:13:37.983Z"
-  },
-  {
-    "id": "80f1e58798cd",
-    "title": "In this star-powered World Cup, Spain show value of collective and control | Sid Lowe",
-    "date": "2026-07-15",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/15/in-this-star-powered-world-cup-spain-show-the-value-of-the-collective-and-control",
-    "summary": "In this star-powered World Cup, Spain show value of collective and control | Sid Lowe",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-16T10:13:37.983Z"
-  },
-  {
-    "id": "2d37d66b68f3",
-    "title": "It was supposed to be different but Argentina showed intent, Tuchel showed fear | Jacob Steinberg",
-    "date": "2026-07-15",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/15/thomas-tuchel-england-argentina-semi-final-world-cup",
-    "summary": "It was supposed to be different but Argentina showed intent, Tuchel showed fear | Jacob Steinberg",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-16T10:13:37.983Z"
-  },
-  {
-    "id": "d3dd8630bf42",
-    "title": "Kylian Mbappé feels sands of time shifting as France suffer fresh World Cup angst",
-    "date": "2026-07-15",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/15/kylian-mbappe-next-chapter-world-cup-angst",
-    "summary": "Kylian Mbappé feels sands of time shifting as France suffer fresh World Cup angst",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-16T10:13:37.983Z"
-  },
-  {
-    "id": "e12d3fae9bbf",
-    "title": "Aston Villa sign Emily Ramsey as Bethany England joins Crystal Palace",
-    "date": "2026-07-15",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/15/aston-villa-sign-emily-ramsey-millie-turner-birmingham",
-    "summary": "Aston Villa sign Emily Ramsey as Bethany England joins Crystal Palace",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-16T10:13:37.983Z"
-  },
-  {
-    "id": "4a948e8dc4dd",
-    "title": "Manchester United to target £30m Crysencio Summerville should Marcus Rashford leave",
-    "date": "2026-07-15",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/15/manchester-united-crysencio-summerville-marcus-rashford",
-    "summary": "Manchester United to target £30m Crysencio Summerville should Marcus Rashford leave",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-16T10:13:37.983Z"
-  },
-  {
-    "id": "03bda679f4a5",
-    "title": "Lethal Spain execute plan to perfection against France on way to World Cup final | Jeff Rueter",
-    "date": "2026-07-15",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/15/spain-game-plan-france-fifa-world-cup-semi-final",
-    "summary": "Lethal Spain execute plan to perfection against France on way to World Cup final | Jeff Rueter",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-16T10:13:37.983Z"
-  },
-  {
-    "id": "cec11b3cdcdf",
-    "title": "How are London City Lionesses able to embark on such a transfer spree?",
-    "date": "2026-07-15",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/15/london-city-lionesses-transfers-wsl-michele-kang",
-    "summary": "How are London City Lionesses able to embark on such a transfer spree?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-16T10:13:37.983Z"
-  },
-  {
-    "id": "b16cdbd47cb8",
-    "title": "Mates, mate and freedom - how Argentina got the best out of Messi",
-    "date": "2026-07-15",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cx2j24y9jzyo?at_medium=RSS&at_campaign=rss",
-    "summary": "Mates, mate and freedom - how Argentina got the best out of Messi",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-15T10:06:04.158Z"
-  },
-  {
-    "id": "ef10c141947b",
-    "title": "'We shouldn't confuse politics and football' - Scaloni on England-Argentina rivalry",
-    "date": "2026-07-15",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cn8q8n6973xo?at_medium=RSS&at_campaign=rss",
-    "summary": "'We shouldn't confuse politics and football' - Scaloni on England-Argentina rivalry",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-15T10:06:04.158Z"
-  },
-  {
-    "id": "2edce172b02f",
-    "title": "All of Argentina's goals from the World Cup so far",
-    "date": "2026-07-15",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/videos/cevlr32zzrno?at_medium=RSS&at_campaign=rss",
-    "summary": "All of Argentina's goals from the World Cup so far",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-15T10:06:04.158Z"
-  },
-  {
-    "id": "68690d7dcacc",
-    "title": "World Cup 2026: Spain stun listless France to reach final; England v Argentina buildup – live",
-    "date": "2026-07-15",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/live/2026/jul/15/world-cup-2026-spain-stun-listless-france-to-reach-final-england-v-argentina-buildup-live",
-    "summary": "World Cup 2026: Spain stun listless France to reach final; England v Argentina buildup – live",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-15T10:06:04.158Z"
-  },
-  {
-    "id": "6252024518e8",
-    "title": "Even at 39, Lionel Messi can still hurt England with his sprinting ability",
-    "date": "2026-07-15",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/15/lionel-messi-england-world-cup-2026-semi-final",
-    "summary": "Even at 39, Lionel Messi can still hurt England with his sprinting ability",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-15T10:06:04.158Z"
   }
 ];
