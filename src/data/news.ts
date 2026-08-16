@@ -2,6 +2,84 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "e9b408af0df4",
+    "title": "End of an era? South Korea’s sun sets in the Premier League but Japan rise",
+    "date": "2026-08-16",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/16/end-of-era-south-korea-japan-premier-league",
+    "summary": "End of an era? South Korea’s sun sets in the Premier League but Japan rise",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-16T08:33:15.998Z"
+  },
+  {
+    "id": "cf965e60fa08",
+    "title": "West Ham break EFL record to sign Engels for £22m",
+    "date": "2026-08-15",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c77ggr5nk7jo?at_medium=RSS&at_campaign=rss",
+    "summary": "West Ham break EFL record to sign Engels for £22m",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-16T08:33:15.998Z"
+  },
+  {
+    "id": "8b1f2b5d5eaa",
+    "title": "Belgian Pocognoli frontrunner to be Scotland boss - but who is he?",
+    "date": "2026-08-15",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cwyrre1qzwlo?at_medium=RSS&at_campaign=rss",
+    "summary": "Belgian Pocognoli frontrunner to be Scotland boss - but who is he?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-16T08:33:15.998Z"
+  },
+  {
+    "id": "8b1f2b5d5eaa",
+    "title": "Belgian Pocognoli frontrunner to be Scotland boss - but who is he?",
+    "date": "2026-08-15",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cwyrre1qzwlo?at_medium=RSS&at_campaign=rss",
+    "summary": "Belgian Pocognoli frontrunner to be Scotland boss - but who is he?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-16T08:33:15.998Z"
+  },
+  {
+    "id": "cf965e60fa08",
+    "title": "West Ham break EFL record to sign Engels from Celtic for £22m",
+    "date": "2026-08-15",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c77ggr5nk7jo?at_medium=RSS&at_campaign=rss",
+    "summary": "West Ham break EFL record to sign Engels from Celtic for £22m",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-16T08:33:15.998Z"
+  },
+  {
+    "id": "cacaea3cccd0",
+    "title": "Scotland hope to name 39-year-old Pocognoli as successor to Clarke in fresh approach",
+    "date": "2026-08-15",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/15/scotland-hope-to-name-sebastien-pocognoli-as-new-international-manager",
+    "summary": "Scotland hope to name 39-year-old Pocognoli as successor to Clarke in fresh approach",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-16T08:33:15.998Z"
+  },
+  {
     "id": "bf3972559684",
     "title": "La Liga 2026-27 preview: Madrid look to Mourinho in bid to dethrone Barcelona",
     "date": "2026-08-15",
@@ -2678,122 +2756,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-07-17T10:02:01.330Z"
-  },
-  {
-    "id": "d649911bc21b",
-    "title": "Some England players disappointed by tactics as Tuchel questions team's DNA",
-    "date": "2026-07-16",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cqjxl90x27ro?at_medium=RSS&at_campaign=rss",
-    "summary": "Some England players disappointed by tactics as Tuchel questions team's DNA",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-17T10:02:01.330Z"
-  },
-  {
-    "id": "2059245cd8a0",
-    "title": "All 11 last-minute winners at the World Cup",
-    "date": "2026-07-16",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/videos/cp8xn9y46xdo?at_medium=RSS&at_campaign=rss",
-    "summary": "All 11 last-minute winners at the World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-17T10:02:01.330Z"
-  },
-  {
-    "id": "251683867a31",
-    "title": "How coach-on-pitch Messi undid England's tactics on the fly",
-    "date": "2026-07-16",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cly5lq03l7do?at_medium=RSS&at_campaign=rss",
-    "summary": "How coach-on-pitch Messi undid England's tactics on the fly",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-17T10:02:01.330Z"
-  },
-  {
-    "id": "e627dde59c80",
-    "title": "Tuchel ‘100%’ invested in leading England at Euro 2028 despite semi-final failure",
-    "date": "2026-07-16",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/16/thomas-tuchel-england-2026-world-cup-semi-final-argentina-euro-2028",
-    "summary": "Tuchel ‘100%’ invested in leading England at Euro 2028 despite semi-final failure",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-17T10:02:01.330Z"
-  },
-  {
-    "id": "2bbe90cc2f0e",
-    "title": "Players ‘puzzled’ by tactics but Tuchel left himself no other option with his squad picks | Jacob Steinberg",
-    "date": "2026-07-16",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/16/players-puzzled-tactics-tuchel-no-option-england-squad-picks",
-    "summary": "Players ‘puzzled’ by tactics but Tuchel left himself no other option with his squad picks | Jacob Steinberg",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-17T10:02:01.330Z"
-  },
-  {
-    "id": "f487e6c5309f",
-    "title": "England had Lionel Messi under control … until one decisive and subtle shift",
-    "date": "2026-07-16",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/16/england-appeared-to-have-lionel-messi-under-control-until-the-crucial-moments",
-    "summary": "England had Lionel Messi under control … until one decisive and subtle shift",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-17T10:02:01.330Z"
-  },
-  {
-    "id": "b38f44c02679",
-    "title": "Romero’s World Cup heroics for Argentina make him one of Messi’s most trusted",
-    "date": "2026-07-16",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/16/argentina-world-cup-romero-semi-final",
-    "summary": "Romero’s World Cup heroics for Argentina make him one of Messi’s most trusted",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-17T10:02:01.330Z"
-  },
-  {
-    "id": "e577acbe7074",
-    "title": "World Cup 2026: Tuchel takes blame amid speculation over England future; Argentina players criticised for banner – live",
-    "date": "2026-07-16",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/live/2026/jul/16/world-cup-2026-argentina-break-england-hearts-and-head-for-final-with-spain-live",
-    "summary": "World Cup 2026: Tuchel takes blame amid speculation over England future; Argentina players criticised for banner – live",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-16T10:13:37.983Z"
-  },
-  {
-    "id": "574d6815eef9",
-    "title": "'Gutted' Harry Kane on Messi, Argentina and devastation of World Cup exit – video",
-    "date": "2026-07-16",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/video/2026/jul/16/gutted-harry-kane-on-messi-argentina-and-devastation-of-world-cup-semi-final-exit-video",
-    "summary": "'Gutted' Harry Kane on Messi, Argentina and devastation of World Cup exit – video",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-16T10:13:37.983Z"
   }
 ];
