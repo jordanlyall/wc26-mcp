@@ -2,6 +2,97 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "d247963c3dca",
+    "title": "Barcelona agree £65m Rodri deal - who could replace him at Man City?",
+    "date": "2026-08-16",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cy0jj65r18yo?at_medium=RSS&at_campaign=rss",
+    "summary": "Barcelona agree £65m Rodri deal - who could replace him at Man City?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-17T08:48:10.865Z"
+  },
+  {
+    "id": "06dd205b452e",
+    "title": "What awaits new Scotland head coach Pocognoli?",
+    "date": "2026-08-16",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cly995z1j8go?at_medium=RSS&at_campaign=rss",
+    "summary": "What awaits new Scotland head coach Pocognoli?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-17T08:48:10.865Z"
+  },
+  {
+    "id": "06dd205b452e",
+    "title": "What awaits new Scotland head coach Pocognoli?",
+    "date": "2026-08-16",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cly995z1j8go?at_medium=RSS&at_campaign=rss",
+    "summary": "What awaits new Scotland head coach Pocognoli?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-17T08:48:10.865Z"
+  },
+  {
+    "id": "935eb9fcba09",
+    "title": "‘That’s the standard’: Mikel Arteta hails Arsenal’s desire on blue day for Maresca",
+    "date": "2026-08-16",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/16/mikel-arteta-arsenal-desire-enzo-maresca-community-shield",
+    "summary": "‘That’s the standard’: Mikel Arteta hails Arsenal’s desire on blue day for Maresca",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-17T08:48:10.865Z"
+  },
+  {
+    "id": "3f882161ed23",
+    "title": "Rodri set to complete Barcelona move after Manchester City accept £65.4m bid",
+    "date": "2026-08-16",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/16/rodri-set-to-complete-barcelona-move-after-manchester-city-accept-654m-bid",
+    "summary": "Rodri set to complete Barcelona move after Manchester City accept £65.4m bid",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-17T08:48:10.865Z"
+  },
+  {
+    "id": "c719abec752f",
+    "title": "Cristiano Ronaldo says this year is ‘probably’ his last as a footballer",
+    "date": "2026-08-16",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/16/cristiano-ronaldo-says-this-year-is-probably-his-last-as-a-footballer",
+    "summary": "Cristiano Ronaldo says this year is ‘probably’ his last as a footballer",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-17T08:48:10.865Z"
+  },
+  {
+    "id": "ae5310fb1d60",
+    "title": "Arsenal’s midfield depth signals ominous warning to title rivals – and Maresca’s City | Ed Aarons",
+    "date": "2026-08-16",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/16/arsenal-manchester-city-community-shield-premier-league",
+    "summary": "Arsenal’s midfield depth signals ominous warning to title rivals – and Maresca’s City | Ed Aarons",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-17T08:48:10.865Z"
+  },
+  {
     "id": "e9b408af0df4",
     "title": "End of an era? South Korea’s sun sets in the Premier League but Japan rise",
     "date": "2026-08-16",
@@ -2548,213 +2639,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-07-18T09:37:16.581Z"
-  },
-  {
-    "id": "058cdf174118",
-    "title": "Stick with Tuchel unless Guardiola is available - Rooney",
-    "date": "2026-07-17",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c304ldrmmero?at_medium=RSS&at_campaign=rss",
-    "summary": "Stick with Tuchel unless Guardiola is available - Rooney",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-18T09:37:16.581Z"
-  },
-  {
-    "id": "0b6a5e1bfdbf",
-    "title": "Tuchel did not deliver, but his time with England is not up - Shearer",
-    "date": "2026-07-17",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c8xnl908y28o?at_medium=RSS&at_campaign=rss",
-    "summary": "Tuchel did not deliver, but his time with England is not up - Shearer",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-18T09:37:16.581Z"
-  },
-  {
-    "id": "f2f39828dcf6",
-    "title": "Keep calm and carry on - Spain trust team identity to deliver World Cup",
-    "date": "2026-07-17",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/czxedvre7ryo?at_medium=RSS&at_campaign=rss",
-    "summary": "Keep calm and carry on - Spain trust team identity to deliver World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-18T09:37:16.581Z"
-  },
-  {
-    "id": "aa96dc0a6679",
-    "title": "Pele at the Azteca? England in '66? Ranking the best World Cup finals",
-    "date": "2026-07-17",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cgjx946py51o?at_medium=RSS&at_campaign=rss",
-    "summary": "Pele at the Azteca? England in '66? Ranking the best World Cup finals",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-18T09:37:16.581Z"
-  },
-  {
-    "id": "05ce0f4f8d7b",
-    "title": "Who could follow as Gordon leaves Scotland as a legend?",
-    "date": "2026-07-17",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cly5vvl87v0o?at_medium=RSS&at_campaign=rss",
-    "summary": "Who could follow as Gordon leaves Scotland as a legend?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-18T09:37:16.581Z"
-  },
-  {
-    "id": "9b4fa523a2d4",
-    "title": "Tuchel urges England to finish strongly in emotional address",
-    "date": "2026-07-17",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c62ergl0py2o?at_medium=RSS&at_campaign=rss",
-    "summary": "Tuchel urges England to finish strongly in emotional address",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-18T09:37:16.581Z"
-  },
-  {
-    "id": "05ce0f4f8d7b",
-    "title": "Who could follow as Gordon leaves Scotland as a legend?",
-    "date": "2026-07-17",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cly5vvl87v0o?at_medium=RSS&at_campaign=rss",
-    "summary": "Who could follow as Gordon leaves Scotland as a legend?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-18T09:37:16.581Z"
-  },
-  {
-    "id": "85b14d8ccf71",
-    "title": "Birmingham City sign Canada defender Levasseur",
-    "date": "2026-07-17",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cx2d5l4q8jpo?at_medium=RSS&at_campaign=rss",
-    "summary": "Birmingham City sign Canada defender Levasseur",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-18T09:37:16.581Z"
-  },
-  {
-    "id": "c06f936236a1",
-    "title": "God’s will? Destiny? Lionel Messi, Lamine Yamal, that photo and the World Cup final",
-    "date": "2026-07-17",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/17/gods-will-destiny-lionel-messi-lamine-yamal-that-photo-and-the-world-cup-final",
-    "summary": "God’s will? Destiny? Lionel Messi, Lamine Yamal, that photo and the World Cup final",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-18T09:37:16.581Z"
-  },
-  {
-    "id": "c2fa3c02d432",
-    "title": "Smoke, travel and Trump threaten New York’s grand World Cup finale",
-    "date": "2026-07-17",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/17/smoke-travel-trump-new-york-world-cup-final",
-    "summary": "Smoke, travel and Trump threaten New York’s grand World Cup finale",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-18T09:37:16.581Z"
-  },
-  {
-    "id": "445d35bcc44e",
-    "title": "BBC v ITV: who won the UK’s battle of the World Cup 2026 broadcasters?",
-    "date": "2026-07-17",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/17/world-cup-bbc-itv-broadcast-battle",
-    "summary": "BBC v ITV: who won the UK’s battle of the World Cup 2026 broadcasters?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-18T09:37:16.581Z"
-  },
-  {
-    "id": "c63f0f03f4eb",
-    "title": "England missing final piece of jigsaw - Kane",
-    "date": "2026-07-17",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cvgv52dne1mo?at_medium=RSS&at_campaign=rss",
-    "summary": "England missing final piece of jigsaw - Kane",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-17T10:02:01.330Z"
-  },
-  {
-    "id": "07c1dd64f622",
-    "title": "Defender Cascarino joins West Ham in permanent deal",
-    "date": "2026-07-17",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c5yzye502vko?at_medium=RSS&at_campaign=rss",
-    "summary": "Defender Cascarino joins West Ham in permanent deal",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-17T10:02:01.330Z"
-  },
-  {
-    "id": "07c1dd64f622",
-    "title": "Defender Cascarino joins West Ham in permanent deal",
-    "date": "2026-07-17",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c5yzye502vko?at_medium=RSS&at_campaign=rss",
-    "summary": "Defender Cascarino joins West Ham in permanent deal",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-17T10:02:01.330Z"
-  },
-  {
-    "id": "b1bed442154e",
-    "title": "World Cup 2026: Spain v Argentina countdown, Trump to attend final, England news – live",
-    "date": "2026-07-17",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/live/2026/jul/17/world-cup-2026-spain-v-argentina-countdown-trump-to-attend-final-england-news-live",
-    "summary": "World Cup 2026: Spain v Argentina countdown, Trump to attend final, England news – live",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-17T10:02:01.330Z"
-  },
-  {
-    "id": "3fe4af74ceca",
-    "title": "Canberra United’s A-League Women future secured as date set for Men’s team entry",
-    "date": "2026-07-17",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/17/canberra-united-a-league-women-club-football-new-owner",
-    "summary": "Canberra United’s A-League Women future secured as date set for Men’s team entry",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-17T10:02:01.330Z"
   }
 ];
