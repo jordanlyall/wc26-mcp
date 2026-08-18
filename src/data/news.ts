@@ -2,6 +2,45 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "f40a84967323",
+    "title": "Tottenham goalkeeper Guglielmo Vicario to leave for Juventus in loan deal",
+    "date": "2026-08-17",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/17/tottenham-guglielmo-vicario-spurs-juventus-loan-deal-transfer-window",
+    "summary": "Tottenham goalkeeper Guglielmo Vicario to leave for Juventus in loan deal",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-18T08:40:39.699Z"
+  },
+  {
+    "id": "97d10af45468",
+    "title": "‘I’ll remember it for the rest of my life’: the footballers whose biggest games come before their league begins",
+    "date": "2026-08-17",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/17/footballers-games-champions-league-europa-conference-prize-money",
+    "summary": "‘I’ll remember it for the rest of my life’: the footballers whose biggest games come before their league begins",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-18T08:40:39.699Z"
+  },
+  {
+    "id": "d89dccd8d042",
+    "title": "Football Daily | Pocognoli looks the part as Scotland’s new boss but a question remains: can he boogie?",
+    "date": "2026-08-17",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/17/sebastien-pocognoli-scotland-football-daily-newsletter",
+    "summary": "Football Daily | Pocognoli looks the part as Scotland’s new boss but a question remains: can he boogie?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-18T08:40:39.699Z"
+  },
+  {
     "id": "d247963c3dca",
     "title": "Barcelona agree £65m Rodri deal - who could replace him at Man City?",
     "date": "2026-08-16",
@@ -2483,161 +2522,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-07-19T09:54:45.296Z"
-  },
-  {
-    "id": "02693328d5ce",
-    "title": "Chelsea agree record £117m deal for Villa's Rogers",
-    "date": "2026-07-18",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c0ej1jyy8yyo?at_medium=RSS&at_campaign=rss",
-    "summary": "Chelsea agree record £117m deal for Villa's Rogers",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-19T09:54:45.296Z"
-  },
-  {
-    "id": "f49308b6fa9e",
-    "title": "Rice fires England into early lead against France",
-    "date": "2026-07-18",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/videos/c0qvzk59jn0o?at_medium=RSS&at_campaign=rss",
-    "summary": "Rice fires England into early lead against France",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-19T09:54:45.296Z"
-  },
-  {
-    "id": "a5206445f1d4",
-    "title": "The classroom moment that bonds finalists De la Fuente & Scaloni forever",
-    "date": "2026-07-18",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c98v13rgyrmo?at_medium=RSS&at_campaign=rss",
-    "summary": "The classroom moment that bonds finalists De la Fuente & Scaloni forever",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-19T09:54:45.296Z"
-  },
-  {
-    "id": "e1e261e4fa2e",
-    "title": "A bit 'blah' or a worthy host? Is MetLife  right World Cup final choice?",
-    "date": "2026-07-18",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cvgj5dlr45zo?at_medium=RSS&at_campaign=rss",
-    "summary": "A bit 'blah' or a worthy host? Is MetLife  right World Cup final choice?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-19T09:54:45.296Z"
-  },
-  {
-    "id": "87c144209cfd",
-    "title": "World Cup winner Capdevila appeals to Trump after US travel permit denied ",
-    "date": "2026-07-18",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cx2l5jn17yjo?at_medium=RSS&at_campaign=rss",
-    "summary": "World Cup winner Capdevila appeals to Trump after US travel permit denied ",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-19T09:54:45.296Z"
-  },
-  {
-    "id": "17f8b4a01ff6",
-    "title": "Gemmill leaves Scotland U21 role after 13 years",
-    "date": "2026-07-18",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c3ek9weyyv4o?at_medium=RSS&at_campaign=rss",
-    "summary": "Gemmill leaves Scotland U21 role after 13 years",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-19T09:54:45.296Z"
-  },
-  {
-    "id": "17f8b4a01ff6",
-    "title": "Gemmill leaves Scotland U21 role after 13 years",
-    "date": "2026-07-18",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c3ek9weyyv4o?at_medium=RSS&at_campaign=rss",
-    "summary": "Gemmill leaves Scotland U21 role after 13 years",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-19T09:54:45.296Z"
-  },
-  {
-    "id": "64d04cdee771",
-    "title": "Manchester United start new signing Andrey Santos in pre-season loss to Wrexham",
-    "date": "2026-07-18",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/18/manchester-united-start-new-signing-andrey-santos-in-pre-season-loss-to-wrexham",
-    "summary": "Manchester United start new signing Andrey Santos in pre-season loss to Wrexham",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-19T09:54:45.296Z"
-  },
-  {
-    "id": "788ac9452abb",
-    "title": "Defiant Tuchel defends decisions and says loss is 'scar we carry now'",
-    "date": "2026-07-18",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c3r0l4zn9jpo?at_medium=RSS&at_campaign=rss",
-    "summary": "Defiant Tuchel defends decisions and says loss is 'scar we carry now'",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-18T09:37:16.581Z"
-  },
-  {
-    "id": "f88f1d59d36d",
-    "title": "World Cup 2026 latest: buildup to France v England third-place playoff and Spain v Argentina final",
-    "date": "2026-07-18",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/live/2026/jul/18/world-cup-latest-buildup-france-england-third-place-spain-argentina",
-    "summary": "World Cup 2026 latest: buildup to France v England third-place playoff and Spain v Argentina final",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-18T09:37:16.581Z"
-  },
-  {
-    "id": "9c2ab9f966ad",
-    "title": "Tuchel would rather put down the English game than admit to his own cowardice | Jonathan Liew",
-    "date": "2026-07-18",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/18/thomas-tuchel-england-dna-world-cup-football",
-    "summary": "Tuchel would rather put down the English game than admit to his own cowardice | Jonathan Liew",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-18T09:37:16.581Z"
-  },
-  {
-    "id": "f707eb003265",
-    "title": "Cold War Steve on … Don Quixote and Sancho Panza coming to save the World Cup",
-    "date": "2026-07-18",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/picture/2026/jul/18/cold-war-steve-on-don-quixote-and-sancho-panza-coming-to-save-the-world-cup",
-    "summary": "Cold War Steve on … Don Quixote and Sancho Panza coming to save the World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-18T09:37:16.581Z"
   }
 ];
