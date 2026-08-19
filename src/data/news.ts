@@ -2,6 +2,71 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "d530f271f0ad",
+    "title": "Wrexham's Moore aiming to stay the distance",
+    "date": "2026-08-19",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cx2mzz1zd67o?at_medium=RSS&at_campaign=rss",
+    "summary": "Wrexham's Moore aiming to stay the distance",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-19T08:41:16.878Z"
+  },
+  {
+    "id": "014deace99f7",
+    "title": "Vieira named new Senegal head coach",
+    "date": "2026-08-18",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cr49v9dn431o?at_medium=RSS&at_campaign=rss",
+    "summary": "Vieira named new Senegal head coach",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-19T08:41:16.878Z"
+  },
+  {
+    "id": "77d49d9a21c3",
+    "title": "Barcelona steal Rodri away from Real Madrid and plan to make him new Busquets",
+    "date": "2026-08-18",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/18/barcelona-snatch-rodri-from-madrid-and-make-him-new-busquets",
+    "summary": "Barcelona steal Rodri away from Real Madrid and plan to make him new Busquets",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-19T08:41:16.878Z"
+  },
+  {
+    "id": "a212ba71f286",
+    "title": "In Zavier Gozo, Crystal Palace land a US prospect living up to the hype",
+    "date": "2026-08-18",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/18/zavier-gozo-crystal-palace-mls-real-salt-lake-transfer",
+    "summary": "In Zavier Gozo, Crystal Palace land a US prospect living up to the hype",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-19T08:41:16.878Z"
+  },
+  {
+    "id": "70ba0e82e552",
+    "title": "Patrick Vieira appointed as head coach of Senegal, the country of his birth",
+    "date": "2026-08-18",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/18/patrick-vieira-appointed-as-senegal-head-coach",
+    "summary": "Patrick Vieira appointed as head coach of Senegal, the country of his birth",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-19T08:41:16.878Z"
+  },
+  {
     "id": "f40a84967323",
     "title": "Tottenham goalkeeper Guglielmo Vicario to leave for Juventus in loan deal",
     "date": "2026-08-17",
@@ -2418,109 +2483,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-07-20T10:56:09.822Z"
-  },
-  {
-    "id": "1fff31329b40",
-    "title": "Dominant Spain beat Argentina to win World Cup after extra time",
-    "date": "2026-07-19",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/videos/clyvgx9e00do?at_medium=RSS&at_campaign=rss",
-    "summary": "Dominant Spain beat Argentina to win World Cup after extra time",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-20T10:56:09.822Z"
-  },
-  {
-    "id": "09e10243ed3d",
-    "title": "Kane says Tuchel will ‘learn a lot’ from England pressures after exit to Argentina",
-    "date": "2026-07-19",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/19/harry-kane-thomas-tuchel-england-football-world-cup-2026-euro-2028",
-    "summary": "Kane says Tuchel will ‘learn a lot’ from England pressures after exit to Argentina",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-20T10:56:09.822Z"
-  },
-  {
-    "id": "9e1b4d4e9a30",
-    "title": "England 2026 World Cup squad: player-by-player ratings",
-    "date": "2026-07-19",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/19/england-2026-world-cup-squad-player-by-player-ratings",
-    "summary": "England 2026 World Cup squad: player-by-player ratings",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-20T10:56:09.822Z"
-  },
-  {
-    "id": "a4f0d875f9c2",
-    "title": "Brilliant first half, turbulent second - Tuchel",
-    "date": "2026-07-19",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/videos/c1j1djgkg98o?at_medium=RSS&at_campaign=rss",
-    "summary": "Brilliant first half, turbulent second - Tuchel",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-19T09:54:45.296Z"
-  },
-  {
-    "id": "ab233eb6c695",
-    "title": "World Cup 2026: Spain v Argentina final buildup; England win 10-goal thriller – live",
-    "date": "2026-07-19",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/live/2026/jul/19/world-cup-2026-spain-v-argentina-final-buildup-england-win-10-goal-thriller-live",
-    "summary": "World Cup 2026: Spain v Argentina final buildup; England win 10-goal thriller – live",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-19T09:54:45.296Z"
-  },
-  {
-    "id": "1710aff92701",
-    "title": "‘Something very special’: Tuchel reflects on World Cup after England claim third",
-    "date": "2026-07-19",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/19/thomas-tuchel-world-cup-england-third-france",
-    "summary": "‘Something very special’: Tuchel reflects on World Cup after England claim third",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-19T09:54:45.296Z"
-  },
-  {
-    "id": "6cdd378a2708",
-    "title": "World Cup final data pointers: Spain’s defensive record and Argentina’s attack",
-    "date": "2026-07-19",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/19/world-cup-final-spain-argentina-goals-defensive-record",
-    "summary": "World Cup final data pointers: Spain’s defensive record and Argentina’s attack",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-19T09:54:45.296Z"
-  },
-  {
-    "id": "b37e4788c92d",
-    "title": "Spain v Argentina in the World Cup final: the referee, the stats and the omens",
-    "date": "2026-07-19",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/19/spain-v-argentina-world-cup-final-referee-stats-omens",
-    "summary": "Spain v Argentina in the World Cup final: the referee, the stats and the omens",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-19T09:54:45.296Z"
   }
 ];
