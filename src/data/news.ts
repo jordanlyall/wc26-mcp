@@ -2,6 +2,97 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "a3e88f05f394",
+    "title": "Football transfer rumours: Newcastle to sign Manchester City’s Nico González?",
+    "date": "2026-08-20",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/20/football-transfer-rumours-newcastle-nico-gonzalez-manchester-united-aston-villa",
+    "summary": "Football transfer rumours: Newcastle to sign Manchester City’s Nico González?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-20T08:42:38.631Z"
+  },
+  {
+    "id": "648ae0290b08",
+    "title": "Questions remain over Vieira deal amid Senegal uncertainty",
+    "date": "2026-08-19",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cddjvjqd5mro?at_medium=RSS&at_campaign=rss",
+    "summary": "Questions remain over Vieira deal amid Senegal uncertainty",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-20T08:42:38.631Z"
+  },
+  {
+    "id": "f79ab1c969bb",
+    "title": "‘He doubted’: Mourinho says Real Madrid did not want Rodri after hesitation over move",
+    "date": "2026-08-19",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/19/jose-mourinho-real-madrid-rodri-barcelona-transfer-offer",
+    "summary": "‘He doubted’: Mourinho says Real Madrid did not want Rodri after hesitation over move",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-20T08:42:38.631Z"
+  },
+  {
+    "id": "6853877330ab",
+    "title": "Arsenal agree £51m deal to sign Ezri Konsa from Aston Villa",
+    "date": "2026-08-19",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/19/aston-villa-al-hilal-ollie-watkins",
+    "summary": "Arsenal agree £51m deal to sign Ezri Konsa from Aston Villa",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-20T08:42:38.631Z"
+  },
+  {
+    "id": "b8f04d460ca5",
+    "title": "Wafcon 2026 review: Glory for Cameroon, Nigeria flop and Malawi cause a stir",
+    "date": "2026-08-19",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/sport/2026/aug/19/wafcon-2026-review-glory-for-cameroon-nigeria-flop-and-malawi-cause-a-stir",
+    "summary": "Wafcon 2026 review: Glory for Cameroon, Nigeria flop and Malawi cause a stir",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-20T08:42:38.631Z"
+  },
+  {
+    "id": "5369233e1150",
+    "title": "Football Daily | Sensible soccer: are football clubs actually signing the players they need?",
+    "date": "2026-08-19",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/19/sensible-soccer-clubs-signing-players-transfers-football-daily",
+    "summary": "Football Daily | Sensible soccer: are football clubs actually signing the players they need?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-20T08:42:38.631Z"
+  },
+  {
+    "id": "7d8231510e95",
+    "title": "Football transfer rumours: Al-Hilal eye moves for Harry Kane and Ollie Watkins?",
+    "date": "2026-08-19",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/19/football-transfer-rumours-al-hilal-eye-moves-for-harry-kane-and-ollie-watkins",
+    "summary": "Football transfer rumours: Al-Hilal eye moves for Harry Kane and Ollie Watkins?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-20T08:42:38.631Z"
+  },
+  {
     "id": "d530f271f0ad",
     "title": "Wrexham's Moore aiming to stay the distance",
     "date": "2026-08-19",
@@ -2262,226 +2353,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-07-21T10:27:36.366Z"
-  },
-  {
-    "id": "4503243033dd",
-    "title": "João Gomes seals £38m Aston Villa move, Hall and Robinson on Manchester United list",
-    "date": "2026-07-20",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/20/joao-gomes-signs-aston-villa-lewis-hall-antonee-robinson-manchester-united-transfer-latest",
-    "summary": "João Gomes seals £38m Aston Villa move, Hall and Robinson on Manchester United list",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-22T10:28:50.592Z"
-  },
-  {
-    "id": "2a9da907d8e6",
-    "title": "Football Daily | A desperate grab for attention. This is the way the World Cup ends",
-    "date": "2026-07-20",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/20/this-is-the-way-the-world-cup-ends-football-daily-newsletter",
-    "summary": "Football Daily | A desperate grab for attention. This is the way the World Cup ends",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-22T10:28:50.592Z"
-  },
-  {
-    "id": "7557be0c516a",
-    "title": "Guardiola in reported talks with Italy - would England come calling?",
-    "date": "2026-07-20",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c20dn5j0lj0o?at_medium=RSS&at_campaign=rss",
-    "summary": "Guardiola in reported talks with Italy - would England come calling?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-21T10:27:36.366Z"
-  },
-  {
-    "id": "5c0fbfa8483d",
-    "title": "Watch the BBC's closing World Cup montage",
-    "date": "2026-07-20",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/videos/c5y4r79prw4o?at_medium=RSS&at_campaign=rss",
-    "summary": "Watch the BBC's closing World Cup montage",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-21T10:27:36.366Z"
-  },
-  {
-    "id": "53b5e7d954d4",
-    "title": "Argentina boss Scaloni leaves press conference in tears",
-    "date": "2026-07-20",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/videos/cvglel7g7v2o?at_medium=RSS&at_campaign=rss",
-    "summary": "Argentina boss Scaloni leaves press conference in tears",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-21T10:27:36.366Z"
-  },
-  {
-    "id": "5043c6d7d3fd",
-    "title": "'A date with history and we got there first' - Spain react to World Cup win",
-    "date": "2026-07-20",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/videos/c1k1n1g4m8po?at_medium=RSS&at_campaign=rss",
-    "summary": "'A date with history and we got there first' - Spain react to World Cup win",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-21T10:27:36.366Z"
-  },
-  {
-    "id": "1ca6c8118c5e",
-    "title": "Newcastle, Liverpool and England legend Keegan dies",
-    "date": "2026-07-20",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c2lyl82n2e2o?at_medium=RSS&at_campaign=rss",
-    "summary": "Newcastle, Liverpool and England legend Keegan dies",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-21T10:27:36.366Z"
-  },
-  {
-    "id": "c9268341a462",
-    "title": "Gallery: Spain celebrate World Cup triumph in Madrid",
-    "date": "2026-07-20",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cgje79d6q64o?at_medium=RSS&at_campaign=rss",
-    "summary": "Gallery: Spain celebrate World Cup triumph in Madrid",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-21T10:27:36.366Z"
-  },
-  {
-    "id": "fa9c24875c97",
-    "title": "Chelsea sign Man Utd striker Malard for £850,000",
-    "date": "2026-07-20",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c62120n7y8jo?at_medium=RSS&at_campaign=rss",
-    "summary": "Chelsea sign Man Utd striker Malard for £850,000",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-21T10:27:36.366Z"
-  },
-  {
-    "id": "2062a19e8261",
-    "title": "Everton sign defender Blundell on permament deal",
-    "date": "2026-07-20",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c0qyxqw901wo?at_medium=RSS&at_campaign=rss",
-    "summary": "Everton sign defender Blundell on permament deal",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-21T10:27:36.366Z"
-  },
-  {
-    "id": "0e75c62c54c1",
-    "title": "A pioneer and a superstar, Kevin Keegan’s achievements were extraordinary",
-    "date": "2026-07-20",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/20/kevin-keegan-tribute-pioneer-superstar-liverpool-newcastle-hamburg-england",
-    "summary": "A pioneer and a superstar, Kevin Keegan’s achievements were extraordinary",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-21T10:27:36.366Z"
-  },
-  {
-    "id": "ed9087d42385",
-    "title": "Argentina players face bans as Fifa opens investigation into World Cup final brawls",
-    "date": "2026-07-20",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/20/argentina-players-face-bans-as-fifa-opens-investigation-into-world-cup-final-brawls",
-    "summary": "Argentina players face bans as Fifa opens investigation into World Cup final brawls",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-21T10:27:36.366Z"
-  },
-  {
-    "id": "598488ba184d",
-    "title": "Nearly two million people join Spain’s World Cup celebrations in Madrid",
-    "date": "2026-07-20",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/20/spain-world-cup-celebration-madrid",
-    "summary": "Nearly two million people join Spain’s World Cup celebrations in Madrid",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-21T10:27:36.366Z"
-  },
-  {
-    "id": "fc46929a8567",
-    "title": "Villa sign Wolves midfielder Gomes in £38m deal",
-    "date": "2026-07-20",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cnvndy7pej9o?at_medium=RSS&at_campaign=rss",
-    "summary": "Villa sign Wolves midfielder Gomes in £38m deal",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-20T10:56:09.822Z"
-  },
-  {
-    "id": "29a33b749400",
-    "title": "Argentina boss Scaloni leaves news conference in tears talking about his future",
-    "date": "2026-07-20",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cdew76g9d1zo?at_medium=RSS&at_campaign=rss",
-    "summary": "Argentina boss Scaloni leaves news conference in tears talking about his future",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-20T10:56:09.822Z"
-  },
-  {
-    "id": "15984128e470",
-    "title": "World Cup 2026: Spain’s champions head home to Madrid welcome after beating Argentina – live",
-    "date": "2026-07-20",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/live/2026/jul/20/world-cup-2026-final-reaction-news-spain-argentina",
-    "summary": "World Cup 2026: Spain’s champions head home to Madrid welcome after beating Argentina – live",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-20T10:56:09.822Z"
-  },
-  {
-    "id": "fcbf516e360d",
-    "title": "Top 30: from half a million World Cup photos, why I love these the most",
-    "date": "2026-07-20",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/ng-interactive/2026/jul/20/world-cup-2026-best-30-photographs-gallery",
-    "summary": "Top 30: from half a million World Cup photos, why I love these the most",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-20T10:56:09.822Z"
   }
 ];
