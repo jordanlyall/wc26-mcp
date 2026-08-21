@@ -2,6 +2,45 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "402d50bea418",
+    "title": "Tottenham close on deals for Manchester City’s Savinho and Omar Marmoush",
+    "date": "2026-08-21",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/21/tottenham-hotspur-close-on-deals-for-manchester-city-savinho-omar-marmoush",
+    "summary": "Tottenham close on deals for Manchester City’s Savinho and Omar Marmoush",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-21T08:45:21.493Z"
+  },
+  {
+    "id": "e655fe11c798",
+    "title": "Can a managerial merry-go-round in Serie A stop Inter’s dominance?",
+    "date": "2026-08-20",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/20/serie-a-preview-inter-milan-juventus-como-roma-napoli",
+    "summary": "Can a managerial merry-go-round in Serie A stop Inter’s dominance?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-21T08:45:21.493Z"
+  },
+  {
+    "id": "404527afa733",
+    "title": "Robot building and Essien: Yirenkyi’s circuitous path to Premier League",
+    "date": "2026-08-20",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/20/yirenkyi-completes-rapid-journey-from-ghana-to-coventry-via-denmark",
+    "summary": "Robot building and Essien: Yirenkyi’s circuitous path to Premier League",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-21T08:45:21.493Z"
+  },
+  {
     "id": "a3e88f05f394",
     "title": "Football transfer rumours: Newcastle to sign Manchester City’s Nico González?",
     "date": "2026-08-20",
@@ -13,6 +52,19 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-08-20T08:42:38.631Z"
+  },
+  {
+    "id": "fd08286808c6",
+    "title": "‘A huge honour’: Socceroos World Cup star Alessandro Circati seals move to Benfica",
+    "date": "2026-08-19",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/20/alessandro-circati-benfica-portugal-primeira-liga-transfer-news-move",
+    "summary": "‘A huge honour’: Socceroos World Cup star Alessandro Circati seals move to Benfica",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-21T08:45:21.493Z"
   },
   {
     "id": "648ae0290b08",
@@ -2210,148 +2262,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-07-22T10:28:50.592Z"
-  },
-  {
-    "id": "15664e24f8a5",
-    "title": "The defining moments of the 2026 World Cup",
-    "date": "2026-07-21",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/videos/cdrv06y1pdlo?at_medium=RSS&at_campaign=rss",
-    "summary": "The defining moments of the 2026 World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-22T10:28:50.592Z"
-  },
-  {
-    "id": "a1bb2ac4c74a",
-    "title": "Keeper Martinez may 'step aside' from Argentina",
-    "date": "2026-07-21",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c62xzle86n4o?at_medium=RSS&at_campaign=rss",
-    "summary": "Keeper Martinez may 'step aside' from Argentina",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-22T10:28:50.592Z"
-  },
-  {
-    "id": "4ad161141494",
-    "title": "Morgan Rogers ‘excited to join biggest club in London’ after making £117m Chelsea move",
-    "date": "2026-07-21",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/21/morgan-rogers-biggest-club-london-117m-chelsea-deal",
-    "summary": "Morgan Rogers ‘excited to join biggest club in London’ after making £117m Chelsea move",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-22T10:28:50.592Z"
-  },
-  {
-    "id": "04f14dd2e967",
-    "title": "Bournemouth midfielder Scott rejects new contract",
-    "date": "2026-07-21",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c0rdn1p2z45o?at_medium=RSS&at_campaign=rss",
-    "summary": "Bournemouth midfielder Scott rejects new contract",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-21T10:27:36.366Z"
-  },
-  {
-    "id": "6acdf63423b4",
-    "title": "Why England teenager Parkinson has a mindset coach",
-    "date": "2026-07-21",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c775dvm2gn0o?at_medium=RSS&at_campaign=rss",
-    "summary": "Why England teenager Parkinson has a mindset coach",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-21T10:27:36.366Z"
-  },
-  {
-    "id": "b674e1a9f9f2",
-    "title": "Tottenham sign France defender Sombath from Lyon",
-    "date": "2026-07-21",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cj03r94g62eo?at_medium=RSS&at_campaign=rss",
-    "summary": "Tottenham sign France defender Sombath from Lyon",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-21T10:27:36.366Z"
-  },
-  {
-    "id": "6acdf63423b4",
-    "title": "Why England teenager Parkinson has a mindset coach",
-    "date": "2026-07-21",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c775dvm2gn0o?at_medium=RSS&at_campaign=rss",
-    "summary": "Why England teenager Parkinson has a mindset coach",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-21T10:27:36.366Z"
-  },
-  {
-    "id": "b674e1a9f9f2",
-    "title": "Tottenham sign France defender Sombath from Lyon",
-    "date": "2026-07-21",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cj03r94g62eo?at_medium=RSS&at_campaign=rss",
-    "summary": "Tottenham sign France defender Sombath from Lyon",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-21T10:27:36.366Z"
-  },
-  {
-    "id": "4536951e44b0",
-    "title": "World Cup 2026 in 90 seconds: a photo animation with audio",
-    "date": "2026-07-21",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/video/2026/jul/21/world-cup-2026-in-90-seconds-a-photo-animation",
-    "summary": "World Cup 2026 in 90 seconds: a photo animation with audio",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-21T10:27:36.366Z"
-  },
-  {
-    "id": "b0c8b4054d08",
-    "title": "Neuer to Neymar: 11 World Cup players who retired from international football",
-    "date": "2026-07-21",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/21/neuer-to-neymar-11-world-cup-players-who-retired-from-international-football",
-    "summary": "Neuer to Neymar: 11 World Cup players who retired from international football",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-21T10:27:36.366Z"
-  },
-  {
-    "id": "1d4a125c4204",
-    "title": "Spurs break their women’s transfer record to sign Alice Sombath from Lyonnes",
-    "date": "2026-07-21",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/21/spurs-sign-alice-sombath-from-lyonnes-transfer-record",
-    "summary": "Spurs break their women’s transfer record to sign Alice Sombath from Lyonnes",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-21T10:27:36.366Z"
   }
 ];
