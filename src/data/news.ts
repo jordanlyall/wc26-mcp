@@ -2,6 +2,58 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "661cd3cc4ae7",
+    "title": "England Women U20s squad named amid boycott threat",
+    "date": "2026-08-21",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c2el8j10vl3o?at_medium=RSS&at_campaign=rss",
+    "summary": "England Women U20s squad named amid boycott threat",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-22T08:34:10.154Z"
+  },
+  {
+    "id": "661cd3cc4ae7",
+    "title": "England Women U20s squad named amid boycott threat",
+    "date": "2026-08-21",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c2el8j10vl3o?at_medium=RSS&at_campaign=rss",
+    "summary": "England Women U20s squad named amid boycott threat",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-22T08:34:10.154Z"
+  },
+  {
+    "id": "edfd015133ca",
+    "title": "Aston Villa’s Rachel Daly: ‘It’s given me more of a focus: club football is my one job’",
+    "date": "2026-08-21",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/21/aston-villa-rachel-daly-womens-super-league-england-lionesses",
+    "summary": "Aston Villa’s Rachel Daly: ‘It’s given me more of a focus: club football is my one job’",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-22T08:34:10.154Z"
+  },
+  {
+    "id": "c8a34ec9cf97",
+    "title": "Usain Bolt set to play Sunday league football for star-studded veterans’ team",
+    "date": "2026-08-21",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/sport/2026/aug/21/usain-bolt-to-play-sunday-league-football-wythenshawe-veterans",
+    "summary": "Usain Bolt set to play Sunday league football for star-studded veterans’ team",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-22T08:34:10.154Z"
+  },
+  {
     "id": "402d50bea418",
     "title": "Tottenham close on deals for Manchester City’s Savinho and Omar Marmoush",
     "date": "2026-08-21",
@@ -13,6 +65,19 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-08-21T08:45:21.493Z"
+  },
+  {
+    "id": "df245374f91a",
+    "title": "Maracanã to host opening game and final at next year’s Women’s World Cup",
+    "date": "2026-08-20",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/20/maracana-to-host-opening-game-and-final-at-next-years-womens-world-cup",
+    "summary": "Maracanã to host opening game and final at next year’s Women’s World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-22T08:34:10.154Z"
   },
   {
     "id": "e655fe11c798",
@@ -2145,122 +2210,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-07-23T10:26:27.801Z"
-  },
-  {
-    "id": "2ad325bc26b0",
-    "title": "Saliba to miss extended period with back injury",
-    "date": "2026-07-22",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c5yveezg9q3o?at_medium=RSS&at_campaign=rss",
-    "summary": "Saliba to miss extended period with back injury",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-23T10:26:27.801Z"
-  },
-  {
-    "id": "96a33499f6fc",
-    "title": "Arsenal reveal William Saliba out for ‘extended period’ with back injury",
-    "date": "2026-07-22",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/22/arsenal-william-saliba-back-injury-france-world-cup",
-    "summary": "Arsenal reveal William Saliba out for ‘extended period’ with back injury",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-23T10:26:27.801Z"
-  },
-  {
-    "id": "14134cb61419",
-    "title": "England cannot afford trip to amputee World Cup – and the FA will not help",
-    "date": "2026-07-22",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/22/england-cannot-afford-trip-to-amputee-world-cup-and-the-fa-will-not-help",
-    "summary": "England cannot afford trip to amputee World Cup – and the FA will not help",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-23T10:26:27.801Z"
-  },
-  {
-    "id": "78809976e64b",
-    "title": "A tournament that crossed borders: crunching the numbers on the diaspora World Cup",
-    "date": "2026-07-22",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/22/a-tournament-that-crossed-borders-crunching-the-numbers-on-the-diaspora-world-cup",
-    "summary": "A tournament that crossed borders: crunching the numbers on the diaspora World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-23T10:26:27.801Z"
-  },
-  {
-    "id": "8c734b131e99",
-    "title": "Football Daily | Chelsea’s financial shrug and Liverpool leaking players – what you may have missed",
-    "date": "2026-07-22",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/22/football-daily-email-liverpool-chelsea-manchester-city-what-you-may-have-missed",
-    "summary": "Football Daily | Chelsea’s financial shrug and Liverpool leaking players – what you may have missed",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-23T10:26:27.801Z"
-  },
-  {
-    "id": "6b8178bce390",
-    "title": "World Cup 2026 awards: the Guardian team give their final tournament verdicts",
-    "date": "2026-07-22",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/22/world-cup-awards-guardian-team-2026-tournament-verdicts",
-    "summary": "World Cup 2026 awards: the Guardian team give their final tournament verdicts",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-22T10:28:50.592Z"
-  },
-  {
-    "id": "bfbedc3bc186",
-    "title": "Arsenal continue squad revamp with signing of Spain keeper Misa Rodríguez",
-    "date": "2026-07-22",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/22/arsenal-sign-spain-goalkeeper-misa-rodriguez",
-    "summary": "Arsenal continue squad revamp with signing of Spain keeper Misa Rodríguez",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-22T10:28:50.592Z"
-  },
-  {
-    "id": "49b68ec2c603",
-    "title": "The quirky side of World Cup 2026 – in pictures",
-    "date": "2026-07-22",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/gallery/2026/jul/22/the-quirky-side-of-world-cup-2026-in-pictures",
-    "summary": "The quirky side of World Cup 2026 – in pictures",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-22T10:28:50.592Z"
-  },
-  {
-    "id": "9466a96b445c",
-    "title": "World Cup 2030 (very early) power rankings: who will challenge Spain at top?",
-    "date": "2026-07-22",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/22/world-cup-2030-very-early-power-rankings",
-    "summary": "World Cup 2030 (very early) power rankings: who will challenge Spain at top?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-22T10:28:50.592Z"
   }
 ];
