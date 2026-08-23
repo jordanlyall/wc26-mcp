@@ -2,6 +2,84 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "ae8c5e31c107",
+    "title": "Isak returns to Newcastle with Liverpool, Premier League buildup, and more – matchday live",
+    "date": "2026-08-23",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/live/2026/aug/23/isak-returns-to-newcastle-with-liverpool-premier-league-buildup-and-more-matchday-live",
+    "summary": "Isak returns to Newcastle with Liverpool, Premier League buildup, and more – matchday live",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-23T08:34:13.029Z"
+  },
+  {
+    "id": "6f305200d89e",
+    "title": "Man City will 'try to find the new Rodri' - Maresca",
+    "date": "2026-08-22",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cd9w1zkw7x8o?at_medium=RSS&at_campaign=rss",
+    "summary": "Man City will 'try to find the new Rodri' - Maresca",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-23T08:34:13.029Z"
+  },
+  {
+    "id": "d02707ca6b9e",
+    "title": "Ex-West Brom midfielder Castro, 25, dies during friendly",
+    "date": "2026-08-22",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c8dnd416pzyo?at_medium=RSS&at_campaign=rss",
+    "summary": "Ex-West Brom midfielder Castro, 25, dies during friendly",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-23T08:34:13.029Z"
+  },
+  {
+    "id": "254e8e221a76",
+    "title": "Can Pocognoli afford to continue McBurnie's Scotland exile?",
+    "date": "2026-08-22",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/crrvr9xgqx5o?at_medium=RSS&at_campaign=rss",
+    "summary": "Can Pocognoli afford to continue McBurnie's Scotland exile?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-23T08:34:13.029Z"
+  },
+  {
+    "id": "254e8e221a76",
+    "title": "Can Pocognoli afford to continue McBurnie's Scotland exile?",
+    "date": "2026-08-22",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/crrvr9xgqx5o?at_medium=RSS&at_campaign=rss",
+    "summary": "Can Pocognoli afford to continue McBurnie's Scotland exile?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-23T08:34:13.029Z"
+  },
+  {
+    "id": "3bd5e8d0a368",
+    "title": "Enciso shines bright for Ipswich as Emersonn and Clarke sink Sunderland",
+    "date": "2026-08-22",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/22/ipswich-sunderland-premier-league-match-report",
+    "summary": "Enciso shines bright for Ipswich as Emersonn and Clarke sink Sunderland",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-23T08:34:13.029Z"
+  },
+  {
     "id": "661cd3cc4ae7",
     "title": "England Women U20s squad named amid boycott threat",
     "date": "2026-08-21",
@@ -2132,83 +2210,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-07-24T10:22:49.423Z"
-  },
-  {
-    "id": "a5235a3f6e95",
-    "title": "Maldini confirms crisis-hit Italy have held talks with Guardiola and Ancelotti",
-    "date": "2026-07-23",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/23/paolo-maldini-italy-pep-guardiola-carlo-ancelotti-world-cup-new-manager",
-    "summary": "Maldini confirms crisis-hit Italy have held talks with Guardiola and Ancelotti",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-25T09:52:48.116Z"
-  },
-  {
-    "id": "84f7ec3c800b",
-    "title": "Defoe leaves Woking after 'eye-opening' first managerial role",
-    "date": "2026-07-23",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c304d47ql6jo?at_medium=RSS&at_campaign=rss",
-    "summary": "Defoe leaves Woking after 'eye-opening' first managerial role",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-24T10:22:49.423Z"
-  },
-  {
-    "id": "042ca8a7d9a5",
-    "title": "From Popp to Diani: 10 women’s transfers you may have missed during the men’s World Cup",
-    "date": "2026-07-23",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/23/from-popp-to-diani-10-womens-transfers-you-may-have-missed-during-the-mens-world-cup",
-    "summary": "From Popp to Diani: 10 women’s transfers you may have missed during the men’s World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-24T10:22:49.423Z"
-  },
-  {
-    "id": "8630942fbd71",
-    "title": "‘Don’t become the protagonist’: Andoni Iraola on the secret of Spain’s success and his role at Liverpool",
-    "date": "2026-07-23",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/23/andoni-iraola-liverpool-interview-spain",
-    "summary": "‘Don’t become the protagonist’: Andoni Iraola on the secret of Spain’s success and his role at Liverpool",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-24T10:22:49.423Z"
-  },
-  {
-    "id": "cd81cae838a3",
-    "title": "Transfer roundup: Barcelona sign Adeyemi, Monaco’s Bamba set for Newcastle",
-    "date": "2026-07-23",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/23/transfer-roundup-barcelona-sign-karim-adeyemi-newcastle-aladji-bamba-monaco",
-    "summary": "Transfer roundup: Barcelona sign Adeyemi, Monaco’s Bamba set for Newcastle",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-24T10:22:49.423Z"
-  },
-  {
-    "id": "067480051666",
-    "title": "Blow for Manchester City with Rodri out for extended period due to back injury",
-    "date": "2026-07-23",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/23/blow-for-manchester-city-with-rodri-out-for-extended-period-due-to-back-injury",
-    "summary": "Blow for Manchester City with Rodri out for extended period due to back injury",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-23T10:26:27.801Z"
   }
 ];
