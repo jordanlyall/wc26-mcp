@@ -2,6 +2,58 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "d77d42135d81",
+    "title": "Premier League: 10 talking points from opening weekend of the season",
+    "date": "2026-08-24",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/24/premier-league-10-talking-points-from-opening-weekend-action",
+    "summary": "Premier League: 10 talking points from opening weekend of the season",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-24T08:52:32.113Z"
+  },
+  {
+    "id": "377e5f307322",
+    "title": "Is Sevilla's 'all-round striker' Ure ready to lead Scotland's attack?",
+    "date": "2026-08-23",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c86n6d07825o?at_medium=RSS&at_campaign=rss",
+    "summary": "Is Sevilla's 'all-round striker' Ure ready to lead Scotland's attack?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-24T08:52:32.113Z"
+  },
+  {
+    "id": "377e5f307322",
+    "title": "Is Sevilla's 'all-round striker' Ure ready to lead Scotland's attack?",
+    "date": "2026-08-23",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c86n6d07825o?at_medium=RSS&at_campaign=rss",
+    "summary": "Is Sevilla's 'all-round striker' Ure ready to lead Scotland's attack?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-24T08:52:32.113Z"
+  },
+  {
+    "id": "d500e615e10f",
+    "title": "‘Call his agent’: Emery feels Watkins should explain absence from Villa’s rout by Brighton",
+    "date": "2026-08-23",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/23/unai-emery-feels-ollie-watkins-should-explain-absence-from-aston-villa-loss-brighton",
+    "summary": "‘Call his agent’: Emery feels Watkins should explain absence from Villa’s rout by Brighton",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-24T08:52:32.113Z"
+  },
+  {
     "id": "ae8c5e31c107",
     "title": "Isak returns to Newcastle with Liverpool, Premier League buildup, and more – matchday live",
     "date": "2026-08-23",
@@ -2106,109 +2158,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-07-26T10:03:49.914Z"
-  },
-  {
-    "id": "665e697d3347",
-    "title": "Klopp starts Germany reign by threatening to quit",
-    "date": "2026-07-24",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cqjxd0n4gd2o?at_medium=RSS&at_campaign=rss",
-    "summary": "Klopp starts Germany reign by threatening to quit",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-25T09:52:48.116Z"
-  },
-  {
-    "id": "2fa5cc6e776d",
-    "title": "Van Bommel appointed Belgium head coach",
-    "date": "2026-07-24",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/czjle30y29xo?at_medium=RSS&at_campaign=rss",
-    "summary": "Van Bommel appointed Belgium head coach",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-25T09:52:48.116Z"
-  },
-  {
-    "id": "4050e8e76c27",
-    "title": "Argentina behaviour after World Cup final was ‘intolerable’, says De la Fuente",
-    "date": "2026-07-24",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/24/argentina-behaviour-world-cup-final-intolerable-de-la-fuente",
-    "summary": "Argentina behaviour after World Cup final was ‘intolerable’, says De la Fuente",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-25T09:52:48.116Z"
-  },
-  {
-    "id": "a3137a7b52cf",
-    "title": "David Squires on … the notable people and big moments from World Cup 2026",
-    "date": "2026-07-24",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/picture/2026/jul/24/david-squires-on-the-notable-people-and-big-moments-from-world-cup-2026",
-    "summary": "David Squires on … the notable people and big moments from World Cup 2026",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-25T09:52:48.116Z"
-  },
-  {
-    "id": "2c9188a00747",
-    "title": "Messiah or papering over cracks? Klopp must sway doubters in Germany rebuild",
-    "date": "2026-07-24",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cn8k8llpz2mo?at_medium=RSS&at_campaign=rss",
-    "summary": "Messiah or papering over cracks? Klopp must sway doubters in Germany rebuild",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-24T10:22:49.423Z"
-  },
-  {
-    "id": "eda4c68163c0",
-    "title": "Kane set for talks with Bayern Munich over new deal",
-    "date": "2026-07-24",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cly5d2n2879o?at_medium=RSS&at_campaign=rss",
-    "summary": "Kane set for talks with Bayern Munich over new deal",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-24T10:22:49.423Z"
-  },
-  {
-    "id": "d93e07a072a0",
-    "title": "England amputee team's World Cup dream on hold",
-    "date": "2026-07-24",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c62x54zedp1o?at_medium=RSS&at_campaign=rss",
-    "summary": "England amputee team's World Cup dream on hold",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-24T10:22:49.423Z"
-  },
-  {
-    "id": "59e76888b883",
-    "title": "Jürgen Klopp confirmed as Germany head coach for Euro 2028 and 2030 World Cup",
-    "date": "2026-07-24",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/24/germany-confirm-jurgen-klopp-new-head-coach",
-    "summary": "Jürgen Klopp confirmed as Germany head coach for Euro 2028 and 2030 World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-24T10:22:49.423Z"
   }
 ];
