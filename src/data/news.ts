@@ -2,6 +2,19 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "437df37eb5fa",
+    "title": "Docherty appointed Scotland Under-21 head coach",
+    "date": "2026-08-24",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cy4zyk4w78no?at_medium=RSS&at_campaign=rss",
+    "summary": "Docherty appointed Scotland Under-21 head coach",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-25T08:48:06.871Z"
+  },
+  {
     "id": "d77d42135d81",
     "title": "Premier League: 10 talking points from opening weekend of the season",
     "date": "2026-08-24",
@@ -2101,58 +2114,6 @@ export const news: NewsItem[] = [
     "source": "The Guardian",
     "url": "https://www.theguardian.com/football/2026/jul/26/japan-football-great-king-kazuyoshi-miura-59-scores-first-competitive-goal-for-four-years",
     "summary": "Japan football great ‘King Kazu’ Miura, 59, scores first competitive goal in four years",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-26T10:03:49.914Z"
-  },
-  {
-    "id": "6a23aad4fd33",
-    "title": "Growing concerns before Defoe exit - Woking director",
-    "date": "2026-07-25",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c9v4y3dr9w0o?at_medium=RSS&at_campaign=rss",
-    "summary": "Growing concerns before Defoe exit - Woking director",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-26T10:03:49.914Z"
-  },
-  {
-    "id": "6372f4f380bf",
-    "title": "Arsenal make shock approach to sign Vinícius Júnior from Real Madrid",
-    "date": "2026-07-25",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/25/arsenal-inquiry-transfer-vinicius-junior-real-madrid",
-    "summary": "Arsenal make shock approach to sign Vinícius Júnior from Real Madrid",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-26T10:03:49.914Z"
-  },
-  {
-    "id": "c3a33605b877",
-    "title": "Defoe’s shock Woking exit came after ‘growing concerns’, says club",
-    "date": "2026-07-25",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/25/jermain-defoe-woking-exit",
-    "summary": "Defoe’s shock Woking exit came after ‘growing concerns’, says club",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-26T10:03:49.914Z"
-  },
-  {
-    "id": "087ca4ad243a",
-    "title": "Missing a major football tournament? Fear not, Wafcon 2026 is about to start",
-    "date": "2026-07-25",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/25/wafcon-2026-womens-africa-cup-nations-guide",
-    "summary": "Missing a major football tournament? Fear not, Wafcon 2026 is about to start",
     "categories": [
       "general"
     ],
