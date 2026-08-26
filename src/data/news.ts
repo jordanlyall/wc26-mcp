@@ -2,6 +2,84 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "91a0ac49f66c",
+    "title": "Football transfer rumours: Jean-Philippe Mateta to Aston Villa?",
+    "date": "2026-08-26",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/26/football-transfer-rumours-jean-philippe-mateta-to-aston-villa",
+    "summary": "Football transfer rumours: Jean-Philippe Mateta to Aston Villa?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-26T08:49:14.055Z"
+  },
+  {
+    "id": "34fa4e6860af",
+    "title": "Exhausted and fragile - how Celtic's capitulation unfolded",
+    "date": "2026-08-25",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/crerjz8814qo?at_medium=RSS&at_campaign=rss",
+    "summary": "Exhausted and fragile - how Celtic's capitulation unfolded",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-26T08:49:14.055Z"
+  },
+  {
+    "id": "f9fb8cc9d7b8",
+    "title": "Cole leaves role as England U21 coach",
+    "date": "2026-08-25",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c4gkekgvz7go?at_medium=RSS&at_campaign=rss",
+    "summary": "Cole leaves role as England U21 coach",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-26T08:49:14.055Z"
+  },
+  {
+    "id": "416f3accd759",
+    "title": "De Zerbi hopes Sávio’s fresh start will help Spurs’ much-needed rebrand",
+    "date": "2026-08-25",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/25/roberto-de-zerbi-savio-signing-tottenham-hotspur-rebrand",
+    "summary": "De Zerbi hopes Sávio’s fresh start will help Spurs’ much-needed rebrand",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-26T08:49:14.055Z"
+  },
+  {
+    "id": "03b2b367ee98",
+    "title": "Xavi hopes time at the ‘university of football’ will end with Dutch success",
+    "date": "2026-08-25",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/25/xavi-hernandez-university-of-football-netherlands-head-coach-barcelona",
+    "summary": "Xavi hopes time at the ‘university of football’ will end with Dutch success",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-26T08:49:14.055Z"
+  },
+  {
+    "id": "30cf9a533bbf",
+    "title": "Manchester United confirm Carlos Baleba signing as midfield spend nears £150m",
+    "date": "2026-08-25",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/25/manchester-united-sign-carlos-baleba-brighton",
+    "summary": "Manchester United confirm Carlos Baleba signing as midfield spend nears £150m",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-26T08:49:14.055Z"
+  },
+  {
     "id": "437df37eb5fa",
     "title": "Docherty appointed Scotland Under-21 head coach",
     "date": "2026-08-24",
@@ -2067,57 +2145,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-07-27T11:28:48.319Z"
-  },
-  {
-    "id": "96658b74e89c",
-    "title": "Real Madrid ready to seal deal for Yan Diomande after PSG pull out of move",
-    "date": "2026-07-26",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/26/real-madrid-ready-to-seal-deal-for-yan-diomande-after-psg-pull-out-of-move",
-    "summary": "Real Madrid ready to seal deal for Yan Diomande after PSG pull out of move",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-27T11:28:48.319Z"
-  },
-  {
-    "id": "5c51bfc889d0",
-    "title": "Inter enter talks with Tottenham over signing captain Cristian Romero",
-    "date": "2026-07-26",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/26/inter-enter-talks-with-tottenham-over-signing-captain-cristian-romero-transfer-window",
-    "summary": "Inter enter talks with Tottenham over signing captain Cristian Romero",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-27T11:28:48.319Z"
-  },
-  {
-    "id": "d7c451269b1b",
-    "title": "Tottenham begin tour with victory over Auckland FC in front of record crowd",
-    "date": "2026-07-26",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/26/tottenham-begin-tour-with-victory-over-auckland-fc-in-front-of-record-crowd",
-    "summary": "Tottenham begin tour with victory over Auckland FC in front of record crowd",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-27T11:28:48.319Z"
-  },
-  {
-    "id": "e5e09b06e266",
-    "title": "Japan football great ‘King Kazu’ Miura, 59, scores first competitive goal in four years",
-    "date": "2026-07-26",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/26/japan-football-great-king-kazuyoshi-miura-59-scores-first-competitive-goal-for-four-years",
-    "summary": "Japan football great ‘King Kazu’ Miura, 59, scores first competitive goal in four years",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-26T10:03:49.914Z"
   }
 ];
