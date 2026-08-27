@@ -2,6 +2,71 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "d35eaa514eea",
+    "title": "Uefa preparing to bring criminal claims against Gianni Infantino over World Cup sale",
+    "date": "2026-08-27",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/27/uefa-preparing-to-bring-criminal-claims-against-gianni-infantino-over-world-cup-sale",
+    "summary": "Uefa preparing to bring criminal claims against Gianni Infantino over World Cup sale",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-27T18:58:26.332Z"
+  },
+  {
+    "id": "372f3629a918",
+    "title": "Chelsea agree £7.5m deal to sign Emiliano Martínez from Aston Villa",
+    "date": "2026-08-27",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/27/chelsea-agree-deal-sign-emiliano-martinez-aston-villa-enzo-fernandez",
+    "summary": "Chelsea agree £7.5m deal to sign Emiliano Martínez from Aston Villa",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-27T18:58:26.332Z"
+  },
+  {
+    "id": "91bd04e910cf",
+    "title": "Liverpool agree £120m deal for Bradley Barcola after breakthrough talks with PSG",
+    "date": "2026-08-27",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/27/liverpool-bradley-barcola-psg-transfer-window",
+    "summary": "Liverpool agree £120m deal for Bradley Barcola after breakthrough talks with PSG",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-27T18:58:26.332Z"
+  },
+  {
+    "id": "ed74d596180d",
+    "title": "Spurs paying price for World Cup and pre-season trip to Australia",
+    "date": "2026-08-27",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/27/spurs-squad-pre-season-charlton-carabao-cup-newcastle",
+    "summary": "Spurs paying price for World Cup and pre-season trip to Australia",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-27T18:58:26.332Z"
+  },
+  {
+    "id": "91a428019c51",
+    "title": "Mbappé hat-trick sinks Real Sociedad after Real Madrid jeered by home fans",
+    "date": "2026-08-26",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/26/real-madrid-real-sociedad-la-liga-match-report-jose-mourinho-kylian-mbappe",
+    "summary": "Mbappé hat-trick sinks Real Sociedad after Real Madrid jeered by home fans",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-27T18:58:26.332Z"
+  },
+  {
     "id": "91a0ac49f66c",
     "title": "Football transfer rumours: Jean-Philippe Mateta to Aston Villa?",
     "date": "2026-08-26",
@@ -2106,44 +2171,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-07-28T10:38:58.468Z"
-  },
-  {
-    "id": "f3c483a02e86",
-    "title": "Maldini and Leonardo resign from Italian FA after Pirlo appointment falls through",
-    "date": "2026-07-27",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/27/andrea-pirlo-out-of-running-for-italy-job-but-defends-deal-with-russian-betting-firm",
-    "summary": "Maldini and Leonardo resign from Italian FA after Pirlo appointment falls through",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-28T10:38:58.468Z"
-  },
-  {
-    "id": "978009d996cf",
-    "title": "Football Daily | Vinícius to Arsenal? Club football’s military industrial complex kicks back into gear",
-    "date": "2026-07-27",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/27/football-daily-email-transfer-season",
-    "summary": "Football Daily | Vinícius to Arsenal? Club football’s military industrial complex kicks back into gear",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-28T10:38:58.468Z"
-  },
-  {
-    "id": "6e5c22d31e26",
-    "title": "Football Weekly’s summer mailbag: World Cup 2026, the off-season and more, part one – video",
-    "date": "2026-07-27",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/video/2026/jul/27/football-weeklys-summer-mailbag-world-cup-2026-the-off-season-and-more-part-one-video",
-    "summary": "Football Weekly’s summer mailbag: World Cup 2026, the off-season and more, part one – video",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-27T11:28:48.319Z"
   }
 ];
