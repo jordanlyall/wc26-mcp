@@ -2,6 +2,58 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "12376be4b41a",
+    "title": "Simeone would welcome Alvarez back to training amid Barca row",
+    "date": "2026-08-28",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/ce9egy1xzepo?at_medium=RSS&at_campaign=rss",
+    "summary": "Simeone would welcome Alvarez back to training amid Barca row",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-28T20:05:28.884Z"
+  },
+  {
+    "id": "005229f6b044",
+    "title": "Brighton appoint Arturo Ruiz as head coach following exit of Dario Vidosic",
+    "date": "2026-08-28",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/27/dario-vidosic-to-step-down-as-brighton-manager-just-before-new-wsl-season",
+    "summary": "Brighton appoint Arturo Ruiz as head coach following exit of Dario Vidosic",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-28T20:05:28.884Z"
+  },
+  {
+    "id": "e025e90ede03",
+    "title": "Football transfer rumours: Rafael Leão to Aston Villa? Harvey Elliott to Napoli or Lazio?",
+    "date": "2026-08-28",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/28/football-transfer-rumours-rafael-leao-to-aston-villa-harvey-elliott-to-napoli-or-lazio",
+    "summary": "Football transfer rumours: Rafael Leão to Aston Villa? Harvey Elliott to Napoli or Lazio?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-28T20:05:28.884Z"
+  },
+  {
+    "id": "80a37eca35f9",
+    "title": "Struggling Inter Miami hire Kily González as new head coach",
+    "date": "2026-08-27",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/27/inter-miami-kily-gonzalez-lionel-messi-guillermo-hoyos",
+    "summary": "Struggling Inter Miami hire Kily González as new head coach",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-28T20:05:28.884Z"
+  },
+  {
     "id": "d35eaa514eea",
     "title": "Uefa preparing to bring criminal claims against Gianni Infantino over World Cup sale",
     "date": "2026-08-27",
@@ -52,6 +104,19 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-08-27T18:58:26.332Z"
+  },
+  {
+    "id": "5fb996da9ada",
+    "title": "Ayyoub Bouaddi: maths student, chess fan and Manchester City’s new Rodri",
+    "date": "2026-08-26",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/26/ayyoub-bouaddi-manchester-city-lille-transfer-rodri",
+    "summary": "Ayyoub Bouaddi: maths student, chess fan and Manchester City’s new Rodri",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-28T20:05:28.884Z"
   },
   {
     "id": "91a428019c51",
@@ -2067,109 +2132,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-07-29T10:42:24.497Z"
-  },
-  {
-    "id": "3e35e5d29da7",
-    "title": "Relive Zidane's World Cup masterclass as he's named France head coach",
-    "date": "2026-07-28",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/videos/cpvwkdnpgkpo?at_medium=RSS&at_campaign=rss",
-    "summary": "Relive Zidane's World Cup masterclass as he's named France head coach",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-29T10:42:24.497Z"
-  },
-  {
-    "id": "fd68ae619e85",
-    "title": "England keeper Hampton extends deal at Chelsea",
-    "date": "2026-07-28",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c4gvew81dd0o?at_medium=RSS&at_campaign=rss",
-    "summary": "England keeper Hampton extends deal at Chelsea",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-29T10:42:24.497Z"
-  },
-  {
-    "id": "23e4644c3a5d",
-    "title": "Leicester close in on Swansea's Wales forward Cullen",
-    "date": "2026-07-28",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c3v0565x0v2o?at_medium=RSS&at_campaign=rss",
-    "summary": "Leicester close in on Swansea's Wales forward Cullen",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-29T10:42:24.497Z"
-  },
-  {
-    "id": "fd68ae619e85",
-    "title": "England keeper Hampton extends deal at Chelsea",
-    "date": "2026-07-28",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c4gvew81dd0o?at_medium=RSS&at_campaign=rss",
-    "summary": "England keeper Hampton extends deal at Chelsea",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-29T10:42:24.497Z"
-  },
-  {
-    "id": "aab9d391efcc",
-    "title": "Milos Kerkez: ‘I’m delighted – Andoni Iraola is the perfect fit for Liverpool’",
-    "date": "2026-07-28",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/28/milos-kerkez-andoni-iraola-liverpool",
-    "summary": "Milos Kerkez: ‘I’m delighted – Andoni Iraola is the perfect fit for Liverpool’",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-29T10:42:24.497Z"
-  },
-  {
-    "id": "5443a678de85",
-    "title": "Roberto Mancini returns as Italy head coach with Claudio Ranieri named technical director",
-    "date": "2026-07-28",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/28/roberto-mancini-returns-italy-head-coach-claudio-ranieri-technical-director",
-    "summary": "Roberto Mancini returns as Italy head coach with Claudio Ranieri named technical director",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-29T10:42:24.497Z"
-  },
-  {
-    "id": "5387a9bae091",
-    "title": "Zidane confirmed as France head coach",
-    "date": "2026-07-28",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cpd741qn2y9o?at_medium=RSS&at_campaign=rss",
-    "summary": "Zidane confirmed as France head coach",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-28T10:38:58.468Z"
-  },
-  {
-    "id": "8a2d843f3b1c",
-    "title": "France turn to ‘legend’ Zinedine Zidane as head coach in long-awaited homecoming",
-    "date": "2026-07-28",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/28/france-zinedine-zidane-head-coach-long-awaited-homecoming",
-    "summary": "France turn to ‘legend’ Zinedine Zidane as head coach in long-awaited homecoming",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-28T10:38:58.468Z"
   }
 ];
