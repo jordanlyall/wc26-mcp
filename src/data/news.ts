@@ -2,6 +2,19 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "11159fbb2f3c",
+    "title": "Cherki and Haaland double up in Manchester City cruise at Crystal Palace",
+    "date": "2026-08-28",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/28/crystal-palace-manchester-city-premier-league-match-report",
+    "summary": "Cherki and Haaland double up in Manchester City cruise at Crystal Palace",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-29T13:43:12.114Z"
+  },
+  {
     "id": "12376be4b41a",
     "title": "Simeone would welcome Alvarez back to training amid Barca row",
     "date": "2026-08-28",
@@ -2028,109 +2041,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-07-30T10:28:40.443Z"
-  },
-  {
-    "id": "7dee93dd06c1",
-    "title": "Timber leaves Arsenal camp for groin check",
-    "date": "2026-07-29",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cpq8ndn0g7go?at_medium=RSS&at_campaign=rss",
-    "summary": "Timber leaves Arsenal camp for groin check",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-30T10:28:40.443Z"
-  },
-  {
-    "id": "0f089e667fa4",
-    "title": "Spain U20s midfielder Arques joins London City",
-    "date": "2026-07-29",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cj03mr318r6o?at_medium=RSS&at_campaign=rss",
-    "summary": "Spain U20s midfielder Arques joins London City",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-30T10:28:40.443Z"
-  },
-  {
-    "id": "0f089e667fa4",
-    "title": "Spain U20s midfielder Arques joins London City",
-    "date": "2026-07-29",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cj03mr318r6o?at_medium=RSS&at_campaign=rss",
-    "summary": "Spain U20s midfielder Arques joins London City",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-30T10:28:40.443Z"
-  },
-  {
-    "id": "16d9867df518",
-    "title": "‘I’m very sorry’: Mancini apologises after being reappointed as Italy head coach",
-    "date": "2026-07-29",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/29/roberto-mancini-italy-head-coach-apology-saudi-arabia-world-cup-nations-league",
-    "summary": "‘I’m very sorry’: Mancini apologises after being reappointed as Italy head coach",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-30T10:28:40.443Z"
-  },
-  {
-    "id": "a88f49f02b6c",
-    "title": "USMNT coach Mauricio Pochettino, US Soccer in ‘final stages’ of agreeing on new contract",
-    "date": "2026-07-29",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/29/mauricio-pochettino-us-soccer-contract-status",
-    "summary": "USMNT coach Mauricio Pochettino, US Soccer in ‘final stages’ of agreeing on new contract",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-30T10:28:40.443Z"
-  },
-  {
-    "id": "20d81cfd43c5",
-    "title": "Cucurella gets tattoo of Spain coach De la Fuente",
-    "date": "2026-07-29",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cdewdedl44go?at_medium=RSS&at_campaign=rss",
-    "summary": "Cucurella gets tattoo of Spain coach De la Fuente",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-29T10:42:24.497Z"
-  },
-  {
-    "id": "a8a406e86816",
-    "title": "Palace hold talks with ex-Arsenal defender Tomiyasu",
-    "date": "2026-07-29",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c0qv8e7e0l0o?at_medium=RSS&at_campaign=rss",
-    "summary": "Palace hold talks with ex-Arsenal defender Tomiyasu",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-29T10:42:24.497Z"
-  },
-  {
-    "id": "3c95272949b5",
-    "title": "Middlesbrough sign USA midfielder Berhalter",
-    "date": "2026-07-29",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c4g36ggy415o?at_medium=RSS&at_campaign=rss",
-    "summary": "Middlesbrough sign USA midfielder Berhalter",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-29T10:42:24.497Z"
   }
 ];
