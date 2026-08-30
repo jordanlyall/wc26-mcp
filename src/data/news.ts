@@ -2,6 +2,32 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "9e01b0f72a27",
+    "title": "Carrick dismisses ‘lazy’ Manchester United criticism and defends Fernandes’ leadership",
+    "date": "2026-08-29",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/29/manchester-united-michael-carrick-bruno-fernandes-lazy-criticism",
+    "summary": "Carrick dismisses ‘lazy’ Manchester United criticism and defends Fernandes’ leadership",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-30T13:41:05.284Z"
+  },
+  {
+    "id": "07304095cb0b",
+    "title": "José Mourinho claims Kylian Mbappé should win Ballon d’Or ahead of PSG and Spain stars",
+    "date": "2026-08-29",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/29/jose-mourinho-real-madrid-kylian-mbappe-ballon-dor",
+    "summary": "José Mourinho claims Kylian Mbappé should win Ballon d’Or ahead of PSG and Spain stars",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-30T13:41:05.284Z"
+  },
+  {
     "id": "11159fbb2f3c",
     "title": "Cherki and Haaland double up in Manchester City cruise at Crystal Palace",
     "date": "2026-08-28",
@@ -1963,83 +1989,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-07-31T10:42:53.338Z"
-  },
-  {
-    "id": "d7a4aa7e14d7",
-    "title": "Maxence Lacroix joins ‘beautiful club’ Chelsea as John Stones seals Inter deal",
-    "date": "2026-07-30",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/30/chelsea-crystal-palace-maxence-lacroix-transfer-roundup",
-    "summary": "Maxence Lacroix joins ‘beautiful club’ Chelsea as John Stones seals Inter deal",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-31T10:42:53.338Z"
-  },
-  {
-    "id": "e39e6e200241",
-    "title": "Not so black and white: how Eddie Howe lost control at Newcastle in one summer | Louise Taylor",
-    "date": "2026-07-30",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/30/not-so-black-and-white-how-one-summer-saw-eddie-howe-lose-control-at-newcastle",
-    "summary": "Not so black and white: how Eddie Howe lost control at Newcastle in one summer | Louise Taylor",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-31T10:42:53.338Z"
-  },
-  {
-    "id": "b7e3b5e57c60",
-    "title": "Football Daily | Thought leader Eddie Howe runs out of time and ideas at Newcastle",
-    "date": "2026-07-30",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/30/eddie-howe-newcastle-football-daily-newsletter",
-    "summary": "Football Daily | Thought leader Eddie Howe runs out of time and ideas at Newcastle",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-31T10:42:53.338Z"
-  },
-  {
-    "id": "49cfa1cbf63f",
-    "title": "De Zerbi wants to convince Spence to stay at Spurs",
-    "date": "2026-07-30",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c0jl4e40vwdo?at_medium=RSS&at_campaign=rss",
-    "summary": "De Zerbi wants to convince Spence to stay at Spurs",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-30T10:28:40.443Z"
-  },
-  {
-    "id": "8b15660804c6",
-    "title": "Eddie Howe leaves Newcastle United with Matthias Jaissle set to replace him",
-    "date": "2026-07-30",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/30/eddie-howe-leaves-newcastle-united-premier-league",
-    "summary": "Eddie Howe leaves Newcastle United with Matthias Jaissle set to replace him",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-30T10:28:40.443Z"
-  },
-  {
-    "id": "ebeddeb03b9d",
-    "title": "Football transfer rumours: Jack Grealish to make Saudi switch to Al-Hilal?",
-    "date": "2026-07-30",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/30/football-transfer-rumours-jack-grealish-al-hilal-rayan-liverpool",
-    "summary": "Football transfer rumours: Jack Grealish to make Saudi switch to Al-Hilal?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-30T10:28:40.443Z"
   }
 ];
