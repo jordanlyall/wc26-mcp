@@ -2,6 +2,97 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "d286c64938b3",
+    "title": "Messi retires from international football",
+    "date": "2026-08-31",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/ceq89y38elro?at_medium=RSS&at_campaign=rss",
+    "summary": "Messi retires from international football",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-31T15:59:35.846Z"
+  },
+  {
+    "id": "9abf582c6acd",
+    "title": "Man Utd near deal for Mexico's Bernal",
+    "date": "2026-08-31",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c780weq4146o?at_medium=RSS&at_campaign=rss",
+    "summary": "Man Utd near deal for Mexico's Bernal",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-31T15:59:35.846Z"
+  },
+  {
+    "id": "9abf582c6acd",
+    "title": "Man Utd near deal for Mexico's Bernal",
+    "date": "2026-08-31",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c780weq4146o?at_medium=RSS&at_campaign=rss",
+    "summary": "Man Utd near deal for Mexico's Bernal",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-31T15:59:35.846Z"
+  },
+  {
+    "id": "da643f358350",
+    "title": "Argentina’s Lionel Messi retires from international football: ‘This hurts me a lot’",
+    "date": "2026-08-31",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/31/lionel-messi-retires-from-international-football-argentina",
+    "summary": "Argentina’s Lionel Messi retires from international football: ‘This hurts me a lot’",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-31T15:59:35.846Z"
+  },
+  {
+    "id": "5c6c3f266ae2",
+    "title": "Bradley Barcola targets Premier League glory after joining Liverpool in £123m deal",
+    "date": "2026-08-31",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/31/liverpool-confirm-bradley-barcola-signing-psg",
+    "summary": "Bradley Barcola targets Premier League glory after joining Liverpool in £123m deal",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-31T15:59:35.846Z"
+  },
+  {
+    "id": "2f8251cfa497",
+    "title": "Arsenal trying to lure Julián Álvarez after agreeing deals to sell Martinelli and Jesus",
+    "date": "2026-08-31",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/31/arsenal-julian-alvarez-gabriel-martinelli-jesus-transfers",
+    "summary": "Arsenal trying to lure Julián Álvarez after agreeing deals to sell Martinelli and Jesus",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-31T15:59:35.846Z"
+  },
+  {
+    "id": "990f5a7a3aa6",
+    "title": "Mikel Arteta ‘begging’ Premier League to expand 20-man matchday squads",
+    "date": "2026-08-30",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/30/mikel-arteta-premier-league-matchday-squad-player-welfare-arsenal",
+    "summary": "Mikel Arteta ‘begging’ Premier League to expand 20-man matchday squads",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-08-31T15:59:35.846Z"
+  },
+  {
     "id": "9e01b0f72a27",
     "title": "Carrick dismisses ‘lazy’ Manchester United criticism and defends Fernandes’ leadership",
     "date": "2026-08-29",
@@ -1911,83 +2002,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-08-02T10:00:20.432Z"
-  },
-  {
-    "id": "4d2c876d4aed",
-    "title": "Bowie makes loan switch to Serie A side Sassuolo",
-    "date": "2026-07-31",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cy8ejv6j5wwo?at_medium=RSS&at_campaign=rss",
-    "summary": "Bowie makes loan switch to Serie A side Sassuolo",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-01T10:02:27.814Z"
-  },
-  {
-    "id": "4ba979d1d9db",
-    "title": "Arsenal target Bruno Guimarães not on Newcastle’s flight to pre-season camp",
-    "date": "2026-07-31",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/31/newcastle-bruno-guimaraes-pre-season-camp",
-    "summary": "Arsenal target Bruno Guimarães not on Newcastle’s flight to pre-season camp",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-01T10:02:27.814Z"
-  },
-  {
-    "id": "7301546ab5de",
-    "title": "How does MLS pick up the World Cup mantle? Casemiro helps, but it’ll take much more",
-    "date": "2026-07-31",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/31/mls-casemiro-sebastian-berhalter-world-cup-young-american-players",
-    "summary": "How does MLS pick up the World Cup mantle? Casemiro helps, but it’ll take much more",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-01T10:02:27.814Z"
-  },
-  {
-    "id": "9e4d181fd581",
-    "title": "Beever-Jones ready to 'conquer' new season after injury troubles last term",
-    "date": "2026-07-31",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c235g2vngk9o?at_medium=RSS&at_campaign=rss",
-    "summary": "Beever-Jones ready to 'conquer' new season after injury troubles last term",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-31T10:42:53.338Z"
-  },
-  {
-    "id": "9e4d181fd581",
-    "title": "Beever-Jones ready to 'conquer' new season after injury troubles last term",
-    "date": "2026-07-31",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c235g2vngk9o?at_medium=RSS&at_campaign=rss",
-    "summary": "Beever-Jones ready to 'conquer' new season after injury troubles last term",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-31T10:42:53.338Z"
-  },
-  {
-    "id": "983b859fa6d7",
-    "title": "Jaissle heads for Newcastle after success in Saudi Arabia that has eluded so many",
-    "date": "2026-07-31",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/jul/31/matthias-jaissle-newcastle-united-al-ahli-saudi-pro-league",
-    "summary": "Jaissle heads for Newcastle after success in Saudi Arabia that has eluded so many",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-07-31T10:42:53.338Z"
   }
 ];
