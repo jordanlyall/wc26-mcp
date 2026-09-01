@@ -2,6 +2,58 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "8396f80d82ea",
+    "title": "Beckham and Mourinho pay tribute to Messi",
+    "date": "2026-09-01",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cdx0nw1n9y8o?at_medium=RSS&at_campaign=rss",
+    "summary": "Beckham and Mourinho pay tribute to Messi",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-01T13:17:40.565Z"
+  },
+  {
+    "id": "a28eb0504c21",
+    "title": "Barcelona breeze past Rayo but all eyes in Spain remain on Julián Álvarez",
+    "date": "2026-09-01",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/01/barcelona-la-liga-rayo-vallecano-atletico-julian-alvarez",
+    "summary": "Barcelona breeze past Rayo but all eyes in Spain remain on Julián Álvarez",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-01T13:17:40.565Z"
+  },
+  {
+    "id": "fe3b99a9804e",
+    "title": "Lionel Messi’s international retirement serves as a reminder: watch him while you still can",
+    "date": "2026-08-31",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/31/lionel-messis-international-retirement-serves-as-a-reminder-watch-him-while-you-still-can",
+    "summary": "Lionel Messi’s international retirement serves as a reminder: watch him while you still can",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-01T13:17:40.565Z"
+  },
+  {
+    "id": "950a78f1c1df",
+    "title": "Watkins faces Toney clash as strikers push for Saudi supremacy and Tuchel’s attention",
+    "date": "2026-08-31",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/aug/31/ollie-watkins-ivan-toney-saudi-arabia-thomas-tuchel-england",
+    "summary": "Watkins faces Toney clash as strikers push for Saudi supremacy and Tuchel’s attention",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-01T13:17:40.565Z"
+  },
+  {
     "id": "d286c64938b3",
     "title": "Messi retires from international football",
     "date": "2026-08-31",
@@ -1963,44 +2015,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-08-03T11:29:21.482Z"
-  },
-  {
-    "id": "9540129affbb",
-    "title": "Oshoala revives Nigeria's Wafcon and World Cup bid",
-    "date": "2026-08-01",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/czxe062y199o?at_medium=RSS&at_campaign=rss",
-    "summary": "Oshoala revives Nigeria's Wafcon and World Cup bid",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-02T10:00:20.432Z"
-  },
-  {
-    "id": "9540129affbb",
-    "title": "Oshoala revives Nigeria's Wafcon and World Cup bid",
-    "date": "2026-08-01",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/czxe062y199o?at_medium=RSS&at_campaign=rss",
-    "summary": "Oshoala revives Nigeria's Wafcon and World Cup bid",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-02T10:00:20.432Z"
-  },
-  {
-    "id": "f7b2a5b248a7",
-    "title": "De Zerbi wants ‘lovely guy’ Richarlison to stay at Tottenham after winner sinks Chelsea",
-    "date": "2026-08-01",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/01/roberto-de-zerbi-richarlison-tottenham-chelsea-friendly",
-    "summary": "De Zerbi wants ‘lovely guy’ Richarlison to stay at Tottenham after winner sinks Chelsea",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-02T10:00:20.432Z"
   }
 ];
