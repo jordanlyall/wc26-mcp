@@ -2,6 +2,84 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "a2c2ab9ed0ec",
+    "title": "Paredes puts question mark over Argentina future",
+    "date": "2026-09-02",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/ce3r07w353go?at_medium=RSS&at_campaign=rss",
+    "summary": "Paredes puts question mark over Argentina future",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-02T12:39:05.697Z"
+  },
+  {
+    "id": "75989dab0b94",
+    "title": "Transfer window verdict: how every Premier League club fared",
+    "date": "2026-09-02",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/02/premier-league-transfer-window-club-analysis-summer-2026",
+    "summary": "Transfer window verdict: how every Premier League club fared",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-02T12:39:05.697Z"
+  },
+  {
+    "id": "5c5bcfe578d4",
+    "title": "Football transfer rumours: Jamie Vardy to São Paulo or Sheffield Wednesday?",
+    "date": "2026-09-02",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/02/football-transfer-rumours-jamie-vardy-to-sao-paulo-or-sheffield-wednesday",
+    "summary": "Football transfer rumours: Jamie Vardy to São Paulo or Sheffield Wednesday?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-02T12:39:05.697Z"
+  },
+  {
+    "id": "3c2c728a8d7a",
+    "title": "Everton left with only one striker after Balogun deal collapses late on deadline day",
+    "date": "2026-09-01",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/02/everton-in-late-scramble-to-complete-balogun-transfer-after-flurry-of-sales",
+    "summary": "Everton left with only one striker after Balogun deal collapses late on deadline day",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-02T12:39:05.697Z"
+  },
+  {
+    "id": "9685560339a4",
+    "title": "Sunderland pip Crystal Palace in battle of the private jets to land Malick Fofana",
+    "date": "2026-09-01",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/01/sunderland-pip-crystal-palace-in-battle-of-the-private-jets-to-land-malick-fofana",
+    "summary": "Sunderland pip Crystal Palace in battle of the private jets to land Malick Fofana",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-02T12:39:05.697Z"
+  },
+  {
+    "id": "a8b533015ca4",
+    "title": "‘In my heart until I die’: Argentina says a tearful thank you to Lionel Messi",
+    "date": "2026-09-01",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/01/argentina-tearful-thank-you-to-lionel-messi-retirement",
+    "summary": "‘In my heart until I die’: Argentina says a tearful thank you to Lionel Messi",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-02T12:39:05.697Z"
+  },
+  {
     "id": "8396f80d82ea",
     "title": "Beckham and Mourinho pay tribute to Messi",
     "date": "2026-09-01",
@@ -1984,32 +2062,6 @@ export const news: NewsItem[] = [
     "source": "The Guardian",
     "url": "https://www.theguardian.com/football/blog/2026/aug/03/lucas-herrington-transfers-hull-premier-league-socceroos-transfer-news-fee-australian-players",
     "summary": "Socceroos on the move: Herrington headlines post-World Cup transfers",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-03T11:29:21.482Z"
-  },
-  {
-    "id": "a232271446fe",
-    "title": "Chelsea sign Argentina international Valentín Barco from Strasbourg",
-    "date": "2026-08-02",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/02/chelsea-sign-argentina-international-valentin-barco-from-strasbourg",
-    "summary": "Chelsea sign Argentina international Valentín Barco from Strasbourg",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-03T11:29:21.482Z"
-  },
-  {
-    "id": "8b5bc06fc8ed",
-    "title": "Robert Lewandowski strikes twice for Chicago Fire in MLS win over Charlotte",
-    "date": "2026-08-02",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/02/mls-robert-lewandowski-chicago-fire-charlotte-messi-inter-miami-columbus",
-    "summary": "Robert Lewandowski strikes twice for Chicago Fire in MLS win over Charlotte",
     "categories": [
       "general"
     ],
