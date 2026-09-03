@@ -2,6 +2,84 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "251576b52963",
+    "title": "Ex-Man Utd assistant Queiroz returns as Ghana boss",
+    "date": "2026-09-03",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/clyeqly7r0po?at_medium=RSS&at_campaign=rss",
+    "summary": "Ex-Man Utd assistant Queiroz returns as Ghana boss",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-03T12:42:02.031Z"
+  },
+  {
+    "id": "79313c6a4fa2",
+    "title": "The WSL returns bigger than ever and with a mouthwatering title race",
+    "date": "2026-09-03",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/03/wsl-womens-super-league-2026-27-season-preview",
+    "summary": "The WSL returns bigger than ever and with a mouthwatering title race",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-03T12:42:02.031Z"
+  },
+  {
+    "id": "7301317a42e7",
+    "title": "Arsenal bank on continuity after big names elude them late in transfer window",
+    "date": "2026-09-03",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/03/arsenal-late-and-big-name-targets-elude-them-transfer-window",
+    "summary": "Arsenal bank on continuity after big names elude them late in transfer window",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-03T12:42:02.031Z"
+  },
+  {
+    "id": "d99e376b3c5d",
+    "title": "Arsenal poised to land PSG’s Élisa De Almeida on WSL transfer deadline day",
+    "date": "2026-09-03",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/03/wsl-transfer-deadline-day-arsenal-elisa-de-almeida-psg",
+    "summary": "Arsenal poised to land PSG’s Élisa De Almeida on WSL transfer deadline day",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-03T12:42:02.031Z"
+  },
+  {
+    "id": "46d13affb3b5",
+    "title": "‘A commodity’: Ismaïla Sarr’s agent wants respect for African players in transfer deals",
+    "date": "2026-09-02",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/02/a-commodity-ismaila-sarrs-agent-wants-respect-for-african-players-in-transfer-deals",
+    "summary": "‘A commodity’: Ismaïla Sarr’s agent wants respect for African players in transfer deals",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-03T12:42:02.031Z"
+  },
+  {
+    "id": "87137f1bbef1",
+    "title": "Balogun pulled out of Everton move over handling of his medical, claim Monaco",
+    "date": "2026-09-02",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/02/folarin-balogun-transfer-deadline-day-collapse-monaco-everton-lamine-camara-chelsea",
+    "summary": "Balogun pulled out of Everton move over handling of his medical, claim Monaco",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-03T12:42:02.031Z"
+  },
+  {
     "id": "a2c2ab9ed0ec",
     "title": "Paredes puts question mark over Argentina future",
     "date": "2026-09-02",
@@ -1963,109 +2041,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-08-05T10:39:52.659Z"
-  },
-  {
-    "id": "972c814004ad",
-    "title": "Newcastle reject first bid from Arsenal for captain Bruno Guimarães",
-    "date": "2026-08-03",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/03/premier-league-transfer-newcastle-reject-first-bid-arsenal-bruno-guimaraes",
-    "summary": "Newcastle reject first bid from Arsenal for captain Bruno Guimarães",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-04T10:42:55.081Z"
-  },
-  {
-    "id": "1aae135d4a94",
-    "title": "Transfer roundup: Chelsea sell Trevoh Chalobah and sign Jordan Henderson",
-    "date": "2026-08-03",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/03/transfer-roundup-chelsea-sell-trevoh-chalobah-sign-jordan-henderson",
-    "summary": "Transfer roundup: Chelsea sell Trevoh Chalobah and sign Jordan Henderson",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-04T10:42:55.081Z"
-  },
-  {
-    "id": "d839bfe7a71d",
-    "title": "MLS investigates reports of antisemitic chants toward New England’s Dor Turgeman in Montreal",
-    "date": "2026-08-03",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/03/mls-dor-turgeman-montreal-new-england-revolution-israel",
-    "summary": "MLS investigates reports of antisemitic chants toward New England’s Dor Turgeman in Montreal",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-04T10:42:55.081Z"
-  },
-  {
-    "id": "2721c9e6f906",
-    "title": "Mauricio Pochettino agrees deal to stay as US coach through World Cup 2030",
-    "date": "2026-08-03",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/03/mauricio-pochettino-new-contract-us-soccer-world-cup",
-    "summary": "Mauricio Pochettino agrees deal to stay as US coach through World Cup 2030",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-04T10:42:55.081Z"
-  },
-  {
-    "id": "594c2cd1e0cb",
-    "title": "Football Daily | Scrapped proposals, statement wars and the ongoing Infantino furore",
-    "date": "2026-08-03",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/03/football-daily-email-fifa-gianni-infantino-scrapped-proposals-statement-wars",
-    "summary": "Football Daily | Scrapped proposals, statement wars and the ongoing Infantino furore",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-04T10:42:55.081Z"
-  },
-  {
-    "id": "7b56179568fb",
-    "title": "Worn in the USA: Liverpool’s pre-season tour had highs but exposed glaring gaps in the squad | Andy Hunter",
-    "date": "2026-08-03",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/03/liverpool-pre-season-usa-tour-exposed-squad-gaps",
-    "summary": "Worn in the USA: Liverpool’s pre-season tour had highs but exposed glaring gaps in the squad | Andy Hunter",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-03T11:29:21.482Z"
-  },
-  {
-    "id": "15978bbba645",
-    "title": "‘It’s my time’: Christos Tzolis fighting fit for Arsenal on return to England",
-    "date": "2026-08-03",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/03/christos-tzolis-arsenal-premier-league-club-brugge",
-    "summary": "‘It’s my time’: Christos Tzolis fighting fit for Arsenal on return to England",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-03T11:29:21.482Z"
-  },
-  {
-    "id": "3d6658d298c6",
-    "title": "Socceroos on the move: Herrington headlines post-World Cup transfers",
-    "date": "2026-08-03",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/blog/2026/aug/03/lucas-herrington-transfers-hull-premier-league-socceroos-transfer-news-fee-australian-players",
-    "summary": "Socceroos on the move: Herrington headlines post-World Cup transfers",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-03T11:29:21.482Z"
   }
 ];
