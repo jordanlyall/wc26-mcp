@@ -2,6 +2,123 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "997ad50b4c1a",
+    "title": "Stenhousemuir boss Bartley returns to Livingston - watch on BBC",
+    "date": "2026-09-04",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c7903rq5w2qo?at_medium=RSS&at_campaign=rss",
+    "summary": "Stenhousemuir boss Bartley returns to Livingston - watch on BBC",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-04T12:35:57.091Z"
+  },
+  {
+    "id": "997ad50b4c1a",
+    "title": "Bartley & Martindale set for reunion as Livingston host Stenhousemuir - watch on BBC Scotland",
+    "date": "2026-09-04",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c7903rq5w2qo?at_medium=RSS&at_campaign=rss",
+    "summary": "Bartley & Martindale set for reunion as Livingston host Stenhousemuir - watch on BBC Scotland",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-04T12:35:57.091Z"
+  },
+  {
+    "id": "8460cc072dee",
+    "title": "Manchester City failed to land Spain pair in scramble for Miedema cover",
+    "date": "2026-09-04",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/04/manchester-city-fiamma-benitez-ornella-vignola-bid-miedema-womens-champions-league-draw",
+    "summary": "Manchester City failed to land Spain pair in scramble for Miedema cover",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-04T12:35:57.091Z"
+  },
+  {
+    "id": "4efb25360eaf",
+    "title": "Lucas Herrington staying grounded at Hull City despite meteoric rise: ‘It’s pretty crazy’",
+    "date": "2026-09-04",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/04/premier-league-lucas-herrington-hull-city-meteoric-rise-brisbane-roar",
+    "summary": "Lucas Herrington staying grounded at Hull City despite meteoric rise: ‘It’s pretty crazy’",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-04T12:35:57.091Z"
+  },
+  {
+    "id": "dd24673cac5b",
+    "title": "Is Hearts' McPake poised to gatecrash Pocognoli's Scotland squad?",
+    "date": "2026-09-03",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c70l5nrrj02o?at_medium=RSS&at_campaign=rss",
+    "summary": "Is Hearts' McPake poised to gatecrash Pocognoli's Scotland squad?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-04T12:35:57.091Z"
+  },
+  {
+    "id": "4649619dde47",
+    "title": "'Adonis' Gibbs-White's chance to shine - will Tuchel take notice?",
+    "date": "2026-09-03",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c07lk45y3ego?at_medium=RSS&at_campaign=rss",
+    "summary": "'Adonis' Gibbs-White's chance to shine - will Tuchel take notice?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-04T12:35:57.091Z"
+  },
+  {
+    "id": "dd24673cac5b",
+    "title": "Is Hearts' McPake poised to gatecrash Pocognoli's Scotland squad?",
+    "date": "2026-09-03",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c70l5nrrj02o?at_medium=RSS&at_campaign=rss",
+    "summary": "Is Hearts' McPake poised to gatecrash Pocognoli's Scotland squad?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-04T12:35:57.091Z"
+  },
+  {
+    "id": "2f48e5887a7a",
+    "title": "Gabriel Martinelli leaves Arsenal for Saudi Arabian club Al-Hilal in £60m deal",
+    "date": "2026-09-03",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/03/gabriel-martinelli-leaves-arsenal-al-hilal",
+    "summary": "Gabriel Martinelli leaves Arsenal for Saudi Arabian club Al-Hilal in £60m deal",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-04T12:35:57.091Z"
+  },
+  {
+    "id": "ab45564b9173",
+    "title": "World Cup wishlists, early movers, big clearouts: 2026 summer transfer window trends",
+    "date": "2026-09-03",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/03/summer-transfer-window-2026-trends-premier-league-la-liga-serie-a-bundesliga-ligue-1",
+    "summary": "World Cup wishlists, early movers, big clearouts: 2026 summer transfer window trends",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-04T12:35:57.091Z"
+  },
+  {
     "id": "251576b52963",
     "title": "Ex-Man Utd assistant Queiroz returns as Ghana boss",
     "date": "2026-09-03",
@@ -1971,71 +2088,6 @@ export const news: NewsItem[] = [
     "source": "The Guardian",
     "url": "https://www.theguardian.com/football/2026/aug/05/football-transfer-rumours-folarin-balogun-tottenham-hotspur-pedro-neto-manchester-city",
     "summary": "Football transfer rumours: Folarin Balogun to Spurs? Pedro Neto to Manchester City?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-05T10:39:52.659Z"
-  },
-  {
-    "id": "970e6334fd6a",
-    "title": "Rico Lewis' sister Sacha turns pro with Man City",
-    "date": "2026-08-04",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c0jld6pwxg6o?at_medium=RSS&at_campaign=rss",
-    "summary": "Rico Lewis' sister Sacha turns pro with Man City",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-05T10:39:52.659Z"
-  },
-  {
-    "id": "970e6334fd6a",
-    "title": "Rico Lewis' sister Sacha turns pro with Man City",
-    "date": "2026-08-04",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c0jld6pwxg6o?at_medium=RSS&at_campaign=rss",
-    "summary": "Rico Lewis' sister Sacha turns pro with Man City",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-05T10:39:52.659Z"
-  },
-  {
-    "id": "1dcf47fef224",
-    "title": "Trabzonspor aim to sign Mohamed Salah this week after opening transfer talks",
-    "date": "2026-08-04",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/04/trabzonspor-transfer-mohamed-salah-turkish-super-lig",
-    "summary": "Trabzonspor aim to sign Mohamed Salah this week after opening transfer talks",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-05T10:39:52.659Z"
-  },
-  {
-    "id": "3e39b5d02b1c",
-    "title": "Arsenal target Vinícius says Mourinho ‘wants me to be happy’ at Real Madrid",
-    "date": "2026-08-04",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/04/arsenal-target-vinicius-junior-jose-mourinho-real-madrid",
-    "summary": "Arsenal target Vinícius says Mourinho ‘wants me to be happy’ at Real Madrid",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-05T10:39:52.659Z"
-  },
-  {
-    "id": "35424ae31522",
-    "title": "USMNT to face Mexico and Canada in friendlies to kick off 2030 World Cup cycle",
-    "date": "2026-08-04",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/04/usmnt-friendlies-mexico-canada",
-    "summary": "USMNT to face Mexico and Canada in friendlies to kick off 2030 World Cup cycle",
     "categories": [
       "general"
     ],
