@@ -2,6 +2,71 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "6c663643d0c2",
+    "title": "‘The noise was unbelievable’: the referee’s view of Mexico v England at the World Cup",
+    "date": "2026-09-05",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/05/world-cup-alireza-faghani-england-mexico-azteca",
+    "summary": "‘The noise was unbelievable’: the referee’s view of Mexico v England at the World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-05T11:44:00.262Z"
+  },
+  {
+    "id": "2900853f4448",
+    "title": "FA to canvass England players in World Cup review",
+    "date": "2026-09-04",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/clyr1ly8z4xo?at_medium=RSS&at_campaign=rss",
+    "summary": "FA to canvass England players in World Cup review",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-05T11:44:00.262Z"
+  },
+  {
+    "id": "2cb848da5a48",
+    "title": "Premier League news: Richarlison refused new contract, Alonso backs James in midfield",
+    "date": "2026-09-04",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/04/premier-league-news-manchester-united-everton-aston-villa-manchester-city-tottenham",
+    "summary": "Premier League news: Richarlison refused new contract, Alonso backs James in midfield",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-05T11:44:00.262Z"
+  },
+  {
+    "id": "3f97a04c7a5e",
+    "title": "Chelsea hit bullseye with Morgan Rogers as Arsenal rue what might have been",
+    "date": "2026-09-04",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/blog/2026/sep/04/chelsea-morgan-rogers-arsenal-xabi-alonso-mikel-arteta",
+    "summary": "Chelsea hit bullseye with Morgan Rogers as Arsenal rue what might have been",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-05T11:44:00.262Z"
+  },
+  {
+    "id": "f47206a0072f",
+    "title": "Football Daily | What you won’t see in the Premier League this weekend",
+    "date": "2026-09-04",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/04/football-daily-newsletter-premier-league-weekend",
+    "summary": "Football Daily | What you won’t see in the Premier League this weekend",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-05T11:44:00.262Z"
+  },
+  {
     "id": "997ad50b4c1a",
     "title": "Stenhousemuir boss Bartley returns to Livingston - watch on BBC",
     "date": "2026-09-04",
@@ -1989,109 +2054,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-08-06T10:42:47.187Z"
-  },
-  {
-    "id": "2e7d900ada02",
-    "title": "Defender Walker 'at ease' with England retirement",
-    "date": "2026-08-05",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/ce8kn37gj82o?at_medium=RSS&at_campaign=rss",
-    "summary": "Defender Walker 'at ease' with England retirement",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-06T10:42:47.187Z"
-  },
-  {
-    "id": "f3404de0a9bb",
-    "title": "Parkinson gets England-U20s call before World Cup",
-    "date": "2026-08-05",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cd0xk2n23ymo?at_medium=RSS&at_campaign=rss",
-    "summary": "Parkinson gets England-U20s call before World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-06T10:42:47.187Z"
-  },
-  {
-    "id": "f3404de0a9bb",
-    "title": "Parkinson gets England-U20s call before World Cup",
-    "date": "2026-08-05",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cd0xk2n23ymo?at_medium=RSS&at_campaign=rss",
-    "summary": "Parkinson gets England-U20s call before World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-06T10:42:47.187Z"
-  },
-  {
-    "id": "87b000a14833",
-    "title": "‘There is a clear vision’: Matthias Jaissle installed as Newcastle head coach",
-    "date": "2026-08-05",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/05/matthias-jaissle-installed-as-newcastle-united-head-coach",
-    "summary": "‘There is a clear vision’: Matthias Jaissle installed as Newcastle head coach",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-06T10:42:47.187Z"
-  },
-  {
-    "id": "4b2ec9f6b51e",
-    "title": "Infantino is getting his karmic kicking, but why did football take so long to rebel against Fifa? | Jonathan Liew",
-    "date": "2026-08-05",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/05/gianni-infantino-fifa-president-uefa-world-cup",
-    "summary": "Infantino is getting his karmic kicking, but why did football take so long to rebel against Fifa? | Jonathan Liew",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-06T10:42:47.187Z"
-  },
-  {
-    "id": "c9ef8cd45f3e",
-    "title": "Transfer roundup: Coventry to make Yirenkyi record signing, Palace swoop for Gozo",
-    "date": "2026-08-05",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/05/crystal-palace-ready-to-swoop-for-us-star-zavier-gozo-and-stand-firm-on-wharton",
-    "summary": "Transfer roundup: Coventry to make Yirenkyi record signing, Palace swoop for Gozo",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-06T10:42:47.187Z"
-  },
-  {
-    "id": "b228dcee0e98",
-    "title": "Arsenal agree £75m fee with Newcastle for Bruno Guimarães as clubs reach compromise",
-    "date": "2026-08-05",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/05/arsenal-agree-75m-fee-with-newcastle-for-bruno-guimaraes-as-clubs-reach-compromise",
-    "summary": "Arsenal agree £75m fee with Newcastle for Bruno Guimarães as clubs reach compromise",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-05T10:39:52.659Z"
-  },
-  {
-    "id": "b3dd0d4aab1f",
-    "title": "Football transfer rumours: Folarin Balogun to Spurs? Pedro Neto to Manchester City?",
-    "date": "2026-08-05",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/05/football-transfer-rumours-folarin-balogun-tottenham-hotspur-pedro-neto-manchester-city",
-    "summary": "Football transfer rumours: Folarin Balogun to Spurs? Pedro Neto to Manchester City?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-05T10:39:52.659Z"
   }
 ];
