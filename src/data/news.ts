@@ -2,6 +2,45 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "886b0930f6de",
+    "title": "Wrexham boss Parkinson says Swansea captain should have seen red",
+    "date": "2026-09-05",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c3eq5pl3y41o?at_medium=RSS&at_campaign=rss",
+    "summary": "Wrexham boss Parkinson says Swansea captain should have seen red",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-06T12:01:45.295Z"
+  },
+  {
+    "id": "374fd6abf38d",
+    "title": "Modric plans to play for Croatia past 41st birthday ",
+    "date": "2026-09-05",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/ckg0xegkegyo?at_medium=RSS&at_campaign=rss",
+    "summary": "Modric plans to play for Croatia past 41st birthday ",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-06T12:01:45.295Z"
+  },
+  {
+    "id": "27e26a71aea7",
+    "title": "Chilwell seals Crystal Palace comeback win after Mitchell double at Fulham",
+    "date": "2026-09-05",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/05/fulham-crystal-palace-premier-league-match-report",
+    "summary": "Chilwell seals Crystal Palace comeback win after Mitchell double at Fulham",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-06T12:01:45.295Z"
+  },
+  {
     "id": "6c663643d0c2",
     "title": "‘The noise was unbelievable’: the referee’s view of Mexico v England at the World Cup",
     "date": "2026-09-05",
@@ -1963,96 +2002,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-08-08T08:46:58.561Z"
-  },
-  {
-    "id": "a9ce981083dd",
-    "title": "Birmingham sign striker Effa Effa for £100K",
-    "date": "2026-08-06",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/ce971e8ny8mo?at_medium=RSS&at_campaign=rss",
-    "summary": "Birmingham sign striker Effa Effa for £100K",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-07T09:03:19.112Z"
-  },
-  {
-    "id": "987ccc0dd40f",
-    "title": "Forlan agrees to become interim Uruguay head coach",
-    "date": "2026-08-06",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/clyrddd2y2no?at_medium=RSS&at_campaign=rss",
-    "summary": "Forlan agrees to become interim Uruguay head coach",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-07T09:03:19.112Z"
-  },
-  {
-    "id": "a9ce981083dd",
-    "title": "Birmingham sign striker Effa Effa for £100K",
-    "date": "2026-08-06",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/ce971e8ny8mo?at_medium=RSS&at_campaign=rss",
-    "summary": "Birmingham sign striker Effa Effa for £100K",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-07T09:03:19.112Z"
-  },
-  {
-    "id": "dd4ec60d2a2f",
-    "title": "Arsenal hopes dashed after Vinícius Júnior extends Real Madrid contract to 2032",
-    "date": "2026-08-06",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/06/arsenal-hopes-dashed-after-vinicius-junior-extends-real-madrid-contract-to-2032",
-    "summary": "Arsenal hopes dashed after Vinícius Júnior extends Real Madrid contract to 2032",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-07T09:03:19.112Z"
-  },
-  {
-    "id": "fee263780f76",
-    "title": "Barcelona step up Rodri interest after Real Madrid talks with Manchester City star stall",
-    "date": "2026-08-06",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/06/barcelona-rodri-alvarez-manchester-city-real-madrid-transfers",
-    "summary": "Barcelona step up Rodri interest after Real Madrid talks with Manchester City star stall",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-07T09:03:19.112Z"
-  },
-  {
-    "id": "4083024c1752",
-    "title": "Argentina commemorate win against England at World Cup 2026 with special day",
-    "date": "2026-08-06",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/06/argentinas-fa-commemorate-world-cup-semi-final-win-england",
-    "summary": "Argentina commemorate win against England at World Cup 2026 with special day",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-07T09:03:19.112Z"
-  },
-  {
-    "id": "dbd849908adf",
-    "title": "Salah given hero's welcome before Trabzonspor move",
-    "date": "2026-08-06",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cn8negllz1ko?at_medium=RSS&at_campaign=rss",
-    "summary": "Salah given hero's welcome before Trabzonspor move",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-06T10:42:47.187Z"
   }
 ];
