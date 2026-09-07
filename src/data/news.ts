@@ -2,6 +2,19 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "a334a2286f35",
+    "title": "WSL talking points: Palace result in doubt after substitution nightmare, Arsenal signings shine",
+    "date": "2026-09-07",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/07/wsl-talking-points-palace-result-in-doubt-after-substitution-nightmare-arsenal-signings-shine",
+    "summary": "WSL talking points: Palace result in doubt after substitution nightmare, Arsenal signings shine",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-07T14:05:59.089Z"
+  },
+  {
     "id": "886b0930f6de",
     "title": "Wrexham boss Parkinson says Swansea captain should have seen red",
     "date": "2026-09-05",
@@ -1950,57 +1963,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-08-09T08:48:22.140Z"
-  },
-  {
-    "id": "b44f15b5fd33",
-    "title": "Man City reject Barcelona's £38.5m bid for Rodri",
-    "date": "2026-08-07",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/articles/clyj1rgdnpxo?at_medium=RSS&at_campaign=rss",
-    "summary": "Man City reject Barcelona's £38.5m bid for Rodri",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-08T08:46:58.561Z"
-  },
-  {
-    "id": "4cc7e24c48f9",
-    "title": "Barca cancel friendly in Morocco after Ceuta border crisis",
-    "date": "2026-08-07",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cn0nyrdq1r1o?at_medium=RSS&at_campaign=rss",
-    "summary": "Barca cancel friendly in Morocco after Ceuta border crisis",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-08T08:46:58.561Z"
-  },
-  {
-    "id": "551bac8c6362",
-    "title": "Manchester City reject Barcelona’s opening £38.5m bid for Rodri as talks continue",
-    "date": "2026-08-07",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/07/manchester-city-reject-barcelonas-opening-385m-bid-for-rodri-as-talks-continue",
-    "summary": "Manchester City reject Barcelona’s opening £38.5m bid for Rodri as talks continue",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-08T08:46:58.561Z"
-  },
-  {
-    "id": "012a22239223",
-    "title": "Football Daily | Vinícius Júnior and a fantasy world of transfers in the football lull",
-    "date": "2026-08-07",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/07/football-daily-email-vinicius-junior",
-    "summary": "Football Daily | Vinícius Júnior and a fantasy world of transfers in the football lull",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-08T08:46:58.561Z"
   }
 ];
