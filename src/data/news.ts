@@ -2,6 +2,97 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "734ddbabb5ba",
+    "title": "Non-league to Champions League: The Porto boss out to stun Man City",
+    "date": "2026-09-08",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c072j1r4e2do?at_medium=RSS&at_campaign=rss",
+    "summary": "Non-league to Champions League: The Porto boss out to stun Man City",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-08T12:43:29.386Z"
+  },
+  {
+    "id": "e1d181948848",
+    "title": "Shankland faces up to three months out - gossip",
+    "date": "2026-09-08",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cnvlmg4544po?at_medium=RSS&at_campaign=rss",
+    "summary": "Shankland faces up to three months out - gossip",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-08T12:43:29.386Z"
+  },
+  {
+    "id": "2edef328d8cc",
+    "title": "Podcast: Martindale returns, Shankland blow and Scotland's new team",
+    "date": "2026-09-08",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sounds/play/p0p8hp52?at_medium=RSS&at_campaign=rss",
+    "summary": "Podcast: Martindale returns, Shankland blow and Scotland's new team",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-08T12:43:29.386Z"
+  },
+  {
+    "id": "fd87cda68294",
+    "title": "David Squires on … Lionel Messi enjoying his true passion after Argentina retirement",
+    "date": "2026-09-08",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/picture/2026/sep/08/david-squires-on-lionel-messi-true-passion-international-football-retirement",
+    "summary": "David Squires on … Lionel Messi enjoying his true passion after Argentina retirement",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-08T12:43:29.386Z"
+  },
+  {
+    "id": "4b2759477198",
+    "title": "No major World Cup regrets, says Tony Popovic, despite shootout heartbreak",
+    "date": "2026-09-08",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/08/tony-popovic-socceroos-coach-world-cup-no-regrest-penalty-shootout-disappointment",
+    "summary": "No major World Cup regrets, says Tony Popovic, despite shootout heartbreak",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-08T12:43:29.386Z"
+  },
+  {
+    "id": "c31107d7ed5a",
+    "title": "Williams and Sheehan join Bellamy's Wales staff",
+    "date": "2026-09-07",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cq63mm9vzedo?at_medium=RSS&at_campaign=rss",
+    "summary": "Williams and Sheehan join Bellamy's Wales staff",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-08T12:43:29.386Z"
+  },
+  {
+    "id": "54cda43ee82c",
+    "title": "Mauricio Pochettino wants the US to become ‘one of the most powerful countries in soccer’",
+    "date": "2026-09-07",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/07/mauricio-pochettino-usmnt-soccer-head-coach",
+    "summary": "Mauricio Pochettino wants the US to become ‘one of the most powerful countries in soccer’",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-08T12:43:29.386Z"
+  },
+  {
     "id": "a334a2286f35",
     "title": "WSL talking points: Palace result in doubt after substitution nightmare, Arsenal signings shine",
     "date": "2026-09-07",
@@ -1919,45 +2010,6 @@ export const news: NewsItem[] = [
     "source": "The Guardian",
     "url": "https://www.theguardian.com/football/2026/aug/09/mohamed-salah-trabzonspor-turkish-rivals-istanbul",
     "summary": "How Trabzonspor shocked Turkish rivals to make Mohamed Salah their Black Sea saviour",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-09T08:48:22.140Z"
-  },
-  {
-    "id": "8db4cbe3add5",
-    "title": "Scotland closing in on head coach to replace Clarke",
-    "date": "2026-08-08",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c07rx4npmpxo?at_medium=RSS&at_campaign=rss",
-    "summary": "Scotland closing in on head coach to replace Clarke",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-09T08:48:22.140Z"
-  },
-  {
-    "id": "8db4cbe3add5",
-    "title": "Scotland closing in on head coach to replace Clarke",
-    "date": "2026-08-08",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c07rx4npmpxo?at_medium=RSS&at_campaign=rss",
-    "summary": "Scotland closing in on head coach to replace Clarke",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-09T08:48:22.140Z"
-  },
-  {
-    "id": "93bd84949da9",
-    "title": "Mason Mount injury overshadows Manchester United’s draw with PSG",
-    "date": "2026-08-08",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/08/mason-mount-injury-overshadows-manchester-uniteds-draw-with-psg",
-    "summary": "Mason Mount injury overshadows Manchester United’s draw with PSG",
     "categories": [
       "general"
     ],
