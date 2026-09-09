@@ -2,6 +2,84 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "02b1a3602ec8",
+    "title": "Cristian Volpato’s Socceroos fate uncertain after second sample confirms positive cocaine test",
+    "date": "2026-09-09",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/09/cristian-volpato-cocaine-positive-test-socceroos-australia-ntwnfb",
+    "summary": "Cristian Volpato’s Socceroos fate uncertain after second sample confirms positive cocaine test",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-09T12:49:34.690Z"
+  },
+  {
+    "id": "997f234893e8",
+    "title": "Rangers lose Shankland for up to four months",
+    "date": "2026-09-08",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c74ew227rmpo?at_medium=RSS&at_campaign=rss",
+    "summary": "Rangers lose Shankland for up to four months",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-09T12:49:34.690Z"
+  },
+  {
+    "id": "997f234893e8",
+    "title": "Rangers' Shankland out for up to four months & may have surgery",
+    "date": "2026-09-08",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c74ew227rmpo?at_medium=RSS&at_campaign=rss",
+    "summary": "Rangers' Shankland out for up to four months & may have surgery",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-09T12:49:34.690Z"
+  },
+  {
+    "id": "1f468e7893ce",
+    "title": "Scotland captain Weir shortlisted for Ballon d'Or",
+    "date": "2026-09-08",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cpd01d9je5zo?at_medium=RSS&at_campaign=rss",
+    "summary": "Scotland captain Weir shortlisted for Ballon d'Or",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-09T12:49:34.690Z"
+  },
+  {
+    "id": "2fa7d2fa83b7",
+    "title": "Championship roundup: West Ham go top after Bowen double sinks Bolton",
+    "date": "2026-09-08",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/08/championship-roundup-west-ham-go-top-after-bowen-double-sinks-bolton",
+    "summary": "Championship roundup: West Ham go top after Bowen double sinks Bolton",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-09T12:49:34.690Z"
+  },
+  {
+    "id": "3187940df7b2",
+    "title": "Football Daily | Forget the hype machine – it’s the minnows who offer European interest",
+    "date": "2026-09-08",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/08/champions-league-hype-machine-football-daily-newsletter",
+    "summary": "Football Daily | Forget the hype machine – it’s the minnows who offer European interest",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-09T12:49:34.690Z"
+  },
+  {
     "id": "734ddbabb5ba",
     "title": "Non-league to Champions League: The Porto boss out to stun Man City",
     "date": "2026-09-08",
@@ -1989,31 +2067,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-08-10T09:26:27.777Z"
-  },
-  {
-    "id": "9fd2ccd4df8d",
-    "title": "Digne completes move to PSG from Aston Villa",
-    "date": "2026-08-09",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/ce34v2eyn1qo?at_medium=RSS&at_campaign=rss",
-    "summary": "Digne completes move to PSG from Aston Villa",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-10T09:26:27.777Z"
-  },
-  {
-    "id": "d9b49d945531",
-    "title": "How Trabzonspor shocked Turkish rivals to make Mohamed Salah their Black Sea saviour",
-    "date": "2026-08-09",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/09/mohamed-salah-trabzonspor-turkish-rivals-istanbul",
-    "summary": "How Trabzonspor shocked Turkish rivals to make Mohamed Salah their Black Sea saviour",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-09T08:48:22.140Z"
   }
 ];
