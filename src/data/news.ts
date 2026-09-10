@@ -2,6 +2,110 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "cb3898a7c84c",
+    "title": "Declan Rice shrugs off Arsenal concerns and says 60 games a season is sustainable",
+    "date": "2026-09-10",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/10/declan-rice-arsenal-workload-concerns-sustainable",
+    "summary": "Declan Rice shrugs off Arsenal concerns and says 60 games a season is sustainable",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-10T12:47:36.076Z"
+  },
+  {
+    "id": "3ec64b352e71",
+    "title": "‘Football saved Dad’s life’: meet the coach of the England women’s Parkinson’s team",
+    "date": "2026-09-10",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/10/football-saved-dads-life-meet-the-coach-of-the-england-womens-parkinsons-team",
+    "summary": "‘Football saved Dad’s life’: meet the coach of the England women’s Parkinson’s team",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-10T12:47:36.076Z"
+  },
+  {
+    "id": "b9dffd3ea69b",
+    "title": "‘That’s how it started’: Dambrauskas’ journey from Who Wants to Be a Millionaire to Champions League",
+    "date": "2026-09-10",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/10/valdas-dambrauskas-sabah-manchester-united-arsenal-champions-league",
+    "summary": "‘That’s how it started’: Dambrauskas’ journey from Who Wants to Be a Millionaire to Champions League",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-10T12:47:36.076Z"
+  },
+  {
+    "id": "a1b5e6fce385",
+    "title": "Mauricio Pochettino: ‘I am always open to help Tottenham. In whatever division’",
+    "date": "2026-09-10",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/10/mauricio-pochettino-tottenham-united-states-world-cup-england",
+    "summary": "Mauricio Pochettino: ‘I am always open to help Tottenham. In whatever division’",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-10T12:47:36.076Z"
+  },
+  {
+    "id": "6dca1f17a413",
+    "title": "Irvine stays as Pocognoli refreshes Scotland staff",
+    "date": "2026-09-09",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cyvzn5d97y3o?at_medium=RSS&at_campaign=rss",
+    "summary": "Irvine stays as Pocognoli refreshes Scotland staff",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-10T12:47:36.076Z"
+  },
+  {
+    "id": "bd6288ba58cf",
+    "title": "Alexis Mac Allister makes his point as Liverpool fight back to defeat Atlético",
+    "date": "2026-09-09",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/09/liverpool-atletico-madrid-champions-league-match-report",
+    "summary": "Alexis Mac Allister makes his point as Liverpool fight back to defeat Atlético",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-10T12:47:36.076Z"
+  },
+  {
+    "id": "83e456900e30",
+    "title": "Infantino installs loyalist to oversee Caribbean as he splits Fifa management",
+    "date": "2026-09-09",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/09/gianni-infantino-loyalist-caribbean-fifa-split-gelson-fernandes",
+    "summary": "Infantino installs loyalist to oversee Caribbean as he splits Fifa management",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-10T12:47:36.076Z"
+  },
+  {
+    "id": "47e6995c951b",
+    "title": "Football Daily | Troy Parrott enjoys a big week after taking the scenic route to success",
+    "date": "2026-09-09",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/09/troy-parrott-real-betis-big-week-football-daily-newsletter",
+    "summary": "Football Daily | Troy Parrott enjoys a big week after taking the scenic route to success",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-10T12:47:36.076Z"
+  },
+  {
     "id": "02b1a3602ec8",
     "title": "Cristian Volpato’s Socceroos fate uncertain after second sample confirms positive cocaine test",
     "date": "2026-09-09",
@@ -1950,122 +2054,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-08-11T09:01:47.847Z"
-  },
-  {
-    "id": "a1955504a78c",
-    "title": "Nigeria 'still have hope' for 2027 World Cup spot",
-    "date": "2026-08-10",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cg4d0qd33gwo?at_medium=RSS&at_campaign=rss",
-    "summary": "Nigeria 'still have hope' for 2027 World Cup spot",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-11T09:01:47.847Z"
-  },
-  {
-    "id": "a1955504a78c",
-    "title": "Nigeria 'still have hope' for 2027 World Cup spot",
-    "date": "2026-08-10",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cg4d0qd33gwo?at_medium=RSS&at_campaign=rss",
-    "summary": "Nigeria 'still have hope' for 2027 World Cup spot",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-11T09:01:47.847Z"
-  },
-  {
-    "id": "6adced30bf6a",
-    "title": "Manchester City closing in on £85m Bouaddi to soften blow of Rodri’s expected exit",
-    "date": "2026-08-10",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/10/manchester-city-85m-ayyoub-bouaddi-rodri-barcelona-transfer",
-    "summary": "Manchester City closing in on £85m Bouaddi to soften blow of Rodri’s expected exit",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-11T09:01:47.847Z"
-  },
-  {
-    "id": "a07cff32e7ae",
-    "title": "Jordan Nobbs ready to complete wishlist with Newcastle WSL dream",
-    "date": "2026-08-10",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/10/jordan-nobbs-newcastle-united-wsl2-sunderland-promotion-womens-football",
-    "summary": "Jordan Nobbs ready to complete wishlist with Newcastle WSL dream",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-11T09:01:47.847Z"
-  },
-  {
-    "id": "1707dbb20e1b",
-    "title": "Brazilian footballer falls down hole celebrating goal that was then disallowed",
-    "date": "2026-08-10",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/10/brazilian-footballer-falls-down-hole-celebrating-goal-that-was-then-disallowed",
-    "summary": "Brazilian footballer falls down hole celebrating goal that was then disallowed",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-11T09:01:47.847Z"
-  },
-  {
-    "id": "3b250bd02181",
-    "title": "Araújo joins Liverpool on loan and Van Dijk hopes for more arrivals before new season",
-    "date": "2026-08-10",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/10/virgil-van-dijk-ronald-araujo-liverpool",
-    "summary": "Araújo joins Liverpool on loan and Van Dijk hopes for more arrivals before new season",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-11T09:01:47.847Z"
-  },
-  {
-    "id": "ea9e432eb75d",
-    "title": "Arsenal step up push for defensive cover with Timber and Saliba sidelined",
-    "date": "2026-08-10",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/10/arsenal-defensive-backup-jurrien-timber-william-saliba-sidelined-transfer-window",
-    "summary": "Arsenal step up push for defensive cover with Timber and Saliba sidelined",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-11T09:01:47.847Z"
-  },
-  {
-    "id": "01a7b653a6f5",
-    "title": "Swap agreed for Everton's McNeil and Palace's Johnson",
-    "date": "2026-08-10",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/ckg32lvxpvyo?at_medium=RSS&at_campaign=rss",
-    "summary": "Swap agreed for Everton's McNeil and Palace's Johnson",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-10T09:26:27.777Z"
-  },
-  {
-    "id": "53d53c451a62",
-    "title": "The Argentine who wishes he could play for Wales",
-    "date": "2026-08-10",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c5ywqxvgzl0o?at_medium=RSS&at_campaign=rss",
-    "summary": "The Argentine who wishes he could play for Wales",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-10T09:26:27.777Z"
   }
 ];
