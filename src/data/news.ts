@@ -2,6 +2,71 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "b301b2dc28ba",
+    "title": "Olise scores twice as Bayern thrash Bodo/Glimt",
+    "date": "2026-09-10",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/videos/c1mvzgmdje5o?at_medium=RSS&at_campaign=rss",
+    "summary": "Olise scores twice as Bayern thrash Bodo/Glimt",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-11T12:42:16.176Z"
+  },
+  {
+    "id": "045d6a3696a6",
+    "title": "Leeds' Okafor says he won't play for Swiss again under Yakin",
+    "date": "2026-09-10",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c74e0kvm03ro?at_medium=RSS&at_campaign=rss",
+    "summary": "Leeds' Okafor says he won't play for Swiss again under Yakin",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-11T12:42:16.176Z"
+  },
+  {
+    "id": "0ab8331451c7",
+    "title": "Taylor aims to make Wales a force in deaf football",
+    "date": "2026-09-10",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cy8dvg5vg5eo?at_medium=RSS&at_campaign=rss",
+    "summary": "Taylor aims to make Wales a force in deaf football",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-11T12:42:16.176Z"
+  },
+  {
+    "id": "2deff1c3117e",
+    "title": "Premier League: 10 things to look out for this weekend",
+    "date": "2026-09-10",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/11/premier-league-10-things-to-look-out-for-this-weekend",
+    "summary": "Premier League: 10 things to look out for this weekend",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-11T12:42:16.176Z"
+  },
+  {
+    "id": "74fcf650213a",
+    "title": "French FA accuses Infantino of ‘seriously damaging’ football as it withdraws support",
+    "date": "2026-09-10",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/10/gianni-infantino-accused-seriously-damaging-football-french-fa-withdraws-support-fifa",
+    "summary": "French FA accuses Infantino of ‘seriously damaging’ football as it withdraws support",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-11T12:42:16.176Z"
+  },
+  {
     "id": "cb3898a7c84c",
     "title": "Declan Rice shrugs off Arsenal concerns and says 60 games a season is sustainable",
     "date": "2026-09-10",
@@ -2002,57 +2067,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-08-12T09:14:33.636Z"
-  },
-  {
-    "id": "d67180cbe80c",
-    "title": "Striker snubbed by Scotland for World Cup signs for Sevilla",
-    "date": "2026-08-11",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c7vgj826nnjo?at_medium=RSS&at_campaign=rss",
-    "summary": "Striker snubbed by Scotland for World Cup signs for Sevilla",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-12T09:14:33.636Z"
-  },
-  {
-    "id": "d67180cbe80c",
-    "title": "Scottish striker Ure makes £5.5m Sevilla move",
-    "date": "2026-08-11",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c7vgj826nnjo?at_medium=RSS&at_campaign=rss",
-    "summary": "Scottish striker Ure makes £5.5m Sevilla move",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-12T09:14:33.636Z"
-  },
-  {
-    "id": "9d0f7872bd4b",
-    "title": "Transfer roundup: Nottingham Forest seal £34m deal for Sporting’s Diomande",
-    "date": "2026-08-11",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/11/transfer-roundup-nottingham-forest-ousmane-diomande-fulham-shea-charles",
-    "summary": "Transfer roundup: Nottingham Forest seal £34m deal for Sporting’s Diomande",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-12T09:14:33.636Z"
-  },
-  {
-    "id": "a3c87922e06e",
-    "title": "League Two 2026-27 preview: the contenders, hopefuls and strugglers",
-    "date": "2026-08-11",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/11/league-two-2026-27-preview-contenders-hopefuls-strugglers",
-    "summary": "League Two 2026-27 preview: the contenders, hopefuls and strugglers",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-11T09:01:47.847Z"
   }
 ];
