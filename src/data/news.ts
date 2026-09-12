@@ -2,6 +2,84 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "c44aca67e3cf",
+    "title": "Celtic given 'timely' police reminder before derby",
+    "date": "2026-09-11",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cz7zrdxj9x0o?at_medium=RSS&at_campaign=rss",
+    "summary": "Celtic given 'timely' police reminder before derby",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-12T12:02:11.233Z"
+  },
+  {
+    "id": "1f3b7fce1508",
+    "title": "Athletic Club forward Williams retires from Ghana duty",
+    "date": "2026-09-11",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c7v41ype378o?at_medium=RSS&at_campaign=rss",
+    "summary": "Athletic Club forward Williams retires from Ghana duty",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-12T12:02:11.233Z"
+  },
+  {
+    "id": "c44aca67e3cf",
+    "title": "Celtic given 'timely' police reminder before derby",
+    "date": "2026-09-11",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cz7zrdxj9x0o?at_medium=RSS&at_campaign=rss",
+    "summary": "Celtic given 'timely' police reminder before derby",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-12T12:02:11.233Z"
+  },
+  {
+    "id": "e0c832c2cdb5",
+    "title": "Kiernan Dewsbury-Hall: ‘I’ve seen all of the meltdowns and it annoyed me’",
+    "date": "2026-09-11",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/11/kiernan-dewsbury-hall-ive-seen-all-of-the-meltdowns-and-it-annoyed-me",
+    "summary": "Kiernan Dewsbury-Hall: ‘I’ve seen all of the meltdowns and it annoyed me’",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-12T12:02:11.233Z"
+  },
+  {
+    "id": "03a5cf40d9aa",
+    "title": "Chelsea hand Pedro Neto new deal in wake of his rejecting Manchester City",
+    "date": "2026-09-11",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/11/chelsea-pedro-neto-new-contract-xabi-alonso",
+    "summary": "Chelsea hand Pedro Neto new deal in wake of his rejecting Manchester City",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-12T12:02:11.233Z"
+  },
+  {
+    "id": "99b083e9a32a",
+    "title": "Champions League review: Irish heroics, rejected resignations and Mourinho’s return",
+    "date": "2026-09-11",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/11/champions-league-review-troy-parrott-jose-mourinho-michael-olise",
+    "summary": "Champions League review: Irish heroics, rejected resignations and Mourinho’s return",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-12T12:02:11.233Z"
+  },
+  {
     "id": "b301b2dc28ba",
     "title": "Olise scores twice as Bayern thrash Bodo/Glimt",
     "date": "2026-09-10",
@@ -1937,135 +2015,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-08-13T09:16:11.780Z"
-  },
-  {
-    "id": "fcec9a6b3ca7",
-    "title": "Xavi becomes first non-Dutch Netherlands coach since 1978",
-    "date": "2026-08-12",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c77g5dne45lo?at_medium=RSS&at_campaign=rss",
-    "summary": "Xavi becomes first non-Dutch Netherlands coach since 1978",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-13T09:16:11.780Z"
-  },
-  {
-    "id": "63ba31b7e637",
-    "title": "Atlético Madrid agree £34.1m deal for Tottenham’s Cristian Romero",
-    "date": "2026-08-12",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/12/atletico-madrid-agree-deal-tottenham-cristian-romero",
-    "summary": "Atlético Madrid agree £34.1m deal for Tottenham’s Cristian Romero",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-13T09:16:11.780Z"
-  },
-  {
-    "id": "1211f5ff6bc8",
-    "title": "Xavi Hernández appointed head coach of the Netherlands on four-year contract",
-    "date": "2026-08-12",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/12/xavi-hernandez-appointed-head-coach-of-the-netherlands-on-four-year-contract",
-    "summary": "Xavi Hernández appointed head coach of the Netherlands on four-year contract",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-13T09:16:11.780Z"
-  },
-  {
-    "id": "ce65465b9f2f",
-    "title": "Lionel Messi has ‘quite a few doubts’ about football future after death of his father",
-    "date": "2026-08-12",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/12/lionel-messi-doubts-football-future-death-of-his-father-jorge",
-    "summary": "Lionel Messi has ‘quite a few doubts’ about football future after death of his father",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-13T09:16:11.780Z"
-  },
-  {
-    "id": "02d6fb7fd413",
-    "title": "‘It’s a nice hobby’: Manchester United’s Janina Leitzig on goalkeeping and gardening",
-    "date": "2026-08-12",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/12/manchester-united-janina-leitzig-interview-on-goalkeeping-and-gardening",
-    "summary": "‘It’s a nice hobby’: Manchester United’s Janina Leitzig on goalkeeping and gardening",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-13T09:16:11.780Z"
-  },
-  {
-    "id": "7a856efbe533",
-    "title": "Saudi Pro League tries to move on from era of ageing megastar but big names still loom | John Duerden",
-    "date": "2026-08-12",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/12/saudi-pro-league-ageing-overseas-stars-local-talent-investment",
-    "summary": "Saudi Pro League tries to move on from era of ageing megastar but big names still loom | John Duerden",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-13T09:16:11.780Z"
-  },
-  {
-    "id": "2d6508f26084",
-    "title": "Australia’s brightest young talents are on the move and it bodes well for the Socceroos | Jack Snape",
-    "date": "2026-08-12",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/12/australia-football-talent-socceroos-lucas-herrington-nestory-irankunda-transfers-premier-league",
-    "summary": "Australia’s brightest young talents are on the move and it bodes well for the Socceroos | Jack Snape",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-13T09:16:11.780Z"
-  },
-  {
-    "id": "ede67be64c7b",
-    "title": "Football Daily | Newcastle’s ‘rock star’ plays the hits but will he find it hard to stay in Toon?",
-    "date": "2026-08-12",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/12/newcastle-matthias-jaissle-football-daily-newsletter",
-    "summary": "Football Daily | Newcastle’s ‘rock star’ plays the hits but will he find it hard to stay in Toon?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-13T09:16:11.780Z"
-  },
-  {
-    "id": "e469b91876dc",
-    "title": "Slot pulls out of Netherlands talks to focus on club football",
-    "date": "2026-08-12",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c980rd5njneo?at_medium=RSS&at_campaign=rss",
-    "summary": "Slot pulls out of Netherlands talks to focus on club football",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-12T09:14:33.636Z"
-  },
-  {
-    "id": "89cc4e1510d4",
-    "title": "Football transfer rumours: Folarin Balogun to Tottenham? Gabriel Jesus to Napoli?",
-    "date": "2026-08-12",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/12/football-transfer-rumours-folarin-balogun-to-tottenham-gabriel-jesus-to-napoli",
-    "summary": "Football transfer rumours: Folarin Balogun to Tottenham? Gabriel Jesus to Napoli?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-12T09:14:33.636Z"
   }
 ];
