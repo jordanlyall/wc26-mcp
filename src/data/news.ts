@@ -2,6 +2,19 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "661efddb626f",
+    "title": "Frustrated Liverpool lack any spark as Fulham claim deserved first point",
+    "date": "2026-09-12",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/12/liverpool-fulham-premier-league-match-report",
+    "summary": "Frustrated Liverpool lack any spark as Fulham claim deserved first point",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-13T13:11:53.267Z"
+  },
+  {
     "id": "c44aca67e3cf",
     "title": "Celtic given 'timely' police reminder before derby",
     "date": "2026-09-11",
@@ -1898,122 +1911,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-08-15T08:33:19.774Z"
-  },
-  {
-    "id": "1cbcd7bbe657",
-    "title": "'Dad rang and I was like: What's happening?' - England U20s boss on Uefa threat",
-    "date": "2026-08-13",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c5ydz50jnz3o?at_medium=RSS&at_campaign=rss",
-    "summary": "'Dad rang and I was like: What's happening?' - England U20s boss on Uefa threat",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-14T09:10:40.335Z"
-  },
-  {
-    "id": "92fa41072e30",
-    "title": "Nigeria to miss Women's World Cup after South Africa and Ghana win play-offs",
-    "date": "2026-08-13",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cgk46yrk2pjo?at_medium=RSS&at_campaign=rss",
-    "summary": "Nigeria to miss Women's World Cup after South Africa and Ghana win play-offs",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-14T09:10:40.335Z"
-  },
-  {
-    "id": "1cbcd7bbe657",
-    "title": "'Dad rang and I was like: What's happening?' - England U20s boss on Uefa threat",
-    "date": "2026-08-13",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c5ydz50jnz3o?at_medium=RSS&at_campaign=rss",
-    "summary": "'Dad rang and I was like: What's happening?' - England U20s boss on Uefa threat",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-14T09:10:40.335Z"
-  },
-  {
-    "id": "92fa41072e30",
-    "title": "Nigeria to miss Women's World Cup after South Africa and Ghana win play-offs",
-    "date": "2026-08-13",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cgk46yrk2pjo?at_medium=RSS&at_campaign=rss",
-    "summary": "Nigeria to miss Women's World Cup after South Africa and Ghana win play-offs",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-14T09:10:40.335Z"
-  },
-  {
-    "id": "acb42349de72",
-    "title": "Rangers crash out of Europa League as Derek McInnes’s winless start goes on",
-    "date": "2026-08-13",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/13/rangers-crash-out-of-europa-league-as-derek-mcinness-winless-start-goes-on",
-    "summary": "Rangers crash out of Europa League as Derek McInnes’s winless start goes on",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-14T09:10:40.335Z"
-  },
-  {
-    "id": "83c24b7d9d48",
-    "title": "Chelsea set Friday deadline for Fernández suitors as City reject new £51m Barça bid for Rodri",
-    "date": "2026-08-13",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/13/manchester-city-barcelona-rodri-chelsea-enzo-fernandez",
-    "summary": "Chelsea set Friday deadline for Fernández suitors as City reject new £51m Barça bid for Rodri",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-14T09:10:40.335Z"
-  },
-  {
-    "id": "731b30f20bb2",
-    "title": "‘He has a very high ceiling’: Madjo makes instant mark on delayed Aston Villa bow",
-    "date": "2026-08-13",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/13/aston-villa-brian-madjo-makes-mark-psg",
-    "summary": "‘He has a very high ceiling’: Madjo makes instant mark on delayed Aston Villa bow",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-14T09:10:40.335Z"
-  },
-  {
-    "id": "3124f6d96a52",
-    "title": "‘It was horrendous’: Durham captain relieved WSL2 club survived after fears of folding",
-    "date": "2026-08-13",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/13/durham-captain-sarah-wilson-relieved-wsl2-club-survived",
-    "summary": "‘It was horrendous’: Durham captain relieved WSL2 club survived after fears of folding",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-13T09:16:11.780Z"
-  },
-  {
-    "id": "38356b5fba94",
-    "title": "Failure not an option as Ange Postecoglou gears up for biggest challenge yet alongside Ronaldo | John Duerden",
-    "date": "2026-08-13",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/blog/2026/aug/13/australian-ange-postecoglou-football-coach-al-nassr-ronaldo",
-    "summary": "Failure not an option as Ange Postecoglou gears up for biggest challenge yet alongside Ronaldo | John Duerden",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-13T09:16:11.780Z"
   }
 ];
