@@ -2,6 +2,84 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "e4c602703d3a",
+    "title": "Time for Pocognoli to pick - who could be named in new-look Scotland squad?",
+    "date": "2026-09-14",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cdr76rvylv1o?at_medium=RSS&at_campaign=rss",
+    "summary": "Time for Pocognoli to pick - who could be named in new-look Scotland squad?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-14T14:52:10.605Z"
+  },
+  {
+    "id": "e4c602703d3a",
+    "title": "Time for Pocognoli to pick - who could be named in new-look Scotland squad?",
+    "date": "2026-09-14",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cdr76rvylv1o?at_medium=RSS&at_campaign=rss",
+    "summary": "Time for Pocognoli to pick - who could be named in new-look Scotland squad?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-14T14:52:10.605Z"
+  },
+  {
+    "id": "91ebbc37288e",
+    "title": "Top of the table, empty in the stands: inside the revolt against Lazio’s owner | Nicky Bandini",
+    "date": "2026-09-14",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/14/lazio-claudio-lotito-gennaro-gattuso-milan",
+    "summary": "Top of the table, empty in the stands: inside the revolt against Lazio’s owner | Nicky Bandini",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-14T14:52:10.605Z"
+  },
+  {
+    "id": "2216c95634e4",
+    "title": "The Hotspot | South Korea pushes for football season to make winter switch after unbearable summer",
+    "date": "2026-09-14",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/sport/2026/sep/14/south-korea-football-season-heat-summer-the-hotspot",
+    "summary": "The Hotspot | South Korea pushes for football season to make winter switch after unbearable summer",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-14T14:52:10.605Z"
+  },
+  {
+    "id": "b603f740f56e",
+    "title": "Enzo Fernández’s fortitude shows Maresca was right to crave City reunion | Will Unwin",
+    "date": "2026-09-13",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/13/enzo-fernandez-enzo-maresca-manchester-city-reunion-united-derby",
+    "summary": "Enzo Fernández’s fortitude shows Maresca was right to crave City reunion | Will Unwin",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-14T14:52:10.605Z"
+  },
+  {
+    "id": "d875f9849886",
+    "title": "European football: Kane helps Bayern edge Elversberg, Sassuolo stun Juventus",
+    "date": "2026-09-13",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/13/european-football-barcelona-bayern-munich-napoli-juventus",
+    "summary": "European football: Kane helps Bayern edge Elversberg, Sassuolo stun Juventus",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-14T14:52:10.605Z"
+  },
+  {
     "id": "661efddb626f",
     "title": "Frustrated Liverpool lack any spark as Fulham claim deserved first point",
     "date": "2026-09-12",
@@ -1841,71 +1919,6 @@ export const news: NewsItem[] = [
     "source": "The Guardian",
     "url": "https://www.theguardian.com/football/2026/aug/15/2026-2027-la-liga-preview-real-madrid-jose-mourinho-barcelona",
     "summary": "La Liga 2026-27 preview: Madrid look to Mourinho in bid to dethrone Barcelona",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-15T08:33:19.774Z"
-  },
-  {
-    "id": "13c68cc23b78",
-    "title": "Celtic's Engels poised for West Ham transfer",
-    "date": "2026-08-14",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cgjexdypjqyo?at_medium=RSS&at_campaign=rss",
-    "summary": "Celtic's Engels poised for West Ham transfer",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-15T08:33:19.774Z"
-  },
-  {
-    "id": "13c68cc23b78",
-    "title": "Celtic's Engels poised for West Ham transfer",
-    "date": "2026-08-14",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cgjexdypjqyo?at_medium=RSS&at_campaign=rss",
-    "summary": "Celtic's Engels poised for West Ham transfer",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-15T08:33:19.774Z"
-  },
-  {
-    "id": "2c0d15c5ae17",
-    "title": "Raúl Jiménez’s injury-time penalty salvages point for Wolves against Blackburn",
-    "date": "2026-08-14",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/14/wolves-blackburn-championship-match-report",
-    "summary": "Raúl Jiménez’s injury-time penalty salvages point for Wolves against Blackburn",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-15T08:33:19.774Z"
-  },
-  {
-    "id": "486ab07e328c",
-    "title": "Chelsea expect Enzo Fernández to stay after Manchester City opt not to meet deadline",
-    "date": "2026-08-14",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/14/enzo-maresca-manchester-city-chelsea-fernandez-rodri-transfer",
-    "summary": "Chelsea expect Enzo Fernández to stay after Manchester City opt not to meet deadline",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-15T08:33:19.774Z"
-  },
-  {
-    "id": "c92d805bd220",
-    "title": "Football Daily | Rangers and the paradox of a painful exit that boosts their trophy chances",
-    "date": "2026-08-14",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/14/rangers-football-daily-newsletter",
-    "summary": "Football Daily | Rangers and the paradox of a painful exit that boosts their trophy chances",
     "categories": [
       "general"
     ],
