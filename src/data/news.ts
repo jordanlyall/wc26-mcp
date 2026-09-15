@@ -2,6 +2,123 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "343765c5c20e",
+    "title": "McBurnie & seven uncapped players in Scotland squad",
+    "date": "2026-09-15",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cq770klrzmvyo?at_medium=RSS&at_campaign=rss",
+    "summary": "McBurnie & seven uncapped players in Scotland squad",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-15T13:18:34.888Z"
+  },
+  {
+    "id": "68276ceb78d1",
+    "title": "Rodon absent as Ashford earns first Wales call-up ",
+    "date": "2026-09-15",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c615877d389no?at_medium=RSS&at_campaign=rss",
+    "summary": "Rodon absent as Ashford earns first Wales call-up ",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-15T13:18:34.888Z"
+  },
+  {
+    "id": "343765c5c20e",
+    "title": "'Style important' as McBurnie & seven uncapped players make Pocognoli's first Scotland squad",
+    "date": "2026-09-15",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cq770klrzmvyo?at_medium=RSS&at_campaign=rss",
+    "summary": "'Style important' as McBurnie & seven uncapped players make Pocognoli's first Scotland squad",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-15T13:18:34.888Z"
+  },
+  {
+    "id": "5f86d25401ae",
+    "title": "Scotland fans allowed to buy alcohol at upcoming games",
+    "date": "2026-09-15",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/news/articles/cjn5d6zgk1r6o?at_medium=RSS&at_campaign=rss",
+    "summary": "Scotland fans allowed to buy alcohol at upcoming games",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-15T13:18:34.888Z"
+  },
+  {
+    "id": "d67b0bd27500",
+    "title": "Aris still chasing Souttar amid contract dispute - gossip",
+    "date": "2026-09-15",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cqm2mv23grkmo?at_medium=RSS&at_campaign=rss",
+    "summary": "Aris still chasing Souttar amid contract dispute - gossip",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-15T13:18:34.888Z"
+  },
+  {
+    "id": "8ed77dd44a44",
+    "title": "Craig Bellamy rejected Burnley manager’s job to stay in ‘right place’ with Wales",
+    "date": "2026-09-15",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/15/craig-bellamy-rejected-burnley-manager-job-stay-wales-football",
+    "summary": "Craig Bellamy rejected Burnley manager’s job to stay in ‘right place’ with Wales",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-15T13:18:34.888Z"
+  },
+  {
+    "id": "391c720b8eaa",
+    "title": "How Promise David emerged from Maltese shadows into the Premier League",
+    "date": "2026-09-15",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/15/promise-david-brighton-have-albion-canada-world-cup",
+    "summary": "How Promise David emerged from Maltese shadows into the Premier League",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-15T13:18:34.888Z"
+  },
+  {
+    "id": "71d3f2be0f2e",
+    "title": "USMNT roster prediction: a big chance for Cavan Sullivan and other young prospects",
+    "date": "2026-09-15",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/15/usmnt-roster-prediction",
+    "summary": "USMNT roster prediction: a big chance for Cavan Sullivan and other young prospects",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-15T13:18:34.888Z"
+  },
+  {
+    "id": "7fd642ba5e54",
+    "title": "‘Very weak. Very bad’: how Rodri’s verdict exposed woeful Valencia’s crisis | Sid Lowe",
+    "date": "2026-09-14",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/14/valencia-rodri-carlos-corberan-la-liga",
+    "summary": "‘Very weak. Very bad’: how Rodri’s verdict exposed woeful Valencia’s crisis | Sid Lowe",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-15T13:18:34.888Z"
+  },
+  {
     "id": "e4c602703d3a",
     "title": "Time for Pocognoli to pick - who could be named in new-look Scotland squad?",
     "date": "2026-09-14",
@@ -1846,83 +1963,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-08-16T08:33:15.998Z"
-  },
-  {
-    "id": "cf965e60fa08",
-    "title": "West Ham break EFL record to sign Engels for £22m",
-    "date": "2026-08-15",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c77ggr5nk7jo?at_medium=RSS&at_campaign=rss",
-    "summary": "West Ham break EFL record to sign Engels for £22m",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-16T08:33:15.998Z"
-  },
-  {
-    "id": "8b1f2b5d5eaa",
-    "title": "Belgian Pocognoli frontrunner to be Scotland boss - but who is he?",
-    "date": "2026-08-15",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cwyrre1qzwlo?at_medium=RSS&at_campaign=rss",
-    "summary": "Belgian Pocognoli frontrunner to be Scotland boss - but who is he?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-16T08:33:15.998Z"
-  },
-  {
-    "id": "8b1f2b5d5eaa",
-    "title": "Belgian Pocognoli frontrunner to be Scotland boss - but who is he?",
-    "date": "2026-08-15",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cwyrre1qzwlo?at_medium=RSS&at_campaign=rss",
-    "summary": "Belgian Pocognoli frontrunner to be Scotland boss - but who is he?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-16T08:33:15.998Z"
-  },
-  {
-    "id": "cf965e60fa08",
-    "title": "West Ham break EFL record to sign Engels from Celtic for £22m",
-    "date": "2026-08-15",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c77ggr5nk7jo?at_medium=RSS&at_campaign=rss",
-    "summary": "West Ham break EFL record to sign Engels from Celtic for £22m",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-16T08:33:15.998Z"
-  },
-  {
-    "id": "cacaea3cccd0",
-    "title": "Scotland hope to name 39-year-old Pocognoli as successor to Clarke in fresh approach",
-    "date": "2026-08-15",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/15/scotland-hope-to-name-sebastien-pocognoli-as-new-international-manager",
-    "summary": "Scotland hope to name 39-year-old Pocognoli as successor to Clarke in fresh approach",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-16T08:33:15.998Z"
-  },
-  {
-    "id": "bf3972559684",
-    "title": "La Liga 2026-27 preview: Madrid look to Mourinho in bid to dethrone Barcelona",
-    "date": "2026-08-15",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/15/2026-2027-la-liga-preview-real-madrid-jose-mourinho-barcelona",
-    "summary": "La Liga 2026-27 preview: Madrid look to Mourinho in bid to dethrone Barcelona",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-15T08:33:19.774Z"
   }
 ];
