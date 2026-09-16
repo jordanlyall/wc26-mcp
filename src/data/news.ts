@@ -2,6 +2,162 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "0f2e4a824bd4",
+    "title": "Meet the Scottish teenagers poised to represent Uganda",
+    "date": "2026-09-16",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c6wyz1ll1g3xo?at_medium=RSS&at_campaign=rss",
+    "summary": "Meet the Scottish teenagers poised to represent Uganda",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-16T13:16:11.741Z"
+  },
+  {
+    "id": "eff493c9aaea",
+    "title": "Glasgow, 16, makes Docherty's Scotland U21 squad",
+    "date": "2026-09-16",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cmn452vgll31o?at_medium=RSS&at_campaign=rss",
+    "summary": "Glasgow, 16, makes Docherty's Scotland U21 squad",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-16T13:16:11.741Z"
+  },
+  {
+    "id": "eff493c9aaea",
+    "title": "Glasgow, 16, makes Docherty's Scotland U21 squad",
+    "date": "2026-09-16",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cmn452vgll31o?at_medium=RSS&at_campaign=rss",
+    "summary": "Glasgow, 16, makes Docherty's Scotland U21 squad",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-16T13:16:11.741Z"
+  },
+  {
+    "id": "0f2e4a824bd4",
+    "title": "Meet the Scottish teenagers poised to represent Uganda",
+    "date": "2026-09-16",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c6wyz1ll1g3xo?at_medium=RSS&at_campaign=rss",
+    "summary": "Meet the Scottish teenagers poised to represent Uganda",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-16T13:16:11.741Z"
+  },
+  {
+    "id": "a16972b1ccb1",
+    "title": "McBurnie's Scotland return can be 'new experience' - gossip",
+    "date": "2026-09-16",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cwj3dv0ydxj1o?at_medium=RSS&at_campaign=rss",
+    "summary": "McBurnie's Scotland return can be 'new experience' - gossip",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-16T13:16:11.741Z"
+  },
+  {
+    "id": "63a4b4a7c313",
+    "title": "Podcast: Pocognoli's first squad and a night of SPFL coupon busters",
+    "date": "2026-09-16",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sounds/play/p0p9trnv?at_medium=RSS&at_campaign=rss",
+    "summary": "Podcast: Pocognoli's first squad and a night of SPFL coupon busters",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-16T13:16:11.741Z"
+  },
+  {
+    "id": "4cdc99c84877",
+    "title": "Xhaka promises ‘fire’ from Sunderland on long-awaited return to Europe",
+    "date": "2026-09-16",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/16/xhaka-sunderland-european-riches-alkmaar",
+    "summary": "Xhaka promises ‘fire’ from Sunderland on long-awaited return to Europe",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-16T13:16:11.741Z"
+  },
+  {
+    "id": "6f41d83c3e5b",
+    "title": "Iranian football returns in the shadow of war and with row over last league title",
+    "date": "2026-09-16",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/16/iran-football-esteghlal-tractor-sc-afc-champions-league-elite-asia",
+    "summary": "Iranian football returns in the shadow of war and with row over last league title",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-16T13:16:11.741Z"
+  },
+  {
+    "id": "cde90dc0b9b8",
+    "title": "Messi in Argentina squad for farewell friendly",
+    "date": "2026-09-15",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c8ly49lv3vx1o?at_medium=RSS&at_campaign=rss",
+    "summary": "Messi in Argentina squad for farewell friendly",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-16T13:16:11.741Z"
+  },
+  {
+    "id": "2443a3f55fe6",
+    "title": "Tuchel regrets not eating Azteca turf after win over Mexico",
+    "date": "2026-09-15",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cq4g5r8kwx9zo?at_medium=RSS&at_campaign=rss",
+    "summary": "Tuchel regrets not eating Azteca turf after win over Mexico",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-16T13:16:11.741Z"
+  },
+  {
+    "id": "952d1e3dbe6e",
+    "title": "The key talking points from Pocognoli's bold Scotland squad",
+    "date": "2026-09-15",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c51kxlek7471o?at_medium=RSS&at_campaign=rss",
+    "summary": "The key talking points from Pocognoli's bold Scotland squad",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-16T13:16:11.741Z"
+  },
+  {
+    "id": "9179b155a158",
+    "title": "Lionel Messi called up by Argentina to make farewell ⁠appearance in friendly",
+    "date": "2026-09-15",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/15/lionel-messi-called-up-argentina-farewell-appearance-friendly-benin",
+    "summary": "Lionel Messi called up by Argentina to make farewell ⁠appearance in friendly",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-16T13:16:11.741Z"
+  },
+  {
     "id": "343765c5c20e",
     "title": "McBurnie & seven uncapped players in Scotland squad",
     "date": "2026-09-15",
@@ -1859,109 +2015,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-08-18T08:40:39.699Z"
-  },
-  {
-    "id": "d247963c3dca",
-    "title": "Barcelona agree £65m Rodri deal - who could replace him at Man City?",
-    "date": "2026-08-16",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cy0jj65r18yo?at_medium=RSS&at_campaign=rss",
-    "summary": "Barcelona agree £65m Rodri deal - who could replace him at Man City?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-17T08:48:10.865Z"
-  },
-  {
-    "id": "06dd205b452e",
-    "title": "What awaits new Scotland head coach Pocognoli?",
-    "date": "2026-08-16",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cly995z1j8go?at_medium=RSS&at_campaign=rss",
-    "summary": "What awaits new Scotland head coach Pocognoli?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-17T08:48:10.865Z"
-  },
-  {
-    "id": "06dd205b452e",
-    "title": "What awaits new Scotland head coach Pocognoli?",
-    "date": "2026-08-16",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cly995z1j8go?at_medium=RSS&at_campaign=rss",
-    "summary": "What awaits new Scotland head coach Pocognoli?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-17T08:48:10.865Z"
-  },
-  {
-    "id": "935eb9fcba09",
-    "title": "‘That’s the standard’: Mikel Arteta hails Arsenal’s desire on blue day for Maresca",
-    "date": "2026-08-16",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/16/mikel-arteta-arsenal-desire-enzo-maresca-community-shield",
-    "summary": "‘That’s the standard’: Mikel Arteta hails Arsenal’s desire on blue day for Maresca",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-17T08:48:10.865Z"
-  },
-  {
-    "id": "3f882161ed23",
-    "title": "Rodri set to complete Barcelona move after Manchester City accept £65.4m bid",
-    "date": "2026-08-16",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/16/rodri-set-to-complete-barcelona-move-after-manchester-city-accept-654m-bid",
-    "summary": "Rodri set to complete Barcelona move after Manchester City accept £65.4m bid",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-17T08:48:10.865Z"
-  },
-  {
-    "id": "c719abec752f",
-    "title": "Cristiano Ronaldo says this year is ‘probably’ his last as a footballer",
-    "date": "2026-08-16",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/16/cristiano-ronaldo-says-this-year-is-probably-his-last-as-a-footballer",
-    "summary": "Cristiano Ronaldo says this year is ‘probably’ his last as a footballer",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-17T08:48:10.865Z"
-  },
-  {
-    "id": "ae5310fb1d60",
-    "title": "Arsenal’s midfield depth signals ominous warning to title rivals – and Maresca’s City | Ed Aarons",
-    "date": "2026-08-16",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/16/arsenal-manchester-city-community-shield-premier-league",
-    "summary": "Arsenal’s midfield depth signals ominous warning to title rivals – and Maresca’s City | Ed Aarons",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-17T08:48:10.865Z"
-  },
-  {
-    "id": "e9b408af0df4",
-    "title": "End of an era? South Korea’s sun sets in the Premier League but Japan rise",
-    "date": "2026-08-16",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/16/end-of-era-south-korea-japan-premier-league",
-    "summary": "End of an era? South Korea’s sun sets in the Premier League but Japan rise",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-16T08:33:15.998Z"
   }
 ];
