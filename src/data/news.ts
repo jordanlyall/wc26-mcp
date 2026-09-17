@@ -2,6 +2,97 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "71e53ab0fb14",
+    "title": "Klopp wants to 'reclaim' flag amid German elections",
+    "date": "2026-09-17",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cmwyzk6xkrd0o?at_medium=RSS&at_campaign=rss",
+    "summary": "Klopp wants to 'reclaim' flag amid German elections",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-17T13:13:10.677Z"
+  },
+  {
+    "id": "866eda1d9a5f",
+    "title": "USA midfielder sues doctors after on-pitch cardiac arrest",
+    "date": "2026-09-17",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c6j4jlqgeejvo?at_medium=RSS&at_campaign=rss",
+    "summary": "USA midfielder sues doctors after on-pitch cardiac arrest",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-17T13:13:10.677Z"
+  },
+  {
+    "id": "866eda1d9a5f",
+    "title": "USA midfielder sues doctors after on-pitch cardiac arrest",
+    "date": "2026-09-17",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c6j4jlqgeejvo?at_medium=RSS&at_campaign=rss",
+    "summary": "USA midfielder sues doctors after on-pitch cardiac arrest",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-17T13:13:10.677Z"
+  },
+  {
+    "id": "c7701b23884f",
+    "title": "Jürgen Klopp wants his Germany team to reclaim national pride from ‘the wrong people’",
+    "date": "2026-09-17",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/17/jurgen-klopp-germany-reclaim-national-pride-wrong-people-afd",
+    "summary": "Jürgen Klopp wants his Germany team to reclaim national pride from ‘the wrong people’",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-17T13:13:10.677Z"
+  },
+  {
+    "id": "36584f96da3b",
+    "title": "De la Fuente extends Spain contract to 2032",
+    "date": "2026-09-16",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c6eq8z9wjjqlo?at_medium=RSS&at_campaign=rss",
+    "summary": "De la Fuente extends Spain contract to 2032",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-17T13:13:10.677Z"
+  },
+  {
+    "id": "adb95aeee0cc",
+    "title": "‘My scar, not your scar’: Tuchel stands by England semi-final subs but admits wrong timing",
+    "date": "2026-09-16",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/16/tuchel-stands-england-semi-final-subs-wrong-timing-argentina-world-cup-2026",
+    "summary": "‘My scar, not your scar’: Tuchel stands by England semi-final subs but admits wrong timing",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-17T13:13:10.677Z"
+  },
+  {
+    "id": "ec13b5792f9e",
+    "title": "‘They are very similar’: Arsenal’s Dowman reminds Merino of Lamine Yamal",
+    "date": "2026-09-16",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/16/they-are-very-similar-arsenals-dowman-reminds-merino-of-lamine-yamal",
+    "summary": "‘They are very similar’: Arsenal’s Dowman reminds Merino of Lamine Yamal",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-17T13:13:10.677Z"
+  },
+  {
     "id": "0f2e4a824bd4",
     "title": "Meet the Scottish teenagers poised to represent Uganda",
     "date": "2026-09-16",
@@ -1976,44 +2067,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-08-19T08:41:16.878Z"
-  },
-  {
-    "id": "f40a84967323",
-    "title": "Tottenham goalkeeper Guglielmo Vicario to leave for Juventus in loan deal",
-    "date": "2026-08-17",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/17/tottenham-guglielmo-vicario-spurs-juventus-loan-deal-transfer-window",
-    "summary": "Tottenham goalkeeper Guglielmo Vicario to leave for Juventus in loan deal",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-18T08:40:39.699Z"
-  },
-  {
-    "id": "97d10af45468",
-    "title": "‘I’ll remember it for the rest of my life’: the footballers whose biggest games come before their league begins",
-    "date": "2026-08-17",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/17/footballers-games-champions-league-europa-conference-prize-money",
-    "summary": "‘I’ll remember it for the rest of my life’: the footballers whose biggest games come before their league begins",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-18T08:40:39.699Z"
-  },
-  {
-    "id": "d89dccd8d042",
-    "title": "Football Daily | Pocognoli looks the part as Scotland’s new boss but a question remains: can he boogie?",
-    "date": "2026-08-17",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/17/sebastien-pocognoli-scotland-football-daily-newsletter",
-    "summary": "Football Daily | Pocognoli looks the part as Scotland’s new boss but a question remains: can he boogie?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-18T08:40:39.699Z"
   }
 ];
