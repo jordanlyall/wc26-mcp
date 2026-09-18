@@ -2,6 +2,110 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "5258ee42e903",
+    "title": "Tuchel recalls Palmer and Alexander-Arnold for England",
+    "date": "2026-09-18",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/videos/c61wx5x33jyjo?at_medium=RSS&at_campaign=rss",
+    "summary": "Tuchel recalls Palmer and Alexander-Arnold for England",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-18T12:48:51.294Z"
+  },
+  {
+    "id": "7b6019f4c55c",
+    "title": "Bellamy right to speak to Burnley - FAW chief Adams",
+    "date": "2026-09-18",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cmje81nxgz4wo?at_medium=RSS&at_campaign=rss",
+    "summary": "Bellamy right to speak to Burnley - FAW chief Adams",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-18T12:48:51.294Z"
+  },
+  {
+    "id": "407e08a9df79",
+    "title": "Wrexham defender Hyam's Scotland disappointment",
+    "date": "2026-09-18",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c59v904y3m9jo?at_medium=RSS&at_campaign=rss",
+    "summary": "Wrexham defender Hyam's Scotland disappointment",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-18T12:48:51.294Z"
+  },
+  {
+    "id": "407e08a9df79",
+    "title": "Wrexham defender Hyam's Scotland disappointment",
+    "date": "2026-09-18",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c59v904y3m9jo?at_medium=RSS&at_campaign=rss",
+    "summary": "Wrexham defender Hyam's Scotland disappointment",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-18T12:48:51.294Z"
+  },
+  {
+    "id": "895c4bc9cf2b",
+    "title": "Tuchel explains Alexander-Arnold and Palmer England recalls; Spain squad revealed in Ceuta: football news – live",
+    "date": "2026-09-18",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/live/2026/sep/18/england-squad-to-be-announced-premier-league-latest-european-reaction-football-news-live",
+    "summary": "Tuchel explains Alexander-Arnold and Palmer England recalls; Spain squad revealed in Ceuta: football news – live",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-18T12:48:51.294Z"
+  },
+  {
+    "id": "8163fb5e8d7e",
+    "title": "Socceroos captain Maty Ryan axed for Brazil friendlies",
+    "date": "2026-09-18",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/18/socceroos-captain-maty-ryan-droppedr-brazil-vs-australia-friendlies",
+    "summary": "Socceroos captain Maty Ryan axed for Brazil friendlies",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-18T12:48:51.294Z"
+  },
+  {
+    "id": "b37ad03c976f",
+    "title": "Cavan Sullivan in, Christian Pulisic out: takeaways from the latest USMNT roster",
+    "date": "2026-09-17",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/17/usmnt-roster-squad-analysis-cavan-sullivan-christian-pulisic",
+    "summary": "Cavan Sullivan in, Christian Pulisic out: takeaways from the latest USMNT roster",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-18T12:48:51.294Z"
+  },
+  {
+    "id": "bf01f9b354f8",
+    "title": "Thomas Tuchel’s shot at redemption begins with England’s tricky Nations League tests",
+    "date": "2026-09-17",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/17/thomas-tuchels-shot-at-redemption-begins-with-englands-tricky-nations-league-tests",
+    "summary": "Thomas Tuchel’s shot at redemption begins with England’s tricky Nations League tests",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-18T12:48:51.294Z"
+  },
+  {
     "id": "71e53ab0fb14",
     "title": "Klopp wants to 'reclaim' flag amid German elections",
     "date": "2026-09-17",
@@ -2010,58 +2114,6 @@ export const news: NewsItem[] = [
     "source": "BBC Sport",
     "url": "https://www.bbc.co.uk/sport/football/articles/cx2mzz1zd67o?at_medium=RSS&at_campaign=rss",
     "summary": "Wrexham's Moore aiming to stay the distance",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-19T08:41:16.878Z"
-  },
-  {
-    "id": "014deace99f7",
-    "title": "Vieira named new Senegal head coach",
-    "date": "2026-08-18",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cr49v9dn431o?at_medium=RSS&at_campaign=rss",
-    "summary": "Vieira named new Senegal head coach",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-19T08:41:16.878Z"
-  },
-  {
-    "id": "77d49d9a21c3",
-    "title": "Barcelona steal Rodri away from Real Madrid and plan to make him new Busquets",
-    "date": "2026-08-18",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/18/barcelona-snatch-rodri-from-madrid-and-make-him-new-busquets",
-    "summary": "Barcelona steal Rodri away from Real Madrid and plan to make him new Busquets",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-19T08:41:16.878Z"
-  },
-  {
-    "id": "a212ba71f286",
-    "title": "In Zavier Gozo, Crystal Palace land a US prospect living up to the hype",
-    "date": "2026-08-18",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/18/zavier-gozo-crystal-palace-mls-real-salt-lake-transfer",
-    "summary": "In Zavier Gozo, Crystal Palace land a US prospect living up to the hype",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-19T08:41:16.878Z"
-  },
-  {
-    "id": "70ba0e82e552",
-    "title": "Patrick Vieira appointed as head coach of Senegal, the country of his birth",
-    "date": "2026-08-18",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/18/patrick-vieira-appointed-as-senegal-head-coach",
-    "summary": "Patrick Vieira appointed as head coach of Senegal, the country of his birth",
     "categories": [
       "general"
     ],
