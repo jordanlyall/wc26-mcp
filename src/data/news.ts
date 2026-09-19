@@ -2,6 +2,123 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "42e459bd11f7",
+    "title": "Will England boss Tuchel 'embrace the chaos'?",
+    "date": "2026-09-18",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cvrl64y9rdn9o?at_medium=RSS&at_campaign=rss",
+    "summary": "Will England boss Tuchel 'embrace the chaos'?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-19T12:21:49.692Z"
+  },
+  {
+    "id": "78b8b98a13b0",
+    "title": "Senegal job an 'absolute dream' for new boss Vieira",
+    "date": "2026-09-18",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/crlyqgqwq8lyo?at_medium=RSS&at_campaign=rss",
+    "summary": "Senegal job an 'absolute dream' for new boss Vieira",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-19T12:21:49.692Z"
+  },
+  {
+    "id": "8cacc6627e99",
+    "title": "Ronaldo named in Jesus' first Portugal squad",
+    "date": "2026-09-18",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cmeq8v8e3ql7o?at_medium=RSS&at_campaign=rss",
+    "summary": "Ronaldo named in Jesus' first Portugal squad",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-19T12:21:49.692Z"
+  },
+  {
+    "id": "1f4cca33ab40",
+    "title": "Harry Kane smashes record for fastest to 100 Bundesliga goals in 98th game",
+    "date": "2026-09-18",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/18/harry-kane-smashes-record-for-fastest-to-100-bundesliga-goals-in-98th-game",
+    "summary": "Harry Kane smashes record for fastest to 100 Bundesliga goals in 98th game",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-19T12:21:49.692Z"
+  },
+  {
+    "id": "6f35617bf870",
+    "title": "‘Embrace the chaos’: Tuchel aims to harness England’s football culture",
+    "date": "2026-09-18",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/18/embrace-chaos-thomas-tuchel-england-football-culture",
+    "summary": "‘Embrace the chaos’: Tuchel aims to harness England’s football culture",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-19T12:21:49.692Z"
+  },
+  {
+    "id": "bef55de300be",
+    "title": "Tuchel should listen to ‘the 0.1%’ and learn from England’s World Cup mistakes | Jacob Steinberg",
+    "date": "2026-09-18",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/18/thomas-tuchel-england-squad-world-cup-mistakes-nations-league",
+    "summary": "Tuchel should listen to ‘the 0.1%’ and learn from England’s World Cup mistakes | Jacob Steinberg",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-19T12:21:49.692Z"
+  },
+  {
+    "id": "ccabe6dbeb9b",
+    "title": "Kylian Mbappé leaves Nike after 20 years to sign boot deal with Swiss brand On",
+    "date": "2026-09-18",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/18/kylian-mbappe-leaves-nike-20-years-boot-deal-swiss-brand-on",
+    "summary": "Kylian Mbappé leaves Nike after 20 years to sign boot deal with Swiss brand On",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-19T12:21:49.692Z"
+  },
+  {
+    "id": "931c422283a0",
+    "title": "Case not proven: Trent Alexander-Arnold’s England recall is based on patchy evidence",
+    "date": "2026-09-18",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/18/trent-alexander-arnold-england-recall-patchy-evidence",
+    "summary": "Case not proven: Trent Alexander-Arnold’s England recall is based on patchy evidence",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-19T12:21:49.692Z"
+  },
+  {
+    "id": "accf19ead829",
+    "title": "Football Daily | Spying some tasty match-ups, from Wrexham v Saints to desperation derbies",
+    "date": "2026-09-18",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/18/weekend-derbies-football-daily-newsletter",
+    "summary": "Football Daily | Spying some tasty match-ups, from Wrexham v Saints to desperation derbies",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-19T12:21:49.692Z"
+  },
+  {
     "id": "5258ee42e903",
     "title": "Tuchel recalls Palmer and Alexander-Arnold for England",
     "date": "2026-09-18",
@@ -2015,109 +2132,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-08-20T08:42:38.631Z"
-  },
-  {
-    "id": "fd08286808c6",
-    "title": "‘A huge honour’: Socceroos World Cup star Alessandro Circati seals move to Benfica",
-    "date": "2026-08-19",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/20/alessandro-circati-benfica-portugal-primeira-liga-transfer-news-move",
-    "summary": "‘A huge honour’: Socceroos World Cup star Alessandro Circati seals move to Benfica",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-21T08:45:21.493Z"
-  },
-  {
-    "id": "648ae0290b08",
-    "title": "Questions remain over Vieira deal amid Senegal uncertainty",
-    "date": "2026-08-19",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cddjvjqd5mro?at_medium=RSS&at_campaign=rss",
-    "summary": "Questions remain over Vieira deal amid Senegal uncertainty",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-20T08:42:38.631Z"
-  },
-  {
-    "id": "f79ab1c969bb",
-    "title": "‘He doubted’: Mourinho says Real Madrid did not want Rodri after hesitation over move",
-    "date": "2026-08-19",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/19/jose-mourinho-real-madrid-rodri-barcelona-transfer-offer",
-    "summary": "‘He doubted’: Mourinho says Real Madrid did not want Rodri after hesitation over move",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-20T08:42:38.631Z"
-  },
-  {
-    "id": "6853877330ab",
-    "title": "Arsenal agree £51m deal to sign Ezri Konsa from Aston Villa",
-    "date": "2026-08-19",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/19/aston-villa-al-hilal-ollie-watkins",
-    "summary": "Arsenal agree £51m deal to sign Ezri Konsa from Aston Villa",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-20T08:42:38.631Z"
-  },
-  {
-    "id": "b8f04d460ca5",
-    "title": "Wafcon 2026 review: Glory for Cameroon, Nigeria flop and Malawi cause a stir",
-    "date": "2026-08-19",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/sport/2026/aug/19/wafcon-2026-review-glory-for-cameroon-nigeria-flop-and-malawi-cause-a-stir",
-    "summary": "Wafcon 2026 review: Glory for Cameroon, Nigeria flop and Malawi cause a stir",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-20T08:42:38.631Z"
-  },
-  {
-    "id": "5369233e1150",
-    "title": "Football Daily | Sensible soccer: are football clubs actually signing the players they need?",
-    "date": "2026-08-19",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/19/sensible-soccer-clubs-signing-players-transfers-football-daily",
-    "summary": "Football Daily | Sensible soccer: are football clubs actually signing the players they need?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-20T08:42:38.631Z"
-  },
-  {
-    "id": "7d8231510e95",
-    "title": "Football transfer rumours: Al-Hilal eye moves for Harry Kane and Ollie Watkins?",
-    "date": "2026-08-19",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/19/football-transfer-rumours-al-hilal-eye-moves-for-harry-kane-and-ollie-watkins",
-    "summary": "Football transfer rumours: Al-Hilal eye moves for Harry Kane and Ollie Watkins?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-20T08:42:38.631Z"
-  },
-  {
-    "id": "d530f271f0ad",
-    "title": "Wrexham's Moore aiming to stay the distance",
-    "date": "2026-08-19",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cx2mzz1zd67o?at_medium=RSS&at_campaign=rss",
-    "summary": "Wrexham's Moore aiming to stay the distance",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-19T08:41:16.878Z"
   }
 ];
