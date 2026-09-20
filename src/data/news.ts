@@ -2,6 +2,45 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "78486dec2200",
+    "title": "‘We miss her the same every day’: Olivia Cusack on her late footballer sister Maddy",
+    "date": "2026-09-20",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/20/olivia-cusack-maddy-cusack-late-footballer-legacy-sheffield-united",
+    "summary": "‘We miss her the same every day’: Olivia Cusack on her late footballer sister Maddy",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-20T12:57:04.842Z"
+  },
+  {
+    "id": "19452b98c371",
+    "title": "Andros Townsend avoids injury after bizarre pitch roller incident in Thailand",
+    "date": "2026-09-20",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/20/andros-townsend-avoids-injury-after-bizarre-pitch-roller-incident-in-thailand",
+    "summary": "Andros Townsend avoids injury after bizarre pitch roller incident in Thailand",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-20T12:57:04.842Z"
+  },
+  {
+    "id": "ab6f21a1851d",
+    "title": "Zidane’s next move as France coach may reveal the wizard behind the curtain | Jonathan Wilson",
+    "date": "2026-09-19",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/19/zinedine-zidane-france-coach-wizard-behind-curtain",
+    "summary": "Zidane’s next move as France coach may reveal the wizard behind the curtain | Jonathan Wilson",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-20T12:57:04.842Z"
+  },
+  {
     "id": "42e459bd11f7",
     "title": "Will England boss Tuchel 'embrace the chaos'?",
     "date": "2026-09-18",
@@ -195,6 +234,19 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-09-18T12:48:51.294Z"
+  },
+  {
+    "id": "0a1fe174bbb4",
+    "title": "Two years and one World Cup down, Mauricio Pochettino is still assessing",
+    "date": "2026-09-17",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/17/mauricio-pochettino-calls-the-kids",
+    "summary": "Two years and one World Cup down, Mauricio Pochettino is still assessing",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-20T12:57:04.842Z"
   },
   {
     "id": "b37ad03c976f",
@@ -2080,57 +2132,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-08-21T08:45:21.493Z"
-  },
-  {
-    "id": "df245374f91a",
-    "title": "Maracanã to host opening game and final at next year’s Women’s World Cup",
-    "date": "2026-08-20",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/20/maracana-to-host-opening-game-and-final-at-next-years-womens-world-cup",
-    "summary": "Maracanã to host opening game and final at next year’s Women’s World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-22T08:34:10.154Z"
-  },
-  {
-    "id": "e655fe11c798",
-    "title": "Can a managerial merry-go-round in Serie A stop Inter’s dominance?",
-    "date": "2026-08-20",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/20/serie-a-preview-inter-milan-juventus-como-roma-napoli",
-    "summary": "Can a managerial merry-go-round in Serie A stop Inter’s dominance?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-21T08:45:21.493Z"
-  },
-  {
-    "id": "404527afa733",
-    "title": "Robot building and Essien: Yirenkyi’s circuitous path to Premier League",
-    "date": "2026-08-20",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/20/yirenkyi-completes-rapid-journey-from-ghana-to-coventry-via-denmark",
-    "summary": "Robot building and Essien: Yirenkyi’s circuitous path to Premier League",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-21T08:45:21.493Z"
-  },
-  {
-    "id": "a3e88f05f394",
-    "title": "Football transfer rumours: Newcastle to sign Manchester City’s Nico González?",
-    "date": "2026-08-20",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/20/football-transfer-rumours-newcastle-nico-gonzalez-manchester-united-aston-villa",
-    "summary": "Football transfer rumours: Newcastle to sign Manchester City’s Nico González?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-20T08:42:38.631Z"
   }
 ];
