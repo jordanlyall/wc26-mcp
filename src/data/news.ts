@@ -2,6 +2,162 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "2d9dc8bd7555",
+    "title": "Palmer & Rice among five withdrawals from England squad",
+    "date": "2026-09-21",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c617j2prweejo?at_medium=RSS&at_campaign=rss",
+    "summary": "Palmer & Rice among five withdrawals from England squad",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-21T14:57:25.039Z"
+  },
+  {
+    "id": "1a4a8ccdd565",
+    "title": "Xhaka under investigation over Covid-19 certificate",
+    "date": "2026-09-21",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c3qjkpgengn7o?at_medium=RSS&at_campaign=rss",
+    "summary": "Xhaka under investigation over Covid-19 certificate",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-21T14:57:25.039Z"
+  },
+  {
+    "id": "151d5e56c0a9",
+    "title": "Wilson, Darlow and Broadhead out of Wales squad",
+    "date": "2026-09-21",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cw8r68mv415lo?at_medium=RSS&at_campaign=rss",
+    "summary": "Wilson, Darlow and Broadhead out of Wales squad",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-21T14:57:25.039Z"
+  },
+  {
+    "id": "63705f63d772",
+    "title": "How is Scotland squad shaping up for Pocognoli debut?",
+    "date": "2026-09-21",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/ck8d38yz4yymo?at_medium=RSS&at_campaign=rss",
+    "summary": "How is Scotland squad shaping up for Pocognoli debut?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-21T14:57:25.039Z"
+  },
+  {
+    "id": "d9d6167bfbd6",
+    "title": "Pocognoli Facetime helps Miller over summer of discontent",
+    "date": "2026-09-21",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c6zxz2722jjvo?at_medium=RSS&at_campaign=rss",
+    "summary": "Pocognoli Facetime helps Miller over summer of discontent",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-21T14:57:25.039Z"
+  },
+  {
+    "id": "f2fb64659f9d",
+    "title": "What will 'greatest captain' bring to Bellamy's Wales?",
+    "date": "2026-09-21",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c58jdvlejve2o?at_medium=RSS&at_campaign=rss",
+    "summary": "What will 'greatest captain' bring to Bellamy's Wales?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-21T14:57:25.039Z"
+  },
+  {
+    "id": "63705f63d772",
+    "title": "How is Scotland squad shaping up for Pocognoli debut?",
+    "date": "2026-09-21",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/ck8d38yz4yymo?at_medium=RSS&at_campaign=rss",
+    "summary": "How is Scotland squad shaping up for Pocognoli debut?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-21T14:57:25.039Z"
+  },
+  {
+    "id": "1a4a8ccdd565",
+    "title": "Xhaka withdraws from Swiss squad over Covid-19 probe",
+    "date": "2026-09-21",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c3qjkpgengn7o?at_medium=RSS&at_campaign=rss",
+    "summary": "Xhaka withdraws from Swiss squad over Covid-19 probe",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-21T14:57:25.039Z"
+  },
+  {
+    "id": "d9d6167bfbd6",
+    "title": "Pocognoli Facetime helps Miller over summer of discontent",
+    "date": "2026-09-21",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c6zxz2722jjvo?at_medium=RSS&at_campaign=rss",
+    "summary": "Pocognoli Facetime helps Miller over summer of discontent",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-21T14:57:25.039Z"
+  },
+  {
+    "id": "83d9832cfbf9",
+    "title": "Thomas Tuchel rocked by five key withdrawals from England squad",
+    "date": "2026-09-21",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/21/cole-palmer-injury-england-nations-league-rashford-kobbie-mainoo-spain-tuchel",
+    "summary": "Thomas Tuchel rocked by five key withdrawals from England squad",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-21T14:57:25.039Z"
+  },
+  {
+    "id": "3290de2d4ec5",
+    "title": "Granit Xhaka admits to receiving fake Covid vaccination certificate in 2022",
+    "date": "2026-09-21",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/21/granit-xhaka-admits-receiving-fake-covid-vaccination-certificate",
+    "summary": "Granit Xhaka admits to receiving fake Covid vaccination certificate in 2022",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-21T14:57:25.039Z"
+  },
+  {
+    "id": "5acf0aaae073",
+    "title": "Premier League: 10 talking points from the weekend’s action",
+    "date": "2026-09-21",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/21/premier-league-10-talking-points-from-the-weekends-action",
+    "summary": "Premier League: 10 talking points from the weekend’s action",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-21T14:57:25.039Z"
+  },
+  {
     "id": "78486dec2200",
     "title": "‘We miss her the same every day’: Olivia Cusack on her late footballer sister Maddy",
     "date": "2026-09-20",
@@ -39,6 +195,19 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-09-20T12:57:04.842Z"
+  },
+  {
+    "id": "6007c1265248",
+    "title": "Noahkai Banks, top dual-national prospect, chooses Germany in blow to USMNT",
+    "date": "2026-09-18",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/18/noahkai-banks-germany-usmnt",
+    "summary": "Noahkai Banks, top dual-national prospect, chooses Germany in blow to USMNT",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-21T14:57:25.039Z"
   },
   {
     "id": "42e459bd11f7",
@@ -2067,70 +2236,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-08-23T08:34:13.029Z"
-  },
-  {
-    "id": "661cd3cc4ae7",
-    "title": "England Women U20s squad named amid boycott threat",
-    "date": "2026-08-21",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c2el8j10vl3o?at_medium=RSS&at_campaign=rss",
-    "summary": "England Women U20s squad named amid boycott threat",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-22T08:34:10.154Z"
-  },
-  {
-    "id": "661cd3cc4ae7",
-    "title": "England Women U20s squad named amid boycott threat",
-    "date": "2026-08-21",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c2el8j10vl3o?at_medium=RSS&at_campaign=rss",
-    "summary": "England Women U20s squad named amid boycott threat",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-22T08:34:10.154Z"
-  },
-  {
-    "id": "edfd015133ca",
-    "title": "Aston Villa’s Rachel Daly: ‘It’s given me more of a focus: club football is my one job’",
-    "date": "2026-08-21",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/21/aston-villa-rachel-daly-womens-super-league-england-lionesses",
-    "summary": "Aston Villa’s Rachel Daly: ‘It’s given me more of a focus: club football is my one job’",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-22T08:34:10.154Z"
-  },
-  {
-    "id": "c8a34ec9cf97",
-    "title": "Usain Bolt set to play Sunday league football for star-studded veterans’ team",
-    "date": "2026-08-21",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/sport/2026/aug/21/usain-bolt-to-play-sunday-league-football-wythenshawe-veterans",
-    "summary": "Usain Bolt set to play Sunday league football for star-studded veterans’ team",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-22T08:34:10.154Z"
-  },
-  {
-    "id": "402d50bea418",
-    "title": "Tottenham close on deals for Manchester City’s Savinho and Omar Marmoush",
-    "date": "2026-08-21",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/21/tottenham-hotspur-close-on-deals-for-manchester-city-savinho-omar-marmoush",
-    "summary": "Tottenham close on deals for Manchester City’s Savinho and Omar Marmoush",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-21T08:45:21.493Z"
   }
 ];
