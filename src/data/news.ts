@@ -2,6 +2,149 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "da142ad9179c",
+    "title": "McPake's 'colourful' journey from club-less to Scotland call-up in three years",
+    "date": "2026-09-22",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cmx2z1jldpnzo?at_medium=RSS&at_campaign=rss",
+    "summary": "McPake's 'colourful' journey from club-less to Scotland call-up in three years",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-22T13:13:48.379Z"
+  },
+  {
+    "id": "38aa1a2dd0de",
+    "title": "How do players withdraw from an international squad?",
+    "date": "2026-09-22",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/crz6z2y31pvlo?at_medium=RSS&at_campaign=rss",
+    "summary": "How do players withdraw from an international squad?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-22T13:13:48.379Z"
+  },
+  {
+    "id": "da142ad9179c",
+    "title": "McPake's 'colourful' journey from club-less to Scotland call-up in three years",
+    "date": "2026-09-22",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cmx2z1jldpnzo?at_medium=RSS&at_campaign=rss",
+    "summary": "McPake's 'colourful' journey from club-less to Scotland call-up in three years",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-22T13:13:48.379Z"
+  },
+  {
+    "id": "2e809353cdc8",
+    "title": "Branthwaite reveals brain study helped him conquer injuries and earn England call",
+    "date": "2026-09-22",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/22/jarrad-branthwaite-england-nations-league-everton",
+    "summary": "Branthwaite reveals brain study helped him conquer injuries and earn England call",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-22T13:13:48.379Z"
+  },
+  {
+    "id": "c297f0e5e381",
+    "title": "Édouard Mendy: ‘Winning Afcon was 10 times better than the Champions League’",
+    "date": "2026-09-22",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/22/edouard-mendy-winning-afcon-was-10-times-better-than-the-champions-league",
+    "summary": "Édouard Mendy: ‘Winning Afcon was 10 times better than the Champions League’",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-22T13:13:48.379Z"
+  },
+  {
+    "id": "463715e9b929",
+    "title": "Dockers derby delivers and England squad upheaval | Football Weekly",
+    "date": "2026-09-22",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/video/2026/sep/22/dockers-derby-delivers-and-england-squad-upheaval-football-weekly",
+    "summary": "Dockers derby delivers and England squad upheaval | Football Weekly",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-22T13:13:48.379Z"
+  },
+  {
+    "id": "8de3a7d82d4b",
+    "title": "Dockers derby delivers and England squad upheaval – Football Weekly podcast",
+    "date": "2026-09-22",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/audio/2026/sep/22/dockers-derby-delivers-and-england-squad-upheaval-football-weekly",
+    "summary": "Dockers derby delivers and England squad upheaval – Football Weekly podcast",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-22T13:13:48.379Z"
+  },
+  {
+    "id": "4ad22a965b1b",
+    "title": "Being run over by pitch roller was terrifying - Townsend",
+    "date": "2026-09-21",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cqp8dpd5d27yo?at_medium=RSS&at_campaign=rss",
+    "summary": "Being run over by pitch roller was terrifying - Townsend",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-22T13:13:48.379Z"
+  },
+  {
+    "id": "09213b0dd484",
+    "title": "Scotland call for Montgomery as Tierney & McLean drop out",
+    "date": "2026-09-21",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c6wyz22d39ldo?at_medium=RSS&at_campaign=rss",
+    "summary": "Scotland call for Montgomery as Tierney & McLean drop out",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-22T13:13:48.379Z"
+  },
+  {
+    "id": "09213b0dd484",
+    "title": "Scotland call for Montgomery as Tierney & McLean drop out",
+    "date": "2026-09-21",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c6wyz22d39ldo?at_medium=RSS&at_campaign=rss",
+    "summary": "Scotland call for Montgomery as Tierney & McLean drop out",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-22T13:13:48.379Z"
+  },
+  {
+    "id": "ac8b3462edc1",
+    "title": "Pierre Sage took Lens to new heights. His replacement left after six games",
+    "date": "2026-09-21",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/21/pierre-sage-lens-ligue-1-coupe-de-france-success",
+    "summary": "Pierre Sage took Lens to new heights. His replacement left after six games",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-22T13:13:48.379Z"
+  },
+  {
     "id": "2d9dc8bd7555",
     "title": "Palmer & Rice among five withdrawals from England squad",
     "date": "2026-09-21",
@@ -2166,71 +2309,6 @@ export const news: NewsItem[] = [
     "source": "The Guardian",
     "url": "https://www.theguardian.com/football/live/2026/aug/23/isak-returns-to-newcastle-with-liverpool-premier-league-buildup-and-more-matchday-live",
     "summary": "Isak returns to Newcastle with Liverpool, Premier League buildup, and more – matchday live",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-23T08:34:13.029Z"
-  },
-  {
-    "id": "6f305200d89e",
-    "title": "Man City will 'try to find the new Rodri' - Maresca",
-    "date": "2026-08-22",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cd9w1zkw7x8o?at_medium=RSS&at_campaign=rss",
-    "summary": "Man City will 'try to find the new Rodri' - Maresca",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-23T08:34:13.029Z"
-  },
-  {
-    "id": "d02707ca6b9e",
-    "title": "Ex-West Brom midfielder Castro, 25, dies during friendly",
-    "date": "2026-08-22",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c8dnd416pzyo?at_medium=RSS&at_campaign=rss",
-    "summary": "Ex-West Brom midfielder Castro, 25, dies during friendly",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-23T08:34:13.029Z"
-  },
-  {
-    "id": "254e8e221a76",
-    "title": "Can Pocognoli afford to continue McBurnie's Scotland exile?",
-    "date": "2026-08-22",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/crrvr9xgqx5o?at_medium=RSS&at_campaign=rss",
-    "summary": "Can Pocognoli afford to continue McBurnie's Scotland exile?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-23T08:34:13.029Z"
-  },
-  {
-    "id": "254e8e221a76",
-    "title": "Can Pocognoli afford to continue McBurnie's Scotland exile?",
-    "date": "2026-08-22",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/crrvr9xgqx5o?at_medium=RSS&at_campaign=rss",
-    "summary": "Can Pocognoli afford to continue McBurnie's Scotland exile?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-23T08:34:13.029Z"
-  },
-  {
-    "id": "3bd5e8d0a368",
-    "title": "Enciso shines bright for Ipswich as Emersonn and Clarke sink Sunderland",
-    "date": "2026-08-22",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/22/ipswich-sunderland-premier-league-match-report",
-    "summary": "Enciso shines bright for Ipswich as Emersonn and Clarke sink Sunderland",
     "categories": [
       "general"
     ],
