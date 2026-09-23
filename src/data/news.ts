@@ -2,6 +2,175 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "3d312d9c001f",
+    "title": "Pocognoli has 'positive nervousness' for Scotland debut ",
+    "date": "2026-09-23",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cw1mvy20202eo?at_medium=RSS&at_campaign=rss",
+    "summary": "Pocognoli has 'positive nervousness' for Scotland debut ",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-23T13:28:49.950Z"
+  },
+  {
+    "id": "53bd9586d038",
+    "title": "Germany's saviour? How Klopp is looking to turn fortunes around",
+    "date": "2026-09-23",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cmx2z3n88z77o?at_medium=RSS&at_campaign=rss",
+    "summary": "Germany's saviour? How Klopp is looking to turn fortunes around",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-23T13:28:49.950Z"
+  },
+  {
+    "id": "af36aa697e38",
+    "title": "From leaving Rangers to La Liga - Scotland is next step for Ure",
+    "date": "2026-09-23",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c617jyexnnd5o?at_medium=RSS&at_campaign=rss",
+    "summary": "From leaving Rangers to La Liga - Scotland is next step for Ure",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-23T13:28:49.950Z"
+  },
+  {
+    "id": "bacc18c99247",
+    "title": "Scots recall 'versatile' Kerr & Thomas for World Cup play-offs",
+    "date": "2026-09-23",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c63d7ypd11ydo?at_medium=RSS&at_campaign=rss",
+    "summary": "Scots recall 'versatile' Kerr & Thomas for World Cup play-offs",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-23T13:28:49.950Z"
+  },
+  {
+    "id": "3d312d9c001f",
+    "title": "Pocognoli has 'positive nervousness' for Scotland debut ",
+    "date": "2026-09-23",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cw1mvy20202eo?at_medium=RSS&at_campaign=rss",
+    "summary": "Pocognoli has 'positive nervousness' for Scotland debut ",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-23T13:28:49.950Z"
+  },
+  {
+    "id": "bacc18c99247",
+    "title": "Scots recall 'versatile' Kerr & Thomas for World Cup play-offs",
+    "date": "2026-09-23",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c63d7ypd11ydo?at_medium=RSS&at_campaign=rss",
+    "summary": "Scots recall 'versatile' Kerr & Thomas for World Cup play-offs",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-23T13:28:49.950Z"
+  },
+  {
+    "id": "af36aa697e38",
+    "title": "From leaving Rangers to La Liga - Scotland is next step for Ure",
+    "date": "2026-09-23",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c617jyexnnd5o?at_medium=RSS&at_campaign=rss",
+    "summary": "From leaving Rangers to La Liga - Scotland is next step for Ure",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-23T13:28:49.950Z"
+  },
+  {
+    "id": "bacc18c99247",
+    "title": "Scots recall 'versatile' Kerr & Thomas for World Cup play-offs",
+    "date": "2026-09-23",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c63d7ypd11ydo?at_medium=RSS&at_campaign=rss",
+    "summary": "Scots recall 'versatile' Kerr & Thomas for World Cup play-offs",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-23T13:28:49.950Z"
+  },
+  {
+    "id": "d104d79b83ca",
+    "title": "Ten of the best-value deals from this summer’s transfer window",
+    "date": "2026-09-23",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/23/summer-football-transfer-window-best-value-deals",
+    "summary": "Ten of the best-value deals from this summer’s transfer window",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-23T13:28:49.950Z"
+  },
+  {
+    "id": "6080d06cdac1",
+    "title": "Slip sliding away: football season-ticket holders fear falling down pecking order",
+    "date": "2026-09-23",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/23/premier-league-season-ticket-holders-pecking-order-new-fans-football-tourists",
+    "summary": "Slip sliding away: football season-ticket holders fear falling down pecking order",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-23T13:28:49.950Z"
+  },
+  {
+    "id": "fffe845424f5",
+    "title": "Pizza with Henry, captaining Brondby, and now a Scotland chance",
+    "date": "2026-09-22",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cm70dyzjwg91o?at_medium=RSS&at_campaign=rss",
+    "summary": "Pizza with Henry, captaining Brondby, and now a Scotland chance",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-23T13:28:49.950Z"
+  },
+  {
+    "id": "b94c509ca8cc",
+    "title": "Will anyone topple Infantino? How Fifa president is trying to cling on after World Cup sell-off debacle",
+    "date": "2026-09-22",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/22/gianni-infantino-fifa-president-election-world-cup-sell-off-debacle",
+    "summary": "Will anyone topple Infantino? How Fifa president is trying to cling on after World Cup sell-off debacle",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-23T13:28:49.950Z"
+  },
+  {
+    "id": "1835bfcd59a1",
+    "title": "Football Daily | Klopp, Xavi, Zidane, Mancini: big nations ready to unleash bigger dogs",
+    "date": "2026-09-22",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/22/klopp-xavi-zidane-mancini-football-daily-newsletter",
+    "summary": "Football Daily | Klopp, Xavi, Zidane, Mancini: big nations ready to unleash bigger dogs",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-23T13:28:49.950Z"
+  },
+  {
     "id": "da142ad9179c",
     "title": "McPake's 'colourful' journey from club-less to Scotland call-up in three years",
     "date": "2026-09-22",
@@ -2262,57 +2431,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-08-24T08:52:32.113Z"
-  },
-  {
-    "id": "377e5f307322",
-    "title": "Is Sevilla's 'all-round striker' Ure ready to lead Scotland's attack?",
-    "date": "2026-08-23",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c86n6d07825o?at_medium=RSS&at_campaign=rss",
-    "summary": "Is Sevilla's 'all-round striker' Ure ready to lead Scotland's attack?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-24T08:52:32.113Z"
-  },
-  {
-    "id": "377e5f307322",
-    "title": "Is Sevilla's 'all-round striker' Ure ready to lead Scotland's attack?",
-    "date": "2026-08-23",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c86n6d07825o?at_medium=RSS&at_campaign=rss",
-    "summary": "Is Sevilla's 'all-round striker' Ure ready to lead Scotland's attack?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-24T08:52:32.113Z"
-  },
-  {
-    "id": "d500e615e10f",
-    "title": "‘Call his agent’: Emery feels Watkins should explain absence from Villa’s rout by Brighton",
-    "date": "2026-08-23",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/23/unai-emery-feels-ollie-watkins-should-explain-absence-from-aston-villa-loss-brighton",
-    "summary": "‘Call his agent’: Emery feels Watkins should explain absence from Villa’s rout by Brighton",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-24T08:52:32.113Z"
-  },
-  {
-    "id": "ae8c5e31c107",
-    "title": "Isak returns to Newcastle with Liverpool, Premier League buildup, and more – matchday live",
-    "date": "2026-08-23",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/live/2026/aug/23/isak-returns-to-newcastle-with-liverpool-premier-league-buildup-and-more-matchday-live",
-    "summary": "Isak returns to Newcastle with Liverpool, Premier League buildup, and more – matchday live",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-23T08:34:13.029Z"
   }
 ];
