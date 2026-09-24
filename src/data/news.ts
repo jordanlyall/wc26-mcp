@@ -2,6 +2,149 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "ceee62951fd3",
+    "title": "Fox makes 'easy decision' to sign three-year Arsenal deal",
+    "date": "2026-09-24",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c046lgw20nno?at_medium=RSS&at_campaign=rss",
+    "summary": "Fox makes 'easy decision' to sign three-year Arsenal deal",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-24T13:24:12.167Z"
+  },
+  {
+    "id": "7f12485eb3e0",
+    "title": "Wilson & Curtis leave Scotland squad to join U-21s",
+    "date": "2026-09-24",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c6y8zmndyjkro?at_medium=RSS&at_campaign=rss",
+    "summary": "Wilson & Curtis leave Scotland squad to join U-21s",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-24T13:24:12.167Z"
+  },
+  {
+    "id": "ceee62951fd3",
+    "title": "Fox makes 'easy decision' to sign three-year Arsenal deal",
+    "date": "2026-09-24",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c046lgw20nno?at_medium=RSS&at_campaign=rss",
+    "summary": "Fox makes 'easy decision' to sign three-year Arsenal deal",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-24T13:24:12.167Z"
+  },
+  {
+    "id": "bf0862e06753",
+    "title": "‘It’s not in us’: Anthony Gordon backs Tuchel over England’s possession problem",
+    "date": "2026-09-24",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/24/anthony-gordon-backs-tuchel-over-england-possession-problem-world-cup-nations-league",
+    "summary": "‘It’s not in us’: Anthony Gordon backs Tuchel over England’s possession problem",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-24T13:24:12.167Z"
+  },
+  {
+    "id": "75c9eb2d69b7",
+    "title": "Anger at Tuchel over World Cup exit exposes biggest obstacle to England success | Barney Ronay",
+    "date": "2026-09-24",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/24/the-system-not-tuchel-led-to-world-cup-failure-but-euro-2028-offers-new-hope",
+    "summary": "Anger at Tuchel over World Cup exit exposes biggest obstacle to England success | Barney Ronay",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-24T13:24:12.167Z"
+  },
+  {
+    "id": "f6c28e96c9ec",
+    "title": "Eriksen leaves Wolfsburg by mutual consent",
+    "date": "2026-09-23",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cm5yezn8w4xdo?at_medium=RSS&at_campaign=rss",
+    "summary": "Eriksen leaves Wolfsburg by mutual consent",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-24T13:24:12.167Z"
+  },
+  {
+    "id": "05a1e418345b",
+    "title": "Netherlands v Germany: Klopp and Xavi begin revival projects with derby",
+    "date": "2026-09-23",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/23/special-klopp-and-xavi-take-first-steps-on-international-stage-with-revival-in-mind",
+    "summary": "Netherlands v Germany: Klopp and Xavi begin revival projects with derby",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-24T13:24:12.167Z"
+  },
+  {
+    "id": "c1179e3f0ed3",
+    "title": "Cristiano Ronaldo vows to play on for Portugal and targets 1,000 career goals",
+    "date": "2026-09-23",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/23/cristiano-ronaldo-portugal-wales-nations-league",
+    "summary": "Cristiano Ronaldo vows to play on for Portugal and targets 1,000 career goals",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-24T13:24:12.167Z"
+  },
+  {
+    "id": "5f1690ee4d97",
+    "title": "Christian Eriksen leaves Wolfsburg by mutual consent after on-pitch collapse in June",
+    "date": "2026-09-23",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/23/christian-eriksen-leaves-wolfsburg-mutual-consent-denmark",
+    "summary": "Christian Eriksen leaves Wolfsburg by mutual consent after on-pitch collapse in June",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-24T13:24:12.167Z"
+  },
+  {
+    "id": "e2e9eb907cfb",
+    "title": "Harry Kane admits England’s World Cup 2026 exit ‘hurt more than any other’",
+    "date": "2026-09-23",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/23/harry-kane-england-world-cup-argentina-nations-league-spain",
+    "summary": "Harry Kane admits England’s World Cup 2026 exit ‘hurt more than any other’",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-24T13:24:12.167Z"
+  },
+  {
+    "id": "d7b3197bff0f",
+    "title": "Football Daily | Madrid, Mourinho and the fight for neutrality in row with Javier Tebas",
+    "date": "2026-09-23",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/23/madrid-mourinho-javier-tebas-football-daily-newsletter",
+    "summary": "Football Daily | Madrid, Mourinho and the fight for neutrality in row with Javier Tebas",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-24T13:24:12.167Z"
+  },
+  {
     "id": "3d312d9c001f",
     "title": "Pocognoli has 'positive nervousness' for Scotland debut ",
     "date": "2026-09-23",
@@ -2405,31 +2548,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-08-26T08:49:14.055Z"
-  },
-  {
-    "id": "437df37eb5fa",
-    "title": "Docherty appointed Scotland Under-21 head coach",
-    "date": "2026-08-24",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cy4zyk4w78no?at_medium=RSS&at_campaign=rss",
-    "summary": "Docherty appointed Scotland Under-21 head coach",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-25T08:48:06.871Z"
-  },
-  {
-    "id": "d77d42135d81",
-    "title": "Premier League: 10 talking points from opening weekend of the season",
-    "date": "2026-08-24",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/24/premier-league-10-talking-points-from-opening-weekend-action",
-    "summary": "Premier League: 10 talking points from opening weekend of the season",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-24T08:52:32.113Z"
   }
 ];
