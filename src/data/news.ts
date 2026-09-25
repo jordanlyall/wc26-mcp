@@ -2,6 +2,201 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "8175f9bd4a80",
+    "title": "You are the new Scotland boss - what would you do?",
+    "date": "2026-09-25",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cje3reed6dx4o?at_medium=RSS&at_campaign=rss",
+    "summary": "You are the new Scotland boss - what would you do?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-25T13:26:19.118Z"
+  },
+  {
+    "id": "a161551740fb",
+    "title": "New-look squad, but how will Pocognoli's Scotland line-up?",
+    "date": "2026-09-25",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c5zjzlr41m2vo?at_medium=RSS&at_campaign=rss",
+    "summary": "New-look squad, but how will Pocognoli's Scotland line-up?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-25T13:26:19.118Z"
+  },
+  {
+    "id": "8175f9bd4a80",
+    "title": "You are the new Scotland boss - what would you do?",
+    "date": "2026-09-25",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cje3reed6dx4o?at_medium=RSS&at_campaign=rss",
+    "summary": "You are the new Scotland boss - what would you do?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-25T13:26:19.118Z"
+  },
+  {
+    "id": "dc8929d4c72d",
+    "title": "Celtic step up plans for Jota return - gossip",
+    "date": "2026-09-25",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c6x2zrp30kxko?at_medium=RSS&at_campaign=rss",
+    "summary": "Celtic step up plans for Jota return - gossip",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-25T13:26:19.118Z"
+  },
+  {
+    "id": "0602da263e15",
+    "title": "Havertz returns to Arsenal; Bellingham scoops England award; Nations League buildup: football news – live",
+    "date": "2026-09-25",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/live/2026/sep/25/havertz-injury-latest-haaland-fires-norway-to-victory-england-v-spain-buildup-and-more-football-news-live",
+    "summary": "Havertz returns to Arsenal; Bellingham scoops England award; Nations League buildup: football news – live",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-25T13:26:19.118Z"
+  },
+  {
+    "id": "b8120cd829d6",
+    "title": "Mauricio Pochettino regrets not being ‘more involved’ with Balogun decision",
+    "date": "2026-09-25",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/25/pochettino-balogun-comments",
+    "summary": "Mauricio Pochettino regrets not being ‘more involved’ with Balogun decision",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-25T13:26:19.118Z"
+  },
+  {
+    "id": "4758b1645c3c",
+    "title": "De la Fuente brings insatiable Spain to England knowing World Cup is not enough",
+    "date": "2026-09-25",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/25/luis-de-la-fuente-spain-world-keep-us-winning",
+    "summary": "De la Fuente brings insatiable Spain to England knowing World Cup is not enough",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-25T13:26:19.118Z"
+  },
+  {
+    "id": "9fb3d03b7717",
+    "title": "Kieron Dyer making waves at Southend after leaving ‘hooligan’ days and ‘deathbed’ behind",
+    "date": "2026-09-25",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/25/kieron-dyer-southend-manager-interview",
+    "summary": "Kieron Dyer making waves at Southend after leaving ‘hooligan’ days and ‘deathbed’ behind",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-25T13:26:19.118Z"
+  },
+  {
+    "id": "9d38cb6e18f2",
+    "title": "David Beckham takes £39m dividend as World Cup deals drive record profits",
+    "date": "2026-09-25",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/25/david-beckham-dividend-world-cup-deals-record-profits",
+    "summary": "David Beckham takes £39m dividend as World Cup deals drive record profits",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-25T13:26:19.118Z"
+  },
+  {
+    "id": "d4a018f2f806",
+    "title": "Socceroos denied famous win as late Brazil goal cancels out Irankunda stunner",
+    "date": "2026-09-25",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/25/australia-socceroos-brazil-irankunda-international-friendly-match-report",
+    "summary": "Socceroos denied famous win as late Brazil goal cancels out Irankunda stunner",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-25T13:26:19.118Z"
+  },
+  {
+    "id": "8676f90ed59c",
+    "title": "João Félix strike for Portugal enough to sink Wales but Ronaldo fever falls flat",
+    "date": "2026-09-24",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/24/portugal-wales-nations-league-match-report",
+    "summary": "João Félix strike for Portugal enough to sink Wales but Ronaldo fever falls flat",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-25T13:26:19.118Z"
+  },
+  {
+    "id": "783d2765b739",
+    "title": "James Garner keen to live up to ‘mini-Valverde’ tag after late England call",
+    "date": "2026-09-24",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/24/james-garner-mini-valverde-late-england-call",
+    "summary": "James Garner keen to live up to ‘mini-Valverde’ tag after late England call",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-25T13:26:19.118Z"
+  },
+  {
+    "id": "4d366ff49e4b",
+    "title": "Raphinha: ‘In my head I was leaving Barça, but a few small words can change you’",
+    "date": "2026-09-24",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/24/raphinha-barcelona-interview-la-liga-no9",
+    "summary": "Raphinha: ‘In my head I was leaving Barça, but a few small words can change you’",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-25T13:26:19.118Z"
+  },
+  {
+    "id": "f98f55b7113e",
+    "title": "Gakpo denies Klopp perfect start as Xavi’s Netherlands rescue draw against Germany",
+    "date": "2026-09-24",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/24/netherlands-germany-nations-league-match-report",
+    "summary": "Gakpo denies Klopp perfect start as Xavi’s Netherlands rescue draw against Germany",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-25T13:26:19.118Z"
+  },
+  {
+    "id": "6c4b62d72fd9",
+    "title": "England face world champions Spain as international break commences | Football Weekly – video",
+    "date": "2026-09-24",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/video/2026/sep/24/england-face-world-champions-spain-as-international-break-commences-football-weekly",
+    "summary": "England face world champions Spain as international break commences | Football Weekly – video",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-25T13:26:19.118Z"
+  },
+  {
     "id": "ceee62951fd3",
     "title": "Fox makes 'easy decision' to sign three-year Arsenal deal",
     "date": "2026-09-24",
@@ -2478,71 +2673,6 @@ export const news: NewsItem[] = [
     "source": "The Guardian",
     "url": "https://www.theguardian.com/football/2026/aug/26/football-transfer-rumours-jean-philippe-mateta-to-aston-villa",
     "summary": "Football transfer rumours: Jean-Philippe Mateta to Aston Villa?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-26T08:49:14.055Z"
-  },
-  {
-    "id": "34fa4e6860af",
-    "title": "Exhausted and fragile - how Celtic's capitulation unfolded",
-    "date": "2026-08-25",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/crerjz8814qo?at_medium=RSS&at_campaign=rss",
-    "summary": "Exhausted and fragile - how Celtic's capitulation unfolded",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-26T08:49:14.055Z"
-  },
-  {
-    "id": "f9fb8cc9d7b8",
-    "title": "Cole leaves role as England U21 coach",
-    "date": "2026-08-25",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c4gkekgvz7go?at_medium=RSS&at_campaign=rss",
-    "summary": "Cole leaves role as England U21 coach",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-26T08:49:14.055Z"
-  },
-  {
-    "id": "416f3accd759",
-    "title": "De Zerbi hopes Sávio’s fresh start will help Spurs’ much-needed rebrand",
-    "date": "2026-08-25",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/25/roberto-de-zerbi-savio-signing-tottenham-hotspur-rebrand",
-    "summary": "De Zerbi hopes Sávio’s fresh start will help Spurs’ much-needed rebrand",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-26T08:49:14.055Z"
-  },
-  {
-    "id": "03b2b367ee98",
-    "title": "Xavi hopes time at the ‘university of football’ will end with Dutch success",
-    "date": "2026-08-25",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/25/xavi-hernandez-university-of-football-netherlands-head-coach-barcelona",
-    "summary": "Xavi hopes time at the ‘university of football’ will end with Dutch success",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-26T08:49:14.055Z"
-  },
-  {
-    "id": "30cf9a533bbf",
-    "title": "Manchester United confirm Carlos Baleba signing as midfield spend nears £150m",
-    "date": "2026-08-25",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/25/manchester-united-sign-carlos-baleba-brighton",
-    "summary": "Manchester United confirm Carlos Baleba signing as midfield spend nears £150m",
     "categories": [
       "general"
     ],
