@@ -2,6 +2,188 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "406a7abaf27d",
+    "title": "Ngumoha not in England squad to face Spain",
+    "date": "2026-09-26",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cqn744el41d8o?at_medium=RSS&at_campaign=rss",
+    "summary": "Ngumoha not in England squad to face Spain",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-26T12:49:36.126Z"
+  },
+  {
+    "id": "69c8f9ef6dce",
+    "title": "Bellamy support crucial after serious injury - Wales' Burns",
+    "date": "2026-09-26",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cklyjv02ygeeo?at_medium=RSS&at_campaign=rss",
+    "summary": "Bellamy support crucial after serious injury - Wales' Burns",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-26T12:49:36.126Z"
+  },
+  {
+    "id": "120022767d27",
+    "title": "Pocognoli may require patience to deliver on Scotland shake-up",
+    "date": "2026-09-26",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cvkgw6g1kdg8o?at_medium=RSS&at_campaign=rss",
+    "summary": "Pocognoli may require patience to deliver on Scotland shake-up",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-26T12:49:36.126Z"
+  },
+  {
+    "id": "9add89c353cd",
+    "title": "Slovenia v Scotland: Nations League – live",
+    "date": "2026-09-26",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/live/2026/sep/26/slovenia-v-scotland-nations-league-live",
+    "summary": "Slovenia v Scotland: Nations League – live",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-26T12:49:36.126Z"
+  },
+  {
+    "id": "93ed38dedba1",
+    "title": "How do England beat Spain, or even score against them? The data suggests crosses",
+    "date": "2026-09-26",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/26/how-do-england-beat-spain-or-even-score-against-them-the-data-suggests-crosses",
+    "summary": "How do England beat Spain, or even score against them? The data suggests crosses",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-26T12:49:36.126Z"
+  },
+  {
+    "id": "84c596b5d82a",
+    "title": "Lamine Yamal: ‘Football is mechanised but players like me have that special spark’",
+    "date": "2026-09-26",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/26/lamine-yamal-football-special-spark-spain-world-cup-barcelona",
+    "summary": "Lamine Yamal: ‘Football is mechanised but players like me have that special spark’",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-26T12:49:36.126Z"
+  },
+  {
+    "id": "034bf902cfd2",
+    "title": "‘I’m pretty sure I didn’t imagine it’: the little-known trio of high schoolers who made USMNT history",
+    "date": "2026-09-26",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/26/usmnt-teenagers-history-mike-slivinski-mark-jonas-nelson-vargas",
+    "summary": "‘I’m pretty sure I didn’t imagine it’: the little-known trio of high schoolers who made USMNT history",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-26T12:49:36.126Z"
+  },
+  {
+    "id": "2721727c4f39",
+    "title": "Palmer misses too many opportunities to play for England - Tuchel",
+    "date": "2026-09-25",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cm9dww15527lo?at_medium=RSS&at_campaign=rss",
+    "summary": "Palmer misses too many opportunities to play for England - Tuchel",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-26T12:49:36.126Z"
+  },
+  {
+    "id": "52f80159b754",
+    "title": "From shaky start to statement wins - 100 days of McInnes at Rangers",
+    "date": "2026-09-25",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cqd08xkm22reo?at_medium=RSS&at_campaign=rss",
+    "summary": "From shaky start to statement wins - 100 days of McInnes at Rangers",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-26T12:49:36.126Z"
+  },
+  {
+    "id": "52f80159b754",
+    "title": "From shaky start to statement wins - 100 days of McInnes at Rangers",
+    "date": "2026-09-25",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cqd08xkm22reo?at_medium=RSS&at_campaign=rss",
+    "summary": "From shaky start to statement wins - 100 days of McInnes at Rangers",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-26T12:49:36.126Z"
+  },
+  {
+    "id": "814b389bc722",
+    "title": "England aim to win over Wembley and revive Wonderwall in Spain glamour fixture",
+    "date": "2026-09-25",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/25/england-spain-thomas-tuchel-nations-league-wonderwall",
+    "summary": "England aim to win over Wembley and revive Wonderwall in Spain glamour fixture",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-26T12:49:36.126Z"
+  },
+  {
+    "id": "dc03ca197a35",
+    "title": "Liverpool’s Cody Gakpo reflects on ‘tough summer … in football and life’",
+    "date": "2026-09-25",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/25/liverpool-cody-gakpo-tough-summer-manchester-city",
+    "summary": "Liverpool’s Cody Gakpo reflects on ‘tough summer … in football and life’",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-26T12:49:36.126Z"
+  },
+  {
+    "id": "af1b85df00ae",
+    "title": "Andy Robertson says players are ‘not to blame’ for Manchester City’s actions",
+    "date": "2026-09-25",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/25/andy-robertson-says-players-are-not-to-blame-for-manchester-citys-actions",
+    "summary": "Andy Robertson says players are ‘not to blame’ for Manchester City’s actions",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-26T12:49:36.126Z"
+  },
+  {
+    "id": "34bc9fc0a92d",
+    "title": "Meet the USMNT’s next generation: a cheat sheet for 12 new players in camp",
+    "date": "2026-09-25",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/25/usmnt-next-generation-guide",
+    "summary": "Meet the USMNT’s next generation: a cheat sheet for 12 new players in camp",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-26T12:49:36.126Z"
+  },
+  {
     "id": "8175f9bd4a80",
     "title": "You are the new Scotland boss - what would you do?",
     "date": "2026-09-25",
@@ -2639,44 +2821,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-08-27T18:58:26.332Z"
-  },
-  {
-    "id": "5fb996da9ada",
-    "title": "Ayyoub Bouaddi: maths student, chess fan and Manchester City’s new Rodri",
-    "date": "2026-08-26",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/26/ayyoub-bouaddi-manchester-city-lille-transfer-rodri",
-    "summary": "Ayyoub Bouaddi: maths student, chess fan and Manchester City’s new Rodri",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-28T20:05:28.884Z"
-  },
-  {
-    "id": "91a428019c51",
-    "title": "Mbappé hat-trick sinks Real Sociedad after Real Madrid jeered by home fans",
-    "date": "2026-08-26",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/26/real-madrid-real-sociedad-la-liga-match-report-jose-mourinho-kylian-mbappe",
-    "summary": "Mbappé hat-trick sinks Real Sociedad after Real Madrid jeered by home fans",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-27T18:58:26.332Z"
-  },
-  {
-    "id": "91a0ac49f66c",
-    "title": "Football transfer rumours: Jean-Philippe Mateta to Aston Villa?",
-    "date": "2026-08-26",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/26/football-transfer-rumours-jean-philippe-mateta-to-aston-villa",
-    "summary": "Football transfer rumours: Jean-Philippe Mateta to Aston Villa?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-26T08:49:14.055Z"
   }
 ];
