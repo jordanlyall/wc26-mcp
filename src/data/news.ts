@@ -2,6 +2,97 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "d22c93dd0288",
+    "title": "From turgid to thrusting - mixed start for new Scotland",
+    "date": "2026-09-27",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c67833k8dn0eo?at_medium=RSS&at_campaign=rss",
+    "summary": "From turgid to thrusting - mixed start for new Scotland",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-27T13:42:00.427Z"
+  },
+  {
+    "id": "d22c93dd0288",
+    "title": "From turgid to thrusting - mixed start for new Scotland",
+    "date": "2026-09-27",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c67833k8dn0eo?at_medium=RSS&at_campaign=rss",
+    "summary": "From turgid to thrusting - mixed start for new Scotland",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-27T13:42:00.427Z"
+  },
+  {
+    "id": "f2b0515c63fe",
+    "title": "Israel game goes ahead after Ireland players’ vote, WSL action and Isak returns to Liverpool – matchday live",
+    "date": "2026-09-27",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/live/2026/sep/27/israel-republic-of-ireland-england-spain-matchday-live",
+    "summary": "Israel game goes ahead after Ireland players’ vote, WSL action and Isak returns to Liverpool – matchday live",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-27T13:42:00.427Z"
+  },
+  {
+    "id": "daaa0344c63e",
+    "title": "Messi’s exit leaves Argentina with impossible task of replacing their superhero | Jonathan Wilson",
+    "date": "2026-09-26",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/26/lionel-messi-exit-argentina-impossible-task-superhero",
+    "summary": "Messi’s exit leaves Argentina with impossible task of replacing their superhero | Jonathan Wilson",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-27T13:42:00.427Z"
+  },
+  {
+    "id": "cddfb68806a1",
+    "title": "USA thrash Peru as teenage newcomers shine in first step toward 2030",
+    "date": "2026-09-26",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/26/usmnt-peru-cavan-sullivan-2030-world-cup-cycle",
+    "summary": "USA thrash Peru as teenage newcomers shine in first step toward 2030",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-27T13:42:00.427Z"
+  },
+  {
+    "id": "1c9a8f8959ee",
+    "title": "Pocognoli’s reign as Scotland coach begins with stalemate in Slovenia",
+    "date": "2026-09-26",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/26/slovenia-scotland-nations-league-match-report",
+    "summary": "Pocognoli’s reign as Scotland coach begins with stalemate in Slovenia",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-27T13:42:00.427Z"
+  },
+  {
+    "id": "137675df30eb",
+    "title": "‘Island girl’ Malard aims to become a legend with Bompastor at Chelsea",
+    "date": "2026-09-26",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/26/womens-super-league-chelsea-girl-from-island-melvine-malard-sees-reunion-sonia-bompastor-way-become-legend",
+    "summary": "‘Island girl’ Malard aims to become a legend with Bompastor at Chelsea",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-27T13:42:00.427Z"
+  },
+  {
     "id": "406a7abaf27d",
     "title": "Ngumoha not in England squad to face Spain",
     "date": "2026-09-26",
@@ -2756,70 +2847,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-08-28T20:05:28.884Z"
-  },
-  {
-    "id": "80a37eca35f9",
-    "title": "Struggling Inter Miami hire Kily González as new head coach",
-    "date": "2026-08-27",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/27/inter-miami-kily-gonzalez-lionel-messi-guillermo-hoyos",
-    "summary": "Struggling Inter Miami hire Kily González as new head coach",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-28T20:05:28.884Z"
-  },
-  {
-    "id": "d35eaa514eea",
-    "title": "Uefa preparing to bring criminal claims against Gianni Infantino over World Cup sale",
-    "date": "2026-08-27",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/27/uefa-preparing-to-bring-criminal-claims-against-gianni-infantino-over-world-cup-sale",
-    "summary": "Uefa preparing to bring criminal claims against Gianni Infantino over World Cup sale",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-27T18:58:26.332Z"
-  },
-  {
-    "id": "372f3629a918",
-    "title": "Chelsea agree £7.5m deal to sign Emiliano Martínez from Aston Villa",
-    "date": "2026-08-27",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/27/chelsea-agree-deal-sign-emiliano-martinez-aston-villa-enzo-fernandez",
-    "summary": "Chelsea agree £7.5m deal to sign Emiliano Martínez from Aston Villa",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-27T18:58:26.332Z"
-  },
-  {
-    "id": "91bd04e910cf",
-    "title": "Liverpool agree £120m deal for Bradley Barcola after breakthrough talks with PSG",
-    "date": "2026-08-27",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/27/liverpool-bradley-barcola-psg-transfer-window",
-    "summary": "Liverpool agree £120m deal for Bradley Barcola after breakthrough talks with PSG",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-27T18:58:26.332Z"
-  },
-  {
-    "id": "ed74d596180d",
-    "title": "Spurs paying price for World Cup and pre-season trip to Australia",
-    "date": "2026-08-27",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/27/spurs-squad-pre-season-charlton-carabao-cup-newcastle",
-    "summary": "Spurs paying price for World Cup and pre-season trip to Australia",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-27T18:58:26.332Z"
   }
 ];
