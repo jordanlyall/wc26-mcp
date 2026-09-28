@@ -2,6 +2,123 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "a0c18512b2ae",
+    "title": "Could Potter be England's next breakthrough star?",
+    "date": "2026-09-28",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cry8z31pl534o?at_medium=RSS&at_campaign=rss",
+    "summary": "Could Potter be England's next breakthrough star?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-28T16:36:22.807Z"
+  },
+  {
+    "id": "e742c2fdc9d7",
+    "title": "Preston appoint former Scotland player Alexander",
+    "date": "2026-09-28",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c60m33n3nxgko?at_medium=RSS&at_campaign=rss",
+    "summary": "Preston appoint former Scotland player Alexander",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-28T16:36:22.807Z"
+  },
+  {
+    "id": "df1cda05e87d",
+    "title": "You are the Scotland boss - what would you change for Switzerland?",
+    "date": "2026-09-28",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cr9dwwn5zdyzo?at_medium=RSS&at_campaign=rss",
+    "summary": "You are the Scotland boss - what would you change for Switzerland?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-28T16:36:22.807Z"
+  },
+  {
+    "id": "a0c18512b2ae",
+    "title": "Could Potter be England's next breakthrough star?",
+    "date": "2026-09-28",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cry8z31pl534o?at_medium=RSS&at_campaign=rss",
+    "summary": "Could Potter be England's next breakthrough star?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-28T16:36:22.807Z"
+  },
+  {
+    "id": "73733429acca",
+    "title": "Israel captain stokes feud by saying ‘our country is 10 times better than Ireland’",
+    "date": "2026-09-28",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/28/israel-captain-manor-solomon-feud-republic-ireland-gaza-nations-league",
+    "summary": "Israel captain stokes feud by saying ‘our country is 10 times better than Ireland’",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-28T16:36:22.807Z"
+  },
+  {
+    "id": "60e854f9a77d",
+    "title": "The Nations League is a welcome example of soccer done well",
+    "date": "2026-09-28",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/28/nations-league-uefa-england-spain",
+    "summary": "The Nations League is a welcome example of soccer done well",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-28T16:36:22.807Z"
+  },
+  {
+    "id": "1d88dbc7e9be",
+    "title": "McTominay’s role a poser for Pocognoli as Scotland offer positives in Slovenia",
+    "date": "2026-09-27",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/27/scott-mctominay-sebastien-pocognoli-scotland-switzerland-nations-league",
+    "summary": "McTominay’s role a poser for Pocognoli as Scotland offer positives in Slovenia",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-28T16:36:22.807Z"
+  },
+  {
+    "id": "bb1c4bd089ae",
+    "title": "James Trafford’s England dream burns with No 1 spot finally up for grabs again",
+    "date": "2026-09-27",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/27/james-trafford-england-no-1-nations-league",
+    "summary": "James Trafford’s England dream burns with No 1 spot finally up for grabs again",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-28T16:36:22.807Z"
+  },
+  {
+    "id": "6a37456d1afb",
+    "title": "Thomas Tuchel resists ‘madness’ of calls to rest England players despite longer window",
+    "date": "2026-09-27",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/27/thomas-tuchel-england-players-longer-international-window-nations-league",
+    "summary": "Thomas Tuchel resists ‘madness’ of calls to rest England players despite longer window",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-28T16:36:22.807Z"
+  },
+  {
     "id": "d22c93dd0288",
     "title": "From turgid to thrusting - mixed start for new Scotland",
     "date": "2026-09-27",
@@ -2795,57 +2912,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-08-30T13:41:05.284Z"
-  },
-  {
-    "id": "11159fbb2f3c",
-    "title": "Cherki and Haaland double up in Manchester City cruise at Crystal Palace",
-    "date": "2026-08-28",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/28/crystal-palace-manchester-city-premier-league-match-report",
-    "summary": "Cherki and Haaland double up in Manchester City cruise at Crystal Palace",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-29T13:43:12.114Z"
-  },
-  {
-    "id": "12376be4b41a",
-    "title": "Simeone would welcome Alvarez back to training amid Barca row",
-    "date": "2026-08-28",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/ce9egy1xzepo?at_medium=RSS&at_campaign=rss",
-    "summary": "Simeone would welcome Alvarez back to training amid Barca row",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-28T20:05:28.884Z"
-  },
-  {
-    "id": "005229f6b044",
-    "title": "Brighton appoint Arturo Ruiz as head coach following exit of Dario Vidosic",
-    "date": "2026-08-28",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/27/dario-vidosic-to-step-down-as-brighton-manager-just-before-new-wsl-season",
-    "summary": "Brighton appoint Arturo Ruiz as head coach following exit of Dario Vidosic",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-28T20:05:28.884Z"
-  },
-  {
-    "id": "e025e90ede03",
-    "title": "Football transfer rumours: Rafael Leão to Aston Villa? Harvey Elliott to Napoli or Lazio?",
-    "date": "2026-08-28",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/28/football-transfer-rumours-rafael-leao-to-aston-villa-harvey-elliott-to-napoli-or-lazio",
-    "summary": "Football transfer rumours: Rafael Leão to Aston Villa? Harvey Elliott to Napoli or Lazio?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-28T20:05:28.884Z"
   }
 ];
