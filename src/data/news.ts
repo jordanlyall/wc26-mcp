@@ -2,6 +2,175 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "382bed92ed85",
+    "title": "Toone and Kelly miss out on Lionesses squad",
+    "date": "2026-09-29",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c6y9z7dlq199o?at_medium=RSS&at_campaign=rss",
+    "summary": "Toone and Kelly miss out on Lionesses squad",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-29T14:43:13.607Z"
+  },
+  {
+    "id": "a34adcfba0c0",
+    "title": "O'Reilly to miss Czech Republic game but Konsa in squad",
+    "date": "2026-09-29",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cj62eyx9grzxo?at_medium=RSS&at_campaign=rss",
+    "summary": "O'Reilly to miss Czech Republic game but Konsa in squad",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-29T14:43:13.607Z"
+  },
+  {
+    "id": "ca4afcd86bfd",
+    "title": "Wales without seven players for World Cup play-off",
+    "date": "2026-09-29",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/ck1l63y88e3vo?at_medium=RSS&at_campaign=rss",
+    "summary": "Wales without seven players for World Cup play-off",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-29T14:43:13.607Z"
+  },
+  {
+    "id": "382bed92ed85",
+    "title": "Toone and Kelly miss out on Lionesses squad",
+    "date": "2026-09-29",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c6y9z7dlq199o?at_medium=RSS&at_campaign=rss",
+    "summary": "Toone and Kelly miss out on Lionesses squad",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-29T14:43:13.607Z"
+  },
+  {
+    "id": "ca4afcd86bfd",
+    "title": "Wales without seven players for World Cup play-off",
+    "date": "2026-09-29",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/ck1l63y88e3vo?at_medium=RSS&at_campaign=rss",
+    "summary": "Wales without seven players for World Cup play-off",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-29T14:43:13.607Z"
+  },
+  {
+    "id": "7a69088f24e1",
+    "title": "Chloe Kelly and Ella Toone dropped by England after not hitting ‘expected’ level",
+    "date": "2026-09-29",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/29/england-women-squad-lexi-potter-chloe-kelly-ella-toone-sarina-wiegman-world-cup-playoff-greece",
+    "summary": "Chloe Kelly and Ella Toone dropped by England after not hitting ‘expected’ level",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-29T14:43:13.607Z"
+  },
+  {
+    "id": "4569bca144c6",
+    "title": "Sam Gough’s journey from being ‘a hazard’ at PE to becoming Para Lionesses captain",
+    "date": "2026-09-29",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/29/sam-gough-journey-hazard-at-pe-to-para-lionesses-captain",
+    "summary": "Sam Gough’s journey from being ‘a hazard’ at PE to becoming Para Lionesses captain",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-29T14:43:13.607Z"
+  },
+  {
+    "id": "df6346908c34",
+    "title": "Australia go down fighting to Brazil in fiery 4-2 friendly defeat",
+    "date": "2026-09-29",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/29/australia-go-down-fighting-to-brazil-in-fiery-4-2-friendly-defeat",
+    "summary": "Australia go down fighting to Brazil in fiery 4-2 friendly defeat",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-29T14:43:13.607Z"
+  },
+  {
+    "id": "c63001028d62",
+    "title": "Thomas Tuchel resists change against Czechia despite England defensive errors",
+    "date": "2026-09-28",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/28/thomas-tuchel-czechia-england-nations-league-spain",
+    "summary": "Thomas Tuchel resists change against Czechia despite England defensive errors",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-29T14:43:13.607Z"
+  },
+  {
+    "id": "cf501f33a01e",
+    "title": "‘Football with a smile’: Pocognoli wants happy Gilmour to tee up Scotland success",
+    "date": "2026-09-28",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/28/billy-gilmour-sebastien-pocognoli-scotland-nations-league",
+    "summary": "‘Football with a smile’: Pocognoli wants happy Gilmour to tee up Scotland success",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-29T14:43:13.607Z"
+  },
+  {
+    "id": "d1b3700ac3ac",
+    "title": "Nations League: Olise’s late stunner leads France past Belgium, Italy rout Turkey",
+    "date": "2026-09-28",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/28/nations-league-belgium-france-turkey-italy-northern-ireland-hungary",
+    "summary": "Nations League: Olise’s late stunner leads France past Belgium, Italy rout Turkey",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-29T14:43:13.607Z"
+  },
+  {
+    "id": "348d6016d3d7",
+    "title": "Defensive flux gives Tuchel headache but Alexander-Arnold could be remedy | Jacob Steinberg",
+    "date": "2026-09-28",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/28/thomas-tuchel-england-trent-alexander-arnold-nations-league",
+    "summary": "Defensive flux gives Tuchel headache but Alexander-Arnold could be remedy | Jacob Steinberg",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-29T14:43:13.607Z"
+  },
+  {
+    "id": "a6131a0028a2",
+    "title": "Football Daily | Manchester City come out swinging haymakers after charges galore",
+    "date": "2026-09-28",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/28/manchester-city-charges-football-daily",
+    "summary": "Football Daily | Manchester City come out swinging haymakers after charges galore",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-29T14:43:13.607Z"
+  },
+  {
     "id": "a0c18512b2ae",
     "title": "Could Potter be England's next breakthrough star?",
     "date": "2026-09-28",
@@ -2886,31 +3055,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-08-31T15:59:35.846Z"
-  },
-  {
-    "id": "9e01b0f72a27",
-    "title": "Carrick dismisses ‘lazy’ Manchester United criticism and defends Fernandes’ leadership",
-    "date": "2026-08-29",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/29/manchester-united-michael-carrick-bruno-fernandes-lazy-criticism",
-    "summary": "Carrick dismisses ‘lazy’ Manchester United criticism and defends Fernandes’ leadership",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-30T13:41:05.284Z"
-  },
-  {
-    "id": "07304095cb0b",
-    "title": "José Mourinho claims Kylian Mbappé should win Ballon d’Or ahead of PSG and Spain stars",
-    "date": "2026-08-29",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/29/jose-mourinho-real-madrid-kylian-mbappe-ballon-dor",
-    "summary": "José Mourinho claims Kylian Mbappé should win Ballon d’Or ahead of PSG and Spain stars",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-30T13:41:05.284Z"
   }
 ];
