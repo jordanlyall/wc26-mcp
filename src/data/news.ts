@@ -2,6 +2,201 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "fbcb098b36a8",
+    "title": "Will Pocognoli change keeper after loss to Switzerland?",
+    "date": "2026-09-30",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c58jd4wvrz4jo?at_medium=RSS&at_campaign=rss",
+    "summary": "Will Pocognoli change keeper after loss to Switzerland?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-30T14:45:31.921Z"
+  },
+  {
+    "id": "4a4c828ba7fe",
+    "title": "Elmore and Grant named in Northern Ireland squad",
+    "date": "2026-09-30",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cj3v4gy5ek7qo?at_medium=RSS&at_campaign=rss",
+    "summary": "Elmore and Grant named in Northern Ireland squad",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-30T14:45:31.921Z"
+  },
+  {
+    "id": "fbcb098b36a8",
+    "title": "Will Pocognoli change goalkeeper after Swiss loss?",
+    "date": "2026-09-30",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c58jd4wvrz4jo?at_medium=RSS&at_campaign=rss",
+    "summary": "Will Pocognoli change goalkeeper after Swiss loss?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-30T14:45:31.921Z"
+  },
+  {
+    "id": "4a4c828ba7fe",
+    "title": "Elmore and Grant named in Northern Ireland squad",
+    "date": "2026-09-30",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cj3v4gy5ek7qo?at_medium=RSS&at_campaign=rss",
+    "summary": "Elmore and Grant named in Northern Ireland squad",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-30T14:45:31.921Z"
+  },
+  {
+    "id": "f0d15e88d3ed",
+    "title": "Cristiano Ronaldo misses Portugal training amid reports of rift with coach Jesus",
+    "date": "2026-09-30",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/30/cristiano-ronaldo-misses-portugal-training-jorge-jesus-denmark",
+    "summary": "Cristiano Ronaldo misses Portugal training amid reports of rift with coach Jesus",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-30T14:45:31.921Z"
+  },
+  {
+    "id": "54f791db0089",
+    "title": "Next Generation 2021: why slow and steady sometimes wins the race",
+    "date": "2026-09-30",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/30/next-generation-2021-why-slow-and-steady-sometimes-wins-the-race",
+    "summary": "Next Generation 2021: why slow and steady sometimes wins the race",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-30T14:45:31.921Z"
+  },
+  {
+    "id": "0713944a38ae",
+    "title": "Dropping Kelly and Toone could prove a World Cup masterstroke by Wiegman | Tom Garry",
+    "date": "2026-09-30",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/30/dropping-toone-and-kelly-world-cup-masterstroke-wiegman",
+    "summary": "Dropping Kelly and Toone could prove a World Cup masterstroke by Wiegman | Tom Garry",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-30T14:45:31.921Z"
+  },
+  {
+    "id": "008ec99fa448",
+    "title": "Have any footballers ever scored with the first touch of their careers? | The Knowledge",
+    "date": "2026-09-30",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/30/footballers-scoring-first-touch-of-careers-the-knowledge",
+    "summary": "Have any footballers ever scored with the first touch of their careers? | The Knowledge",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-30T14:45:31.921Z"
+  },
+  {
+    "id": "e87e85753abd",
+    "title": "New coach, new players, but same old failings hamper Scotland",
+    "date": "2026-09-29",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cmrl6g9nw5lyo?at_medium=RSS&at_campaign=rss",
+    "summary": "New coach, new players, but same old failings hamper Scotland",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-30T14:45:31.921Z"
+  },
+  {
+    "id": "e87e85753abd",
+    "title": "New coach, new players, but same old failings hamper Scotland",
+    "date": "2026-09-29",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cmrl6g9nw5lyo?at_medium=RSS&at_campaign=rss",
+    "summary": "New coach, new players, but same old failings hamper Scotland",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-30T14:45:31.921Z"
+  },
+  {
+    "id": "f8a42273e0ff",
+    "title": "Hampden debut to forget but Pocognoli looks at bigger picture ",
+    "date": "2026-09-29",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cw80483z2522o?at_medium=RSS&at_campaign=rss",
+    "summary": "Hampden debut to forget but Pocognoli looks at bigger picture ",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-30T14:45:31.921Z"
+  },
+  {
+    "id": "60b17c0fc955",
+    "title": "Tuchel praises Alexander-Arnold for ‘decisive’ display on England return",
+    "date": "2026-09-29",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/29/thomas-tuchel-trent-alexander-arnold-czechia-england-nations-league-match",
+    "summary": "Tuchel praises Alexander-Arnold for ‘decisive’ display on England return",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-30T14:45:31.921Z"
+  },
+  {
+    "id": "ffbef7187128",
+    "title": "Switzerland’s Rodríguez and Elvedi punish Scotland after Hendry’s early red card",
+    "date": "2026-09-29",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/29/scotland-switzerland-nations-league-match-report",
+    "summary": "Switzerland’s Rodríguez and Elvedi punish Scotland after Hendry’s early red card",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-30T14:45:31.921Z"
+  },
+  {
+    "id": "1d7ebca36228",
+    "title": "Nations League roundup: Lamine Yamal sinks Croatia in Spain’s World Cup homecoming",
+    "date": "2026-09-29",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/29/nations-league-roundup-lamine-yamal-sinks-croatia-in-spains-world-cup-homecoming",
+    "summary": "Nations League roundup: Lamine Yamal sinks Croatia in Spain’s World Cup homecoming",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-30T14:45:31.921Z"
+  },
+  {
+    "id": "5db3da69a724",
+    "title": "USWNT roster: Ashley Sanchez earns the call for friendlies v Spain",
+    "date": "2026-09-29",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/sep/29/uswnt-roster-spain-ashley-sanchez-mallory-swanson-naomi-girma",
+    "summary": "USWNT roster: Ashley Sanchez earns the call for friendlies v Spain",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-09-30T14:45:31.921Z"
+  },
+  {
     "id": "382bed92ed85",
     "title": "Toone and Kelly miss out on Lionesses squad",
     "date": "2026-09-29",
@@ -3037,19 +3232,6 @@ export const news: NewsItem[] = [
     "source": "The Guardian",
     "url": "https://www.theguardian.com/football/2026/aug/31/arsenal-julian-alvarez-gabriel-martinelli-jesus-transfers",
     "summary": "Arsenal trying to lure Julián Álvarez after agreeing deals to sell Martinelli and Jesus",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-31T15:59:35.846Z"
-  },
-  {
-    "id": "990f5a7a3aa6",
-    "title": "Mikel Arteta ‘begging’ Premier League to expand 20-man matchday squads",
-    "date": "2026-08-30",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/30/mikel-arteta-premier-league-matchday-squad-player-welfare-arsenal",
-    "summary": "Mikel Arteta ‘begging’ Premier League to expand 20-man matchday squads",
     "categories": [
       "general"
     ],
