@@ -2,6 +2,266 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "74ee687c6374",
+    "title": "Injured O'Reilly withdraws from England squad",
+    "date": "2026-10-01",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c6kg0gkjngzmo?at_medium=RSS&at_campaign=rss",
+    "summary": "Injured O'Reilly withdraws from England squad",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-01T15:15:17.769Z"
+  },
+  {
+    "id": "b746db4ac95c",
+    "title": "Space for Gannon-Doak? Does McGinn keep place? Key questions for Pocognoli",
+    "date": "2026-10-01",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c6x2ze5zm93go?at_medium=RSS&at_campaign=rss",
+    "summary": "Space for Gannon-Doak? Does McGinn keep place? Key questions for Pocognoli",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-01T15:15:17.769Z"
+  },
+  {
+    "id": "e42c8b411641",
+    "title": "You are the Scotland boss - what would you do?",
+    "date": "2026-10-01",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cq7702pre6l4o?at_medium=RSS&at_campaign=rss",
+    "summary": "You are the Scotland boss - what would you do?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-01T15:15:17.769Z"
+  },
+  {
+    "id": "5cfef5bca243",
+    "title": "Robertson set to hit 100 Scotland caps - but who else makes top 10?",
+    "date": "2026-10-01",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/ck3reg92815ro?at_medium=RSS&at_campaign=rss",
+    "summary": "Robertson set to hit 100 Scotland caps - but who else makes top 10?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-01T15:15:17.769Z"
+  },
+  {
+    "id": "d0539fb2d046",
+    "title": "Curtis shines as revamped Scotland youth set-up begins ",
+    "date": "2026-10-01",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c6vgy2j0919do?at_medium=RSS&at_campaign=rss",
+    "summary": "Curtis shines as revamped Scotland youth set-up begins ",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-01T15:15:17.769Z"
+  },
+  {
+    "id": "b746db4ac95c",
+    "title": "Space for Gannon-Doak? Does McGinn keep place? Welsh to return? - key questions for Pocognoli ",
+    "date": "2026-10-01",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c6x2ze5zm93go?at_medium=RSS&at_campaign=rss",
+    "summary": "Space for Gannon-Doak? Does McGinn keep place? Welsh to return? - key questions for Pocognoli ",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-01T15:15:17.769Z"
+  },
+  {
+    "id": "d0539fb2d046",
+    "title": "Curtis shines as revamped Scotland youth set-up begins ",
+    "date": "2026-10-01",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c6vgy2j0919do?at_medium=RSS&at_campaign=rss",
+    "summary": "Curtis shines as revamped Scotland youth set-up begins ",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-01T15:15:17.769Z"
+  },
+  {
+    "id": "e42c8b411641",
+    "title": "You are the Scotland boss - what would you do for North Macedonia trip?",
+    "date": "2026-10-01",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cq7702pre6l4o?at_medium=RSS&at_campaign=rss",
+    "summary": "You are the Scotland boss - what would you do for North Macedonia trip?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-01T15:15:17.769Z"
+  },
+  {
+    "id": "5cfef5bca243",
+    "title": "Robertson set to hit 100 Scotland caps - but who else makes top 10?",
+    "date": "2026-10-01",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/ck3reg92815ro?at_medium=RSS&at_campaign=rss",
+    "summary": "Robertson set to hit 100 Scotland caps - but who else makes top 10?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-01T15:15:17.769Z"
+  },
+  {
+    "id": "829ae1167e34",
+    "title": "Unwell Nygren isolating on international duty - gossip",
+    "date": "2026-10-01",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cqn0jdnne1d4o?at_medium=RSS&at_campaign=rss",
+    "summary": "Unwell Nygren isolating on international duty - gossip",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-01T15:15:17.769Z"
+  },
+  {
+    "id": "11e5dfe3f397",
+    "title": "Manchester City fans are right to feel angry – now they need to direct it at the owners | Will Unwin",
+    "date": "2026-10-01",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/01/manchester-city-premier-league-financial-rule-breaches-fans-anger-owners",
+    "summary": "Manchester City fans are right to feel angry – now they need to direct it at the owners | Will Unwin",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-01T15:15:17.769Z"
+  },
+  {
+    "id": "cc6812d3e31a",
+    "title": "Yemen and football in the face of civil war: ‘It would be very nice to give the world a different headline’",
+    "date": "2026-10-01",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/01/yemen-football-civil-war-gulf-cup",
+    "summary": "Yemen and football in the face of civil war: ‘It would be very nice to give the world a different headline’",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-01T15:15:17.769Z"
+  },
+  {
+    "id": "bf6e4c5fe279",
+    "title": "Football Daily | An impressive new entry for the Cristiano Ronaldo catalogue of petulance",
+    "date": "2026-10-01",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/01/football-daily-newsletter-cristiano-ronaldo-portugal",
+    "summary": "Football Daily | An impressive new entry for the Cristiano Ronaldo catalogue of petulance",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-01T15:15:17.769Z"
+  },
+  {
+    "id": "22af293d14cd",
+    "title": "Moving the Goalposts | Women’s Ballon d’Or 2026 power rankings: will a new winner be crowned?",
+    "date": "2026-10-01",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/01/womens-ballon-dor-2026-power-rankings-will-a-new-winner-be-crowned",
+    "summary": "Moving the Goalposts | Women’s Ballon d’Or 2026 power rankings: will a new winner be crowned?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-01T15:15:17.769Z"
+  },
+  {
+    "id": "7a219a3e6523",
+    "title": "Ronaldo leaves Portugal camp after coach denies rift",
+    "date": "2026-09-30",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cm9dw7ddwgzwo?at_medium=RSS&at_campaign=rss",
+    "summary": "Ronaldo leaves Portugal camp after coach denies rift",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-01T15:15:17.769Z"
+  },
+  {
+    "id": "2e2f854f9b87",
+    "title": "Impossible for England to find another Kane - Tuchel",
+    "date": "2026-09-30",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cr1e5ep101wdo?at_medium=RSS&at_campaign=rss",
+    "summary": "Impossible for England to find another Kane - Tuchel",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-01T15:15:17.769Z"
+  },
+  {
+    "id": "133dc7e0e915",
+    "title": "Unusual Williamson handball sees Arsenal slip to draw with Paris FC",
+    "date": "2026-09-30",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/videos/cwzdz9mzd3mvo?at_medium=RSS&at_campaign=rss",
+    "summary": "Unusual Williamson handball sees Arsenal slip to draw with Paris FC",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-01T15:15:17.769Z"
+  },
+  {
+    "id": "3b9a5013ca52",
+    "title": "Questions about Wales form not unfair - Bellamy",
+    "date": "2026-09-30",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c50m3d789j74o?at_medium=RSS&at_campaign=rss",
+    "summary": "Questions about Wales form not unfair - Bellamy",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-01T15:15:17.769Z"
+  },
+  {
+    "id": "17c7682881a2",
+    "title": "Meet the only Scot managing a national team in world football",
+    "date": "2026-09-30",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/ck3reye2vnypo?at_medium=RSS&at_campaign=rss",
+    "summary": "Meet the only Scot managing a national team in world football",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-01T15:15:17.769Z"
+  },
+  {
+    "id": "2752362e44c7",
+    "title": "What will new call-ups bring to Northern Ireland?",
+    "date": "2026-09-30",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cqp93d33y144o?at_medium=RSS&at_campaign=rss",
+    "summary": "What will new call-ups bring to Northern Ireland?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-01T15:15:17.769Z"
+  },
+  {
     "id": "fbcb098b36a8",
     "title": "Will Pocognoli change keeper after loss to Switzerland?",
     "date": "2026-09-30",
@@ -3133,109 +3393,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-09-01T13:17:40.565Z"
-  },
-  {
-    "id": "fe3b99a9804e",
-    "title": "Lionel Messi’s international retirement serves as a reminder: watch him while you still can",
-    "date": "2026-08-31",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/31/lionel-messis-international-retirement-serves-as-a-reminder-watch-him-while-you-still-can",
-    "summary": "Lionel Messi’s international retirement serves as a reminder: watch him while you still can",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-01T13:17:40.565Z"
-  },
-  {
-    "id": "950a78f1c1df",
-    "title": "Watkins faces Toney clash as strikers push for Saudi supremacy and Tuchel’s attention",
-    "date": "2026-08-31",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/31/ollie-watkins-ivan-toney-saudi-arabia-thomas-tuchel-england",
-    "summary": "Watkins faces Toney clash as strikers push for Saudi supremacy and Tuchel’s attention",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-01T13:17:40.565Z"
-  },
-  {
-    "id": "d286c64938b3",
-    "title": "Messi retires from international football",
-    "date": "2026-08-31",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/ceq89y38elro?at_medium=RSS&at_campaign=rss",
-    "summary": "Messi retires from international football",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-31T15:59:35.846Z"
-  },
-  {
-    "id": "9abf582c6acd",
-    "title": "Man Utd near deal for Mexico's Bernal",
-    "date": "2026-08-31",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c780weq4146o?at_medium=RSS&at_campaign=rss",
-    "summary": "Man Utd near deal for Mexico's Bernal",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-31T15:59:35.846Z"
-  },
-  {
-    "id": "9abf582c6acd",
-    "title": "Man Utd near deal for Mexico's Bernal",
-    "date": "2026-08-31",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c780weq4146o?at_medium=RSS&at_campaign=rss",
-    "summary": "Man Utd near deal for Mexico's Bernal",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-31T15:59:35.846Z"
-  },
-  {
-    "id": "da643f358350",
-    "title": "Argentina’s Lionel Messi retires from international football: ‘This hurts me a lot’",
-    "date": "2026-08-31",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/31/lionel-messi-retires-from-international-football-argentina",
-    "summary": "Argentina’s Lionel Messi retires from international football: ‘This hurts me a lot’",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-31T15:59:35.846Z"
-  },
-  {
-    "id": "5c6c3f266ae2",
-    "title": "Bradley Barcola targets Premier League glory after joining Liverpool in £123m deal",
-    "date": "2026-08-31",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/31/liverpool-confirm-bradley-barcola-signing-psg",
-    "summary": "Bradley Barcola targets Premier League glory after joining Liverpool in £123m deal",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-31T15:59:35.846Z"
-  },
-  {
-    "id": "2f8251cfa497",
-    "title": "Arsenal trying to lure Julián Álvarez after agreeing deals to sell Martinelli and Jesus",
-    "date": "2026-08-31",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/aug/31/arsenal-julian-alvarez-gabriel-martinelli-jesus-transfers",
-    "summary": "Arsenal trying to lure Julián Álvarez after agreeing deals to sell Martinelli and Jesus",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-08-31T15:59:35.846Z"
   }
 ];
