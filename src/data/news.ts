@@ -2,6 +2,162 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "f72576d53483",
+    "title": "Was long-awaited win a turning point for Bellamy?",
+    "date": "2026-10-02",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cqe8x87y3lg2o?at_medium=RSS&at_campaign=rss",
+    "summary": "Was long-awaited win a turning point for Bellamy?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-02T14:34:48.800Z"
+  },
+  {
+    "id": "ef057b5411a6",
+    "title": "Robertson's Scotland career in numbers as 100th cap looms",
+    "date": "2026-10-02",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/crgjqjg1l740o?at_medium=RSS&at_campaign=rss",
+    "summary": "Robertson's Scotland career in numbers as 100th cap looms",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-02T14:34:48.800Z"
+  },
+  {
+    "id": "ef057b5411a6",
+    "title": "Robertson's Scotland career in numbers as 100th cap looms",
+    "date": "2026-10-02",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/crgjqjg1l740o?at_medium=RSS&at_campaign=rss",
+    "summary": "Robertson's Scotland career in numbers as 100th cap looms",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-02T14:34:48.800Z"
+  },
+  {
+    "id": "5678d0ce8f38",
+    "title": "Bilic is back: bravery and belief underpin second coming as Croatia manager",
+    "date": "2026-10-02",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/02/slaven-bilic-croatia-manager-second-coming-england-nations-league",
+    "summary": "Bilic is back: bravery and belief underpin second coming as Croatia manager",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-02T14:34:48.800Z"
+  },
+  {
+    "id": "e5e65430de2f",
+    "title": "Why is Croatia v England behind closed doors?",
+    "date": "2026-10-01",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/ck0e3edj2l4zo?at_medium=RSS&at_campaign=rss",
+    "summary": "Why is Croatia v England behind closed doors?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-02T14:34:48.800Z"
+  },
+  {
+    "id": "bb8c165e950e",
+    "title": "Bellamy says Wales 'stick' hurt as Norway win lifts mood",
+    "date": "2026-10-01",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c6zxzx1d484zo?at_medium=RSS&at_campaign=rss",
+    "summary": "Bellamy says Wales 'stick' hurt as Norway win lifts mood",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-02T14:34:48.800Z"
+  },
+  {
+    "id": "e5e65430de2f",
+    "title": "Why is Croatia v England behind closed doors?",
+    "date": "2026-10-01",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/ck0e3edj2l4zo?at_medium=RSS&at_campaign=rss",
+    "summary": "Why is Croatia v England behind closed doors?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-02T14:34:48.800Z"
+  },
+  {
+    "id": "e18a79340d7e",
+    "title": "Nations League: Ronaldo-less Portugal prosper while Klopp gets first win as Germany coach",
+    "date": "2026-10-01",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/01/nations-league-portugal-denmark-germany-serbia",
+    "summary": "Nations League: Ronaldo-less Portugal prosper while Klopp gets first win as Germany coach",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-02T14:34:48.800Z"
+  },
+  {
+    "id": "a02ddf83d59d",
+    "title": "Neco Williams fires revitalised Wales to fightback win against 10-man Norway",
+    "date": "2026-10-01",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/01/wales-norway-nations-league-league-a-group-4-match-report",
+    "summary": "Neco Williams fires revitalised Wales to fightback win against 10-man Norway",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-02T14:34:48.800Z"
+  },
+  {
+    "id": "164c220d1c01",
+    "title": "Jürgen Klopp disgusted by claims his Germany team are ‘not white enough’",
+    "date": "2026-10-01",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/01/jurgen-klopp-germany-team-not-white-enough-disgusted-claims",
+    "summary": "Jürgen Klopp disgusted by claims his Germany team are ‘not white enough’",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-02T14:34:48.800Z"
+  },
+  {
+    "id": "d4d414b21fdf",
+    "title": "Cristiano Ronaldo’s Portugal walkout divides a nation as Jorge Jesus asserts control",
+    "date": "2026-10-01",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/01/cristiano-ronaldos-portugal-walkout-divides-a-nation-as-jorge-jesus-asserts-control",
+    "summary": "Cristiano Ronaldo’s Portugal walkout divides a nation as Jorge Jesus asserts control",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-02T14:34:48.800Z"
+  },
+  {
+    "id": "7ac57f6ff273",
+    "title": "The Socceroos were unrecognisable against Brazil as a ‘new golden generation’ takes shape | Joey Lynch",
+    "date": "2026-10-01",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/02/socceroos-australia-brazil-new-football-golden-generation",
+    "summary": "The Socceroos were unrecognisable against Brazil as a ‘new golden generation’ takes shape | Joey Lynch",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-02T14:34:48.800Z"
+  },
+  {
     "id": "74ee687c6374",
     "title": "Injured O'Reilly withdraws from England squad",
     "date": "2026-10-01",
@@ -3328,70 +3484,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-09-02T12:39:05.697Z"
-  },
-  {
-    "id": "3c2c728a8d7a",
-    "title": "Everton left with only one striker after Balogun deal collapses late on deadline day",
-    "date": "2026-09-01",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/02/everton-in-late-scramble-to-complete-balogun-transfer-after-flurry-of-sales",
-    "summary": "Everton left with only one striker after Balogun deal collapses late on deadline day",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-02T12:39:05.697Z"
-  },
-  {
-    "id": "9685560339a4",
-    "title": "Sunderland pip Crystal Palace in battle of the private jets to land Malick Fofana",
-    "date": "2026-09-01",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/01/sunderland-pip-crystal-palace-in-battle-of-the-private-jets-to-land-malick-fofana",
-    "summary": "Sunderland pip Crystal Palace in battle of the private jets to land Malick Fofana",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-02T12:39:05.697Z"
-  },
-  {
-    "id": "a8b533015ca4",
-    "title": "‘In my heart until I die’: Argentina says a tearful thank you to Lionel Messi",
-    "date": "2026-09-01",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/01/argentina-tearful-thank-you-to-lionel-messi-retirement",
-    "summary": "‘In my heart until I die’: Argentina says a tearful thank you to Lionel Messi",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-02T12:39:05.697Z"
-  },
-  {
-    "id": "8396f80d82ea",
-    "title": "Beckham and Mourinho pay tribute to Messi",
-    "date": "2026-09-01",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cdx0nw1n9y8o?at_medium=RSS&at_campaign=rss",
-    "summary": "Beckham and Mourinho pay tribute to Messi",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-01T13:17:40.565Z"
-  },
-  {
-    "id": "a28eb0504c21",
-    "title": "Barcelona breeze past Rayo but all eyes in Spain remain on Julián Álvarez",
-    "date": "2026-09-01",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/01/barcelona-la-liga-rayo-vallecano-atletico-julian-alvarez",
-    "summary": "Barcelona breeze past Rayo but all eyes in Spain remain on Julián Álvarez",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-01T13:17:40.565Z"
   }
 ];
