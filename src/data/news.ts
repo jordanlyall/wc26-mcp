@@ -2,6 +2,71 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "0050c8d41c72",
+    "title": "Too quiet for too long, can McGinn recapture best for Scotland?",
+    "date": "2026-10-03",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c5398kvl77xno?at_medium=RSS&at_campaign=rss",
+    "summary": "Too quiet for too long, can McGinn recapture best for Scotland?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-03T13:10:29.300Z"
+  },
+  {
+    "id": "0050c8d41c72",
+    "title": "Too quiet for too long, can McGinn recapture best for Scotland?",
+    "date": "2026-10-03",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c5398kvl77xno?at_medium=RSS&at_campaign=rss",
+    "summary": "Too quiet for too long, can McGinn recapture best for Scotland?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-03T13:10:29.300Z"
+  },
+  {
+    "id": "98a13479228c",
+    "title": "Decline and fall: who will believe in Raheem Sterling now?",
+    "date": "2026-10-03",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/03/decline-and-fall-who-will-believe-in-raheem-sterling-now",
+    "summary": "Decline and fall: who will believe in Raheem Sterling now?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-03T13:10:29.300Z"
+  },
+  {
+    "id": "c50e3841dc1b",
+    "title": "Pickford in spotlight against Croatia with England position under threat from Trafford",
+    "date": "2026-10-02",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/02/jordan-pickford-england-croatia-nations-league-james-trafford",
+    "summary": "Pickford in spotlight against Croatia with England position under threat from Trafford",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-03T13:10:29.300Z"
+  },
+  {
+    "id": "808506bfd2bc",
+    "title": "Football Daily | Manchester City lace up their gloves ready for another round. Bring your dinner",
+    "date": "2026-10-02",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/02/manchester-city-football-daily-newsletter",
+    "summary": "Football Daily | Manchester City lace up their gloves ready for another round. Bring your dinner",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-03T13:10:29.300Z"
+  },
+  {
     "id": "f72576d53483",
     "title": "Was long-awaited win a turning point for Bellamy?",
     "date": "2026-10-02",
@@ -3419,70 +3484,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-09-03T12:42:02.031Z"
-  },
-  {
-    "id": "46d13affb3b5",
-    "title": "‘A commodity’: Ismaïla Sarr’s agent wants respect for African players in transfer deals",
-    "date": "2026-09-02",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/02/a-commodity-ismaila-sarrs-agent-wants-respect-for-african-players-in-transfer-deals",
-    "summary": "‘A commodity’: Ismaïla Sarr’s agent wants respect for African players in transfer deals",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-03T12:42:02.031Z"
-  },
-  {
-    "id": "87137f1bbef1",
-    "title": "Balogun pulled out of Everton move over handling of his medical, claim Monaco",
-    "date": "2026-09-02",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/02/folarin-balogun-transfer-deadline-day-collapse-monaco-everton-lamine-camara-chelsea",
-    "summary": "Balogun pulled out of Everton move over handling of his medical, claim Monaco",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-03T12:42:02.031Z"
-  },
-  {
-    "id": "a2c2ab9ed0ec",
-    "title": "Paredes puts question mark over Argentina future",
-    "date": "2026-09-02",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/ce3r07w353go?at_medium=RSS&at_campaign=rss",
-    "summary": "Paredes puts question mark over Argentina future",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-02T12:39:05.697Z"
-  },
-  {
-    "id": "75989dab0b94",
-    "title": "Transfer window verdict: how every Premier League club fared",
-    "date": "2026-09-02",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/02/premier-league-transfer-window-club-analysis-summer-2026",
-    "summary": "Transfer window verdict: how every Premier League club fared",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-02T12:39:05.697Z"
-  },
-  {
-    "id": "5c5bcfe578d4",
-    "title": "Football transfer rumours: Jamie Vardy to São Paulo or Sheffield Wednesday?",
-    "date": "2026-09-02",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/02/football-transfer-rumours-jamie-vardy-to-sao-paulo-or-sheffield-wednesday",
-    "summary": "Football transfer rumours: Jamie Vardy to São Paulo or Sheffield Wednesday?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-02T12:39:05.697Z"
   }
 ];
