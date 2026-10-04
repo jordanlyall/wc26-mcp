@@ -2,6 +2,123 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "a8afefbd6742",
+    "title": "Modric 'ashamed' of Croatia's 'catastrophic night'",
+    "date": "2026-10-04",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cwzrdm3lyk21o?at_medium=RSS&at_campaign=rss",
+    "summary": "Modric 'ashamed' of Croatia's 'catastrophic night'",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-04T13:49:39.377Z"
+  },
+  {
+    "id": "3db2f85a7077",
+    "title": "Davies backs Wales to keep challenging 'bigger teams'",
+    "date": "2026-10-04",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cmy0er2yz02yo?at_medium=RSS&at_campaign=rss",
+    "summary": "Davies backs Wales to keep challenging 'bigger teams'",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-04T13:49:39.377Z"
+  },
+  {
+    "id": "93b460b90dc6",
+    "title": "Modric ‘ashamed’ after 7-0 defeat; Republic of Ireland v Israel tensions build; WSL updates – matchday live",
+    "date": "2026-10-04",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/live/2026/oct/04/buildup-to-republic-of-ireland-v-israel-wales-v-denmark-and-more-football-live",
+    "summary": "Modric ‘ashamed’ after 7-0 defeat; Republic of Ireland v Israel tensions build; WSL updates – matchday live",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-04T13:49:39.377Z"
+  },
+  {
+    "id": "730b4ae0c361",
+    "title": "Jesse Marsch: ‘We Americans have been inundated with propaganda since we were young’",
+    "date": "2026-10-04",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/04/jesse-marsch-interview-canada-united-states-john-carney",
+    "summary": "Jesse Marsch: ‘We Americans have been inundated with propaganda since we were young’",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-04T13:49:39.377Z"
+  },
+  {
+    "id": "0aa1015a464f",
+    "title": "Bellingham unlocks new level and potential to be 'one of the greatest'",
+    "date": "2026-10-03",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cv5yn8znyx2ro?at_medium=RSS&at_campaign=rss",
+    "summary": "Bellingham unlocks new level and potential to be 'one of the greatest'",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-04T13:49:39.377Z"
+  },
+  {
+    "id": "2d8ed8db95b5",
+    "title": "Republic of Ireland news conference ends abruptly amid accusations",
+    "date": "2026-10-03",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cm78p5x6xqq7o?at_medium=RSS&at_campaign=rss",
+    "summary": "Republic of Ireland news conference ends abruptly amid accusations",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-04T13:49:39.377Z"
+  },
+  {
+    "id": "aebd1dfe9485",
+    "title": "Ronaldo still 'greatest symbol' of Portugal -  Fernandes",
+    "date": "2026-10-03",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/ckq5nd1g14v4o?at_medium=RSS&at_campaign=rss",
+    "summary": "Ronaldo still 'greatest symbol' of Portugal -  Fernandes",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-04T13:49:39.377Z"
+  },
+  {
+    "id": "5fae3d4db45c",
+    "title": "Lamine Yamal stars again as Spain see off Czechia and maintain perfect start",
+    "date": "2026-10-03",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/03/lamine-yamal-stars-again-as-spain-see-off-czechia-and-maintain-perfect-start",
+    "summary": "Lamine Yamal stars again as Spain see off Czechia and maintain perfect start",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-04T13:49:39.377Z"
+  },
+  {
+    "id": "91f73d89becd",
+    "title": "Bowie gets Pocognoli off mark with Scotland victory in North Macedonia",
+    "date": "2026-10-03",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/03/north-macedonia-scotland-nations-league-match-report",
+    "summary": "Bowie gets Pocognoli off mark with Scotland victory in North Macedonia",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-04T13:49:39.377Z"
+  },
+  {
     "id": "0050c8d41c72",
     "title": "Too quiet for too long, can McGinn recapture best for Scotland?",
     "date": "2026-10-03",
@@ -3367,122 +3484,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-09-04T12:35:57.091Z"
-  },
-  {
-    "id": "dd24673cac5b",
-    "title": "Is Hearts' McPake poised to gatecrash Pocognoli's Scotland squad?",
-    "date": "2026-09-03",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c70l5nrrj02o?at_medium=RSS&at_campaign=rss",
-    "summary": "Is Hearts' McPake poised to gatecrash Pocognoli's Scotland squad?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-04T12:35:57.091Z"
-  },
-  {
-    "id": "4649619dde47",
-    "title": "'Adonis' Gibbs-White's chance to shine - will Tuchel take notice?",
-    "date": "2026-09-03",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c07lk45y3ego?at_medium=RSS&at_campaign=rss",
-    "summary": "'Adonis' Gibbs-White's chance to shine - will Tuchel take notice?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-04T12:35:57.091Z"
-  },
-  {
-    "id": "dd24673cac5b",
-    "title": "Is Hearts' McPake poised to gatecrash Pocognoli's Scotland squad?",
-    "date": "2026-09-03",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c70l5nrrj02o?at_medium=RSS&at_campaign=rss",
-    "summary": "Is Hearts' McPake poised to gatecrash Pocognoli's Scotland squad?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-04T12:35:57.091Z"
-  },
-  {
-    "id": "2f48e5887a7a",
-    "title": "Gabriel Martinelli leaves Arsenal for Saudi Arabian club Al-Hilal in £60m deal",
-    "date": "2026-09-03",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/03/gabriel-martinelli-leaves-arsenal-al-hilal",
-    "summary": "Gabriel Martinelli leaves Arsenal for Saudi Arabian club Al-Hilal in £60m deal",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-04T12:35:57.091Z"
-  },
-  {
-    "id": "ab45564b9173",
-    "title": "World Cup wishlists, early movers, big clearouts: 2026 summer transfer window trends",
-    "date": "2026-09-03",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/03/summer-transfer-window-2026-trends-premier-league-la-liga-serie-a-bundesliga-ligue-1",
-    "summary": "World Cup wishlists, early movers, big clearouts: 2026 summer transfer window trends",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-04T12:35:57.091Z"
-  },
-  {
-    "id": "251576b52963",
-    "title": "Ex-Man Utd assistant Queiroz returns as Ghana boss",
-    "date": "2026-09-03",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/clyeqly7r0po?at_medium=RSS&at_campaign=rss",
-    "summary": "Ex-Man Utd assistant Queiroz returns as Ghana boss",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-03T12:42:02.031Z"
-  },
-  {
-    "id": "79313c6a4fa2",
-    "title": "The WSL returns bigger than ever and with a mouthwatering title race",
-    "date": "2026-09-03",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/03/wsl-womens-super-league-2026-27-season-preview",
-    "summary": "The WSL returns bigger than ever and with a mouthwatering title race",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-03T12:42:02.031Z"
-  },
-  {
-    "id": "7301317a42e7",
-    "title": "Arsenal bank on continuity after big names elude them late in transfer window",
-    "date": "2026-09-03",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/03/arsenal-late-and-big-name-targets-elude-them-transfer-window",
-    "summary": "Arsenal bank on continuity after big names elude them late in transfer window",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-03T12:42:02.031Z"
-  },
-  {
-    "id": "d99e376b3c5d",
-    "title": "Arsenal poised to land PSG’s Élisa De Almeida on WSL transfer deadline day",
-    "date": "2026-09-03",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/03/wsl-transfer-deadline-day-arsenal-elisa-de-almeida-psg",
-    "summary": "Arsenal poised to land PSG’s Élisa De Almeida on WSL transfer deadline day",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-03T12:42:02.031Z"
   }
 ];
