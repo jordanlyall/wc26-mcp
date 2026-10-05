@@ -2,6 +2,201 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "dfc0cf3bfb66",
+    "title": "Bournemouth unhappy after Scott injured with England",
+    "date": "2026-10-05",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cqm2dyrg84ymo?at_medium=RSS&at_campaign=rss",
+    "summary": "Bournemouth unhappy after Scott injured with England",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-05T16:57:43.801Z"
+  },
+  {
+    "id": "3f9c4752c730",
+    "title": "A nation divided as Ronaldo left with big decision on Portugal future",
+    "date": "2026-10-05",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/crwyd31nw2w4o?at_medium=RSS&at_campaign=rss",
+    "summary": "A nation divided as Ronaldo left with big decision on Portugal future",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-05T16:57:43.801Z"
+  },
+  {
+    "id": "acc1caf8db7f",
+    "title": "What we learned from Wales' Nations League window",
+    "date": "2026-10-05",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c6pwg5enxwz8o?at_medium=RSS&at_campaign=rss",
+    "summary": "What we learned from Wales' Nations League window",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-05T16:57:43.801Z"
+  },
+  {
+    "id": "650cfc7cdcf4",
+    "title": "Jesus fires back over Ronaldo question",
+    "date": "2026-10-05",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/videos/ckn8wjezz462o?at_medium=RSS&at_campaign=rss",
+    "summary": "Jesus fires back over Ronaldo question",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-05T16:57:43.801Z"
+  },
+  {
+    "id": "5e04fea522db",
+    "title": "Football Daily | Child’s play for England with a 7-0 demolition job against Croatia",
+    "date": "2026-10-05",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/05/football-daily-email-england-croatia",
+    "summary": "Football Daily | Child’s play for England with a 7-0 demolition job against Croatia",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-05T16:57:43.801Z"
+  },
+  {
+    "id": "ce1124e5a24c",
+    "title": "Ronaldo’s break with Portugal is sad, fitting, and long overdue | Jonathan Wilson",
+    "date": "2026-10-05",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/05/cristiano-ronaldo-portugal-rift",
+    "summary": "Ronaldo’s break with Portugal is sad, fitting, and long overdue | Jonathan Wilson",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-05T16:57:43.801Z"
+  },
+  {
+    "id": "8c3bb7606a7f",
+    "title": "Bournemouth unhappy over Scott injury but Tuchel says England took ‘zero risk’",
+    "date": "2026-10-05",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/05/alex-scott-injury-two-months-england-bournemouth",
+    "summary": "Bournemouth unhappy over Scott injury but Tuchel says England took ‘zero risk’",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-05T16:57:43.801Z"
+  },
+  {
+    "id": "3b73c582f69d",
+    "title": "Czechia’s Santi Denia: ‘Anthony Gordon? What a player! He’s at the same level as Lamine Yamal’",
+    "date": "2026-10-05",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/05/santi-denia-anthony-gordon-lamine-yamal-england-czechia",
+    "summary": "Czechia’s Santi Denia: ‘Anthony Gordon? What a player! He’s at the same level as Lamine Yamal’",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-05T16:57:43.801Z"
+  },
+  {
+    "id": "f8d69551e826",
+    "title": "The USMNT’s kids are thriving, and ‘they have a bit of swag to them’",
+    "date": "2026-10-05",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/05/usmnt-new-generation-cavan-sullivan-julian-hall-diego-kochen",
+    "summary": "The USMNT’s kids are thriving, and ‘they have a bit of swag to them’",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-05T16:57:43.801Z"
+  },
+  {
+    "id": "050f0c5d4aa5",
+    "title": "Bellamy bemoans new schedule after Denmark loss",
+    "date": "2026-10-04",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cm93zyld4513o?at_medium=RSS&at_campaign=rss",
+    "summary": "Bellamy bemoans new schedule after Denmark loss",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-05T16:57:43.801Z"
+  },
+  {
+    "id": "12a32db710e4",
+    "title": "You are the Scotland boss - what would you do?",
+    "date": "2026-10-04",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cr4g1q2w1g6zo?at_medium=RSS&at_campaign=rss",
+    "summary": "You are the Scotland boss - what would you do?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-05T16:57:43.801Z"
+  },
+  {
+    "id": "79b8e5986374",
+    "title": "Let’s stop doubting Thomas Tuchel: England are impressive and Euro 2028 is the target | Barney Ronay",
+    "date": "2026-10-04",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/04/thomas-tuchel-england-croatia-nations-league-euro-2028",
+    "summary": "Let’s stop doubting Thomas Tuchel: England are impressive and Euro 2028 is the target | Barney Ronay",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-05T16:57:43.801Z"
+  },
+  {
+    "id": "1175b35b6302",
+    "title": "Hallgrímsson calls on Uefa to keep Ireland and Israel apart in future after bad-tempered draw",
+    "date": "2026-10-04",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/04/republic-of-ireland-israel-nations-league-match-report",
+    "summary": "Hallgrímsson calls on Uefa to keep Ireland and Israel apart in future after bad-tempered draw",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-05T16:57:43.801Z"
+  },
+  {
+    "id": "140ddae03dcd",
+    "title": "Denmark sink Wales as Rasmus Højlund makes Danny Ward pay for blunder",
+    "date": "2026-10-04",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/04/wales-denmark-nations-league-match-report",
+    "summary": "Denmark sink Wales as Rasmus Højlund makes Danny Ward pay for blunder",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-05T16:57:43.801Z"
+  },
+  {
+    "id": "aedf628c5c1c",
+    "title": "Clàudia Pina hits four as Barcelona score seven goals to demolish Real Madrid",
+    "date": "2026-10-04",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/04/claudia-pina-hits-four-as-barcelona-demolish-real-madrid",
+    "summary": "Clàudia Pina hits four as Barcelona score seven goals to demolish Real Madrid",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-05T16:57:43.801Z"
+  },
+  {
     "id": "a8afefbd6742",
     "title": "Modric 'ashamed' of Croatia's 'catastrophic night'",
     "date": "2026-10-04",
@@ -3380,109 +3575,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-09-05T11:44:00.262Z"
-  },
-  {
-    "id": "2900853f4448",
-    "title": "FA to canvass England players in World Cup review",
-    "date": "2026-09-04",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/clyr1ly8z4xo?at_medium=RSS&at_campaign=rss",
-    "summary": "FA to canvass England players in World Cup review",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-05T11:44:00.262Z"
-  },
-  {
-    "id": "2cb848da5a48",
-    "title": "Premier League news: Richarlison refused new contract, Alonso backs James in midfield",
-    "date": "2026-09-04",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/04/premier-league-news-manchester-united-everton-aston-villa-manchester-city-tottenham",
-    "summary": "Premier League news: Richarlison refused new contract, Alonso backs James in midfield",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-05T11:44:00.262Z"
-  },
-  {
-    "id": "3f97a04c7a5e",
-    "title": "Chelsea hit bullseye with Morgan Rogers as Arsenal rue what might have been",
-    "date": "2026-09-04",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/blog/2026/sep/04/chelsea-morgan-rogers-arsenal-xabi-alonso-mikel-arteta",
-    "summary": "Chelsea hit bullseye with Morgan Rogers as Arsenal rue what might have been",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-05T11:44:00.262Z"
-  },
-  {
-    "id": "f47206a0072f",
-    "title": "Football Daily | What you won’t see in the Premier League this weekend",
-    "date": "2026-09-04",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/04/football-daily-newsletter-premier-league-weekend",
-    "summary": "Football Daily | What you won’t see in the Premier League this weekend",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-05T11:44:00.262Z"
-  },
-  {
-    "id": "997ad50b4c1a",
-    "title": "Stenhousemuir boss Bartley returns to Livingston - watch on BBC",
-    "date": "2026-09-04",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c7903rq5w2qo?at_medium=RSS&at_campaign=rss",
-    "summary": "Stenhousemuir boss Bartley returns to Livingston - watch on BBC",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-04T12:35:57.091Z"
-  },
-  {
-    "id": "997ad50b4c1a",
-    "title": "Bartley & Martindale set for reunion as Livingston host Stenhousemuir - watch on BBC Scotland",
-    "date": "2026-09-04",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c7903rq5w2qo?at_medium=RSS&at_campaign=rss",
-    "summary": "Bartley & Martindale set for reunion as Livingston host Stenhousemuir - watch on BBC Scotland",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-04T12:35:57.091Z"
-  },
-  {
-    "id": "8460cc072dee",
-    "title": "Manchester City failed to land Spain pair in scramble for Miedema cover",
-    "date": "2026-09-04",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/04/manchester-city-fiamma-benitez-ornella-vignola-bid-miedema-womens-champions-league-draw",
-    "summary": "Manchester City failed to land Spain pair in scramble for Miedema cover",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-04T12:35:57.091Z"
-  },
-  {
-    "id": "4efb25360eaf",
-    "title": "Lucas Herrington staying grounded at Hull City despite meteoric rise: ‘It’s pretty crazy’",
-    "date": "2026-09-04",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/04/premier-league-lucas-herrington-hull-city-meteoric-rise-brisbane-roar",
-    "summary": "Lucas Herrington staying grounded at Hull City despite meteoric rise: ‘It’s pretty crazy’",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-04T12:35:57.091Z"
   }
 ];
