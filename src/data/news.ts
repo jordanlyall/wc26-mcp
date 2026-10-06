@@ -2,6 +2,188 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "7eb8d4dc36fa",
+    "title": "Owner, businessman & player: Messi has big plans as a golden era ends",
+    "date": "2026-10-06",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cwly3lpmyye9o?at_medium=RSS&at_campaign=rss",
+    "summary": "Owner, businessman & player: Messi has big plans as a golden era ends",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-06T14:54:32.122Z"
+  },
+  {
+    "id": "16de5105003b",
+    "title": "Born into Celtic, made at Motherwell, Welsh comes of age with Scotland",
+    "date": "2026-10-06",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/crd938wj2n14o?at_medium=RSS&at_campaign=rss",
+    "summary": "Born into Celtic, made at Motherwell, Welsh comes of age with Scotland",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-06T14:54:32.122Z"
+  },
+  {
+    "id": "10b132177207",
+    "title": "South Korea captain apologises for gloating over military service exemption",
+    "date": "2026-10-06",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c6wy4xd80xyvo?at_medium=RSS&at_campaign=rss",
+    "summary": "South Korea captain apologises for gloating over military service exemption",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-06T14:54:32.122Z"
+  },
+  {
+    "id": "16de5105003b",
+    "title": "Born into Celtic, made at Motherwell, Welsh comes of age with Scotland",
+    "date": "2026-10-06",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/crd938wj2n14o?at_medium=RSS&at_campaign=rss",
+    "summary": "Born into Celtic, made at Motherwell, Welsh comes of age with Scotland",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-06T14:54:32.122Z"
+  },
+  {
+    "id": "bf58866fd594",
+    "title": "Lionel Messi has completed football and can bid Argentina farewell with pride",
+    "date": "2026-10-06",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/06/lionel-messi-completed-football-argentina-farewell-world-cup-glory",
+    "summary": "Lionel Messi has completed football and can bid Argentina farewell with pride",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-06T14:54:32.122Z"
+  },
+  {
+    "id": "b7f9837cbec4",
+    "title": "Schooled for success: how English lessons power Midtjylland’s talent factory",
+    "date": "2026-10-06",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/06/english-lessons-midtjylland-talent-factory-transfer-window",
+    "summary": "Schooled for success: how English lessons power Midtjylland’s talent factory",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-06T14:54:32.122Z"
+  },
+  {
+    "id": "b3d502a34192",
+    "title": "Mary Fowler ruled out of Matildas friendlies due to ‘personal circumstances’",
+    "date": "2026-10-06",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/06/mary-fowler-personal-circumstances-ruled-out-matildas-friendlies",
+    "summary": "Mary Fowler ruled out of Matildas friendlies due to ‘personal circumstances’",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-06T14:54:32.122Z"
+  },
+  {
+    "id": "3e38a0d03357",
+    "title": "England's greatest international? Kane is now a serious contender",
+    "date": "2026-10-05",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cm5ynj882zw0o?at_medium=RSS&at_campaign=rss",
+    "summary": "England's greatest international? Kane is now a serious contender",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-06T14:54:32.122Z"
+  },
+  {
+    "id": "10efd2524a32",
+    "title": "Humble Gilmour happy with new role as 50th cap beckons",
+    "date": "2026-10-05",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cmly05el6gz2o?at_medium=RSS&at_campaign=rss",
+    "summary": "Humble Gilmour happy with new role as 50th cap beckons",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-06T14:54:32.122Z"
+  },
+  {
+    "id": "f1e8f02961a5",
+    "title": "Juventus & Atletico Madrid eye Madueke - Tuesday's gossip",
+    "date": "2026-10-05",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cw203mjx7r46o?at_medium=RSS&at_campaign=rss",
+    "summary": "Juventus & Atletico Madrid eye Madueke - Tuesday's gossip",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-06T14:54:32.122Z"
+  },
+  {
+    "id": "c3382eca51e4",
+    "title": "Ex-England player Carroll names attacker as TV dance coach",
+    "date": "2026-10-05",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/news/articles/cm5yn9np73xeo?at_medium=RSS&at_campaign=rss",
+    "summary": "Ex-England player Carroll names attacker as TV dance coach",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-06T14:54:32.122Z"
+  },
+  {
+    "id": "f34e87942aca",
+    "title": "Monday Night Club: England, Alex Scott injury & Robbie Savage on his new job",
+    "date": "2026-10-05",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sounds/play/p0pf4nx4?at_medium=RSS&at_campaign=rss",
+    "summary": "Monday Night Club: England, Alex Scott injury & Robbie Savage on his new job",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-06T14:54:32.122Z"
+  },
+  {
+    "id": "10efd2524a32",
+    "title": "Humble Gilmour happy with new role as 50th cap beckons",
+    "date": "2026-10-05",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cmly05el6gz2o?at_medium=RSS&at_campaign=rss",
+    "summary": "Humble Gilmour happy with new role as 50th cap beckons",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-06T14:54:32.122Z"
+  },
+  {
+    "id": "49a6814af29c",
+    "title": "Jude awakening: how a more fluid England are ‘unlocking’ Bellingham’s full potential",
+    "date": "2026-10-05",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/05/jude-awakening-how-a-more-fluid-england-are-unlocking-bellinghams-full-potential",
+    "summary": "Jude awakening: how a more fluid England are ‘unlocking’ Bellingham’s full potential",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-06T14:54:32.122Z"
+  },
+  {
     "id": "dfc0cf3bfb66",
     "title": "Bournemouth unhappy after Scott injured with England",
     "date": "2026-10-05",
@@ -3523,57 +3705,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-09-07T14:05:59.089Z"
-  },
-  {
-    "id": "886b0930f6de",
-    "title": "Wrexham boss Parkinson says Swansea captain should have seen red",
-    "date": "2026-09-05",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c3eq5pl3y41o?at_medium=RSS&at_campaign=rss",
-    "summary": "Wrexham boss Parkinson says Swansea captain should have seen red",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-06T12:01:45.295Z"
-  },
-  {
-    "id": "374fd6abf38d",
-    "title": "Modric plans to play for Croatia past 41st birthday ",
-    "date": "2026-09-05",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/ckg0xegkegyo?at_medium=RSS&at_campaign=rss",
-    "summary": "Modric plans to play for Croatia past 41st birthday ",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-06T12:01:45.295Z"
-  },
-  {
-    "id": "27e26a71aea7",
-    "title": "Chilwell seals Crystal Palace comeback win after Mitchell double at Fulham",
-    "date": "2026-09-05",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/05/fulham-crystal-palace-premier-league-match-report",
-    "summary": "Chilwell seals Crystal Palace comeback win after Mitchell double at Fulham",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-06T12:01:45.295Z"
-  },
-  {
-    "id": "6c663643d0c2",
-    "title": "‘The noise was unbelievable’: the referee’s view of Mexico v England at the World Cup",
-    "date": "2026-09-05",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/05/world-cup-alireza-faghani-england-mexico-azteca",
-    "summary": "‘The noise was unbelievable’: the referee’s view of Mexico v England at the World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-05T11:44:00.262Z"
   }
 ];
