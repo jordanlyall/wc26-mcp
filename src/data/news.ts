@@ -2,6 +2,266 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "e1f79747e6a6",
+    "title": "Are SPFL away ticket prices too expensive? And is price cap on agenda? ",
+    "date": "2026-10-07",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cr89j9194kx3o?at_medium=RSS&at_campaign=rss",
+    "summary": "Are SPFL away ticket prices too expensive? And is price cap on agenda? ",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-07T15:20:48.836Z"
+  },
+  {
+    "id": "0d0574860334",
+    "title": "'Nothing can take my attention' - Ward on World Cup",
+    "date": "2026-10-07",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cqvg07v9xrz4o?at_medium=RSS&at_campaign=rss",
+    "summary": "'Nothing can take my attention' - Ward on World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-07T15:20:48.836Z"
+  },
+  {
+    "id": "5b8ec342815d",
+    "title": "'Bring the magic' - Scotland's Ross eyes World Cup dream",
+    "date": "2026-10-07",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/ckgelj5x2e7lo?at_medium=RSS&at_campaign=rss",
+    "summary": "'Bring the magic' - Scotland's Ross eyes World Cup dream",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-07T15:20:48.836Z"
+  },
+  {
+    "id": "7a97e303fe26",
+    "title": "Watch: Every Messi World Cup goal for Argentina",
+    "date": "2026-10-07",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/videos/c61kdn0nwld4o?at_medium=RSS&at_campaign=rss",
+    "summary": "Watch: Every Messi World Cup goal for Argentina",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-07T15:20:48.836Z"
+  },
+  {
+    "id": "3c1e326d88b0",
+    "title": "Quiz: Name England's all-time leading appearance makers",
+    "date": "2026-10-07",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cmlylv1xl9qgo?at_medium=RSS&at_campaign=rss",
+    "summary": "Quiz: Name England's all-time leading appearance makers",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-07T15:20:48.836Z"
+  },
+  {
+    "id": "e1f79747e6a6",
+    "title": "Are SPFL away ticket prices too expensive? And is price cap on agenda? ",
+    "date": "2026-10-07",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cr89j9194kx3o?at_medium=RSS&at_campaign=rss",
+    "summary": "Are SPFL away ticket prices too expensive? And is price cap on agenda? ",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-07T15:20:48.836Z"
+  },
+  {
+    "id": "5b8ec342815d",
+    "title": "'Bring the magic' - Scotland's Ross eyes World Cup dream",
+    "date": "2026-10-07",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/ckgelj5x2e7lo?at_medium=RSS&at_campaign=rss",
+    "summary": "'Bring the magic' - Scotland's Ross eyes World Cup dream",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-07T15:20:48.836Z"
+  },
+  {
+    "id": "0d0574860334",
+    "title": "'Nothing can take my attention' - Ward on World Cup and Villa link",
+    "date": "2026-10-07",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cqvg07v9xrz4o?at_medium=RSS&at_campaign=rss",
+    "summary": "'Nothing can take my attention' - Ward on World Cup and Villa link",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-07T15:20:48.836Z"
+  },
+  {
+    "id": "5b8ec342815d",
+    "title": "'Bring the magic' - Scotland's Ross eyes World Cup dream",
+    "date": "2026-10-07",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/ckgelj5x2e7lo?at_medium=RSS&at_campaign=rss",
+    "summary": "'Bring the magic' - Scotland's Ross eyes World Cup dream",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-07T15:20:48.836Z"
+  },
+  {
+    "id": "e5bafbdb512c",
+    "title": "Robertson rant and the wrong system? Pocognoli’s Scotland start raises questions",
+    "date": "2026-10-07",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/07/robertson-system-pocognoli-scotland-start-questions",
+    "summary": "Robertson rant and the wrong system? Pocognoli’s Scotland start raises questions",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-07T15:20:48.836Z"
+  },
+  {
+    "id": "cd5ff2ef410e",
+    "title": "Cristiano Ronaldo: the extraordinary eight points he says Jorge Jesus agreed to make",
+    "date": "2026-10-07",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/07/cristiano-ronaldo-eight-points-jorge-jesus-statement-portugal",
+    "summary": "Cristiano Ronaldo: the extraordinary eight points he says Jorge Jesus agreed to make",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-07T15:20:48.836Z"
+  },
+  {
+    "id": "62c37b317e95",
+    "title": "Lionel Messi describes ending Argentina career as his ‘saddest day’ in football",
+    "date": "2026-10-07",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/07/lionel-messi-ends-argentina-career-saddest-day",
+    "summary": "Lionel Messi describes ending Argentina career as his ‘saddest day’ in football",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-07T15:20:48.836Z"
+  },
+  {
+    "id": "217f84e8e345",
+    "title": "Which footballers have ended scoring droughts with a goal off their backside? | The Knowledge",
+    "date": "2026-10-07",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/07/which-footballers-have-ended-scoring-droughts-with-a-goal-off-their-backside",
+    "summary": "Which footballers have ended scoring droughts with a goal off their backside? | The Knowledge",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-07T15:20:48.836Z"
+  },
+  {
+    "id": "87ca6f3987a3",
+    "title": "Ronaldo wants Portugal 'punishment' but not retiring",
+    "date": "2026-10-06",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cmd7qn48q13lo?at_medium=RSS&at_campaign=rss",
+    "summary": "Ronaldo wants Portugal 'punishment' but not retiring",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-07T15:20:48.836Z"
+  },
+  {
+    "id": "caa8e56752c5",
+    "title": "Midfield options and a fab front four - what we've learned about England",
+    "date": "2026-10-06",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cq62y431dj8vo?at_medium=RSS&at_campaign=rss",
+    "summary": "Midfield options and a fab front four - what we've learned about England",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-07T15:20:48.836Z"
+  },
+  {
+    "id": "9203a2bfc183",
+    "title": "'Outfought' and 'not good enough' - Robertson on Scotland defeat",
+    "date": "2026-10-06",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/crz98xv1e8nlo?at_medium=RSS&at_campaign=rss",
+    "summary": "'Outfought' and 'not good enough' - Robertson on Scotland defeat",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-07T15:20:48.836Z"
+  },
+  {
+    "id": "5da22ece454b",
+    "title": "Marsch calls USA politics 'big talk' as Pochettino praises Canada coach",
+    "date": "2026-10-06",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/videos/cwdr8d6kr8mlo?at_medium=RSS&at_campaign=rss",
+    "summary": "Marsch calls USA politics 'big talk' as Pochettino praises Canada coach",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-07T15:20:48.836Z"
+  },
+  {
+    "id": "49a9b938fe2d",
+    "title": "Kane's rise from childhood keeper to equalling England cap record",
+    "date": "2026-10-06",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cx2ln5n7yqdo?at_medium=RSS&at_campaign=rss",
+    "summary": "Kane's rise from childhood keeper to equalling England cap record",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-07T15:20:48.836Z"
+  },
+  {
+    "id": "479eb811e7c3",
+    "title": "Davies' 'extra motivation' after Euros heartbreak",
+    "date": "2026-10-06",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c5y43nry14j7o?at_medium=RSS&at_campaign=rss",
+    "summary": "Davies' 'extra motivation' after Euros heartbreak",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-07T15:20:48.836Z"
+  },
+  {
+    "id": "7a784545ded4",
+    "title": "Total Midweek Kane: England’s icon delivers a classic on his way to footballing ultimacy | Barney Ronay",
+    "date": "2026-10-06",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/06/total-midweek-kane-englands-icon-delivers-a-classic-on-his-way-to-footballing-ultimacy",
+    "summary": "Total Midweek Kane: England’s icon delivers a classic on his way to footballing ultimacy | Barney Ronay",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-07T15:20:48.836Z"
+  },
+  {
     "id": "7eb8d4dc36fa",
     "title": "Owner, businessman & player: Messi has big plans as a golden era ends",
     "date": "2026-10-06",
