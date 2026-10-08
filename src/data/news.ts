@@ -2,6 +2,175 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "80e6b6bdf361",
+    "title": "Toone comes into England squad as Bronze withdraws",
+    "date": "2026-10-08",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c962yzlgln8po?at_medium=RSS&at_campaign=rss",
+    "summary": "Toone comes into England squad as Bronze withdraws",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-08T15:23:52.797Z"
+  },
+  {
+    "id": "80e6b6bdf361",
+    "title": "Toone comes into England squad as Bronze withdraws",
+    "date": "2026-10-08",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c962yzlgln8po?at_medium=RSS&at_campaign=rss",
+    "summary": "Toone comes into England squad as Bronze withdraws",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-08T15:23:52.797Z"
+  },
+  {
+    "id": "bb7a0eae5e87",
+    "title": "Havertz, Isak, Dorgu … spate of injuries with national teams leaves sour taste for top clubs",
+    "date": "2026-10-08",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/08/premier-league-injuries-kai-havertz-alexander-isak-patrick-dorgu",
+    "summary": "Havertz, Isak, Dorgu … spate of injuries with national teams leaves sour taste for top clubs",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-08T15:23:52.797Z"
+  },
+  {
+    "id": "f94f408f24f2",
+    "title": "‘Like a movie script’: Michael McArdle backs Northern Ireland to make history",
+    "date": "2026-10-08",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/08/michael-mcardle-northern-ireland-women-moving-the-goalposts",
+    "summary": "‘Like a movie script’: Michael McArdle backs Northern Ireland to make history",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-08T15:23:52.797Z"
+  },
+  {
+    "id": "7c1650e4bcb0",
+    "title": "‘¡Qué Horror!’: Mexico’s World Cup honeymoon is over but is Rafa Márquez really to blame?",
+    "date": "2026-10-08",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/08/mexico-soccer-team-rafael-marquez",
+    "summary": "‘¡Qué Horror!’: Mexico’s World Cup honeymoon is over but is Rafa Márquez really to blame?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-08T15:23:52.797Z"
+  },
+  {
+    "id": "7eff3be8c5ea",
+    "title": "'Amazing' Kane targets 100 international goals",
+    "date": "2026-10-07",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/videos/cm75pwl3w2x7o?at_medium=RSS&at_campaign=rss",
+    "summary": "'Amazing' Kane targets 100 international goals",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-08T15:23:52.797Z"
+  },
+  {
+    "id": "4b53c1ac9c53",
+    "title": "Barry-Murphy and Bellamy so similar - Lawlor",
+    "date": "2026-10-07",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c5y43n38z0ndo?at_medium=RSS&at_campaign=rss",
+    "summary": "Barry-Murphy and Bellamy so similar - Lawlor",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-08T15:23:52.797Z"
+  },
+  {
+    "id": "2503337e23b5",
+    "title": "BBC Women's Football Weekly",
+    "date": "2026-10-07",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sounds/play/p0pfh6lh?at_medium=RSS&at_campaign=rss",
+    "summary": "BBC Women's Football Weekly",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-08T15:23:52.797Z"
+  },
+  {
+    "id": "2503337e23b5",
+    "title": "BBC Women's Football Weekly",
+    "date": "2026-10-07",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sounds/play/p0pfh6lh?at_medium=RSS&at_campaign=rss",
+    "summary": "BBC Women's Football Weekly",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-08T15:23:52.797Z"
+  },
+  {
+    "id": "f300697effed",
+    "title": "All aboard the Tuchel train? England camp has clear winners and losers",
+    "date": "2026-10-07",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/07/england-winners-and-losers-thomas-tuchel-tactics-squad-selection",
+    "summary": "All aboard the Tuchel train? England camp has clear winners and losers",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-08T15:23:52.797Z"
+  },
+  {
+    "id": "b792646f5aad",
+    "title": "England ready to level up and embrace ‘calculated risks’, claims Tuchel",
+    "date": "2026-10-07",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/07/england-level-up-thomas-tuchel-tactics-jarell-quansah",
+    "summary": "England ready to level up and embrace ‘calculated risks’, claims Tuchel",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-08T15:23:52.797Z"
+  },
+  {
+    "id": "97f382019edc",
+    "title": "Lionel Messi’s Argentina career turned football into a sacred mystery",
+    "date": "2026-10-07",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/07/lionel-messi-argentina-retirement-final-match",
+    "summary": "Lionel Messi’s Argentina career turned football into a sacred mystery",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-08T15:23:52.797Z"
+  },
+  {
+    "id": "c08e975a03e8",
+    "title": "Football Daily | Tears, drone ads and a 1,740-word manifesto: Messi v Ronaldo gets one more chapter",
+    "date": "2026-10-07",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/07/lionel-messi-cristiano-ronaldo-football-daily-newsletter",
+    "summary": "Football Daily | Tears, drone ads and a 1,740-word manifesto: Messi v Ronaldo gets one more chapter",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-08T15:23:52.797Z"
+  },
+  {
     "id": "e1f79747e6a6",
     "title": "Are SPFL away ticket prices too expensive? And is price cap on agenda? ",
     "date": "2026-10-07",
@@ -3926,44 +4095,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-09-08T12:43:29.386Z"
-  },
-  {
-    "id": "c31107d7ed5a",
-    "title": "Williams and Sheehan join Bellamy's Wales staff",
-    "date": "2026-09-07",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cq63mm9vzedo?at_medium=RSS&at_campaign=rss",
-    "summary": "Williams and Sheehan join Bellamy's Wales staff",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-08T12:43:29.386Z"
-  },
-  {
-    "id": "54cda43ee82c",
-    "title": "Mauricio Pochettino wants the US to become ‘one of the most powerful countries in soccer’",
-    "date": "2026-09-07",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/07/mauricio-pochettino-usmnt-soccer-head-coach",
-    "summary": "Mauricio Pochettino wants the US to become ‘one of the most powerful countries in soccer’",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-08T12:43:29.386Z"
-  },
-  {
-    "id": "a334a2286f35",
-    "title": "WSL talking points: Palace result in doubt after substitution nightmare, Arsenal signings shine",
-    "date": "2026-09-07",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/07/wsl-talking-points-palace-result-in-doubt-after-substitution-nightmare-arsenal-signings-shine",
-    "summary": "WSL talking points: Palace result in doubt after substitution nightmare, Arsenal signings shine",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-07T14:05:59.089Z"
   }
 ];
