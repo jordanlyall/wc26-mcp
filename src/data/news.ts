@@ -2,6 +2,84 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "dea2f77f6329",
+    "title": "Wales captain James has World Cup on her mind ",
+    "date": "2026-10-09",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cwp8gnj1n7yyo?at_medium=RSS&at_campaign=rss",
+    "summary": "Wales captain James has World Cup on her mind ",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-09T15:06:34.860Z"
+  },
+  {
+    "id": "dea2f77f6329",
+    "title": "Wales captain James has World Cup on her mind ",
+    "date": "2026-10-09",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cwp8gnj1n7yyo?at_medium=RSS&at_campaign=rss",
+    "summary": "Wales captain James has World Cup on her mind ",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-09T15:06:34.860Z"
+  },
+  {
+    "id": "e51971d61d29",
+    "title": "Will Carlos Baleba fix Manchester United? Three big questions ahead of potential debut",
+    "date": "2026-10-09",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/09/carlos-baleba-manchester-united-debut",
+    "summary": "Will Carlos Baleba fix Manchester United? Three big questions ahead of potential debut",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-09T15:06:34.860Z"
+  },
+  {
+    "id": "9c5993a3ae6f",
+    "title": "Premier League: 10 things to look out for this weekend",
+    "date": "2026-10-08",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/09/premier-league-10-things-to-look-out-for-this-weekend",
+    "summary": "Premier League: 10 things to look out for this weekend",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-09T15:06:34.860Z"
+  },
+  {
+    "id": "7332816ffe81",
+    "title": "Wiegman praises Toone’s attitude after late Lionesses recall for Greece playoff",
+    "date": "2026-10-08",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/08/sarina-wiegman-praises-ella-toone-attitude-late-england-lionesses-recall-greece-playoff",
+    "summary": "Wiegman praises Toone’s attitude after late Lionesses recall for Greece playoff",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-09T15:06:34.860Z"
+  },
+  {
+    "id": "f426330baa7b",
+    "title": "With no Pulisic and good results, have the USMNT moved on from their savior complex? | Leander Schaerlaeckens",
+    "date": "2026-10-08",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/08/usmnt-christian-pulisic-youth-movement-mauricio-pochettino",
+    "summary": "With no Pulisic and good results, have the USMNT moved on from their savior complex? | Leander Schaerlaeckens",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-09T15:06:34.860Z"
+  },
+  {
     "id": "80e6b6bdf361",
     "title": "Toone comes into England squad as Bronze withdraws",
     "date": "2026-10-08",
@@ -3965,135 +4043,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-09-09T12:49:34.690Z"
-  },
-  {
-    "id": "997f234893e8",
-    "title": "Rangers lose Shankland for up to four months",
-    "date": "2026-09-08",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c74ew227rmpo?at_medium=RSS&at_campaign=rss",
-    "summary": "Rangers lose Shankland for up to four months",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-09T12:49:34.690Z"
-  },
-  {
-    "id": "997f234893e8",
-    "title": "Rangers' Shankland out for up to four months & may have surgery",
-    "date": "2026-09-08",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c74ew227rmpo?at_medium=RSS&at_campaign=rss",
-    "summary": "Rangers' Shankland out for up to four months & may have surgery",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-09T12:49:34.690Z"
-  },
-  {
-    "id": "1f468e7893ce",
-    "title": "Scotland captain Weir shortlisted for Ballon d'Or",
-    "date": "2026-09-08",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cpd01d9je5zo?at_medium=RSS&at_campaign=rss",
-    "summary": "Scotland captain Weir shortlisted for Ballon d'Or",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-09T12:49:34.690Z"
-  },
-  {
-    "id": "2fa7d2fa83b7",
-    "title": "Championship roundup: West Ham go top after Bowen double sinks Bolton",
-    "date": "2026-09-08",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/08/championship-roundup-west-ham-go-top-after-bowen-double-sinks-bolton",
-    "summary": "Championship roundup: West Ham go top after Bowen double sinks Bolton",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-09T12:49:34.690Z"
-  },
-  {
-    "id": "3187940df7b2",
-    "title": "Football Daily | Forget the hype machine – it’s the minnows who offer European interest",
-    "date": "2026-09-08",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/08/champions-league-hype-machine-football-daily-newsletter",
-    "summary": "Football Daily | Forget the hype machine – it’s the minnows who offer European interest",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-09T12:49:34.690Z"
-  },
-  {
-    "id": "734ddbabb5ba",
-    "title": "Non-league to Champions League: The Porto boss out to stun Man City",
-    "date": "2026-09-08",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c072j1r4e2do?at_medium=RSS&at_campaign=rss",
-    "summary": "Non-league to Champions League: The Porto boss out to stun Man City",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-08T12:43:29.386Z"
-  },
-  {
-    "id": "e1d181948848",
-    "title": "Shankland faces up to three months out - gossip",
-    "date": "2026-09-08",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cnvlmg4544po?at_medium=RSS&at_campaign=rss",
-    "summary": "Shankland faces up to three months out - gossip",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-08T12:43:29.386Z"
-  },
-  {
-    "id": "2edef328d8cc",
-    "title": "Podcast: Martindale returns, Shankland blow and Scotland's new team",
-    "date": "2026-09-08",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sounds/play/p0p8hp52?at_medium=RSS&at_campaign=rss",
-    "summary": "Podcast: Martindale returns, Shankland blow and Scotland's new team",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-08T12:43:29.386Z"
-  },
-  {
-    "id": "fd87cda68294",
-    "title": "David Squires on … Lionel Messi enjoying his true passion after Argentina retirement",
-    "date": "2026-09-08",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/picture/2026/sep/08/david-squires-on-lionel-messi-true-passion-international-football-retirement",
-    "summary": "David Squires on … Lionel Messi enjoying his true passion after Argentina retirement",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-08T12:43:29.386Z"
-  },
-  {
-    "id": "4b2759477198",
-    "title": "No major World Cup regrets, says Tony Popovic, despite shootout heartbreak",
-    "date": "2026-09-08",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/08/tony-popovic-socceroos-coach-world-cup-no-regrest-penalty-shootout-disappointment",
-    "summary": "No major World Cup regrets, says Tony Popovic, despite shootout heartbreak",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-08T12:43:29.386Z"
   }
 ];
