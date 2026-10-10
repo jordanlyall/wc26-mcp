@@ -2,6 +2,175 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "c5ca08fb2eb5",
+    "title": "Wales hope pattern continues in Albania return",
+    "date": "2026-10-10",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c8r4y6x4p2lzo?at_medium=RSS&at_campaign=rss",
+    "summary": "Wales hope pattern continues in Albania return",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-10T14:20:39.036Z"
+  },
+  {
+    "id": "c5ca08fb2eb5",
+    "title": "Wales hope pattern continues in Albania return",
+    "date": "2026-10-10",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c8r4y6x4p2lzo?at_medium=RSS&at_campaign=rss",
+    "summary": "Wales hope pattern continues in Albania return",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-10T14:20:39.036Z"
+  },
+  {
+    "id": "d17173c81678",
+    "title": "NI debut 'something I thought had passed' - Elmore",
+    "date": "2026-10-10",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/ck7vpdz0lnmvo?at_medium=RSS&at_campaign=rss",
+    "summary": "NI debut 'something I thought had passed' - Elmore",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-10T14:20:39.036Z"
+  },
+  {
+    "id": "ec75e2ee758c",
+    "title": "Chelsea v Bournemouth, Sunderland v Brighton, and more: football – live",
+    "date": "2026-10-10",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/live/2026/oct/10/chelsea-v-bournemouth-sunderland-v-brighton-and-more-football-live",
+    "summary": "Chelsea v Bournemouth, Sunderland v Brighton, and more: football – live",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-10T14:20:39.036Z"
+  },
+  {
+    "id": "9777fbde913d",
+    "title": "Portugal suspend Cristiano Ronaldo after walking out on national team",
+    "date": "2026-10-10",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/10/portugal-suspend-cristiano-ronaldo",
+    "summary": "Portugal suspend Cristiano Ronaldo after walking out on national team",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-10T14:20:39.036Z"
+  },
+  {
+    "id": "0d0dd9ef1820",
+    "title": "South Melbourne make history with Australia Cup win that could change the future too | Joey Lynch",
+    "date": "2026-10-10",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/11/south-melbourne-vs-victory-australia-cup-final",
+    "summary": "South Melbourne make history with Australia Cup win that could change the future too | Joey Lynch",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-10T14:20:39.036Z"
+  },
+  {
+    "id": "ef13f348c894",
+    "title": "Greek takeaways: What did we learn from Lionesses' win?",
+    "date": "2026-10-09",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cwp8g1ry6rjlo?at_medium=RSS&at_campaign=rss",
+    "summary": "Greek takeaways: What did we learn from Lionesses' win?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-10T14:20:39.036Z"
+  },
+  {
+    "id": "6b4cdc1043e9",
+    "title": "Wales must improve in World Cup bid - Wilkinson",
+    "date": "2026-10-09",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cw4g1z0g17x8o?at_medium=RSS&at_campaign=rss",
+    "summary": "Wales must improve in World Cup bid - Wilkinson",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-10T14:20:39.036Z"
+  },
+  {
+    "id": "ef13f348c894",
+    "title": "Greek takeaways: What did we learn from Lionesses' win?",
+    "date": "2026-10-09",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cwp8g1ry6rjlo?at_medium=RSS&at_campaign=rss",
+    "summary": "Greek takeaways: What did we learn from Lionesses' win?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-10T14:20:39.036Z"
+  },
+  {
+    "id": "1dc82156b355",
+    "title": "Russo’s return to form is vital but Lionesses still lack bite against low blocks | Suzanne Wrack",
+    "date": "2026-10-09",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/09/lionesses-alessia-russo-england-greece-womens-world-cup-qualification-playoff",
+    "summary": "Russo’s return to form is vital but Lionesses still lack bite against low blocks | Suzanne Wrack",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-10T14:20:39.036Z"
+  },
+  {
+    "id": "9f38ed85cf54",
+    "title": "Chelsea manager Alonso insists Cole Palmer is committed to playing for England",
+    "date": "2026-10-09",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/09/chelsea-xabi-alonso-cole-palmer-england-thomas-tuchel",
+    "summary": "Chelsea manager Alonso insists Cole Palmer is committed to playing for England",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-10T14:20:39.036Z"
+  },
+  {
+    "id": "6d90001ef40f",
+    "title": "Lionesses take control of World Cup playoff tie but unfancied Greece still in fight",
+    "date": "2026-10-09",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/09/greece-england-womens-world-cup-qualifying-playoff",
+    "summary": "Lionesses take control of World Cup playoff tie but unfancied Greece still in fight",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-10T14:20:39.036Z"
+  },
+  {
+    "id": "19f0c83d7cf0",
+    "title": "Sam Kerr on target but Matildas outclassed by youthful Germany in European friendly",
+    "date": "2026-10-09",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/10/matildas-australia-germany-sam-kerr-friendly-match-report",
+    "summary": "Sam Kerr on target but Matildas outclassed by youthful Germany in European friendly",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-10T14:20:39.036Z"
+  },
+  {
     "id": "dea2f77f6329",
     "title": "Wales captain James has World Cup on her mind ",
     "date": "2026-10-09",
@@ -3978,70 +4147,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-09-10T12:47:36.076Z"
-  },
-  {
-    "id": "6dca1f17a413",
-    "title": "Irvine stays as Pocognoli refreshes Scotland staff",
-    "date": "2026-09-09",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cyvzn5d97y3o?at_medium=RSS&at_campaign=rss",
-    "summary": "Irvine stays as Pocognoli refreshes Scotland staff",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-10T12:47:36.076Z"
-  },
-  {
-    "id": "bd6288ba58cf",
-    "title": "Alexis Mac Allister makes his point as Liverpool fight back to defeat Atlético",
-    "date": "2026-09-09",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/09/liverpool-atletico-madrid-champions-league-match-report",
-    "summary": "Alexis Mac Allister makes his point as Liverpool fight back to defeat Atlético",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-10T12:47:36.076Z"
-  },
-  {
-    "id": "83e456900e30",
-    "title": "Infantino installs loyalist to oversee Caribbean as he splits Fifa management",
-    "date": "2026-09-09",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/09/gianni-infantino-loyalist-caribbean-fifa-split-gelson-fernandes",
-    "summary": "Infantino installs loyalist to oversee Caribbean as he splits Fifa management",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-10T12:47:36.076Z"
-  },
-  {
-    "id": "47e6995c951b",
-    "title": "Football Daily | Troy Parrott enjoys a big week after taking the scenic route to success",
-    "date": "2026-09-09",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/09/troy-parrott-real-betis-big-week-football-daily-newsletter",
-    "summary": "Football Daily | Troy Parrott enjoys a big week after taking the scenic route to success",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-10T12:47:36.076Z"
-  },
-  {
-    "id": "02b1a3602ec8",
-    "title": "Cristian Volpato’s Socceroos fate uncertain after second sample confirms positive cocaine test",
-    "date": "2026-09-09",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/09/cristian-volpato-cocaine-positive-test-socceroos-australia-ntwnfb",
-    "summary": "Cristian Volpato’s Socceroos fate uncertain after second sample confirms positive cocaine test",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-09T12:49:34.690Z"
   }
 ];
