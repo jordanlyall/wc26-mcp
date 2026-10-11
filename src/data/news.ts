@@ -2,6 +2,45 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "4f4d5312b2fb",
+    "title": "Why we’re stuck with a Premier League in the clutches of the global mega-rich | Jonathan Wilson",
+    "date": "2026-10-10",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/10/why-premier-league-in-clutches-of-global-mega-rich",
+    "summary": "Why we’re stuck with a Premier League in the clutches of the global mega-rich | Jonathan Wilson",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-11T14:46:51.094Z"
+  },
+  {
+    "id": "637bbb8ee187",
+    "title": "USWNT exposed by ruthless Spain as early goals settle heavyweight friendly",
+    "date": "2026-10-10",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/10/uswnt-spain-match-report-washington-dc",
+    "summary": "USWNT exposed by ruthless Spain as early goals settle heavyweight friendly",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-11T14:46:51.094Z"
+  },
+  {
+    "id": "08f570ead50f",
+    "title": "European football: Gordon boosts Barcelona, Neuer errors cost Bayern in draw",
+    "date": "2026-10-10",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/10/european-football-bayern-concede-fastest-goal-bundeliga-history",
+    "summary": "European football: Gordon boosts Barcelona, Neuer errors cost Bayern in draw",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-11T14:46:51.094Z"
+  },
+  {
     "id": "c5ca08fb2eb5",
     "title": "Wales hope pattern continues in Albania return",
     "date": "2026-10-10",
@@ -4030,122 +4069,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-09-12T12:02:11.233Z"
-  },
-  {
-    "id": "b301b2dc28ba",
-    "title": "Olise scores twice as Bayern thrash Bodo/Glimt",
-    "date": "2026-09-10",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/videos/c1mvzgmdje5o?at_medium=RSS&at_campaign=rss",
-    "summary": "Olise scores twice as Bayern thrash Bodo/Glimt",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-11T12:42:16.176Z"
-  },
-  {
-    "id": "045d6a3696a6",
-    "title": "Leeds' Okafor says he won't play for Swiss again under Yakin",
-    "date": "2026-09-10",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c74e0kvm03ro?at_medium=RSS&at_campaign=rss",
-    "summary": "Leeds' Okafor says he won't play for Swiss again under Yakin",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-11T12:42:16.176Z"
-  },
-  {
-    "id": "0ab8331451c7",
-    "title": "Taylor aims to make Wales a force in deaf football",
-    "date": "2026-09-10",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cy8dvg5vg5eo?at_medium=RSS&at_campaign=rss",
-    "summary": "Taylor aims to make Wales a force in deaf football",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-11T12:42:16.176Z"
-  },
-  {
-    "id": "2deff1c3117e",
-    "title": "Premier League: 10 things to look out for this weekend",
-    "date": "2026-09-10",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/11/premier-league-10-things-to-look-out-for-this-weekend",
-    "summary": "Premier League: 10 things to look out for this weekend",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-11T12:42:16.176Z"
-  },
-  {
-    "id": "74fcf650213a",
-    "title": "French FA accuses Infantino of ‘seriously damaging’ football as it withdraws support",
-    "date": "2026-09-10",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/10/gianni-infantino-accused-seriously-damaging-football-french-fa-withdraws-support-fifa",
-    "summary": "French FA accuses Infantino of ‘seriously damaging’ football as it withdraws support",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-11T12:42:16.176Z"
-  },
-  {
-    "id": "cb3898a7c84c",
-    "title": "Declan Rice shrugs off Arsenal concerns and says 60 games a season is sustainable",
-    "date": "2026-09-10",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/10/declan-rice-arsenal-workload-concerns-sustainable",
-    "summary": "Declan Rice shrugs off Arsenal concerns and says 60 games a season is sustainable",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-10T12:47:36.076Z"
-  },
-  {
-    "id": "3ec64b352e71",
-    "title": "‘Football saved Dad’s life’: meet the coach of the England women’s Parkinson’s team",
-    "date": "2026-09-10",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/10/football-saved-dads-life-meet-the-coach-of-the-england-womens-parkinsons-team",
-    "summary": "‘Football saved Dad’s life’: meet the coach of the England women’s Parkinson’s team",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-10T12:47:36.076Z"
-  },
-  {
-    "id": "b9dffd3ea69b",
-    "title": "‘That’s how it started’: Dambrauskas’ journey from Who Wants to Be a Millionaire to Champions League",
-    "date": "2026-09-10",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/10/valdas-dambrauskas-sabah-manchester-united-arsenal-champions-league",
-    "summary": "‘That’s how it started’: Dambrauskas’ journey from Who Wants to Be a Millionaire to Champions League",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-10T12:47:36.076Z"
-  },
-  {
-    "id": "a1b5e6fce385",
-    "title": "Mauricio Pochettino: ‘I am always open to help Tottenham. In whatever division’",
-    "date": "2026-09-10",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/10/mauricio-pochettino-tottenham-united-states-world-cup-england",
-    "summary": "Mauricio Pochettino: ‘I am always open to help Tottenham. In whatever division’",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-10T12:47:36.076Z"
   }
 ];
