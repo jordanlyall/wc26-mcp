@@ -2,6 +2,97 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "2da8dd45c5f5",
+    "title": "Do Lionesses lack ruthlessness in front of goal?",
+    "date": "2026-10-12",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cwe8rvm8yl93o?at_medium=RSS&at_campaign=rss",
+    "summary": "Do Lionesses lack ruthlessness in front of goal?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-12T17:34:56.783Z"
+  },
+  {
+    "id": "9e27aad0d686",
+    "title": "Seedorf back in football as Corinthians head coach",
+    "date": "2026-10-12",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cw62y514kpgeo?at_medium=RSS&at_campaign=rss",
+    "summary": "Seedorf back in football as Corinthians head coach",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-12T17:34:56.783Z"
+  },
+  {
+    "id": "203f0fed02f3",
+    "title": "Wales wary but eye record run in World Cup bid",
+    "date": "2026-10-12",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cmd6d5980jz3o?at_medium=RSS&at_campaign=rss",
+    "summary": "Wales wary but eye record run in World Cup bid",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-12T17:34:56.783Z"
+  },
+  {
+    "id": "2da8dd45c5f5",
+    "title": "Do Lionesses lack ruthlessness in front of goal?",
+    "date": "2026-10-12",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cwe8rvm8yl93o?at_medium=RSS&at_campaign=rss",
+    "summary": "Do Lionesses lack ruthlessness in front of goal?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-12T17:34:56.783Z"
+  },
+  {
+    "id": "cf9d9f2bc8d4",
+    "title": "Grounded: Rayo Vallecano’s paper planes bring club’s crisis into the open",
+    "date": "2026-10-12",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/12/rayo-vallecano-paper-planes-abandoned-raul-martin-presa-la-liga",
+    "summary": "Grounded: Rayo Vallecano’s paper planes bring club’s crisis into the open",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-12T17:34:56.783Z"
+  },
+  {
+    "id": "cb896bf556ab",
+    "title": "Six questions facing England as they target next year’s Women’s World Cup",
+    "date": "2026-10-12",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/12/england-next-summer-womens-world-cup",
+    "summary": "Six questions facing England as they target next year’s Women’s World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-12T17:34:56.783Z"
+  },
+  {
+    "id": "3a1cd2ce3e18",
+    "title": "Pino finishes off Nottingham Forest on Glasner’s unhappy Crystal Palace return",
+    "date": "2026-10-11",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/11/crystal-palace-nottingham-forest-premier-league-match-report",
+    "summary": "Pino finishes off Nottingham Forest on Glasner’s unhappy Crystal Palace return",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-12T17:34:56.783Z"
+  },
+  {
     "id": "4f4d5312b2fb",
     "title": "Why we’re stuck with a Premier League in the clutches of the global mega-rich | Jonathan Wilson",
     "date": "2026-10-10",
@@ -3991,83 +4082,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-09-13T13:11:53.267Z"
-  },
-  {
-    "id": "c44aca67e3cf",
-    "title": "Celtic given 'timely' police reminder before derby",
-    "date": "2026-09-11",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cz7zrdxj9x0o?at_medium=RSS&at_campaign=rss",
-    "summary": "Celtic given 'timely' police reminder before derby",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-12T12:02:11.233Z"
-  },
-  {
-    "id": "1f3b7fce1508",
-    "title": "Athletic Club forward Williams retires from Ghana duty",
-    "date": "2026-09-11",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c7v41ype378o?at_medium=RSS&at_campaign=rss",
-    "summary": "Athletic Club forward Williams retires from Ghana duty",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-12T12:02:11.233Z"
-  },
-  {
-    "id": "c44aca67e3cf",
-    "title": "Celtic given 'timely' police reminder before derby",
-    "date": "2026-09-11",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cz7zrdxj9x0o?at_medium=RSS&at_campaign=rss",
-    "summary": "Celtic given 'timely' police reminder before derby",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-12T12:02:11.233Z"
-  },
-  {
-    "id": "e0c832c2cdb5",
-    "title": "Kiernan Dewsbury-Hall: ‘I’ve seen all of the meltdowns and it annoyed me’",
-    "date": "2026-09-11",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/11/kiernan-dewsbury-hall-ive-seen-all-of-the-meltdowns-and-it-annoyed-me",
-    "summary": "Kiernan Dewsbury-Hall: ‘I’ve seen all of the meltdowns and it annoyed me’",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-12T12:02:11.233Z"
-  },
-  {
-    "id": "03a5cf40d9aa",
-    "title": "Chelsea hand Pedro Neto new deal in wake of his rejecting Manchester City",
-    "date": "2026-09-11",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/11/chelsea-pedro-neto-new-contract-xabi-alonso",
-    "summary": "Chelsea hand Pedro Neto new deal in wake of his rejecting Manchester City",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-12T12:02:11.233Z"
-  },
-  {
-    "id": "99b083e9a32a",
-    "title": "Champions League review: Irish heroics, rejected resignations and Mourinho’s return",
-    "date": "2026-09-11",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/11/champions-league-review-troy-parrott-jose-mourinho-michael-olise",
-    "summary": "Champions League review: Irish heroics, rejected resignations and Mourinho’s return",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-12T12:02:11.233Z"
   }
 ];
