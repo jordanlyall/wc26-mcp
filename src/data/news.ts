@@ -2,6 +2,32 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "c73800f4a6e1",
+    "title": "The Ballon d’Or doesn’t capture football’s wonder – Michael Olise is proof | Zito Madu",
+    "date": "2026-10-13",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/13/michael-olise-ballon-dor-france-belgium",
+    "summary": "The Ballon d’Or doesn’t capture football’s wonder – Michael Olise is proof | Zito Madu",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-13T15:44:10.090Z"
+  },
+  {
+    "id": "243fb1e6201e",
+    "title": "Fresh concerns over 2027 Asian Cup in Saudi Arabia after missile strikes in Riyadh",
+    "date": "2026-10-13",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/13/saudi-arabia-asian-cup-riyadh-missle-strikes-players-concern",
+    "summary": "Fresh concerns over 2027 Asian Cup in Saudi Arabia after missile strikes in Riyadh",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-13T15:44:10.090Z"
+  },
+  {
     "id": "2da8dd45c5f5",
     "title": "Do Lionesses lack ruthlessness in front of goal?",
     "date": "2026-10-12",
@@ -4069,18 +4095,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-09-14T14:52:10.605Z"
-  },
-  {
-    "id": "661efddb626f",
-    "title": "Frustrated Liverpool lack any spark as Fulham claim deserved first point",
-    "date": "2026-09-12",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/12/liverpool-fulham-premier-league-match-report",
-    "summary": "Frustrated Liverpool lack any spark as Fulham claim deserved first point",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-13T13:11:53.267Z"
   }
 ];
