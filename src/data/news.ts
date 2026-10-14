@@ -2,6 +2,84 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "be4129ffb394",
+    "title": "Tottenham’s forgotten man Richarlison scores for under-21s: ‘I was missing it’",
+    "date": "2026-10-14",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/14/tottenham-richarlison-under-21s-cheltenham-efl-trophy",
+    "summary": "Tottenham’s forgotten man Richarlison scores for under-21s: ‘I was missing it’",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-14T13:26:54.080Z"
+  },
+  {
+    "id": "a76f3125b1d1",
+    "title": "McArdle 'really encouraged' despite NI's Portugal loss",
+    "date": "2026-10-13",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cmglwxd0d25xo?at_medium=RSS&at_campaign=rss",
+    "summary": "McArdle 'really encouraged' despite NI's Portugal loss",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-14T13:26:54.080Z"
+  },
+  {
+    "id": "829f6efe08cb",
+    "title": "Potter helps England find magic but World Cup playoff format needs rethink | Tom Garry",
+    "date": "2026-10-13",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/13/england-greece-women-world-cup-qualifying-playoffs",
+    "summary": "Potter helps England find magic but World Cup playoff format needs rethink | Tom Garry",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-14T13:26:54.080Z"
+  },
+  {
+    "id": "ebbd0650d888",
+    "title": "Champions League roundup: Tresoldi treble stuns Inter in Club Brugge win",
+    "date": "2026-10-13",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/13/champions-league-lens-sporting-inter-barcelona-bayern-napoli",
+    "summary": "Champions League roundup: Tresoldi treble stuns Inter in Club Brugge win",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-14T13:26:54.080Z"
+  },
+  {
+    "id": "70d159986a23",
+    "title": "Leticia McKenna at the double as Matildas’ next generation help trounce Haiti 7-1",
+    "date": "2026-10-13",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/14/matildas-australia-haiti-international-womens-football-friendly-match-report",
+    "summary": "Leticia McKenna at the double as Matildas’ next generation help trounce Haiti 7-1",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-14T13:26:54.080Z"
+  },
+  {
+    "id": "bc5f2a10fb28",
+    "title": "Football Daily | Coventry come to life at last – are their slapstick days behind them?",
+    "date": "2026-10-13",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/13/coventry-city-football-daily-newsletter",
+    "summary": "Football Daily | Coventry come to life at last – are their slapstick days behind them?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-14T13:26:54.080Z"
+  },
+  {
     "id": "c73800f4a6e1",
     "title": "The Ballon d’Or doesn’t capture football’s wonder – Michael Olise is proof | Zito Madu",
     "date": "2026-10-13",
@@ -4064,32 +4142,6 @@ export const news: NewsItem[] = [
     "source": "The Guardian",
     "url": "https://www.theguardian.com/sport/2026/sep/14/south-korea-football-season-heat-summer-the-hotspot",
     "summary": "The Hotspot | South Korea pushes for football season to make winter switch after unbearable summer",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-14T14:52:10.605Z"
-  },
-  {
-    "id": "b603f740f56e",
-    "title": "Enzo Fernández’s fortitude shows Maresca was right to crave City reunion | Will Unwin",
-    "date": "2026-09-13",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/13/enzo-fernandez-enzo-maresca-manchester-city-reunion-united-derby",
-    "summary": "Enzo Fernández’s fortitude shows Maresca was right to crave City reunion | Will Unwin",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-14T14:52:10.605Z"
-  },
-  {
-    "id": "d875f9849886",
-    "title": "European football: Kane helps Bayern edge Elversberg, Sassuolo stun Juventus",
-    "date": "2026-09-13",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/13/european-football-barcelona-bayern-munich-napoli-juventus",
-    "summary": "European football: Kane helps Bayern edge Elversberg, Sassuolo stun Juventus",
     "categories": [
       "general"
     ],
