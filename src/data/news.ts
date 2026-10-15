@@ -2,6 +2,97 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "d84300068523",
+    "title": "Southgate does not see return to Premier League management",
+    "date": "2026-10-15",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c9kgj41jgm5go?at_medium=RSS&at_campaign=rss",
+    "summary": "Southgate does not see return to Premier League management",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-15T13:11:42.612Z"
+  },
+  {
+    "id": "b596bc873fe1",
+    "title": "Southgate ‘hardly watches’ football and does not envisage Premier League return",
+    "date": "2026-10-15",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/15/gareth-southgate-premier-league-return-manager-hardly-watches-football",
+    "summary": "Southgate ‘hardly watches’ football and does not envisage Premier League return",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-15T13:11:42.612Z"
+  },
+  {
+    "id": "e5f635c640e7",
+    "title": "After struggles v Spain, the USWNT’s midfield puzzle won’t be easily solved",
+    "date": "2026-10-15",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/15/uswnt-midfield-spain-womens-world-cup",
+    "summary": "After struggles v Spain, the USWNT’s midfield puzzle won’t be easily solved",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-15T13:11:42.612Z"
+  },
+  {
+    "id": "f0d7c39d225c",
+    "title": "Millwall's Neil criticised over racial abuse stoppage comments",
+    "date": "2026-10-14",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c6rmykw391ljo?at_medium=RSS&at_campaign=rss",
+    "summary": "Millwall's Neil criticised over racial abuse stoppage comments",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-15T13:11:42.612Z"
+  },
+  {
+    "id": "839cea1524e5",
+    "title": "Big scorelines, one-sided games - are Women's World Cup play-offs working?",
+    "date": "2026-10-14",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cq0k0x1l8gndo?at_medium=RSS&at_campaign=rss",
+    "summary": "Big scorelines, one-sided games - are Women's World Cup play-offs working?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-15T13:11:42.612Z"
+  },
+  {
+    "id": "839cea1524e5",
+    "title": "Big scorelines, one-sided games - are Women's World Cup play-offs working?",
+    "date": "2026-10-14",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cq0k0x1l8gndo?at_medium=RSS&at_campaign=rss",
+    "summary": "Big scorelines, one-sided games - are Women's World Cup play-offs working?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-15T13:11:42.612Z"
+  },
+  {
+    "id": "98387fff3ebc",
+    "title": "Lionesses breeze past Greece and how to progress the game – Women’s Football Weekly",
+    "date": "2026-10-14",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/audio/2026/oct/14/lionesses-breeze-past-greece-and-how-to-progress-the-game-womens-football-weekly-podcast",
+    "summary": "Lionesses breeze past Greece and how to progress the game – Women’s Football Weekly",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-15T13:11:42.612Z"
+  },
+  {
     "id": "be4129ffb394",
     "title": "Tottenham’s forgotten man Richarlison scores for under-21s: ‘I was missing it’",
     "date": "2026-10-14",
@@ -4082,70 +4173,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-09-15T13:18:34.888Z"
-  },
-  {
-    "id": "7fd642ba5e54",
-    "title": "‘Very weak. Very bad’: how Rodri’s verdict exposed woeful Valencia’s crisis | Sid Lowe",
-    "date": "2026-09-14",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/14/valencia-rodri-carlos-corberan-la-liga",
-    "summary": "‘Very weak. Very bad’: how Rodri’s verdict exposed woeful Valencia’s crisis | Sid Lowe",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-15T13:18:34.888Z"
-  },
-  {
-    "id": "e4c602703d3a",
-    "title": "Time for Pocognoli to pick - who could be named in new-look Scotland squad?",
-    "date": "2026-09-14",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cdr76rvylv1o?at_medium=RSS&at_campaign=rss",
-    "summary": "Time for Pocognoli to pick - who could be named in new-look Scotland squad?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-14T14:52:10.605Z"
-  },
-  {
-    "id": "e4c602703d3a",
-    "title": "Time for Pocognoli to pick - who could be named in new-look Scotland squad?",
-    "date": "2026-09-14",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cdr76rvylv1o?at_medium=RSS&at_campaign=rss",
-    "summary": "Time for Pocognoli to pick - who could be named in new-look Scotland squad?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-14T14:52:10.605Z"
-  },
-  {
-    "id": "91ebbc37288e",
-    "title": "Top of the table, empty in the stands: inside the revolt against Lazio’s owner | Nicky Bandini",
-    "date": "2026-09-14",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/14/lazio-claudio-lotito-gennaro-gattuso-milan",
-    "summary": "Top of the table, empty in the stands: inside the revolt against Lazio’s owner | Nicky Bandini",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-14T14:52:10.605Z"
-  },
-  {
-    "id": "2216c95634e4",
-    "title": "The Hotspot | South Korea pushes for football season to make winter switch after unbearable summer",
-    "date": "2026-09-14",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/sport/2026/sep/14/south-korea-football-season-heat-summer-the-hotspot",
-    "summary": "The Hotspot | South Korea pushes for football season to make winter switch after unbearable summer",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-14T14:52:10.605Z"
   }
 ];
