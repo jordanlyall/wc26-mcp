@@ -2,6 +2,97 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "c292fbf78c05",
+    "title": "Spain handed partial stadium closure after discriminatory chants v Egypt",
+    "date": "2026-10-16",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cr86zg3w2lg2o?at_medium=RSS&at_campaign=rss",
+    "summary": "Spain handed partial stadium closure after discriminatory chants v Egypt",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-16T13:05:40.820Z"
+  },
+  {
+    "id": "d4236779087c",
+    "title": "The rapid rise of a former art dealer to Europe's hottest young manager",
+    "date": "2026-10-16",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cmde8l07569no?at_medium=RSS&at_campaign=rss",
+    "summary": "The rapid rise of a former art dealer to Europe's hottest young manager",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-16T13:05:40.820Z"
+  },
+  {
+    "id": "cd1fd3619b8d",
+    "title": "The England keeper set to face his dad at a World Cup",
+    "date": "2026-10-16",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cw98z1v08vg4o?at_medium=RSS&at_campaign=rss",
+    "summary": "The England keeper set to face his dad at a World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-16T13:05:40.820Z"
+  },
+  {
+    "id": "3db741d5686e",
+    "title": "Balikwisha blames Celtic for World Cup axe - gossip",
+    "date": "2026-10-16",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cm62y9yl2v66o?at_medium=RSS&at_campaign=rss",
+    "summary": "Balikwisha blames Celtic for World Cup axe - gossip",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-16T13:05:40.820Z"
+  },
+  {
+    "id": "2bcd0f09b95d",
+    "title": "Evanilson, Rayan and Rodríguez goals seal Bournemouth’s historic home win in Europe",
+    "date": "2026-10-15",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/15/bournemouth-sturm-graz-europa-league-match-report",
+    "summary": "Evanilson, Rayan and Rodríguez goals seal Bournemouth’s historic home win in Europe",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-16T13:05:40.820Z"
+  },
+  {
+    "id": "b1036461f3ef",
+    "title": "Noah Sadiki stunner earns Sunderland dramatic late win against Torreense",
+    "date": "2026-10-15",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/15/torreense-sunderland-europa-league-match-report",
+    "summary": "Noah Sadiki stunner earns Sunderland dramatic late win against Torreense",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-16T13:05:40.820Z"
+  },
+  {
+    "id": "b03af4ab0999",
+    "title": "Alex Scott quits Disney+ role as Women’s Champions League presenter",
+    "date": "2026-10-15",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/15/alex-scott-quits-disney-womens-champions-league-presenter",
+    "summary": "Alex Scott quits Disney+ role as Women’s Champions League presenter",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-16T13:05:40.820Z"
+  },
+  {
     "id": "d84300068523",
     "title": "Southgate does not see return to Premier League management",
     "date": "2026-10-15",
@@ -4017,161 +4108,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-09-16T13:16:11.741Z"
-  },
-  {
-    "id": "cde90dc0b9b8",
-    "title": "Messi in Argentina squad for farewell friendly",
-    "date": "2026-09-15",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c8ly49lv3vx1o?at_medium=RSS&at_campaign=rss",
-    "summary": "Messi in Argentina squad for farewell friendly",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-16T13:16:11.741Z"
-  },
-  {
-    "id": "2443a3f55fe6",
-    "title": "Tuchel regrets not eating Azteca turf after win over Mexico",
-    "date": "2026-09-15",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cq4g5r8kwx9zo?at_medium=RSS&at_campaign=rss",
-    "summary": "Tuchel regrets not eating Azteca turf after win over Mexico",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-16T13:16:11.741Z"
-  },
-  {
-    "id": "952d1e3dbe6e",
-    "title": "The key talking points from Pocognoli's bold Scotland squad",
-    "date": "2026-09-15",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c51kxlek7471o?at_medium=RSS&at_campaign=rss",
-    "summary": "The key talking points from Pocognoli's bold Scotland squad",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-16T13:16:11.741Z"
-  },
-  {
-    "id": "9179b155a158",
-    "title": "Lionel Messi called up by Argentina to make farewell ⁠appearance in friendly",
-    "date": "2026-09-15",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/15/lionel-messi-called-up-argentina-farewell-appearance-friendly-benin",
-    "summary": "Lionel Messi called up by Argentina to make farewell ⁠appearance in friendly",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-16T13:16:11.741Z"
-  },
-  {
-    "id": "343765c5c20e",
-    "title": "McBurnie & seven uncapped players in Scotland squad",
-    "date": "2026-09-15",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cq770klrzmvyo?at_medium=RSS&at_campaign=rss",
-    "summary": "McBurnie & seven uncapped players in Scotland squad",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-15T13:18:34.888Z"
-  },
-  {
-    "id": "68276ceb78d1",
-    "title": "Rodon absent as Ashford earns first Wales call-up ",
-    "date": "2026-09-15",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c615877d389no?at_medium=RSS&at_campaign=rss",
-    "summary": "Rodon absent as Ashford earns first Wales call-up ",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-15T13:18:34.888Z"
-  },
-  {
-    "id": "343765c5c20e",
-    "title": "'Style important' as McBurnie & seven uncapped players make Pocognoli's first Scotland squad",
-    "date": "2026-09-15",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cq770klrzmvyo?at_medium=RSS&at_campaign=rss",
-    "summary": "'Style important' as McBurnie & seven uncapped players make Pocognoli's first Scotland squad",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-15T13:18:34.888Z"
-  },
-  {
-    "id": "5f86d25401ae",
-    "title": "Scotland fans allowed to buy alcohol at upcoming games",
-    "date": "2026-09-15",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/news/articles/cjn5d6zgk1r6o?at_medium=RSS&at_campaign=rss",
-    "summary": "Scotland fans allowed to buy alcohol at upcoming games",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-15T13:18:34.888Z"
-  },
-  {
-    "id": "d67b0bd27500",
-    "title": "Aris still chasing Souttar amid contract dispute - gossip",
-    "date": "2026-09-15",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cqm2mv23grkmo?at_medium=RSS&at_campaign=rss",
-    "summary": "Aris still chasing Souttar amid contract dispute - gossip",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-15T13:18:34.888Z"
-  },
-  {
-    "id": "8ed77dd44a44",
-    "title": "Craig Bellamy rejected Burnley manager’s job to stay in ‘right place’ with Wales",
-    "date": "2026-09-15",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/15/craig-bellamy-rejected-burnley-manager-job-stay-wales-football",
-    "summary": "Craig Bellamy rejected Burnley manager’s job to stay in ‘right place’ with Wales",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-15T13:18:34.888Z"
-  },
-  {
-    "id": "391c720b8eaa",
-    "title": "How Promise David emerged from Maltese shadows into the Premier League",
-    "date": "2026-09-15",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/15/promise-david-brighton-have-albion-canada-world-cup",
-    "summary": "How Promise David emerged from Maltese shadows into the Premier League",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-15T13:18:34.888Z"
-  },
-  {
-    "id": "71d3f2be0f2e",
-    "title": "USMNT roster prediction: a big chance for Cavan Sullivan and other young prospects",
-    "date": "2026-09-15",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/15/usmnt-roster-prediction",
-    "summary": "USMNT roster prediction: a big chance for Cavan Sullivan and other young prospects",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-15T13:18:34.888Z"
   }
 ];
