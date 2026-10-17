@@ -2,6 +2,32 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "238d709e5bc6",
+    "title": "'Ferguson poised to become Glentoran manager' - gossip",
+    "date": "2026-10-17",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cq70pr5270p7o?at_medium=RSS&at_campaign=rss",
+    "summary": "'Ferguson poised to become Glentoran manager' - gossip",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-17T12:02:29.250Z"
+  },
+  {
+    "id": "cb487dce7215",
+    "title": "The Florian Wirtz mystery: why has he not found Leverkusen form at Liverpool?",
+    "date": "2026-10-16",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/16/florian-wirtz-mystery-found-bayer-leverkusen-form-liverpool",
+    "summary": "The Florian Wirtz mystery: why has he not found Leverkusen form at Liverpool?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-17T12:02:29.250Z"
+  },
+  {
     "id": "c292fbf78c05",
     "title": "Spain handed partial stadium closure after discriminatory chants v Egypt",
     "date": "2026-10-16",
@@ -3965,148 +3991,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-09-17T13:13:10.677Z"
-  },
-  {
-    "id": "36584f96da3b",
-    "title": "De la Fuente extends Spain contract to 2032",
-    "date": "2026-09-16",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c6eq8z9wjjqlo?at_medium=RSS&at_campaign=rss",
-    "summary": "De la Fuente extends Spain contract to 2032",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-17T13:13:10.677Z"
-  },
-  {
-    "id": "adb95aeee0cc",
-    "title": "‘My scar, not your scar’: Tuchel stands by England semi-final subs but admits wrong timing",
-    "date": "2026-09-16",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/16/tuchel-stands-england-semi-final-subs-wrong-timing-argentina-world-cup-2026",
-    "summary": "‘My scar, not your scar’: Tuchel stands by England semi-final subs but admits wrong timing",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-17T13:13:10.677Z"
-  },
-  {
-    "id": "ec13b5792f9e",
-    "title": "‘They are very similar’: Arsenal’s Dowman reminds Merino of Lamine Yamal",
-    "date": "2026-09-16",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/16/they-are-very-similar-arsenals-dowman-reminds-merino-of-lamine-yamal",
-    "summary": "‘They are very similar’: Arsenal’s Dowman reminds Merino of Lamine Yamal",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-17T13:13:10.677Z"
-  },
-  {
-    "id": "0f2e4a824bd4",
-    "title": "Meet the Scottish teenagers poised to represent Uganda",
-    "date": "2026-09-16",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c6wyz1ll1g3xo?at_medium=RSS&at_campaign=rss",
-    "summary": "Meet the Scottish teenagers poised to represent Uganda",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-16T13:16:11.741Z"
-  },
-  {
-    "id": "eff493c9aaea",
-    "title": "Glasgow, 16, makes Docherty's Scotland U21 squad",
-    "date": "2026-09-16",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cmn452vgll31o?at_medium=RSS&at_campaign=rss",
-    "summary": "Glasgow, 16, makes Docherty's Scotland U21 squad",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-16T13:16:11.741Z"
-  },
-  {
-    "id": "eff493c9aaea",
-    "title": "Glasgow, 16, makes Docherty's Scotland U21 squad",
-    "date": "2026-09-16",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cmn452vgll31o?at_medium=RSS&at_campaign=rss",
-    "summary": "Glasgow, 16, makes Docherty's Scotland U21 squad",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-16T13:16:11.741Z"
-  },
-  {
-    "id": "0f2e4a824bd4",
-    "title": "Meet the Scottish teenagers poised to represent Uganda",
-    "date": "2026-09-16",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c6wyz1ll1g3xo?at_medium=RSS&at_campaign=rss",
-    "summary": "Meet the Scottish teenagers poised to represent Uganda",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-16T13:16:11.741Z"
-  },
-  {
-    "id": "a16972b1ccb1",
-    "title": "McBurnie's Scotland return can be 'new experience' - gossip",
-    "date": "2026-09-16",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cwj3dv0ydxj1o?at_medium=RSS&at_campaign=rss",
-    "summary": "McBurnie's Scotland return can be 'new experience' - gossip",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-16T13:16:11.741Z"
-  },
-  {
-    "id": "63a4b4a7c313",
-    "title": "Podcast: Pocognoli's first squad and a night of SPFL coupon busters",
-    "date": "2026-09-16",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sounds/play/p0p9trnv?at_medium=RSS&at_campaign=rss",
-    "summary": "Podcast: Pocognoli's first squad and a night of SPFL coupon busters",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-16T13:16:11.741Z"
-  },
-  {
-    "id": "4cdc99c84877",
-    "title": "Xhaka promises ‘fire’ from Sunderland on long-awaited return to Europe",
-    "date": "2026-09-16",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/16/xhaka-sunderland-european-riches-alkmaar",
-    "summary": "Xhaka promises ‘fire’ from Sunderland on long-awaited return to Europe",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-16T13:16:11.741Z"
-  },
-  {
-    "id": "6f41d83c3e5b",
-    "title": "Iranian football returns in the shadow of war and with row over last league title",
-    "date": "2026-09-16",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/16/iran-football-esteghlal-tractor-sc-afc-champions-league-elite-asia",
-    "summary": "Iranian football returns in the shadow of war and with row over last league title",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-16T13:16:11.741Z"
   }
 ];
