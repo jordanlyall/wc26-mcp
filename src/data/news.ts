@@ -2,6 +2,45 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "6f0f13da3d9c",
+    "title": "Kirby 'stressed' by abrupt Vidosic exit from Brighton",
+    "date": "2026-10-18",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cjly05yn12w5o?at_medium=RSS&at_campaign=rss",
+    "summary": "Kirby 'stressed' by abrupt Vidosic exit from Brighton",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-18T12:30:30.657Z"
+  },
+  {
+    "id": "6f0f13da3d9c",
+    "title": "Kirby 'stressed' by abrupt Vidosic exit from Brighton",
+    "date": "2026-10-18",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cjly05yn12w5o?at_medium=RSS&at_campaign=rss",
+    "summary": "Kirby 'stressed' by abrupt Vidosic exit from Brighton",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-18T12:30:30.657Z"
+  },
+  {
+    "id": "2dbe602fd90b",
+    "title": "Houthi conflict casts shadow as Saudi Arabia scales back sporting pipe dreams",
+    "date": "2026-10-17",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/sport/2026/oct/17/houthi-conflict-casts-shadow-as-saudi-arabia-scales-back-sporting-pipe-dreams",
+    "summary": "Houthi conflict casts shadow as Saudi Arabia scales back sporting pipe dreams",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-18T12:30:30.657Z"
+  },
+  {
     "id": "238d709e5bc6",
     "title": "'Ferguson poised to become Glentoran manager' - gossip",
     "date": "2026-10-17",
@@ -3900,96 +3939,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-09-18T12:48:51.294Z"
-  },
-  {
-    "id": "0a1fe174bbb4",
-    "title": "Two years and one World Cup down, Mauricio Pochettino is still assessing",
-    "date": "2026-09-17",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/17/mauricio-pochettino-calls-the-kids",
-    "summary": "Two years and one World Cup down, Mauricio Pochettino is still assessing",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-20T12:57:04.842Z"
-  },
-  {
-    "id": "b37ad03c976f",
-    "title": "Cavan Sullivan in, Christian Pulisic out: takeaways from the latest USMNT roster",
-    "date": "2026-09-17",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/17/usmnt-roster-squad-analysis-cavan-sullivan-christian-pulisic",
-    "summary": "Cavan Sullivan in, Christian Pulisic out: takeaways from the latest USMNT roster",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-18T12:48:51.294Z"
-  },
-  {
-    "id": "bf01f9b354f8",
-    "title": "Thomas Tuchel’s shot at redemption begins with England’s tricky Nations League tests",
-    "date": "2026-09-17",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/17/thomas-tuchels-shot-at-redemption-begins-with-englands-tricky-nations-league-tests",
-    "summary": "Thomas Tuchel’s shot at redemption begins with England’s tricky Nations League tests",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-18T12:48:51.294Z"
-  },
-  {
-    "id": "71e53ab0fb14",
-    "title": "Klopp wants to 'reclaim' flag amid German elections",
-    "date": "2026-09-17",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cmwyzk6xkrd0o?at_medium=RSS&at_campaign=rss",
-    "summary": "Klopp wants to 'reclaim' flag amid German elections",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-17T13:13:10.677Z"
-  },
-  {
-    "id": "866eda1d9a5f",
-    "title": "USA midfielder sues doctors after on-pitch cardiac arrest",
-    "date": "2026-09-17",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c6j4jlqgeejvo?at_medium=RSS&at_campaign=rss",
-    "summary": "USA midfielder sues doctors after on-pitch cardiac arrest",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-17T13:13:10.677Z"
-  },
-  {
-    "id": "866eda1d9a5f",
-    "title": "USA midfielder sues doctors after on-pitch cardiac arrest",
-    "date": "2026-09-17",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c6j4jlqgeejvo?at_medium=RSS&at_campaign=rss",
-    "summary": "USA midfielder sues doctors after on-pitch cardiac arrest",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-17T13:13:10.677Z"
-  },
-  {
-    "id": "c7701b23884f",
-    "title": "Jürgen Klopp wants his Germany team to reclaim national pride from ‘the wrong people’",
-    "date": "2026-09-17",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/17/jurgen-klopp-germany-reclaim-national-pride-wrong-people-afd",
-    "summary": "Jürgen Klopp wants his Germany team to reclaim national pride from ‘the wrong people’",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-17T13:13:10.677Z"
   }
 ];
