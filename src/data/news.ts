@@ -2,6 +2,97 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "7e1511bfd345",
+    "title": "England manager Wiegman signs contract extension",
+    "date": "2026-10-19",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c679plpvellgo?at_medium=RSS&at_campaign=rss",
+    "summary": "England manager Wiegman signs contract extension",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-19T15:23:12.158Z"
+  },
+  {
+    "id": "0b83faa231a0",
+    "title": "Beer & Blackpool beach was how British players bonded - Pulis",
+    "date": "2026-10-19",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cjr4yndrz1kro?at_medium=RSS&at_campaign=rss",
+    "summary": "Beer & Blackpool beach was how British players bonded - Pulis",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-19T15:23:12.158Z"
+  },
+  {
+    "id": "7e1511bfd345",
+    "title": "England manager Wiegman signs contract extension",
+    "date": "2026-10-19",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c679plpvellgo?at_medium=RSS&at_campaign=rss",
+    "summary": "England manager Wiegman signs contract extension",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-19T15:23:12.158Z"
+  },
+  {
+    "id": "edc0d2cbf988",
+    "title": "‘Leaving England is scary but I’m here to win’: Charlie Cresswell on Ligue 1 life and his international dream",
+    "date": "2026-10-19",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/19/england-charlie-cresswell-ligue-1-england-france-leeds-juventus-europa-league",
+    "summary": "‘Leaving England is scary but I’m here to win’: Charlie Cresswell on Ligue 1 life and his international dream",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-19T15:23:12.158Z"
+  },
+  {
+    "id": "9da7c20505e4",
+    "title": "Sarina Wiegman signs contract extension to stay as England women head coach until 2029",
+    "date": "2026-10-19",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/19/sarina-wiegman-signs-contract-extension-england-women-euro-2029",
+    "summary": "Sarina Wiegman signs contract extension to stay as England women head coach until 2029",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-19T15:23:12.158Z"
+  },
+  {
+    "id": "6b4dba9799db",
+    "title": "Semenyo’s eight-week injury absence leaves Manchester City short on cover for Haaland",
+    "date": "2026-10-19",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/19/antoine-semenyo-eight-week-knee-injury-absence-manchester-city-short-cover-erling-haaland",
+    "summary": "Semenyo’s eight-week injury absence leaves Manchester City short on cover for Haaland",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-19T15:23:12.158Z"
+  },
+  {
+    "id": "d47128ab8aeb",
+    "title": "Premier League: 10 talking points from the weekend’s action",
+    "date": "2026-10-19",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/19/premier-league-10-talking-points-from-the-weekends-action",
+    "summary": "Premier League: 10 talking points from the weekend’s action",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-19T15:23:12.158Z"
+  },
+  {
     "id": "6f0f13da3d9c",
     "title": "Kirby 'stressed' by abrupt Vidosic exit from Brighton",
     "date": "2026-10-18",
@@ -3731,213 +3822,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-09-20T12:57:04.842Z"
-  },
-  {
-    "id": "6007c1265248",
-    "title": "Noahkai Banks, top dual-national prospect, chooses Germany in blow to USMNT",
-    "date": "2026-09-18",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/18/noahkai-banks-germany-usmnt",
-    "summary": "Noahkai Banks, top dual-national prospect, chooses Germany in blow to USMNT",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-21T14:57:25.039Z"
-  },
-  {
-    "id": "42e459bd11f7",
-    "title": "Will England boss Tuchel 'embrace the chaos'?",
-    "date": "2026-09-18",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cvrl64y9rdn9o?at_medium=RSS&at_campaign=rss",
-    "summary": "Will England boss Tuchel 'embrace the chaos'?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-19T12:21:49.692Z"
-  },
-  {
-    "id": "78b8b98a13b0",
-    "title": "Senegal job an 'absolute dream' for new boss Vieira",
-    "date": "2026-09-18",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/crlyqgqwq8lyo?at_medium=RSS&at_campaign=rss",
-    "summary": "Senegal job an 'absolute dream' for new boss Vieira",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-19T12:21:49.692Z"
-  },
-  {
-    "id": "8cacc6627e99",
-    "title": "Ronaldo named in Jesus' first Portugal squad",
-    "date": "2026-09-18",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cmeq8v8e3ql7o?at_medium=RSS&at_campaign=rss",
-    "summary": "Ronaldo named in Jesus' first Portugal squad",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-19T12:21:49.692Z"
-  },
-  {
-    "id": "1f4cca33ab40",
-    "title": "Harry Kane smashes record for fastest to 100 Bundesliga goals in 98th game",
-    "date": "2026-09-18",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/18/harry-kane-smashes-record-for-fastest-to-100-bundesliga-goals-in-98th-game",
-    "summary": "Harry Kane smashes record for fastest to 100 Bundesliga goals in 98th game",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-19T12:21:49.692Z"
-  },
-  {
-    "id": "6f35617bf870",
-    "title": "‘Embrace the chaos’: Tuchel aims to harness England’s football culture",
-    "date": "2026-09-18",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/18/embrace-chaos-thomas-tuchel-england-football-culture",
-    "summary": "‘Embrace the chaos’: Tuchel aims to harness England’s football culture",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-19T12:21:49.692Z"
-  },
-  {
-    "id": "bef55de300be",
-    "title": "Tuchel should listen to ‘the 0.1%’ and learn from England’s World Cup mistakes | Jacob Steinberg",
-    "date": "2026-09-18",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/18/thomas-tuchel-england-squad-world-cup-mistakes-nations-league",
-    "summary": "Tuchel should listen to ‘the 0.1%’ and learn from England’s World Cup mistakes | Jacob Steinberg",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-19T12:21:49.692Z"
-  },
-  {
-    "id": "ccabe6dbeb9b",
-    "title": "Kylian Mbappé leaves Nike after 20 years to sign boot deal with Swiss brand On",
-    "date": "2026-09-18",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/18/kylian-mbappe-leaves-nike-20-years-boot-deal-swiss-brand-on",
-    "summary": "Kylian Mbappé leaves Nike after 20 years to sign boot deal with Swiss brand On",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-19T12:21:49.692Z"
-  },
-  {
-    "id": "931c422283a0",
-    "title": "Case not proven: Trent Alexander-Arnold’s England recall is based on patchy evidence",
-    "date": "2026-09-18",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/18/trent-alexander-arnold-england-recall-patchy-evidence",
-    "summary": "Case not proven: Trent Alexander-Arnold’s England recall is based on patchy evidence",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-19T12:21:49.692Z"
-  },
-  {
-    "id": "accf19ead829",
-    "title": "Football Daily | Spying some tasty match-ups, from Wrexham v Saints to desperation derbies",
-    "date": "2026-09-18",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/18/weekend-derbies-football-daily-newsletter",
-    "summary": "Football Daily | Spying some tasty match-ups, from Wrexham v Saints to desperation derbies",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-19T12:21:49.692Z"
-  },
-  {
-    "id": "5258ee42e903",
-    "title": "Tuchel recalls Palmer and Alexander-Arnold for England",
-    "date": "2026-09-18",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/videos/c61wx5x33jyjo?at_medium=RSS&at_campaign=rss",
-    "summary": "Tuchel recalls Palmer and Alexander-Arnold for England",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-18T12:48:51.294Z"
-  },
-  {
-    "id": "7b6019f4c55c",
-    "title": "Bellamy right to speak to Burnley - FAW chief Adams",
-    "date": "2026-09-18",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cmje81nxgz4wo?at_medium=RSS&at_campaign=rss",
-    "summary": "Bellamy right to speak to Burnley - FAW chief Adams",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-18T12:48:51.294Z"
-  },
-  {
-    "id": "407e08a9df79",
-    "title": "Wrexham defender Hyam's Scotland disappointment",
-    "date": "2026-09-18",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c59v904y3m9jo?at_medium=RSS&at_campaign=rss",
-    "summary": "Wrexham defender Hyam's Scotland disappointment",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-18T12:48:51.294Z"
-  },
-  {
-    "id": "407e08a9df79",
-    "title": "Wrexham defender Hyam's Scotland disappointment",
-    "date": "2026-09-18",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c59v904y3m9jo?at_medium=RSS&at_campaign=rss",
-    "summary": "Wrexham defender Hyam's Scotland disappointment",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-18T12:48:51.294Z"
-  },
-  {
-    "id": "895c4bc9cf2b",
-    "title": "Tuchel explains Alexander-Arnold and Palmer England recalls; Spain squad revealed in Ceuta: football news – live",
-    "date": "2026-09-18",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/live/2026/sep/18/england-squad-to-be-announced-premier-league-latest-european-reaction-football-news-live",
-    "summary": "Tuchel explains Alexander-Arnold and Palmer England recalls; Spain squad revealed in Ceuta: football news – live",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-18T12:48:51.294Z"
-  },
-  {
-    "id": "8163fb5e8d7e",
-    "title": "Socceroos captain Maty Ryan axed for Brazil friendlies",
-    "date": "2026-09-18",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/18/socceroos-captain-maty-ryan-droppedr-brazil-vs-australia-friendlies",
-    "summary": "Socceroos captain Maty Ryan axed for Brazil friendlies",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-18T12:48:51.294Z"
   }
 ];
