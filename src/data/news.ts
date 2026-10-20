@@ -2,6 +2,45 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "53a0210b2b8e",
+    "title": "Dwight Yorke: ‘I’m not a kid trying to get into management – I’m a manager’",
+    "date": "2026-10-20",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/20/dwight-yorke-interview-manager-ghana-trinidad-and-tobago",
+    "summary": "Dwight Yorke: ‘I’m not a kid trying to get into management – I’m a manager’",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-20T13:25:54.291Z"
+  },
+  {
+    "id": "8c43ec5024c1",
+    "title": "Building Lionesses 2.0 - Wiegman's new challenge awaits",
+    "date": "2026-10-19",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cvze4w57746yo?at_medium=RSS&at_campaign=rss",
+    "summary": "Building Lionesses 2.0 - Wiegman's new challenge awaits",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-20T13:25:54.291Z"
+  },
+  {
+    "id": "8c43ec5024c1",
+    "title": "Building Lionesses 2.0 - Wiegman's new challenge awaits",
+    "date": "2026-10-19",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cvze4w57746yo?at_medium=RSS&at_campaign=rss",
+    "summary": "Building Lionesses 2.0 - Wiegman's new challenge awaits",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-20T13:25:54.291Z"
+  },
+  {
     "id": "7e1511bfd345",
     "title": "England manager Wiegman signs contract extension",
     "date": "2026-10-19",
@@ -3804,19 +3843,6 @@ export const news: NewsItem[] = [
     "source": "The Guardian",
     "url": "https://www.theguardian.com/football/2026/sep/20/andros-townsend-avoids-injury-after-bizarre-pitch-roller-incident-in-thailand",
     "summary": "Andros Townsend avoids injury after bizarre pitch roller incident in Thailand",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-20T12:57:04.842Z"
-  },
-  {
-    "id": "ab6f21a1851d",
-    "title": "Zidane’s next move as France coach may reveal the wizard behind the curtain | Jonathan Wilson",
-    "date": "2026-09-19",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/19/zinedine-zidane-france-coach-wizard-behind-curtain",
-    "summary": "Zidane’s next move as France coach may reveal the wizard behind the curtain | Jonathan Wilson",
     "categories": [
       "general"
     ],
