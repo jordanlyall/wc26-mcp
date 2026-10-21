@@ -2,6 +2,32 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "ab488e6993e8",
+    "title": "Cristiano Ronaldo asked for punishment ‘without mitigation’, then fought to cut it",
+    "date": "2026-10-21",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/21/cristiano-ronaldo-punishment-portugal-walkout-without-mitigation-fought-to-cut-it",
+    "summary": "Cristiano Ronaldo asked for punishment ‘without mitigation’, then fought to cut it",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-21T13:35:25.231Z"
+  },
+  {
+    "id": "518400a75c5a",
+    "title": "US under-17 women beat Samoa 17-0 for biggest win in World Cup history",
+    "date": "2026-10-20",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/20/uswnt-u-17-samoa-world-cup",
+    "summary": "US under-17 women beat Samoa 17-0 for biggest win in World Cup history",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-21T13:35:25.231Z"
+  },
+  {
     "id": "53a0210b2b8e",
     "title": "Dwight Yorke: ‘I’m not a kid trying to get into management – I’m a manager’",
     "date": "2026-10-20",
@@ -3822,31 +3848,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-09-21T14:57:25.039Z"
-  },
-  {
-    "id": "78486dec2200",
-    "title": "‘We miss her the same every day’: Olivia Cusack on her late footballer sister Maddy",
-    "date": "2026-09-20",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/20/olivia-cusack-maddy-cusack-late-footballer-legacy-sheffield-united",
-    "summary": "‘We miss her the same every day’: Olivia Cusack on her late footballer sister Maddy",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-20T12:57:04.842Z"
-  },
-  {
-    "id": "19452b98c371",
-    "title": "Andros Townsend avoids injury after bizarre pitch roller incident in Thailand",
-    "date": "2026-09-20",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/20/andros-townsend-avoids-injury-after-bizarre-pitch-roller-incident-in-thailand",
-    "summary": "Andros Townsend avoids injury after bizarre pitch roller incident in Thailand",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-20T12:57:04.842Z"
   }
 ];
