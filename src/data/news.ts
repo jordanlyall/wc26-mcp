@@ -2,6 +2,19 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "2167da90783e",
+    "title": "Is it 'phenomenal' Kane's year to lift the Ballon d'Or?",
+    "date": "2026-10-21",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/videos/crpdg21y070jo?at_medium=RSS&at_campaign=rss",
+    "summary": "Is it 'phenomenal' Kane's year to lift the Ballon d'Or?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-22T13:37:08.556Z"
+  },
+  {
     "id": "ab488e6993e8",
     "title": "Cristiano Ronaldo asked for punishment ‘without mitigation’, then fought to cut it",
     "date": "2026-10-21",
@@ -3640,213 +3653,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-09-22T13:13:48.379Z"
-  },
-  {
-    "id": "4ad22a965b1b",
-    "title": "Being run over by pitch roller was terrifying - Townsend",
-    "date": "2026-09-21",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cqp8dpd5d27yo?at_medium=RSS&at_campaign=rss",
-    "summary": "Being run over by pitch roller was terrifying - Townsend",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-22T13:13:48.379Z"
-  },
-  {
-    "id": "09213b0dd484",
-    "title": "Scotland call for Montgomery as Tierney & McLean drop out",
-    "date": "2026-09-21",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c6wyz22d39ldo?at_medium=RSS&at_campaign=rss",
-    "summary": "Scotland call for Montgomery as Tierney & McLean drop out",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-22T13:13:48.379Z"
-  },
-  {
-    "id": "09213b0dd484",
-    "title": "Scotland call for Montgomery as Tierney & McLean drop out",
-    "date": "2026-09-21",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c6wyz22d39ldo?at_medium=RSS&at_campaign=rss",
-    "summary": "Scotland call for Montgomery as Tierney & McLean drop out",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-22T13:13:48.379Z"
-  },
-  {
-    "id": "ac8b3462edc1",
-    "title": "Pierre Sage took Lens to new heights. His replacement left after six games",
-    "date": "2026-09-21",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/21/pierre-sage-lens-ligue-1-coupe-de-france-success",
-    "summary": "Pierre Sage took Lens to new heights. His replacement left after six games",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-22T13:13:48.379Z"
-  },
-  {
-    "id": "2d9dc8bd7555",
-    "title": "Palmer & Rice among five withdrawals from England squad",
-    "date": "2026-09-21",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c617j2prweejo?at_medium=RSS&at_campaign=rss",
-    "summary": "Palmer & Rice among five withdrawals from England squad",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-21T14:57:25.039Z"
-  },
-  {
-    "id": "1a4a8ccdd565",
-    "title": "Xhaka under investigation over Covid-19 certificate",
-    "date": "2026-09-21",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c3qjkpgengn7o?at_medium=RSS&at_campaign=rss",
-    "summary": "Xhaka under investigation over Covid-19 certificate",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-21T14:57:25.039Z"
-  },
-  {
-    "id": "151d5e56c0a9",
-    "title": "Wilson, Darlow and Broadhead out of Wales squad",
-    "date": "2026-09-21",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cw8r68mv415lo?at_medium=RSS&at_campaign=rss",
-    "summary": "Wilson, Darlow and Broadhead out of Wales squad",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-21T14:57:25.039Z"
-  },
-  {
-    "id": "63705f63d772",
-    "title": "How is Scotland squad shaping up for Pocognoli debut?",
-    "date": "2026-09-21",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/ck8d38yz4yymo?at_medium=RSS&at_campaign=rss",
-    "summary": "How is Scotland squad shaping up for Pocognoli debut?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-21T14:57:25.039Z"
-  },
-  {
-    "id": "d9d6167bfbd6",
-    "title": "Pocognoli Facetime helps Miller over summer of discontent",
-    "date": "2026-09-21",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c6zxz2722jjvo?at_medium=RSS&at_campaign=rss",
-    "summary": "Pocognoli Facetime helps Miller over summer of discontent",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-21T14:57:25.039Z"
-  },
-  {
-    "id": "f2fb64659f9d",
-    "title": "What will 'greatest captain' bring to Bellamy's Wales?",
-    "date": "2026-09-21",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c58jdvlejve2o?at_medium=RSS&at_campaign=rss",
-    "summary": "What will 'greatest captain' bring to Bellamy's Wales?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-21T14:57:25.039Z"
-  },
-  {
-    "id": "63705f63d772",
-    "title": "How is Scotland squad shaping up for Pocognoli debut?",
-    "date": "2026-09-21",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/ck8d38yz4yymo?at_medium=RSS&at_campaign=rss",
-    "summary": "How is Scotland squad shaping up for Pocognoli debut?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-21T14:57:25.039Z"
-  },
-  {
-    "id": "1a4a8ccdd565",
-    "title": "Xhaka withdraws from Swiss squad over Covid-19 probe",
-    "date": "2026-09-21",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c3qjkpgengn7o?at_medium=RSS&at_campaign=rss",
-    "summary": "Xhaka withdraws from Swiss squad over Covid-19 probe",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-21T14:57:25.039Z"
-  },
-  {
-    "id": "d9d6167bfbd6",
-    "title": "Pocognoli Facetime helps Miller over summer of discontent",
-    "date": "2026-09-21",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c6zxz2722jjvo?at_medium=RSS&at_campaign=rss",
-    "summary": "Pocognoli Facetime helps Miller over summer of discontent",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-21T14:57:25.039Z"
-  },
-  {
-    "id": "83d9832cfbf9",
-    "title": "Thomas Tuchel rocked by five key withdrawals from England squad",
-    "date": "2026-09-21",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/21/cole-palmer-injury-england-nations-league-rashford-kobbie-mainoo-spain-tuchel",
-    "summary": "Thomas Tuchel rocked by five key withdrawals from England squad",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-21T14:57:25.039Z"
-  },
-  {
-    "id": "3290de2d4ec5",
-    "title": "Granit Xhaka admits to receiving fake Covid vaccination certificate in 2022",
-    "date": "2026-09-21",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/21/granit-xhaka-admits-receiving-fake-covid-vaccination-certificate",
-    "summary": "Granit Xhaka admits to receiving fake Covid vaccination certificate in 2022",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-21T14:57:25.039Z"
-  },
-  {
-    "id": "5acf0aaae073",
-    "title": "Premier League: 10 talking points from the weekend’s action",
-    "date": "2026-09-21",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/21/premier-league-10-talking-points-from-the-weekends-action",
-    "summary": "Premier League: 10 talking points from the weekend’s action",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-21T14:57:25.039Z"
   }
 ];
