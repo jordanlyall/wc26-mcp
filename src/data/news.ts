@@ -2,6 +2,32 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "518f06370968",
+    "title": "Pascal Gross: the obsessive runner keeping Brighton ‘one step ahead’ after fast start",
+    "date": "2026-10-23",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/23/fabian-gross-obsessive-runner-brighton-one-step-ahead",
+    "summary": "Pascal Gross: the obsessive runner keeping Brighton ‘one step ahead’ after fast start",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-23T13:13:00.357Z"
+  },
+  {
+    "id": "b96d3f9cc233",
+    "title": "Next in line? Main contenders for the Manchester United hot seat",
+    "date": "2026-10-22",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/22/contenders-manchester-united-next-manager-michael-carrick",
+    "summary": "Next in line? Main contenders for the Manchester United hot seat",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-23T13:13:00.357Z"
+  },
+  {
     "id": "2167da90783e",
     "title": "Is it 'phenomenal' Kane's year to lift the Ballon d'Or?",
     "date": "2026-10-21",
@@ -3523,135 +3549,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-09-23T13:28:49.950Z"
-  },
-  {
-    "id": "fffe845424f5",
-    "title": "Pizza with Henry, captaining Brondby, and now a Scotland chance",
-    "date": "2026-09-22",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cm70dyzjwg91o?at_medium=RSS&at_campaign=rss",
-    "summary": "Pizza with Henry, captaining Brondby, and now a Scotland chance",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-23T13:28:49.950Z"
-  },
-  {
-    "id": "b94c509ca8cc",
-    "title": "Will anyone topple Infantino? How Fifa president is trying to cling on after World Cup sell-off debacle",
-    "date": "2026-09-22",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/22/gianni-infantino-fifa-president-election-world-cup-sell-off-debacle",
-    "summary": "Will anyone topple Infantino? How Fifa president is trying to cling on after World Cup sell-off debacle",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-23T13:28:49.950Z"
-  },
-  {
-    "id": "1835bfcd59a1",
-    "title": "Football Daily | Klopp, Xavi, Zidane, Mancini: big nations ready to unleash bigger dogs",
-    "date": "2026-09-22",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/22/klopp-xavi-zidane-mancini-football-daily-newsletter",
-    "summary": "Football Daily | Klopp, Xavi, Zidane, Mancini: big nations ready to unleash bigger dogs",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-23T13:28:49.950Z"
-  },
-  {
-    "id": "da142ad9179c",
-    "title": "McPake's 'colourful' journey from club-less to Scotland call-up in three years",
-    "date": "2026-09-22",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cmx2z1jldpnzo?at_medium=RSS&at_campaign=rss",
-    "summary": "McPake's 'colourful' journey from club-less to Scotland call-up in three years",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-22T13:13:48.379Z"
-  },
-  {
-    "id": "38aa1a2dd0de",
-    "title": "How do players withdraw from an international squad?",
-    "date": "2026-09-22",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/crz6z2y31pvlo?at_medium=RSS&at_campaign=rss",
-    "summary": "How do players withdraw from an international squad?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-22T13:13:48.379Z"
-  },
-  {
-    "id": "da142ad9179c",
-    "title": "McPake's 'colourful' journey from club-less to Scotland call-up in three years",
-    "date": "2026-09-22",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cmx2z1jldpnzo?at_medium=RSS&at_campaign=rss",
-    "summary": "McPake's 'colourful' journey from club-less to Scotland call-up in three years",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-22T13:13:48.379Z"
-  },
-  {
-    "id": "2e809353cdc8",
-    "title": "Branthwaite reveals brain study helped him conquer injuries and earn England call",
-    "date": "2026-09-22",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/22/jarrad-branthwaite-england-nations-league-everton",
-    "summary": "Branthwaite reveals brain study helped him conquer injuries and earn England call",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-22T13:13:48.379Z"
-  },
-  {
-    "id": "c297f0e5e381",
-    "title": "Édouard Mendy: ‘Winning Afcon was 10 times better than the Champions League’",
-    "date": "2026-09-22",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/22/edouard-mendy-winning-afcon-was-10-times-better-than-the-champions-league",
-    "summary": "Édouard Mendy: ‘Winning Afcon was 10 times better than the Champions League’",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-22T13:13:48.379Z"
-  },
-  {
-    "id": "463715e9b929",
-    "title": "Dockers derby delivers and England squad upheaval | Football Weekly",
-    "date": "2026-09-22",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/video/2026/sep/22/dockers-derby-delivers-and-england-squad-upheaval-football-weekly",
-    "summary": "Dockers derby delivers and England squad upheaval | Football Weekly",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-22T13:13:48.379Z"
-  },
-  {
-    "id": "8de3a7d82d4b",
-    "title": "Dockers derby delivers and England squad upheaval – Football Weekly podcast",
-    "date": "2026-09-22",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/audio/2026/sep/22/dockers-derby-delivers-and-england-squad-upheaval-football-weekly",
-    "summary": "Dockers derby delivers and England squad upheaval – Football Weekly podcast",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-22T13:13:48.379Z"
   }
 ];
