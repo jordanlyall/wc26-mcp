@@ -2,6 +2,45 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "acc38addfe0a",
+    "title": "Vincent Kompany to miss ‘weeks, not days’ with virus treatment, say Bayern Munich",
+    "date": "2026-10-24",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/24/vincent-kompany-recovery-virus-bayern-munich-bundesliga-football",
+    "summary": "Vincent Kompany to miss ‘weeks, not days’ with virus treatment, say Bayern Munich",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-24T12:31:09.450Z"
+  },
+  {
+    "id": "869ab6d945ad",
+    "title": "NWSL drops controversial criteria around ‘Rodman Rule’ in settlement with NWSLPA",
+    "date": "2026-10-23",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/23/nwsl-rodman-rule-hip-rule-changes",
+    "summary": "NWSL drops controversial criteria around ‘Rodman Rule’ in settlement with NWSLPA",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-24T12:31:09.450Z"
+  },
+  {
+    "id": "92630db99d9e",
+    "title": "Football Daily | Mourinho is ready for his clásico return – stock up on popcorn, folks!",
+    "date": "2026-10-23",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/23/jose-mourinho-real-madrid-barcelona-clasico-football-daily-newsletter",
+    "summary": "Football Daily | Mourinho is ready for his clásico return – stock up on popcorn, folks!",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-24T12:31:09.450Z"
+  },
+  {
     "id": "518f06370968",
     "title": "Pascal Gross: the obsessive runner keeping Brighton ‘one step ahead’ after fast start",
     "date": "2026-10-23",
@@ -3341,213 +3380,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-09-24T13:24:12.167Z"
-  },
-  {
-    "id": "f6c28e96c9ec",
-    "title": "Eriksen leaves Wolfsburg by mutual consent",
-    "date": "2026-09-23",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cm5yezn8w4xdo?at_medium=RSS&at_campaign=rss",
-    "summary": "Eriksen leaves Wolfsburg by mutual consent",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-24T13:24:12.167Z"
-  },
-  {
-    "id": "05a1e418345b",
-    "title": "Netherlands v Germany: Klopp and Xavi begin revival projects with derby",
-    "date": "2026-09-23",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/23/special-klopp-and-xavi-take-first-steps-on-international-stage-with-revival-in-mind",
-    "summary": "Netherlands v Germany: Klopp and Xavi begin revival projects with derby",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-24T13:24:12.167Z"
-  },
-  {
-    "id": "c1179e3f0ed3",
-    "title": "Cristiano Ronaldo vows to play on for Portugal and targets 1,000 career goals",
-    "date": "2026-09-23",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/23/cristiano-ronaldo-portugal-wales-nations-league",
-    "summary": "Cristiano Ronaldo vows to play on for Portugal and targets 1,000 career goals",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-24T13:24:12.167Z"
-  },
-  {
-    "id": "5f1690ee4d97",
-    "title": "Christian Eriksen leaves Wolfsburg by mutual consent after on-pitch collapse in June",
-    "date": "2026-09-23",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/23/christian-eriksen-leaves-wolfsburg-mutual-consent-denmark",
-    "summary": "Christian Eriksen leaves Wolfsburg by mutual consent after on-pitch collapse in June",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-24T13:24:12.167Z"
-  },
-  {
-    "id": "e2e9eb907cfb",
-    "title": "Harry Kane admits England’s World Cup 2026 exit ‘hurt more than any other’",
-    "date": "2026-09-23",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/23/harry-kane-england-world-cup-argentina-nations-league-spain",
-    "summary": "Harry Kane admits England’s World Cup 2026 exit ‘hurt more than any other’",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-24T13:24:12.167Z"
-  },
-  {
-    "id": "d7b3197bff0f",
-    "title": "Football Daily | Madrid, Mourinho and the fight for neutrality in row with Javier Tebas",
-    "date": "2026-09-23",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/23/madrid-mourinho-javier-tebas-football-daily-newsletter",
-    "summary": "Football Daily | Madrid, Mourinho and the fight for neutrality in row with Javier Tebas",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-24T13:24:12.167Z"
-  },
-  {
-    "id": "3d312d9c001f",
-    "title": "Pocognoli has 'positive nervousness' for Scotland debut ",
-    "date": "2026-09-23",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cw1mvy20202eo?at_medium=RSS&at_campaign=rss",
-    "summary": "Pocognoli has 'positive nervousness' for Scotland debut ",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-23T13:28:49.950Z"
-  },
-  {
-    "id": "53bd9586d038",
-    "title": "Germany's saviour? How Klopp is looking to turn fortunes around",
-    "date": "2026-09-23",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cmx2z3n88z77o?at_medium=RSS&at_campaign=rss",
-    "summary": "Germany's saviour? How Klopp is looking to turn fortunes around",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-23T13:28:49.950Z"
-  },
-  {
-    "id": "af36aa697e38",
-    "title": "From leaving Rangers to La Liga - Scotland is next step for Ure",
-    "date": "2026-09-23",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c617jyexnnd5o?at_medium=RSS&at_campaign=rss",
-    "summary": "From leaving Rangers to La Liga - Scotland is next step for Ure",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-23T13:28:49.950Z"
-  },
-  {
-    "id": "bacc18c99247",
-    "title": "Scots recall 'versatile' Kerr & Thomas for World Cup play-offs",
-    "date": "2026-09-23",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c63d7ypd11ydo?at_medium=RSS&at_campaign=rss",
-    "summary": "Scots recall 'versatile' Kerr & Thomas for World Cup play-offs",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-23T13:28:49.950Z"
-  },
-  {
-    "id": "3d312d9c001f",
-    "title": "Pocognoli has 'positive nervousness' for Scotland debut ",
-    "date": "2026-09-23",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cw1mvy20202eo?at_medium=RSS&at_campaign=rss",
-    "summary": "Pocognoli has 'positive nervousness' for Scotland debut ",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-23T13:28:49.950Z"
-  },
-  {
-    "id": "bacc18c99247",
-    "title": "Scots recall 'versatile' Kerr & Thomas for World Cup play-offs",
-    "date": "2026-09-23",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c63d7ypd11ydo?at_medium=RSS&at_campaign=rss",
-    "summary": "Scots recall 'versatile' Kerr & Thomas for World Cup play-offs",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-23T13:28:49.950Z"
-  },
-  {
-    "id": "af36aa697e38",
-    "title": "From leaving Rangers to La Liga - Scotland is next step for Ure",
-    "date": "2026-09-23",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c617jyexnnd5o?at_medium=RSS&at_campaign=rss",
-    "summary": "From leaving Rangers to La Liga - Scotland is next step for Ure",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-23T13:28:49.950Z"
-  },
-  {
-    "id": "bacc18c99247",
-    "title": "Scots recall 'versatile' Kerr & Thomas for World Cup play-offs",
-    "date": "2026-09-23",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c63d7ypd11ydo?at_medium=RSS&at_campaign=rss",
-    "summary": "Scots recall 'versatile' Kerr & Thomas for World Cup play-offs",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-23T13:28:49.950Z"
-  },
-  {
-    "id": "d104d79b83ca",
-    "title": "Ten of the best-value deals from this summer’s transfer window",
-    "date": "2026-09-23",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/23/summer-football-transfer-window-best-value-deals",
-    "summary": "Ten of the best-value deals from this summer’s transfer window",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-23T13:28:49.950Z"
-  },
-  {
-    "id": "6080d06cdac1",
-    "title": "Slip sliding away: football season-ticket holders fear falling down pecking order",
-    "date": "2026-09-23",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/23/premier-league-season-ticket-holders-pecking-order-new-fans-football-tourists",
-    "summary": "Slip sliding away: football season-ticket holders fear falling down pecking order",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-23T13:28:49.950Z"
   }
 ];
