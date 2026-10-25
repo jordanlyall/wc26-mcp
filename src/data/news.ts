@@ -2,6 +2,19 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "a66cf4ea1472",
+    "title": "Championship roundup: Southampton beat West Ham; QPR put five past Swansea",
+    "date": "2026-10-24",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/24/championship-roundup-sheffield-united-derby-west-ham-swansea",
+    "summary": "Championship roundup: Southampton beat West Ham; QPR put five past Swansea",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-25T13:03:57.671Z"
+  },
+  {
     "id": "acc38addfe0a",
     "title": "Vincent Kompany to miss ‘weeks, not days’ with virus treatment, say Bayern Munich",
     "date": "2026-10-24",
@@ -3250,135 +3263,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-09-25T13:26:19.118Z"
-  },
-  {
-    "id": "8676f90ed59c",
-    "title": "João Félix strike for Portugal enough to sink Wales but Ronaldo fever falls flat",
-    "date": "2026-09-24",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/24/portugal-wales-nations-league-match-report",
-    "summary": "João Félix strike for Portugal enough to sink Wales but Ronaldo fever falls flat",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-25T13:26:19.118Z"
-  },
-  {
-    "id": "783d2765b739",
-    "title": "James Garner keen to live up to ‘mini-Valverde’ tag after late England call",
-    "date": "2026-09-24",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/24/james-garner-mini-valverde-late-england-call",
-    "summary": "James Garner keen to live up to ‘mini-Valverde’ tag after late England call",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-25T13:26:19.118Z"
-  },
-  {
-    "id": "4d366ff49e4b",
-    "title": "Raphinha: ‘In my head I was leaving Barça, but a few small words can change you’",
-    "date": "2026-09-24",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/24/raphinha-barcelona-interview-la-liga-no9",
-    "summary": "Raphinha: ‘In my head I was leaving Barça, but a few small words can change you’",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-25T13:26:19.118Z"
-  },
-  {
-    "id": "f98f55b7113e",
-    "title": "Gakpo denies Klopp perfect start as Xavi’s Netherlands rescue draw against Germany",
-    "date": "2026-09-24",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/24/netherlands-germany-nations-league-match-report",
-    "summary": "Gakpo denies Klopp perfect start as Xavi’s Netherlands rescue draw against Germany",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-25T13:26:19.118Z"
-  },
-  {
-    "id": "6c4b62d72fd9",
-    "title": "England face world champions Spain as international break commences | Football Weekly – video",
-    "date": "2026-09-24",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/video/2026/sep/24/england-face-world-champions-spain-as-international-break-commences-football-weekly",
-    "summary": "England face world champions Spain as international break commences | Football Weekly – video",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-25T13:26:19.118Z"
-  },
-  {
-    "id": "ceee62951fd3",
-    "title": "Fox makes 'easy decision' to sign three-year Arsenal deal",
-    "date": "2026-09-24",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c046lgw20nno?at_medium=RSS&at_campaign=rss",
-    "summary": "Fox makes 'easy decision' to sign three-year Arsenal deal",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-24T13:24:12.167Z"
-  },
-  {
-    "id": "7f12485eb3e0",
-    "title": "Wilson & Curtis leave Scotland squad to join U-21s",
-    "date": "2026-09-24",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c6y8zmndyjkro?at_medium=RSS&at_campaign=rss",
-    "summary": "Wilson & Curtis leave Scotland squad to join U-21s",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-24T13:24:12.167Z"
-  },
-  {
-    "id": "ceee62951fd3",
-    "title": "Fox makes 'easy decision' to sign three-year Arsenal deal",
-    "date": "2026-09-24",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c046lgw20nno?at_medium=RSS&at_campaign=rss",
-    "summary": "Fox makes 'easy decision' to sign three-year Arsenal deal",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-24T13:24:12.167Z"
-  },
-  {
-    "id": "bf0862e06753",
-    "title": "‘It’s not in us’: Anthony Gordon backs Tuchel over England’s possession problem",
-    "date": "2026-09-24",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/24/anthony-gordon-backs-tuchel-over-england-possession-problem-world-cup-nations-league",
-    "summary": "‘It’s not in us’: Anthony Gordon backs Tuchel over England’s possession problem",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-24T13:24:12.167Z"
-  },
-  {
-    "id": "75c9eb2d69b7",
-    "title": "Anger at Tuchel over World Cup exit exposes biggest obstacle to England success | Barney Ronay",
-    "date": "2026-09-24",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/24/the-system-not-tuchel-led-to-world-cup-failure-but-euro-2028-offers-new-hope",
-    "summary": "Anger at Tuchel over World Cup exit exposes biggest obstacle to England success | Barney Ronay",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-24T13:24:12.167Z"
   }
 ];
