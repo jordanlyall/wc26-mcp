@@ -2,6 +2,71 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "6d5676759163",
+    "title": "Davide Ancelotti wants to make a name for himself – will he do it at Lille?",
+    "date": "2026-10-26",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/26/davide-ancelotti-lille-champions-league-ligue-1",
+    "summary": "Davide Ancelotti wants to make a name for himself – will he do it at Lille?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-26T14:58:49.991Z"
+  },
+  {
+    "id": "4ee77a7c4f71",
+    "title": "Weir would swap Ballon d'Or nominations for World Cup",
+    "date": "2026-10-25",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cjvgx1xw7z9xo?at_medium=RSS&at_campaign=rss",
+    "summary": "Weir would swap Ballon d'Or nominations for World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-26T14:58:49.991Z"
+  },
+  {
+    "id": "a3ae6ddec146",
+    "title": "The non-football fan who snapped the game beautifully",
+    "date": "2026-10-25",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/news/articles/cq1m4znk3m9eo?at_medium=RSS&at_campaign=rss",
+    "summary": "The non-football fan who snapped the game beautifully",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-26T14:58:49.991Z"
+  },
+  {
+    "id": "4ee77a7c4f71",
+    "title": "Weir would swap Ballon d'Or nods for World Cup",
+    "date": "2026-10-25",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cjvgx1xw7z9xo?at_medium=RSS&at_campaign=rss",
+    "summary": "Weir would swap Ballon d'Or nods for World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-26T14:58:49.991Z"
+  },
+  {
+    "id": "4ee77a7c4f71",
+    "title": "Weir would swap Ballon d'Or nominations for World Cup",
+    "date": "2026-10-25",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cjvgx1xw7z9xo?at_medium=RSS&at_campaign=rss",
+    "summary": "Weir would swap Ballon d'Or nominations for World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-26T14:58:49.991Z"
+  },
+  {
     "id": "a66cf4ea1472",
     "title": "Championship roundup: Southampton beat West Ham; QPR put five past Swansea",
     "date": "2026-10-24",
@@ -3042,226 +3107,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-09-26T12:49:36.126Z"
-  },
-  {
-    "id": "2721727c4f39",
-    "title": "Palmer misses too many opportunities to play for England - Tuchel",
-    "date": "2026-09-25",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cm9dww15527lo?at_medium=RSS&at_campaign=rss",
-    "summary": "Palmer misses too many opportunities to play for England - Tuchel",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-26T12:49:36.126Z"
-  },
-  {
-    "id": "52f80159b754",
-    "title": "From shaky start to statement wins - 100 days of McInnes at Rangers",
-    "date": "2026-09-25",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cqd08xkm22reo?at_medium=RSS&at_campaign=rss",
-    "summary": "From shaky start to statement wins - 100 days of McInnes at Rangers",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-26T12:49:36.126Z"
-  },
-  {
-    "id": "52f80159b754",
-    "title": "From shaky start to statement wins - 100 days of McInnes at Rangers",
-    "date": "2026-09-25",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cqd08xkm22reo?at_medium=RSS&at_campaign=rss",
-    "summary": "From shaky start to statement wins - 100 days of McInnes at Rangers",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-26T12:49:36.126Z"
-  },
-  {
-    "id": "814b389bc722",
-    "title": "England aim to win over Wembley and revive Wonderwall in Spain glamour fixture",
-    "date": "2026-09-25",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/25/england-spain-thomas-tuchel-nations-league-wonderwall",
-    "summary": "England aim to win over Wembley and revive Wonderwall in Spain glamour fixture",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-26T12:49:36.126Z"
-  },
-  {
-    "id": "dc03ca197a35",
-    "title": "Liverpool’s Cody Gakpo reflects on ‘tough summer … in football and life’",
-    "date": "2026-09-25",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/25/liverpool-cody-gakpo-tough-summer-manchester-city",
-    "summary": "Liverpool’s Cody Gakpo reflects on ‘tough summer … in football and life’",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-26T12:49:36.126Z"
-  },
-  {
-    "id": "af1b85df00ae",
-    "title": "Andy Robertson says players are ‘not to blame’ for Manchester City’s actions",
-    "date": "2026-09-25",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/25/andy-robertson-says-players-are-not-to-blame-for-manchester-citys-actions",
-    "summary": "Andy Robertson says players are ‘not to blame’ for Manchester City’s actions",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-26T12:49:36.126Z"
-  },
-  {
-    "id": "34bc9fc0a92d",
-    "title": "Meet the USMNT’s next generation: a cheat sheet for 12 new players in camp",
-    "date": "2026-09-25",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/25/usmnt-next-generation-guide",
-    "summary": "Meet the USMNT’s next generation: a cheat sheet for 12 new players in camp",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-26T12:49:36.126Z"
-  },
-  {
-    "id": "8175f9bd4a80",
-    "title": "You are the new Scotland boss - what would you do?",
-    "date": "2026-09-25",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cje3reed6dx4o?at_medium=RSS&at_campaign=rss",
-    "summary": "You are the new Scotland boss - what would you do?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-25T13:26:19.118Z"
-  },
-  {
-    "id": "a161551740fb",
-    "title": "New-look squad, but how will Pocognoli's Scotland line-up?",
-    "date": "2026-09-25",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c5zjzlr41m2vo?at_medium=RSS&at_campaign=rss",
-    "summary": "New-look squad, but how will Pocognoli's Scotland line-up?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-25T13:26:19.118Z"
-  },
-  {
-    "id": "8175f9bd4a80",
-    "title": "You are the new Scotland boss - what would you do?",
-    "date": "2026-09-25",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cje3reed6dx4o?at_medium=RSS&at_campaign=rss",
-    "summary": "You are the new Scotland boss - what would you do?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-25T13:26:19.118Z"
-  },
-  {
-    "id": "dc8929d4c72d",
-    "title": "Celtic step up plans for Jota return - gossip",
-    "date": "2026-09-25",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c6x2zrp30kxko?at_medium=RSS&at_campaign=rss",
-    "summary": "Celtic step up plans for Jota return - gossip",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-25T13:26:19.118Z"
-  },
-  {
-    "id": "0602da263e15",
-    "title": "Havertz returns to Arsenal; Bellingham scoops England award; Nations League buildup: football news – live",
-    "date": "2026-09-25",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/live/2026/sep/25/havertz-injury-latest-haaland-fires-norway-to-victory-england-v-spain-buildup-and-more-football-news-live",
-    "summary": "Havertz returns to Arsenal; Bellingham scoops England award; Nations League buildup: football news – live",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-25T13:26:19.118Z"
-  },
-  {
-    "id": "b8120cd829d6",
-    "title": "Mauricio Pochettino regrets not being ‘more involved’ with Balogun decision",
-    "date": "2026-09-25",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/25/pochettino-balogun-comments",
-    "summary": "Mauricio Pochettino regrets not being ‘more involved’ with Balogun decision",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-25T13:26:19.118Z"
-  },
-  {
-    "id": "4758b1645c3c",
-    "title": "De la Fuente brings insatiable Spain to England knowing World Cup is not enough",
-    "date": "2026-09-25",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/25/luis-de-la-fuente-spain-world-keep-us-winning",
-    "summary": "De la Fuente brings insatiable Spain to England knowing World Cup is not enough",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-25T13:26:19.118Z"
-  },
-  {
-    "id": "9fb3d03b7717",
-    "title": "Kieron Dyer making waves at Southend after leaving ‘hooligan’ days and ‘deathbed’ behind",
-    "date": "2026-09-25",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/25/kieron-dyer-southend-manager-interview",
-    "summary": "Kieron Dyer making waves at Southend after leaving ‘hooligan’ days and ‘deathbed’ behind",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-25T13:26:19.118Z"
-  },
-  {
-    "id": "9d38cb6e18f2",
-    "title": "David Beckham takes £39m dividend as World Cup deals drive record profits",
-    "date": "2026-09-25",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/25/david-beckham-dividend-world-cup-deals-record-profits",
-    "summary": "David Beckham takes £39m dividend as World Cup deals drive record profits",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-25T13:26:19.118Z"
-  },
-  {
-    "id": "d4a018f2f806",
-    "title": "Socceroos denied famous win as late Brazil goal cancels out Irankunda stunner",
-    "date": "2026-09-25",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/25/australia-socceroos-brazil-irankunda-international-friendly-match-report",
-    "summary": "Socceroos denied famous win as late Brazil goal cancels out Irankunda stunner",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-25T13:26:19.118Z"
   }
 ];
