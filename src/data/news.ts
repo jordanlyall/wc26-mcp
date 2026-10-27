@@ -2,6 +2,123 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "e2bd8bbb426e",
+    "title": "McBurnie coughs up blood during Hull draw - gossip",
+    "date": "2026-10-27",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c620rzelp0peo?at_medium=RSS&at_campaign=rss",
+    "summary": "McBurnie coughs up blood during Hull draw - gossip",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-27T14:12:04.047Z"
+  },
+  {
+    "id": "a92461baaab9",
+    "title": "Kane’s Ballon d’Or triumph a glorious riposte to celebrity fawning of ceremony | Barney Ronay",
+    "date": "2026-10-27",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/27/harry-kane-ballon-dor-triumph-ceremony-barney-ronay",
+    "summary": "Kane’s Ballon d’Or triumph a glorious riposte to celebrity fawning of ceremony | Barney Ronay",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-27T14:12:04.047Z"
+  },
+  {
+    "id": "9cff2a7c90cc",
+    "title": "Alexia Putellas a worthy Ballon d’Or winner but the limited shortlist illustrates flaws",
+    "date": "2026-10-27",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/27/alexia-putellas-ballon-dor-winner-awards-long-way-before-being-equal-moving-the-goalposts",
+    "summary": "Alexia Putellas a worthy Ballon d’Or winner but the limited shortlist illustrates flaws",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-27T14:12:04.047Z"
+  },
+  {
+    "id": "4cf5d2571e45",
+    "title": "England-Republic of Ireland U15 World Cup game ends over alleged racism",
+    "date": "2026-10-26",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cmn8wzldd7q0o?at_medium=RSS&at_campaign=rss",
+    "summary": "England-Republic of Ireland U15 World Cup game ends over alleged racism",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-27T14:12:04.047Z"
+  },
+  {
+    "id": "d1234fe0e0e0",
+    "title": "Weir 25th in Ballon d'Or and joins Olid & Cuthbert in award shortlist",
+    "date": "2026-10-26",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/ckd6dzv7w85go?at_medium=RSS&at_campaign=rss",
+    "summary": "Weir 25th in Ballon d'Or and joins Olid & Cuthbert in award shortlist",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-27T14:12:04.047Z"
+  },
+  {
+    "id": "d1234fe0e0e0",
+    "title": "Weir 25th in Ballon d'Or and joins Olid & Cuthbert in award shortlist",
+    "date": "2026-10-26",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/ckd6dzv7w85go?at_medium=RSS&at_campaign=rss",
+    "summary": "Weir 25th in Ballon d'Or and joins Olid & Cuthbert in award shortlist",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-27T14:12:04.047Z"
+  },
+  {
+    "id": "d1234fe0e0e0",
+    "title": "Weir 25th in Ballon d'Or and joins Olid & Cuthbert in award shortlist",
+    "date": "2026-10-26",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/ckd6dzv7w85go?at_medium=RSS&at_campaign=rss",
+    "summary": "Weir 25th in Ballon d'Or and joins Olid & Cuthbert in award shortlist",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-27T14:12:04.047Z"
+  },
+  {
+    "id": "c5cb0ea5214b",
+    "title": "England Under-15s walk off pitch against Ireland in World Cup after racism allegation",
+    "date": "2026-10-26",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/26/england-under-15-walk-off-pitch-ireland-world-cup-racism-allegation",
+    "summary": "England Under-15s walk off pitch against Ireland in World Cup after racism allegation",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-27T14:12:04.047Z"
+  },
+  {
+    "id": "0305f6272adc",
+    "title": "Mourinho’s plan comes together as Real Madrid relaunch with clásico statement | Sid Lowe",
+    "date": "2026-10-26",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/26/mourinhos-plan-comes-together-as-real-madrid-relaunch-with-clasico-statement",
+    "summary": "Mourinho’s plan comes together as Real Madrid relaunch with clásico statement | Sid Lowe",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-27T14:12:04.047Z"
+  },
+  {
     "id": "6d5676759163",
     "title": "Davide Ancelotti wants to make a name for himself – will he do it at Lille?",
     "date": "2026-10-26",
@@ -2964,148 +3081,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-09-27T13:42:00.427Z"
-  },
-  {
-    "id": "daaa0344c63e",
-    "title": "Messi’s exit leaves Argentina with impossible task of replacing their superhero | Jonathan Wilson",
-    "date": "2026-09-26",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/26/lionel-messi-exit-argentina-impossible-task-superhero",
-    "summary": "Messi’s exit leaves Argentina with impossible task of replacing their superhero | Jonathan Wilson",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-27T13:42:00.427Z"
-  },
-  {
-    "id": "cddfb68806a1",
-    "title": "USA thrash Peru as teenage newcomers shine in first step toward 2030",
-    "date": "2026-09-26",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/26/usmnt-peru-cavan-sullivan-2030-world-cup-cycle",
-    "summary": "USA thrash Peru as teenage newcomers shine in first step toward 2030",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-27T13:42:00.427Z"
-  },
-  {
-    "id": "1c9a8f8959ee",
-    "title": "Pocognoli’s reign as Scotland coach begins with stalemate in Slovenia",
-    "date": "2026-09-26",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/26/slovenia-scotland-nations-league-match-report",
-    "summary": "Pocognoli’s reign as Scotland coach begins with stalemate in Slovenia",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-27T13:42:00.427Z"
-  },
-  {
-    "id": "137675df30eb",
-    "title": "‘Island girl’ Malard aims to become a legend with Bompastor at Chelsea",
-    "date": "2026-09-26",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/26/womens-super-league-chelsea-girl-from-island-melvine-malard-sees-reunion-sonia-bompastor-way-become-legend",
-    "summary": "‘Island girl’ Malard aims to become a legend with Bompastor at Chelsea",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-27T13:42:00.427Z"
-  },
-  {
-    "id": "406a7abaf27d",
-    "title": "Ngumoha not in England squad to face Spain",
-    "date": "2026-09-26",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cqn744el41d8o?at_medium=RSS&at_campaign=rss",
-    "summary": "Ngumoha not in England squad to face Spain",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-26T12:49:36.126Z"
-  },
-  {
-    "id": "69c8f9ef6dce",
-    "title": "Bellamy support crucial after serious injury - Wales' Burns",
-    "date": "2026-09-26",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cklyjv02ygeeo?at_medium=RSS&at_campaign=rss",
-    "summary": "Bellamy support crucial after serious injury - Wales' Burns",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-26T12:49:36.126Z"
-  },
-  {
-    "id": "120022767d27",
-    "title": "Pocognoli may require patience to deliver on Scotland shake-up",
-    "date": "2026-09-26",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cvkgw6g1kdg8o?at_medium=RSS&at_campaign=rss",
-    "summary": "Pocognoli may require patience to deliver on Scotland shake-up",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-26T12:49:36.126Z"
-  },
-  {
-    "id": "9add89c353cd",
-    "title": "Slovenia v Scotland: Nations League – live",
-    "date": "2026-09-26",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/live/2026/sep/26/slovenia-v-scotland-nations-league-live",
-    "summary": "Slovenia v Scotland: Nations League – live",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-26T12:49:36.126Z"
-  },
-  {
-    "id": "93ed38dedba1",
-    "title": "How do England beat Spain, or even score against them? The data suggests crosses",
-    "date": "2026-09-26",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/26/how-do-england-beat-spain-or-even-score-against-them-the-data-suggests-crosses",
-    "summary": "How do England beat Spain, or even score against them? The data suggests crosses",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-26T12:49:36.126Z"
-  },
-  {
-    "id": "84c596b5d82a",
-    "title": "Lamine Yamal: ‘Football is mechanised but players like me have that special spark’",
-    "date": "2026-09-26",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/26/lamine-yamal-football-special-spark-spain-world-cup-barcelona",
-    "summary": "Lamine Yamal: ‘Football is mechanised but players like me have that special spark’",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-26T12:49:36.126Z"
-  },
-  {
-    "id": "034bf902cfd2",
-    "title": "‘I’m pretty sure I didn’t imagine it’: the little-known trio of high schoolers who made USMNT history",
-    "date": "2026-09-26",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/26/usmnt-teenagers-history-mike-slivinski-mark-jonas-nelson-vargas",
-    "summary": "‘I’m pretty sure I didn’t imagine it’: the little-known trio of high schoolers who made USMNT history",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-26T12:49:36.126Z"
   }
 ];
