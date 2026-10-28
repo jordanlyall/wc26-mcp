@@ -2,6 +2,84 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "12ea73fb8534",
+    "title": "Kuyt named Fenerbahce interim boss before Liverpool tie",
+    "date": "2026-10-28",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c5398300x0nyo?at_medium=RSS&at_campaign=rss",
+    "summary": "Kuyt named Fenerbahce interim boss before Liverpool tie",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-28T14:57:23.786Z"
+  },
+  {
+    "id": "5289a21c30b2",
+    "title": "Kylian Mbappé’s China crisis shows how sensitive Mao’s legacy remains",
+    "date": "2026-10-28",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/28/kylian-mbappe-china-crisis-shows-how-sensitive-maos-legacy-remains",
+    "summary": "Kylian Mbappé’s China crisis shows how sensitive Mao’s legacy remains",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-28T14:57:23.786Z"
+  },
+  {
+    "id": "2c5c2a35afa6",
+    "title": "Captain Xhaka allowed to play for Switzerland again",
+    "date": "2026-10-27",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/ck3wvl2ygd77o?at_medium=RSS&at_campaign=rss",
+    "summary": "Captain Xhaka allowed to play for Switzerland again",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-28T14:57:23.786Z"
+  },
+  {
+    "id": "5698d5d7e7f6",
+    "title": "Arise, Sir Harry? Downing Street hints at Kane knighthood after Ballon d’Or win",
+    "date": "2026-10-27",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/27/harry-kane-andy-burnham-knighthood-ballon-dor-win",
+    "summary": "Arise, Sir Harry? Downing Street hints at Kane knighthood after Ballon d’Or win",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-28T14:57:23.786Z"
+  },
+  {
+    "id": "195dde7574a7",
+    "title": "Harry Kane wins the Ballon d’Or and an EFL round-up | Football Weekly – video",
+    "date": "2026-10-27",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/video/2026/oct/27/harry-kane-wins-the-ballon-dor-and-an-efl-round-up-football-weekly-video",
+    "summary": "Harry Kane wins the Ballon d’Or and an EFL round-up | Football Weekly – video",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-28T14:57:23.786Z"
+  },
+  {
+    "id": "7ce6a949f3fc",
+    "title": "Football Daily | Harry Kane completes his arc from Orient loanee to Ballon d’Or winner",
+    "date": "2026-10-27",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/27/harry-kane-ballon-dor-football-daily-newsletter",
+    "summary": "Football Daily | Harry Kane completes his arc from Orient loanee to Ballon d’Or winner",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-28T14:57:23.786Z"
+  },
+  {
     "id": "e2bd8bbb426e",
     "title": "McBurnie coughs up blood during Hull draw - gossip",
     "date": "2026-10-27",
@@ -39,6 +117,19 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-10-27T14:12:04.047Z"
+  },
+  {
+    "id": "44b3213c0d50",
+    "title": "Harry Kane claims men’s Ballon d’Or to end England’s 25-year wait for winner",
+    "date": "2026-10-26",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/26/harry-kane-ends-englands-25-year-wait-for-a-mens-ballon-dor",
+    "summary": "Harry Kane claims men’s Ballon d’Or to end England’s 25-year wait for winner",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-28T14:57:23.786Z"
   },
   {
     "id": "4cf5d2571e45",
@@ -3003,83 +3094,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-09-28T16:36:22.807Z"
-  },
-  {
-    "id": "1d88dbc7e9be",
-    "title": "McTominay’s role a poser for Pocognoli as Scotland offer positives in Slovenia",
-    "date": "2026-09-27",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/27/scott-mctominay-sebastien-pocognoli-scotland-switzerland-nations-league",
-    "summary": "McTominay’s role a poser for Pocognoli as Scotland offer positives in Slovenia",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-28T16:36:22.807Z"
-  },
-  {
-    "id": "bb1c4bd089ae",
-    "title": "James Trafford’s England dream burns with No 1 spot finally up for grabs again",
-    "date": "2026-09-27",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/27/james-trafford-england-no-1-nations-league",
-    "summary": "James Trafford’s England dream burns with No 1 spot finally up for grabs again",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-28T16:36:22.807Z"
-  },
-  {
-    "id": "6a37456d1afb",
-    "title": "Thomas Tuchel resists ‘madness’ of calls to rest England players despite longer window",
-    "date": "2026-09-27",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/27/thomas-tuchel-england-players-longer-international-window-nations-league",
-    "summary": "Thomas Tuchel resists ‘madness’ of calls to rest England players despite longer window",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-28T16:36:22.807Z"
-  },
-  {
-    "id": "d22c93dd0288",
-    "title": "From turgid to thrusting - mixed start for new Scotland",
-    "date": "2026-09-27",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c67833k8dn0eo?at_medium=RSS&at_campaign=rss",
-    "summary": "From turgid to thrusting - mixed start for new Scotland",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-27T13:42:00.427Z"
-  },
-  {
-    "id": "d22c93dd0288",
-    "title": "From turgid to thrusting - mixed start for new Scotland",
-    "date": "2026-09-27",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c67833k8dn0eo?at_medium=RSS&at_campaign=rss",
-    "summary": "From turgid to thrusting - mixed start for new Scotland",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-27T13:42:00.427Z"
-  },
-  {
-    "id": "f2b0515c63fe",
-    "title": "Israel game goes ahead after Ireland players’ vote, WSL action and Isak returns to Liverpool – matchday live",
-    "date": "2026-09-27",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/live/2026/sep/27/israel-republic-of-ireland-england-spain-matchday-live",
-    "summary": "Israel game goes ahead after Ireland players’ vote, WSL action and Isak returns to Liverpool – matchday live",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-27T13:42:00.427Z"
   }
 ];
