@@ -2,6 +2,19 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "bfae0357afc0",
+    "title": "England’s Ivan Toney to stand trial during Euro 2028 after denying assault charge",
+    "date": "2026-10-29",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/29/ivan-toney-trial-during-euro-2028-denies-assault-charge",
+    "summary": "England’s Ivan Toney to stand trial during Euro 2028 after denying assault charge",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-29T15:02:54.898Z"
+  },
+  {
     "id": "12ea73fb8534",
     "title": "Kuyt named Fenerbahce interim boss before Liverpool tie",
     "date": "2026-10-28",
@@ -2951,148 +2964,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-09-29T14:43:13.607Z"
-  },
-  {
-    "id": "c63001028d62",
-    "title": "Thomas Tuchel resists change against Czechia despite England defensive errors",
-    "date": "2026-09-28",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/28/thomas-tuchel-czechia-england-nations-league-spain",
-    "summary": "Thomas Tuchel resists change against Czechia despite England defensive errors",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-29T14:43:13.607Z"
-  },
-  {
-    "id": "cf501f33a01e",
-    "title": "‘Football with a smile’: Pocognoli wants happy Gilmour to tee up Scotland success",
-    "date": "2026-09-28",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/28/billy-gilmour-sebastien-pocognoli-scotland-nations-league",
-    "summary": "‘Football with a smile’: Pocognoli wants happy Gilmour to tee up Scotland success",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-29T14:43:13.607Z"
-  },
-  {
-    "id": "d1b3700ac3ac",
-    "title": "Nations League: Olise’s late stunner leads France past Belgium, Italy rout Turkey",
-    "date": "2026-09-28",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/28/nations-league-belgium-france-turkey-italy-northern-ireland-hungary",
-    "summary": "Nations League: Olise’s late stunner leads France past Belgium, Italy rout Turkey",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-29T14:43:13.607Z"
-  },
-  {
-    "id": "348d6016d3d7",
-    "title": "Defensive flux gives Tuchel headache but Alexander-Arnold could be remedy | Jacob Steinberg",
-    "date": "2026-09-28",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/28/thomas-tuchel-england-trent-alexander-arnold-nations-league",
-    "summary": "Defensive flux gives Tuchel headache but Alexander-Arnold could be remedy | Jacob Steinberg",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-29T14:43:13.607Z"
-  },
-  {
-    "id": "a6131a0028a2",
-    "title": "Football Daily | Manchester City come out swinging haymakers after charges galore",
-    "date": "2026-09-28",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/28/manchester-city-charges-football-daily",
-    "summary": "Football Daily | Manchester City come out swinging haymakers after charges galore",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-29T14:43:13.607Z"
-  },
-  {
-    "id": "a0c18512b2ae",
-    "title": "Could Potter be England's next breakthrough star?",
-    "date": "2026-09-28",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cry8z31pl534o?at_medium=RSS&at_campaign=rss",
-    "summary": "Could Potter be England's next breakthrough star?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-28T16:36:22.807Z"
-  },
-  {
-    "id": "e742c2fdc9d7",
-    "title": "Preston appoint former Scotland player Alexander",
-    "date": "2026-09-28",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c60m33n3nxgko?at_medium=RSS&at_campaign=rss",
-    "summary": "Preston appoint former Scotland player Alexander",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-28T16:36:22.807Z"
-  },
-  {
-    "id": "df1cda05e87d",
-    "title": "You are the Scotland boss - what would you change for Switzerland?",
-    "date": "2026-09-28",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cr9dwwn5zdyzo?at_medium=RSS&at_campaign=rss",
-    "summary": "You are the Scotland boss - what would you change for Switzerland?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-28T16:36:22.807Z"
-  },
-  {
-    "id": "a0c18512b2ae",
-    "title": "Could Potter be England's next breakthrough star?",
-    "date": "2026-09-28",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cry8z31pl534o?at_medium=RSS&at_campaign=rss",
-    "summary": "Could Potter be England's next breakthrough star?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-28T16:36:22.807Z"
-  },
-  {
-    "id": "73733429acca",
-    "title": "Israel captain stokes feud by saying ‘our country is 10 times better than Ireland’",
-    "date": "2026-09-28",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/28/israel-captain-manor-solomon-feud-republic-ireland-gaza-nations-league",
-    "summary": "Israel captain stokes feud by saying ‘our country is 10 times better than Ireland’",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-28T16:36:22.807Z"
-  },
-  {
-    "id": "60e854f9a77d",
-    "title": "The Nations League is a welcome example of soccer done well",
-    "date": "2026-09-28",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/28/nations-league-uefa-england-spain",
-    "summary": "The Nations League is a welcome example of soccer done well",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-28T16:36:22.807Z"
   }
 ];
