@@ -2,6 +2,58 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "952b0964d026",
+    "title": "Holsgrove hungry for Scotland chance - gossip",
+    "date": "2026-10-30",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cwx281gzv1xlo?at_medium=RSS&at_campaign=rss",
+    "summary": "Holsgrove hungry for Scotland chance - gossip",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-30T14:55:33.232Z"
+  },
+  {
+    "id": "6748d88ec52e",
+    "title": "Forest Green launch legal proceedings against Savage departure, England win controversial U-15 World Cup match, and more – football live",
+    "date": "2026-10-30",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/live/2026/oct/30/premier-league-news-carabao-cup-and-wcl-reaction-and-more-football-live",
+    "summary": "Forest Green launch legal proceedings against Savage departure, England win controversial U-15 World Cup match, and more – football live",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-30T14:55:33.232Z"
+  },
+  {
+    "id": "2b3a43505834",
+    "title": "Roster rifts, police raids and Son’s uncertain future leave South Korea at a crossroads",
+    "date": "2026-10-30",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/30/south-korea-national-team-scandals-son-heung-min",
+    "summary": "Roster rifts, police raids and Son’s uncertain future leave South Korea at a crossroads",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-30T14:55:33.232Z"
+  },
+  {
+    "id": "f6a761a9ea7d",
+    "title": "Everton drop Jack Grealish from Carabao Cup tie over ‘breach of club discipline’",
+    "date": "2026-10-29",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/29/jack-grealish-axed-everton-breach-club-discipline-newcastle-caraboao-cup",
+    "summary": "Everton drop Jack Grealish from Carabao Cup tie over ‘breach of club discipline’",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-30T14:55:33.232Z"
+  },
+  {
     "id": "bfae0357afc0",
     "title": "England’s Ivan Toney to stand trial during Euro 2028 after denying assault charge",
     "date": "2026-10-29",
@@ -2769,200 +2821,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-09-30T14:45:31.921Z"
-  },
-  {
-    "id": "e87e85753abd",
-    "title": "New coach, new players, but same old failings hamper Scotland",
-    "date": "2026-09-29",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cmrl6g9nw5lyo?at_medium=RSS&at_campaign=rss",
-    "summary": "New coach, new players, but same old failings hamper Scotland",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-30T14:45:31.921Z"
-  },
-  {
-    "id": "e87e85753abd",
-    "title": "New coach, new players, but same old failings hamper Scotland",
-    "date": "2026-09-29",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cmrl6g9nw5lyo?at_medium=RSS&at_campaign=rss",
-    "summary": "New coach, new players, but same old failings hamper Scotland",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-30T14:45:31.921Z"
-  },
-  {
-    "id": "f8a42273e0ff",
-    "title": "Hampden debut to forget but Pocognoli looks at bigger picture ",
-    "date": "2026-09-29",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cw80483z2522o?at_medium=RSS&at_campaign=rss",
-    "summary": "Hampden debut to forget but Pocognoli looks at bigger picture ",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-30T14:45:31.921Z"
-  },
-  {
-    "id": "60b17c0fc955",
-    "title": "Tuchel praises Alexander-Arnold for ‘decisive’ display on England return",
-    "date": "2026-09-29",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/29/thomas-tuchel-trent-alexander-arnold-czechia-england-nations-league-match",
-    "summary": "Tuchel praises Alexander-Arnold for ‘decisive’ display on England return",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-30T14:45:31.921Z"
-  },
-  {
-    "id": "ffbef7187128",
-    "title": "Switzerland’s Rodríguez and Elvedi punish Scotland after Hendry’s early red card",
-    "date": "2026-09-29",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/29/scotland-switzerland-nations-league-match-report",
-    "summary": "Switzerland’s Rodríguez and Elvedi punish Scotland after Hendry’s early red card",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-30T14:45:31.921Z"
-  },
-  {
-    "id": "1d7ebca36228",
-    "title": "Nations League roundup: Lamine Yamal sinks Croatia in Spain’s World Cup homecoming",
-    "date": "2026-09-29",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/29/nations-league-roundup-lamine-yamal-sinks-croatia-in-spains-world-cup-homecoming",
-    "summary": "Nations League roundup: Lamine Yamal sinks Croatia in Spain’s World Cup homecoming",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-30T14:45:31.921Z"
-  },
-  {
-    "id": "5db3da69a724",
-    "title": "USWNT roster: Ashley Sanchez earns the call for friendlies v Spain",
-    "date": "2026-09-29",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/29/uswnt-roster-spain-ashley-sanchez-mallory-swanson-naomi-girma",
-    "summary": "USWNT roster: Ashley Sanchez earns the call for friendlies v Spain",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-30T14:45:31.921Z"
-  },
-  {
-    "id": "382bed92ed85",
-    "title": "Toone and Kelly miss out on Lionesses squad",
-    "date": "2026-09-29",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c6y9z7dlq199o?at_medium=RSS&at_campaign=rss",
-    "summary": "Toone and Kelly miss out on Lionesses squad",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-29T14:43:13.607Z"
-  },
-  {
-    "id": "a34adcfba0c0",
-    "title": "O'Reilly to miss Czech Republic game but Konsa in squad",
-    "date": "2026-09-29",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cj62eyx9grzxo?at_medium=RSS&at_campaign=rss",
-    "summary": "O'Reilly to miss Czech Republic game but Konsa in squad",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-29T14:43:13.607Z"
-  },
-  {
-    "id": "ca4afcd86bfd",
-    "title": "Wales without seven players for World Cup play-off",
-    "date": "2026-09-29",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/ck1l63y88e3vo?at_medium=RSS&at_campaign=rss",
-    "summary": "Wales without seven players for World Cup play-off",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-29T14:43:13.607Z"
-  },
-  {
-    "id": "382bed92ed85",
-    "title": "Toone and Kelly miss out on Lionesses squad",
-    "date": "2026-09-29",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c6y9z7dlq199o?at_medium=RSS&at_campaign=rss",
-    "summary": "Toone and Kelly miss out on Lionesses squad",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-29T14:43:13.607Z"
-  },
-  {
-    "id": "ca4afcd86bfd",
-    "title": "Wales without seven players for World Cup play-off",
-    "date": "2026-09-29",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/ck1l63y88e3vo?at_medium=RSS&at_campaign=rss",
-    "summary": "Wales without seven players for World Cup play-off",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-29T14:43:13.607Z"
-  },
-  {
-    "id": "7a69088f24e1",
-    "title": "Chloe Kelly and Ella Toone dropped by England after not hitting ‘expected’ level",
-    "date": "2026-09-29",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/29/england-women-squad-lexi-potter-chloe-kelly-ella-toone-sarina-wiegman-world-cup-playoff-greece",
-    "summary": "Chloe Kelly and Ella Toone dropped by England after not hitting ‘expected’ level",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-29T14:43:13.607Z"
-  },
-  {
-    "id": "4569bca144c6",
-    "title": "Sam Gough’s journey from being ‘a hazard’ at PE to becoming Para Lionesses captain",
-    "date": "2026-09-29",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/29/sam-gough-journey-hazard-at-pe-to-para-lionesses-captain",
-    "summary": "Sam Gough’s journey from being ‘a hazard’ at PE to becoming Para Lionesses captain",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-29T14:43:13.607Z"
-  },
-  {
-    "id": "df6346908c34",
-    "title": "Australia go down fighting to Brazil in fiery 4-2 friendly defeat",
-    "date": "2026-09-29",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/29/australia-go-down-fighting-to-brazil-in-fiery-4-2-friendly-defeat",
-    "summary": "Australia go down fighting to Brazil in fiery 4-2 friendly defeat",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-29T14:43:13.607Z"
   }
 ];
