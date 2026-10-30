@@ -39,12 +39,16 @@ export const teamProfiles: TeamProfile[] = [
     qualifying_summary: "Qualified through AFC qualifiers, securing automatic qualification from their group.",
   },
   {
-    team_id: "tbd_uefa_d",
-    coach: "TBD",
-    playing_style: "To be determined after UEFA Playoff D concludes.",
-    key_players: [],
-    world_cup_history: { appearances: 0, best_result: "TBD", titles: 0 },
-    qualifying_summary: "Winner of UEFA Playoff Path D, to be decided by March 2026.",
+    team_id: "cze",
+    coach: "Ivan Hasek",
+    playing_style: "Compact and disciplined with a structured midfield press, technical build-up, and direct transitions.",
+    key_players: [
+      { name: "Patrik Schick", position: "FWD", club: "Bayer Leverkusen" },
+      { name: "Tomás Soucek", position: "MID", club: "West Ham United" },
+      { name: "Vladimír Coufal", position: "DEF", club: "West Ham United" },
+    ],
+    world_cup_history: { appearances: 9, best_result: "Runners-up (1934, 1962)", titles: 0 },
+    qualifying_summary: "Qualified through UEFA playoffs, winning their playoff path to reach the tournament.",
   },
 
   // ── Group B ────────────────────────────────────────────────
@@ -85,12 +89,16 @@ export const teamProfiles: TeamProfile[] = [
     qualifying_summary: "Qualified through AFC qualifiers as Asian Cup champions, securing a spot through their group-stage performance.",
   },
   {
-    team_id: "tbd_uefa_a",
-    coach: "TBD",
-    playing_style: "To be determined after UEFA Playoff A concludes.",
-    key_players: [],
-    world_cup_history: { appearances: 0, best_result: "TBD", titles: 0 },
-    qualifying_summary: "Winner of UEFA Playoff Path A, to be decided by March 2026.",
+    team_id: "bih",
+    coach: "Sergej Barbarez",
+    playing_style: "Technically gifted with creative attacking play, relying on individual quality in the final third.",
+    key_players: [
+      { name: "Edin Dzeko", position: "FWD", club: "Fenerbahce" },
+      { name: "Miralem Pjanic", position: "MID", club: "Unattached" },
+      { name: "Sead Kolasinac", position: "DEF", club: "Atalanta" },
+    ],
+    world_cup_history: { appearances: 1, best_result: "Group stage (2014)", titles: 0 },
+    qualifying_summary: "Qualified through UEFA playoffs, winning their playoff path to secure a return to the World Cup.",
   },
 
   // ── Group C ────────────────────────────────────────────────
@@ -181,12 +189,16 @@ export const teamProfiles: TeamProfile[] = [
     qualifying_summary: "Qualified through AFC qualifiers, securing a spot from the third round of Asian qualifying.",
   },
   {
-    team_id: "tbd_uefa_c",
-    coach: "TBD",
-    playing_style: "To be determined after UEFA Playoff C concludes.",
-    key_players: [],
-    world_cup_history: { appearances: 0, best_result: "TBD", titles: 0 },
-    qualifying_summary: "Winner of UEFA Playoff Path C, to be decided by March 2026.",
+    team_id: "tur",
+    coach: "Vincenzo Montella",
+    playing_style: "Intense pressing with vertical, direct football, strong collective energy, and dangerous set pieces.",
+    key_players: [
+      { name: "Arda Güler", position: "MID", club: "Real Madrid" },
+      { name: "Hakan Calhanoglu", position: "MID", club: "Inter Milan" },
+      { name: "Kenan Yildiz", position: "FWD", club: "Juventus" },
+    ],
+    world_cup_history: { appearances: 2, best_result: "Third place (2002)", titles: 0 },
+    qualifying_summary: "Qualified through UEFA playoffs, winning their playoff path to return to the World Cup stage.",
   },
 
   // ── Group E ────────────────────────────────────────────────
@@ -277,12 +289,16 @@ export const teamProfiles: TeamProfile[] = [
     qualifying_summary: "Qualified through CAF qualifiers, navigating a tough group to earn their spot.",
   },
   {
-    team_id: "tbd_uefa_b",
-    coach: "TBD",
-    playing_style: "To be determined after UEFA Playoff B concludes.",
-    key_players: [],
-    world_cup_history: { appearances: 0, best_result: "TBD", titles: 0 },
-    qualifying_summary: "Winner of UEFA Playoff Path B, to be decided by March 2026.",
+    team_id: "swe",
+    coach: "Jon Dahl Tomasson",
+    playing_style: "Organized and physical with a strong defensive structure, direct play, and dangerous from set pieces.",
+    key_players: [
+      { name: "Viktor Gyokeres", position: "FWD", club: "Arsenal" },
+      { name: "Dejan Kulusevski", position: "MID", club: "Tottenham Hotspur" },
+      { name: "Alexander Isak", position: "FWD", club: "Newcastle United" },
+    ],
+    world_cup_history: { appearances: 12, best_result: "Runners-up (1958)", titles: 0 },
+    qualifying_summary: "Qualified through UEFA playoffs, winning their playoff path to return to the World Cup for the first time since 2018.",
   },
 
   // ── Group G ────────────────────────────────────────────────
@@ -423,12 +439,16 @@ export const teamProfiles: TeamProfile[] = [
     qualifying_summary: "Qualified through UEFA qualifiers, finishing runners-up in their group and winning their playoff to reach a first World Cup since 1998.",
   },
   {
-    team_id: "tbd_ic_2",
-    coach: "TBD",
-    playing_style: "To be determined after Intercontinental Playoff 2 concludes.",
-    key_players: [],
-    world_cup_history: { appearances: 0, best_result: "TBD", titles: 0 },
-    qualifying_summary: "Winner of Intercontinental Playoff 2, to be decided by March 2026.",
+    team_id: "irq",
+    coach: "Jesus Casas",
+    playing_style: "Disciplined and organized with a compact defensive shape, capable of dangerous counter-attacks.",
+    key_players: [
+      { name: "Aymen Hussein", position: "FWD", club: "Al-Zawraa" },
+      { name: "Ali Adnan", position: "DEF", club: "Al-Zawraa" },
+      { name: "Amjed Attwan", position: "MID", club: "Al-Shorta" },
+    ],
+    world_cup_history: { appearances: 2, best_result: "Group stage (1986)", titles: 0 },
+    qualifying_summary: "Qualified through the intercontinental playoff, defeating their opponents to reach only their third World Cup.",
   },
 
   // ── Group J ────────────────────────────────────────────────
@@ -519,12 +539,16 @@ export const teamProfiles: TeamProfile[] = [
     qualifying_summary: "Historic first World Cup qualification through AFC qualifiers, finishing in a direct qualification spot from the third round.",
   },
   {
-    team_id: "tbd_ic_1",
-    coach: "TBD",
-    playing_style: "To be determined after Intercontinental Playoff 1 concludes.",
-    key_players: [],
-    world_cup_history: { appearances: 0, best_result: "TBD", titles: 0 },
-    qualifying_summary: "Winner of Intercontinental Playoff 1, to be decided by March 2026.",
+    team_id: "cod",
+    coach: "Sébastien Migne",
+    playing_style: "Physically powerful and direct with pace on the wings, collective intensity, and dangerous from set pieces.",
+    key_players: [
+      { name: "Dodi Lukebakio", position: "FWD", club: "Sevilla" },
+      { name: "Chancel Mbemba", position: "DEF", club: "Al-Ittihad" },
+      { name: "Yoane Wissa", position: "FWD", club: "Brentford" },
+    ],
+    world_cup_history: { appearances: 2, best_result: "Quarter-finals (1970)", titles: 0 },
+    qualifying_summary: "Qualified through the intercontinental playoff, securing a historic return to the World Cup stage.",
   },
 
   // ── Group L ────────────────────────────────────────────────
