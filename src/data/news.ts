@@ -2,6 +2,19 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "37e23891a6b0",
+    "title": "No big deal: how Mac Allister shook off contract doubts to fire Liverpool’s revival",
+    "date": "2026-10-31",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/oct/31/how-alexis-mac-allister-shook-off-contract-doubts-liverpool-revival",
+    "summary": "No big deal: how Mac Allister shook off contract doubts to fire Liverpool’s revival",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-10-31T14:24:27.640Z"
+  },
+  {
     "id": "952b0964d026",
     "title": "Holsgrove hungry for Scotland chance - gossip",
     "date": "2026-10-30",
@@ -2639,187 +2652,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-10-01T15:15:17.769Z"
-  },
-  {
-    "id": "7a219a3e6523",
-    "title": "Ronaldo leaves Portugal camp after coach denies rift",
-    "date": "2026-09-30",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cm9dw7ddwgzwo?at_medium=RSS&at_campaign=rss",
-    "summary": "Ronaldo leaves Portugal camp after coach denies rift",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-01T15:15:17.769Z"
-  },
-  {
-    "id": "2e2f854f9b87",
-    "title": "Impossible for England to find another Kane - Tuchel",
-    "date": "2026-09-30",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cr1e5ep101wdo?at_medium=RSS&at_campaign=rss",
-    "summary": "Impossible for England to find another Kane - Tuchel",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-01T15:15:17.769Z"
-  },
-  {
-    "id": "133dc7e0e915",
-    "title": "Unusual Williamson handball sees Arsenal slip to draw with Paris FC",
-    "date": "2026-09-30",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/videos/cwzdz9mzd3mvo?at_medium=RSS&at_campaign=rss",
-    "summary": "Unusual Williamson handball sees Arsenal slip to draw with Paris FC",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-01T15:15:17.769Z"
-  },
-  {
-    "id": "3b9a5013ca52",
-    "title": "Questions about Wales form not unfair - Bellamy",
-    "date": "2026-09-30",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c50m3d789j74o?at_medium=RSS&at_campaign=rss",
-    "summary": "Questions about Wales form not unfair - Bellamy",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-01T15:15:17.769Z"
-  },
-  {
-    "id": "17c7682881a2",
-    "title": "Meet the only Scot managing a national team in world football",
-    "date": "2026-09-30",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/ck3reye2vnypo?at_medium=RSS&at_campaign=rss",
-    "summary": "Meet the only Scot managing a national team in world football",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-01T15:15:17.769Z"
-  },
-  {
-    "id": "2752362e44c7",
-    "title": "What will new call-ups bring to Northern Ireland?",
-    "date": "2026-09-30",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cqp93d33y144o?at_medium=RSS&at_campaign=rss",
-    "summary": "What will new call-ups bring to Northern Ireland?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-01T15:15:17.769Z"
-  },
-  {
-    "id": "fbcb098b36a8",
-    "title": "Will Pocognoli change keeper after loss to Switzerland?",
-    "date": "2026-09-30",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c58jd4wvrz4jo?at_medium=RSS&at_campaign=rss",
-    "summary": "Will Pocognoli change keeper after loss to Switzerland?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-30T14:45:31.921Z"
-  },
-  {
-    "id": "4a4c828ba7fe",
-    "title": "Elmore and Grant named in Northern Ireland squad",
-    "date": "2026-09-30",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cj3v4gy5ek7qo?at_medium=RSS&at_campaign=rss",
-    "summary": "Elmore and Grant named in Northern Ireland squad",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-30T14:45:31.921Z"
-  },
-  {
-    "id": "fbcb098b36a8",
-    "title": "Will Pocognoli change goalkeeper after Swiss loss?",
-    "date": "2026-09-30",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c58jd4wvrz4jo?at_medium=RSS&at_campaign=rss",
-    "summary": "Will Pocognoli change goalkeeper after Swiss loss?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-30T14:45:31.921Z"
-  },
-  {
-    "id": "4a4c828ba7fe",
-    "title": "Elmore and Grant named in Northern Ireland squad",
-    "date": "2026-09-30",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cj3v4gy5ek7qo?at_medium=RSS&at_campaign=rss",
-    "summary": "Elmore and Grant named in Northern Ireland squad",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-30T14:45:31.921Z"
-  },
-  {
-    "id": "f0d15e88d3ed",
-    "title": "Cristiano Ronaldo misses Portugal training amid reports of rift with coach Jesus",
-    "date": "2026-09-30",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/30/cristiano-ronaldo-misses-portugal-training-jorge-jesus-denmark",
-    "summary": "Cristiano Ronaldo misses Portugal training amid reports of rift with coach Jesus",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-30T14:45:31.921Z"
-  },
-  {
-    "id": "54f791db0089",
-    "title": "Next Generation 2021: why slow and steady sometimes wins the race",
-    "date": "2026-09-30",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/30/next-generation-2021-why-slow-and-steady-sometimes-wins-the-race",
-    "summary": "Next Generation 2021: why slow and steady sometimes wins the race",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-30T14:45:31.921Z"
-  },
-  {
-    "id": "0713944a38ae",
-    "title": "Dropping Kelly and Toone could prove a World Cup masterstroke by Wiegman | Tom Garry",
-    "date": "2026-09-30",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/30/dropping-toone-and-kelly-world-cup-masterstroke-wiegman",
-    "summary": "Dropping Kelly and Toone could prove a World Cup masterstroke by Wiegman | Tom Garry",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-30T14:45:31.921Z"
-  },
-  {
-    "id": "008ec99fa448",
-    "title": "Have any footballers ever scored with the first touch of their careers? | The Knowledge",
-    "date": "2026-09-30",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/sep/30/footballers-scoring-first-touch-of-careers-the-knowledge",
-    "summary": "Have any footballers ever scored with the first touch of their careers? | The Knowledge",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-09-30T14:45:31.921Z"
   }
 ];
