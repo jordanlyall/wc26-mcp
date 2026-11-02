@@ -2,6 +2,110 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "94ebdc41585b",
+    "title": "Key questions as Pocognoli prepares to name Scotland squad",
+    "date": "2026-11-02",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/ckpqg82yxqgyo?at_medium=RSS&at_campaign=rss",
+    "summary": "Key questions as Pocognoli prepares to name Scotland squad",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-02T18:00:54.236Z"
+  },
+  {
+    "id": "8099bc9413dd",
+    "title": "Hellberg unsure of 'brilliant' Lankshear's England chances",
+    "date": "2026-11-02",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c6jdm4n5l7rlo?at_medium=RSS&at_campaign=rss",
+    "summary": "Hellberg unsure of 'brilliant' Lankshear's England chances",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-02T18:00:54.236Z"
+  },
+  {
+    "id": "d706302bb4b7",
+    "title": "Falkirk brick wall Bain boosts Scotland chances",
+    "date": "2026-11-02",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c65ynz5ve125o?at_medium=RSS&at_campaign=rss",
+    "summary": "Falkirk brick wall Bain boosts Scotland chances",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-02T18:00:54.236Z"
+  },
+  {
+    "id": "94ebdc41585b",
+    "title": "Key questions as Pocognoli names Scotland squad",
+    "date": "2026-11-02",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/ckpqg82yxqgyo?at_medium=RSS&at_campaign=rss",
+    "summary": "Key questions as Pocognoli names Scotland squad",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-02T18:00:54.236Z"
+  },
+  {
+    "id": "d706302bb4b7",
+    "title": "Falkirk brick wall Bain boosts Scotland chances",
+    "date": "2026-11-02",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c65ynz5ve125o?at_medium=RSS&at_campaign=rss",
+    "summary": "Falkirk brick wall Bain boosts Scotland chances",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-02T18:00:54.236Z"
+  },
+  {
+    "id": "335e51f79bb0",
+    "title": "'Dundee Utd want permanent Cameron signing' - gossip",
+    "date": "2026-11-02",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cmgqwj54vjg1o?at_medium=RSS&at_campaign=rss",
+    "summary": "'Dundee Utd want permanent Cameron signing' - gossip",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-02T18:00:54.236Z"
+  },
+  {
+    "id": "90701eebebb6",
+    "title": "Unai Simón caps myth-making week with another extraordinary night | Sid Lowe",
+    "date": "2026-11-02",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/02/unai-simon-athletic-club-la-liga-myth-making-week-la-liga",
+    "summary": "Unai Simón caps myth-making week with another extraordinary night | Sid Lowe",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-02T18:00:54.236Z"
+  },
+  {
+    "id": "80d7d2c79607",
+    "title": "Harry Kane’s Ballon d’Or party gives way to anxiety-filled hangover for Bayern Munich | Andy Brassell",
+    "date": "2026-11-02",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/02/harry-kane-ballon-dor-bayern-munich-hangover-borussia-dortmund-bundesliga",
+    "summary": "Harry Kane’s Ballon d’Or party gives way to anxiety-filled hangover for Bayern Munich | Andy Brassell",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-02T18:00:54.236Z"
+  },
+  {
     "id": "37e23891a6b0",
     "title": "No big deal: how Mac Allister shook off contract doubts to fire Liverpool’s revival",
     "date": "2026-10-31",
@@ -2288,83 +2392,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-10-03T13:10:29.300Z"
-  },
-  {
-    "id": "c50e3841dc1b",
-    "title": "Pickford in spotlight against Croatia with England position under threat from Trafford",
-    "date": "2026-10-02",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/02/jordan-pickford-england-croatia-nations-league-james-trafford",
-    "summary": "Pickford in spotlight against Croatia with England position under threat from Trafford",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-03T13:10:29.300Z"
-  },
-  {
-    "id": "808506bfd2bc",
-    "title": "Football Daily | Manchester City lace up their gloves ready for another round. Bring your dinner",
-    "date": "2026-10-02",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/02/manchester-city-football-daily-newsletter",
-    "summary": "Football Daily | Manchester City lace up their gloves ready for another round. Bring your dinner",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-03T13:10:29.300Z"
-  },
-  {
-    "id": "f72576d53483",
-    "title": "Was long-awaited win a turning point for Bellamy?",
-    "date": "2026-10-02",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cqe8x87y3lg2o?at_medium=RSS&at_campaign=rss",
-    "summary": "Was long-awaited win a turning point for Bellamy?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-02T14:34:48.800Z"
-  },
-  {
-    "id": "ef057b5411a6",
-    "title": "Robertson's Scotland career in numbers as 100th cap looms",
-    "date": "2026-10-02",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/crgjqjg1l740o?at_medium=RSS&at_campaign=rss",
-    "summary": "Robertson's Scotland career in numbers as 100th cap looms",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-02T14:34:48.800Z"
-  },
-  {
-    "id": "ef057b5411a6",
-    "title": "Robertson's Scotland career in numbers as 100th cap looms",
-    "date": "2026-10-02",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/crgjqjg1l740o?at_medium=RSS&at_campaign=rss",
-    "summary": "Robertson's Scotland career in numbers as 100th cap looms",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-02T14:34:48.800Z"
-  },
-  {
-    "id": "5678d0ce8f38",
-    "title": "Bilic is back: bravery and belief underpin second coming as Croatia manager",
-    "date": "2026-10-02",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/02/slaven-bilic-croatia-manager-second-coming-england-nations-league",
-    "summary": "Bilic is back: bravery and belief underpin second coming as Croatia manager",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-02T14:34:48.800Z"
   }
 ];
