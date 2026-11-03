@@ -2,6 +2,58 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "b3ac3068f2fa",
+    "title": "McTominay returns as Penrice earns first Scotland call",
+    "date": "2026-11-03",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c6wyvr870d8do?at_medium=RSS&at_campaign=rss",
+    "summary": "McTominay returns as Penrice earns first Scotland call",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-03T15:59:23.766Z"
+  },
+  {
+    "id": "b3ac3068f2fa",
+    "title": "McTominay returns as Penrice earns first Scotland call",
+    "date": "2026-11-03",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c6wyvr870d8do?at_medium=RSS&at_campaign=rss",
+    "summary": "McTominay returns as Penrice earns first Scotland call",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-03T15:59:23.766Z"
+  },
+  {
+    "id": "d0e6fb403f83",
+    "title": "AFC postpones Asian Cup in Saudi Arabia to late 2027 due to conflict in Middle East",
+    "date": "2026-11-03",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/03/2027-asian-cup-saudi-arabia-postponed-conflict-middle-east",
+    "summary": "AFC postpones Asian Cup in Saudi Arabia to late 2027 due to conflict in Middle East",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-03T15:59:23.766Z"
+  },
+  {
+    "id": "aeececc5acfb",
+    "title": "Socceroos and Matildas sue Football Australia over revenue share dispute",
+    "date": "2026-11-03",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/sport/2026/nov/03/socceroos-matildas-sue-football-australia-revenue-dispute",
+    "summary": "Socceroos and Matildas sue Football Australia over revenue share dispute",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-03T15:59:23.766Z"
+  },
+  {
     "id": "94ebdc41585b",
     "title": "Key questions as Pocognoli prepares to name Scotland squad",
     "date": "2026-11-02",
@@ -2288,109 +2340,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-10-04T13:49:39.377Z"
-  },
-  {
-    "id": "0aa1015a464f",
-    "title": "Bellingham unlocks new level and potential to be 'one of the greatest'",
-    "date": "2026-10-03",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cv5yn8znyx2ro?at_medium=RSS&at_campaign=rss",
-    "summary": "Bellingham unlocks new level and potential to be 'one of the greatest'",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-04T13:49:39.377Z"
-  },
-  {
-    "id": "2d8ed8db95b5",
-    "title": "Republic of Ireland news conference ends abruptly amid accusations",
-    "date": "2026-10-03",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cm78p5x6xqq7o?at_medium=RSS&at_campaign=rss",
-    "summary": "Republic of Ireland news conference ends abruptly amid accusations",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-04T13:49:39.377Z"
-  },
-  {
-    "id": "aebd1dfe9485",
-    "title": "Ronaldo still 'greatest symbol' of Portugal -  Fernandes",
-    "date": "2026-10-03",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/ckq5nd1g14v4o?at_medium=RSS&at_campaign=rss",
-    "summary": "Ronaldo still 'greatest symbol' of Portugal -  Fernandes",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-04T13:49:39.377Z"
-  },
-  {
-    "id": "5fae3d4db45c",
-    "title": "Lamine Yamal stars again as Spain see off Czechia and maintain perfect start",
-    "date": "2026-10-03",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/03/lamine-yamal-stars-again-as-spain-see-off-czechia-and-maintain-perfect-start",
-    "summary": "Lamine Yamal stars again as Spain see off Czechia and maintain perfect start",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-04T13:49:39.377Z"
-  },
-  {
-    "id": "91f73d89becd",
-    "title": "Bowie gets Pocognoli off mark with Scotland victory in North Macedonia",
-    "date": "2026-10-03",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/03/north-macedonia-scotland-nations-league-match-report",
-    "summary": "Bowie gets Pocognoli off mark with Scotland victory in North Macedonia",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-04T13:49:39.377Z"
-  },
-  {
-    "id": "0050c8d41c72",
-    "title": "Too quiet for too long, can McGinn recapture best for Scotland?",
-    "date": "2026-10-03",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c5398kvl77xno?at_medium=RSS&at_campaign=rss",
-    "summary": "Too quiet for too long, can McGinn recapture best for Scotland?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-03T13:10:29.300Z"
-  },
-  {
-    "id": "0050c8d41c72",
-    "title": "Too quiet for too long, can McGinn recapture best for Scotland?",
-    "date": "2026-10-03",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c5398kvl77xno?at_medium=RSS&at_campaign=rss",
-    "summary": "Too quiet for too long, can McGinn recapture best for Scotland?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-03T13:10:29.300Z"
-  },
-  {
-    "id": "98a13479228c",
-    "title": "Decline and fall: who will believe in Raheem Sterling now?",
-    "date": "2026-10-03",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/03/decline-and-fall-who-will-believe-in-raheem-sterling-now",
-    "summary": "Decline and fall: who will believe in Raheem Sterling now?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-03T13:10:29.300Z"
   }
 ];
