@@ -2,6 +2,136 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "cb8539e4e2f0",
+    "title": "Wilson returns as Wales call up uncapped Duncan",
+    "date": "2026-11-04",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cwly4ee53mgyo?at_medium=RSS&at_campaign=rss",
+    "summary": "Wilson returns as Wales call up uncapped Duncan",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-04T16:03:14.130Z"
+  },
+  {
+    "id": "543d39524415",
+    "title": "‘She can do what Beckham did’: Océane Hurtré making waves at Birmingham",
+    "date": "2026-11-04",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/04/oceane-hurtre-birmingham-womens-super-league-france",
+    "summary": "‘She can do what Beckham did’: Océane Hurtré making waves at Birmingham",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-04T16:03:14.130Z"
+  },
+  {
+    "id": "87766790029e",
+    "title": "Christian Pulisic, Folarin Balogun return to USMNT roster for Nations League",
+    "date": "2026-11-04",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/04/usmnt-roster-nations-league-christian-pulisic",
+    "summary": "Christian Pulisic, Folarin Balogun return to USMNT roster for Nations League",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-04T16:03:14.130Z"
+  },
+  {
+    "id": "7ba71a3f0f7c",
+    "title": "Man Utd eye Man City's Ait-Nouri - Wednesday's gossip",
+    "date": "2026-11-03",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c3vgx8qkqx4jo?at_medium=RSS&at_campaign=rss",
+    "summary": "Man Utd eye Man City's Ait-Nouri - Wednesday's gossip",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-04T16:03:14.130Z"
+  },
+  {
+    "id": "92e7a6dce25e",
+    "title": "Pocognoli focus on Scotland tidy-up as Euros loom",
+    "date": "2026-11-03",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cknv0n96er9po?at_medium=RSS&at_campaign=rss",
+    "summary": "Pocognoli focus on Scotland tidy-up as Euros loom",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-04T16:03:14.130Z"
+  },
+  {
+    "id": "92e7a6dce25e",
+    "title": "Pocognoli focus on Scotland tidy-up as Euros loom",
+    "date": "2026-11-03",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cknv0n96er9po?at_medium=RSS&at_campaign=rss",
+    "summary": "Pocognoli focus on Scotland tidy-up as Euros loom",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-04T16:03:14.130Z"
+  },
+  {
+    "id": "770796ea2bad",
+    "title": "Arteta backs Saliba’s readiness to return for Arsenal at Slavia Prague",
+    "date": "2026-11-03",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/03/arteta-backs-salibas-readiness-to-return-for-arsenal-at-slavia-prague",
+    "summary": "Arteta backs Saliba’s readiness to return for Arsenal at Slavia Prague",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-04T16:03:14.130Z"
+  },
+  {
+    "id": "294c0458ff3c",
+    "title": "Lennart Karl steals in behind Atlético Madrid to inspire Bayern Munich win",
+    "date": "2026-11-03",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/03/atletico-madrid-bayern-munich-champions-league-match-report",
+    "summary": "Lennart Karl steals in behind Atlético Madrid to inspire Bayern Munich win",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-04T16:03:14.130Z"
+  },
+  {
+    "id": "bc40d2917d04",
+    "title": "Phil Foden sets sights on England recall and says he has had no contact with Tuchel",
+    "date": "2026-11-03",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/03/phil-foden-sets-sights-on-england-recall-and-says-hes-had-no-contact-with-tuchel",
+    "summary": "Phil Foden sets sights on England recall and says he has had no contact with Tuchel",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-04T16:03:14.130Z"
+  },
+  {
+    "id": "d8ae5e60ac5a",
+    "title": "Asian Cup postponement leaves Socceroos, FA and coach Tony Popovic at crossroads | Joey Lynch",
+    "date": "2026-11-03",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/blog/2026/nov/04/asian-cup-afc-postponed-socceroos-football-australia-tony-popovich",
+    "summary": "Asian Cup postponement leaves Socceroos, FA and coach Tony Popovic at crossroads | Joey Lynch",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-04T16:03:14.130Z"
+  },
+  {
     "id": "b3ac3068f2fa",
     "title": "McTominay returns as Penrice earns first Scotland call",
     "date": "2026-11-03",
@@ -2210,135 +2340,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-10-05T16:57:43.801Z"
-  },
-  {
-    "id": "050f0c5d4aa5",
-    "title": "Bellamy bemoans new schedule after Denmark loss",
-    "date": "2026-10-04",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cm93zyld4513o?at_medium=RSS&at_campaign=rss",
-    "summary": "Bellamy bemoans new schedule after Denmark loss",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-05T16:57:43.801Z"
-  },
-  {
-    "id": "12a32db710e4",
-    "title": "You are the Scotland boss - what would you do?",
-    "date": "2026-10-04",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cr4g1q2w1g6zo?at_medium=RSS&at_campaign=rss",
-    "summary": "You are the Scotland boss - what would you do?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-05T16:57:43.801Z"
-  },
-  {
-    "id": "79b8e5986374",
-    "title": "Let’s stop doubting Thomas Tuchel: England are impressive and Euro 2028 is the target | Barney Ronay",
-    "date": "2026-10-04",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/04/thomas-tuchel-england-croatia-nations-league-euro-2028",
-    "summary": "Let’s stop doubting Thomas Tuchel: England are impressive and Euro 2028 is the target | Barney Ronay",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-05T16:57:43.801Z"
-  },
-  {
-    "id": "1175b35b6302",
-    "title": "Hallgrímsson calls on Uefa to keep Ireland and Israel apart in future after bad-tempered draw",
-    "date": "2026-10-04",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/04/republic-of-ireland-israel-nations-league-match-report",
-    "summary": "Hallgrímsson calls on Uefa to keep Ireland and Israel apart in future after bad-tempered draw",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-05T16:57:43.801Z"
-  },
-  {
-    "id": "140ddae03dcd",
-    "title": "Denmark sink Wales as Rasmus Højlund makes Danny Ward pay for blunder",
-    "date": "2026-10-04",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/04/wales-denmark-nations-league-match-report",
-    "summary": "Denmark sink Wales as Rasmus Højlund makes Danny Ward pay for blunder",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-05T16:57:43.801Z"
-  },
-  {
-    "id": "aedf628c5c1c",
-    "title": "Clàudia Pina hits four as Barcelona score seven goals to demolish Real Madrid",
-    "date": "2026-10-04",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/04/claudia-pina-hits-four-as-barcelona-demolish-real-madrid",
-    "summary": "Clàudia Pina hits four as Barcelona score seven goals to demolish Real Madrid",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-05T16:57:43.801Z"
-  },
-  {
-    "id": "a8afefbd6742",
-    "title": "Modric 'ashamed' of Croatia's 'catastrophic night'",
-    "date": "2026-10-04",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cwzrdm3lyk21o?at_medium=RSS&at_campaign=rss",
-    "summary": "Modric 'ashamed' of Croatia's 'catastrophic night'",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-04T13:49:39.377Z"
-  },
-  {
-    "id": "3db2f85a7077",
-    "title": "Davies backs Wales to keep challenging 'bigger teams'",
-    "date": "2026-10-04",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cmy0er2yz02yo?at_medium=RSS&at_campaign=rss",
-    "summary": "Davies backs Wales to keep challenging 'bigger teams'",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-04T13:49:39.377Z"
-  },
-  {
-    "id": "93b460b90dc6",
-    "title": "Modric ‘ashamed’ after 7-0 defeat; Republic of Ireland v Israel tensions build; WSL updates – matchday live",
-    "date": "2026-10-04",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/live/2026/oct/04/buildup-to-republic-of-ireland-v-israel-wales-v-denmark-and-more-football-live",
-    "summary": "Modric ‘ashamed’ after 7-0 defeat; Republic of Ireland v Israel tensions build; WSL updates – matchday live",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-04T13:49:39.377Z"
-  },
-  {
-    "id": "730b4ae0c361",
-    "title": "Jesse Marsch: ‘We Americans have been inundated with propaganda since we were young’",
-    "date": "2026-10-04",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/04/jesse-marsch-interview-canada-united-states-john-carney",
-    "summary": "Jesse Marsch: ‘We Americans have been inundated with propaganda since we were young’",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-04T13:49:39.377Z"
   }
 ];
