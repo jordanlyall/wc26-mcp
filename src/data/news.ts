@@ -2,6 +2,97 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "9e1ba5f3444e",
+    "title": "A bitter end for Ronaldo - the icon who transformed Portugal",
+    "date": "2026-11-05",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/ckn9rwr2zzpvo?at_medium=RSS&at_campaign=rss",
+    "summary": "A bitter end for Ronaldo - the icon who transformed Portugal",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-05T16:17:48.713Z"
+  },
+  {
+    "id": "bed14bfcffa8",
+    "title": "Who could be the next England debutant and who are the potential recalls?",
+    "date": "2026-11-05",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cw4g1rdn2nl8o?at_medium=RSS&at_campaign=rss",
+    "summary": "Who could be the next England debutant and who are the potential recalls?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-05T16:17:48.713Z"
+  },
+  {
+    "id": "28e74aaf1f65",
+    "title": "A must pick or unreliable? Tuchel's Palmer dilemma",
+    "date": "2026-11-05",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c65yne3912jeo?at_medium=RSS&at_campaign=rss",
+    "summary": "A must pick or unreliable? Tuchel's Palmer dilemma",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-05T16:17:48.713Z"
+  },
+  {
+    "id": "33c885d7f88e",
+    "title": "Scotland's Welsh avoids serious knee injury",
+    "date": "2026-11-05",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cqx29zzrl17no?at_medium=RSS&at_campaign=rss",
+    "summary": "Scotland's Welsh avoids serious knee injury",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-05T16:17:48.713Z"
+  },
+  {
+    "id": "85390fe14eb5",
+    "title": "Podcast: Celtic under pressure & injury-hit Hearts head for Europe",
+    "date": "2026-11-05",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sounds/play/p0pld9qb?at_medium=RSS&at_campaign=rss",
+    "summary": "Podcast: Celtic under pressure & injury-hit Hearts head for Europe",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-05T16:17:48.713Z"
+  },
+  {
+    "id": "c6cbc568d9b9",
+    "title": "Cristiano Ronaldo merely the latest example of a great player who couldn’t let go | Jonathan Wilson",
+    "date": "2026-11-05",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/05/cristiano-ronaldo-retires-international-football-career-portugal",
+    "summary": "Cristiano Ronaldo merely the latest example of a great player who couldn’t let go | Jonathan Wilson",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-05T16:17:48.713Z"
+  },
+  {
+    "id": "d42cd36e678a",
+    "title": "Ballon d’Or winner Harry Kane signs new contract with Bayern through to 2029",
+    "date": "2026-11-05",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/05/ballon-dor-winner-harry-kane-signs-new-contract-with-bayern-munich-2029",
+    "summary": "Ballon d’Or winner Harry Kane signs new contract with Bayern through to 2029",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-05T16:17:48.713Z"
+  },
+  {
     "id": "cb8539e4e2f0",
     "title": "Wilson returns as Wales call up uncapped Duncan",
     "date": "2026-11-04",
@@ -2132,213 +2223,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-10-06T14:54:32.122Z"
-  },
-  {
-    "id": "3e38a0d03357",
-    "title": "England's greatest international? Kane is now a serious contender",
-    "date": "2026-10-05",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cm5ynj882zw0o?at_medium=RSS&at_campaign=rss",
-    "summary": "England's greatest international? Kane is now a serious contender",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-06T14:54:32.122Z"
-  },
-  {
-    "id": "10efd2524a32",
-    "title": "Humble Gilmour happy with new role as 50th cap beckons",
-    "date": "2026-10-05",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cmly05el6gz2o?at_medium=RSS&at_campaign=rss",
-    "summary": "Humble Gilmour happy with new role as 50th cap beckons",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-06T14:54:32.122Z"
-  },
-  {
-    "id": "f1e8f02961a5",
-    "title": "Juventus & Atletico Madrid eye Madueke - Tuesday's gossip",
-    "date": "2026-10-05",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cw203mjx7r46o?at_medium=RSS&at_campaign=rss",
-    "summary": "Juventus & Atletico Madrid eye Madueke - Tuesday's gossip",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-06T14:54:32.122Z"
-  },
-  {
-    "id": "c3382eca51e4",
-    "title": "Ex-England player Carroll names attacker as TV dance coach",
-    "date": "2026-10-05",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/news/articles/cm5yn9np73xeo?at_medium=RSS&at_campaign=rss",
-    "summary": "Ex-England player Carroll names attacker as TV dance coach",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-06T14:54:32.122Z"
-  },
-  {
-    "id": "f34e87942aca",
-    "title": "Monday Night Club: England, Alex Scott injury & Robbie Savage on his new job",
-    "date": "2026-10-05",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sounds/play/p0pf4nx4?at_medium=RSS&at_campaign=rss",
-    "summary": "Monday Night Club: England, Alex Scott injury & Robbie Savage on his new job",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-06T14:54:32.122Z"
-  },
-  {
-    "id": "10efd2524a32",
-    "title": "Humble Gilmour happy with new role as 50th cap beckons",
-    "date": "2026-10-05",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cmly05el6gz2o?at_medium=RSS&at_campaign=rss",
-    "summary": "Humble Gilmour happy with new role as 50th cap beckons",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-06T14:54:32.122Z"
-  },
-  {
-    "id": "49a6814af29c",
-    "title": "Jude awakening: how a more fluid England are ‘unlocking’ Bellingham’s full potential",
-    "date": "2026-10-05",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/05/jude-awakening-how-a-more-fluid-england-are-unlocking-bellinghams-full-potential",
-    "summary": "Jude awakening: how a more fluid England are ‘unlocking’ Bellingham’s full potential",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-06T14:54:32.122Z"
-  },
-  {
-    "id": "dfc0cf3bfb66",
-    "title": "Bournemouth unhappy after Scott injured with England",
-    "date": "2026-10-05",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cqm2dyrg84ymo?at_medium=RSS&at_campaign=rss",
-    "summary": "Bournemouth unhappy after Scott injured with England",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-05T16:57:43.801Z"
-  },
-  {
-    "id": "3f9c4752c730",
-    "title": "A nation divided as Ronaldo left with big decision on Portugal future",
-    "date": "2026-10-05",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/crwyd31nw2w4o?at_medium=RSS&at_campaign=rss",
-    "summary": "A nation divided as Ronaldo left with big decision on Portugal future",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-05T16:57:43.801Z"
-  },
-  {
-    "id": "acc1caf8db7f",
-    "title": "What we learned from Wales' Nations League window",
-    "date": "2026-10-05",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c6pwg5enxwz8o?at_medium=RSS&at_campaign=rss",
-    "summary": "What we learned from Wales' Nations League window",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-05T16:57:43.801Z"
-  },
-  {
-    "id": "650cfc7cdcf4",
-    "title": "Jesus fires back over Ronaldo question",
-    "date": "2026-10-05",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/videos/ckn8wjezz462o?at_medium=RSS&at_campaign=rss",
-    "summary": "Jesus fires back over Ronaldo question",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-05T16:57:43.801Z"
-  },
-  {
-    "id": "5e04fea522db",
-    "title": "Football Daily | Child’s play for England with a 7-0 demolition job against Croatia",
-    "date": "2026-10-05",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/05/football-daily-email-england-croatia",
-    "summary": "Football Daily | Child’s play for England with a 7-0 demolition job against Croatia",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-05T16:57:43.801Z"
-  },
-  {
-    "id": "ce1124e5a24c",
-    "title": "Ronaldo’s break with Portugal is sad, fitting, and long overdue | Jonathan Wilson",
-    "date": "2026-10-05",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/05/cristiano-ronaldo-portugal-rift",
-    "summary": "Ronaldo’s break with Portugal is sad, fitting, and long overdue | Jonathan Wilson",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-05T16:57:43.801Z"
-  },
-  {
-    "id": "8c3bb7606a7f",
-    "title": "Bournemouth unhappy over Scott injury but Tuchel says England took ‘zero risk’",
-    "date": "2026-10-05",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/05/alex-scott-injury-two-months-england-bournemouth",
-    "summary": "Bournemouth unhappy over Scott injury but Tuchel says England took ‘zero risk’",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-05T16:57:43.801Z"
-  },
-  {
-    "id": "3b73c582f69d",
-    "title": "Czechia’s Santi Denia: ‘Anthony Gordon? What a player! He’s at the same level as Lamine Yamal’",
-    "date": "2026-10-05",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/05/santi-denia-anthony-gordon-lamine-yamal-england-czechia",
-    "summary": "Czechia’s Santi Denia: ‘Anthony Gordon? What a player! He’s at the same level as Lamine Yamal’",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-05T16:57:43.801Z"
-  },
-  {
-    "id": "f8d69551e826",
-    "title": "The USMNT’s kids are thriving, and ‘they have a bit of swag to them’",
-    "date": "2026-10-05",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/05/usmnt-new-generation-cavan-sullivan-julian-hall-diego-kochen",
-    "summary": "The USMNT’s kids are thriving, and ‘they have a bit of swag to them’",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-05T16:57:43.801Z"
   }
 ];
