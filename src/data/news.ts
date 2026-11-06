@@ -2,6 +2,110 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "2092de1b832c",
+    "title": "'A beautiful story' as Bellingham brothers called up",
+    "date": "2026-11-06",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c5x2vvjy2rpeo?at_medium=RSS&at_campaign=rss",
+    "summary": "'A beautiful story' as Bellingham brothers called up",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-06T15:46:56.395Z"
+  },
+  {
+    "id": "b9a665b106ac",
+    "title": "Palmer misses too many chances to impress - Tuchel",
+    "date": "2026-11-06",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c9kgjjdg30r4o?at_medium=RSS&at_campaign=rss",
+    "summary": "Palmer misses too many chances to impress - Tuchel",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-06T15:46:56.395Z"
+  },
+  {
+    "id": "fc58d323c2e9",
+    "title": "Portugal coach 'knew nothing' about Ronaldo retiring",
+    "date": "2026-11-06",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cwzd66r22j68o?at_medium=RSS&at_campaign=rss",
+    "summary": "Portugal coach 'knew nothing' about Ronaldo retiring",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-06T15:46:56.395Z"
+  },
+  {
+    "id": "05a92b045733",
+    "title": "'Putting his doubters in their place' - Rooney lands pundit of year award",
+    "date": "2026-11-06",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/ck4g1l4nj85zo?at_medium=RSS&at_campaign=rss",
+    "summary": "'Putting his doubters in their place' - Rooney lands pundit of year award",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-06T15:46:56.395Z"
+  },
+  {
+    "id": "7a47aa889a91",
+    "title": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live",
+    "date": "2026-11-06",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
+    "summary": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-06T15:46:56.395Z"
+  },
+  {
+    "id": "6d679b7b3bf5",
+    "title": "Six tournaments, 11 goals - Ronaldo's World Cup legacy ",
+    "date": "2026-11-05",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/videos/cwr5y0yj716do?at_medium=RSS&at_campaign=rss",
+    "summary": "Six tournaments, 11 goals - Ronaldo's World Cup legacy ",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-06T15:46:56.395Z"
+  },
+  {
+    "id": "3d6c221bf799",
+    "title": "What legacy does Ronaldo leave on international stage?",
+    "date": "2026-11-05",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sounds/play/p0pljnrs?at_medium=RSS&at_campaign=rss",
+    "summary": "What legacy does Ronaldo leave on international stage?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-06T15:46:56.395Z"
+  },
+  {
+    "id": "480c1d45f78c",
+    "title": "‘In moments of pain, football comes together’: Spain says goodbye to Jesús de Miguel",
+    "date": "2026-11-05",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/05/jesus-de-miguel-death-tenerife-funeral-football-spain",
+    "summary": "‘In moments of pain, football comes together’: Spain says goodbye to Jesús de Miguel",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-06T15:46:56.395Z"
+  },
+  {
     "id": "9e1ba5f3444e",
     "title": "A bitter end for Ronaldo - the icon who transformed Portugal",
     "date": "2026-11-05",
@@ -2041,187 +2145,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-10-07T15:20:48.836Z"
-  },
-  {
-    "id": "87ca6f3987a3",
-    "title": "Ronaldo wants Portugal 'punishment' but not retiring",
-    "date": "2026-10-06",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cmd7qn48q13lo?at_medium=RSS&at_campaign=rss",
-    "summary": "Ronaldo wants Portugal 'punishment' but not retiring",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-07T15:20:48.836Z"
-  },
-  {
-    "id": "caa8e56752c5",
-    "title": "Midfield options and a fab front four - what we've learned about England",
-    "date": "2026-10-06",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cq62y431dj8vo?at_medium=RSS&at_campaign=rss",
-    "summary": "Midfield options and a fab front four - what we've learned about England",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-07T15:20:48.836Z"
-  },
-  {
-    "id": "9203a2bfc183",
-    "title": "'Outfought' and 'not good enough' - Robertson on Scotland defeat",
-    "date": "2026-10-06",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/crz98xv1e8nlo?at_medium=RSS&at_campaign=rss",
-    "summary": "'Outfought' and 'not good enough' - Robertson on Scotland defeat",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-07T15:20:48.836Z"
-  },
-  {
-    "id": "5da22ece454b",
-    "title": "Marsch calls USA politics 'big talk' as Pochettino praises Canada coach",
-    "date": "2026-10-06",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/videos/cwdr8d6kr8mlo?at_medium=RSS&at_campaign=rss",
-    "summary": "Marsch calls USA politics 'big talk' as Pochettino praises Canada coach",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-07T15:20:48.836Z"
-  },
-  {
-    "id": "49a9b938fe2d",
-    "title": "Kane's rise from childhood keeper to equalling England cap record",
-    "date": "2026-10-06",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cx2ln5n7yqdo?at_medium=RSS&at_campaign=rss",
-    "summary": "Kane's rise from childhood keeper to equalling England cap record",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-07T15:20:48.836Z"
-  },
-  {
-    "id": "479eb811e7c3",
-    "title": "Davies' 'extra motivation' after Euros heartbreak",
-    "date": "2026-10-06",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c5y43nry14j7o?at_medium=RSS&at_campaign=rss",
-    "summary": "Davies' 'extra motivation' after Euros heartbreak",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-07T15:20:48.836Z"
-  },
-  {
-    "id": "7a784545ded4",
-    "title": "Total Midweek Kane: England’s icon delivers a classic on his way to footballing ultimacy | Barney Ronay",
-    "date": "2026-10-06",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/06/total-midweek-kane-englands-icon-delivers-a-classic-on-his-way-to-footballing-ultimacy",
-    "summary": "Total Midweek Kane: England’s icon delivers a classic on his way to footballing ultimacy | Barney Ronay",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-07T15:20:48.836Z"
-  },
-  {
-    "id": "7eb8d4dc36fa",
-    "title": "Owner, businessman & player: Messi has big plans as a golden era ends",
-    "date": "2026-10-06",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cwly3lpmyye9o?at_medium=RSS&at_campaign=rss",
-    "summary": "Owner, businessman & player: Messi has big plans as a golden era ends",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-06T14:54:32.122Z"
-  },
-  {
-    "id": "16de5105003b",
-    "title": "Born into Celtic, made at Motherwell, Welsh comes of age with Scotland",
-    "date": "2026-10-06",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/crd938wj2n14o?at_medium=RSS&at_campaign=rss",
-    "summary": "Born into Celtic, made at Motherwell, Welsh comes of age with Scotland",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-06T14:54:32.122Z"
-  },
-  {
-    "id": "10b132177207",
-    "title": "South Korea captain apologises for gloating over military service exemption",
-    "date": "2026-10-06",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c6wy4xd80xyvo?at_medium=RSS&at_campaign=rss",
-    "summary": "South Korea captain apologises for gloating over military service exemption",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-06T14:54:32.122Z"
-  },
-  {
-    "id": "16de5105003b",
-    "title": "Born into Celtic, made at Motherwell, Welsh comes of age with Scotland",
-    "date": "2026-10-06",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/crd938wj2n14o?at_medium=RSS&at_campaign=rss",
-    "summary": "Born into Celtic, made at Motherwell, Welsh comes of age with Scotland",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-06T14:54:32.122Z"
-  },
-  {
-    "id": "bf58866fd594",
-    "title": "Lionel Messi has completed football and can bid Argentina farewell with pride",
-    "date": "2026-10-06",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/06/lionel-messi-completed-football-argentina-farewell-world-cup-glory",
-    "summary": "Lionel Messi has completed football and can bid Argentina farewell with pride",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-06T14:54:32.122Z"
-  },
-  {
-    "id": "b7f9837cbec4",
-    "title": "Schooled for success: how English lessons power Midtjylland’s talent factory",
-    "date": "2026-10-06",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/06/english-lessons-midtjylland-talent-factory-transfer-window",
-    "summary": "Schooled for success: how English lessons power Midtjylland’s talent factory",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-06T14:54:32.122Z"
-  },
-  {
-    "id": "b3d502a34192",
-    "title": "Mary Fowler ruled out of Matildas friendlies due to ‘personal circumstances’",
-    "date": "2026-10-06",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/06/mary-fowler-personal-circumstances-ruled-out-matildas-friendlies",
-    "summary": "Mary Fowler ruled out of Matildas friendlies due to ‘personal circumstances’",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-06T14:54:32.122Z"
   }
 ];
