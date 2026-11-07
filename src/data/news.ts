@@ -2,6 +2,110 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "f36670c78685",
+    "title": "Scotland lose Welsh and call up Porteous",
+    "date": "2026-11-07",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cxyvrdyzrvgro?at_medium=RSS&at_campaign=rss",
+    "summary": "Scotland lose Welsh and call up Porteous",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-07T14:47:01.344Z"
+  },
+  {
+    "id": "f36670c78685",
+    "title": "Scotland lose Welsh and call up Porteous",
+    "date": "2026-11-07",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cxyvrdyzrvgro?at_medium=RSS&at_campaign=rss",
+    "summary": "Scotland lose Welsh and call up Porteous",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-07T14:47:01.344Z"
+  },
+  {
+    "id": "e61587bd3381",
+    "title": "Chelsea’s Alonso identity still to form in a midfield that remains a problem",
+    "date": "2026-11-07",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/07/chelsea-xabi-alonso-midfield-problem-area",
+    "summary": "Chelsea’s Alonso identity still to form in a midfield that remains a problem",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-07T14:47:01.344Z"
+  },
+  {
+    "id": "41efcacf871c",
+    "title": "Is Palmer's England career over under Tuchel?",
+    "date": "2026-11-06",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c9e8ll62rp68o?at_medium=RSS&at_campaign=rss",
+    "summary": "Is Palmer's England career over under Tuchel?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-07T14:47:01.344Z"
+  },
+  {
+    "id": "bcfbfe05aee1",
+    "title": "James out for minimum of five games - Bompastor",
+    "date": "2026-11-06",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/crq5nnqn84zyo?at_medium=RSS&at_campaign=rss",
+    "summary": "James out for minimum of five games - Bompastor",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-07T14:47:01.344Z"
+  },
+  {
+    "id": "bcfbfe05aee1",
+    "title": "James out for minimum of five games - Bompastor",
+    "date": "2026-11-06",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/crq5nnqn84zyo?at_medium=RSS&at_campaign=rss",
+    "summary": "James out for minimum of five games - Bompastor",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-07T14:47:01.344Z"
+  },
+  {
+    "id": "fa19d8b4d6d2",
+    "title": "Bellinghams celebrate ‘beautiful story’ as Jobe joins Jude in Tuchel’s England 2.0",
+    "date": "2026-11-06",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/06/jude-jobe-bellingham-thomas-tuchel-england-croatia-spain-nations-league",
+    "summary": "Bellinghams celebrate ‘beautiful story’ as Jobe joins Jude in Tuchel’s England 2.0",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-07T14:47:01.344Z"
+  },
+  {
+    "id": "1e4c602bfb70",
+    "title": "Thierno Barry double fires Everton to comeback win against Coventry",
+    "date": "2026-11-06",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/06/everton-coventry-premier-league-match-report",
+    "summary": "Thierno Barry double fires Everton to comeback win against Coventry",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-07T14:47:01.344Z"
+  },
+  {
     "id": "2092de1b832c",
     "title": "'A beautiful story' as Bellingham brothers called up",
     "date": "2026-11-06",
@@ -1872,278 +1976,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-10-08T15:23:52.797Z"
-  },
-  {
-    "id": "7eff3be8c5ea",
-    "title": "'Amazing' Kane targets 100 international goals",
-    "date": "2026-10-07",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/videos/cm75pwl3w2x7o?at_medium=RSS&at_campaign=rss",
-    "summary": "'Amazing' Kane targets 100 international goals",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-08T15:23:52.797Z"
-  },
-  {
-    "id": "4b53c1ac9c53",
-    "title": "Barry-Murphy and Bellamy so similar - Lawlor",
-    "date": "2026-10-07",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c5y43n38z0ndo?at_medium=RSS&at_campaign=rss",
-    "summary": "Barry-Murphy and Bellamy so similar - Lawlor",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-08T15:23:52.797Z"
-  },
-  {
-    "id": "2503337e23b5",
-    "title": "BBC Women's Football Weekly",
-    "date": "2026-10-07",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sounds/play/p0pfh6lh?at_medium=RSS&at_campaign=rss",
-    "summary": "BBC Women's Football Weekly",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-08T15:23:52.797Z"
-  },
-  {
-    "id": "2503337e23b5",
-    "title": "BBC Women's Football Weekly",
-    "date": "2026-10-07",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sounds/play/p0pfh6lh?at_medium=RSS&at_campaign=rss",
-    "summary": "BBC Women's Football Weekly",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-08T15:23:52.797Z"
-  },
-  {
-    "id": "f300697effed",
-    "title": "All aboard the Tuchel train? England camp has clear winners and losers",
-    "date": "2026-10-07",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/07/england-winners-and-losers-thomas-tuchel-tactics-squad-selection",
-    "summary": "All aboard the Tuchel train? England camp has clear winners and losers",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-08T15:23:52.797Z"
-  },
-  {
-    "id": "b792646f5aad",
-    "title": "England ready to level up and embrace ‘calculated risks’, claims Tuchel",
-    "date": "2026-10-07",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/07/england-level-up-thomas-tuchel-tactics-jarell-quansah",
-    "summary": "England ready to level up and embrace ‘calculated risks’, claims Tuchel",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-08T15:23:52.797Z"
-  },
-  {
-    "id": "97f382019edc",
-    "title": "Lionel Messi’s Argentina career turned football into a sacred mystery",
-    "date": "2026-10-07",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/07/lionel-messi-argentina-retirement-final-match",
-    "summary": "Lionel Messi’s Argentina career turned football into a sacred mystery",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-08T15:23:52.797Z"
-  },
-  {
-    "id": "c08e975a03e8",
-    "title": "Football Daily | Tears, drone ads and a 1,740-word manifesto: Messi v Ronaldo gets one more chapter",
-    "date": "2026-10-07",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/07/lionel-messi-cristiano-ronaldo-football-daily-newsletter",
-    "summary": "Football Daily | Tears, drone ads and a 1,740-word manifesto: Messi v Ronaldo gets one more chapter",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-08T15:23:52.797Z"
-  },
-  {
-    "id": "e1f79747e6a6",
-    "title": "Are SPFL away ticket prices too expensive? And is price cap on agenda? ",
-    "date": "2026-10-07",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cr89j9194kx3o?at_medium=RSS&at_campaign=rss",
-    "summary": "Are SPFL away ticket prices too expensive? And is price cap on agenda? ",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-07T15:20:48.836Z"
-  },
-  {
-    "id": "0d0574860334",
-    "title": "'Nothing can take my attention' - Ward on World Cup",
-    "date": "2026-10-07",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cqvg07v9xrz4o?at_medium=RSS&at_campaign=rss",
-    "summary": "'Nothing can take my attention' - Ward on World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-07T15:20:48.836Z"
-  },
-  {
-    "id": "5b8ec342815d",
-    "title": "'Bring the magic' - Scotland's Ross eyes World Cup dream",
-    "date": "2026-10-07",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/ckgelj5x2e7lo?at_medium=RSS&at_campaign=rss",
-    "summary": "'Bring the magic' - Scotland's Ross eyes World Cup dream",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-07T15:20:48.836Z"
-  },
-  {
-    "id": "7a97e303fe26",
-    "title": "Watch: Every Messi World Cup goal for Argentina",
-    "date": "2026-10-07",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/videos/c61kdn0nwld4o?at_medium=RSS&at_campaign=rss",
-    "summary": "Watch: Every Messi World Cup goal for Argentina",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-07T15:20:48.836Z"
-  },
-  {
-    "id": "3c1e326d88b0",
-    "title": "Quiz: Name England's all-time leading appearance makers",
-    "date": "2026-10-07",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cmlylv1xl9qgo?at_medium=RSS&at_campaign=rss",
-    "summary": "Quiz: Name England's all-time leading appearance makers",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-07T15:20:48.836Z"
-  },
-  {
-    "id": "e1f79747e6a6",
-    "title": "Are SPFL away ticket prices too expensive? And is price cap on agenda? ",
-    "date": "2026-10-07",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cr89j9194kx3o?at_medium=RSS&at_campaign=rss",
-    "summary": "Are SPFL away ticket prices too expensive? And is price cap on agenda? ",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-07T15:20:48.836Z"
-  },
-  {
-    "id": "5b8ec342815d",
-    "title": "'Bring the magic' - Scotland's Ross eyes World Cup dream",
-    "date": "2026-10-07",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/ckgelj5x2e7lo?at_medium=RSS&at_campaign=rss",
-    "summary": "'Bring the magic' - Scotland's Ross eyes World Cup dream",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-07T15:20:48.836Z"
-  },
-  {
-    "id": "0d0574860334",
-    "title": "'Nothing can take my attention' - Ward on World Cup and Villa link",
-    "date": "2026-10-07",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cqvg07v9xrz4o?at_medium=RSS&at_campaign=rss",
-    "summary": "'Nothing can take my attention' - Ward on World Cup and Villa link",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-07T15:20:48.836Z"
-  },
-  {
-    "id": "5b8ec342815d",
-    "title": "'Bring the magic' - Scotland's Ross eyes World Cup dream",
-    "date": "2026-10-07",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/ckgelj5x2e7lo?at_medium=RSS&at_campaign=rss",
-    "summary": "'Bring the magic' - Scotland's Ross eyes World Cup dream",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-07T15:20:48.836Z"
-  },
-  {
-    "id": "e5bafbdb512c",
-    "title": "Robertson rant and the wrong system? Pocognoli’s Scotland start raises questions",
-    "date": "2026-10-07",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/07/robertson-system-pocognoli-scotland-start-questions",
-    "summary": "Robertson rant and the wrong system? Pocognoli’s Scotland start raises questions",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-07T15:20:48.836Z"
-  },
-  {
-    "id": "cd5ff2ef410e",
-    "title": "Cristiano Ronaldo: the extraordinary eight points he says Jorge Jesus agreed to make",
-    "date": "2026-10-07",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/07/cristiano-ronaldo-eight-points-jorge-jesus-statement-portugal",
-    "summary": "Cristiano Ronaldo: the extraordinary eight points he says Jorge Jesus agreed to make",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-07T15:20:48.836Z"
-  },
-  {
-    "id": "62c37b317e95",
-    "title": "Lionel Messi describes ending Argentina career as his ‘saddest day’ in football",
-    "date": "2026-10-07",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/07/lionel-messi-ends-argentina-career-saddest-day",
-    "summary": "Lionel Messi describes ending Argentina career as his ‘saddest day’ in football",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-07T15:20:48.836Z"
-  },
-  {
-    "id": "217f84e8e345",
-    "title": "Which footballers have ended scoring droughts with a goal off their backside? | The Knowledge",
-    "date": "2026-10-07",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/07/which-footballers-have-ended-scoring-droughts-with-a-goal-off-their-backside",
-    "summary": "Which footballers have ended scoring droughts with a goal off their backside? | The Knowledge",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-07T15:20:48.836Z"
   }
 ];
