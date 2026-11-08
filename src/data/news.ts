@@ -2,6 +2,32 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "806524b37dad",
+    "title": "Raya, Pickford and Wales' search for a new keeper",
+    "date": "2026-11-08",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cry8335l96q5o?at_medium=RSS&at_campaign=rss",
+    "summary": "Raya, Pickford and Wales' search for a new keeper",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-08T14:53:17.631Z"
+  },
+  {
+    "id": "86539e1ddac1",
+    "title": "Swiss boss defends Xhaka and Embolo recalls to face Scotland - gossip",
+    "date": "2026-11-08",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/ckp8g0z49qd8o?at_medium=RSS&at_campaign=rss",
+    "summary": "Swiss boss defends Xhaka and Embolo recalls to face Scotland - gossip",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-08T14:53:17.631Z"
+  },
+  {
     "id": "f36670c78685",
     "title": "Scotland lose Welsh and call up Porteous",
     "date": "2026-11-07",
@@ -1872,109 +1898,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-10-09T15:06:34.860Z"
-  },
-  {
-    "id": "9c5993a3ae6f",
-    "title": "Premier League: 10 things to look out for this weekend",
-    "date": "2026-10-08",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/09/premier-league-10-things-to-look-out-for-this-weekend",
-    "summary": "Premier League: 10 things to look out for this weekend",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-09T15:06:34.860Z"
-  },
-  {
-    "id": "7332816ffe81",
-    "title": "Wiegman praises Toone’s attitude after late Lionesses recall for Greece playoff",
-    "date": "2026-10-08",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/08/sarina-wiegman-praises-ella-toone-attitude-late-england-lionesses-recall-greece-playoff",
-    "summary": "Wiegman praises Toone’s attitude after late Lionesses recall for Greece playoff",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-09T15:06:34.860Z"
-  },
-  {
-    "id": "f426330baa7b",
-    "title": "With no Pulisic and good results, have the USMNT moved on from their savior complex? | Leander Schaerlaeckens",
-    "date": "2026-10-08",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/08/usmnt-christian-pulisic-youth-movement-mauricio-pochettino",
-    "summary": "With no Pulisic and good results, have the USMNT moved on from their savior complex? | Leander Schaerlaeckens",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-09T15:06:34.860Z"
-  },
-  {
-    "id": "80e6b6bdf361",
-    "title": "Toone comes into England squad as Bronze withdraws",
-    "date": "2026-10-08",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c962yzlgln8po?at_medium=RSS&at_campaign=rss",
-    "summary": "Toone comes into England squad as Bronze withdraws",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-08T15:23:52.797Z"
-  },
-  {
-    "id": "80e6b6bdf361",
-    "title": "Toone comes into England squad as Bronze withdraws",
-    "date": "2026-10-08",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c962yzlgln8po?at_medium=RSS&at_campaign=rss",
-    "summary": "Toone comes into England squad as Bronze withdraws",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-08T15:23:52.797Z"
-  },
-  {
-    "id": "bb7a0eae5e87",
-    "title": "Havertz, Isak, Dorgu … spate of injuries with national teams leaves sour taste for top clubs",
-    "date": "2026-10-08",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/08/premier-league-injuries-kai-havertz-alexander-isak-patrick-dorgu",
-    "summary": "Havertz, Isak, Dorgu … spate of injuries with national teams leaves sour taste for top clubs",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-08T15:23:52.797Z"
-  },
-  {
-    "id": "f94f408f24f2",
-    "title": "‘Like a movie script’: Michael McArdle backs Northern Ireland to make history",
-    "date": "2026-10-08",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/08/michael-mcardle-northern-ireland-women-moving-the-goalposts",
-    "summary": "‘Like a movie script’: Michael McArdle backs Northern Ireland to make history",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-08T15:23:52.797Z"
-  },
-  {
-    "id": "7c1650e4bcb0",
-    "title": "‘¡Qué Horror!’: Mexico’s World Cup honeymoon is over but is Rafa Márquez really to blame?",
-    "date": "2026-10-08",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/08/mexico-soccer-team-rafael-marquez",
-    "summary": "‘¡Qué Horror!’: Mexico’s World Cup honeymoon is over but is Rafa Márquez really to blame?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-08T15:23:52.797Z"
   }
 ];
