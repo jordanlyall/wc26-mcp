@@ -2,6 +2,58 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "5792286957a8",
+    "title": "Burn replaces injured Guehi in England squad",
+    "date": "2026-11-09",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cmwyq8x6nx5lo?at_medium=RSS&at_campaign=rss",
+    "summary": "Burn replaces injured Guehi in England squad",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-09T18:31:18.872Z"
+  },
+  {
+    "id": "333c7ad5806b",
+    "title": "Fishlock retires after record-breaking career",
+    "date": "2026-11-09",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cq98z8401zz8o?at_medium=RSS&at_campaign=rss",
+    "summary": "Fishlock retires after record-breaking career",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-09T18:31:18.872Z"
+  },
+  {
+    "id": "333c7ad5806b",
+    "title": "Fishlock retires after record-breaking career",
+    "date": "2026-11-09",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cq98z8401zz8o?at_medium=RSS&at_campaign=rss",
+    "summary": "Fishlock retires after record-breaking career",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-09T18:31:18.872Z"
+  },
+  {
+    "id": "b93f1bb68ca1",
+    "title": "Football comes together across Spain to honour Jesús de Miguel: ‘We’ve seen how fragile life is’",
+    "date": "2026-11-09",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/09/football-comes-together-spain-honour-jesus-de-miguel-tenerife",
+    "summary": "Football comes together across Spain to honour Jesús de Miguel: ‘We’ve seen how fragile life is’",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-09T18:31:18.872Z"
+  },
+  {
     "id": "806524b37dad",
     "title": "Raya, Pickford and Wales' search for a new keeper",
     "date": "2026-11-08",
@@ -1768,135 +1820,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-10-10T14:20:39.036Z"
-  },
-  {
-    "id": "ef13f348c894",
-    "title": "Greek takeaways: What did we learn from Lionesses' win?",
-    "date": "2026-10-09",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cwp8g1ry6rjlo?at_medium=RSS&at_campaign=rss",
-    "summary": "Greek takeaways: What did we learn from Lionesses' win?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-10T14:20:39.036Z"
-  },
-  {
-    "id": "6b4cdc1043e9",
-    "title": "Wales must improve in World Cup bid - Wilkinson",
-    "date": "2026-10-09",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cw4g1z0g17x8o?at_medium=RSS&at_campaign=rss",
-    "summary": "Wales must improve in World Cup bid - Wilkinson",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-10T14:20:39.036Z"
-  },
-  {
-    "id": "ef13f348c894",
-    "title": "Greek takeaways: What did we learn from Lionesses' win?",
-    "date": "2026-10-09",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cwp8g1ry6rjlo?at_medium=RSS&at_campaign=rss",
-    "summary": "Greek takeaways: What did we learn from Lionesses' win?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-10T14:20:39.036Z"
-  },
-  {
-    "id": "1dc82156b355",
-    "title": "Russo’s return to form is vital but Lionesses still lack bite against low blocks | Suzanne Wrack",
-    "date": "2026-10-09",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/09/lionesses-alessia-russo-england-greece-womens-world-cup-qualification-playoff",
-    "summary": "Russo’s return to form is vital but Lionesses still lack bite against low blocks | Suzanne Wrack",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-10T14:20:39.036Z"
-  },
-  {
-    "id": "9f38ed85cf54",
-    "title": "Chelsea manager Alonso insists Cole Palmer is committed to playing for England",
-    "date": "2026-10-09",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/09/chelsea-xabi-alonso-cole-palmer-england-thomas-tuchel",
-    "summary": "Chelsea manager Alonso insists Cole Palmer is committed to playing for England",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-10T14:20:39.036Z"
-  },
-  {
-    "id": "6d90001ef40f",
-    "title": "Lionesses take control of World Cup playoff tie but unfancied Greece still in fight",
-    "date": "2026-10-09",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/09/greece-england-womens-world-cup-qualifying-playoff",
-    "summary": "Lionesses take control of World Cup playoff tie but unfancied Greece still in fight",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-10T14:20:39.036Z"
-  },
-  {
-    "id": "19f0c83d7cf0",
-    "title": "Sam Kerr on target but Matildas outclassed by youthful Germany in European friendly",
-    "date": "2026-10-09",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/10/matildas-australia-germany-sam-kerr-friendly-match-report",
-    "summary": "Sam Kerr on target but Matildas outclassed by youthful Germany in European friendly",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-10T14:20:39.036Z"
-  },
-  {
-    "id": "dea2f77f6329",
-    "title": "Wales captain James has World Cup on her mind ",
-    "date": "2026-10-09",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cwp8gnj1n7yyo?at_medium=RSS&at_campaign=rss",
-    "summary": "Wales captain James has World Cup on her mind ",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-09T15:06:34.860Z"
-  },
-  {
-    "id": "dea2f77f6329",
-    "title": "Wales captain James has World Cup on her mind ",
-    "date": "2026-10-09",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cwp8gnj1n7yyo?at_medium=RSS&at_campaign=rss",
-    "summary": "Wales captain James has World Cup on her mind ",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-09T15:06:34.860Z"
-  },
-  {
-    "id": "e51971d61d29",
-    "title": "Will Carlos Baleba fix Manchester United? Three big questions ahead of potential debut",
-    "date": "2026-10-09",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/09/carlos-baleba-manchester-united-debut",
-    "summary": "Will Carlos Baleba fix Manchester United? Three big questions ahead of potential debut",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-09T15:06:34.860Z"
   }
 ];
