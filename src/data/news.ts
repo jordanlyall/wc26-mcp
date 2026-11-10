@@ -2,6 +2,136 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "8871f9dc2b5a",
+    "title": "Hill gets first England call-up as Konsa cover",
+    "date": "2026-11-10",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/ckjrwrggjlryo?at_medium=RSS&at_campaign=rss",
+    "summary": "Hill gets first England call-up as Konsa cover",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-10T16:15:16.618Z"
+  },
+  {
+    "id": "c9f4b2ffbbf5",
+    "title": "Wales call up MK Dons' Collins as Moore withdraws",
+    "date": "2026-11-10",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c62l4l2k0lyro?at_medium=RSS&at_campaign=rss",
+    "summary": "Wales call up MK Dons' Collins as Moore withdraws",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-10T16:15:16.618Z"
+  },
+  {
+    "id": "954c3a2cd6d6",
+    "title": "How Germany's greatest goalscorer is guiding the next generation",
+    "date": "2026-11-10",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cmq8nnddpllqo?at_medium=RSS&at_campaign=rss",
+    "summary": "How Germany's greatest goalscorer is guiding the next generation",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-10T16:15:16.618Z"
+  },
+  {
+    "id": "b2b15220c24d",
+    "title": "Managerial 'inconsistency' hurting Ghana - Hughton",
+    "date": "2026-11-10",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cwd09pkg2ev9o?at_medium=RSS&at_campaign=rss",
+    "summary": "Managerial 'inconsistency' hurting Ghana - Hughton",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-10T16:15:16.618Z"
+  },
+  {
+    "id": "825b7d4b7902",
+    "title": "Crystal Palace could avoid significant compensation if Pierre Sage rejoins Lens",
+    "date": "2026-11-10",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/10/pierre-sage-crystal-palace-premier-league-lens",
+    "summary": "Crystal Palace could avoid significant compensation if Pierre Sage rejoins Lens",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-10T16:15:16.618Z"
+  },
+  {
+    "id": "906ff94ca6f3",
+    "title": "From W-M to the No 10, shirt numbers tell a story of football’s tactical evolution",
+    "date": "2026-11-10",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/10/shirt-numbers-tell-story-football-tactical-evolution",
+    "summary": "From W-M to the No 10, shirt numbers tell a story of football’s tactical evolution",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-10T16:15:16.618Z"
+  },
+  {
+    "id": "cc04efe59df5",
+    "title": "Football Daily",
+    "date": "2026-11-09",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sounds/play/p0pm5xwv?at_medium=RSS&at_campaign=rss",
+    "summary": "Football Daily",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-10T16:15:16.618Z"
+  },
+  {
+    "id": "fa2c1ce9c3f3",
+    "title": "'Aberdeen hunt yet another manager after ill-fated Robinson reign'",
+    "date": "2026-11-09",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cr0qkq8pnx4ko?at_medium=RSS&at_campaign=rss",
+    "summary": "'Aberdeen hunt yet another manager after ill-fated Robinson reign'",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-10T16:15:16.618Z"
+  },
+  {
+    "id": "f660d042cc5f",
+    "title": "Ben White says he has no complaints at boos from England fans over self-imposed exile",
+    "date": "2026-11-09",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/09/ben-white-england-international-exile-arsenal-thomas-tuchel-squad-nations-league-spain-croatia",
+    "summary": "Ben White says he has no complaints at boos from England fans over self-imposed exile",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-10T16:15:16.618Z"
+  },
+  {
+    "id": "7a5c941a82e1",
+    "title": "Cerebral Josh King plots unusual route into Tuchel’s England plans",
+    "date": "2026-11-09",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/09/cerebral-josh-king-plots-unusual-route-into-tuchels-england-plans",
+    "summary": "Cerebral Josh King plots unusual route into Tuchel’s England plans",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-10T16:15:16.618Z"
+  },
+  {
     "id": "5792286957a8",
     "title": "Burn replaces injured Guehi in England squad",
     "date": "2026-11-09",
@@ -1703,122 +1833,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-10-12T17:34:56.783Z"
-  },
-  {
-    "id": "4f4d5312b2fb",
-    "title": "Why we’re stuck with a Premier League in the clutches of the global mega-rich | Jonathan Wilson",
-    "date": "2026-10-10",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/10/why-premier-league-in-clutches-of-global-mega-rich",
-    "summary": "Why we’re stuck with a Premier League in the clutches of the global mega-rich | Jonathan Wilson",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-11T14:46:51.094Z"
-  },
-  {
-    "id": "637bbb8ee187",
-    "title": "USWNT exposed by ruthless Spain as early goals settle heavyweight friendly",
-    "date": "2026-10-10",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/10/uswnt-spain-match-report-washington-dc",
-    "summary": "USWNT exposed by ruthless Spain as early goals settle heavyweight friendly",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-11T14:46:51.094Z"
-  },
-  {
-    "id": "08f570ead50f",
-    "title": "European football: Gordon boosts Barcelona, Neuer errors cost Bayern in draw",
-    "date": "2026-10-10",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/10/european-football-bayern-concede-fastest-goal-bundeliga-history",
-    "summary": "European football: Gordon boosts Barcelona, Neuer errors cost Bayern in draw",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-11T14:46:51.094Z"
-  },
-  {
-    "id": "c5ca08fb2eb5",
-    "title": "Wales hope pattern continues in Albania return",
-    "date": "2026-10-10",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c8r4y6x4p2lzo?at_medium=RSS&at_campaign=rss",
-    "summary": "Wales hope pattern continues in Albania return",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-10T14:20:39.036Z"
-  },
-  {
-    "id": "c5ca08fb2eb5",
-    "title": "Wales hope pattern continues in Albania return",
-    "date": "2026-10-10",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c8r4y6x4p2lzo?at_medium=RSS&at_campaign=rss",
-    "summary": "Wales hope pattern continues in Albania return",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-10T14:20:39.036Z"
-  },
-  {
-    "id": "d17173c81678",
-    "title": "NI debut 'something I thought had passed' - Elmore",
-    "date": "2026-10-10",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/ck7vpdz0lnmvo?at_medium=RSS&at_campaign=rss",
-    "summary": "NI debut 'something I thought had passed' - Elmore",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-10T14:20:39.036Z"
-  },
-  {
-    "id": "ec75e2ee758c",
-    "title": "Chelsea v Bournemouth, Sunderland v Brighton, and more: football – live",
-    "date": "2026-10-10",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/live/2026/oct/10/chelsea-v-bournemouth-sunderland-v-brighton-and-more-football-live",
-    "summary": "Chelsea v Bournemouth, Sunderland v Brighton, and more: football – live",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-10T14:20:39.036Z"
-  },
-  {
-    "id": "9777fbde913d",
-    "title": "Portugal suspend Cristiano Ronaldo after walking out on national team",
-    "date": "2026-10-10",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/10/portugal-suspend-cristiano-ronaldo",
-    "summary": "Portugal suspend Cristiano Ronaldo after walking out on national team",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-10T14:20:39.036Z"
-  },
-  {
-    "id": "0d0dd9ef1820",
-    "title": "South Melbourne make history with Australia Cup win that could change the future too | Joey Lynch",
-    "date": "2026-10-10",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/11/south-melbourne-vs-victory-australia-cup-final",
-    "summary": "South Melbourne make history with Australia Cup win that could change the future too | Joey Lynch",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-10T14:20:39.036Z"
   }
 ];
