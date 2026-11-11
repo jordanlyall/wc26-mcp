@@ -2,6 +2,201 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "a24a177c6f38",
+    "title": "Scotland without captain Weir for World Cup play-off",
+    "date": "2026-11-11",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c64gnlevgj1zo?at_medium=RSS&at_campaign=rss",
+    "summary": "Scotland without captain Weir for World Cup play-off",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-11T15:57:35.779Z"
+  },
+  {
+    "id": "866d9515c5f1",
+    "title": "Turkey-based Bates replaces Binks in Scotland squad",
+    "date": "2026-11-11",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c539gkdrn7yeo?at_medium=RSS&at_campaign=rss",
+    "summary": "Turkey-based Bates replaces Binks in Scotland squad",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-11T15:57:35.779Z"
+  },
+  {
+    "id": "d0d3d8d487a8",
+    "title": "Robinson unfazed by Pochettino departure talk",
+    "date": "2026-11-11",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/videos/cm3vgx55kp3ro?at_medium=RSS&at_campaign=rss",
+    "summary": "Robinson unfazed by Pochettino departure talk",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-11T15:57:35.779Z"
+  },
+  {
+    "id": "866d9515c5f1",
+    "title": "Turkey-based Bates replaces Binks in Scotland squad",
+    "date": "2026-11-11",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c539gkdrn7yeo?at_medium=RSS&at_campaign=rss",
+    "summary": "Turkey-based Bates replaces Binks in Scotland squad",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-11T15:57:35.779Z"
+  },
+  {
+    "id": "a24a177c6f38",
+    "title": "Scotland without captain Weir for World Cup play-off",
+    "date": "2026-11-11",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c64gnlevgj1zo?at_medium=RSS&at_campaign=rss",
+    "summary": "Scotland without captain Weir for World Cup play-off",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-11T15:57:35.779Z"
+  },
+  {
+    "id": "c9b8bd8f53c8",
+    "title": "You are Scotland boss Pocognoli - what would you do?",
+    "date": "2026-11-11",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cwr7y79jm354o?at_medium=RSS&at_campaign=rss",
+    "summary": "You are Scotland boss Pocognoli - what would you do?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-11T15:57:35.779Z"
+  },
+  {
+    "id": "a24a177c6f38",
+    "title": "Scotland without captain Weir for World Cup play-off",
+    "date": "2026-11-11",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c64gnlevgj1zo?at_medium=RSS&at_campaign=rss",
+    "summary": "Scotland without captain Weir for World Cup play-off",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-11T15:57:35.779Z"
+  },
+  {
+    "id": "be271f7f0cdd",
+    "title": "Manchester United reach framework deal with Pochettino before settling Carrick’s fate",
+    "date": "2026-11-11",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/11/manchester-united-close-mauricio-pochettino-deal-michael-carrick",
+    "summary": "Manchester United reach framework deal with Pochettino before settling Carrick’s fate",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-11T15:57:35.779Z"
+  },
+  {
+    "id": "e32e1128bd3d",
+    "title": "‘An eternal shame’: Bilic and Croatia aim to use 7-0 humbling as fuel against England",
+    "date": "2026-11-11",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/11/slaven-bilic-croatia-7-0-england-nations-league-wembley",
+    "summary": "‘An eternal shame’: Bilic and Croatia aim to use 7-0 humbling as fuel against England",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-11T15:57:35.779Z"
+  },
+  {
+    "id": "c139e537df92",
+    "title": "Which football club has had most international captains in the same team? | The Knowledge",
+    "date": "2026-11-11",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/11/football-club-most-international-captains-same-team-the-knowledge",
+    "summary": "Which football club has had most international captains in the same team? | The Knowledge",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-11T15:57:35.779Z"
+  },
+  {
+    "id": "1e2aa344000c",
+    "title": "Bone broth, sweets ban and acupuncture: Harry Kane’s road to record England cap",
+    "date": "2026-11-11",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/11/harry-kane-record-england-cap-bone-broth-sweets-ban-acupuncture",
+    "summary": "Bone broth, sweets ban and acupuncture: Harry Kane’s road to record England cap",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-11T15:57:35.779Z"
+  },
+  {
+    "id": "72a87f1d0a72",
+    "title": "Wales' Johnson says definitely more to come after 50 caps",
+    "date": "2026-11-10",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c58jzj8k08lzo?at_medium=RSS&at_campaign=rss",
+    "summary": "Wales' Johnson says definitely more to come after 50 caps",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-11T15:57:35.779Z"
+  },
+  {
+    "id": "64a72d37fd7f",
+    "title": "Pocognoli to lean on Scotland's 'captain group of five'",
+    "date": "2026-11-10",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cmde8e8wjyzgo?at_medium=RSS&at_campaign=rss",
+    "summary": "Pocognoli to lean on Scotland's 'captain group of five'",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-11T15:57:35.779Z"
+  },
+  {
+    "id": "a0c8ebf52f58",
+    "title": "McTominay reveals he had heart ‘shocked’ two days before World Cup opener",
+    "date": "2026-11-10",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/10/mctominay-reveals-heart-treatment-two-days-before-scotlands-world-cup-opener",
+    "summary": "McTominay reveals he had heart ‘shocked’ two days before World Cup opener",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-11T15:57:35.779Z"
+  },
+  {
+    "id": "752d56fcf9a6",
+    "title": "Football Daily | ‘Where the hell is Roy Keane!’ Fifty shades of great football debate",
+    "date": "2026-11-10",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/10/ultimate-shirt-numbers-football-daily-newsletter",
+    "summary": "Football Daily | ‘Where the hell is Roy Keane!’ Fifty shades of great football debate",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-11T15:57:35.779Z"
+  },
+  {
     "id": "8871f9dc2b5a",
     "title": "Hill gets first England call-up as Konsa cover",
     "date": "2026-11-10",
@@ -1815,19 +2010,6 @@ export const news: NewsItem[] = [
     "source": "The Guardian",
     "url": "https://www.theguardian.com/football/2026/oct/12/england-next-summer-womens-world-cup",
     "summary": "Six questions facing England as they target next year’s Women’s World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-12T17:34:56.783Z"
-  },
-  {
-    "id": "3a1cd2ce3e18",
-    "title": "Pino finishes off Nottingham Forest on Glasner’s unhappy Crystal Palace return",
-    "date": "2026-10-11",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/11/crystal-palace-nottingham-forest-premier-league-match-report",
-    "summary": "Pino finishes off Nottingham Forest on Glasner’s unhappy Crystal Palace return",
     "categories": [
       "general"
     ],
