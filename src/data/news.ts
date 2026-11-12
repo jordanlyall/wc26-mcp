@@ -2,6 +2,149 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "364c6961b200",
+    "title": "Kane's top 10 England moments - which was your favourite?",
+    "date": "2026-11-12",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c64g12w5zpjpo?at_medium=RSS&at_campaign=rss",
+    "summary": "Kane's top 10 England moments - which was your favourite?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-12T16:40:38.187Z"
+  },
+  {
+    "id": "2d01f048092b",
+    "title": "Robertson set to make history but his hero Dalglish will always be King ",
+    "date": "2026-11-12",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cxe89dq16dp2o?at_medium=RSS&at_campaign=rss",
+    "summary": "Robertson set to make history but his hero Dalglish will always be King ",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-12T16:40:38.187Z"
+  },
+  {
+    "id": "aac7eb583546",
+    "title": "'Unfinished business' - Tuchel committed to England",
+    "date": "2026-11-12",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cqg7l9x9jnzko?at_medium=RSS&at_campaign=rss",
+    "summary": "'Unfinished business' - Tuchel committed to England",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-12T16:40:38.187Z"
+  },
+  {
+    "id": "1e55ec9c17d5",
+    "title": "Spain boss denies Lamine Yamal gets 'special privileges'",
+    "date": "2026-11-12",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cm0qjekqzwp0o?at_medium=RSS&at_campaign=rss",
+    "summary": "Spain boss denies Lamine Yamal gets 'special privileges'",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-12T16:40:38.187Z"
+  },
+  {
+    "id": "2d01f048092b",
+    "title": "Robertson set to make history but his hero Dalglish will always be King ",
+    "date": "2026-11-12",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cxe89dq16dp2o?at_medium=RSS&at_campaign=rss",
+    "summary": "Robertson set to make history but his hero Dalglish will always be King ",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-12T16:40:38.187Z"
+  },
+  {
+    "id": "9c924a4a9b9d",
+    "title": "Podcast: What kind of boss do Aberdeen need & have Hibs turned a corner?",
+    "date": "2026-11-12",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sounds/play/p0pmk9cf?at_medium=RSS&at_campaign=rss",
+    "summary": "Podcast: What kind of boss do Aberdeen need & have Hibs turned a corner?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-12T16:40:38.187Z"
+  },
+  {
+    "id": "c4d9aa2a1dd3",
+    "title": "‘Pregnancy does not mean game over’: meet the footballers challenging the myths | Moving the Goalposts",
+    "date": "2026-11-12",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/12/pregnancy-womens-football-moving-the-goalposts-newsletter",
+    "summary": "‘Pregnancy does not mean game over’: meet the footballers challenging the myths | Moving the Goalposts",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-12T16:40:38.187Z"
+  },
+  {
+    "id": "ac5b36a95668",
+    "title": "Archive, 1990: Peter Shilton wins 125th cap making him England’s record appearance holder",
+    "date": "2026-11-12",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/12/archive-1990-peter-shilton-wins-125th-cap-making-him-englands-record-appearance-holder",
+    "summary": "Archive, 1990: Peter Shilton wins 125th cap making him England’s record appearance holder",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-12T16:40:38.187Z"
+  },
+  {
+    "id": "47ba1b331bbb",
+    "title": "No excuses as Pocognoli seeks first Hampden victory",
+    "date": "2026-11-11",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c6702jxw17pjo?at_medium=RSS&at_campaign=rss",
+    "summary": "No excuses as Pocognoli seeks first Hampden victory",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-12T16:40:38.187Z"
+  },
+  {
+    "id": "63e1e121b2f2",
+    "title": "US withdraw from U-17 World Cup in Qatar due to safety concerns",
+    "date": "2026-11-11",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/11/usa-u-17-world-cup-qatar-withdrawal-middle-east-conflict",
+    "summary": "US withdraw from U-17 World Cup in Qatar due to safety concerns",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-12T16:40:38.187Z"
+  },
+  {
+    "id": "b98fc7f54b88",
+    "title": "Thomas Tuchel keeps laser focus on ‘unfinished business’ with England",
+    "date": "2026-11-11",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/11/thomas-tuchel-unfinished-business-england-euro-2028-nations-league",
+    "summary": "Thomas Tuchel keeps laser focus on ‘unfinished business’ with England",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-12T16:40:38.187Z"
+  },
+  {
     "id": "a24a177c6f38",
     "title": "Scotland without captain Weir for World Cup play-off",
     "date": "2026-11-11",
@@ -1937,83 +2080,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-10-13T15:44:10.090Z"
-  },
-  {
-    "id": "2da8dd45c5f5",
-    "title": "Do Lionesses lack ruthlessness in front of goal?",
-    "date": "2026-10-12",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cwe8rvm8yl93o?at_medium=RSS&at_campaign=rss",
-    "summary": "Do Lionesses lack ruthlessness in front of goal?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-12T17:34:56.783Z"
-  },
-  {
-    "id": "9e27aad0d686",
-    "title": "Seedorf back in football as Corinthians head coach",
-    "date": "2026-10-12",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cw62y514kpgeo?at_medium=RSS&at_campaign=rss",
-    "summary": "Seedorf back in football as Corinthians head coach",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-12T17:34:56.783Z"
-  },
-  {
-    "id": "203f0fed02f3",
-    "title": "Wales wary but eye record run in World Cup bid",
-    "date": "2026-10-12",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cmd6d5980jz3o?at_medium=RSS&at_campaign=rss",
-    "summary": "Wales wary but eye record run in World Cup bid",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-12T17:34:56.783Z"
-  },
-  {
-    "id": "2da8dd45c5f5",
-    "title": "Do Lionesses lack ruthlessness in front of goal?",
-    "date": "2026-10-12",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cwe8rvm8yl93o?at_medium=RSS&at_campaign=rss",
-    "summary": "Do Lionesses lack ruthlessness in front of goal?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-12T17:34:56.783Z"
-  },
-  {
-    "id": "cf9d9f2bc8d4",
-    "title": "Grounded: Rayo Vallecano’s paper planes bring club’s crisis into the open",
-    "date": "2026-10-12",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/12/rayo-vallecano-paper-planes-abandoned-raul-martin-presa-la-liga",
-    "summary": "Grounded: Rayo Vallecano’s paper planes bring club’s crisis into the open",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-12T17:34:56.783Z"
-  },
-  {
-    "id": "cb896bf556ab",
-    "title": "Six questions facing England as they target next year’s Women’s World Cup",
-    "date": "2026-10-12",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/12/england-next-summer-womens-world-cup",
-    "summary": "Six questions facing England as they target next year’s Women’s World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-12T17:34:56.783Z"
   }
 ];
