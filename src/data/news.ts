@@ -2,6 +2,162 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "6026eddae764",
+    "title": "Beckham to be inducted into US Soccer Hall of Fame",
+    "date": "2026-11-13",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cmx295q05l7eo?at_medium=RSS&at_campaign=rss",
+    "summary": "Beckham to be inducted into US Soccer Hall of Fame",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-13T15:59:19.272Z"
+  },
+  {
+    "id": "a45012cf37ca",
+    "title": "Hayen on shortlist for Aberdeen job - gossip",
+    "date": "2026-11-13",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cmglrknl3j5no?at_medium=RSS&at_campaign=rss",
+    "summary": "Hayen on shortlist for Aberdeen job - gossip",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-13T15:59:19.272Z"
+  },
+  {
+    "id": "5ec51858f43e",
+    "title": "Tearful Pochettino says leaving USA for Manchester United ‘most difficult decision’ of career: football – live",
+    "date": "2026-11-13",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/live/2026/nov/13/mauricio-pochettino-manchester-united-head-coach-football-live",
+    "summary": "Tearful Pochettino says leaving USA for Manchester United ‘most difficult decision’ of career: football – live",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-13T15:59:19.272Z"
+  },
+  {
+    "id": "921c15bd836f",
+    "title": "It’s Happy Harry Kane day as England’s finest seizes his moment in style | Barney Ronay",
+    "date": "2026-11-13",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/13/happy-harry-kane-day-englands-finest-seizes-his-moment-croatia-nations-league",
+    "summary": "It’s Happy Harry Kane day as England’s finest seizes his moment in style | Barney Ronay",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-13T15:59:19.272Z"
+  },
+  {
+    "id": "776a5354821e",
+    "title": "Mauricio Pochettino to Manchester United and record breaker Kane | Football Weekly video",
+    "date": "2026-11-13",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/video/2026/nov/13/mauricio-pochettino-to-manchester-united-and-record-breaker-kane-football-weekly-video",
+    "summary": "Mauricio Pochettino to Manchester United and record breaker Kane | Football Weekly video",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-13T15:59:19.272Z"
+  },
+  {
+    "id": "3c1e326d88b0",
+    "title": "Quiz: Name England men's all-time leading appearance makers",
+    "date": "2026-11-12",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cmlylv1xl9qgo?at_medium=RSS&at_campaign=rss",
+    "summary": "Quiz: Name England men's all-time leading appearance makers",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-13T15:59:19.272Z"
+  },
+  {
+    "id": "8ba48342ba44",
+    "title": "Football Daily",
+    "date": "2026-11-12",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sounds/play/p0pmqwrn?at_medium=RSS&at_campaign=rss",
+    "summary": "Football Daily",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-13T15:59:19.272Z"
+  },
+  {
+    "id": "0a93a6ac04df",
+    "title": "Morgan Rogers says ‘it’s a lie’ that Cole Palmer does not want to play for England",
+    "date": "2026-11-12",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/12/morgan-rogers-says-its-a-lie-that-cole-palmer-does-not-want-to-play-for-england",
+    "summary": "Morgan Rogers says ‘it’s a lie’ that Cole Palmer does not want to play for England",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-13T15:59:19.272Z"
+  },
+  {
+    "id": "605c7ffdaf05",
+    "title": "Nations League: Italy roar back to beat France despite Donnarumma’s early howler",
+    "date": "2026-11-12",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/12/nations-league-italy-france-spain-czechia",
+    "summary": "Nations League: Italy roar back to beat France despite Donnarumma’s early howler",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-13T15:59:19.272Z"
+  },
+  {
+    "id": "f7931b105e17",
+    "title": "Robertson pays tribute to Dalglish as he matches Scotland cap record",
+    "date": "2026-11-12",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/12/robertson-pays-tribute-to-dalglish-as-he-matches-scotland-cap-record",
+    "summary": "Robertson pays tribute to Dalglish as he matches Scotland cap record",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-13T15:59:19.272Z"
+  },
+  {
+    "id": "200aa0439498",
+    "title": "Football Daily | ‘The club would like to thank …’: Manchester United dust off the heartfelt exit message",
+    "date": "2026-11-12",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/12/football-daily-manchester-united-michael-carrick",
+    "summary": "Football Daily | ‘The club would like to thank …’: Manchester United dust off the heartfelt exit message",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-13T15:59:19.272Z"
+  },
+  {
+    "id": "6a49acea003f",
+    "title": "How will the USMNT replace Mauricio Pochettino? There’s no clear answer",
+    "date": "2026-11-12",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/12/mauricio-pochettino-replacements-usmnt-manchester-united",
+    "summary": "How will the USMNT replace Mauricio Pochettino? There’s no clear answer",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-13T15:59:19.272Z"
+  },
+  {
     "id": "364c6961b200",
     "title": "Kane's top 10 England moments - which was your favourite?",
     "date": "2026-11-12",
@@ -1989,96 +2145,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-10-14T13:26:54.080Z"
-  },
-  {
-    "id": "a76f3125b1d1",
-    "title": "McArdle 'really encouraged' despite NI's Portugal loss",
-    "date": "2026-10-13",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cmglwxd0d25xo?at_medium=RSS&at_campaign=rss",
-    "summary": "McArdle 'really encouraged' despite NI's Portugal loss",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-14T13:26:54.080Z"
-  },
-  {
-    "id": "829f6efe08cb",
-    "title": "Potter helps England find magic but World Cup playoff format needs rethink | Tom Garry",
-    "date": "2026-10-13",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/13/england-greece-women-world-cup-qualifying-playoffs",
-    "summary": "Potter helps England find magic but World Cup playoff format needs rethink | Tom Garry",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-14T13:26:54.080Z"
-  },
-  {
-    "id": "ebbd0650d888",
-    "title": "Champions League roundup: Tresoldi treble stuns Inter in Club Brugge win",
-    "date": "2026-10-13",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/13/champions-league-lens-sporting-inter-barcelona-bayern-napoli",
-    "summary": "Champions League roundup: Tresoldi treble stuns Inter in Club Brugge win",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-14T13:26:54.080Z"
-  },
-  {
-    "id": "70d159986a23",
-    "title": "Leticia McKenna at the double as Matildas’ next generation help trounce Haiti 7-1",
-    "date": "2026-10-13",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/14/matildas-australia-haiti-international-womens-football-friendly-match-report",
-    "summary": "Leticia McKenna at the double as Matildas’ next generation help trounce Haiti 7-1",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-14T13:26:54.080Z"
-  },
-  {
-    "id": "bc5f2a10fb28",
-    "title": "Football Daily | Coventry come to life at last – are their slapstick days behind them?",
-    "date": "2026-10-13",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/13/coventry-city-football-daily-newsletter",
-    "summary": "Football Daily | Coventry come to life at last – are their slapstick days behind them?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-14T13:26:54.080Z"
-  },
-  {
-    "id": "c73800f4a6e1",
-    "title": "The Ballon d’Or doesn’t capture football’s wonder – Michael Olise is proof | Zito Madu",
-    "date": "2026-10-13",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/13/michael-olise-ballon-dor-france-belgium",
-    "summary": "The Ballon d’Or doesn’t capture football’s wonder – Michael Olise is proof | Zito Madu",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-13T15:44:10.090Z"
-  },
-  {
-    "id": "243fb1e6201e",
-    "title": "Fresh concerns over 2027 Asian Cup in Saudi Arabia after missile strikes in Riyadh",
-    "date": "2026-10-13",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/13/saudi-arabia-asian-cup-riyadh-missle-strikes-players-concern",
-    "summary": "Fresh concerns over 2027 Asian Cup in Saudi Arabia after missile strikes in Riyadh",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-13T15:44:10.090Z"
   }
 ];
