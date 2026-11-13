@@ -3,12 +3,12 @@ import type { Group } from "../types/index.js";
 export const groups: Group[] = [
   {
     id: "A",
-    teams: ["mex", "rsa", "kor", "tbd_uefa_d"],
+    teams: ["mex", "rsa", "kor", "cze"],
     venue_ids: ["azteca", "akron", "bbva"],
   },
   {
     id: "B",
-    teams: ["can", "sui", "qat", "tbd_uefa_a"],
+    teams: ["can", "sui", "qat", "bih"],
     venue_ids: ["bmo", "bc_place", "levis"],
   },
   {
@@ -18,7 +18,7 @@ export const groups: Group[] = [
   },
   {
     id: "D",
-    teams: ["usa", "par", "aus", "tbd_uefa_c"],
+    teams: ["usa", "par", "aus", "tur"],
     venue_ids: ["sofi", "lincoln", "lumen"],
   },
   {
@@ -28,7 +28,7 @@ export const groups: Group[] = [
   },
   {
     id: "F",
-    teams: ["ned", "jpn", "tun", "tbd_uefa_b"],
+    teams: ["ned", "jpn", "tun", "swe"],
     venue_ids: ["levis", "lumen", "sofi"],
   },
   {
@@ -43,7 +43,7 @@ export const groups: Group[] = [
   },
   {
     id: "I",
-    teams: ["fra", "sen", "nor", "tbd_ic_2"],
+    teams: ["fra", "sen", "nor", "irq"],
     venue_ids: ["metlife", "mercedes_benz", "arrowhead"],
   },
   {
@@ -53,7 +53,7 @@ export const groups: Group[] = [
   },
   {
     id: "K",
-    teams: ["por", "col", "uzb", "tbd_ic_1"],
+    teams: ["por", "cod", "uzb", "col"],
     venue_ids: ["sofi", "levis", "lumen"],
   },
   {
