@@ -2,6 +2,123 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "f2eb3b3ea554",
+    "title": "Tuchel to remind England of anti-racism protocols before Spain game",
+    "date": "2026-11-14",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c60mdzn2dk1eo?at_medium=RSS&at_campaign=rss",
+    "summary": "Tuchel to remind England of anti-racism protocols before Spain game",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-14T14:53:13.005Z"
+  },
+  {
+    "id": "fdd5f5ffd468",
+    "title": "De la Fuente feels the strain as Lamine Yamal club v country debate rages in Spain",
+    "date": "2026-11-14",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/14/lamine-yamal-luis-de-la-fuente-spain-england-club-country",
+    "summary": "De la Fuente feels the strain as Lamine Yamal club v country debate rages in Spain",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-14T14:53:13.005Z"
+  },
+  {
+    "id": "731faf0b60d8",
+    "title": "Mauricio Pochettino asked the US to believe in his project. Did he believe in it himself?",
+    "date": "2026-11-14",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/14/mauricio-pochettino-usmnt-legacy-belief",
+    "summary": "Mauricio Pochettino asked the US to believe in his project. Did he believe in it himself?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-14T14:53:13.005Z"
+  },
+  {
+    "id": "a8d1f3c64208",
+    "title": "Raphinha sees red as Brazil stunned by Japan while Argentina’s post-Messi era starts with defeat",
+    "date": "2026-11-14",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/14/brazil-argentina-japan-uruguay-wales-norway-portugal-denmark",
+    "summary": "Raphinha sees red as Brazil stunned by Japan while Argentina’s post-Messi era starts with defeat",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-14T14:53:13.005Z"
+  },
+  {
+    "id": "8346af480451",
+    "title": "Portugal did the extraordinary with Cristiano Ronaldo. Can they do it without him?",
+    "date": "2026-11-14",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/14/portugal-cristiano-ronaldo-football-memories-future",
+    "summary": "Portugal did the extraordinary with Cristiano Ronaldo. Can they do it without him?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-14T14:53:13.005Z"
+  },
+  {
+    "id": "0a0481d71a8f",
+    "title": "Salah scores twice as Egypt and Nigeria win Afcon 2027 qualifiers",
+    "date": "2026-11-13",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cw1md9jx2r3po?at_medium=RSS&at_campaign=rss",
+    "summary": "Salah scores twice as Egypt and Nigeria win Afcon 2027 qualifiers",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-14T14:53:13.005Z"
+  },
+  {
+    "id": "e6bda8920ed1",
+    "title": "John McGinn double saves Scotland’s blushes against North Macedonia",
+    "date": "2026-11-13",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/13/scotland-north-macedonia-nations-league-match-report",
+    "summary": "John McGinn double saves Scotland’s blushes against North Macedonia",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-14T14:53:13.005Z"
+  },
+  {
+    "id": "c8b5f698f02e",
+    "title": "‘No one is unbeatable’: Tuchel eager for England to impose style on Spain",
+    "date": "2026-11-13",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/13/no-one-is-unbeatable-tuchel-eager-for-england-to-impose-style-on-spain",
+    "summary": "‘No one is unbeatable’: Tuchel eager for England to impose style on Spain",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-14T14:53:13.005Z"
+  },
+  {
+    "id": "eee6c007e051",
+    "title": "Football Daily | Taking a brief minute to remember Pierre Sage’s impact at Crystal Palace",
+    "date": "2026-11-13",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/13/pierre-sage-crystal-palace-football-daily-newsletter",
+    "summary": "Football Daily | Taking a brief minute to remember Pierre Sage’s impact at Crystal Palace",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-14T14:53:13.005Z"
+  },
+  {
     "id": "6026eddae764",
     "title": "Beckham to be inducted into US Soccer Hall of Fame",
     "date": "2026-11-13",
@@ -2080,70 +2197,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-10-15T13:11:42.612Z"
-  },
-  {
-    "id": "f0d7c39d225c",
-    "title": "Millwall's Neil criticised over racial abuse stoppage comments",
-    "date": "2026-10-14",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c6rmykw391ljo?at_medium=RSS&at_campaign=rss",
-    "summary": "Millwall's Neil criticised over racial abuse stoppage comments",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-15T13:11:42.612Z"
-  },
-  {
-    "id": "839cea1524e5",
-    "title": "Big scorelines, one-sided games - are Women's World Cup play-offs working?",
-    "date": "2026-10-14",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cq0k0x1l8gndo?at_medium=RSS&at_campaign=rss",
-    "summary": "Big scorelines, one-sided games - are Women's World Cup play-offs working?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-15T13:11:42.612Z"
-  },
-  {
-    "id": "839cea1524e5",
-    "title": "Big scorelines, one-sided games - are Women's World Cup play-offs working?",
-    "date": "2026-10-14",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cq0k0x1l8gndo?at_medium=RSS&at_campaign=rss",
-    "summary": "Big scorelines, one-sided games - are Women's World Cup play-offs working?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-15T13:11:42.612Z"
-  },
-  {
-    "id": "98387fff3ebc",
-    "title": "Lionesses breeze past Greece and how to progress the game – Women’s Football Weekly",
-    "date": "2026-10-14",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/audio/2026/oct/14/lionesses-breeze-past-greece-and-how-to-progress-the-game-womens-football-weekly-podcast",
-    "summary": "Lionesses breeze past Greece and how to progress the game – Women’s Football Weekly",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-15T13:11:42.612Z"
-  },
-  {
-    "id": "be4129ffb394",
-    "title": "Tottenham’s forgotten man Richarlison scores for under-21s: ‘I was missing it’",
-    "date": "2026-10-14",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/14/tottenham-richarlison-under-21s-cheltenham-efl-trophy",
-    "summary": "Tottenham’s forgotten man Richarlison scores for under-21s: ‘I was missing it’",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-14T13:26:54.080Z"
   }
 ];
