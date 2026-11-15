@@ -2,6 +2,123 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "29173b1fc372",
+    "title": "Branthwaite, Garner and King omitted for Spain game",
+    "date": "2026-11-15",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cq4gn7014x76o?at_medium=RSS&at_campaign=rss",
+    "summary": "Branthwaite, Garner and King omitted for Spain game",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-15T15:29:09.701Z"
+  },
+  {
+    "id": "2e6143296c7d",
+    "title": "Record-breaking Andy Robertson is Scotland’s finest captain",
+    "date": "2026-11-15",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/15/record-breaking-andy-robertson-is-scotlands-finest-captain",
+    "summary": "Record-breaking Andy Robertson is Scotland’s finest captain",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-15T15:29:09.701Z"
+  },
+  {
+    "id": "855aadf6321e",
+    "title": "Terry Butcher: ‘I’ve learned to live with the Hand of God goal better’",
+    "date": "2026-11-15",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/15/terry-butcher-ive-learned-to-live-with-the-hand-of-god-goal-better",
+    "summary": "Terry Butcher: ‘I’ve learned to live with the Hand of God goal better’",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-15T15:29:09.701Z"
+  },
+  {
+    "id": "0b140a381eca",
+    "title": "Spain test will reveal if Tuchel and England have learned World Cup lessons",
+    "date": "2026-11-14",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cq2d9l3e313zo?at_medium=RSS&at_campaign=rss",
+    "summary": "Spain test will reveal if Tuchel and England have learned World Cup lessons",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-15T15:29:09.701Z"
+  },
+  {
+    "id": "c94d71f003ef",
+    "title": "'No racism in Spain' – De la Fuente message for Tuchel",
+    "date": "2026-11-14",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c893r74ryy3qo?at_medium=RSS&at_campaign=rss",
+    "summary": "'No racism in Spain' – De la Fuente message for Tuchel",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-15T15:29:09.701Z"
+  },
+  {
+    "id": "c6773d86f967",
+    "title": "Declan Rice accepts he had an ‘average World Cup’ as England gear up for Spain showdown",
+    "date": "2026-11-14",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/14/declan-rice-england-spain-nations-league-world-cup-thomas-tuchel",
+    "summary": "Declan Rice accepts he had an ‘average World Cup’ as England gear up for Spain showdown",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-15T15:29:09.701Z"
+  },
+  {
+    "id": "fc35648b9377",
+    "title": "De la Fuente adamant there is no racism in Spain despite England reminder to players",
+    "date": "2026-11-14",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/14/luis-de-la-fuente-spain-england-racism-thomas-tuchel-natiions-league",
+    "summary": "De la Fuente adamant there is no racism in Spain despite England reminder to players",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-15T15:29:09.701Z"
+  },
+  {
+    "id": "e8e7d7440e7d",
+    "title": "Nations League roundup: Portugal mauled by Denmark as Norway sink Wales",
+    "date": "2026-11-14",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/14/clinical-norway-dent-wales-nations-league-top-tier-hopes-with-victory-in-oslo",
+    "summary": "Nations League roundup: Portugal mauled by Denmark as Norway sink Wales",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-15T15:29:09.701Z"
+  },
+  {
+    "id": "99c634bd9261",
+    "title": "Portugal immortalise Cristiano Ronaldo’s No 7 shirt in tribute to national legend",
+    "date": "2026-11-14",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/14/portugal-immortalise-cristiano-ronaldos-no-7-shirt-in-tribute-to-national-legend",
+    "summary": "Portugal immortalise Cristiano Ronaldo’s No 7 shirt in tribute to national legend",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-15T15:29:09.701Z"
+  },
+  {
     "id": "f2eb3b3ea554",
     "title": "Tuchel to remind England of anti-racism protocols before Spain game",
     "date": "2026-11-14",
@@ -2119,83 +2236,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-10-16T13:05:40.820Z"
-  },
-  {
-    "id": "2bcd0f09b95d",
-    "title": "Evanilson, Rayan and Rodríguez goals seal Bournemouth’s historic home win in Europe",
-    "date": "2026-10-15",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/15/bournemouth-sturm-graz-europa-league-match-report",
-    "summary": "Evanilson, Rayan and Rodríguez goals seal Bournemouth’s historic home win in Europe",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-16T13:05:40.820Z"
-  },
-  {
-    "id": "b1036461f3ef",
-    "title": "Noah Sadiki stunner earns Sunderland dramatic late win against Torreense",
-    "date": "2026-10-15",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/15/torreense-sunderland-europa-league-match-report",
-    "summary": "Noah Sadiki stunner earns Sunderland dramatic late win against Torreense",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-16T13:05:40.820Z"
-  },
-  {
-    "id": "b03af4ab0999",
-    "title": "Alex Scott quits Disney+ role as Women’s Champions League presenter",
-    "date": "2026-10-15",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/15/alex-scott-quits-disney-womens-champions-league-presenter",
-    "summary": "Alex Scott quits Disney+ role as Women’s Champions League presenter",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-16T13:05:40.820Z"
-  },
-  {
-    "id": "d84300068523",
-    "title": "Southgate does not see return to Premier League management",
-    "date": "2026-10-15",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c9kgj41jgm5go?at_medium=RSS&at_campaign=rss",
-    "summary": "Southgate does not see return to Premier League management",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-15T13:11:42.612Z"
-  },
-  {
-    "id": "b596bc873fe1",
-    "title": "Southgate ‘hardly watches’ football and does not envisage Premier League return",
-    "date": "2026-10-15",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/15/gareth-southgate-premier-league-return-manager-hardly-watches-football",
-    "summary": "Southgate ‘hardly watches’ football and does not envisage Premier League return",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-15T13:11:42.612Z"
-  },
-  {
-    "id": "e5f635c640e7",
-    "title": "After struggles v Spain, the USWNT’s midfield puzzle won’t be easily solved",
-    "date": "2026-10-15",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/15/uswnt-midfield-spain-womens-world-cup",
-    "summary": "After struggles v Spain, the USWNT’s midfield puzzle won’t be easily solved",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-15T13:11:42.612Z"
   }
 ];
