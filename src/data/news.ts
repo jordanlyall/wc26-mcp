@@ -2,6 +2,214 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "94f5e65df4da",
+    "title": "Klopp says Infantino worse than Blatter",
+    "date": "2026-11-16",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cjr4gr2k41dxo?at_medium=RSS&at_campaign=rss",
+    "summary": "Klopp says Infantino worse than Blatter",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-16T18:08:44.176Z"
+  },
+  {
+    "id": "01353b89433e",
+    "title": "Cap fits as Robertson poised to take King Kenny's crown",
+    "date": "2026-11-16",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cjp3v5r9enp1o?at_medium=RSS&at_campaign=rss",
+    "summary": "Cap fits as Robertson poised to take King Kenny's crown",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-16T18:08:44.176Z"
+  },
+  {
+    "id": "3a696b774990",
+    "title": "Belgium's Lukaku retires from internationals",
+    "date": "2026-11-16",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cwlymxr0ge8zo?at_medium=RSS&at_campaign=rss",
+    "summary": "Belgium's Lukaku retires from internationals",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-16T18:08:44.176Z"
+  },
+  {
+    "id": "51c652ead6fc",
+    "title": "Is Scotland's system limiting Gannon-Doak's threat?",
+    "date": "2026-11-16",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c64gnpvdld40o?at_medium=RSS&at_campaign=rss",
+    "summary": "Is Scotland's system limiting Gannon-Doak's threat?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-16T18:08:44.176Z"
+  },
+  {
+    "id": "01353b89433e",
+    "title": "Robertson to cap it all as he takes King Kenny's crown",
+    "date": "2026-11-16",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cjp3v5r9enp1o?at_medium=RSS&at_campaign=rss",
+    "summary": "Robertson to cap it all as he takes King Kenny's crown",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-16T18:08:44.176Z"
+  },
+  {
+    "id": "51c652ead6fc",
+    "title": "What do Scotland do about 'scunnered' Gannon-Doak?",
+    "date": "2026-11-16",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c64gnpvdld40o?at_medium=RSS&at_campaign=rss",
+    "summary": "What do Scotland do about 'scunnered' Gannon-Doak?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-16T18:08:44.176Z"
+  },
+  {
+    "id": "9402db969d6c",
+    "title": "McAteer 'intelligence' earns praise from Ipswich boss",
+    "date": "2026-11-16",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cmrlg3dgyp50o?at_medium=RSS&at_campaign=rss",
+    "summary": "McAteer 'intelligence' earns praise from Ipswich boss",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-16T18:08:44.176Z"
+  },
+  {
+    "id": "ac0a03442e3f",
+    "title": "Football Daily | England’s Nations League triumph in Spain sparks familiar rush to glory",
+    "date": "2026-11-16",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/16/england-spain-nations-league-victory-football-daily-newsletter",
+    "summary": "Football Daily | England’s Nations League triumph in Spain sparks familiar rush to glory",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-16T18:08:44.176Z"
+  },
+  {
+    "id": "57266bb7fbd1",
+    "title": "A long wait, some magic and that smile: Ronaldinho savours Ravenna debut at 46",
+    "date": "2026-11-16",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/16/ronaldinho-ravenna-debut-serie-c-report",
+    "summary": "A long wait, some magic and that smile: Ronaldinho savours Ravenna debut at 46",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-16T18:08:44.176Z"
+  },
+  {
+    "id": "5443028496e1",
+    "title": "Beckham firm sues after fragrance found for sale in discount store",
+    "date": "2026-11-16",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/16/david-beckham-fragrance-sale-poundland-bargain-bin-gas-station",
+    "summary": "Beckham firm sues after fragrance found for sale in discount store",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-16T18:08:44.176Z"
+  },
+  {
+    "id": "a6c48fef846f",
+    "title": "Do good club managers necessarily make good international managers? | Jonathan Wilson",
+    "date": "2026-11-16",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/global/2026/nov/16/mauricio-pochettino-usmnt-replacement-coach",
+    "summary": "Do good club managers necessarily make good international managers? | Jonathan Wilson",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-16T18:08:44.176Z"
+  },
+  {
+    "id": "ebcd3015203a",
+    "title": "Familiarity of Doha drives home just how far Socceroos have come in recent years",
+    "date": "2026-11-16",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/blog/2026/nov/16/doha-socceroos-return-stronger-after-asian-cup-heartbreak",
+    "summary": "Familiarity of Doha drives home just how far Socceroos have come in recent years",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-16T18:08:44.176Z"
+  },
+  {
+    "id": "18dcdfa3f25a",
+    "title": "Why 'inspiring' Van Gaal influences Scotland head coach Pocognoli",
+    "date": "2026-11-15",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cw1mdl14dzx8o?at_medium=RSS&at_campaign=rss",
+    "summary": "Why 'inspiring' Van Gaal influences Scotland head coach Pocognoli",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-16T18:08:44.176Z"
+  },
+  {
+    "id": "18dcdfa3f25a",
+    "title": "Why 'inspiring' Van Gaal influences Scotland head coach Pocognoli",
+    "date": "2026-11-15",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cw1mdl14dzx8o?at_medium=RSS&at_campaign=rss",
+    "summary": "Why 'inspiring' Van Gaal influences Scotland head coach Pocognoli",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-16T18:08:44.176Z"
+  },
+  {
+    "id": "ae6470690943",
+    "title": "Three Lions’ win over Spain comes in two acts: the first superb, the second heroic | Sid Lowe",
+    "date": "2026-11-15",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/15/england-superb-heroic-spain-nations-league",
+    "summary": "Three Lions’ win over Spain comes in two acts: the first superb, the second heroic | Sid Lowe",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-16T18:08:44.176Z"
+  },
+  {
+    "id": "64cf291aafa5",
+    "title": "Red Brawl New York: Fighting and six red cards mar ‘friendly’ v Club América",
+    "date": "2026-11-15",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/15/red-bulls-club-america-brawl-friendly",
+    "summary": "Red Brawl New York: Fighting and six red cards mar ‘friendly’ v Club América",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-16T18:08:44.176Z"
+  },
+  {
     "id": "29173b1fc372",
     "title": "Branthwaite, Garner and King omitted for Spain game",
     "date": "2026-11-15",
@@ -2171,70 +2379,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-10-17T12:02:29.250Z"
-  },
-  {
-    "id": "cb487dce7215",
-    "title": "The Florian Wirtz mystery: why has he not found Leverkusen form at Liverpool?",
-    "date": "2026-10-16",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/16/florian-wirtz-mystery-found-bayer-leverkusen-form-liverpool",
-    "summary": "The Florian Wirtz mystery: why has he not found Leverkusen form at Liverpool?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-17T12:02:29.250Z"
-  },
-  {
-    "id": "c292fbf78c05",
-    "title": "Spain handed partial stadium closure after discriminatory chants v Egypt",
-    "date": "2026-10-16",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cr86zg3w2lg2o?at_medium=RSS&at_campaign=rss",
-    "summary": "Spain handed partial stadium closure after discriminatory chants v Egypt",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-16T13:05:40.820Z"
-  },
-  {
-    "id": "d4236779087c",
-    "title": "The rapid rise of a former art dealer to Europe's hottest young manager",
-    "date": "2026-10-16",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cmde8l07569no?at_medium=RSS&at_campaign=rss",
-    "summary": "The rapid rise of a former art dealer to Europe's hottest young manager",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-16T13:05:40.820Z"
-  },
-  {
-    "id": "cd1fd3619b8d",
-    "title": "The England keeper set to face his dad at a World Cup",
-    "date": "2026-10-16",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cw98z1v08vg4o?at_medium=RSS&at_campaign=rss",
-    "summary": "The England keeper set to face his dad at a World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-16T13:05:40.820Z"
-  },
-  {
-    "id": "3db741d5686e",
-    "title": "Balikwisha blames Celtic for World Cup axe - gossip",
-    "date": "2026-10-16",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cm62y9yl2v66o?at_medium=RSS&at_campaign=rss",
-    "summary": "Balikwisha blames Celtic for World Cup axe - gossip",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-16T13:05:40.820Z"
   }
 ];
