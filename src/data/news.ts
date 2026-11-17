@@ -2,6 +2,227 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "04021903a7e7",
+    "title": "London City's Goodwin gets first England call-up",
+    "date": "2026-11-17",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cr9d7pw90x14o?at_medium=RSS&at_campaign=rss",
+    "summary": "London City's Goodwin gets first England call-up",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-17T17:28:46.039Z"
+  },
+  {
+    "id": "df70117b6dad",
+    "title": "Romario demands Ancelotti sacking as war of words continues",
+    "date": "2026-11-17",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c63rgq02pz9qo?at_medium=RSS&at_campaign=rss",
+    "summary": "Romario demands Ancelotti sacking as war of words continues",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-17T17:28:46.039Z"
+  },
+  {
+    "id": "904db3bad01c",
+    "title": "Pochettino says he would tell Guardiola to take USA job",
+    "date": "2026-11-17",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/crgj36e6ee5yo?at_medium=RSS&at_campaign=rss",
+    "summary": "Pochettino says he would tell Guardiola to take USA job",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-17T17:28:46.039Z"
+  },
+  {
+    "id": "4935e0be204c",
+    "title": "Are Scotland still too reliant on 'old guard'?",
+    "date": "2026-11-17",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c6zxvd1p4pr0o?at_medium=RSS&at_campaign=rss",
+    "summary": "Are Scotland still too reliant on 'old guard'?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-17T17:28:46.039Z"
+  },
+  {
+    "id": "4935e0be204c",
+    "title": "Are Scotland still too reliant on 'old guard'?",
+    "date": "2026-11-17",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c6zxvd1p4pr0o?at_medium=RSS&at_campaign=rss",
+    "summary": "Are Scotland still too reliant on 'old guard'?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-17T17:28:46.039Z"
+  },
+  {
+    "id": "04021903a7e7",
+    "title": "London City's Goodwin gets first England call-up",
+    "date": "2026-11-17",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cr9d7pw90x14o?at_medium=RSS&at_campaign=rss",
+    "summary": "London City's Goodwin gets first England call-up",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-17T17:28:46.039Z"
+  },
+  {
+    "id": "e9f2ad947513",
+    "title": "Peter Storey, Arsenal Double winner and England international, dies aged 81",
+    "date": "2026-11-17",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/17/peter-storey-arsenal-england-dies-aged-81",
+    "summary": "Peter Storey, Arsenal Double winner and England international, dies aged 81",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-17T17:28:46.039Z"
+  },
+  {
+    "id": "c5c05575de40",
+    "title": "Pocognoli’s aspiration for how Scotland must play is in danger of becoming unworkable",
+    "date": "2026-11-17",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/17/sebastien-pocognoli-scotland-nations-league-switzerland",
+    "summary": "Pocognoli’s aspiration for how Scotland must play is in danger of becoming unworkable",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-17T17:28:46.039Z"
+  },
+  {
+    "id": "5e7559b8efc0",
+    "title": "Football Daily | Jürgen Klopp hard-launches his Germany rebuilding project in style",
+    "date": "2026-11-17",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/17/jurgen-klopp-germany-project-football-daily-newsletter",
+    "summary": "Football Daily | Jürgen Klopp hard-launches his Germany rebuilding project in style",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-17T17:28:46.039Z"
+  },
+  {
+    "id": "eba4bf33b159",
+    "title": "Wiegman cites young talent as key to new England deal after calling up Goodwin",
+    "date": "2026-11-17",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/17/sarina-wiegman-england-young-talent-contract-isobel-goodwin-squad",
+    "summary": "Wiegman cites young talent as key to new England deal after calling up Goodwin",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-17T17:28:46.039Z"
+  },
+  {
+    "id": "f06ce0966b4e",
+    "title": "Janine van Wyk: ‘Our rooms were empty … no mattresses, no lightbulbs and not a drop of water’",
+    "date": "2026-11-17",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/17/janine-van-wyck-south-africa-wafcon-book-extract-moving-the-goalposts-newsletter",
+    "summary": "Janine van Wyk: ‘Our rooms were empty … no mattresses, no lightbulbs and not a drop of water’",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-17T17:28:46.039Z"
+  },
+  {
+    "id": "2625f0c2ddc9",
+    "title": "Declan Rice agrees new Arsenal contract making him club’s joint highest-paid player",
+    "date": "2026-11-17",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/17/declan-rice-new-arsenal-contract-jurrien-timber",
+    "summary": "Declan Rice agrees new Arsenal contract making him club’s joint highest-paid player",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-17T17:28:46.039Z"
+  },
+  {
+    "id": "11b5caf42d82",
+    "title": "Pocognoli wants patience, but Scotland 'don't have time' - Robertson",
+    "date": "2026-11-16",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cwnv432qy0l1o?at_medium=RSS&at_campaign=rss",
+    "summary": "Pocognoli wants patience, but Scotland 'don't have time' - Robertson",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-17T17:28:46.039Z"
+  },
+  {
+    "id": "050351e31be9",
+    "title": "Portugal boss responds to criticism from Ronaldo's mum",
+    "date": "2026-11-16",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/ck87984g3x1po?at_medium=RSS&at_campaign=rss",
+    "summary": "Portugal boss responds to criticism from Ronaldo's mum",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-17T17:28:46.039Z"
+  },
+  {
+    "id": "11b5caf42d82",
+    "title": "Pocognoli wants patience, but Scotland 'don't have time' - Robertson",
+    "date": "2026-11-16",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cwnv432qy0l1o?at_medium=RSS&at_campaign=rss",
+    "summary": "Pocognoli wants patience, but Scotland 'don't have time' - Robertson",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-17T17:28:46.039Z"
+  },
+  {
+    "id": "6e796c27a1de",
+    "title": "Tuchel and England must learn lessons of history, Seville and Southgateism | Barney Ronay",
+    "date": "2026-11-16",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/16/thomas-tuchel-england-must-learn-lessons-history-seville-gareth-southgate",
+    "summary": "Tuchel and England must learn lessons of history, Seville and Southgateism | Barney Ronay",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-17T17:28:46.039Z"
+  },
+  {
+    "id": "4e17114ed4cf",
+    "title": "Switzerland roll over sorry Scotland to increase the pressure on Pocognoli",
+    "date": "2026-11-16",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/16/switzerland-scotland-nations-league-match-report",
+    "summary": "Switzerland roll over sorry Scotland to increase the pressure on Pocognoli",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-17T17:28:46.039Z"
+  },
+  {
     "id": "94f5e65df4da",
     "title": "Klopp says Infantino worse than Blatter",
     "date": "2026-11-16",
@@ -2353,31 +2574,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-10-18T12:30:30.657Z"
-  },
-  {
-    "id": "2dbe602fd90b",
-    "title": "Houthi conflict casts shadow as Saudi Arabia scales back sporting pipe dreams",
-    "date": "2026-10-17",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/sport/2026/oct/17/houthi-conflict-casts-shadow-as-saudi-arabia-scales-back-sporting-pipe-dreams",
-    "summary": "Houthi conflict casts shadow as Saudi Arabia scales back sporting pipe dreams",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-18T12:30:30.657Z"
-  },
-  {
-    "id": "238d709e5bc6",
-    "title": "'Ferguson poised to become Glentoran manager' - gossip",
-    "date": "2026-10-17",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cq70pr5270p7o?at_medium=RSS&at_campaign=rss",
-    "summary": "'Ferguson poised to become Glentoran manager' - gossip",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-17T12:02:29.250Z"
   }
 ];
