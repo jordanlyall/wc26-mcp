@@ -2,6 +2,175 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "e7ab6c60b6a9",
+    "title": "Sam Coffey returns to USWNT roster for World Cup qualifying",
+    "date": "2026-11-18",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/50520685/sam-coffey-returns-uswnt-roster-world-cup-qualifying",
+    "summary": "Sam Coffey returns to USWNT roster for World Cup qualifying",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-18T17:02:54.592Z"
+  },
+  {
+    "id": "f925f881ca75",
+    "title": "Pochettino gets a fitting, emotional send-off from USMNT",
+    "date": "2026-11-18",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/50516323/mauricio-pochettino-emotional-send-usmnt-manchester-united",
+    "summary": "Pochettino gets a fitting, emotional send-off from USMNT",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-18T17:02:54.592Z"
+  },
+  {
+    "id": "e650f468a98b",
+    "title": "Why the USMNT doesn't need a Guardiola-tier manager after Pochettino",
+    "date": "2026-11-18",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/50502389/usmnt-pep-guardiola-mauricio-pochettino-manchester-city",
+    "summary": "Why the USMNT doesn't need a Guardiola-tier manager after Pochettino",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-18T17:02:54.592Z"
+  },
+  {
+    "id": "d651e46a75b8",
+    "title": "Who should be the USMNT's coaching candidates to succeed Pochettino?",
+    "date": "2026-11-18",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/50464388/usmnt-coaching-candidates-replace-mauricio-pochettino",
+    "summary": "Who should be the USMNT's coaching candidates to succeed Pochettino?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-18T17:02:54.592Z"
+  },
+  {
+    "id": "9d17f58cd4dc",
+    "title": "Record crowds, legends - Bordeaux bid to escape amateur game",
+    "date": "2026-11-18",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c63rgqrz9jgqo?at_medium=RSS&at_campaign=rss",
+    "summary": "Record crowds, legends - Bordeaux bid to escape amateur game",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-18T17:02:54.592Z"
+  },
+  {
+    "id": "0f8d22e75710",
+    "title": "Pressley calls for national centre to enhance Scottish game",
+    "date": "2026-11-18",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cmvg28v270yzo?at_medium=RSS&at_campaign=rss",
+    "summary": "Pressley calls for national centre to enhance Scottish game",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-18T17:02:54.592Z"
+  },
+  {
+    "id": "98f7e85f6bb4",
+    "title": "Football Daily | From Cincinnati to Manchester: Pochettino in a hurry to paint town red",
+    "date": "2026-11-18",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/18/cincinnati-manchester-united-pochettino-football-daily-newsletter",
+    "summary": "Football Daily | From Cincinnati to Manchester: Pochettino in a hurry to paint town red",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-18T17:02:54.592Z"
+  },
+  {
+    "id": "b25b513e4b9a",
+    "title": "Swing when you’re winning? Biggest leaps across Fifa’s football rankings | The Knowledge",
+    "date": "2026-11-18",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/18/biggest-leaps-across-fifa-football-rankings-the-knowledge",
+    "summary": "Swing when you’re winning? Biggest leaps across Fifa’s football rankings | The Knowledge",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-18T17:02:54.592Z"
+  },
+  {
+    "id": "fd035a4b0fd0",
+    "title": "Jack Grealish recalls a golden age of mavericks – but football has moved on",
+    "date": "2026-11-18",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/18/jack-grealish-recalls-a-golden-age-of-mavericks-but-football-has-moved-on",
+    "summary": "Jack Grealish recalls a golden age of mavericks – but football has moved on",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-18T17:02:54.592Z"
+  },
+  {
+    "id": "a2e7a112d54e",
+    "title": "USWNT squad: Emma Hayes names veteran group for Concacaf championship and World Cup qualifier",
+    "date": "2026-11-18",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/18/uswnt-squad-concacaf-w-championship-world-cup-qualifier",
+    "summary": "USWNT squad: Emma Hayes names veteran group for Concacaf championship and World Cup qualifier",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-18T17:02:54.592Z"
+  },
+  {
+    "id": "4a2ce0accfaf",
+    "title": "Senegal and Morocco lead Afcon qualifiers but Tunisia protest",
+    "date": "2026-11-17",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c5evrgrvw1ezo?at_medium=RSS&at_campaign=rss",
+    "summary": "Senegal and Morocco lead Afcon qualifiers but Tunisia protest",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-18T17:02:54.592Z"
+  },
+  {
+    "id": "3a90dc9968a3",
+    "title": "Portugal’s new No 7 Forbs channels Ronaldo for winner as Wales are denied",
+    "date": "2026-11-17",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/17/wales-portugal-nations-league-match-report",
+    "summary": "Portugal’s new No 7 Forbs channels Ronaldo for winner as Wales are denied",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-18T17:02:54.592Z"
+  },
+  {
+    "id": "8d10819761e9",
+    "title": "Echoes of Azteca but not like Argentina: fearless England start afresh in Madrid",
+    "date": "2026-11-17",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/17/azteca-argentina-fearless-england-start-afresh-spain",
+    "summary": "Echoes of Azteca but not like Argentina: fearless England start afresh in Madrid",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-18T17:02:54.592Z"
+  },
+  {
     "id": "04021903a7e7",
     "title": "London City's Goodwin gets first England call-up",
     "date": "2026-11-17",
@@ -2548,31 +2717,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-10-19T15:23:12.158Z"
-  },
-  {
-    "id": "6f0f13da3d9c",
-    "title": "Kirby 'stressed' by abrupt Vidosic exit from Brighton",
-    "date": "2026-10-18",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cjly05yn12w5o?at_medium=RSS&at_campaign=rss",
-    "summary": "Kirby 'stressed' by abrupt Vidosic exit from Brighton",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-18T12:30:30.657Z"
-  },
-  {
-    "id": "6f0f13da3d9c",
-    "title": "Kirby 'stressed' by abrupt Vidosic exit from Brighton",
-    "date": "2026-10-18",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cjly05yn12w5o?at_medium=RSS&at_campaign=rss",
-    "summary": "Kirby 'stressed' by abrupt Vidosic exit from Brighton",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-18T12:30:30.657Z"
   }
 ];
