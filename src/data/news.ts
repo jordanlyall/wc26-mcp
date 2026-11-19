@@ -2,6 +2,123 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "a76e34e58ddb",
+    "title": "Five return for Wales' World Cup play-off final",
+    "date": "2026-11-19",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c620535y8zpjo?at_medium=RSS&at_campaign=rss",
+    "summary": "Five return for Wales' World Cup play-off final",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-19T17:11:12.242Z"
+  },
+  {
+    "id": "a76e34e58ddb",
+    "title": "Five return for Wales' World Cup play-off final",
+    "date": "2026-11-19",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c620535y8zpjo?at_medium=RSS&at_campaign=rss",
+    "summary": "Five return for Wales' World Cup play-off final",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-19T17:11:12.242Z"
+  },
+  {
+    "id": "5a90bacaacd9",
+    "title": "Gonzalo García: ‘I love Craven Cottage – the fans can reach out and touch you’",
+    "date": "2026-11-19",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/19/gonzalo-garcia-fulham-spain-premier-leaue-interview",
+    "summary": "Gonzalo García: ‘I love Craven Cottage – the fans can reach out and touch you’",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-19T17:11:12.242Z"
+  },
+  {
+    "id": "4005ee6370eb",
+    "title": "Inside women’s football’s difficult rise in Syria: ‘A joy that everyone in the country needed’",
+    "date": "2026-11-19",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/19/syria-womens-football",
+    "summary": "Inside women’s football’s difficult rise in Syria: ‘A joy that everyone in the country needed’",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-19T17:11:12.242Z"
+  },
+  {
+    "id": "6bb471369cce",
+    "title": "Scotland smashed by the Swiss and Mauricio Pochettino takes charge | Football Weekly – video",
+    "date": "2026-11-19",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/video/2026/nov/19/scotland-smashed-by-the-swiss-and-mauricio-pochettino-takes-charge-football-weekly-video",
+    "summary": "Scotland smashed by the Swiss and Mauricio Pochettino takes charge | Football Weekly – video",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-19T17:11:12.242Z"
+  },
+  {
+    "id": "9921206648b5",
+    "title": "Rooney revelations important - Bradford boss Duff",
+    "date": "2026-11-18",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cvrlgke13e9go?at_medium=RSS&at_campaign=rss",
+    "summary": "Rooney revelations important - Bradford boss Duff",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-19T17:11:12.242Z"
+  },
+  {
+    "id": "9010d14ca704",
+    "title": "Emma Hayes to assist in US Soccer hiring process for next USMNT coach",
+    "date": "2026-11-18",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/18/emma-hayes-usmnt-head-coach-hiring-process",
+    "summary": "Emma Hayes to assist in US Soccer hiring process for next USMNT coach",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-19T17:11:12.242Z"
+  },
+  {
+    "id": "2012da48d4cf",
+    "title": "‘An honour’: Pochettino up for challenge of leading Manchester United revival",
+    "date": "2026-11-18",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/18/mauricio-pochettino-arrives-manchester-united-head-coach-premier-league",
+    "summary": "‘An honour’: Pochettino up for challenge of leading Manchester United revival",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-19T17:11:12.242Z"
+  },
+  {
+    "id": "46c3ef9f1190",
+    "title": "Mauricio Pochettino’s USMNT time will be remembered fondly, but it wasn’t transformational",
+    "date": "2026-11-18",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/18/pochettino-usmnt-manchester-united",
+    "summary": "Mauricio Pochettino’s USMNT time will be remembered fondly, but it wasn’t transformational",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-19T17:11:12.242Z"
+  },
+  {
     "id": "e7ab6c60b6a9",
     "title": "Sam Coffey returns to USWNT roster for World Cup qualifying",
     "date": "2026-11-18",
@@ -130,6 +247,19 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-11-18T17:02:54.592Z"
+  },
+  {
+    "id": "fda4b91e464d",
+    "title": "Thomas Frank’s to-do list: lift mood, fix defence and fire up Sarr and Mateta",
+    "date": "2026-11-17",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/17/thomas-frank-crystal-palace-pierre-sage-sacked-steve-parish",
+    "summary": "Thomas Frank’s to-do list: lift mood, fix defence and fire up Sarr and Mateta",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-19T17:11:12.242Z"
   },
   {
     "id": "4a2ce0accfaf",
@@ -325,6 +455,19 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-11-17T17:28:46.039Z"
+  },
+  {
+    "id": "1180d7c42b18",
+    "title": "Spain in pain as historic run ends but De la Fuente feels best is yet to come",
+    "date": "2026-11-16",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/16/luis-de-la-fuente-spain-england-nations-league",
+    "summary": "Spain in pain as historic run ends but De la Fuente feels best is yet to come",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-19T17:11:12.242Z"
   },
   {
     "id": "11b5caf42d82",
@@ -2600,122 +2743,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-10-20T13:25:54.291Z"
-  },
-  {
-    "id": "8c43ec5024c1",
-    "title": "Building Lionesses 2.0 - Wiegman's new challenge awaits",
-    "date": "2026-10-19",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cvze4w57746yo?at_medium=RSS&at_campaign=rss",
-    "summary": "Building Lionesses 2.0 - Wiegman's new challenge awaits",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-20T13:25:54.291Z"
-  },
-  {
-    "id": "8c43ec5024c1",
-    "title": "Building Lionesses 2.0 - Wiegman's new challenge awaits",
-    "date": "2026-10-19",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cvze4w57746yo?at_medium=RSS&at_campaign=rss",
-    "summary": "Building Lionesses 2.0 - Wiegman's new challenge awaits",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-20T13:25:54.291Z"
-  },
-  {
-    "id": "7e1511bfd345",
-    "title": "England manager Wiegman signs contract extension",
-    "date": "2026-10-19",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c679plpvellgo?at_medium=RSS&at_campaign=rss",
-    "summary": "England manager Wiegman signs contract extension",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-19T15:23:12.158Z"
-  },
-  {
-    "id": "0b83faa231a0",
-    "title": "Beer & Blackpool beach was how British players bonded - Pulis",
-    "date": "2026-10-19",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cjr4yndrz1kro?at_medium=RSS&at_campaign=rss",
-    "summary": "Beer & Blackpool beach was how British players bonded - Pulis",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-19T15:23:12.158Z"
-  },
-  {
-    "id": "7e1511bfd345",
-    "title": "England manager Wiegman signs contract extension",
-    "date": "2026-10-19",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c679plpvellgo?at_medium=RSS&at_campaign=rss",
-    "summary": "England manager Wiegman signs contract extension",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-19T15:23:12.158Z"
-  },
-  {
-    "id": "edc0d2cbf988",
-    "title": "‘Leaving England is scary but I’m here to win’: Charlie Cresswell on Ligue 1 life and his international dream",
-    "date": "2026-10-19",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/19/england-charlie-cresswell-ligue-1-england-france-leeds-juventus-europa-league",
-    "summary": "‘Leaving England is scary but I’m here to win’: Charlie Cresswell on Ligue 1 life and his international dream",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-19T15:23:12.158Z"
-  },
-  {
-    "id": "9da7c20505e4",
-    "title": "Sarina Wiegman signs contract extension to stay as England women head coach until 2029",
-    "date": "2026-10-19",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/19/sarina-wiegman-signs-contract-extension-england-women-euro-2029",
-    "summary": "Sarina Wiegman signs contract extension to stay as England women head coach until 2029",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-19T15:23:12.158Z"
-  },
-  {
-    "id": "6b4dba9799db",
-    "title": "Semenyo’s eight-week injury absence leaves Manchester City short on cover for Haaland",
-    "date": "2026-10-19",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/19/antoine-semenyo-eight-week-knee-injury-absence-manchester-city-short-cover-erling-haaland",
-    "summary": "Semenyo’s eight-week injury absence leaves Manchester City short on cover for Haaland",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-19T15:23:12.158Z"
-  },
-  {
-    "id": "d47128ab8aeb",
-    "title": "Premier League: 10 talking points from the weekend’s action",
-    "date": "2026-10-19",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/19/premier-league-10-talking-points-from-the-weekends-action",
-    "summary": "Premier League: 10 talking points from the weekend’s action",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-19T15:23:12.158Z"
   }
 ];
