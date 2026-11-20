@@ -2,6 +2,58 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "7bb384634732",
+    "title": "Celtic's Baur out for 10 weeks, says O'Neill",
+    "date": "2026-11-20",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cvrlgx1l4lnlo?at_medium=RSS&at_campaign=rss",
+    "summary": "Celtic's Baur out for 10 weeks, says O'Neill",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-20T16:49:37.776Z"
+  },
+  {
+    "id": "7bb384634732",
+    "title": "Celtic's Baur out for 10 weeks, says O'Neill",
+    "date": "2026-11-20",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cvrlgx1l4lnlo?at_medium=RSS&at_campaign=rss",
+    "summary": "Celtic's Baur out for 10 weeks, says O'Neill",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-20T16:49:37.776Z"
+  },
+  {
+    "id": "bb673728e4ad",
+    "title": "Bukayo Saka may not return for Arsenal before Christmas, Mikel Arteta admits",
+    "date": "2026-11-20",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/20/bukayo-saka-injury-may-not-play-arsenal-before-christmas-mikel-arteta",
+    "summary": "Bukayo Saka may not return for Arsenal before Christmas, Mikel Arteta admits",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-20T16:49:37.776Z"
+  },
+  {
+    "id": "3ecaa035d51c",
+    "title": "Summer signings join Lionel Messi among MLS’s top earners: Takeaways from the league’s salary release",
+    "date": "2026-11-19",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/19/mls-salary-release-lionel-messi-spent-per-point",
+    "summary": "Summer signings join Lionel Messi among MLS’s top earners: Takeaways from the league’s salary release",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-20T16:49:37.776Z"
+  },
+  {
     "id": "a76e34e58ddb",
     "title": "Five return for Wales' World Cup play-off final",
     "date": "2026-11-19",
@@ -2717,31 +2769,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-10-21T13:35:25.231Z"
-  },
-  {
-    "id": "518400a75c5a",
-    "title": "US under-17 women beat Samoa 17-0 for biggest win in World Cup history",
-    "date": "2026-10-20",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/20/uswnt-u-17-samoa-world-cup",
-    "summary": "US under-17 women beat Samoa 17-0 for biggest win in World Cup history",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-21T13:35:25.231Z"
-  },
-  {
-    "id": "53a0210b2b8e",
-    "title": "Dwight Yorke: ‘I’m not a kid trying to get into management – I’m a manager’",
-    "date": "2026-10-20",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/20/dwight-yorke-interview-manager-ghana-trinidad-and-tobago",
-    "summary": "Dwight Yorke: ‘I’m not a kid trying to get into management – I’m a manager’",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-20T13:25:54.291Z"
   }
 ];
