@@ -2,6 +2,45 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "caf899c6c00b",
+    "title": "Bayern draw with Cologne as Kane picks up ankle injury",
+    "date": "2026-11-21",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/videos/ck7v2nz0lp32o?at_medium=RSS&at_campaign=rss",
+    "summary": "Bayern draw with Cologne as Kane picks up ankle injury",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-21T15:58:44.818Z"
+  },
+  {
+    "id": "4d22b0eff5e0",
+    "title": "Bayern Munich confirm Harry Kane ‘out for next few months’ with ankle injury",
+    "date": "2026-11-20",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/20/harry-kane-ankle-ligament-injury-bayern-munich-england",
+    "summary": "Bayern Munich confirm Harry Kane ‘out for next few months’ with ankle injury",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-21T15:58:44.818Z"
+  },
+  {
+    "id": "9769e813624d",
+    "title": "Training hard and biding his time, Dele Alli has not given up on football yet",
+    "date": "2026-11-20",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/20/dele-alli-tottenham-mk-dons-england",
+    "summary": "Training hard and biding his time, Dele Alli has not given up on football yet",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-21T15:58:44.818Z"
+  },
+  {
     "id": "7bb384634732",
     "title": "Celtic's Baur out for 10 weeks, says O'Neill",
     "date": "2026-11-20",
@@ -2743,31 +2782,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-10-23T13:13:00.357Z"
-  },
-  {
-    "id": "2167da90783e",
-    "title": "Is it 'phenomenal' Kane's year to lift the Ballon d'Or?",
-    "date": "2026-10-21",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/videos/crpdg21y070jo?at_medium=RSS&at_campaign=rss",
-    "summary": "Is it 'phenomenal' Kane's year to lift the Ballon d'Or?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-22T13:37:08.556Z"
-  },
-  {
-    "id": "ab488e6993e8",
-    "title": "Cristiano Ronaldo asked for punishment ‘without mitigation’, then fought to cut it",
-    "date": "2026-10-21",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/21/cristiano-ronaldo-punishment-portugal-walkout-without-mitigation-fought-to-cut-it",
-    "summary": "Cristiano Ronaldo asked for punishment ‘without mitigation’, then fought to cut it",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-21T13:35:25.231Z"
   }
 ];
