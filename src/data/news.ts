@@ -2,6 +2,32 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "ccc74ae7575a",
+    "title": "Scottish Football Podcast",
+    "date": "2026-11-22",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sounds/play/p0pp1j7j?at_medium=RSS&at_campaign=rss",
+    "summary": "Scottish Football Podcast",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-22T16:03:26.983Z"
+  },
+  {
+    "id": "35baf244b02b",
+    "title": "Evanilson and Kluivert sink Forest to earn Bournemouth ninth win in a row",
+    "date": "2026-11-21",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/21/bournemouth-nottingham-forest-premier-league-match-report",
+    "summary": "Evanilson and Kluivert sink Forest to earn Bournemouth ninth win in a row",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-22T16:03:26.983Z"
+  },
+  {
     "id": "caf899c6c00b",
     "title": "Bayern draw with Cologne as Kane picks up ankle injury",
     "date": "2026-11-21",
@@ -2764,19 +2790,6 @@ export const news: NewsItem[] = [
     "source": "The Guardian",
     "url": "https://www.theguardian.com/football/2026/oct/23/fabian-gross-obsessive-runner-brighton-one-step-ahead",
     "summary": "Pascal Gross: the obsessive runner keeping Brighton ‘one step ahead’ after fast start",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-23T13:13:00.357Z"
-  },
-  {
-    "id": "b96d3f9cc233",
-    "title": "Next in line? Main contenders for the Manchester United hot seat",
-    "date": "2026-10-22",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/22/contenders-manchester-united-next-manager-michael-carrick",
-    "summary": "Next in line? Main contenders for the Manchester United hot seat",
     "categories": [
       "general"
     ],
