@@ -2,6 +2,123 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "706e5c81775e",
+    "title": "Andreatta's masterplan to shock Sweden & take Scots to World Cup",
+    "date": "2026-11-23",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c94gn2mmjr4eo?at_medium=RSS&at_campaign=rss",
+    "summary": "Andreatta's masterplan to shock Sweden & take Scots to World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-23T19:58:09.419Z"
+  },
+  {
+    "id": "706e5c81775e",
+    "title": "Andreatta's masterplan to shock Sweden & take Scots to World Cup",
+    "date": "2026-11-23",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c94gn2mmjr4eo?at_medium=RSS&at_campaign=rss",
+    "summary": "Andreatta's masterplan to shock Sweden & take Scots to World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-23T19:58:09.419Z"
+  },
+  {
+    "id": "706e5c81775e",
+    "title": "Andreatta's masterplan to shock Sweden & take Scots to World Cup",
+    "date": "2026-11-23",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c94gn2mmjr4eo?at_medium=RSS&at_campaign=rss",
+    "summary": "Andreatta's masterplan to shock Sweden & take Scots to World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-23T19:58:09.419Z"
+  },
+  {
+    "id": "cc825fd638c2",
+    "title": "Mustaki out of World Cup play-off with knee injury",
+    "date": "2026-11-23",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cw33g15zeemro?at_medium=RSS&at_campaign=rss",
+    "summary": "Mustaki out of World Cup play-off with knee injury",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-23T19:58:09.419Z"
+  },
+  {
+    "id": "a9a52d350460",
+    "title": "‘Celebrate, inspire, unite’: UK confirmed as host of 2035 Women’s World Cup",
+    "date": "2026-11-23",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/23/uk-confirmed-hosts-2035-womens-world-cup-fifa",
+    "summary": "‘Celebrate, inspire, unite’: UK confirmed as host of 2035 Women’s World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-23T19:58:09.419Z"
+  },
+  {
+    "id": "5967e5aa4a41",
+    "title": "Madness erupts as Sevilla deny Betis in wild end to Spain’s ‘derby of derbies’",
+    "date": "2026-11-23",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/23/sevilla-real-betis-seville-derby-la-liga-kike-salas",
+    "summary": "Madness erupts as Sevilla deny Betis in wild end to Spain’s ‘derby of derbies’",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-23T19:58:09.419Z"
+  },
+  {
+    "id": "57e3af47c1f9",
+    "title": "PSG had the best attack in Europe but Doué and Kvaratskhelia injuries will test Luis Enrique",
+    "date": "2026-11-23",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/23/psg-best-attack-europe-desire-doue-acl-khvicha-kvaratskhelia-luis-enrique",
+    "summary": "PSG had the best attack in Europe but Doué and Kvaratskhelia injuries will test Luis Enrique",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-23T19:58:09.419Z"
+  },
+  {
+    "id": "884e61784402",
+    "title": "‘Haaland must be worried’: Thierno Barry’s rise has David Moyes purring",
+    "date": "2026-11-23",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/23/thierno-barry-rise-david-moyes-purring-everton",
+    "summary": "‘Haaland must be worried’: Thierno Barry’s rise has David Moyes purring",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-23T19:58:09.419Z"
+  },
+  {
+    "id": "a133ed708140",
+    "title": "Football Daily | Neville, Keane and Manchester United meltdowns at world’s funniest comedy club",
+    "date": "2026-11-23",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/23/gary-neville-roy-keane-manchester-united-meltdown-comedy-club-football-daily-newsletter",
+    "summary": "Football Daily | Neville, Keane and Manchester United meltdowns at world’s funniest comedy club",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-23T19:58:09.419Z"
+  },
+  {
     "id": "ccc74ae7575a",
     "title": "Scottish Football Podcast",
     "date": "2026-11-22",
@@ -2756,44 +2873,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-10-24T12:31:09.450Z"
-  },
-  {
-    "id": "869ab6d945ad",
-    "title": "NWSL drops controversial criteria around ‘Rodman Rule’ in settlement with NWSLPA",
-    "date": "2026-10-23",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/23/nwsl-rodman-rule-hip-rule-changes",
-    "summary": "NWSL drops controversial criteria around ‘Rodman Rule’ in settlement with NWSLPA",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-24T12:31:09.450Z"
-  },
-  {
-    "id": "92630db99d9e",
-    "title": "Football Daily | Mourinho is ready for his clásico return – stock up on popcorn, folks!",
-    "date": "2026-10-23",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/23/jose-mourinho-real-madrid-barcelona-clasico-football-daily-newsletter",
-    "summary": "Football Daily | Mourinho is ready for his clásico return – stock up on popcorn, folks!",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-24T12:31:09.450Z"
-  },
-  {
-    "id": "518f06370968",
-    "title": "Pascal Gross: the obsessive runner keeping Brighton ‘one step ahead’ after fast start",
-    "date": "2026-10-23",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/23/fabian-gross-obsessive-runner-brighton-one-step-ahead",
-    "summary": "Pascal Gross: the obsessive runner keeping Brighton ‘one step ahead’ after fast start",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-23T13:13:00.357Z"
   }
 ];
