@@ -2,6 +2,32 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "81ea203f2c33",
+    "title": "Florian Wirtz hails Iraola and Klopp as he reaches new levels for Liverpool",
+    "date": "2026-11-24",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/24/florian-wirtz-hails-iraola-and-klopp-as-he-reaches-new-levels-for-liverpool",
+    "summary": "Florian Wirtz hails Iraola and Klopp as he reaches new levels for Liverpool",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-24T19:25:33.788Z"
+  },
+  {
+    "id": "d1825083e9c7",
+    "title": "Hosting World Cup means decade of excitement - Weir",
+    "date": "2026-11-23",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c95y1kjvxmdyo?at_medium=RSS&at_campaign=rss",
+    "summary": "Hosting World Cup means decade of excitement - Weir",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-24T19:25:33.788Z"
+  },
+  {
     "id": "706e5c81775e",
     "title": "Andreatta's masterplan to shock Sweden & take Scots to World Cup",
     "date": "2026-11-23",
@@ -2847,31 +2873,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-10-26T14:58:49.991Z"
-  },
-  {
-    "id": "a66cf4ea1472",
-    "title": "Championship roundup: Southampton beat West Ham; QPR put five past Swansea",
-    "date": "2026-10-24",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/24/championship-roundup-sheffield-united-derby-west-ham-swansea",
-    "summary": "Championship roundup: Southampton beat West Ham; QPR put five past Swansea",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-25T13:03:57.671Z"
-  },
-  {
-    "id": "acc38addfe0a",
-    "title": "Vincent Kompany to miss ‘weeks, not days’ with virus treatment, say Bayern Munich",
-    "date": "2026-10-24",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/24/vincent-kompany-recovery-virus-bayern-munich-bundesliga-football",
-    "summary": "Vincent Kompany to miss ‘weeks, not days’ with virus treatment, say Bayern Munich",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-24T12:31:09.450Z"
   }
 ];
