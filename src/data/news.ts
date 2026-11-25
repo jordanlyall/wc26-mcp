@@ -2,6 +2,123 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "4a6990c7de7a",
+    "title": "Wales and West Ham's Morgan suffers serious injury",
+    "date": "2026-11-25",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c920xdl6d6kpo?at_medium=RSS&at_campaign=rss",
+    "summary": "Wales and West Ham's Morgan suffers serious injury",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-25T18:31:22.191Z"
+  },
+  {
+    "id": "4a6990c7de7a",
+    "title": "Wales and West Ham's Morgan suffers serious injury",
+    "date": "2026-11-25",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c920xdl6d6kpo?at_medium=RSS&at_campaign=rss",
+    "summary": "Wales and West Ham's Morgan suffers serious injury",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-25T18:31:22.191Z"
+  },
+  {
+    "id": "4a80712bdec9",
+    "title": "Saudi Arabia’s PIF looking to sell 25% of Newcastle through share issue",
+    "date": "2026-11-25",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/25/saudi-arabia-pif-newcastle-share-issue",
+    "summary": "Saudi Arabia’s PIF looking to sell 25% of Newcastle through share issue",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-25T18:31:22.191Z"
+  },
+  {
+    "id": "2c5a5b4b776d",
+    "title": "Raheem Sterling avoids jail over reckless driving while using nitrous oxide",
+    "date": "2026-11-25",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/25/raheem-sterling-avoids-jail-reckless-driving-nitrous-oxide-sentence",
+    "summary": "Raheem Sterling avoids jail over reckless driving while using nitrous oxide",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-25T18:31:22.191Z"
+  },
+  {
+    "id": "c773d4097440",
+    "title": "Pep Guardiola says next coaching role will be with a national team amid USA links",
+    "date": "2026-11-25",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/25/pep-guardiola-coaching-job-usmnt-italy",
+    "summary": "Pep Guardiola says next coaching role will be with a national team amid USA links",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-25T18:31:22.191Z"
+  },
+  {
+    "id": "06da08a26273",
+    "title": "‘It threw me off my bowling a bit’: Isobel Goodwin living dream after England callup",
+    "date": "2026-11-25",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/25/isobel-goodwin-england-callup-london-city-lionesses-bowling",
+    "summary": "‘It threw me off my bowling a bit’: Isobel Goodwin living dream after England callup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-25T18:31:22.191Z"
+  },
+  {
+    "id": "4cf17c7e59ca",
+    "title": "Will Hajime Moriyasu get a high-profile job in Europe after his eight years in charge of Japan?",
+    "date": "2026-11-25",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/25/hajime-moriyasu-leave-japan-world-cup-samurai-blue",
+    "summary": "Will Hajime Moriyasu get a high-profile job in Europe after his eight years in charge of Japan?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-25T18:31:22.191Z"
+  },
+  {
+    "id": "d26ae0e06701",
+    "title": "Peter Storey obituary",
+    "date": "2026-11-25",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/25/peter-storey-obituary",
+    "summary": "Peter Storey obituary",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-25T18:31:22.191Z"
+  },
+  {
+    "id": "5b8ec02ff572",
+    "title": "Search for next USMNT head coach needs to prioritize competence over fame",
+    "date": "2026-11-25",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/25/usmnt-head-coach-search",
+    "summary": "Search for next USMNT head coach needs to prioritize competence over fame",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-25T18:31:22.191Z"
+  },
+  {
     "id": "81ea203f2c33",
     "title": "Florian Wirtz hails Iraola and Klopp as he reaches new levels for Liverpool",
     "date": "2026-11-24",
@@ -2816,58 +2933,6 @@ export const news: NewsItem[] = [
     "source": "The Guardian",
     "url": "https://www.theguardian.com/football/2026/oct/26/davide-ancelotti-lille-champions-league-ligue-1",
     "summary": "Davide Ancelotti wants to make a name for himself – will he do it at Lille?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-26T14:58:49.991Z"
-  },
-  {
-    "id": "4ee77a7c4f71",
-    "title": "Weir would swap Ballon d'Or nominations for World Cup",
-    "date": "2026-10-25",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cjvgx1xw7z9xo?at_medium=RSS&at_campaign=rss",
-    "summary": "Weir would swap Ballon d'Or nominations for World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-26T14:58:49.991Z"
-  },
-  {
-    "id": "a3ae6ddec146",
-    "title": "The non-football fan who snapped the game beautifully",
-    "date": "2026-10-25",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/news/articles/cq1m4znk3m9eo?at_medium=RSS&at_campaign=rss",
-    "summary": "The non-football fan who snapped the game beautifully",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-26T14:58:49.991Z"
-  },
-  {
-    "id": "4ee77a7c4f71",
-    "title": "Weir would swap Ballon d'Or nods for World Cup",
-    "date": "2026-10-25",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cjvgx1xw7z9xo?at_medium=RSS&at_campaign=rss",
-    "summary": "Weir would swap Ballon d'Or nods for World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-26T14:58:49.991Z"
-  },
-  {
-    "id": "4ee77a7c4f71",
-    "title": "Weir would swap Ballon d'Or nominations for World Cup",
-    "date": "2026-10-25",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cjvgx1xw7z9xo?at_medium=RSS&at_campaign=rss",
-    "summary": "Weir would swap Ballon d'Or nominations for World Cup",
     "categories": [
       "general"
     ],
