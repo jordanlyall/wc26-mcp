@@ -2,6 +2,58 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "21116a46d6cc",
+    "title": "Calvert-Lewin signs new Leeds deal until 2029",
+    "date": "2026-11-26",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cx62pnz1evv4o?at_medium=RSS&at_campaign=rss",
+    "summary": "Calvert-Lewin signs new Leeds deal until 2029",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-26T18:14:51.144Z"
+  },
+  {
+    "id": "decd99bddcb1",
+    "title": "Germany's Freigang given 16-month ban over drugs test issues",
+    "date": "2026-11-26",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cqlym4rd3y52o?at_medium=RSS&at_campaign=rss",
+    "summary": "Germany's Freigang given 16-month ban over drugs test issues",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-26T18:14:51.144Z"
+  },
+  {
+    "id": "decd99bddcb1",
+    "title": "Germany's Freigang given 16-month ban over drugs test issues",
+    "date": "2026-11-26",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cqlym4rd3y52o?at_medium=RSS&at_campaign=rss",
+    "summary": "Germany's Freigang given 16-month ban over drugs test issues",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-26T18:14:51.144Z"
+  },
+  {
+    "id": "fe775bb4edcc",
+    "title": "Championship roundup: Stoke rise to second, Birmingham condemn Burnley to record drought",
+    "date": "2026-11-25",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/25/championship-roundup-stoke-millwall-burnley-home-record-birmingham",
+    "summary": "Championship roundup: Stoke rise to second, Birmingham condemn Burnley to record drought",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-26T18:14:51.144Z"
+  },
+  {
     "id": "4a6990c7de7a",
     "title": "Wales and West Ham's Morgan suffers serious injury",
     "date": "2026-11-25",
@@ -117,6 +169,19 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-11-25T18:31:22.191Z"
+  },
+  {
+    "id": "e5cc0dba7466",
+    "title": "Timothy Weah: ‘I don’t want to beg to be back in the national team’",
+    "date": "2026-11-24",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/24/timothy-weah-i-dont-want-to-beg-to-be-back-in-the-national-team",
+    "summary": "Timothy Weah: ‘I don’t want to beg to be back in the national team’",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-26T18:14:51.144Z"
   },
   {
     "id": "81ea203f2c33",
@@ -2834,109 +2899,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-10-27T14:12:04.047Z"
-  },
-  {
-    "id": "44b3213c0d50",
-    "title": "Harry Kane claims men’s Ballon d’Or to end England’s 25-year wait for winner",
-    "date": "2026-10-26",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/26/harry-kane-ends-englands-25-year-wait-for-a-mens-ballon-dor",
-    "summary": "Harry Kane claims men’s Ballon d’Or to end England’s 25-year wait for winner",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-28T14:57:23.786Z"
-  },
-  {
-    "id": "4cf5d2571e45",
-    "title": "England-Republic of Ireland U15 World Cup game ends over alleged racism",
-    "date": "2026-10-26",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cmn8wzldd7q0o?at_medium=RSS&at_campaign=rss",
-    "summary": "England-Republic of Ireland U15 World Cup game ends over alleged racism",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-27T14:12:04.047Z"
-  },
-  {
-    "id": "d1234fe0e0e0",
-    "title": "Weir 25th in Ballon d'Or and joins Olid & Cuthbert in award shortlist",
-    "date": "2026-10-26",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/ckd6dzv7w85go?at_medium=RSS&at_campaign=rss",
-    "summary": "Weir 25th in Ballon d'Or and joins Olid & Cuthbert in award shortlist",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-27T14:12:04.047Z"
-  },
-  {
-    "id": "d1234fe0e0e0",
-    "title": "Weir 25th in Ballon d'Or and joins Olid & Cuthbert in award shortlist",
-    "date": "2026-10-26",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/ckd6dzv7w85go?at_medium=RSS&at_campaign=rss",
-    "summary": "Weir 25th in Ballon d'Or and joins Olid & Cuthbert in award shortlist",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-27T14:12:04.047Z"
-  },
-  {
-    "id": "d1234fe0e0e0",
-    "title": "Weir 25th in Ballon d'Or and joins Olid & Cuthbert in award shortlist",
-    "date": "2026-10-26",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/ckd6dzv7w85go?at_medium=RSS&at_campaign=rss",
-    "summary": "Weir 25th in Ballon d'Or and joins Olid & Cuthbert in award shortlist",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-27T14:12:04.047Z"
-  },
-  {
-    "id": "c5cb0ea5214b",
-    "title": "England Under-15s walk off pitch against Ireland in World Cup after racism allegation",
-    "date": "2026-10-26",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/26/england-under-15-walk-off-pitch-ireland-world-cup-racism-allegation",
-    "summary": "England Under-15s walk off pitch against Ireland in World Cup after racism allegation",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-27T14:12:04.047Z"
-  },
-  {
-    "id": "0305f6272adc",
-    "title": "Mourinho’s plan comes together as Real Madrid relaunch with clásico statement | Sid Lowe",
-    "date": "2026-10-26",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/26/mourinhos-plan-comes-together-as-real-madrid-relaunch-with-clasico-statement",
-    "summary": "Mourinho’s plan comes together as Real Madrid relaunch with clásico statement | Sid Lowe",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-27T14:12:04.047Z"
-  },
-  {
-    "id": "6d5676759163",
-    "title": "Davide Ancelotti wants to make a name for himself – will he do it at Lille?",
-    "date": "2026-10-26",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/26/davide-ancelotti-lille-champions-league-ligue-1",
-    "summary": "Davide Ancelotti wants to make a name for himself – will he do it at Lille?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-26T14:58:49.991Z"
   }
 ];
