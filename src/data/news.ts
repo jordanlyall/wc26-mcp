@@ -2,6 +2,71 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "07b2a8072b48",
+    "title": "Goodwin backs Sapsford for Australia call-up - gossip",
+    "date": "2026-11-27",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c95y127xxye5o?at_medium=RSS&at_campaign=rss",
+    "summary": "Goodwin backs Sapsford for Australia call-up - gossip",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-27T17:57:19.602Z"
+  },
+  {
+    "id": "51da42148495",
+    "title": "Ipswich Women sign Ademiluyi for record fee",
+    "date": "2026-11-27",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c3x29q4nwe1ko?at_medium=RSS&at_campaign=rss",
+    "summary": "Ipswich Women sign Ademiluyi for record fee",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-27T17:57:19.602Z"
+  },
+  {
+    "id": "0380417fb4b6",
+    "title": "Liam Delap’s struggles are symbolic of damaging Chelsea churn",
+    "date": "2026-11-27",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/27/liam-delap-struggles-damaging-chelsea-churn",
+    "summary": "Liam Delap’s struggles are symbolic of damaging Chelsea churn",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-27T17:57:19.602Z"
+  },
+  {
+    "id": "5bd018728d7a",
+    "title": "Ross County have 102 goals and British football’s best start but is it a fairytale?",
+    "date": "2026-11-27",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/27/ross-county-british-football-best-start-102-goals",
+    "summary": "Ross County have 102 goals and British football’s best start but is it a fairytale?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-27T17:57:19.602Z"
+  },
+  {
+    "id": "065e5d78bdd7",
+    "title": "Thomas Frank earns first Crystal Palace win as McNeil cuts down Real Sociedad",
+    "date": "2026-11-26",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/nov/26/crystal-palace-real-sociedad-europa-league-match-report",
+    "summary": "Thomas Frank earns first Crystal Palace win as McNeil cuts down Real Sociedad",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-11-27T17:57:19.602Z"
+  },
+  {
     "id": "21116a46d6cc",
     "title": "Calvert-Lewin signs new Leeds deal until 2029",
     "date": "2026-11-26",
@@ -2808,96 +2873,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-10-28T14:57:23.786Z"
-  },
-  {
-    "id": "2c5c2a35afa6",
-    "title": "Captain Xhaka allowed to play for Switzerland again",
-    "date": "2026-10-27",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/ck3wvl2ygd77o?at_medium=RSS&at_campaign=rss",
-    "summary": "Captain Xhaka allowed to play for Switzerland again",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-28T14:57:23.786Z"
-  },
-  {
-    "id": "5698d5d7e7f6",
-    "title": "Arise, Sir Harry? Downing Street hints at Kane knighthood after Ballon d’Or win",
-    "date": "2026-10-27",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/27/harry-kane-andy-burnham-knighthood-ballon-dor-win",
-    "summary": "Arise, Sir Harry? Downing Street hints at Kane knighthood after Ballon d’Or win",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-28T14:57:23.786Z"
-  },
-  {
-    "id": "195dde7574a7",
-    "title": "Harry Kane wins the Ballon d’Or and an EFL round-up | Football Weekly – video",
-    "date": "2026-10-27",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/video/2026/oct/27/harry-kane-wins-the-ballon-dor-and-an-efl-round-up-football-weekly-video",
-    "summary": "Harry Kane wins the Ballon d’Or and an EFL round-up | Football Weekly – video",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-28T14:57:23.786Z"
-  },
-  {
-    "id": "7ce6a949f3fc",
-    "title": "Football Daily | Harry Kane completes his arc from Orient loanee to Ballon d’Or winner",
-    "date": "2026-10-27",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/27/harry-kane-ballon-dor-football-daily-newsletter",
-    "summary": "Football Daily | Harry Kane completes his arc from Orient loanee to Ballon d’Or winner",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-28T14:57:23.786Z"
-  },
-  {
-    "id": "e2bd8bbb426e",
-    "title": "McBurnie coughs up blood during Hull draw - gossip",
-    "date": "2026-10-27",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c620rzelp0peo?at_medium=RSS&at_campaign=rss",
-    "summary": "McBurnie coughs up blood during Hull draw - gossip",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-27T14:12:04.047Z"
-  },
-  {
-    "id": "a92461baaab9",
-    "title": "Kane’s Ballon d’Or triumph a glorious riposte to celebrity fawning of ceremony | Barney Ronay",
-    "date": "2026-10-27",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/27/harry-kane-ballon-dor-triumph-ceremony-barney-ronay",
-    "summary": "Kane’s Ballon d’Or triumph a glorious riposte to celebrity fawning of ceremony | Barney Ronay",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-27T14:12:04.047Z"
-  },
-  {
-    "id": "9cff2a7c90cc",
-    "title": "Alexia Putellas a worthy Ballon d’Or winner but the limited shortlist illustrates flaws",
-    "date": "2026-10-27",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/oct/27/alexia-putellas-ballon-dor-winner-awards-long-way-before-being-equal-moving-the-goalposts",
-    "summary": "Alexia Putellas a worthy Ballon d’Or winner but the limited shortlist illustrates flaws",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-10-27T14:12:04.047Z"
   }
 ];
